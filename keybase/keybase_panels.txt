@@ -300,6 +300,7 @@ hxxp://alsabt.net/enas/stepkeybase/keybase/
 hxxp://alsaeedhassan.com/oni/
 hxxp://alsopa.xyz/KB/
 hxxp://alsopa.xyz/keyb/
+hxxp://alsopa.xyz/keyb1/
 hxxp://amalaprakeash.in/test/
 hxxp://amazonjobs.com.br/old/keybase/keybase/
 hxxp://ambicaindustries.tk/css/~js/codes/.aspx/
@@ -604,6 +605,7 @@ hxxp://elicos.info/elicos.info/mamaafrica/web/
 hxxp://elicos.xyz/1stmarch/webbing/
 hxxp://elicos.xyz/Feb21th2016/webroot/
 hxxp://elicos.xyz/bossorigin/web/
+hxxp://elicos.xyz/iroking/web/
 hxxp://elicos1.xyz/3rdMar2016/nice/web/
 hxxp://elicos1.xyz/Feb26th1980/web/
 hxxp://elicos1.xyz/fisayo/web/
@@ -918,6 +920,7 @@ hxxp://mikegroupco.in/boss/web/
 hxxp://mikegroupco.in/eyes1/web/
 hxxp://mikegroupco.in/unclebarr/web/
 hxxp://miladpacking.com/ali/
+hxxp://mina-ge.com/luk/
 hxxp://minervamarines.com/polite/
 hxxp://minervamarines.com/ud/
 hxxp://mix-net.ga/keybase/
@@ -1684,6 +1687,7 @@ hxxp://www.owonla.com/prince/web/
 hxxp://www.ozowarac.com/kb/keybase/
 hxxp://www.pepperest1.co.uk/kevin/keybase/keybase/
 hxxp://www.phynodelixcuxi.xyz/sttstan999/
+hxxp://www.picky2016.eu/jack/
 hxxp://www.pimexlumber.com/retro/
 hxxp://www.politebobby.com/chidi/
 hxxp://www.politebobby.com/panel1/
