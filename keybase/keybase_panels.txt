@@ -444,6 +444,7 @@ hxxp://c777.esy.es/keybase/keybase/
 hxxp://camalajaunsum.com/kba/kbka/kbpka/
 hxxp://carloslvi.it/kb/
 hxxp://carndspares.elementfx.com/images/kbpanel/
+hxxp://casonaplazahotelaqp.com/web/
 hxxp://cc-congress.com/bgi/web/
 hxxp://cc-congress.com/exc/web/
 hxxp://cc12730.5gbfree.com/twitter/
@@ -794,6 +795,7 @@ hxxp://k8capital.com/capital/kbpanel/
 hxxp://kantanka.com/kosagroup/
 hxxp://karmuhasebetr.com/files/sam/wizz/
 hxxp://karmuhasebetr.com/test/jss/web/
+hxxp://kasmate.5gbfree.com/kasa/kasa/
 hxxp://kaycassi0.net/bs1/kbpanel/
 hxxp://kaycassi0.net/debe/kbpanel/
 hxxp://kaycassi0.net/ed1/kbpanel/
@@ -875,6 +877,7 @@ hxxp://madanischoolandcollege.com/js/jscript/
 hxxp://madanischoolandcollege.com/maruf/css/
 hxxp://mafialog.pe.hu/
 hxxp://magelord.com/wp-admin/upload/oby/
+hxxp://mahhammare.xyz/1/
 hxxp://mailcapital.us/smpanel/
 hxxp://mailcapital.us/web/
 hxxp://mailservisse.com/adm/
@@ -1185,8 +1188,10 @@ hxxp://rustimavinubux.eu/slyzy88/
 hxxp://rustimavinubux.eu/xpxvd55/
 hxxp://ryangigs.com/web/
 hxxp://sabiec.com/dollar/web/
+hxxp://safari.bplaced.net/keybase/
 hxxp://sagaboss.6te.net/
 hxxp://saintbesthomes.netai.net/odenigbo/odenigbo/
+hxxp://salasafrank-001-site1.btempurl.com/
 hxxp://salawi.gq/dino/
 hxxp://salawi.gq/fredr/
 hxxp://salawi.gq/tur/
@@ -1528,6 +1533,7 @@ hxxp://www.ekebebe.com/user/wizz/
 hxxp://www.elicos.info/Feb21th2016/webroot/
 hxxp://www.elicos.info/boss/webroot/
 hxxp://www.elicos.info/iroking/web/
+hxxp://www.elicos.xyz/3rdMar2016/nice/web/
 hxxp://www.elicos.xyz/Feb26th1980/web/
 hxxp://www.elicos.xyz/roko/web/
 hxxp://www.elicos.xyz/root/3rdMarch2016/web/
