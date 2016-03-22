@@ -482,6 +482,7 @@ hxxp://cl.co.ke/spec/pete/kbpanel/
 hxxp://cl.co.ke/zac/kbpanel/
 hxxp://clashofclans-cheat.net/Admin/keybase/
 hxxp://clashofclans-cheat.net/beer/
+hxxp://climate.bplaced.net/keybase/
 hxxp://clintonacura.pcriot.com/details/kbpanel/
 hxxp://codedoilandgas.ga/.css/kb/
 hxxp://codymrogers.com/panel/web/
@@ -1463,6 +1464,7 @@ hxxp://www.benscafe.be/wp-user/
 hxxp://www.bestmindlogistics.com/js1/web/
 hxxp://www.bitdefender.xyz/keybase/
 hxxp://www.biz.karelia.pro/keybase/
+hxxp://www.blueluco.com/keybase/
 hxxp://www.boruogre.com/euros/web/
 hxxp://www.botc-ave.com/
 hxxp://www.bowleealmson.info/K/web/
@@ -1489,6 +1491,7 @@ hxxp://www.championtrader.org/nonso/
 hxxp://www.chinagrouptraders.xyz/china/
 hxxp://www.chinagrouptraders.xyz/tency/
 hxxp://www.chinagrouptraders.xyz/web/
+hxxp://www.christiananumba.com/social/stages/kbpanel/
 hxxp://www.citadelofgraceorphanage.com/wp-admin/uploads/mega/
 hxxp://www.cittrip.com/administrator/
 hxxp://www.cittrip.com/patriot/
