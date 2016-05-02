@@ -2,11 +2,11 @@ hxxp://bastidores.com.pt/panel/
 hxxp://deboy.willsmanten.org.in/panel/
 hxxp://disbudparporadairi.com/panel/
 hxxp://edwin.willsmanten.org.in/panel/
-hxxp://fatell.com/panel//
 hxxp://fatell.com/panel/
+hxxp://fatell.com/panel//
 hxxp://fuegostudios.com.au/panel/
-hxxp://giante.in/panel//
 hxxp://giante.in/panel/
+hxxp://giante.in/panel//
 hxxp://gkalifa1.pohniq.org.in/panel/
 hxxp://golden1.synqenta.com/panel/
 hxxp://hamsatours.com/panel/
@@ -35,8 +35,8 @@ hxxp://www.bartingumusotomotiv.com/panel/
 hxxp://www.camellionbattery.com/bspy/panel/
 hxxp://www.camellionbattery.com/ispy/panel/
 hxxp://www.camellionbattery.com/spy/panel/
-hxxp://www.cnim.co/panel//
 hxxp://www.cnim.co/panel/
+hxxp://www.cnim.co/panel//
 hxxp://www.dicoval.cl/panel/
 hxxp://www.eleccctv.net/panel/
 hxxp://www.giante.in/panel/
@@ -55,8 +55,8 @@ hxxp://www.panelme.tk/panel/
 hxxp://www.pyc0r.com/panel/
 hxxp://www.reshamwalashlpbrokers.com/panel/
 hxxp://www.rnurship.com/panel/
-hxxp://www.rollerskitsx.info/panel//
 hxxp://www.rollerskitsx.info/panel/
+hxxp://www.rollerskitsx.info/panel//
 hxxp://www.sastix.biz/panel/
 hxxp://www.silvertexitile.com/panel/
 hxxp://www.soosan-kr.co/panel/
