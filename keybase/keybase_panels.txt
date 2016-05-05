@@ -1008,6 +1008,7 @@ hxxp://martyn.hints.me/keybase/
 hxxp://masterheinsenberg.ru/web/
 hxxp://masterteejay.ru/web/
 hxxp://masterwork.pw/williams/
+hxxp://masterwork.tk/grace/
 hxxp://masterwork123.pw/me/
 hxxp://masterwork4david.pw/goodluck/
 hxxp://matrixpanel.wc.lt/keybase/keybase/
@@ -1384,6 +1385,7 @@ hxxp://security1337.info/keybase/
 hxxp://segnuatebusne.in/html/
 hxxp://segunatrades.in/html/
 hxxp://segunatrades.in/web/
+hxxp://sel1.t1nkem.com/
 hxxp://sel2.chinaklnmed.com/plane/
 hxxp://sel2.t1nkem.com/
 hxxp://sel3.chinaklnmed.com/plane/
@@ -1667,6 +1669,7 @@ hxxp://www.aravaliefence.com/vikings/web/
 hxxp://www.asmart.info/kbkopi/keybase/
 hxxp://www.baraka15.com/wp-includes/js/keybase/
 hxxp://www.bashgirls.org.in/joomla30/logs/gentsfive-3april-3may/
+hxxp://www.bashgirls.org.in/joomla30/logs/jp-3may-3june/
 hxxp://www.bchem.co/exploitpanel/
 hxxp://www.bct-cawe.net/
 hxxp://www.beastboardforum.cf/keybase/
