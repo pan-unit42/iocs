@@ -434,6 +434,8 @@ hxxp://biservicesnt.com/images/portfolio/kbpanel/
 hxxp://bitcoinexperience.co.uk/it/
 hxxp://bitdefender.xyz/keybase/
 hxxp://bizlinkre.ae/images/wp-includes/wp-admin/themes/
+hxxp://blackiakeenergy.com/SelfLogPanel/
+hxxp://blackiakeenergy.com/kapelog/
 hxxp://blackiakeenergy.com/mupanel/
 hxxp://blaster.bplaced.de/keybase/
 hxxp://blessedlove.esy.es/keybase/keybase/
@@ -572,6 +574,7 @@ hxxp://darlington231.bplaced.de/keybase/
 hxxp://davidcars.pe.hu/css/los/kbz/
 hxxp://davidgray433bm.com/exp/web/
 hxxp://davidgray433bm.com/expenxo/web/
+hxxp://daviscollege.ie/media/kbta/
 hxxp://davisusername.esy.es/keybase/keybase/
 hxxp://dbestgroups.pw/emekaejike/brothers/
 hxxp://dbestgroups.pw/kojo/range/kj/
@@ -1832,6 +1835,7 @@ hxxp://www.hanstechworld.com/1/3/kbpanel/
 hxxp://www.harsolution.com/wp-includes/js/tinymce/themes/modern/
 hxxp://www.healgien.com/html/
 hxxp://www.heaventreesupport.com/html/
+hxxp://www.herncom.com/henry/
 hxxp://www.hesynr.org/sandex/
 hxxp://www.hfi-iinc.com/web/
 hxxp://www.hillsandriversphotos.me/mmvimok/
@@ -2001,6 +2005,7 @@ hxxp://www.rajhfuttaim.com/max/
 hxxp://www.rajhfuttaim.com/ugom/
 hxxp://www.ramiafashion.online/clanek/fuck/
 hxxp://www.ramiafashion.online/lib/javascript/fresh/
+hxxp://www.ramiafashion.online/tutorial/basety/
 hxxp://www.rea.co.ke/tmp/keybase/
 hxxp://www.redcliffonline.dx.am/gboye/kbpanel/
 hxxp://www.reefran.com/atus/
@@ -2067,6 +2072,7 @@ hxxp://www.srv1.globeways.ga/kbzs/
 hxxp://www.ssgtrades.com/ssg/
 hxxp://www.standwoodconsulting.com/theme/ptt/web/
 hxxp://www.standwoodconsulting.com/theme/sk/web/
+hxxp://www.standwoodconsulting.com/theme/sklz/web/
 hxxp://www.stellatosolutions.com/oldsite/bbc/keybase/
 hxxp://www.stimainvestment.co.ke/enex/web/
 hxxp://www.studiosofie.com/fox/
