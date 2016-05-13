@@ -114,6 +114,7 @@ hxxp://198.144.121.78/~logbinor/45/16/panel/kelz/
 hxxp://198.52.161.59/~zadmin/eumep_com/api/include/pear/Math/web/
 hxxp://198.52.161.80/~zadmin/nores_com/api/scp/css/web/
 hxxp://198.52.161.80/~zadmin/nores_com/api/scp/js/web/
+hxxp://198.58.93.56/~yomon22/k1/kbpanel/
 hxxp://199.101.186.224/mp/kb/
 hxxp://199.241.188.234/new/panel/
 hxxp://2016hillarysamerica.com/home/kbpanel/
