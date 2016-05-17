@@ -165,6 +165,7 @@ hxxp://78.142.63.64/~catalysu/mekimur55/
 hxxp://78.142.63.64/~catalysu/merenge55/
 hxxp://78.142.63.64/~ringerme/ekeh881/
 hxxp://78.142.63.64/~ringerme/mryungi72/
+hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
@@ -661,6 +662,7 @@ hxxp://egoist-games.zz.mu/key/
 hxxp://eightlastmarket.org.in/media/M/artbary20thJan-20thFeb/
 hxxp://eightlastmarket.org.in/media/M/doitone-20april-20may/
 hxxp://eightlastmarket.org.in/media/M/stephen-26April-26May/
+hxxp://eightlastmarket.org.in/media/M/uloemone-12may-12june/
 hxxp://eightlastmarket.org.in/media/M/vineyethree-19april-19may/
 hxxp://eightmasing.ru/media/M/artbary20thJan-20thFeb/
 hxxp://eightmasing.ru/media/M/decap-15thJan-15thMarch/
@@ -1124,6 +1126,7 @@ hxxp://neduinc.5gbfree.com/inc/
 hxxp://nelsonpanel.96.lt/keybase/keybase/
 hxxp://nelsonpanel.96.lt/webpanel/webpanel/
 hxxp://nethrozs.com/keybase/
+hxxp://netyouworkk.com/bnx/snkwrld/
 hxxp://newday.xp3.biz/
 hxxp://newhorizonpharma.co/emeka/
 hxxp://newhorizonpharma.co/jizzy/
@@ -1657,6 +1660,7 @@ hxxp://wizzwork3.com/rigz/
 hxxp://wonderfullord.com/K/kbpanel/kbpanel/
 hxxp://wonderfullord.com/k/
 hxxp://workacademyonline.com/Access/Mini/
+hxxp://workingbb.com/bna/snkwrld/
 hxxp://workingbb.com/lbz/web/
 hxxp://workwithcollins.com//max1/keybase/
 hxxp://workwithcollins.com/jsupdate/js/
