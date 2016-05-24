@@ -1142,6 +1142,7 @@ hxxp://nelsonpanel.96.lt/keybase/keybase/
 hxxp://nelsonpanel.96.lt/webpanel/webpanel/
 hxxp://nethrozs.com/keybase/
 hxxp://netyouworkk.com/bnx/snkwrld/
+hxxp://netyouworkk.com/bnz/snkwrld/
 hxxp://newday.xp3.biz/
 hxxp://newhorizonpharma.co/emeka/
 hxxp://newhorizonpharma.co/jizzy/
@@ -1452,6 +1453,7 @@ hxxp://servernet.xyz/com/
 hxxp://serverpin.esy.es/
 hxxp://serverplan.esy.es/
 hxxp://servertan.890m.com/
+hxxp://sevegep.com/kbob/
 hxxp://shinner-ray.com/core/keybase/
 hxxp://shinner-ray.com/math/keybase/
 hxxp://shinner-ray.com/new/keybase/
@@ -1955,6 +1957,7 @@ hxxp://www.meridansalmongroups.com/extracts/keybase/
 hxxp://www.meslmex.com/admin/
 hxxp://www.meslmex.com/admins/
 hxxp://www.meslmex.com/bamby/
+hxxp://www.meslmex.com/realadmin/
 hxxp://www.meslmex.com/realnews/
 hxxp://www.meslmex.com/retro/
 hxxp://www.mikegroupco.in/boss/web/
@@ -2085,6 +2088,7 @@ hxxp://www.shean76.net/mine/castnew/
 hxxp://www.sjoku.nl/keybase/
 hxxp://www.sk-2007.ru/admin4/php/srv/
 hxxp://www.slashserver.xyz/gaox/kbpanel/
+hxxp://www.slashserver.xyz/panels/test/kbpanel/
 hxxp://www.smartbass.net/keybase/
 hxxp://www.sn00k1321nc.com/masterx/snkworld/
 hxxp://www.snowcoatsounds.com/keybase/

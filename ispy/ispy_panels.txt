@@ -1,5 +1,6 @@
 hxxp://bastidores.com.pt/panel/
 hxxp://chijioke1.ruschcrome.com/panel/
+hxxp://chna.biz/panel/
 hxxp://deboy.willsmanten.org.in/panel/
 hxxp://disbudparporadairi.com/panel/
 hxxp://donaldpropertygroup.com.au/panel/
@@ -15,6 +16,7 @@ hxxp://hamsatours.com/panel/
 hxxp://hfmicrofibre.net/panel//
 hxxp://ispysoft.com/iSpyPanel/
 hxxp://makeitpro.club/panel1/
+hxxp://makeitpro.club/panel2/
 hxxp://makeitpro.club/panel4/
 hxxp://newhorizonpharma.co/panel/
 hxxp://oni.omarabdulaziz.com/panel/
@@ -27,8 +29,10 @@ hxxp://return.willsmanten.org.in/panel/
 hxxp://rollerskitsx.info/panel//
 hxxp://somekeyspay.com/dr_rex/
 hxxp://somekeyspay.com/newc/
+hxxp://souldesign.com.ng/panel/
 hxxp://tclogs.com/panel/
 hxxp://temple1.ruschcrome.com/panel/
+hxxp://todini.co/panel/
 hxxp://westech-solar.co/panel/
 hxxp://www.adobepdfupdate.com/panel/
 hxxp://www.amshippetrolium.com/panel/
