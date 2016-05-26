@@ -439,6 +439,7 @@ hxxp://bitdefender.xyz/keybase/
 hxxp://bizlinkre.ae/images/wp-includes/wp-admin/themes/
 hxxp://blackiakeenergy.com/SelfLogPanel/
 hxxp://blackiakeenergy.com/ezepanel/
+hxxp://blackiakeenergy.com/jidpanel/
 hxxp://blackiakeenergy.com/kapelog/
 hxxp://blackiakeenergy.com/mupanel/
 hxxp://blaster.bplaced.de/keybase/
@@ -677,6 +678,7 @@ hxxp://eightlastmarket.org.in/YMllM/media/M/stephen-26April-26May/
 hxxp://eightlastmarket.org.in/media/M/artbary20thJan-20thFeb/
 hxxp://eightlastmarket.org.in/media/M/doitone-20april-20may/
 hxxp://eightlastmarket.org.in/media/M/stephen-26April-26May/
+hxxp://eightlastmarket.org.in/media/M/uloeetwo-12may-12june/
 hxxp://eightlastmarket.org.in/media/M/uloemone-12may-12june/
 hxxp://eightlastmarket.org.in/media/M/vineye2-20march-20april/
 hxxp://eightlastmarket.org.in/media/M/vineyethree-19april-19may/
@@ -1705,6 +1707,7 @@ hxxp://www.a-bide.com/wp-admin/white/
 hxxp://www.abcroyale.com/home/tipo/
 hxxp://www.abracadabrahocuspocus.com/kbpanel/
 hxxp://www.abrmme.com/web/web/
+hxxp://www.abtegelwerken.nl/panel/
 hxxp://www.adabil.net/key1/web/
 hxxp://www.ahalgosaibi-group.com/ugonna/
 hxxp://www.aldannube.com/kbpanel/
@@ -2094,6 +2097,7 @@ hxxp://www.shawayahuose.com/html/
 hxxp://www.shean76.net/mine/castnew/
 hxxp://www.sjoku.nl/keybase/
 hxxp://www.sk-2007.ru/admin4/php/srv/
+hxxp://www.slashserver.xyz/foax/kbpanel/
 hxxp://www.slashserver.xyz/gaox/kbpanel/
 hxxp://www.slashserver.xyz/lupe/kbpanel/
 hxxp://www.slashserver.xyz/panels/test/kbpanel/
