@@ -536,6 +536,7 @@ hxxp://cnim.co/logs/
 hxxp://cnim.co/shap/
 hxxp://cnim.co/ugo/
 hxxp://codedoilandgas.ga/.css/kb/
+hxxp://codedpapa-001-site1.ftempurl.com/231/1313/keybase/
 hxxp://codymrogers.com/panel/web/
 hxxp://coldplayparadise.in/iammosh/
 hxxp://colektiv.info/key/
@@ -1421,6 +1422,7 @@ hxxp://salawi.gq/tur/
 hxxp://salmontmt.nut.cc/java/
 hxxp://salsa.azabideon.nut.cc/frankyc/
 hxxp://saltypanel.pe.hu/keybase/keybase/
+hxxp://sammyasaba-001-site1.btempurl.com/site/attorney/kbpanel/
 hxxp://sammyenug-001-site1.gtempurl.com/site/attorney/kbpanel/
 hxxp://samyysrealone.in/html/
 hxxp://sandex.pe.hu/css/scripts/kbz/
@@ -1467,6 +1469,7 @@ hxxp://serverpin.esy.es/
 hxxp://serverplan.esy.es/
 hxxp://servertan.890m.com/
 hxxp://sevegep.com/kbob/
+hxxp://sevegep.com/kbsol/
 hxxp://shinner-ray.com/core/keybase/
 hxxp://shinner-ray.com/math/keybase/
 hxxp://shinner-ray.com/new/keybase/
@@ -1532,6 +1535,7 @@ hxxp://srv.areshq.eu/eliekeys/
 hxxp://stanalozie.wp.lc/webpanel_v1.6/
 hxxp://standwoodconsulting.com/theme/ptt/web/
 hxxp://stanley.bplaced.net/live%20access/kbpanel/
+hxxp://stanley1-001-site1.atempurl.com/sitee/images/slider/kbpanel/
 hxxp://stanleyaloziee-001-site1.ctempurl.com/site/attorney/kbpanel/
 hxxp://stealer.bplaced.net/keybase/
 hxxp://steelholdings.eu/dave/keybase/
@@ -1973,6 +1977,7 @@ hxxp://www.meridansalmongroups.com/extracts/keybase/
 hxxp://www.meslmex.com/admin/
 hxxp://www.meslmex.com/admins/
 hxxp://www.meslmex.com/bamby/
+hxxp://www.meslmex.com/priority/
 hxxp://www.meslmex.com/realadmin/
 hxxp://www.meslmex.com/realnews/
 hxxp://www.meslmex.com/retro/
