@@ -1,6 +1,7 @@
 hxxp://0.x90.io/
 hxxp://0700engr.in/anayo/
 hxxp://0wn3r.me/1248n7129478n21/
+hxxp://104.168.165.204/~wtownvt/cli/admin/keybase/
 hxxp://104.37.168.4/~aldannub/Themes/ceo-30thJan-30thFeb/
 hxxp://104.37.168.4/~aldannub/Themes/deboy20thJan-20thFeb/
 hxxp://104.37.168.4/~aldannub/Themes/gkalifa1-27thJan-27thFeb/
@@ -108,6 +109,7 @@ hxxp://190.14.37.19/~logindoc/yellow/
 hxxp://190.14.37.19/~logindoc/zulu/
 hxxp://192.168.0.2/jedd/WebPanel/
 hxxp://192.168.1.173/keybase/
+hxxp://192.169.82.86/~gurgenle/keybase/kbpanel/
 hxxp://192.99.63.138/~spiralde/mine/alibalog/
 hxxp://198.144.121.78/~logbinor/45/16/panel/fitz/
 hxxp://198.144.121.78/~logbinor/45/16/panel/kelz/
@@ -480,6 +482,7 @@ hxxp://brutiisnsfeed.co.in/zoulx/
 hxxp://bs-fantasy.ru/keybase/
 hxxp://btec.ir/Xe/Fl/Hig/
 hxxp://bubbleseatery.cf/inv/smp/
+hxxp://bugzyinc.com/bug/kbpanel/
 hxxp://bumber.bplaced.net/keybase/
 hxxp://businesspvtlimited.com/obi/
 hxxp://c0dergang.com/keybase/
@@ -557,6 +560,7 @@ hxxp://comms-solutions.com.au/sys/sync/kbpanel/
 hxxp://community-college.asia/teacher/
 hxxp://company777.wc.lt/keybase/keybase/
 hxxp://compshipbroker.com/keybase/
+hxxp://compshipbroker.com/sonsif3/keybase/
 hxxp://conh.ga/keybase/
 hxxp://contactmike.com.ng/kbpanel/
 hxxp://cpbp1.com/key/
@@ -846,6 +850,7 @@ hxxp://grenade.ml/web/
 hxxp://gta-traval.com/tri/1/
 hxxp://gta-traval.com/tri/2/
 hxxp://gta-traval.com/tri/3/
+hxxp://gurgenler.net/keybase/kbpanel/
 hxxp://gwensussy.esy.es/kbpanel/kbpanel/
 hxxp://habitat.bplaced.net/keybase/
 hxxp://haivu8a3.esy.es/
@@ -1065,6 +1070,7 @@ hxxp://maydaywis.x10host.com/kky/kbpanel/
 hxxp://mayorcnn.hints.me/keybase/
 hxxp://mayorleaping.ru/media/K/doitone-20april-20may/
 hxxp://mayorleaping.ru/media/K/jonofour-18may-18june/
+hxxp://mayorleaping.ru/media/K/lewi2-1june-1july/
 hxxp://mdi.gob.pe/administrator/language/web/
 hxxp://medalianxkusxz.net/cidyme66/
 hxxp://medalianxkusxz.net/gharis77/
@@ -1717,6 +1723,7 @@ hxxp://www.abcroyale.com/home/tipo/
 hxxp://www.abracadabrahocuspocus.com/kbpanel/
 hxxp://www.abrmme.com/web/web/
 hxxp://www.abtegelwerken.nl/panel/
+hxxp://www.aceto.com.ng/kbpanel/
 hxxp://www.adabil.net/key1/web/
 hxxp://www.ahalgosaibi-group.com/ugonna/
 hxxp://www.aldannube.com/kbpanel/
