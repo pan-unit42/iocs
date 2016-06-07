@@ -429,6 +429,8 @@ hxxp://bestmindlogistics.com/css1/web/
 hxxp://bestmindlogistics.com/js1/web/
 hxxp://bestmindlogistics.com/ms-configs1/web/
 hxxp://bestrye.co/lukaku/
+hxxp://beta7.t1nkem.com/web/
+hxxp://beta9.t1nkem.com/web/
 hxxp://bgr-group.net/web/
 hxxp://bgspace.bplaced.net/keybase/
 hxxp://bhulla.6te.net/
@@ -829,6 +831,7 @@ hxxp://gastylotto.ru/looto/
 hxxp://gbsandex.cf/~twyfordb/sheihk/auto/bes/gws/
 hxxp://geemuney.pe.hu/
 hxxp://gemarhuy.com/anyaehie/
+hxxp://gemarhuy.com/engr1/
 hxxp://gemarhuy.com/obinna/
 hxxp://gemarhuy.com/paki/
 hxxp://gemarhuy.com/stormy/
@@ -1073,6 +1076,7 @@ hxxp://maximillagates.com/keybase/
 hxxp://maxtrading.xyz/harrison/upanel/
 hxxp://maydaywis.x10host.com/kky/kbpanel/
 hxxp://mayorcnn.hints.me/keybase/
+hxxp://mayorleaping.ru/media/K/ayamo-may30-june30/
 hxxp://mayorleaping.ru/media/K/doitone-20april-20may/
 hxxp://mayorleaping.ru/media/K/jonofour-18may-18june/
 hxxp://mayorleaping.ru/media/K/laiwifour-2june-2july/
@@ -1616,6 +1620,7 @@ hxxp://tradenewone.in/html/
 hxxp://transferobmen.ru/k/
 hxxp://trinimaxzimuxus.net/99rshi/
 hxxp://trinity-collections.com/wp-content/upgrade/kbpanel/
+hxxp://tuxdf.ga/db/1/snkwrld/
 hxxp://twinghlights.co.uk/frankyzul-15thNov/
 hxxp://twinghlights.co.uk/gkalifaTwo-Nov9th/
 hxxp://twinghlights.co.uk/omegatwo-Nov23rd/
