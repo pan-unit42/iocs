@@ -429,6 +429,7 @@ hxxp://bestmindlogistics.com/css1/web/
 hxxp://bestmindlogistics.com/js1/web/
 hxxp://bestmindlogistics.com/ms-configs1/web/
 hxxp://bestrye.co/lukaku/
+hxxp://beta5.t1nkem.com/web/
 hxxp://beta7.t1nkem.com/web/
 hxxp://beta9.t1nkem.com/web/
 hxxp://bgr-group.net/web/
@@ -540,6 +541,7 @@ hxxp://cnim.co/key/
 hxxp://cnim.co/logs/
 hxxp://cnim.co/shap/
 hxxp://cnim.co/ugo/
+hxxp://codedmama-001-site1.etempurl.com/221/222/223/keybase/
 hxxp://codedoilandgas.ga/.css/kb/
 hxxp://codedpapa-001-site1.ftempurl.com/231/1313/keybase/
 hxxp://codymrogers.com/panel/web/
@@ -1079,6 +1081,7 @@ hxxp://mayorcnn.hints.me/keybase/
 hxxp://mayorleaping.ru/media/K/ayamo-may30-june30/
 hxxp://mayorleaping.ru/media/K/doitone-20april-20may/
 hxxp://mayorleaping.ru/media/K/jonofour-18may-18june/
+hxxp://mayorleaping.ru/media/K/jonothree-18may-18june/
 hxxp://mayorleaping.ru/media/K/laiwifour-2june-2july/
 hxxp://mayorleaping.ru/media/K/lewi2-1june-1july/
 hxxp://mayorleaping.ru/media/K/lewisthree-1june-1july/
