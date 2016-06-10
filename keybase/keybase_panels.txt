@@ -57,6 +57,7 @@ hxxp://185.7.34.251/~natha143/bux/cq/decap-15thJan-15thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/pzong-one-17thJan-7thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/vineye20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/zongtwo-1stDec-1stFeb/
+hxxp://188.215.92.10/~etenmcom/data1/
 hxxp://188.40.248.75/~inlandra/private/
 hxxp://190.14.37.19/~keybasec/jizzy/
 hxxp://190.14.37.19/~keybasec/panel/keybase/
@@ -1181,6 +1182,7 @@ hxxp://newhorizonpharma.co/emeka/
 hxxp://newhorizonpharma.co/jizzy/
 hxxp://newhorizonpharma.co/nelson/
 hxxp://newhorizonpharma.co/yanze/
+hxxp://newsreporting360.org/keybase/
 hxxp://newyeardomke.in/web/
 hxxp://newyearpokey.in/html/
 hxxp://newyearpokey.in/web/
@@ -1349,6 +1351,7 @@ hxxp://pushconsultancy.usa.cc/web/
 hxxp://qaprofessional.net/kbpanel/
 hxxp://qenx.ae/Gombey/
 hxxp://quemoney.bplaced.net/keybase/
+hxxp://quemoney.xyz/oxygen/keybase/
 hxxp://quickshare.com.au/app/tests/1/
 hxxp://quincylosky.bplaced.net/keybase/
 hxxp://qwert123.xyz/keybase/
