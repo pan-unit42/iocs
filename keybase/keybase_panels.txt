@@ -58,6 +58,7 @@ hxxp://185.7.34.251/~natha143/bux/cq/pzong-one-17thJan-7thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/vineye20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/zongtwo-1stDec-1stFeb/
 hxxp://188.215.92.10/~etenmcom/Data3/
+hxxp://188.215.92.10/~etenmcom/ab1/
 hxxp://188.215.92.10/~etenmcom/data1/
 hxxp://188.215.92.10/~etenmcom/data2/
 hxxp://188.40.248.75/~inlandra/private/
@@ -1075,6 +1076,7 @@ hxxp://masterwork.tk/grace/
 hxxp://masterwork123.pw/me/
 hxxp://masterwork4david.pw/goodluck/
 hxxp://mathsmaths.ru/M/lewings6-june2-july2/
+hxxp://mathsmaths.ru/M/vinyeone-14june-14july/
 hxxp://mathsmaths.ru/P/vivitwo-15may-15june/
 hxxp://mathsmaths.ru/X/vivianone-15may-15june/
 hxxp://matrixpanel.wc.lt/keybase/keybase/
@@ -1087,6 +1089,7 @@ hxxp://maxtrading.xyz/harrison/upanel/
 hxxp://maydaywis.x10host.com/kky/kbpanel/
 hxxp://mayorcnn.hints.me/keybase/
 hxxp://mayorleaping.ru/media/K/ayamo-may30-june30/
+hxxp://mayorleaping.ru/media/K/croxeno-5june-5july/
 hxxp://mayorleaping.ru/media/K/doitone-20april-20may/
 hxxp://mayorleaping.ru/media/K/jonofour-18may-18june/
 hxxp://mayorleaping.ru/media/K/jonothree-18may-18june/
@@ -1672,6 +1675,7 @@ hxxp://uniononline-ng.com/america/display/logs/members/
 hxxp://uniononline-ng.com/obaseki/display/logs/members/
 hxxp://uniononline-ng.com/obasekiFriend/display/logs/members/
 hxxp://unknown.pe.hu/keybase/keybase/
+hxxp://updatesqa.ga/keybase/
 hxxp://urchman101.bplaced.net/keybase/
 hxxp://us2e.eu/banga/
 hxxp://us2e.eu/smurf/
@@ -2031,6 +2035,7 @@ hxxp://www.meridansalmongroups.com/extracts/keybase/
 hxxp://www.meslmex.com/admin/
 hxxp://www.meslmex.com/admins/
 hxxp://www.meslmex.com/bamby/
+hxxp://www.meslmex.com/press/
 hxxp://www.meslmex.com/priority/
 hxxp://www.meslmex.com/realadmin/
 hxxp://www.meslmex.com/realnews/
