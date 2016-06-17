@@ -407,6 +407,7 @@ hxxp://azabideon.nut.cc/henry/ireon/
 hxxp://azabideon.nut.cc/mar/isch/
 hxxp://azuremarcom.in/old/keybase/
 hxxp://babaelectricals.com/logs/keybase/
+hxxp://balkaniacontemporana.eu/Ns/Ns/keybase/
 hxxp://balkanjet.rs/1/
 hxxp://balkanjet.rs/2/
 hxxp://balkanjet.rs/3/
@@ -1363,6 +1364,7 @@ hxxp://punchmay.in/asika/
 hxxp://punchmay.in/davin8thjuly/
 hxxp://punchmay.in/willy1stSept/
 hxxp://pushconsultancy.usa.cc/web/
+hxxp://pvruers.com/dubi/keybase/
 hxxp://pvruers.com/lala/keybase/
 hxxp://qaprofessional.net/kbpanel/
 hxxp://qenx.ae/Gombey/
