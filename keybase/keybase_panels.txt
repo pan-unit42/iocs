@@ -1377,6 +1377,7 @@ hxxp://pvruers.com/lala/keybase/
 hxxp://qaprofessional.net/kbpanel/
 hxxp://qenx.ae/Gombey/
 hxxp://quemoney.bplaced.net/keybase/
+hxxp://quemoney.xyz/carbon/keybase/
 hxxp://quemoney.xyz/oxygen/keybase/
 hxxp://quemoney.xyz/united/server/
 hxxp://quickshare.com.au/app/tests/1/
@@ -1732,6 +1733,7 @@ hxxp://verifylogon.me/keybase/
 hxxp://vertinary.cwsurf.de/js/san/
 hxxp://videoona.com/bus/bus/
 hxxp://villabro.bplaced.net/live%20access/kbpanel/
+hxxp://violet-dental-clinic.ro/p-admin/keybase_panel/
 hxxp://virux.pw/security/
 hxxp://virux.pw/unicorn/upanel2/
 hxxp://visirnex.com/web/
