@@ -62,6 +62,7 @@ hxxp://188.215.92.10/~etenmcom/ab1/
 hxxp://188.215.92.10/~etenmcom/data1/
 hxxp://188.215.92.10/~etenmcom/data2/
 hxxp://188.215.92.10/~etenmcom/office/
+hxxp://188.215.92.10/~groupdal/office1/
 hxxp://188.40.248.75/~inlandra/private/
 hxxp://190.14.37.19/~keybasec/jizzy/
 hxxp://190.14.37.19/~keybasec/panel/keybase/
@@ -455,6 +456,7 @@ hxxp://bitdefender.xyz/keybase/
 hxxp://bizlinkre.ae/images/wp-includes/wp-admin/themes/
 hxxp://blackiakeenergy.com/SelfLogPanel/
 hxxp://blackiakeenergy.com/ezepanel/
+hxxp://blackiakeenergy.com/jidnewpanel/
 hxxp://blackiakeenergy.com/jidpanel/
 hxxp://blackiakeenergy.com/kapelog/
 hxxp://blackiakeenergy.com/mupanel/
@@ -730,6 +732,7 @@ hxxp://eklkpe.esy.es/keybase/keybase/
 hxxp://elebaboyz.com/edu/kbpanel/
 hxxp://elebaboyz.com/kros/kbpanel/
 hxxp://elebaboyz.com/myn/kbpanel/
+hxxp://electroservices.ro/p-admin/keybase_panel/
 hxxp://element.bplaced.de/keybase/
 hxxp://eleventhbats.co.uk/E/frankyzul-15thNov/
 hxxp://eleventhbats.co.uk/media/ecronz-25thJan-25thFeb/
@@ -989,6 +992,7 @@ hxxp://keylogstrokes.esy.es/
 hxxp://keyreturns.pe.hu/CHUKS/SOLARIS/
 hxxp://keystroke.zz.vc/keybase/keybase/
 hxxp://keystrokesunlimited.pe.hu/cy/logins/
+hxxp://keytera.tk/ego/
 hxxp://khalidalwahaibi-omanlegal.com/kbpanel/
 hxxp://khalidalwahaibi-omanlegal.com/kbpanel/kbpanel/
 hxxp://khendra.fr/Panel/
@@ -1403,6 +1407,7 @@ hxxp://realswtradenew.in/html/
 hxxp://realswtradenew.in/web/
 hxxp://redlineworld.tk/css/file/sdx/
 hxxp://redwine2jugzy.ga/desmond/web/
+hxxp://redwine2jugzy.ga/redwine2jugzy.ga/jugzy/keybase/
 hxxp://reggiemenacherry.in/multiple/keybase/
 hxxp://remrer.eu/brchimenex/
 hxxp://remrer.eu/idmezix/
