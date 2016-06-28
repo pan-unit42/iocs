@@ -515,6 +515,8 @@ hxxp://cc12730.5gbfree.com/twitter/
 hxxp://cctbinc.com/tester/kbpanel/
 hxxp://ce90559.twsite.de/white/
 hxxp://centropediatricocalero.com/language/overrides/kbpanel/
+hxxp://cer-dgroup.cf/malay1/
+hxxp://cer-dgroup.cf/malay2/
 hxxp://charlesman.bplaced.net/live%20access/kbpanel/
 hxxp://chcfi.com/api/assets/default/images/icons/imgs/
 hxxp://chcfi.com/api/scp/images/icons/imgs/
@@ -679,6 +681,7 @@ hxxp://dubandigwe.net76.net/
 hxxp://dugmakstekstil.com//images/kbpanel/
 hxxp://dugmakstekstil.com/images/kbpanel/
 hxxp://dunikuzimunichi.net/mxix88/
+hxxp://durtch.usa.cc/durtch/
 hxxp://dwtrade.biz/ForeignBase/
 hxxp://dynamoacademy.mx/sync/kbpanel/
 hxxp://easternricemill.com/gallery02/kbpanel/
@@ -859,6 +862,7 @@ hxxp://gemarhuy.com/stormy/
 hxxp://generaltouch.ga/anwuru/
 hxxp://germanblock.net/jabil/snkwrld/
 hxxp://getcreed.com/doc/kbpanel/
+hxxp://getuirt.ga/keti/
 hxxp://ggdigduuzdgz.esy.es/keybase/keybase/
 hxxp://globalvertinary.ml/ecs/zone/snx/
 hxxp://globalvertinary.ml/ecs/zones/snx/
@@ -1390,6 +1394,8 @@ hxxp://quemoney.xyz/oxygen/keybase/
 hxxp://quemoney.xyz/united/server/
 hxxp://quickshare.com.au/app/tests/1/
 hxxp://quincylosky.bplaced.net/keybase/
+hxxp://quotox.org.in/1/vinethree-21june-21july/
+hxxp://quotox.org.in/wp-admin/27june-27julyconelTWO/
 hxxp://qwert123.xyz/keybase/
 hxxp://rag-bones.com/storefront/language/english/total/imgs/
 hxxp://rajhfuttaim.com/atus/
