@@ -517,6 +517,7 @@ hxxp://ce90559.twsite.de/white/
 hxxp://centropediatricocalero.com/language/overrides/kbpanel/
 hxxp://cer-dgroup.cf/malay1/
 hxxp://cer-dgroup.cf/malay2/
+hxxp://cfaclubs.tk/uptonpark/msoffice/91/kbpanel/
 hxxp://charlesman.bplaced.net/live%20access/kbpanel/
 hxxp://chcfi.com/api/assets/default/images/icons/imgs/
 hxxp://chcfi.com/api/scp/images/icons/imgs/
@@ -1882,6 +1883,7 @@ hxxp://www.crankfurniture.com.au/wp-content/themes/web/
 hxxp://www.ctgff.com/dalas/john/
 hxxp://www.ctr1p.com/administrator/
 hxxp://www.ctr1p.com/paneladmin/
+hxxp://www.ctr1p.com/top/
 hxxp://www.delyoung.eu/bax/
 hxxp://www.dmjc-malaysiapalmproducts.com/keyb/keybase/
 hxxp://www.dnjob.co.uk/felix/
