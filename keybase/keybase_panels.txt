@@ -1392,12 +1392,14 @@ hxxp://qaprofessional.net/kbpanel/
 hxxp://qenx.ae/Gombey/
 hxxp://quemoney.bplaced.net/keybase/
 hxxp://quemoney.xyz/carbon/keybase/
+hxxp://quemoney.xyz/clutch/server/
 hxxp://quemoney.xyz/oxygen/keybase/
 hxxp://quemoney.xyz/united/server/
 hxxp://quickshare.com.au/app/tests/1/
 hxxp://quincylosky.bplaced.net/keybase/
 hxxp://quotox.org.in/1/vinethree-21june-21july/
 hxxp://quotox.org.in/wp-admin/27june-27julyconelTWO/
+hxxp://quotox.org.in/wp-admin/conelONE27june-27july/
 hxxp://qwert123.xyz/keybase/
 hxxp://rag-bones.com/storefront/language/english/total/imgs/
 hxxp://rajhfuttaim.com/atus/
@@ -1428,6 +1430,7 @@ hxxp://remrer.eu/roughply33/
 hxxp://reservadaaldeia.com.br/k/
 hxxp://reservadaaldeia.com.br/ww/k/
 hxxp://ressurectionplayerz.biz/donzidan/
+hxxp://ressurectionplayerz.biz/galaxy/
 hxxp://ressurectionplayerz.biz/ibglob/
 hxxp://ressurectionplayerz.biz/mack/
 hxxp://ressurectionplayerz.biz/obidede/
