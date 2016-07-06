@@ -31,6 +31,7 @@ hxxp://idino3.fav.al/panel//
 hxxp://ispysoft.com/iSpyPanel/
 hxxp://jp.hurricanspin.ru/panel/
 hxxp://keybase.ml/hamza/
+hxxp://kycxinternetsolution.com/products/panel/
 hxxp://makeitpro.club/panel1/
 hxxp://makeitpro.club/panel2/
 hxxp://makeitpro.club/panel4/
@@ -75,6 +76,7 @@ hxxp://www.dicoval.cl/panel/
 hxxp://www.eleccctv.net/panel/
 hxxp://www.flexyinc.com/andy/panel/
 hxxp://www.flexyinc.com/ispy/panel/
+hxxp://www.gemaltosecurity.org/panel/
 hxxp://www.giante.in/panel/
 hxxp://www.grablogforyou.com/candies/
 hxxp://www.grablogforyou.com/janet/
