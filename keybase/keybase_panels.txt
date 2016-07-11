@@ -784,6 +784,7 @@ hxxp://evergreenrealworks.com/allworks/richysam/kbpanel/
 hxxp://evergreenrealworks.com/allworks/scala/kbpanel/
 hxxp://evergreenrealworks.com/allworks/stan/kbpanel/
 hxxp://evergreenrealworks.com/stanley.com/pal/
+hxxp://everli-killz.club/killz/me/keybase/
 hxxp://examgist.com/wp-admin/js/ad/keybase/
 hxxp://examgist.com/wp-includes/certificates/keybase/
 hxxp://examgist.com/wp-includes/fonts/wp/keybase/
@@ -1412,6 +1413,7 @@ hxxp://quotox.org.in/wp-admin/conelONE27june-27july/
 hxxp://quotox.org.in/wp-admin/davidslide-14june-14july/
 hxxp://quotox.org.in/wp-admin/frankob19june-19july/
 hxxp://quotox.org.in/wp-admin/vinethree-21june-21july/
+hxxp://quotox.org.in/wp-admin/vinyeone-14june-14july/
 hxxp://qwert123.xyz/keybase/
 hxxp://rag-bones.com/storefront/language/english/total/imgs/
 hxxp://rajhfuttaim.com/atus/
@@ -1509,6 +1511,7 @@ hxxp://salasafrank-001-site1.btempurl.com/
 hxxp://salawi.gq/dino/
 hxxp://salawi.gq/fredr/
 hxxp://salawi.gq/tur/
+hxxp://salesreporter.fulba.com/
 hxxp://salmontmt.nut.cc/java/
 hxxp://salsa.azabideon.nut.cc/frankyc/
 hxxp://saltypanel.pe.hu/keybase/keybase/
@@ -1887,6 +1890,7 @@ hxxp://www.christiananumba.com/social/stages/kbpanel/
 hxxp://www.citadelofgraceorphanage.com/wp-admin/uploads/mega/
 hxxp://www.cittrip.com/administrator/
 hxxp://www.cittrip.com/patriot/
+hxxp://www.codespiritworld.bid/save/admin/
 hxxp://www.collaboworld231.cf/keybase/
 hxxp://www.commoditiesdavo.net/break/
 hxxp://www.commoditiesdavo.net/faith/
@@ -1901,6 +1905,7 @@ hxxp://www.ctgff.com/dalas/john/
 hxxp://www.ctr1p.com/administrator/
 hxxp://www.ctr1p.com/paneladmin/
 hxxp://www.ctr1p.com/pinta/
+hxxp://www.ctr1p.com/tip/
 hxxp://www.ctr1p.com/top/
 hxxp://www.delyoung.eu/bax/
 hxxp://www.dmjc-malaysiapalmproducts.com/keyb/keybase/
