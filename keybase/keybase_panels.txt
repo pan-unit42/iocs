@@ -457,6 +457,7 @@ hxxp://bioandgene.com/wp-includes/js/kbpanel/
 hxxp://biservicesnt.com/images/estate/kbpanel/
 hxxp://biservicesnt.com/images/portfolio/kbpanel/
 hxxp://bitcoinexperience.co.uk/it/
+hxxp://bitcointalks.info/forum/kb/
 hxxp://bitdefender.xyz/keybase/
 hxxp://bizlinkre.ae/images/wp-includes/wp-admin/themes/
 hxxp://blackiakeenergy.com/SelfLogPanel/
