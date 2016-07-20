@@ -1841,6 +1841,7 @@ hxxp://www.abtegelwerken.nl/panel/
 hxxp://www.aceto.com.ng/kbpanel/
 hxxp://www.aceto.com.ng/keybase/
 hxxp://www.adabil.net/key1/web/
+hxxp://www.ads.com.my/wp-content/plugins/wpsecone/kbmine/
 hxxp://www.ahalgosaibi-group.com/ugonna/
 hxxp://www.aldannube.com/kbpanel/
 hxxp://www.allesoverimporteren.nl/sandex/
@@ -1952,6 +1953,7 @@ hxxp://www.elicos.xyz/Feb26th1980/web/
 hxxp://www.elicos.xyz/roko/web/
 hxxp://www.elicos.xyz/root/3rdMarch2016/web/
 hxxp://www.emekazzz.biz/webz/small/
+hxxp://www.etisalatpayment.nut.cc/panel/admin/lasco/
 hxxp://www.evergreenrealworks.com/allworks/scala/kbpanel/
 hxxp://www.evergreenrealworks.com/allworks/villabro/kbpanel/
 hxxp://www.evergreenrealworks.com/nonsoasaba.com/kbpanel/
