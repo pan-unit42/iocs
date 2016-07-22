@@ -604,6 +604,7 @@ hxxp://cx87563.tmweb.ru/keybase/
 hxxp://d32049321.u342.surf-town.net/Keybase/
 hxxp://daktornics.com/boss/keybase/
 hxxp://daktornics.com/china/keybase/
+hxxp://daktornics.com/gechy/gravity/
 hxxp://dandelscot.in/html/
 hxxp://dandelscot.in/web/
 hxxp://danmaro.com/danmaro/blessedchild/
@@ -2205,6 +2206,7 @@ hxxp://www.qwerty1234.xyz/keybase/
 hxxp://www.rajhfuttaim.com/azu/
 hxxp://www.rajhfuttaim.com/max/
 hxxp://www.rajhfuttaim.com/ugom/
+hxxp://www.ramiafashion.online//styles/Ocbaba/protect/7/
 hxxp://www.ramiafashion.online/clanek/fuck/
 hxxp://www.ramiafashion.online/lib/javascript/fresh/
 hxxp://www.ramiafashion.online/tutorial/basety/
