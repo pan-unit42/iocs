@@ -153,6 +153,7 @@ hxxp://213.252.244.129/banse/
 hxxp://213.252.244.129/chils/
 hxxp://213.252.244.129/wells/
 hxxp://23.88.122.163/~ggtllcmx/base/web/
+hxxp://23.88.122.163/~ggtllcmx/xlsx/web/
 hxxp://2esonline.com/panel/aud/kbpanel/
 hxxp://2fastsms.com/kbpanel/
 hxxp://42win.info/panel/
@@ -400,6 +401,7 @@ hxxp://atkameda.com.br/edu/kbpanel/
 hxxp://atlasir.co/mre/web/
 hxxp://atlasir.co/ms-config/web/
 hxxp://atlasir.co/tuko/web/
+hxxp://atmoslogs-001-site1.ctempurl.com/base/
 hxxp://audiometriatamizbioumb.com/images/dea/snkwrld/
 hxxp://auxiliofraternidade.com.br/private/
 hxxp://avon-companionship.asia/html/
@@ -607,6 +609,7 @@ hxxp://d32049321.u342.surf-town.net/Keybase/
 hxxp://daktornics.com/boss/keybase/
 hxxp://daktornics.com/china/keybase/
 hxxp://daktornics.com/gechy/gravity/
+hxxp://daktornics.com/slide/formatic/
 hxxp://dandelscot.in/html/
 hxxp://dandelscot.in/web/
 hxxp://danmaro.com/danmaro/blessedchild/
@@ -1115,7 +1118,9 @@ hxxp://mathsmaths.ru/M/lewings6-june2-july2/
 hxxp://mathsmaths.ru/M/vinyeone-14june-14july/
 hxxp://mathsmaths.ru/P/vivitwo-15may-15june/
 hxxp://mathsmaths.ru/X/vivianone-15may-15june/
+hxxp://mathsmaths.ru/module/merchant5july-5aug/
 hxxp://mathsmaths.ru/module/vinedoe-21july-21aug/
+hxxp://mathsmaths.ru/module/web/
 hxxp://matrixpanel.wc.lt/keybase/keybase/
 hxxp://mavinapps.com/key/keybase/
 hxxp://maxicuz9pata.net/chyko55/
@@ -2211,6 +2216,7 @@ hxxp://www.rajhfuttaim.com/max/
 hxxp://www.rajhfuttaim.com/ugom/
 hxxp://www.ramiafashion.online//styles/Ocbaba/protect/7/
 hxxp://www.ramiafashion.online/clanek/fuck/
+hxxp://www.ramiafashion.online/djofamily/upload/
 hxxp://www.ramiafashion.online/lib/javascript/fresh/
 hxxp://www.ramiafashion.online/tutorial/basety/
 hxxp://www.rea.co.ke/tmp/keybase/
@@ -2348,6 +2354,8 @@ hxxp://yamatairan.com/img/kb/
 hxxp://ydreadnewone.in/html/
 hxxp://ydreadnewone.in/htmlweb/
 hxxp://yiwoagentmarkets.com/AlubarikaBackup/
+hxxp://youngme.biz/keybase/kbpanel3/
+hxxp://youngme.biz/keybase/kbpanel4/
 hxxp://yttubehd.com/cee/base/
 hxxp://yumaeventcenter.com/wp-panel/
 hxxp://yungamir.pe.hu/
