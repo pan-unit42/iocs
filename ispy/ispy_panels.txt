@@ -33,6 +33,7 @@ hxxp://ispysoft.com/iSpyPanel/
 hxxp://jp.hurricanspin.ru/panel/
 hxxp://keybase.ml/hamza/
 hxxp://kycxinternetsolution.com/products/panel/
+hxxp://makeitpro.club/panel/
 hxxp://makeitpro.club/panel1/
 hxxp://makeitpro.club/panel2/
 hxxp://makeitpro.club/panel4/

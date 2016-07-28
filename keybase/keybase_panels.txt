@@ -1026,6 +1026,7 @@ hxxp://khendra.fr/keybase/
 hxxp://king.chinaklnmed.com/panel/
 hxxp://kingbob.info/bob/keybase/
 hxxp://kingbob.info/keybase/
+hxxp://kingtradebizk.com/payment/kbpanel/
 hxxp://kinsbotnet.com/Panel/keybase/
 hxxp://kinsbotnet.com/keybase/
 hxxp://konlik.superweb.ws/ki/php/
@@ -1850,6 +1851,7 @@ hxxp://www.abtegelwerken.nl/panel/
 hxxp://www.aceto.com.ng/kbpanel/
 hxxp://www.aceto.com.ng/keybase/
 hxxp://www.adabil.net/key1/web/
+hxxp://www.adobeprotectedpdf.com/k/kb/kbp/
 hxxp://www.ads.com.my/wp-content/plugins/wpsecone/kbmine/
 hxxp://www.ahalgosaibi-group.com/ugonna/
 hxxp://www.aldannube.com/kbpanel/
@@ -2219,6 +2221,7 @@ hxxp://www.ramiafashion.online/clanek/fuck/
 hxxp://www.ramiafashion.online/djofamily/upload/
 hxxp://www.ramiafashion.online/lib/javascript/fresh/
 hxxp://www.ramiafashion.online/tutorial/basety/
+hxxp://www.ramiafashion.online/uzupload/mouf/
 hxxp://www.rea.co.ke/tmp/keybase/
 hxxp://www.redcliffonline.dx.am/gboye/kbpanel/
 hxxp://www.reefran.com/atus/
