@@ -152,6 +152,8 @@ hxxp://209.95.63.103/~ninetyma/wp-includes/G/zongtwo-14march-14april/
 hxxp://213.252.244.129/banse/
 hxxp://213.252.244.129/chils/
 hxxp://213.252.244.129/wells/
+hxxp://217.174.152.190/~novaiceramics/jizzy/
+hxxp://217.174.152.190/~novaiceramics/yg/
 hxxp://23.88.122.163/~ggtllcmx/base/web/
 hxxp://23.88.122.163/~ggtllcmx/xlsx/web/
 hxxp://2esonline.com/panel/aud/kbpanel/
@@ -1436,6 +1438,7 @@ hxxp://quotox.org.in/wp-admin/27june-27julyconelTWO/
 hxxp://quotox.org.in/wp-admin/conelONE27june-27july/
 hxxp://quotox.org.in/wp-admin/davidslide-14june-14july/
 hxxp://quotox.org.in/wp-admin/frankob19june-19july/
+hxxp://quotox.org.in/wp-admin/klosh-5aug-5sept/
 hxxp://quotox.org.in/wp-admin/vinethree-21june-21july/
 hxxp://quotox.org.in/wp-admin/vinyeone-14june-14july/
 hxxp://qwert123.xyz/keybase/
@@ -1834,6 +1837,7 @@ hxxp://wizzwork3.com/rigz/
 hxxp://wonderfullord.com/K/kbpanel/kbpanel/
 hxxp://wonderfullord.com/k/
 hxxp://work.t1nkem.com/
+hxxp://work1.t1nkem.com/
 hxxp://work2.t1nkem.com/
 hxxp://work3.t1nkem.com/
 hxxp://workacademyonline.com/Access/Mini/
