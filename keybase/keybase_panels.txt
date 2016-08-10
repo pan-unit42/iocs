@@ -616,6 +616,7 @@ hxxp://daktornics.com/gechy/gravity/
 hxxp://daktornics.com/slide/formatic/
 hxxp://dandelscot.in/html/
 hxxp://dandelscot.in/web/
+hxxp://danhviet.com.vn/downloader/chy/
 hxxp://danmaro.com/danmaro/blessedchild/
 hxxp://danmaro.com/public/u3/
 hxxp://darebinpsychology.com.au/couples/wp-includes/kbpanel/
@@ -1727,6 +1728,7 @@ hxxp://tonylog.pe.hu/
 hxxp://tonyworks.tk/akanchawa/
 hxxp://topautoinsurancetips.com/profiles/images/
 hxxp://topnep.comule.com/keybase/
+hxxp://torredeportomanso.com/fr/Scripts/kbpanel/
 hxxp://torwood.footholds.net/~ewcouk/1/kbpanel/
 hxxp://tradenewone.in/html/
 hxxp://transferobmen.ru/k/
@@ -2145,6 +2147,7 @@ hxxp://www.meridansalmongroups.com/extracts/keybase/
 hxxp://www.meslmex.com/admin/
 hxxp://www.meslmex.com/admins/
 hxxp://www.meslmex.com/bamby/
+hxxp://www.meslmex.com/pinta/
 hxxp://www.meslmex.com/press/
 hxxp://www.meslmex.com/priority/
 hxxp://www.meslmex.com/realadmin/
