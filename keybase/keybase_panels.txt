@@ -154,6 +154,7 @@ hxxp://213.252.244.129/banse/
 hxxp://213.252.244.129/chils/
 hxxp://213.252.244.129/wells/
 hxxp://217.174.152.190/~novaiceramics/jizzy/
+hxxp://217.174.152.190/~novaiceramics/thai/
 hxxp://217.174.152.190/~novaiceramics/yg/
 hxxp://23.88.122.163/~ggtllcmx/base/web/
 hxxp://23.88.122.163/~ggtllcmx/xlsx/web/
@@ -1067,6 +1068,7 @@ hxxp://likestarboy.bugs3.com/keybase/keybase/
 hxxp://listen.bplaced.net/keybase/
 hxxp://livecomunicacao.com.br/admins/kbpanel/
 hxxp://livecomunicacao.com.br/tester/kbpanel/
+hxxp://livepony.online/keybase/
 hxxp://locopoco.zz.mu/keybase/keybase/
 hxxp://lodan.cf/kbpanel/
 hxxp://logbin.org/tmp/bin/
@@ -1481,6 +1483,7 @@ hxxp://ressurectionplayerz.biz/ibglob/
 hxxp://ressurectionplayerz.biz/mack/
 hxxp://ressurectionplayerz.biz/obidede/
 hxxp://ressurectionplayerz.biz/okeybros/
+hxxp://ressurectionplayerz.biz/sanchez/
 hxxp://ressurectionplayerz.biz/uche/
 hxxp://restnwire.no-ip.biz/feel/
 hxxp://rexnords.com/api/include/pear/Math/imgs/

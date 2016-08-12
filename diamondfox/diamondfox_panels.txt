@@ -6,6 +6,7 @@ hxxp://149.56.47.207/~user/damon/
 hxxp://155.94.213.157/panel/
 hxxp://162.245.216.60/~ciecxeal/Panel/
 hxxp://185.43.7.141/fox/
+hxxp://185.92.73.123/panel/
 hxxp://188.120.229.16/fox/
 hxxp://188.120.233.163/fox/
 hxxp://188.120.251.137/fox/
