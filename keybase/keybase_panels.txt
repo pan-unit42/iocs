@@ -40,6 +40,8 @@ hxxp://131.72.137.204/~eleventh/E/frankyzul-15thNov/
 hxxp://131.72.137.204/~eleventh/media/ecronz-25thJan-25thFeb/
 hxxp://131.72.137.204/~eleventh/media/vineye20thJan-20thFeb/
 hxxp://131.72.137.204/~eleventh/media/yemi-Jan11th/
+hxxp://149.202.91.58/~billrajn/one/
+hxxp://149.202.91.58/~rajahcom/alpha/
 hxxp://149.202.91.58/~rajahcom/bravo/
 hxxp://167.160.46.7/~keycod/~/kbz/
 hxxp://172.245.208.16/k/
@@ -2057,6 +2059,7 @@ hxxp://www.harsolution.com/wp-includes/js/tinymce/themes/modern/
 hxxp://www.healgien.com/html/
 hxxp://www.heaventreesupport.com/html/
 hxxp://www.herncom.com/henry/
+hxxp://www.herosfan.com/system/config/adminconfig/lucky/
 hxxp://www.hesynr.org/sandex/
 hxxp://www.hfi-iinc.com/web/
 hxxp://www.hillsandriversphotos.me/mmvimok/
