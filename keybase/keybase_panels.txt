@@ -155,6 +155,7 @@ hxxp://209.95.63.103/~ninetyma/wp-includes/G/zongtwo-14march-14april/
 hxxp://213.252.244.129/banse/
 hxxp://213.252.244.129/chils/
 hxxp://213.252.244.129/wells/
+hxxp://217.174.152.190/~novaiceramics/fresh/
 hxxp://217.174.152.190/~novaiceramics/jizzy/
 hxxp://217.174.152.190/~novaiceramics/thai/
 hxxp://217.174.152.190/~novaiceramics/yg/
@@ -326,6 +327,7 @@ hxxp://acarthy.org.in/paul2-Sept22nd/
 hxxp://accessoryinasia.com/keybase/
 hxxp://accurate.accuratelymade.com/kbpanel/
 hxxp://acidrain.co.in/css/keybase/
+hxxp://aco-as.com/keybase/
 hxxp://acresmaintenance.com.au/wp-includes/kbpanel/
 hxxp://adabil.net/key/web/
 hxxp://advertspros.com/ukraine/kbmoney/adrnin/
@@ -928,6 +930,10 @@ hxxp://hi-impact.net/documentation/assets/odg2/web/
 hxxp://hi-impact.net/snk/snkworld/
 hxxp://hi-impact.net/snpy/snkworld/
 hxxp://hi-impact.net/stv/kbpanel/
+hxxp://hikels.com/danco/
+hxxp://hikels.com/ifeanyi/
+hxxp://hikels.com/keybase1/
+hxxp://hikels.com/keybase2/
 hxxp://hikels.com/ndubusi/
 hxxp://hikels.com/sunny/
 hxxp://hm4u.eu/debohnew/
