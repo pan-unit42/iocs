@@ -1,3 +1,4 @@
+hxxp://185.25.49.119/isin/
 hxxp://185.25.49.217/panel/
 hxxp://accexx.info/panel/
 hxxp://alex1.hurricanspin.ru/panel/
@@ -75,6 +76,7 @@ hxxp://www.camellionbattery.com/spy/panel/
 hxxp://www.camellionbattery.com/spy/panel//
 hxxp://www.cnim.co/panel/
 hxxp://www.cnim.co/panel//
+hxxp://www.creativitygoesban.com/panel/
 hxxp://www.dicoval.cl/panel/
 hxxp://www.eleccctv.net/panel/
 hxxp://www.flexyinc.com/andy/panel/
