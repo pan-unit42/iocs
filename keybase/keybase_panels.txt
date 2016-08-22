@@ -164,6 +164,7 @@ hxxp://217.174.152.190/~novaiceramics/jizzy/
 hxxp://217.174.152.190/~novaiceramics/kbpanel/
 hxxp://217.174.152.190/~novaiceramics/mi/
 hxxp://217.174.152.190/~novaiceramics/okilo/
+hxxp://217.174.152.190/~novaiceramics/soft/
 hxxp://217.174.152.190/~novaiceramics/thai/
 hxxp://217.174.152.190/~novaiceramics/yg/
 hxxp://23.88.122.163/~ggtllcmx/base/web/

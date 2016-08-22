@@ -16,6 +16,7 @@ hxxp://fatell.com/panel/
 hxxp://fatell.com/panel//
 hxxp://fuegostudios.com.au/panel/
 hxxp://g1.fav.al/panel//
+hxxp://g2.fav.al/panel//
 hxxp://gate1.fav.al/panel//
 hxxp://gemarhuy.com/panel/
 hxxp://giante.in/panel/
