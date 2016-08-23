@@ -4,6 +4,8 @@ hxxp://111288group.com/gold/Panel/
 hxxp://130.204.141.79/
 hxxp://149.56.47.207/~user/damon/
 hxxp://155.94.213.157/panel/
+hxxp://162.144.111.219/~cimbonli/wp-admin/css/Panel/
+hxxp://162.144.111.219/~cimbonli/wp-includes/css/Panel/
 hxxp://162.245.216.60/~ciecxeal/Panel/
 hxxp://185.43.7.141/fox/
 hxxp://185.92.73.123/panel/
@@ -452,7 +454,6 @@ hxxp://www.freexbl.co/Panel/
 hxxp://www.glorbterades.in.net/mond/Panel/
 hxxp://www.glorbterades.in.net/order/Panel/
 hxxp://www.goldshoppingclub.ru/damon/
-hxxp://www.google.com/temp/
 hxxp://www.gpdi-lippocikarang.com/emma/
 hxxp://www.hbzcorp.ga/panel/
 hxxp://www.hhush.ru/log/
