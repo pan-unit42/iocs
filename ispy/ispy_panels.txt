@@ -131,6 +131,7 @@ hxxp://www.thewayone.ru/gaso/panel/
 hxxp://www.tilext.com/panel/
 hxxp://www.todini.co/panel/
 hxxp://www.tumbosco.com/panel/
+hxxp://www.vicstargson.com/panel/
 hxxp://www.visirnex.com/panel/
 hxxp://www.vistior.com/panel/
 hxxp://www.wordpressplugiin.com/candy/
