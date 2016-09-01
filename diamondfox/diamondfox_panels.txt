@@ -17,6 +17,7 @@ hxxp://189.1.162.151/tmp/
 hxxp://190.14.37.19/~logindoc/okey/
 hxxp://190.14.37.19/~logindoc/plate/
 hxxp://190.14.37.19/~logindoc/qwerty/
+hxxp://192.168.1.105/fox/
 hxxp://193.124.183.170/Panel/
 hxxp://198.16.89.28/PanelDiamFox/
 hxxp://198.27.124.1/~greenman/green/

@@ -169,6 +169,7 @@ hxxp://217.174.152.190/~novaiceramics/okilo/
 hxxp://217.174.152.190/~novaiceramics/soft/
 hxxp://217.174.152.190/~novaiceramics/thai/
 hxxp://217.174.152.190/~novaiceramics/update/
+hxxp://217.174.152.190/~novaiceramics/whesilo/
 hxxp://217.174.152.190/~novaiceramics/yg/
 hxxp://23.88.122.163/~ggtllcmx/base/web/
 hxxp://23.88.122.163/~ggtllcmx/xlsx/web/
@@ -1159,8 +1160,10 @@ hxxp://mathsmaths.ru/M/lewings6-june2-july2/
 hxxp://mathsmaths.ru/M/vinyeone-14june-14july/
 hxxp://mathsmaths.ru/P/vivitwo-15may-15june/
 hxxp://mathsmaths.ru/X/vivianone-15may-15june/
+hxxp://mathsmaths.ru/module/emmann-29Aug-29sept/
 hxxp://mathsmaths.ru/module/merchant5july-5aug/
 hxxp://mathsmaths.ru/module/stephen19aug-19sept/
+hxxp://mathsmaths.ru/module/twoblackjes-27july-27aug/
 hxxp://mathsmaths.ru/module/vinedoe-21july-21aug/
 hxxp://mathsmaths.ru/module/web/
 hxxp://matrixpanel.wc.lt/keybase/keybase/
