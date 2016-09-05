@@ -175,6 +175,7 @@ hxxp://fraudzz.cc/admin/
 hxxp://freecreditcards.cf/nope/
 hxxp://freexbl.co/Panel/
 hxxp://fsicreative.com/js/Panel/
+hxxp://fsk-polistroy.su/administrator/he1p/
 hxxp://fullexpert.byethost7.com/Panel/gate.php/
 hxxp://g951876v.bget.ru/
 hxxp://galaxycrystal.pw/
@@ -356,6 +357,7 @@ hxxp://sohnaoliveoil.com/diamond/Panel/
 hxxp://soycraft.chickenkiller.com/grn/
 hxxp://soycraft.duckdns.org/grn/
 hxxp://speedivpn.in/Panel/
+hxxp://sql.icefrag.ru/
 hxxp://squidgen.xyz/stoli/
 hxxp://starmailweb.com/ccc/
 hxxp://stealplace.tk/panel/
