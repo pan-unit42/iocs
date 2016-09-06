@@ -41,6 +41,8 @@ hxxp://131.72.137.204/~eleventh/media/ecronz-25thJan-25thFeb/
 hxxp://131.72.137.204/~eleventh/media/vineye20thJan-20thFeb/
 hxxp://131.72.137.204/~eleventh/media/yemi-Jan11th/
 hxxp://149.202.91.58/~backtrap/gogo/
+hxxp://149.202.91.58/~backtrap/gucchi/
+hxxp://149.202.91.58/~backtrap/mi/
 hxxp://149.202.91.58/~billrajn/one/
 hxxp://149.202.91.58/~billrajn/two/
 hxxp://149.202.91.58/~rajahcom/alpha/
@@ -2220,6 +2222,7 @@ hxxp://www.newsnowboardboots.com/snappy/kbpanel/
 hxxp://www.newvertinaryconcept.cf/.css/sandex/
 hxxp://www.nhvina.com/forum/
 hxxp://www.nhvina.com/logs/
+hxxp://www.ninetyman.org.in/kb/gkalifa-25aug-25sept/
 hxxp://www.ninetyman.org.in/kb/minier-22aug-22sept/
 hxxp://www.nnpcgroupcomd.com/atus/
 hxxp://www.nnpcgroupcomd.com/gold/
