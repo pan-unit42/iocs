@@ -166,6 +166,7 @@ hxxp://217.174.152.190/~novaiceramics/atila/
 hxxp://217.174.152.190/~novaiceramics/cashmoni/
 hxxp://217.174.152.190/~novaiceramics/chambers/
 hxxp://217.174.152.190/~novaiceramics/fresh/
+hxxp://217.174.152.190/~novaiceramics/good/
 hxxp://217.174.152.190/~novaiceramics/gucchi/
 hxxp://217.174.152.190/~novaiceramics/jizzy/
 hxxp://217.174.152.190/~novaiceramics/kbpanel/
@@ -1825,6 +1826,7 @@ hxxp://uniononline-ng.com/america/display/logs/members/
 hxxp://uniononline-ng.com/obaseki/display/logs/members/
 hxxp://uniononline-ng.com/obasekiFriend/display/logs/members/
 hxxp://unisolda.net/Mexisur/
+hxxp://unisolda.net/newmex/
 hxxp://unknown.pe.hu/keybase/keybase/
 hxxp://updatesqa.ga/keybase/
 hxxp://updatesqa.ga/update/keybase/
@@ -2465,3 +2467,4 @@ hxxp://zlandixfixz.xyz/gharis77/
 hxxp://zlandixfixz.xyz/mereng22/
 hxxp://zlixmacushik.net/77dku/
 hxxp://zonex1.5gbfree.com/kasmirchibuzor/
+hxxp://zyklonlina-001-site1.etempurl.com/all/man/lucky/
