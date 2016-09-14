@@ -165,6 +165,7 @@ hxxp://217.174.152.190/~novaiceramics/admin/
 hxxp://217.174.152.190/~novaiceramics/atila/
 hxxp://217.174.152.190/~novaiceramics/cashmoni/
 hxxp://217.174.152.190/~novaiceramics/chambers/
+hxxp://217.174.152.190/~novaiceramics/data/
 hxxp://217.174.152.190/~novaiceramics/fresh/
 hxxp://217.174.152.190/~novaiceramics/good/
 hxxp://217.174.152.190/~novaiceramics/gucchi/
