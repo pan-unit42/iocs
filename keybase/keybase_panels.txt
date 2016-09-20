@@ -442,7 +442,9 @@ hxxp://awilmelody.pe.hu/keybase/keybase/
 hxxp://awinahaelhebel.ml/sys/sync/kbpanel/
 hxxp://awmuae.ae/quiet/fragment/
 hxxp://awmuae.ae/south/fragment/
+hxxp://awmuae.ae/world/fragment/
 hxxp://axelonintermational.com/hallmark/web/
+hxxp://ayewamusic.com/wp-includes/kbmine/
 hxxp://ayewamusic.com/wp-includes/kbpat/
 hxxp://ayudacristianaenchile.cl/web/
 hxxp://azabideon.nut.cc/chykn/sc/eriwa/
@@ -2412,6 +2414,7 @@ hxxp://www.therapatong.com/administrator/
 hxxp://www.tredil.tk/krest/
 hxxp://www.trolkaapharma.com/pion/
 hxxp://www.trolkaapharma.com/pritoe/
+hxxp://www.twentysixjune.biz/sail2me18sept-18nov/
 hxxp://www.twinghlights.co.uk/decaprio-15thNov/
 hxxp://www.twinghlights.co.uk/merchant-15thDec/
 hxxp://www.twinghlights.co.uk/onyeworld-15thDec/
