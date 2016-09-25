@@ -1179,6 +1179,7 @@ hxxp://mathsmaths.ru/M/lewings6-june2-july2/
 hxxp://mathsmaths.ru/M/vinyeone-14june-14july/
 hxxp://mathsmaths.ru/P/vivitwo-15may-15june/
 hxxp://mathsmaths.ru/X/vivianone-15may-15june/
+hxxp://mathsmaths.ru/module/barry25sept-25oct/
 hxxp://mathsmaths.ru/module/decap-28july-28aug/
 hxxp://mathsmaths.ru/module/emmann-29Aug-29sept/
 hxxp://mathsmaths.ru/module/merchant5july-5aug/
