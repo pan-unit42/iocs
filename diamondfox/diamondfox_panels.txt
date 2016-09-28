@@ -151,6 +151,7 @@ hxxp://djmalaria.de/move/Panel/
 hxxp://djmalaria.de/new/Panel/
 hxxp://djmalaria.de/profile/Panel/
 hxxp://doitazda.biz/korede/panel/
+hxxp://doitazda.biz/shy/panel/
 hxxp://dom1337.zzz.com.ua/
 hxxp://dork-system.website/Panel/
 hxxp://drivertech.net/gr/
@@ -383,6 +384,7 @@ hxxp://site.coxslot.com/Panel/home.php/
 hxxp://sjp3.tk/data/
 hxxp://skyloris.tk/blog/
 hxxp://sluhmed.ru/media/media/js/.js/
+hxxp://sodaaas.biz/ify/panel/
 hxxp://sodaaas.biz/lege/panel/
 hxxp://sohnaoliveoil.com/diamond/
 hxxp://sohnaoliveoil.com/diamond/Panel/
@@ -571,6 +573,7 @@ hxxp://www.xc0der.ru/01/
 hxxp://www.xfirefox.comxa.com/temp/
 hxxp://www.xxx123jpk.tk/Panel/
 hxxp://www.yolaba.com/
+hxxp://www.youtube.com/watch?v=sKd7O4jKpRY/
 hxxp://www.yumate.co/DFpanel/
 hxxp://xake.tk/DiamondFox/
 hxxp://xenvpn.one/gor/Panel/
