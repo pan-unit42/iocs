@@ -213,6 +213,7 @@ hxxp://78.142.63.64/~ringerme/ekeh881/
 hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
+hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
 hxxp://86.106.93.230/~snapponc/123/
@@ -1061,6 +1062,7 @@ hxxp://kaytechh.com//Tm/kbpanel/
 hxxp://kaytechh.com/KB2/kbpanel/
 hxxp://kaytechie.com/kb/kbpanel/
 hxxp://kbas.zz.vc/keybase/
+hxxp://kearnypoint.com/css/kbmine/
 hxxp://kelvin.usa.cc/web/
 hxxp://kenlata.eriwaego.nut.cc/icr/
 hxxp://keybase.ipservices-ltd.co.uk/
