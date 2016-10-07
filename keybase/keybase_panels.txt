@@ -214,6 +214,7 @@ hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
 hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
+hxxp://84.38.132.56/stephen-6oct-6nov/web/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
 hxxp://86.106.93.230/~snapponc/123/
@@ -2466,6 +2467,7 @@ hxxp://www.wsrn--trade.com/chimmy/web/
 hxxp://www.x4adesivos.com.br/blog/wp-content/plugins/wpsecone/kbmine/
 hxxp://www.x4adesivos.com.br/blog/wp-content/plugins/wpsecone/kbobie/
 hxxp://www.xn----8sbtdboa.xn--p1ai/K/
+hxxp://www.yatsane.com/library/
 hxxp://www.yatsane.com/uniteadmin/
 hxxp://www.yemchio.co/udobata/
 hxxp://www.yunanistanvizesibasvuru.com/blings/web/
