@@ -177,6 +177,7 @@ hxxp://217.174.152.190/~novaiceramics/mac/
 hxxp://217.174.152.190/~novaiceramics/mi/
 hxxp://217.174.152.190/~novaiceramics/okilo/
 hxxp://217.174.152.190/~novaiceramics/panel/
+hxxp://217.174.152.190/~novaiceramics/robot/
 hxxp://217.174.152.190/~novaiceramics/soft/
 hxxp://217.174.152.190/~novaiceramics/thai/
 hxxp://217.174.152.190/~novaiceramics/turbo/
@@ -447,6 +448,7 @@ hxxp://awilmelody.pe.hu/keybase/keybase/
 hxxp://awinahaelhebel.ml/sys/sync/kbpanel/
 hxxp://awmuae.ae/quiet/fragment/
 hxxp://awmuae.ae/south/fragment/
+hxxp://awmuae.ae/walk/fragment/
 hxxp://awmuae.ae/world/fragment/
 hxxp://axelonintermational.com/hallmark/web/
 hxxp://ayewamusic.com/wp-includes/kbmine/
@@ -2145,6 +2147,7 @@ hxxp://www.hesynr.org/sandex/
 hxxp://www.hfi-iinc.com/web/
 hxxp://www.hillsandriversphotos.me/mmvimok/
 hxxp://www.hiltom.net/administrator/
+hxxp://www.homecard.com.br/copyright/kbpanel/
 hxxp://www.honeysaienterprises.com/themes/2/cfrnk/
 hxxp://www.hurricanspin.ru/doris-5Sept-5Oct/
 hxxp://www.hydropo1ymer.net/emeka/
