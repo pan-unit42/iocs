@@ -215,6 +215,7 @@ hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
 hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
+hxxp://84.38.132.56/obasi10oct-10nov/
 hxxp://84.38.132.56/stephen-6oct-6nov/web/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
@@ -2117,6 +2118,7 @@ hxxp://www.fyzee.top//senikan/web/
 hxxp://www.fyzee.top/senikan/web/
 hxxp://www.gadget2life.com//wp-content/plugins/limit-login-attempts/limit/
 hxxp://www.gadget2life.com/en/B/images/l/
+hxxp://www.gadget2life.com/inet/dd24f292512e2f08de55b42ce1165021/images/1/
 hxxp://www.gamradsi.gq/cousnna/
 hxxp://www.gamradsi.gq/maro/
 hxxp://www.gatarcement.com/forum/
