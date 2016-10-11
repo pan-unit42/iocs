@@ -215,6 +215,8 @@ hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
 hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
+hxxp://84.38.132.56/atm1/vineye7oct-7nov/
+hxxp://84.38.132.56/jono4oct-4nov/web/
 hxxp://84.38.132.56/obasi10oct-10nov/
 hxxp://84.38.132.56/stephen-6oct-6nov/web/
 hxxp://86.106.93.230/~giantein/cash/
@@ -1023,6 +1025,7 @@ hxxp://ja-pdx.org/jss/wizz/
 hxxp://jackconner-001-site1.etempurl.com/livestream/attorney/feed/bk/
 hxxp://jadroagnt.com/aftermatch/elvisguys/kbpanel/
 hxxp://jadroagnt.com/technology/elvis/kbpanel/
+hxxp://jamalassociates.com/honey/fragment/
 hxxp://jamalassociates.com/rands/fragment/
 hxxp://jayytech.com/Ray/kbpanel/
 hxxp://jeffjeffjeff1.esy.es/webpanel_v1.6/
