@@ -26,6 +26,8 @@ hxxp://gkalifa1.pohniq.org.in/panel/
 hxxp://golden1.synqenta.com/panel/
 hxxp://halfwayfilm.com/panel/
 hxxp://hamsatours.com/panel/
+hxxp://hawkresultbox.net/nedum/
+hxxp://hawkresultbox.net/nnamdi/
 hxxp://hfmicrofibre.net/panel//
 hxxp://hostprovider.xyz/panel1/
 hxxp://idan1.fav.al/panel//
@@ -135,4 +137,12 @@ hxxp://www.vicstargson.com/panel/
 hxxp://www.visirnex.com/panel/
 hxxp://www.vistior.com/panel/
 hxxp://www.wordpressplugiin.com/candy/
+hxxp://zjibingfeng.com/cboy/
+hxxp://zjibingfeng.com/nelly/
+hxxp://zjibingfeng.com/newpl/
+hxxp://zjibingfeng.com/obi/
+hxxp://zjibingfeng.com/oby/
+hxxp://zjibingfeng.com/oky/
+hxxp://zjibingfeng.com/panel/
+hxxp://zjibingfeng.com/sim/
 hxxp://zong1.quotox.org.in/panel/
