@@ -219,6 +219,7 @@ hxxp://84.38.132.56/atm1/vineye7oct-7nov/
 hxxp://84.38.132.56/jono4oct-4nov/web/
 hxxp://84.38.132.56/obasi10oct-10nov/
 hxxp://84.38.132.56/stephen-6oct-6nov/web/
+hxxp://84.38.132.56/walt-28sept-28oct/web/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
 hxxp://86.106.93.230/~snapponc/123/
@@ -1658,6 +1659,7 @@ hxxp://sel4.t1nkem.com/
 hxxp://sel6.t1nkem.com/
 hxxp://sel7.t1nkem.com/
 hxxp://sel8.t1nkem.com/
+hxxp://selfie-001-site1.itempurl.com/site/awards/kbpanel/
 hxxp://sentradb.com/daniel/
 hxxp://sentradb.com/emeka/
 hxxp://sentradb.com/victor/
