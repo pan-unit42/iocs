@@ -11,6 +11,7 @@ hxxp://anzbk.net/anzbk.net/prosper/
 hxxp://bastidores.com.pt/panel/
 hxxp://bayo.solanpl.nl/Panel/
 hxxp://bob.spcllt.com/WebPanel/
+hxxp://campkings.men/richy/WebPanel/
 hxxp://chijioke1.ruschcrome.com/panel/
 hxxp://chima.spcllt.com/WebPanel/
 hxxp://chna.biz/panel/
@@ -76,6 +77,7 @@ hxxp://odum.anzbk.net/Panel/
 hxxp://okus.anzbk.net/Panel/
 hxxp://oni.anzbk.net/Panel/
 hxxp://oni.omarabdulaziz.com/panel/
+hxxp://openjet.pw/Picture/Dog/WebPanel/
 hxxp://osom.anzbk.net/Panel/
 hxxp://owen1.pohniq.org.in/panel/
 hxxp://owen2.eleventhbats.co.uk/panel/
@@ -125,6 +127,7 @@ hxxp://www.creativitygoesban.com/panel/
 hxxp://www.dicoval.cl/panel/
 hxxp://www.eleccctv.net/panel/
 hxxp://www.fl3xyinc.com/flexy/WebPanel/
+hxxp://www.fl3xyinc.com/matt/WebPanel/
 hxxp://www.flexyinc.com/andy/panel/
 hxxp://www.flexyinc.com/ispy/panel/
 hxxp://www.gemaltosecurity.org/panel/

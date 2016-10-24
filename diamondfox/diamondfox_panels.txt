@@ -33,6 +33,7 @@ hxxp://31.220.2.120/~angelboo/
 hxxp://37.187.56.97/~saverbkc/kolla/advance/
 hxxp://42.pxlgmz.xyz/
 hxxp://45df36.de/df/
+hxxp://51.254.170.170/mlp/
 hxxp://51.254.240.44/bot11fox/
 hxxp://51.254.240.44/fox/
 hxxp://63.249.144.71/include/db/pdo/
@@ -254,6 +255,7 @@ hxxp://kazua.x20.asia/panel/
 hxxp://kekmlg.esy.es/
 hxxp://khendra.fr/Panel/
 hxxp://killbill.ml/Panel/gate.php/
+hxxp://kisslaqv.bget.ru/
 hxxp://kit0001.xyz/diamond/
 hxxp://kit0001.xyz/zanfox/
 hxxp://kuradox92.lima-city.de/Panel/
