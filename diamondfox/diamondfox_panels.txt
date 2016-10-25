@@ -27,6 +27,7 @@ hxxp://193.124.183.170/Panel/
 hxxp://198.16.89.28/PanelDiamFox/
 hxxp://198.27.124.1/~greenman/green/
 hxxp://198.50.129.139/Panel/
+hxxp://1lidoo.ml/fox/Panel/
 hxxp://204.45.251.131/diamond/
 hxxp://216.197.226.9/foxie/
 hxxp://31.220.2.120/~angelboo/
