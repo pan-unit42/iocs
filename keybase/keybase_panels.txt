@@ -220,6 +220,7 @@ hxxp://84.38.132.56/davidk27sept=27oct/web/
 hxxp://84.38.132.56/jono4oct-4nov/web/
 hxxp://84.38.132.56/obasi10oct-10nov/
 hxxp://84.38.132.56/stephen-6oct-6nov/web/
+hxxp://84.38.132.56/walt-28sept-28oct/retouch/
 hxxp://84.38.132.56/walt-28sept-28oct/web/
 hxxp://86.106.93.230/~giantein/cash/
 hxxp://86.106.93.230/~giantein/kbpanel/
@@ -1458,6 +1459,7 @@ hxxp://phynodelixcuxi.xyz/miragi88/
 hxxp://phynodelixcuxi.xyz/sgamyok85/
 hxxp://phynodelixcuxi.xyz/sgamyok86/
 hxxp://phynodelixcuxi.xyz/yalix99zp/
+hxxp://picture-media-games.xp3.biz/keybase/keybase/
 hxxp://pindakaas1980.host22.com/Keybase/
 hxxp://plasticorp.com.br/jones/web/
 hxxp://pnb2468.site40.net/panel/

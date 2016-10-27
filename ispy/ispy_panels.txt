@@ -130,6 +130,7 @@ hxxp://www.cnim.co/panel//
 hxxp://www.creativitygoesban.com/panel/
 hxxp://www.dicoval.cl/panel/
 hxxp://www.eleccctv.net/panel/
+hxxp://www.fl3xyinc.com/chris/WebPanel/
 hxxp://www.fl3xyinc.com/flexy/WebPanel/
 hxxp://www.fl3xyinc.com/matt/WebPanel/
 hxxp://www.flexyinc.com/andy/panel/
