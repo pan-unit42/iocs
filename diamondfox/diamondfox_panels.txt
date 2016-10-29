@@ -171,6 +171,7 @@ hxxp://eamirahmed.com/foxie/Panel/
 hxxp://easypay.96.lt/yandexAD/
 hxxp://ecoroll-rus.ru/bitrix/gadgets/bitrix/rssreader/
 hxxp://education.afriquehost.net/
+hxxp://elheraldodeuraba.com/BotN3T/
 hxxp://elicos1.xyz/cp/Panel/
 hxxp://elicos1.xyz/fisayo/Panel/
 hxxp://elmen.heliohost.org/elmen/
@@ -352,6 +353,7 @@ hxxp://php-spykip.c9users.io/Panel/
 hxxp://pichasecure.xyz/jujubiadmin/
 hxxp://picture-media.medianewsonline.com/Panel/
 hxxp://plat-oplat.ru/Panel/
+hxxp://pokemonburn.com/d1/
 hxxp://poleneitor.com/fox/
 hxxp://popovalx.shn-host.ru/
 hxxp://power-uping.com/PowerPanel/
