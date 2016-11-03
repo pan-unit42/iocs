@@ -2130,6 +2130,7 @@ hxxp://www.fyzee.top/senikan/web/
 hxxp://www.gadget2life.com//wp-content/plugins/limit-login-attempts/limit/
 hxxp://www.gadget2life.com/en/B/images/l/
 hxxp://www.gadget2life.com/inet/dd24f292512e2f08de55b42ce1165021/images/1/
+hxxp://www.gadget2life.com/wp-admin/network/dcvvfs/
 hxxp://www.gamradsi.gq/cousnna/
 hxxp://www.gamradsi.gq/maro/
 hxxp://www.gatarcement.com/forum/
