@@ -162,6 +162,7 @@ hxxp://209.95.63.103/~ninetyma/wp-includes/G/zongtwo-14march-14april/
 hxxp://213.252.244.129/banse/
 hxxp://213.252.244.129/chils/
 hxxp://213.252.244.129/wells/
+hxxp://217.174.152.190/~giti/admin1/
 hxxp://217.174.152.190/~novaiceramics/admin/
 hxxp://217.174.152.190/~novaiceramics/agogo/
 hxxp://217.174.152.190/~novaiceramics/atila/
@@ -2527,4 +2528,5 @@ hxxp://zlandixfixz.xyz/mereng22/
 hxxp://zlixmacushik.net/77dku/
 hxxp://zonex1.5gbfree.com/kasmirchibuzor/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada1/
+hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada2/
 hxxp://zyklonlina-001-site1.etempurl.com/all/man/lucky/
