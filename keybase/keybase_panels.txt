@@ -449,6 +449,7 @@ hxxp://atkameda.com.br/edu/kbpanel/
 hxxp://atlasir.co/mre/web/
 hxxp://atlasir.co/ms-config/web/
 hxxp://atlasir.co/tuko/web/
+hxxp://atmodrive.top/template/fonts/html/
 hxxp://atmoslogs-001-site1.ctempurl.com/base/
 hxxp://audiometriatamizbioumb.com/images/dea/snkwrld/
 hxxp://auxiliofraternidade.com.br/private/
@@ -1507,6 +1508,7 @@ hxxp://propersupplysouthcommodities.com/alli/
 hxxp://propersupplysouthcommodities.com/free/
 hxxp://propersupplysouthcommodities.com/pronto/
 hxxp://propersupplysouthcommodities.com/work/
+hxxp://propertiesinnagpur.in/ckeditor/themes/default/keybase/
 hxxp://prophetjonah.com/images/panel/keybase/
 hxxp://prophetjonah.com/images/panel/keybase/keybase/
 hxxp://publicidadeficaz.com.uy/includes/keybase/
@@ -2533,6 +2535,7 @@ hxxp://zlandixfixz.xyz/gharis77/
 hxxp://zlandixfixz.xyz/mereng22/
 hxxp://zlixmacushik.net/77dku/
 hxxp://zonex1.5gbfree.com/kasmirchibuzor/
+hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/delta/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada1/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada2/
 hxxp://zyklonlina-001-site1.etempurl.com/all/man/lucky/
