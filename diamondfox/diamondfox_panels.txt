@@ -421,6 +421,7 @@ hxxp://soycraft.duckdns.org/grn/
 hxxp://speedivpn.in/Panel/
 hxxp://sql.icefrag.ru/
 hxxp://squidgen.xyz/stoli/
+hxxp://srv72657.ht-test.ru/
 hxxp://starmailweb.com/ccc/
 hxxp://stealplace.tk/panel/
 hxxp://steamtoday.ru/diamond/
