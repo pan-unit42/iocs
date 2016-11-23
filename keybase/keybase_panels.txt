@@ -137,6 +137,7 @@ hxxp://198.52.161.80/~zadmin/nores_com/api/scp/css/web/
 hxxp://198.52.161.80/~zadmin/nores_com/api/scp/js/web/
 hxxp://198.58.93.56/~yomon22/k1/kbpanel/
 hxxp://199.101.186.224/mp/kb/
+hxxp://199.231.211.40/~orexpharma/hans/
 hxxp://199.241.188.234/new/panel/
 hxxp://2016hillarysamerica.com/home/kbpanel/
 hxxp://209.95.63.103/~ninetyma/wp-includes/G/Sellyfeb16-march16/
@@ -1220,6 +1221,7 @@ hxxp://mathsmaths.ru/module/twoblackjes-27july-27aug/
 hxxp://mathsmaths.ru/module/vinedoe-21july-21aug/
 hxxp://mathsmaths.ru/module/web/
 hxxp://mathsmaths.ru/vineye7oct-7nov/
+hxxp://mathsmaths.ru/walt-28sept-28oct/
 hxxp://matrixpanel.wc.lt/keybase/keybase/
 hxxp://mavinapps.com/key/keybase/
 hxxp://maxicuz9pata.net/chyko55/
@@ -2477,6 +2479,7 @@ hxxp://www.twentysixjune.biz/davidk27sept=27oct/
 hxxp://www.twentysixjune.biz/jono1-sept4-oct4/
 hxxp://www.twentysixjune.biz/jonoTwo-4sept-14oct/
 hxxp://www.twentysixjune.biz/sail2me18sept-18nov/
+hxxp://www.twentysixjune.biz/schuks-3nov-3dec/
 hxxp://www.twinghlights.co.uk/decaprio-15thNov/
 hxxp://www.twinghlights.co.uk/merchant-15thDec/
 hxxp://www.twinghlights.co.uk/onyeworld-15thDec/
@@ -2540,6 +2543,7 @@ hxxp://zlandixfixz.xyz/mereng22/
 hxxp://zlixmacushik.net/77dku/
 hxxp://zonex1.5gbfree.com/kasmirchibuzor/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/delta/
+hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/turbo/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada1/
 hxxp://zonne-lening.nl/wp-content/plugins/advanced-custom-fields/wada2/
 hxxp://zyklonlina-001-site1.etempurl.com/all/man/lucky/
