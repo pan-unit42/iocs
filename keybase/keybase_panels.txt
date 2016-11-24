@@ -138,6 +138,8 @@ hxxp://198.52.161.80/~zadmin/nores_com/api/scp/js/web/
 hxxp://198.58.93.56/~yomon22/k1/kbpanel/
 hxxp://199.101.186.224/mp/kb/
 hxxp://199.231.211.40/~orexpharma/hans/
+hxxp://199.231.211.40/~pheonixer/agogo/
+hxxp://199.231.211.40/~pheonixer/okilo/
 hxxp://199.241.188.234/new/panel/
 hxxp://2016hillarysamerica.com/home/kbpanel/
 hxxp://209.95.63.103/~ninetyma/wp-includes/G/Sellyfeb16-march16/
@@ -1208,6 +1210,7 @@ hxxp://mathsmaths.ru/M/lewings6-june2-july2/
 hxxp://mathsmaths.ru/M/vinyeone-14june-14july/
 hxxp://mathsmaths.ru/P/vivitwo-15may-15june/
 hxxp://mathsmaths.ru/X/vivianone-15may-15june/
+hxxp://mathsmaths.ru/dapsha/
 hxxp://mathsmaths.ru/decap12oct-12nov/
 hxxp://mathsmaths.ru/mandana-26oct-26nov/
 hxxp://mathsmaths.ru/michaeke-20oct-20nov/
