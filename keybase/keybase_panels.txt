@@ -62,6 +62,7 @@ hxxp://179.43.141.203/key/
 hxxp://185.106.120.78/keybase/
 hxxp://185.11.147.62/keylog/
 hxxp://185.25.50.43/tras/
+hxxp://185.29.9.117/kb/conel-21nov-21dec/
 hxxp://185.7.34.251/~natha143/bux/cq/artbary20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/decap-15thJan-15thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/pzong-one-17thJan-7thFeb/
@@ -140,6 +141,7 @@ hxxp://199.101.186.224/mp/kb/
 hxxp://199.231.211.40/~orexpharma/hans/
 hxxp://199.231.211.40/~pheonixer/agogo/
 hxxp://199.231.211.40/~pheonixer/okilo/
+hxxp://199.231.211.40/~pheonixer/yg/
 hxxp://199.241.188.234/new/panel/
 hxxp://2016hillarysamerica.com/home/kbpanel/
 hxxp://209.95.63.103/~ninetyma/wp-includes/G/Sellyfeb16-march16/
