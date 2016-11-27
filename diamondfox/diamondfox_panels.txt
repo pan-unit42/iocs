@@ -12,6 +12,7 @@ hxxp://162.144.111.219/~cimbonli/wp-admin/css/Panel/
 hxxp://162.144.111.219/~cimbonli/wp-includes/css/Panel/
 hxxp://162.245.216.60/~ciecxeal/Panel/
 hxxp://178.33.68.46/ReallyOk/FuckYouMother/panel/
+hxxp://185.145.129.207/Host/
 hxxp://185.43.7.141/fox/
 hxxp://185.92.73.123/panel/
 hxxp://188.120.229.16/fox/
