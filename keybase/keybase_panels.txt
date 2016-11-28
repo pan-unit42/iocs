@@ -139,6 +139,7 @@ hxxp://198.52.161.80/~zadmin/nores_com/api/scp/js/web/
 hxxp://198.58.93.56/~yomon22/k1/kbpanel/
 hxxp://199.101.186.224/mp/kb/
 hxxp://199.231.211.40/~orexpharma/hans/
+hxxp://199.231.211.40/~orexpharma/turbo/
 hxxp://199.231.211.40/~pheonixer/agogo/
 hxxp://199.231.211.40/~pheonixer/okilo/
 hxxp://199.231.211.40/~pheonixer/yg/
@@ -404,6 +405,7 @@ hxxp://alsopa.xyz/keyb/
 hxxp://alsopa.xyz/keyb1/
 hxxp://altenewgrade.in/html/
 hxxp://amalaprakeash.in/test/
+hxxp://amalie-vinimport.com/admins/
 hxxp://amazonjobs.com.br/old/keybase/keybase/
 hxxp://ambicaindustries.tk/css/~js/codes/.aspx/
 hxxp://ameri.seadeeponline.com/logs/members/
@@ -1028,6 +1030,8 @@ hxxp://instant.bplaced.net/keybase/
 hxxp://intaplast.com/css/
 hxxp://integra.noads.biz/
 hxxp://iosisenergy.tk/keybase/keybase/
+hxxp://ips-trade.cn.com/kbda/
+hxxp://ips-trade.cn.com/kbfe/
 hxxp://iqliftd.hol.es/kbpanel/kbpanel/
 hxxp://item41.hostei.com/keybase/
 hxxp://itrme.eu/kbpanel/
