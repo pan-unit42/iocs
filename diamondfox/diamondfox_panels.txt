@@ -5,6 +5,7 @@ hxxp://107.170.69.34/diaminsakjsalsn/
 hxxp://109.87.105.104/Panel/
 hxxp://111288group.com/gold/Panel/
 hxxp://130.204.141.79/
+hxxp://139.59.235.72/testb/
 hxxp://149.56.47.207/~user/damon/
 hxxp://155.94.213.157/panel/
 hxxp://158.255.226.168/js/

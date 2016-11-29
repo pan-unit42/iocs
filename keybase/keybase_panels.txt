@@ -76,6 +76,7 @@ hxxp://188.215.92.10/~etenmcom/data2/
 hxxp://188.215.92.10/~etenmcom/office/
 hxxp://188.215.92.10/~groupdal/office1/
 hxxp://188.40.248.75/~inlandra/private/
+hxxp://190.14.37.112/~prontoen/proton/
 hxxp://190.14.37.19/~keybasec/jizzy/
 hxxp://190.14.37.19/~keybasec/panel/keybase/
 hxxp://190.14.37.19/~logindoc/agogo/
@@ -554,6 +555,7 @@ hxxp://brainnet.tk/keybase/keybase/
 hxxp://brightfriend.bplaced.net/live%20access/kbpanel/
 hxxp://brithoxagropharm.com/kelvin/
 hxxp://brithoxagropharm.com/mighty/
+hxxp://brokeaz.com.au/images/panelv5/
 hxxp://bross.redpurpleheart.com/kbpanel/
 hxxp://brownben.x10host.com/
 hxxp://brutiisnsfeed.co.in/dnimanc/
@@ -998,6 +1000,7 @@ hxxp://hikels.com/keybase1/
 hxxp://hikels.com/keybase2/
 hxxp://hikels.com/ndubusi/
 hxxp://hikels.com/sunny/
+hxxp://hitco.biz/sani/
 hxxp://hm4u.eu/debohnew/
 hxxp://hm4u.eu/lifebin/
 hxxp://hm4u.eu/oelnew/
