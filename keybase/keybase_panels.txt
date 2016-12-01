@@ -62,6 +62,7 @@ hxxp://179.43.141.203/key/
 hxxp://185.106.120.78/keybase/
 hxxp://185.11.147.62/keylog/
 hxxp://185.25.50.43/tras/
+hxxp://185.29.9.117/kb/ambros-20Nov-20Dec/
 hxxp://185.29.9.117/kb/conel-21nov-21dec/
 hxxp://185.7.34.251/~natha143/bux/cq/artbary20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/decap-15thJan-15thFeb/
@@ -76,6 +77,7 @@ hxxp://188.215.92.10/~etenmcom/data2/
 hxxp://188.215.92.10/~etenmcom/office/
 hxxp://188.215.92.10/~groupdal/office1/
 hxxp://188.40.248.75/~inlandra/private/
+hxxp://190.14.37.112/~prontoen/clause/
 hxxp://190.14.37.112/~prontoen/proton/
 hxxp://190.14.37.19/~keybasec/jizzy/
 hxxp://190.14.37.19/~keybasec/panel/keybase/
@@ -1000,6 +1002,7 @@ hxxp://hikels.com/keybase1/
 hxxp://hikels.com/keybase2/
 hxxp://hikels.com/ndubusi/
 hxxp://hikels.com/sunny/
+hxxp://hitco.biz/matt/
 hxxp://hitco.biz/sani/
 hxxp://hm4u.eu/debohnew/
 hxxp://hm4u.eu/lifebin/
