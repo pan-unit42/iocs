@@ -1440,6 +1440,7 @@ hxxp://panelfree.zz.mu/K/webpanel_v1.6/
 hxxp://panell.esy.es/K/kbpanel/kbpanel/
 hxxp://panell.esy.es/K/webpanel_v1.6/
 hxxp://papalog.pe.hu/
+hxxp://papas846.tk/bmm/
 hxxp://partylndo.com/go/everlicool/keybase/1/kbpanel/
 hxxp://partylndo.com/go/fuck/flex/kbpanel/
 hxxp://partylndo.com/go/fuck/kbpanel/
@@ -1703,6 +1704,7 @@ hxxp://seraphim.archangelsystems.com/keybase/
 hxxp://serhatbaydar.com/ruste9/keybase/
 hxxp://serosneswa.in/web/
 hxxp://server211.ddns.net/keybase/
+hxxp://server8083.ddns.net/newKey/
 hxxp://serverarea.esy.es/
 hxxp://serverball.esy.es/
 hxxp://servernet.hol.es/
