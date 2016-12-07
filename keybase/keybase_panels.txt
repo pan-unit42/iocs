@@ -64,6 +64,7 @@ hxxp://185.11.147.62/keylog/
 hxxp://185.25.50.43/tras/
 hxxp://185.29.9.117/kb/ambros-20Nov-20Dec/
 hxxp://185.29.9.117/kb/conel-21nov-21dec/
+hxxp://185.29.9.117/kb/steph-15Nov-15Dec/
 hxxp://185.7.34.251/~natha143/bux/cq/artbary20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/decap-15thJan-15thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/pzong-one-17thJan-7thFeb/
@@ -142,6 +143,7 @@ hxxp://198.52.161.80/~zadmin/nores_com/api/scp/js/web/
 hxxp://198.58.93.56/~yomon22/k1/kbpanel/
 hxxp://199.101.186.224/mp/kb/
 hxxp://199.231.211.40/~orexpharma/hans/
+hxxp://199.231.211.40/~orexpharma/kc/
 hxxp://199.231.211.40/~orexpharma/turbo/
 hxxp://199.231.211.40/~pheonixer/agogo/
 hxxp://199.231.211.40/~pheonixer/okilo/
@@ -1144,6 +1146,7 @@ hxxp://lastlyp.usa.cc/ofo/
 hxxp://latertsbusin.in/test/
 hxxp://latertsbusin.in/web/
 hxxp://latinoslock.org.in/barry25sept-25oct/
+hxxp://lbfctibj0-site.1tempurl.com/Okure/Phinto/keybase/
 hxxp://leagueofirelia.cba.pl/rak/
 hxxp://leoeffin.5gbfree.com/yearly/
 hxxp://lesacheteurs.fr/cgi/kbpanel/
@@ -1717,6 +1720,7 @@ hxxp://servernet.xyz/com/
 hxxp://serverpin.esy.es/
 hxxp://serverplan.esy.es/
 hxxp://servertan.890m.com/
+hxxp://sethay.tk/keybase/
 hxxp://sevegep.com/kbob/
 hxxp://sevegep.com/kbsol/
 hxxp://shabu-sai.com/keybase/keybase/
