@@ -259,6 +259,7 @@ hxxp://86.106.93.230/~snapponc/unicorn/
 hxxp://86.106.93.230/~snapponc/unknown/
 hxxp://86.106.93.230/~snapponc/whesilo/
 hxxp://86.106.93.230/~snapponc/yanze/
+hxxp://87.120.37.36/KB/
 hxxp://87.98.254.180/~shopersc/26/
 hxxp://89.45.67.200/~dgmegaza/77muvlaz2/
 hxxp://89.45.67.200/~dgmegaza/ekeh881/

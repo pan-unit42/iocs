@@ -26,6 +26,7 @@ hxxp://190.14.37.19/~logindoc/plate/
 hxxp://190.14.37.19/~logindoc/qwerty/
 hxxp://192.168.1.105/fox/
 hxxp://193.124.183.170/Panel/
+hxxp://195.133.145.239/
 hxxp://198.16.89.28/PanelDiamFox/
 hxxp://198.27.124.1/~greenman/green/
 hxxp://198.50.129.139/Panel/
@@ -61,6 +62,7 @@ hxxp://95.215.108.203/fox/
 hxxp://aarr.eu5.org/Panel/
 hxxp://ac8xyqhdans4empv3u.drwhat.co/
 hxxp://acc0unt-informati0n.ru/myn/
+hxxp://account-notice.cf/FoxBot/
 hxxp://accountservices.xyz/updates/
 hxxp://adasdag5.bget.ru/
 hxxp://adjuntos.soportetecnico.ru/ouch/justice/
