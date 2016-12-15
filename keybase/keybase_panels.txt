@@ -516,6 +516,7 @@ hxxp://benscafe.be/wp-user/
 hxxp://bestmindlogistics.com/beavon/web/
 hxxp://bestmindlogistics.com/css1/web/
 hxxp://bestmindlogistics.com/js1/web/
+hxxp://bestmindlogistics.com/ms-config/web/
 hxxp://bestmindlogistics.com/ms-configs1/web/
 hxxp://bestrye.co/lukaku/
 hxxp://beta1.t1nkem.com/web/
