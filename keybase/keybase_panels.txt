@@ -41,7 +41,17 @@ hxxp://131.72.137.204/~eleventh/E/frankyzul-15thNov/
 hxxp://131.72.137.204/~eleventh/media/ecronz-25thJan-25thFeb/
 hxxp://131.72.137.204/~eleventh/media/vineye20thJan-20thFeb/
 hxxp://131.72.137.204/~eleventh/media/yemi-Jan11th/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/chisom/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/elber/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/figure/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/gareth/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/kc/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/mi/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/okilo/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/sure/
 hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/thai/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/wada/
+hxxp://144.76.106.114/~ridartru/administrator/manifests/files/AkeebaStrapper/yg/
 hxxp://149.202.91.58/~backtrap/gogo/
 hxxp://149.202.91.58/~backtrap/gucchi/
 hxxp://149.202.91.58/~backtrap/mi/
@@ -66,6 +76,7 @@ hxxp://185.11.147.62/keylog/
 hxxp://185.25.50.43/tras/
 hxxp://185.29.9.117/kb/ambros-20Nov-20Dec/
 hxxp://185.29.9.117/kb/conel-21nov-21dec/
+hxxp://185.29.9.117/kb/eddymic-20dec-20jan/
 hxxp://185.29.9.117/kb/steph-15Nov-15Dec/
 hxxp://185.7.34.251/~natha143/bux/cq/artbary20thJan-20thFeb/
 hxxp://185.7.34.251/~natha143/bux/cq/decap-15thJan-15thFeb/
@@ -1468,6 +1479,7 @@ hxxp://pepperdeybalms.com/sailwin/
 hxxp://pepperdeybalms.com/sam/
 hxxp://pepperest1.co.uk/kevin/keybase/keybase/
 hxxp://perfect100.in.net/huber-13dec-13jan/
+hxxp://perfect100.in.net/victor-19dec-19jan/
 hxxp://performanceoutdooradvertising.com/document/keybase/
 hxxp://pero.x10host.com/emekapero/
 hxxp://personxing.in.net/ceo19thAug/
