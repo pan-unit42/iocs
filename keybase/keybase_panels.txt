@@ -575,6 +575,7 @@ hxxp://brainnet.tk/keybase/keybase/
 hxxp://brightfriend.bplaced.net/live%20access/kbpanel/
 hxxp://brithoxagropharm.com/kelvin/
 hxxp://brithoxagropharm.com/mighty/
+hxxp://brokeaz.com.au/files/panelv5/
 hxxp://brokeaz.com.au/images/panelv5/
 hxxp://bross.redpurpleheart.com/kbpanel/
 hxxp://brownben.x10host.com/
@@ -895,6 +896,7 @@ hxxp://examgist.com/wp-includes/fonts/wp/keybase/
 hxxp://execupay.co/cgibin/kbpanel/
 hxxp://execupay.co/edu/kbpanel/
 hxxp://execupay.co/mua/kbpanel/
+hxxp://expertkliniekobesitas.com/Tomcat/keybase/
 hxxp://expressdelivery.ml/durtch/
 hxxp://expressdelivery.ml/oshe/
 hxxp://expressdelivery.ml/walta/
