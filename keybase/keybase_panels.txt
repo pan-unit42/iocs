@@ -394,6 +394,7 @@ hxxp://accurate.accuratelymade.com/kbpanel/
 hxxp://acidrain.co.in/css/keybase/
 hxxp://aco-as.com/keybase/
 hxxp://acresmaintenance.com.au/wp-includes/kbpanel/
+hxxp://active-x-resources.xyz/key/html/
 hxxp://adabil.net/key/web/
 hxxp://advertspros.com/ukraine/kbmoney/adrnin/
 hxxp://agamachuks.com/public/uploads/document/
