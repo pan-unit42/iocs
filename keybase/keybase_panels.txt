@@ -1327,6 +1327,8 @@ hxxp://mikobantis.xyz/kevbase/
 hxxp://miladpacking.com/ali/
 hxxp://millerlegacyplumbing.com/images/modules/smiley/panel/ike/
 hxxp://millerlegacyplumbing.com/include/Base/Modules/agogo/
+hxxp://millerlegacyplumbing.com/include/Base/Modules/thai/
+hxxp://millerlegacyplumbing.com/include/Base/Modules/whesilo/
 hxxp://mina-ge.com/luk/
 hxxp://minervamarines.com/polite/
 hxxp://minervamarines.com/ud/
