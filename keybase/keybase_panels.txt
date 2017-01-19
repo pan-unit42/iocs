@@ -74,6 +74,7 @@ hxxp://179.43.141.203/key/
 hxxp://185.106.120.78/keybase/
 hxxp://185.11.147.62/keylog/
 hxxp://185.25.50.43/tras/
+hxxp://185.29.11.104/2/chimmy20dec-20jan/
 hxxp://185.29.11.104/2/vineyeONE.30dec-30jan/
 hxxp://185.29.9.117/kb/ambros-20Nov-20Dec/
 hxxp://185.29.9.117/kb/conel-21nov-21dec/
