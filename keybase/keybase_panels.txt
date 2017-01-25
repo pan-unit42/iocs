@@ -225,6 +225,7 @@ hxxp://42win.info/panel/
 hxxp://45.58.116.102/~admin3/ell/kbpanel/
 hxxp://45.58.116.102/~admin5/techmo/kbpanel/
 hxxp://46.183.223.44/B/chrisone-9jan-9feb/
+hxxp://46.183.223.44/B/decap-10jan-10feb/
 hxxp://46.183.223.44/B/yokelone-9jan-9feb/
 hxxp://4asonline.com/jude/keybase/
 hxxp://4asonline.com/raybar/keybase/
@@ -795,6 +796,7 @@ hxxp://downloadpdf.superweb.ws/key/html/
 hxxp://dpdukparcel.com/mira/Miracle10thSep/keybase/
 hxxp://dragonfirea.top/seed/
 hxxp://drgrerard.eu/html/
+hxxp://dropbox-documents.us/keylogger/keybase/
 hxxp://droptheblow.ru/web/
 hxxp://drunkingmasters.com/wise/
 hxxp://drunkingmasters.com/wisefrnd/
@@ -1069,6 +1071,7 @@ hxxp://ingletsgr.ml/brics/
 hxxp://instant.bplaced.net/keybase/
 hxxp://intaplast.com/css/
 hxxp://integra.noads.biz/
+hxxp://interiorwoods.com/css/keybase/
 hxxp://iosisenergy.tk/keybase/keybase/
 hxxp://ips-trade.cn.com/kbda/
 hxxp://ips-trade.cn.com/kbfe/
@@ -2217,6 +2220,7 @@ hxxp://www.future-furnitures.com/kbpanel/
 hxxp://www.fyzee.top//senikan/web/
 hxxp://www.fyzee.top/senikan/web/
 hxxp://www.gadget2life.com//wp-content/plugins/limit-login-attempts/limit/
+hxxp://www.gadget2life.com/blog/wp-content/themes/twentyfourteen/css/fad/
 hxxp://www.gadget2life.com/en/B/images/l/
 hxxp://www.gadget2life.com/inet/dd24f292512e2f08de55b42ce1165021/images/1/
 hxxp://www.gadget2life.com/suci/box/wdd/date/images/_/hy/
