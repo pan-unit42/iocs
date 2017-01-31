@@ -80,6 +80,7 @@ hxxp://185.29.9.117/kb/ambros-20Nov-20Dec/
 hxxp://185.29.9.117/kb/boomresult17jan-17feb/
 hxxp://185.29.9.117/kb/conel-21nov-21dec/
 hxxp://185.29.9.117/kb/eddymic-20dec-20jan/
+hxxp://185.29.9.117/kb/mbshop25jan-25feb/
 hxxp://185.29.9.117/kb/steph-15Nov-15Dec/
 hxxp://185.29.9.117/kb/wizzy-17jan-17feb/
 hxxp://185.7.34.251/~natha143/bux/cq/artbary20thJan-20thFeb/
@@ -152,6 +153,7 @@ hxxp://192.169.82.254/~persona1/agogo/
 hxxp://192.169.82.86/~gurgenle/keybase/kbpanel/
 hxxp://192.169.82.86/~gurgenle/realest/kbpanel/
 hxxp://192.99.63.138/~spiralde/mine/alibalog/
+hxxp://195.154.34.135/~dosseryt/keybase/
 hxxp://198.144.121.78/~logbinor/45/16/panel/fitz/
 hxxp://198.144.121.78/~logbinor/45/16/panel/kelz/
 hxxp://198.52.161.59/~zadmin/eumep_com/api/include/pear/Math/web/
@@ -1113,6 +1115,7 @@ hxxp://johnniej.com/sq/set/
 hxxp://jojododoo.com/moni/kbpanel/
 hxxp://jojododoo.com/test/keybase/
 hxxp://jones2020-001-site1.etempurl.com/site/attorney/kbpanel/
+hxxp://jonnychangginc.ru/keybase/
 hxxp://joshu.accuratelymade.com/kbpanel/
 hxxp://joshual.accuratelymade.com/kbpanel/
 hxxp://jsadas.xyz/fidelity/web/
@@ -1216,6 +1219,7 @@ hxxp://lovespiritusmanidibus.eu/srlfix88/
 hxxp://lovespiritusmanidibus.eu/zandix33/
 hxxp://lovespiritusmanidibus.eu/zulunokx4/
 hxxp://loyalcargoexport.com/web/
+hxxp://loydsonline.co/keybase/
 hxxp://lucianojesse.com/july/kbpanel/
 hxxp://lucianowebpeace.com/keybase/
 hxxp://luiccdi.byethost13.com/children/
