@@ -7,6 +7,7 @@ hxxp://111288group.com/gold/Panel/
 hxxp://130.204.141.79/
 hxxp://139.59.235.72/testb/
 hxxp://149.56.47.207/~user/damon/
+hxxp://155.133.82.98/f7e19d73425eebe45b29d9dc658a98bb/
 hxxp://155.94.213.157/panel/
 hxxp://158.255.226.168/js/
 hxxp://162.144.111.219/~cimbonli/wp-admin/css/Panel/
@@ -432,6 +433,7 @@ hxxp://rss.updatewindow.xyz/ff/
 hxxp://s28977-hostde2.fornex.org/
 hxxp://saasport.com/wp-secure/
 hxxp://safesecuresurf.ml/fun/
+hxxp://sahko160.myjino.ru/panel/
 hxxp://salemmr.me/duzz/
 hxxp://salemmr.me/faran/
 hxxp://scorpionproject.net/bot/
@@ -443,6 +445,7 @@ hxxp://sheriffmeal.com/slim/panel/
 hxxp://shopds.ru/Panel/
 hxxp://sightgivers.org/Panel/
 hxxp://simbers.ru/doss/Panel/
+hxxp://sinangeyik.com/ezgi/
 hxxp://sincity.ga/dia/
 hxxp://site.coxslot.com/Panel/home.php/
 hxxp://sjp3.tk/data/
@@ -630,6 +633,7 @@ hxxp://www.sec.parmankulov.com/
 hxxp://www.securityupdates.online/Cicada/
 hxxp://www.seekersmatch.com/cometchat/xxx/
 hxxp://www.shortz.info/Panel/
+hxxp://www.sinangeyik.com/cem/
 hxxp://www.smithsteellimited.com/Panel/
 hxxp://www.stylehome-egypt.com/Panel/
 hxxp://www.theredbotnet.pw/gor/
@@ -665,3 +669,5 @@ hxxp://yousl.it/img/pan/
 hxxp://yumate.co/hk/
 hxxp://zachmayermusic.com/jamm/Panel/
 hxxp://ze123a.comlu.com/rat3/
+hxxp://zombieants.biz/zombieant/password/
+hxxp://zombiebear.eu.pn/
