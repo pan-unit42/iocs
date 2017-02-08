@@ -61,6 +61,7 @@ hxxp://149.202.91.58/~billrajn/two/
 hxxp://149.202.91.58/~rajahcom/alpha/
 hxxp://149.202.91.58/~rajahcom/bravo/
 hxxp://149.202.91.58/~starrive/keybase/kbpanel/
+hxxp://162.243.50.194/
 hxxp://167.160.46.7/~keycod/~/kbz/
 hxxp://17.110.11.31/1191/
 hxxp://172.245.208.16/k/
@@ -228,6 +229,7 @@ hxxp://2fastsms.com/kbpanel/
 hxxp://42win.info/panel/
 hxxp://45.58.116.102/~admin3/ell/kbpanel/
 hxxp://45.58.116.102/~admin5/techmo/kbpanel/
+hxxp://46.183.222.111/boomresult17jan-17feb/
 hxxp://46.183.223.44/B/chrisone-9jan-9feb/
 hxxp://46.183.223.44/B/decap-10jan-10feb/
 hxxp://46.183.223.44/B/yokelone-9jan-9feb/
@@ -254,6 +256,7 @@ hxxp://78.142.63.64/~ringerme/ekeh881/
 hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
+hxxp://84.38.129.59/edydmic-7feb-2weeksOnly/
 hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
 hxxp://84.38.132.56/atm1/vineye7oct-7nov/
 hxxp://84.38.132.56/davidk27sept=27oct/web/
@@ -446,6 +449,7 @@ hxxp://ambicaindustries.tk/css/~js/codes/.aspx/
 hxxp://ameri.seadeeponline.com/logs/members/
 hxxp://aminedata.pe.hu/keybase/keybase/
 hxxp://anantapra.com/imgs/keybase/
+hxxp://andriod.linkpc.net/save/admin/
 hxxp://aneeshnewone.in/web/
 hxxp://anonleakz.890m.com/keybase/keybase/
 hxxp://anonykingpin.org/keybase/web/
@@ -1221,6 +1225,7 @@ hxxp://lovespiritusmanidibus.eu/srlfix88/
 hxxp://lovespiritusmanidibus.eu/zandix33/
 hxxp://lovespiritusmanidibus.eu/zulunokx4/
 hxxp://loyalcargoexport.com/web/
+hxxp://loydsonline.co/en/
 hxxp://loydsonline.co/keybase/
 hxxp://lucianojesse.com/july/kbpanel/
 hxxp://lucianowebpeace.com/keybase/
@@ -1462,6 +1467,7 @@ hxxp://olincommsdrive.tk/.apex/.inc/kbwp/
 hxxp://oluwabukunmi.com/mcc/kbpanel/
 hxxp://oluwapanel.wc.lt/keybase/keybase/
 hxxp://oluwapikin.net/new/web/
+hxxp://omantell.net.in/components/bravo/
 hxxp://omantell.net.in/components/chibu/
 hxxp://omarabdulaziz.com/oni/
 hxxp://omarabdulaziz.com/test1/
