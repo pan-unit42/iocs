@@ -359,6 +359,7 @@ hxxp://93.115.38.30/~rajahsta/fresh/kbpanel/
 hxxp://93.115.38.30/~rajahsta/ike/kbpanel/
 hxxp://93.115.38.30/~rajahsta/pxxx/kbpanel/
 hxxp://93.115.38.30/~rajahsta/py/kbpanel/
+hxxp://93.119.123.107/html/
 hxxp://94.102.49.112/~eightmax/wp-includes/S/eddy15thJan-15thFeb/
 hxxp://94.102.49.112/~eightmax/wp-includes/S/willy27thJan-27thFeb/
 hxxp://94.102.49.112/~eleventh/D/ben2fax-24thJan-24thFeb/
@@ -1934,6 +1935,7 @@ hxxp://tripleshop.id/userfiles/media/pixum/alpha/
 hxxp://tripleshop.id/userfiles/media/pixum/ariri/
 hxxp://tripleshop.id/userfiles/media/pixum/ike/
 hxxp://tripleshop.id/userfiles/media/pixum/matte/
+hxxp://tripleshop.id/userfiles/media/pixum/nels/
 hxxp://tripleshop.id/userfiles/media/pixum/soft/
 hxxp://tripleshop.id/userfiles/media/pixum/wada/
 hxxp://tripleshop.id/userfiles/media/pixum/whesilo/
