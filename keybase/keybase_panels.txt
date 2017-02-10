@@ -256,6 +256,7 @@ hxxp://78.142.63.64/~ringerme/ekeh881/
 hxxp://78.142.63.64/~ringerme/mryungi72/
 hxxp://82.211.23.10/_botnet/
 hxxp://82.211.60.148/keybase/
+hxxp://84.38.129.59/davidsl-7feb-7mar/
 hxxp://84.38.129.59/edydmic-7feb-2weeksOnly/
 hxxp://84.38.132.56/atm1/eddymicky5oct-5nov/
 hxxp://84.38.132.56/atm1/vineye7oct-7nov/
@@ -1401,6 +1402,7 @@ hxxp://nationalexchange.it/_panel/
 hxxp://nationaltradeshowmodels.com/wp-includes/theme-compat/kbpanel/
 hxxp://nationwidecourierexpress.com/copy/kbpanel/
 hxxp://naystvbxu.com/image/test/kbpanel/
+hxxp://nayyrerindustries.com/includes/
 hxxp://ndcharlie-001-site1.ftempurl.com/site/awards/kbpanel/
 hxxp://ndewosis.nut.cc/slambadtmt/
 hxxp://ndimalagroups.gq/malatwo/
