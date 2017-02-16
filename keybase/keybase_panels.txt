@@ -230,6 +230,7 @@ hxxp://42win.info/panel/
 hxxp://45.58.116.102/~admin3/ell/kbpanel/
 hxxp://45.58.116.102/~admin5/techmo/kbpanel/
 hxxp://46.183.222.111/boomresult17jan-17feb/
+hxxp://46.183.222.111/decap-10jan-10feb/
 hxxp://46.183.222.111/steph-15Nov-15Dec/
 hxxp://46.183.222.111/willyfrank4jan-4feb/
 hxxp://46.183.223.44/B/chrisone-9jan-9feb/
