@@ -978,6 +978,7 @@ hxxp://oluwapanel.wc.lt/keybase/keybase/
 hxxp://oluwapikin.net/new/web/
 hxxp://omantell.net.in/components/bravo/
 hxxp://omantell.net.in/components/chibu/
+hxxp://omantell.net.in/components/delta/
 hxxp://omarabdulaziz.com/test1/
 hxxp://omarabdulaziz.com/ud/
 hxxp://omniscientstraps.com/kbpanel/
