@@ -151,6 +151,7 @@ hxxp://2fastsms.com/kbpanel/
 hxxp://42win.info/panel/
 hxxp://45.58.116.102/~admin3/ell/kbpanel/
 hxxp://46.183.222.111/boomresult17jan-17feb/
+hxxp://46.183.222.111/decap-10jan-10feb/
 hxxp://46.183.222.111/steph-15Nov-15Dec/
 hxxp://46.183.223.44/B/chrisone-9jan-9feb/
 hxxp://46.183.223.44/B/decap-10jan-10feb/
@@ -1473,6 +1474,7 @@ hxxp://www.expart.usa.cc/issac/
 hxxp://www.eyeclinic.be/images/pic/assets/img/img/
 hxxp://www.eze.pe.hu/
 hxxp://www.fabolservices.com/creation/tuition/oman/
+hxxp://www.felicitari360.ro/source/drivers/jizzy/
 hxxp://www.filezilla.usa.cc/scardo-bros/
 hxxp://www.filezilla.usa.cc/styl/
 hxxp://www.filezilla.usa.cc/stylman/

@@ -6,6 +6,7 @@ hxxp://109.87.105.104/Panel/
 hxxp://111288group.com/gold/Panel/
 hxxp://130.204.141.79/
 hxxp://139.59.235.72/testb/
+hxxp://143.95.38.201/~sjayaram/img/web/css/
 hxxp://149.56.47.207/~user/damon/
 hxxp://155.133.82.98/f7e19d73425eebe45b29d9dc658a98bb/
 hxxp://155.94.213.157/panel/
