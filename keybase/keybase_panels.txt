@@ -556,6 +556,7 @@ hxxp://dynamoacademy.mx/sync/kbpanel/
 hxxp://easternricemill.com/gallery02/kbpanel/
 hxxp://easternricemill.com/gallery04/pages/kbpanel/
 hxxp://easternricemill.com/gallery09/kbpanel/
+hxxp://ecasrev.com/keybase/
 hxxp://echo.6te.net/
 hxxp://edvolution.ca/keybase/
 hxxp://egoist-games.zz.mu/key/
@@ -1104,6 +1105,7 @@ hxxp://ressurectionplayerz.biz/donzidan/
 hxxp://ressurectionplayerz.biz/galaxy/
 hxxp://ressurectionplayerz.biz/ibglob/
 hxxp://ressurectionplayerz.biz/mack/
+hxxp://ressurectionplayerz.biz/obidede/
 hxxp://ressurectionplayerz.biz/sanchez/
 hxxp://ressurectionplayerz.biz/uche/
 hxxp://restnwire.no-ip.biz/feel/
