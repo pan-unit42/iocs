@@ -1503,6 +1503,7 @@ hxxp://www.gadget2life.com//wp-content/plugins/limit-login-attempts/limit/
 hxxp://www.gadget2life.com/blog/wp-content/themes/twentyfourteen/css/fad/
 hxxp://www.gadget2life.com/en/B/images/l/
 hxxp://www.gadget2life.com/inet/dd24f292512e2f08de55b42ce1165021/images/1/
+hxxp://www.gadget2life.com/suci/box/wdd/date/images/_/hy/
 hxxp://www.gadget2life.com/wp-admin/images/fresh/newlyupdate/8-login-form/css/fad/
 hxxp://www.gamradsi.gq/maro/
 hxxp://www.gatarcement.com/forum2/
