@@ -549,7 +549,7 @@ hxxp://droptheblow.ru/web/
 hxxp://drunkingmasters.com/wise/
 hxxp://drunkingmasters.com/wisefrnd/
 hxxp://dubandigwe.net76.net/
-hxxp://dugmakstekstil.com//images/kbpanel/
+hxxp://dugmakstekstil.com/images/kbpanel/
 hxxp://dunikuzimunichi.net/mxix88/
 hxxp://dwtrade.biz/ForeignBase/
 hxxp://dynamoacademy.mx/sync/kbpanel/
@@ -630,8 +630,8 @@ hxxp://fabsthings.com/sam/keybase/
 hxxp://fabsthingso.com/keybase/
 hxxp://faimediavision.x10host.com/Fai/kbpanel/
 hxxp://faith56.pe.hu/kbpanel/kbpanel/
-hxxp://farmaciasbrasilonline.com.br//htt/web/
 hxxp://farmaciasbrasilonline.com.br/cbi/web/
+hxxp://farmaciasbrasilonline.com.br/htt/web/
 hxxp://farmbase.org/keybase/
 hxxp://favourworkingssouthys.com/keybase/
 hxxp://fggccalabar.net/f/wp-includes/ID3/kb/keybase/
@@ -757,8 +757,8 @@ hxxp://kaycassi0.net/bs1/kbpanel/
 hxxp://kaycassi0.net/debe/kbpanel/
 hxxp://kaycassi0.net/ed1/kbpanel/
 hxxp://kaycassi0.net/mst1/kbpanel/
-hxxp://kaytechh.com//Tm/kbpanel/
 hxxp://kaytechh.com/KB2/kbpanel/
+hxxp://kaytechh.com/Tm/kbpanel/
 hxxp://kaytechie.com/kb/kbpanel/
 hxxp://kbas.zz.vc/keybase/
 hxxp://kearnypoint.com/css/kbmine/
@@ -924,7 +924,7 @@ hxxp://mtijani.com/lucky2/keybase/
 hxxp://muhamadgroup.eriwaegopc.in/cyr/
 hxxp://musa1960-001-site1.btempurl.com/site/attorney/feed/bk/
 hxxp://muyitools.wc.lt/unicorn/
-hxxp://mvzdresden.de/joomla///images/kbmine/
+hxxp://mvzdresden.de/joomla/images/kbmine/
 hxxp://mycpanel.ru/panels/panel31/
 hxxp://mycpanel.ru/panels/panel32/
 hxxp://mydogoodto.com/k/
@@ -1223,7 +1223,6 @@ hxxp://smtpcart.com/bin/keybase23/
 hxxp://smtpcart.com/bin/keybase24/
 hxxp://smtpcart.com/bin/keybase3/
 hxxp://smtpcart.com/bin/keybase5/
-hxxp://sn00k1321nc.com//nkm/snkwrld/
 hxxp://sn00k1321nc.com/admin/master/kbpanel/
 hxxp://sn00k1321nc.com/masterx/snkworld/
 hxxp://sn00k1321nc.com/nkm/snkwrld/
@@ -1256,7 +1255,7 @@ hxxp://stimby.org/polite/
 hxxp://strabagindia.com/image/panel/
 hxxp://striker231.bplaced.net/keybase/
 hxxp://strutitinca.ro/metrix/
-hxxp://studio020.com//fashion/kbpanel/
+hxxp://studio020.com/fashion/kbpanel/
 hxxp://studiosofie.com/fox/
 hxxp://subdivideandconquer.com/images/web/
 hxxp://sunnysk.tk/sunny/
@@ -1365,7 +1364,7 @@ hxxp://work3.t1nkem.com/
 hxxp://work7.t1nkem.com/
 hxxp://workacademyonline.com/Access/Mini/
 hxxp://workingbb.com/bna/snkwrld/
-hxxp://workwithcollins.com//max1/keybase/
+hxxp://workwithcollins.com/max1/keybase/
 hxxp://workwithcollins.com/private/dewane/
 hxxp://worldsvisionintl.com/js/k/kiss/
 hxxp://wtscript.ru/
@@ -1377,6 +1376,7 @@ hxxp://www.2esonline.com/panel/aud/kbpanel/
 hxxp://www.a-bide.com/wp-admin/white/
 hxxp://www.a8hexk.org/keybase/
 hxxp://www.abclogtouches.com/create/keybase/
+hxxp://www.abclogtouches.com/file/keybase/
 hxxp://www.abclogtouches.com/keybase/
 hxxp://www.abcroyale.com/home/tipo/
 hxxp://www.abracadabrahocuspocus.com/kbpanel/
@@ -1454,7 +1454,7 @@ hxxp://www.dregyunion.in/kbpanel/
 hxxp://www.dwtrade.biz/KeyBase/
 hxxp://www.dwtrade.biz/KeyBase2/
 hxxp://www.dwtrade.biz/KeyBase3/
-hxxp://www.ealeygroup.com//assets/layout/kbpanel/
+hxxp://www.ealeygroup.com/assets/layout/kbpanel/
 hxxp://www.easternricemill.com/gallery09/kbpanel/
 hxxp://www.echo.6te.net/
 hxxp://www.edugod.info/keybase/
@@ -1499,13 +1499,13 @@ hxxp://www.frankyzulike.org.in/steve10thSept/
 hxxp://www.frightsecservice.com/emirised/practice/
 hxxp://www.frightsecservice.com/tutorial/samples/
 hxxp://www.future-furnitures.com/kbpanel/
-hxxp://www.fyzee.top//senikan/web/
-hxxp://www.gadget2life.com//wp-content/plugins/limit-login-attempts/limit/
+hxxp://www.fyzee.top/senikan/web/
 hxxp://www.gadget2life.com/blog/wp-content/themes/twentyfourteen/css/fad/
 hxxp://www.gadget2life.com/en/B/images/l/
 hxxp://www.gadget2life.com/inet/dd24f292512e2f08de55b42ce1165021/images/1/
 hxxp://www.gadget2life.com/suci/box/wdd/date/images/_/hy/
 hxxp://www.gadget2life.com/wp-admin/images/fresh/newlyupdate/8-login-form/css/fad/
+hxxp://www.gadget2life.com/wp-content/plugins/limit-login-attempts/limit/
 hxxp://www.gamradsi.gq/maro/
 hxxp://www.gatarcement.com/forum2/
 hxxp://www.gatarcement.com/forum3/
@@ -1743,7 +1743,7 @@ hxxp://www.ucakbileti1.com/wp-includes/pomo/keybase/
 hxxp://www.udoka.pixub.com/forum/
 hxxp://www.ugonna.besaba.com/keybase/
 hxxp://www.uk-aidnetwork.org/my/keybase/
-hxxp://www.usanest.com//archer/keybase/
+hxxp://www.usanest.com/archer/keybase/
 hxxp://www.usmanmartin.allalla.com/ugonna/
 hxxp://www.uvdainv.co.il/jay/kbpanel/
 hxxp://www.velvetpremiernet.com/kbpanel/
