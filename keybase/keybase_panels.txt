@@ -1076,6 +1076,8 @@ hxxp://jenvy.org.in/jonotwo-14thSept/,2015-10-10 03:50:27,8cf4c22a7ed58c3dd2964c
 hxxp://jenvy.org.in/richever-17thSept/,2015-10-20 04:18:27,eec2b84aef98ac47532575a02688241c2468db7c02de49da9ee28efdaf22a4f0
 hxxp://jenvy.org.in/thetwo-Oct14th/,2015-10-16 15:33:32,01a2709487c80dc846b953a8943a0377979cbc2ecfbc4733249ae30e1bbedbb1
 hxxp://jenvy.org.in/willy1stSept/,2015-09-22 03:31:13,192492ebb5d5068568a5bee0b0c0e087a6e13fef1c66b7932e16d4f01d2dc4d7
+hxxp://jigaz1.postmaster.host/me/admin/,2017-03-29 17:32:10,a87ce8d1f6bcefe35321deb58cf6beaee65cee748f606b48490378aa5802a52a
+hxxp://jigaz1.postmaster.host/save/admin/,2017-03-29 22:06:53,7c8c981f28f90719e18b8f1a8a3537d798d4665b6bd9b0086e27130042d54762
 hxxp://jizymukushiku.net/91fx/,2015-06-10 19:04:31,dbafacb8a86f6a9434125c522cb5dc2c373c92c264d1981455eedcf97d4d08ec
 hxxp://jizymukushiku.net/sobem67/,2015-08-10 05:52:12,302ecbb084d56b06931b3206b6f6f86c68d8309f43842a37f1c3519ebb0bc5de
 hxxp://jmanixipreax.eu/firdOwn/,2016-02-17 06:02:18,f25046f068b178305e8e17c71134a50aa45369a6ed41f6e60f84e628ca0b6c39
