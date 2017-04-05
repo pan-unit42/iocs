@@ -10,6 +10,8 @@ hxxp://defaomfg.com/infopasas/pasais/,2017-01-05 20:15:48,5cd919c37b155a2d83d9b1
 hxxp://defaomfg.com/solobiz/webpazz/,2016-12-21 04:34:25,3e74a6108f4c5fc3bcca207735339a967e8237c1b0b43857532c2cd5d6688d17
 hxxp://douglascellings.com/panel/,2017-01-24 13:29:52,a786abf25cbbbb261b1d7d1539e02114ccf6c5613c241f4858b026123361126f
 hxxp://fash2v.com/panel/,2017-02-05 11:13:28,179a9cd80a180dc5a6348c591d6273374a4a1a3aba1aa4a7584cdcfe374b324b
+hxxp://friendfinances.com/WebPanel/,2017-04-04 00:00:00,Submission
+hxxp://friendfinances.com/java/WebPanel/,2017-04-04 00:00:00,Submission
 hxxp://halifacxz.com/chigo/chigo/,2017-01-25 10:31:20,05d8f5b142c3070f91abbba8abb8192258e0e430b59df891c425d55f923d6b50
 hxxp://hopewordnlos.info/tere/,2017-03-17 00:00:00,Submission
 hxxp://hugoslyltd.com/meandjeff/office/,2017-01-30 16:48:09,492c8f83530b98339728dd6be3726c225347d25486f846d7b35a5fbfe82170af
@@ -29,6 +31,7 @@ hxxp://sender.agenttesla.com/,2016-11-29 06:28:47,c9d1e4ce64f593574afe4d43791604
 hxxp://someshitejob.ru/shit/,2017-01-17 18:28:13,a8392bf6d327a9ec9ef2dd5135cc9cf8a5f9e33d01ee3e1196508f31caf38842
 hxxp://sosignshome.com/res/,2017-01-08 16:16:52,34ea0e188926b7a207bb677760cb1667847f4cf5923742915d267b415417456f
 hxxp://steamstatus.pw/,2017-03-07 20:23:35,b3709fc8f2e2e23d0aa04d5bc484abaf5e5b63769759d72db74900ee04d20381
+hxxp://stlmre.xyz/mx/,2017-04-04 00:00:00,Submission
 hxxp://suchsuggestions.com/t/,2017-03-17 00:00:00,Submission
 hxxp://transfoffer.com/emmy/,2017-03-17 00:00:00,Submission
 hxxp://transfoffer.com/help/,2017-03-17 00:00:00,Submission
