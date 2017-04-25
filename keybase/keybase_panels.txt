@@ -625,6 +625,7 @@ hxxp://centropediatricocalero.com/language/overrides/kbpanel/,2015-12-17 04:50:0
 hxxp://cer-dgroup.cf/malay1/,2016-06-27 05:41:42,e1d760bd7c15ee773a8d5085815d91fe26f6d9a9182e96d58fe729a3f6e32eb7
 hxxp://cer-dgroup.cf/malay2/,2016-06-27 05:22:02,b73f661f9d3bcf4e2c99a9eb4d70c192657303cbb4ace7b3944dca5fe8777447
 hxxp://cfaclubs.tk/uptonpark/msoffice/91/kbpanel/,2016-06-29 01:01:33,0eefc74fc0b204c22bac55d2176027a6c6f2c0bfc3137dafd024bf25e227a938
+hxxp://charlesanagbaoso.com.ng/test/kbpanel/,2017-04-24 06:26:58,05646f3234ad72a733f5e7976c725d7866ad255081c0fdf6c38a1fd06166430d
 hxxp://charlesman.bplaced.net/live%20access/kbpanel/,2016-02-19 00:27:20,60d222bcf54c4230c50a222c116093aa368fe66c5b6451a66edd4317ec6ee934
 hxxp://chcfi.com/api/assets/default/images/icons/imgs/,2015-08-30 17:35:24,fa0e7735f7f24dca26d8cf9de253fadf80f9395aa6eb92092e71cf39a8f8fc7f
 hxxp://chcfi.com/api/scp/images/icons/imgs/,2015-08-24 09:13:15,dbac515c5ce6ac1c60414ec7a02cdc189fd9ebdaac39f4046b897c26a026cd3a
