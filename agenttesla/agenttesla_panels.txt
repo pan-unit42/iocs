@@ -67,6 +67,7 @@ hxxp://www.essentialsupdate.com/,2017-02-10 21:37:56,85cb743db3cd332899b1296baf1
 hxxp://www.nellsonn.com/,2017-06-05 07:34:36,2d7342f8bf4842577ac47ac7c6b5e62dcfe08b7ef1c019c691691511f36b5c70
 hxxp://www.nexuscoltd.com/,2017-04-02 16:53:42,60cdcc68f3ad90dd5cb907cb5009a5daf678a7d8abbf2b879997baed06ea8edb
 hxxp://www.signaturehealthcarltd.com/images/WebPanel/,2016-12-27 18:51:04,a94ce4f6b0cee3322b36f7b647ed11920043f1e3720430c08fb9dd37d9188aa6
+hxxp://www.vacanzaimmobiliare.it/testla/WebPanel/,2017-06-07 21:21:26,8e7d67d608024cb3e4191efc5c7921f48e08f1ff88936828f3b797efe3272cc6
 hxxp://www.vimeostream.com/,2016-12-14 05:39:15,ab5dac8a826350b61bee2c2c63294662782f867bf823cb2489d1099397a99b93
 hxxp://xbool.ru/a/tesla/RTZTwZm4Vp8f3ULc/,2017-01-24 13:48:40,9884b46aee292cefcd37e62f863552b40d3c300fba15c386f84ed0e9d95c0ee9
 hxxp://xbool.ru/a/tesla/nuCc382Wtw94pLmu/,2017-02-01 14:06:53,390013841ab1ce258eb1b6c94c4f2d78cefccda2be3b6212543ef34952fb9731
