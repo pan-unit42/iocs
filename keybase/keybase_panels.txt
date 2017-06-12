@@ -1488,6 +1488,7 @@ hxxp://ozkarmakine.com/cssl/web/,2015-11-26 19:30:28,e8b4138d6f01ecb0351474ab513
 hxxp://ozkarmakine.com/ing/web/,2015-12-13 01:38:50,9f4f1f9038137fc9002185a8ff6f3648a0b78f5647a93d017654654466c19f94
 hxxp://ozkarmakine.com/netpts/web/,2015-12-10 21:09:01,74776f8fbf0427e830308cbb315d3715f282ae709c8d2c1b3441d2d89bbdeb07
 hxxp://pahan123-001-site1.1tempurl.com/keybase/keybase/,2016-07-09 09:59:52,7f2ce0f429ecb6884710272d2a93a0e0abf7c1b9da05b92c1961af5ddf5f14b2
+hxxp://panafrique.co.ug/.key/keybase/,2017-06-11 20:22:23,7f4f01e0e47c68e5da06bbf4715f80e26b900521b5b7293ed8e018dbc72c8e2a
 hxxp://panel1.investmentcreditbase.co.uk/,2016-08-12 13:42:50,3d66469b3959e7e2d0c3645c18a94b916c39cba3540b18e84c65a020d4710ad3
 hxxp://panelfree.zz.mu/K/kbpanel/kbpanel/,2016-05-06 17:02:27,eb7aca664a2a19ebca917fd1e32852509a6cf0cb42f538cb04dc3842bc753adb
 hxxp://panelfree.zz.mu/K/webpanel_v1.6/,2015-10-29 09:38:41,019d1455a7cd812ee2c7a5db69ca3ec0a9257938667fed915666f410cef18fb6
