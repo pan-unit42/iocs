@@ -247,6 +247,7 @@ hxxp://finedinner.biz/news/,2016-02-17 23:02:12,fbe361734dbfc2fa6dd6e0f03289f2ff
 hxxp://firefox-upgrades.com/maker/,2015-06-30 01:19:41,019b17dd227e0d53475aaf042692fa79eec0003136c89f6f88704db32854c341
 hxxp://flyrecords.fr/Panel/,2015-09-13 02:43:03,ed87b31905c4ed205aae20bb62906c678a356380a8c54b7db9cf6417ae599807
 hxxp://food6623.eating-organic.net/dia/,2015-12-18 17:21:18,8b5767e0724ac174f4584a38d0743104d040ecf2335431c2f6da0911b7610cbd
+hxxp://forginglinks.net/Panel/,2017-06-18 20:02:48,739d7b07cb5335e24a7984ab6fff1b5de591a12cd3a333a42326023c55a7260f
 hxxp://foxbotpanel.org/diamondfox/,2017-05-12 00:00:00,Submission
 hxxp://fraudavenger.org/burnup/,2015-12-12 05:32:30,7bac7a5fb4c2d0d66fbe539fd85157a996ece0f7ad8e42770ade1396786b9423
 hxxp://fraudzz.cc/admin/,2016-01-19 16:42:25,bca9b5a324cd778e71fab207f885d0ed019e026c5e29476ea2990493bf6aa87e
