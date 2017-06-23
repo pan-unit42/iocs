@@ -257,6 +257,7 @@ hxxp://freexbl.co/Panel/,2015-08-07 06:57:06,4ebbbde7f4a5fc18de493dbb810916e83f9
 hxxp://fsicreative.com/js/Panel/,2016-05-07 06:21:55,4a506a5331defe80d6266dcb3d09b79c3d1708af6f3c25e6e69adf62c2c80409
 hxxp://fsk-polistroy.su/administrator/he1p/,2016-09-04 10:22:25,f63c76f81a0855026689a74b6348fab51599be574b11e96d49fc20abe206d72d
 hxxp://fullexpert.byethost7.com/Panel/gate.php/,2015-10-29 06:41:26,a1567d45823cc016e4dad03fbd54e6592efd6b1ef3069cadb88beafaccb3c7c1
+hxxp://fusionpoint.pk/Danel/,2017-06-22 16:08:50,ef590d2c37fd111a41103aa43e5fbee132b3da5aacd77157137ac1bd20650674
 hxxp://g951876v.bget.ru/,2016-03-03 12:39:35,c8ac92bd05ea68f113132cafd5e1b64ba0af6f1d15a6a4eacc7393f19befbe8c
 hxxp://galaxycrystal.pw/,2015-10-15 19:49:31,95c7bd485fdf1aeec3e1d5db661e9d08bdf0eed723bd910162c99fd85e4cb239
 hxxp://galereslafayette.com/ta/Panel/,2015-06-19 05:16:02,aed1bf1545f4a548fd55d46f99881b5715ed0b8a77ef87939cb1daf410747ff6
@@ -677,6 +678,7 @@ hxxp://www.netrec.net/dr/,2015-07-29 08:54:44,9118c2ed045b199ba43ab03dbdedaf162d
 hxxp://www.nmobe.com/reinstate/lampedusa/,2016-06-01 23:55:09,ac3da94c676df6ee31ed05e631a7c3fda7cfc35c9e4ce26a6a579eb14bbc59a8
 hxxp://www.nudeteensex.net/lib/css/lank/,2017-02-10 04:54:12,95248d9adc48e2eb05b7851d99e66638c26e3afd16607a5dca73cfd5c548ab8b
 hxxp://www.ogeneinaamin.com/ex/Panel/,2016-04-16 00:13:03,a42c386eab04c7166d889716627de0b3e7b4b20c9c80b43b4b082c4ac32cde43
+hxxp://www.ot-one-stop-shop.com/wp-content/uploads/2013/Panel/,2017-06-22 01:10:34,56e376af3482157d4396438c3791dc2f8f3bfedad8768f679907bc7bf789c0e0
 hxxp://www.panninispizzeria.tk/Panel/,2015-08-23 06:57:34,80a50991d76a0697e5ff952d6743ab9d43231989590e45bcb049e80564969b30
 hxxp://www.peterdiamondf.in.net/html/,2015-09-04 08:43:33,f7a780a30ee07966f6c6d462104c0e5717b85e6b7c4e977c3a7e22814cfa5edd
 hxxp://www.pieskowezycie.biz/Panel/,2015-09-19 17:40:39,723d1c61208a5a4aa1ad705969500d63d30160bf2955e39eaf5169ed4bb373f1
