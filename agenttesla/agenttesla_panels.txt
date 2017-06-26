@@ -12,6 +12,7 @@ hxxp://defaomfg.com/dosky-lala/buzoo/rebnasz/,2016-12-21 06:59:04,ae91edadbe9de1
 hxxp://defaomfg.com/infopasas/pasais/,2017-01-05 20:15:48,5cd919c37b155a2d83d9b1cd0bcaf7b63592c172c2d00ea1e24afd19f0cde152
 hxxp://defaomfg.com/solobiz/webpazz/,2016-12-21 04:34:25,3e74a6108f4c5fc3bcca207735339a967e8237c1b0b43857532c2cd5d6688d17
 hxxp://douglascellings.com/panel/,2017-01-24 13:29:52,a786abf25cbbbb261b1d7d1539e02114ccf6c5613c241f4858b026123361126f
+hxxp://dovemessengers.com/WebPanel/,2017-06-25 19:42:57,87048c05903fadf3920acb86cba69aa2820111f3cafecd366af1f8d86417408e
 hxxp://dropped.cf/DieK/,2017-06-20 04:41:20,8a8e46fffe9b72c30aa8e0d6cb177e331d575f48daedbd4a53efffc2baa7d49f
 hxxp://fash2v.com/panel/,2017-02-05 11:13:28,179a9cd80a180dc5a6348c591d6273374a4a1a3aba1aa4a7584cdcfe374b324b
 hxxp://frank.diplomaticsecurityservicelondon.com/,2017-06-12 08:25:33,95431015bb024b3f3bb3090840c4a0be58abce12845bb41a4e4cd2bfd4ffd382
@@ -73,6 +74,7 @@ hxxp://www.appleconnect.online/,2017-02-09 12:20:05,58435950f782a6eb57f06cc188b3
 hxxp://www.blockchian.us/ag/p/,2017-06-19 05:51:14,55f5f3c00f67e228f75dc522e33301c6f9fe066bfb19bdde5a04c3885c00d1d9
 hxxp://www.combinaparts.com/mywebpageapps/,2016-12-20 02:41:17,ea36e2f0255f9be16c291e62523af6a622b7e27f837e06cabf2175021157cb02
 hxxp://www.cyberfreakz.cf/tesla/agent002/,2017-06-19 10:57:49,c80413bd9e168ab86a1c5e0879bce7f85e20e6129d355f7c089474689b502c5b
+hxxp://www.cyberfreakz.cf/tesla/agent2901/,2017-06-25 19:40:09,866b72251cd8ba311f018fef2028aca27916f948f2e6c014f5c7ebd40e28f758
 hxxp://www.defaomfg.com/infopasas/pasais/,2017-01-05 20:41:46,a266932ed5c6759854567994b47f1f1d19b87986416d9c2a7b61ce32e9268113
 hxxp://www.diplomaticcourier.net/pic/Panel/,2016-12-20 16:14:35,de77426429a753a40527549f75da00cdf4cc3395a8ce5c8b3121f8d8a1dfced9
 hxxp://www.essentialsupdate.com/,2017-02-10 21:37:56,85cb743db3cd332899b1296baf1d374c8851c3dbb9d320f8e634de9663743b56
