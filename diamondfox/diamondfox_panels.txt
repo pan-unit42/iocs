@@ -195,6 +195,7 @@ hxxp://devinartcoderfox.esy.es/Panel/,2016-02-20 03:46:33,86d6836a94558e72b82236
 hxxp://diafox.xyz/Panel/,2015-12-11 08:43:01,b700e50147dd478b0e6a094d4e04f663575ee9ed5fa19ba33becd528b8fff916
 hxxp://diamond.cpbph2.com/Panel/,2015-11-17 14:50:26,fbc461ecbb4732f0a73cbfb7392636ffd8416feae393ff715bc30f18ce1e9fe4
 hxxp://diamond.wuwy.net/,2016-11-02 20:18:09,deb44ac3be9cb23c99da30bb72ac8371bf894a2669b27c1944a3170d2859c19a
+hxxp://diamondfo.atspace.cc/,2017-06-27 09:55:03,a8139849b70226ed13abc68c04c712be281e01c7e81d3c2c3bdb0f0ae0504de3
 hxxp://diamondfox.co.nf/install.php/,2016-11-22 20:52:27,5dd8cec8dad75043eb7b5e2ae2ce0d0c7898b9349ddbe7c3be21f07dd3d7b1eb
 hxxp://diamondnet.oxulyt1i.bget.ru/,2016-02-28 23:08:03,9a89b663d69d62a71b97da2d95cd64d529156cdcee93ff6d337f06120ea1ac6a
 hxxp://dichvusamp.host22.com/,2016-04-10 00:38:33,bdeea31dc1fcc6ea24ff0eda7718fabb6b6828b3353b1395d9eaccd3e3770bcd
@@ -256,6 +257,7 @@ hxxp://freecreditcards.cf/nope/,2015-07-10 22:27:43,ca6d3593337ec54f7ce383f95633
 hxxp://freexbl.co/Panel/,2015-08-07 06:57:06,4ebbbde7f4a5fc18de493dbb810916e83f9de15870bd3df2a7187a25186cb047
 hxxp://fsicreative.com/js/Panel/,2016-05-07 06:21:55,4a506a5331defe80d6266dcb3d09b79c3d1708af6f3c25e6e69adf62c2c80409
 hxxp://fsk-polistroy.su/administrator/he1p/,2016-09-04 10:22:25,f63c76f81a0855026689a74b6348fab51599be574b11e96d49fc20abe206d72d
+hxxp://fsoc.cf/,2017-06-27 03:50:31,8282cf76f100d1f2a42a3b4e6c9a7e2699e32d056ac602cde3b5fbcd7a9436f1
 hxxp://fullexpert.byethost7.com/Panel/gate.php/,2015-10-29 06:41:26,a1567d45823cc016e4dad03fbd54e6592efd6b1ef3069cadb88beafaccb3c7c1
 hxxp://fusionpoint.pk/Danel/,2017-06-22 16:08:50,ef590d2c37fd111a41103aa43e5fbee132b3da5aacd77157137ac1bd20650674
 hxxp://g951876v.bget.ru/,2016-03-03 12:39:35,c8ac92bd05ea68f113132cafd5e1b64ba0af6f1d15a6a4eacc7393f19befbe8c
@@ -285,6 +287,7 @@ hxxp://hacknetgch.h1n.ru/panel/,2016-12-11 10:35:29,b872eca176de3200b69f6556e97e
 hxxp://hcriopvnkljrt.in/DrCx/,2015-12-17 22:12:43,9ac442f4638802174eff615c8ce6e76bc525447690b8a8c5e3b329032a8c5b65
 hxxp://hcriopvnkljrt.in/dibua/,2015-12-20 23:39:47,79df181e06cfa0ace7ced07c05426371d1f0b2cec03795ae508ec17943b613ca
 hxxp://hcriopvnkljrt.in/drci2/,2015-12-03 20:36:45,4a08d7d8af372d73c07ed925bb0968b77977639605a91f86c10c8ddf48425d19
+hxxp://heavyboss.ru/mfox/Panel/,2017-06-27 19:50:57,937251bf0865eaee77b3859b887b722134588ff8921178cf7ed22ffdafb4d2af
 hxxp://hidemynet.xyz/gg/,2015-10-25 04:26:17,ab5c5fe40181b1914213791a7d09450135c9c9e0bbbd2a792ad05af9cfdb9ca5
 hxxp://hidemynet.xyz/gory/,2015-10-25 03:47:25,6e7be5992c7f97d150d85871fcd87d940cbe357b72760a5f9333f1511bdf3ada
 hxxp://hidemynet.xyz/inlove/,2015-10-24 16:55:49,e1968a3df621b37632fa7f25ea32c98f1581f9266367c306ead9617f728bfc22
