@@ -1182,6 +1182,7 @@ hxxp://kreativewebsite.com/guest/wizz/,2015-11-19 08:59:04,5c1fe914477bb83506363
 hxxp://kreativewebsite.com/jss/web/,2015-11-15 19:33:16,4f3d206fd1473a05bbaba697ac1ca62014167db86796baaa68b7b3d992c5f54f
 hxxp://krookedphotography.hol.es/kbpanel/,2015-08-07 14:07:20,4f4f4133658c2bdd84296f25c967c1758ccfa9cd916dea70b8742a6c66bd4598
 hxxp://kushmunahdhziz.net/hlp4Gd/,2015-08-10 23:42:51,8b68831bcb90e10d82710fa2e0dc3fbf5d4ead38675bbb542459d0267b8ea112
+hxxp://kvantagranit.pl/language/web/,2017-06-28 02:25:53,bd01c0dcdab93e0d31db493073c67fa36982ca05783512882e38bb90a80e4a53
 hxxp://l10bovandy10t.myjino.ru/,2015-07-20 08:19:04,724634e30260954fbf746a37eaa1a05c89455de385488cb2a2ce80b274e03eca
 hxxp://ladiesbeautyworld.com/cash/,2015-06-10 05:27:39,4853f478c743f8a8388ba88a6c0a5cde65ab9c894830ed074a37a33d62dcfeb2
 hxxp://laineservices.com/laine/media/orgchart/images/kbpanel/,2015-12-29 19:57:39,5d7e277228181d8a633ce26e17a1c6e0da4f384aec6d1d20ef63483a176493a0
