@@ -56,6 +56,8 @@ hxxp://stlmre.xyz/mx/,2017-04-04 00:00:00,Submission
 hxxp://suchsuggestions.com/t/,2017-03-17 00:00:00,Submission
 hxxp://sweed-office.comie.ru/freedom/panel/,2017-06-01 16:49:51,7b779ea0d68dc208ee06f25511b51f3fa4cb602c8aaddc75efc6bbaa621e65a6
 hxxp://sweed-office.comie.ru/kc/panel/,2017-06-02 04:27:26,4a6a3d4a7b21d28b77ee2c2a8240cc1b0cb590afce97ee4d224baef4cde1d6ad
+hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45b1263c1da56bdac71c6d8b51659e8f3
+hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
 hxxp://toke.paneltesla.net/,2017-06-05 05:32:37,ad0b72df8cccc39f21cd89d6544fdf19fa1775590f6087ad0d530a1d26ffd798
 hxxp://transfoffer.com/emmy/,2017-03-17 00:00:00,Submission
 hxxp://transfoffer.com/help/,2017-03-17 00:00:00,Submission
@@ -84,6 +86,7 @@ hxxp://www.defaomfg.com/infopasas/pasais/,2017-01-05 20:41:46,a266932ed5c6759854
 hxxp://www.diplomaticcourier.net/pic/Panel/,2016-12-20 16:14:35,de77426429a753a40527549f75da00cdf4cc3395a8ce5c8b3121f8d8a1dfced9
 hxxp://www.essentialsupdate.com/,2017-02-10 21:37:56,85cb743db3cd332899b1296baf1d374c8851c3dbb9d320f8e634de9663743b56
 hxxp://www.libazo.com/,2017-06-16 16:10:05,09431034c55af27e3d0caf61b0500c0e87c7d80885ea1e6d024f83fa223a2383
+hxxp://www.mnbvcxzus.com/,2017-07-02 17:02:38,75318cca3aebc54585d05a801ee5f798f10f7525af38576ecbe3e886da0c5c69
 hxxp://www.nellsonn.com/,2017-06-05 07:34:36,2d7342f8bf4842577ac47ac7c6b5e62dcfe08b7ef1c019c691691511f36b5c70
 hxxp://www.nexuscoltd.com/,2017-04-02 16:53:42,60cdcc68f3ad90dd5cb907cb5009a5daf678a7d8abbf2b879997baed06ea8edb
 hxxp://www.signaturehealthcarltd.com/images/WebPanel/,2016-12-27 18:51:04,a94ce4f6b0cee3322b36f7b647ed11920043f1e3720430c08fb9dd37d9188aa6
