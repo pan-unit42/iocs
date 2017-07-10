@@ -70,6 +70,7 @@ hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45
 hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
 hxxp://toke.paneltesla.net/,2017-06-05 05:32:37,ad0b72df8cccc39f21cd89d6544fdf19fa1775590f6087ad0d530a1d26ffd798
 hxxp://tokimecltd.ru/,2017-07-08 12:11:55,3145023df1fb40803cf9e7ae8f2da51293a25c025dd3bdf443ec2ae07cf28244
+hxxp://tokimecltd.ru/segxy/,2017-07-09 07:21:11,144905605490050ca134b475d77d87869247cd3e6a45a8f82e771a3ad6c6739c
 hxxp://tokimecltd.ru/trial/,2017-07-07 23:15:31,95a4df105cc869a239fbd7c9b35b34aebc5b470e55b64adf74c10ae5d1634155
 hxxp://tomfill.xyz/sm/tom/,2017-07-07 13:31:04,eff04cf26eace8a1cb79e7fbc29206f0177016c98c498360b77bce128fd78511
 hxxp://transfoffer.com/emmy/,2017-03-17 00:00:00,Submission
