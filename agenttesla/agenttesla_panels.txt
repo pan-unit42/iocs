@@ -8,6 +8,7 @@ hxxp://addmehosts.com/panel/,2017-04-03 12:49:51,087ea09aefa210912d8d554a1f728a7
 hxxp://airnicoltd.biz/branch/tesladey/panel/,2017-07-07 17:28:31,0bff7f85c1562cdb331ab50558ff9df6b3acf1134c6b047be9c2ce537e57276d
 hxxp://appleconnect.online/,2017-01-20 10:31:39,94a00f8b1223fe04d55e4a2ac341659a6e8718fd586186a4c260649730442581
 hxxp://brunam90.me/,2017-06-22 18:05:51,316b801796d5a39ae5cc9379372c8bf792fcea8c32ef891856e6b585e253650b
+hxxp://cellularwizard.biz/panel/,2017-07-11 09:02:45,fed4670fc31dde88c836255490e58afe11775a858ba3951677f1875a559b380b
 hxxp://combinaparts.com/filehippo/serverspanel/,2016-12-08 10:52:38,2d46b7cb41f1c21a138849d1c086da2c095636ebb251f28cdda28ec999aaee63
 hxxp://combinaparts.com/mywebpageapps/,2016-12-07 20:33:37,42ffa0b7ac10518c044f2b03efbf6ad017a3a99ca17dd8d65c08e940d7f3ad77
 hxxp://combinaparts.com/servias/buzoo/,2016-12-13 03:51:50,991784d5d8a9ce32d3a74efed84145bafb2b735a816e509860b03d204e50336d
@@ -90,6 +91,7 @@ hxxp://wlttraco.com/sweed-office/goodluck/panel/,2017-06-14 00:43:49,1882efffcd6
 hxxp://wlttraco.com/sweed-office/harry/panel/,2017-06-13 06:15:35,4afe843dd4275046c36b2df7b3a29ea7d833450b511b2b41ba3778fe6dbdfe95
 hxxp://wlttraco.com/sweed-office/jamil/panel/,2017-06-21 18:31:34,1d9acdd26a09b1196f7b6dcc85772c8f497d8b1f8f9eda4944631c85151ba484
 hxxp://womensmuseumca.org/teslakeylogger/WebPanel/,2017-01-06 09:10:25,6ba1d96cebe9db443b7a259ac158078ef41825892c5b6c9103a505fd74de4d9e
+hxxp://wonkarima.ru/agent/,2017-07-11 15:07:16,97557f979ca735196baaef4d4519fd5aacd165dc5b5f1369d00d7a4a187b0036
 hxxp://www.agenttesla.com/,2016-01-21 22:26:29,53f199f414cb01097e1c2b8ce77c30134132299d20bde59ec7c93057e8c387e2
 hxxp://www.appleconnect.online/,2017-02-09 12:20:05,58435950f782a6eb57f06cc188b3475e1f3de29e2d36bb4684274ed8c4e705fd
 hxxp://www.blockchian.us/ag/p/,2017-06-19 05:51:14,55f5f3c00f67e228f75dc522e33301c6f9fe066bfb19bdde5a04c3885c00d1d9
