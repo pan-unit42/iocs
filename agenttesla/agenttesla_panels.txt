@@ -19,6 +19,7 @@ hxxp://daalkha.com/panel/,2017-07-14 14:10:04,ac5cdb9b8f6a5e1bdd95f59b9b4c2495e7
 hxxp://defaomfg.com/dosky-lala/buzoo/rebnasz/,2016-12-21 06:59:04,ae91edadbe9de19d394fd7608bca9e0048940215e0b3114cf0686c5616dc13eb
 hxxp://defaomfg.com/infopasas/pasais/,2017-01-05 20:15:48,5cd919c37b155a2d83d9b1cd0bcaf7b63592c172c2d00ea1e24afd19f0cde152
 hxxp://defaomfg.com/solobiz/webpazz/,2016-12-21 04:34:25,3e74a6108f4c5fc3bcca207735339a967e8237c1b0b43857532c2cd5d6688d17
+hxxp://dongabito.com/panel/,2017-07-15 09:41:26,edc03a65ba2836e03af8052293358222b9bce5ec874260b50d0e5154e20ba119
 hxxp://douglascellings.com/panel/,2017-01-24 13:29:52,a786abf25cbbbb261b1d7d1539e02114ccf6c5613c241f4858b026123361126f
 hxxp://dovemessengers.com/WebPanel/,2017-06-25 19:42:57,87048c05903fadf3920acb86cba69aa2820111f3cafecd366af1f8d86417408e
 hxxp://dropped.cf/DieK/,2017-06-20 04:41:20,8a8e46fffe9b72c30aa8e0d6cb177e331d575f48daedbd4a53efffc2baa7d49f
@@ -65,6 +66,7 @@ hxxp://rootjoy20.net/panel/,2016-12-22 12:21:06,d9e2e82bfbbb56430b8c079fbee302a4
 hxxp://secpolicy.info/,2017-07-06 10:56:49,37f930dcd0a304181cdb993e103d52fe23cc88ea15ca0af25337e3a8c0277e82
 hxxp://sender.agenttesla.com/,2016-11-29 06:28:47,c9d1e4ce64f593574afe4d43791604aedd82baefc6301ad46e0a955adf8af3d4
 hxxp://shingrela.com/panel/,2017-07-14 08:18:16,a1e2babd3a076dacce5ec4cfebbdfe65162866f7b9b68b0eccb30d9ed5c6c638
+hxxp://smartmanber.com/panel/,2017-07-15 09:33:34,db41f6939903bc70061f4a4bb21f042b8517fffc97f4eea0cf6650596405d7c6
 hxxp://someshitejob.ru/shit/,2017-01-17 18:28:13,a8392bf6d327a9ec9ef2dd5135cc9cf8a5f9e33d01ee3e1196508f31caf38842
 hxxp://sosignshome.com/res/,2017-01-08 16:16:52,34ea0e188926b7a207bb677760cb1667847f4cf5923742915d267b415417456f
 hxxp://steamstatus.pw/,2017-03-07 20:23:35,b3709fc8f2e2e23d0aa04d5bc484abaf5e5b63769759d72db74900ee04d20381
