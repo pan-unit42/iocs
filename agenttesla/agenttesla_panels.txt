@@ -1,3 +1,4 @@
+hxxp://123.makologg.website/Web%20Panel/,2017-07-17 08:42:27,7a9be19baf61771da761e4c77cc3238e9dc0a86390443ab351fec57c356abfb0
 hxxp://178.159.36.185/~onlinesy/panel/file/1/,2017-07-14 14:37:28,89664548c6af4f55e809e003e0767f8d33a63082cc83ad106152167c1cb469e5
 hxxp://193.29.187.116/kc/,2017-02-12 20:23:35,91c62198b3df2e6e978ee1a725bdcde585f17612425b3de1b2ecdbdc156e9812
 hxxp://78.47.167.201/~fwsztepl/panel/,2017-06-30 07:07:00,e6c57a10c14ff0880b2b595931663c26dacea241dd286116cce01652a8504f89
@@ -23,6 +24,7 @@ hxxp://dongabito.com/panel/,2017-07-15 09:41:26,edc03a65ba2836e03af8052293358222
 hxxp://douglascellings.com/panel/,2017-01-24 13:29:52,a786abf25cbbbb261b1d7d1539e02114ccf6c5613c241f4858b026123361126f
 hxxp://dovemessengers.com/WebPanel/,2017-06-25 19:42:57,87048c05903fadf3920acb86cba69aa2820111f3cafecd366af1f8d86417408e
 hxxp://dropped.cf/DieK/,2017-06-20 04:41:20,8a8e46fffe9b72c30aa8e0d6cb177e331d575f48daedbd4a53efffc2baa7d49f
+hxxp://e-paymentonline.online/agent/,2017-07-17 04:22:50,859bc4a36c7ab0bd9275642f7eb3fbd7c4fdf4b64e030d35666dbc6db97fc09f
 hxxp://emailaccountsupdate.com/,2017-07-08 21:32:01,4596e7b2c589903620151887c3028ba6926a4c18faf8c6bd8382146646bc7f99
 hxxp://fash2v.com/panel/,2017-02-05 11:13:28,179a9cd80a180dc5a6348c591d6273374a4a1a3aba1aa4a7584cdcfe374b324b
 hxxp://frank.diplomaticsecurityservicelondon.com/,2017-06-12 08:25:33,95431015bb024b3f3bb3090840c4a0be58abce12845bb41a4e4cd2bfd4ffd382
@@ -31,6 +33,7 @@ hxxp://frankpanel.xyz/,2017-05-11 11:25:24,1be761f5cafebe22215f1d78f07436fde8bb1
 hxxp://friendfinances.com/WebPanel/,2017-04-04 00:00:00,Submission
 hxxp://friendfinances.com/java/WebPanel/,2017-04-04 00:00:00,Submission
 hxxp://halifacxz.com/chigo/chigo/,2017-01-25 10:31:20,05d8f5b142c3070f91abbba8abb8192258e0e430b59df891c425d55f923d6b50
+hxxp://hiflowwing.com/panel/,2017-07-17 16:59:37,6d09f7ee39882d8667c5aad2b66156cba3518aaadbc58b4dfabcebb193e35a78
 hxxp://hopewordnlos.info/tere/,2017-03-17 00:00:00,Submission
 hxxp://hoplikes.com/panel/,2017-06-28 09:04:17,f4d86b3ee2f474198956f982c97e801cb9dc82e886f0a733aaffc1910feff85c
 hxxp://hugoslyltd.com/meandjeff/office/,2017-01-30 16:48:09,492c8f83530b98339728dd6be3726c225347d25486f846d7b35a5fbfe82170af
@@ -82,6 +85,7 @@ hxxp://tokimecltd.ru/,2017-07-08 12:11:55,3145023df1fb40803cf9e7ae8f2da51293a25c
 hxxp://tokimecltd.ru/live/,2017-07-16 22:57:21,d815ca9324d3a1b3519538742cffeb699b75fbddd821d9cf7466f677fef7abb0
 hxxp://tokimecltd.ru/segxy/,2017-07-09 07:21:11,144905605490050ca134b475d77d87869247cd3e6a45a8f82e771a3ad6c6739c
 hxxp://tokimecltd.ru/trial/,2017-07-07 23:15:31,95a4df105cc869a239fbd7c9b35b34aebc5b470e55b64adf74c10ae5d1634155
+hxxp://tokimecltd.ru/yogi/,2017-07-17 01:11:55,4662af39f6e56d5ad0696793bf22f4ea169dcaba62f90d5ecbcd98148d33c610
 hxxp://tomfill.xyz/sm/tom/,2017-07-07 13:31:04,eff04cf26eace8a1cb79e7fbc29206f0177016c98c498360b77bce128fd78511
 hxxp://transfoffer.com/emmy/,2017-03-17 00:00:00,Submission
 hxxp://transfoffer.com/help/,2017-03-17 00:00:00,Submission
