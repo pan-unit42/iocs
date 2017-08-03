@@ -14,6 +14,7 @@ hxxp://a-work.info/steamx/,2017-07-24 11:58:37,90eec7f4761bcabf315c3f6b12d44eaf1
 hxxp://addmehosts.com/panel/,2017-04-03 12:49:51,087ea09aefa210912d8d554a1f728a7ad9bc8acf8a2f3f0572f801cd6d4149c2
 hxxp://admin.downloadtip.club/AdminTipClub/,2017-07-26 09:38:51,d7eafd5e71d11ed3595abee7301c2df9fb8d02d811b9d840826bc330d73d51bd
 hxxp://airnicoltd.biz/branch/tesladey/nk/,2017-07-25 16:34:22,2f681334152822651b14f6516c451f9d0af3c962c2b2662623341731b274020e
+hxxp://airnicoltd.biz/branch/tesladey/normal/,2017-08-02 10:32:36,2fe7660d58b881541c1f929382f478d19f17fdb56f2e8b313b8cfc0545a615bd
 hxxp://airnicoltd.biz/branch/tesladey/panel/,2017-07-07 17:28:31,0bff7f85c1562cdb331ab50558ff9df6b3acf1134c6b047be9c2ce537e57276d
 hxxp://appleconnect.online/,2017-01-20 10:31:39,94a00f8b1223fe04d55e4a2ac341659a6e8718fd586186a4c260649730442581
 hxxp://blasternoon.ru/ike//,2017-08-01 00:47:30,3f1638934500eefb81a901f7d978a79e0d8775513b8a2e80273b6377437a45fe
@@ -29,7 +30,9 @@ hxxp://cp.gonerallying.com/,2017-07-30 21:49:47,e32f657a9f62d5bab77e94bd6739a78a
 hxxp://csgoshuffle.trade/new/panel/,2017-01-09 10:55:06,bdeeec752f1a700e49cc388b2d4e396971b39de3aeaf6ac36c7860809c17da5b
 hxxp://daalkha.com/panel/,2017-07-14 14:10:04,ac5cdb9b8f6a5e1bdd95f59b9b4c2495e7a8504d1eba5afb7eec8d593d9c01fa
 hxxp://davcandle.life/cboy//,2017-08-01 03:28:32,6e17e09b90b786e378cc2c4b353a98e7d749d9555820ee54c858107b5450392b
+hxxp://davcandle.life/ken//,2017-08-02 13:13:52,dbdf13e058d48320500fdc9321e2a2298e3e06b25790f6bdc6318591f8de4af0
 hxxp://davcandle.life/las//,2017-08-01 16:30:03,410625ca1847f6b4782a6545a193b7a1688013212db814b836c96a3a5dad9f24
+hxxp://davcandle.life/sim//,2017-08-02 04:19:15,37acb1f8caf56c7659e22410d9038147689e209e598c9c6bcc3d3c9a0e3334e8
 hxxp://defaomfg.com/dosky-lala/buzoo/rebnasz/,2016-12-21 06:59:04,ae91edadbe9de19d394fd7608bca9e0048940215e0b3114cf0686c5616dc13eb
 hxxp://defaomfg.com/infopasas/pasais/,2017-01-05 20:15:48,5cd919c37b155a2d83d9b1cd0bcaf7b63592c172c2d00ea1e24afd19f0cde152
 hxxp://defaomfg.com/solobiz/webpazz/,2016-12-21 04:34:25,3e74a6108f4c5fc3bcca207735339a967e8237c1b0b43857532c2cd5d6688d17
@@ -102,6 +105,7 @@ hxxp://sweed-office.comie.ru/freedom/panel/,2017-06-01 16:49:51,7b779ea0d68dc208
 hxxp://sweed-office.comie.ru/kc/panel/,2017-06-02 04:27:26,4a6a3d4a7b21d28b77ee2c2a8240cc1b0cb590afce97ee4d224baef4cde1d6ad
 hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45b1263c1da56bdac71c6d8b51659e8f3
 hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
+hxxp://tesla.lawcost.com/,2017-08-02 08:56:03,d60e095779799debd63b8cab034ffeb4c8ba1cd5e418e0009f63be068ffe95ca
 hxxp://toke.paneltesla.net/,2017-06-05 05:32:37,ad0b72df8cccc39f21cd89d6544fdf19fa1775590f6087ad0d530a1d26ffd798
 hxxp://tokimecltd.ru/,2017-07-08 12:11:55,3145023df1fb40803cf9e7ae8f2da51293a25c025dd3bdf443ec2ae07cf28244
 hxxp://tokimecltd.ru/live/,2017-07-16 22:57:21,d815ca9324d3a1b3519538742cffeb699b75fbddd821d9cf7466f677fef7abb0
@@ -143,6 +147,7 @@ hxxp://www.libazo.com/,2017-06-16 16:10:05,09431034c55af27e3d0caf61b0500c0e87c7d
 hxxp://www.mnbvcxzus.com/,2017-07-02 17:02:38,75318cca3aebc54585d05a801ee5f798f10f7525af38576ecbe3e886da0c5c69
 hxxp://www.nellsonn.com/,2017-06-05 07:34:36,2d7342f8bf4842577ac47ac7c6b5e62dcfe08b7ef1c019c691691511f36b5c70
 hxxp://www.nexuscoltd.com/,2017-04-02 16:53:42,60cdcc68f3ad90dd5cb907cb5009a5daf678a7d8abbf2b879997baed06ea8edb
+hxxp://www.roperspump.com/oman/,2017-08-02 22:49:05,81bf2ef9794da49c04931d2a547108048a2139c4c6cc9657e8ba791ccd790df3
 hxxp://www.signaturehealthcarltd.com/images/WebPanel/,2016-12-27 18:51:04,a94ce4f6b0cee3322b36f7b647ed11920043f1e3720430c08fb9dd37d9188aa6
 hxxp://www.vacanzaimmobiliare.it/testla/WebPanel/,2017-06-07 21:21:26,8e7d67d608024cb3e4191efc5c7921f48e08f1ff88936828f3b797efe3272cc6
 hxxp://www.vimeostream.com/,2016-12-14 05:39:15,ab5dac8a826350b61bee2c2c63294662782f867bf823cb2489d1099397a99b93
