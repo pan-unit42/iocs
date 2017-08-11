@@ -110,6 +110,7 @@ hxxp://sweed-office.comie.ru/freedom/panel/,2017-06-01 16:49:51,7b779ea0d68dc208
 hxxp://sweed-office.comie.ru/kc/panel/,2017-06-02 04:27:26,4a6a3d4a7b21d28b77ee2c2a8240cc1b0cb590afce97ee4d224baef4cde1d6ad
 hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45b1263c1da56bdac71c6d8b51659e8f3
 hxxp://tecomou1d.com/emybeks/,2017-08-09 00:06:49,26b25a072776f184edce41f7fb18e3d479b04da66b5aa0a0a5d069fcfb3e5c66
+hxxp://tecomou1d.com/pomzy/,2017-08-10 06:22:11,794ea2322ecb0842d17695757701162dd0816034a202794c6949aa131dc280d1
 hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
 hxxp://tesla.lawcost.com/,2017-08-02 08:56:03,d60e095779799debd63b8cab034ffeb4c8ba1cd5e418e0009f63be068ffe95ca
 hxxp://toke.paneltesla.net/,2017-06-05 05:32:37,ad0b72df8cccc39f21cd89d6544fdf19fa1775590f6087ad0d530a1d26ffd798
