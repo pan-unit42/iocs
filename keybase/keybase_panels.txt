@@ -2042,6 +2042,7 @@ hxxp://vertinary.cwsurf.de/js/san/,2015-09-13 13:59:02,a6a43ab9a96d4fc6c58f9f5c9
 hxxp://videoona.com/bus/bus/,2015-11-01 14:09:16,6a527ce897fa613dc984cd0e4bb03d77a12a9e98302b9ec2725e020ea3480474
 hxxp://villabro.bplaced.net/live%20access/kbpanel/,2016-02-08 13:44:11,c87fe6b21d88cbbf81bd036aaa79be0ede327cfab2f24aa2bbbac1125c844cd4
 hxxp://violet-dental-clinic.ro/p-admin/keybase_panel/,2016-06-22 16:54:49,757bd64586f71a92c820406664bd9f16cb79639aac5a65964b12abd7a2a3b513
+hxxp://virtudciudadananeza.org/administrator/web/,2017-08-20 06:00:43,9b845d1bfcbde0561dad968f2afdf8df1cd0fa5afd6b0e83b09411134dc0f6cb
 hxxp://virux.pw/security/,2015-07-26 07:15:41,6358e756d11b5fd59546f36e905afdd92b68efc5d78027e291608ee38e5add74
 hxxp://virux.pw/unicorn/upanel2/,2015-07-11 08:53:51,0786e6d2639a2f5a0c4503246d086c6d3baf12c4d146d7504f1a142866080650
 hxxp://visirnex.com/web/,2016-01-11 13:31:14,ec81eced5bd8975f6f00c40cca18b4ab5cad4e2d327cfbfd305239970fa42c83
