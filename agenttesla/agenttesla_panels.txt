@@ -35,6 +35,10 @@ hxxp://combinaparts.com/filehippo/serverspanel/,2016-12-08 10:52:38,2d46b7cb41f1
 hxxp://combinaparts.com/mywebpageapps/,2016-12-07 20:33:37,42ffa0b7ac10518c044f2b03efbf6ad017a3a99ca17dd8d65c08e940d7f3ad77
 hxxp://combinaparts.com/servias/buzoo/,2016-12-13 03:51:50,991784d5d8a9ce32d3a74efed84145bafb2b735a816e509860b03d204e50336d
 hxxp://comebackto.info/ftp/,2017-05-02 07:07:45,343804ce5695010a7e3525277019febaff149a3b55db381b0e52ce97c058c17e
+hxxp://compassiwater.com/mctagents.ml/chika/,2017-08-30 17:33:21,655a5fd2cb670ede56e7b1d662c82d005cdca1d678a51a533b5b781532d7aad0
+hxxp://compassiwater.com/mctagents.ml/ebuka/,2017-08-30 18:08:21,a24ebdb2e50f70496f8a0cf7c4f704d441cbcdab1ec5683c95526a8041360cd2
+hxxp://compassiwater.com/mctagents.ml/jboy/,2017-08-31 21:49:30,c4d0cf372bb1bc416538a0e53f3c5cb2cd06038e7e4b3db51957523f02caddc7
+hxxp://compassiwater.com/mctagents.ml/temple/,2017-08-30 17:42:05,ea41bb7605b4244f6cccc65f2ab61a8c409888a9711e06145ddfe55dc8eb1297
 hxxp://cp.gonerallying.com/,2017-07-30 21:49:47,e32f657a9f62d5bab77e94bd6739a78a9c57d314c06a987daa3fc56107b4d461
 hxxp://csgoshuffle.trade/new/panel/,2017-01-09 10:55:06,bdeeec752f1a700e49cc388b2d4e396971b39de3aeaf6ac36c7860809c17da5b
 hxxp://daalkha.com/panel/,2017-07-14 14:10:04,ac5cdb9b8f6a5e1bdd95f59b9b4c2495e7a8504d1eba5afb7eec8d593d9c01fa
@@ -112,7 +116,7 @@ hxxp://rootjoy20.net/panel/,2016-12-22 12:21:06,d9e2e82bfbbb56430b8c079fbee302a4
 hxxp://secpolicy.info/,2017-07-06 10:56:49,37f930dcd0a304181cdb993e103d52fe23cc88ea15ca0af25337e3a8c0277e82
 hxxp://sender.agenttesla.com/,2016-11-29 06:28:47,c9d1e4ce64f593574afe4d43791604aedd82baefc6301ad46e0a955adf8af3d4
 hxxp://shalla.eyeofbangladesh.com/,2017-08-12 11:39:38,115f5ab3beee7e7579f175e23c9d2d77be5dc64dd6845f7802a56863c347e383
-hxxp://shingrela.com/panel/,2017-07-14 08:18:16,a1e2babd3a076dacce5ec4cfebbdfe65162866f7b9b68b0eccb30d9ed5c6c638
+hxxp://shingrela.com/panel/,2017-07-14 08:17:27,6ebfe290e5caa7ef5b93ec5decfe56483e6b7e0ebd07451aef0a72600fb0fb10
 hxxp://smartmanber.com/panel/,2017-07-15 09:33:34,db41f6939903bc70061f4a4bb21f042b8517fffc97f4eea0cf6650596405d7c6
 hxxp://someshitejob.ru/shit/,2017-01-17 18:28:13,a8392bf6d327a9ec9ef2dd5135cc9cf8a5f9e33d01ee3e1196508f31caf38842
 hxxp://sosignshome.com/res/,2017-01-08 16:16:52,34ea0e188926b7a207bb677760cb1667847f4cf5923742915d267b415417456f
@@ -145,6 +149,7 @@ hxxp://upgr-serv.com/wp-activate/,2016-12-26 23:50:23,7f0dcb1cb0d242cfb927290d77
 hxxp://viprecycleresourcesltd.com/adminFrnk/,2017-05-05 22:11:17,dbff305b1027772b25d28a86261db3f2956afff7b1dba8390b9668433f26eb2a
 hxxp://viprecycleresourcesltd.com/obsk/,2017-05-06 01:27:11,1f506478125b7075b6438e395f769ad6e3d08ee5fc045bec2c3ed4ef8422996f
 hxxp://viprecycleresourcesltd.com/shop_gentle/,2017-05-05 18:16:14,6a293c4ec5c6946a5917038f73ff9b2c8b95e32cf002ec731b361a1044009de9
+hxxp://vivaasindustry.com/morgan/,2017-08-31 16:58:25,413bb1cb10c9ef82842ecacaf33803ca3ad3ebd9bcc903df86068bef9affe271
 hxxp://weviio.com/buxoo/palioslts/,2016-12-12 23:44:08,37002a2c5f905e0a60b597f4cdd25ce701fe4d86292aac10c88bc1d80f2e83b6
 hxxp://weviio.com/doskymdt/makemm/,2016-12-14 05:40:50,b7b300d424a0316d11b49eb7e9995d946822a40e71a937290010ea84a3cc827c
 hxxp://weviio.com/paulson/ltd/,2016-12-10 03:09:58,322d3c41ead6941feaa9e7e12253cfc87f90742b4593aae39fb55216bce84aaa
