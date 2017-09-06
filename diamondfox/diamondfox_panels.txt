@@ -168,6 +168,7 @@ hxxp://cloudpointflareserver.com/machine/twist/,2015-12-31 15:55:44,e69ba33e7b85
 hxxp://clown.com.tw/admin/js/Panel/,2016-04-28 16:11:42,c86c07e34bd86274580bbb64b602db9f9d54af086a382dcaad21c57f6ce1b68e
 hxxp://cm38525.tmweb.ru/,2016-12-26 09:28:34,bfbe2ed334616a3a13f008e0e4e2c455fb8ba16fb81ce7ef9ee01ed51869911d
 hxxp://cobradragoon.net63.net/cobra/,2015-07-26 18:36:08,2be7981978546cef473db96f55372137d2d6fd56ec1a1e398d4bd8e637685690
+hxxp://colektiv.info/diam/,2017-09-05 07:43:54,7a103774f1baa8f4e7b306593bb23e9ec1e8b06c437188bb5ad01589c51cf528
 hxxp://colektiv.info/vulpe/,2015-11-16 01:20:14,e1626fafb2ef6ae3e06bc971d3ea15d7b48bbaa0f1b466fc382f04418729b649
 hxxp://com-service.xyz/,2015-12-18 04:54:12,43c74ac83c7588647f26936e1366fd068516dad3f330eb16ca7ebc13e5684a71
 hxxp://comandoinvisivel.fulba.com/,2016-07-09 09:47:14,4e562ce3e7f369a414a30f38e4bd7659e1cc94d324ee3eb675ae128bc4b8c4c0
