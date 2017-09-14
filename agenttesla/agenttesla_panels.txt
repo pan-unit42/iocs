@@ -77,7 +77,9 @@ hxxp://franklinpanel.xyz/,2017-05-19 01:22:09,f5f91fd5a26221472ff5823d2978835841
 hxxp://frankpanel.xyz/,2017-05-11 11:25:24,1be761f5cafebe22215f1d78f07436fde8bb1615664bece54ac21f76b29f8c89
 hxxp://friendfinances.com/WebPanel/,2017-04-04 00:00:00,Submission
 hxxp://friendfinances.com/java/WebPanel/,2017-04-04 00:00:00,Submission
+hxxp://graficafolha.com.br/sanpus/panel/,2017-09-13 07:14:31,5696e0222363d6ed221738006c46eadedb01b8b4e946a08f5c6b78db8b1f942e
 hxxp://halifacxz.com/chigo/chigo/,2017-01-25 10:31:20,05d8f5b142c3070f91abbba8abb8192258e0e430b59df891c425d55f923d6b50
+hxxp://helofitsol.com/panel/,2017-09-13 22:18:38,4b460676a1696a2e3ee56548c584a80b3795814d5748f981ec5ef6a5e56500ab
 hxxp://hiflowwing.com/panel/,2017-07-17 16:59:37,6d09f7ee39882d8667c5aad2b66156cba3518aaadbc58b4dfabcebb193e35a78
 hxxp://hopewordnlos.info/tere/,2017-03-17 00:00:00,Submission
 hxxp://hoplikes.com/panel/,2017-06-28 09:04:17,f4d86b3ee2f474198956f982c97e801cb9dc82e886f0a733aaffc1910feff85c
