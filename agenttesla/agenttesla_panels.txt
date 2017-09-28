@@ -169,6 +169,7 @@ hxxp://upgr-serv.com/wp-activate/,2016-12-26 23:50:23,7f0dcb1cb0d242cfb927290d77
 hxxp://viprecycleresourcesltd.com/adminFrnk/,2017-05-05 22:11:17,dbff305b1027772b25d28a86261db3f2956afff7b1dba8390b9668433f26eb2a
 hxxp://viprecycleresourcesltd.com/obsk/,2017-05-06 01:27:11,1f506478125b7075b6438e395f769ad6e3d08ee5fc045bec2c3ed4ef8422996f
 hxxp://viprecycleresourcesltd.com/shop_gentle/,2017-05-05 18:16:14,6a293c4ec5c6946a5917038f73ff9b2c8b95e32cf002ec731b361a1044009de9
+hxxp://vivaasindustry.com/ebuka/,2017-09-27 19:23:52,63c2af5e5254a98804b547a88c56f7e65254b16b7d00c73d990e66228ad292bb
 hxxp://vivaasindustry.com/morgan/,2017-08-31 16:58:25,413bb1cb10c9ef82842ecacaf33803ca3ad3ebd9bcc903df86068bef9affe271
 hxxp://vivaasindustry.com/morganboy/,2017-09-04 19:52:04,8a6918f18e04915a505f3cbd3b7742a682ec48635a07d8a868b4d27571c25ad4
 hxxp://weviio.com/buxoo/palioslts/,2016-12-12 23:44:08,37002a2c5f905e0a60b597f4cdd25ce701fe4d86292aac10c88bc1d80f2e83b6
@@ -195,6 +196,7 @@ hxxp://www.essentialsupdate.com/,2017-02-10 21:37:56,85cb743db3cd332899b1296baf1
 hxxp://www.fbillion.essentialtechsolutions.com/,2017-07-04 11:26:47,103c4925216aba822ea40756cbd4de1811a4c6ff61d8697dea700f1c839ba14e
 hxxp://www.futurarice.com/,2017-07-19 01:55:24,ba945b8c5f07889c996dab29573aa7444c81badbbea8565d8310dad5d8d46f37
 hxxp://www.ibouz.co.business/tesla/Panel/,2017-08-08 12:46:29,36017d1ff6b201d38de737307ab107666fded35cae90e9aa8f86b7078b5755f9
+hxxp://www.iiltd.xyz/,2017-09-27 11:13:14,4262c183ea191ee0db1cd118828da828fc527827072b2ff9bc0959fc94625173
 hxxp://www.jpoffice2017.xyz/,2017-09-01 21:03:49,9c9d4a14f7d776d9cc20350a0a9243e1a1cc46470b3c69c3188bac786db04bb0
 hxxp://www.libazo.com/,2017-06-16 16:10:05,09431034c55af27e3d0caf61b0500c0e87c7d80885ea1e6d024f83fa223a2383
 hxxp://www.mitch.sudimex.ml/tesla/admin/,2017-08-07 16:00:25,fa209cd0f18674d2f720666e46af9d406af085658bdbe6ee17f5ef8db1f62682
