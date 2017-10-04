@@ -100,6 +100,7 @@ hxxp://karmakintra.com/well/,2017-08-05 15:55:47,28f8eabbedc4a603101e5f72dd06936
 hxxp://kf3nqetgl3p3qlvnl4ze.ru/userpanel/panel/,2017-01-01 22:26:36,d6e704895dca6e2b059dfa8165236efe77cddbd12ba8f679114c78ebc67a3e63
 hxxp://kidertalerz.com/panel/,2017-09-02 07:01:59,0acb7469a9437c06732ad3286ea3623817dbba9a919ee31d8f4b996b48d9abb3
 hxxp://killatenderz.com/panel/,2017-08-28 00:32:55,2c7d207f7846cc675a9b002dfef410f4e6872dc7d0eb88e1d25ca790380b6cb7
+hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=AKSE39786513837&machinetime=3:29%20AM,2017-10-03 03:26:00,06e4ca752cda1274909ff4a0e6b14e3eb3a62d2dea89651f0f3fd232c48c5679
 hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=VILGZJ980173341&machinetime=11:08%20PM,2017-10-02 23:05:55,2ef73ccdfb1c4d695341b954daeb7950ebdb8d2d0453ec851b1b583d95039ba6
 hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=VILGZJ980173341&machinetime=11:09%20PM,2017-10-02 23:05:55,2ef73ccdfb1c4d695341b954daeb7950ebdb8d2d0453ec851b1b583d95039ba6
 hxxp://koloongroupinc.ru/john/,2017-08-08 14:01:31,97f4ad5fc7a803c0c37ac2b32bde2b1e9fdcb5d41883590c5a530eabdf662cb7
@@ -135,6 +136,7 @@ hxxp://petush32.beget.tech/tesla/,2017-01-17 09:34:55,940ca05405e2e833b3c02b8844
 hxxp://picasuminion.com/ooo/,2017-07-21 04:46:24,1e282ae54098dbb96eebd1b1bd1d848c2e7195864083152f136e79e42e40d3f3
 hxxp://plasdic.com/modules/openid/web/,2017-09-23 06:37:48,f1ccf6b524e03836d34301d299f22283d417190116ad0b0dc27f039b60f94bc9
 hxxp://rootjoy20.net/panel/,2016-12-22 12:21:06,d9e2e82bfbbb56430b8c079fbee302a494f9496379bc78c2b277f0ca21c4f551
+hxxp://saintahotel.com/at/,2017-10-03 19:25:50,1c6627d656059bd9f735bd1b1997ed01dfd82769109438da7f784576aa10b170
 hxxp://secpolicy.info/,2017-07-06 10:56:49,37f930dcd0a304181cdb993e103d52fe23cc88ea15ca0af25337e3a8c0277e82
 hxxp://sender.agenttesla.com/,2016-11-29 06:28:47,c9d1e4ce64f593574afe4d43791604aedd82baefc6301ad46e0a955adf8af3d4
 hxxp://shalla.eyeofbangladesh.com/,2017-08-12 11:39:38,115f5ab3beee7e7579f175e23c9d2d77be5dc64dd6845f7802a56863c347e383
