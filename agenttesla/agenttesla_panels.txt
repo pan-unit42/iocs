@@ -152,6 +152,8 @@ hxxp://suchsuggestions.com/t/,2017-03-17 00:00:00,Submission
 hxxp://sweed-office.comie.ru/freedom/panel/,2017-06-01 16:49:51,7b779ea0d68dc208ee06f25511b51f3fa4cb602c8aaddc75efc6bbaa621e65a6
 hxxp://sweed-office.comie.ru/kc/panel/,2017-06-02 04:27:26,4a6a3d4a7b21d28b77ee2c2a8240cc1b0cb590afce97ee4d224baef4cde1d6ad
 hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45b1263c1da56bdac71c6d8b51659e8f3
+hxxp://t1st.fav.al/st/,2017-10-12 00:13:46,c9bc5d884c6da84f452b69d2b37c2ebd53c5c0ed83c080bbd87da73c17019858
+hxxp://t2st.fav.al/st/,2017-10-11 18:26:38,23d4f2b0aba78ca4bd272fe20b6a10d6a1230a7912f75ee58e752e56d9200798
 hxxp://tecomou1d.com/emybeks/,2017-08-09 00:06:49,26b25a072776f184edce41f7fb18e3d479b04da66b5aa0a0a5d069fcfb3e5c66
 hxxp://tecomou1d.com/pomzy/,2017-08-10 06:22:11,794ea2322ecb0842d17695757701162dd0816034a202794c6949aa131dc280d1
 hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
