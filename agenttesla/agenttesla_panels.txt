@@ -82,6 +82,7 @@ hxxp://franklinpanel.xyz/,2017-05-19 01:22:09,f5f91fd5a26221472ff5823d2978835841
 hxxp://frankpanel.xyz/,2017-05-11 11:25:24,1be761f5cafebe22215f1d78f07436fde8bb1615664bece54ac21f76b29f8c89
 hxxp://friendfinances.com/WebPanel/,2017-04-04 00:00:00,Submission
 hxxp://friendfinances.com/java/WebPanel/,2017-04-04 00:00:00,Submission
+hxxp://fundz1st.fav.al/st/,2017-10-12 05:05:30,dd8d110763810bc413e6dc3ed15040da72c6da6a2001dfe66a0f6560c879f66c
 hxxp://graficafolha.com.br/sanpus/panel/,2017-09-13 07:14:31,5696e0222363d6ed221738006c46eadedb01b8b4e946a08f5c6b78db8b1f942e
 hxxp://halifacxz.com/chigo/chigo/,2017-01-25 10:31:20,05d8f5b142c3070f91abbba8abb8192258e0e430b59df891c425d55f923d6b50
 hxxp://helofitsol.com/panel/,2017-09-13 22:18:38,4b460676a1696a2e3ee56548c584a80b3795814d5748f981ec5ef6a5e56500ab
