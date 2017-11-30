@@ -3,15 +3,12 @@ import sys, re, base64
 
 __author__  = "Jeff White [karttoon] @noottrak"
 __email__   = "jwhite@paloaltonetworks.com"
-__version__ = "1.0.0"
-__date__    = "20NOV2017"
+__version__ = "1.0.1"
+__date__    = "30NOV2017"
 
 def family_finder(data):
 
-    if data == "Failed to decode":
-        family = "N/A"
-    else:
-        family = "Unknown"
+    family = "Unknown"
 
     # Unicorn (forces randomization of $c)
     # https://github.com/trustedsec/unicorn
@@ -143,8 +140,19 @@ def family_finder(data):
 
     # PowerShell Empire
     # https://github.com/EmpireProject/Empire/blob/293f06437520f4747e82e4486938b1a9074d3d51/lib/common/stagers.py#L344
+    # https://github.com/EmpireProject/Empire/blob/master/lib/listeners/http_com.py
+    # https://github.com/EmpireProject/Empire/blob/master/lib/modules/powershell/persistence/userland/registry.py
+    # https://github.com/EmpireProject/Empire/blob/master/lib/modules/powershell/persistence/userland/schtasks.py
+    # https://github.com/EmpireProject/Empire/blob/master/lib/listeners/http_hop.py
     if re.search("\|\%\{\$\_\-bXor\$k\[\$i\+\+\%\$k\.Length\]\}\;IEX", data, re.IGNORECASE) or \
-        re.search("\$Wc\=NeW\-OBJECT SyStem\.NET\.WeBCLient;\$u\=\'Mozilla\/5\.0 \(Windows NT 6\.1; WOW64; Trident\/7\.0; rv:11\.0\) like Gecko\';\$wc\.HeAdeRS\.Add\(\'User\-Agent\',\$u\);\$Wc\.PrOXy \= \[SysTem\.NeT\.WEbReqUesT\]::DEFaulTWebPrOXy;\$wc\.PROxY\.CRedentiALs \= \[SyStEm\.Net\.CredeNtiALCache\]::DefaUlTNetWoRkCReDEntIALS;", data, re.IGNORECASE):
+        re.search("\$Wc\=NeW\-OBJECT SyStem\.NET\.WeBCLient;\$u\=\'Mozilla\/5\.0 \(Windows NT 6\.1; WOW64; Trident\/7\.0; rv:11\.0\) like Gecko\';\$wc\.HeAdeRS\.Add\(\'User\-Agent\',\$u\);\$Wc\.PrOXy \= \[SysTem\.NeT\.WEbReqUesT\]::DEFaulTWebPrOXy;\$wc\.PROxY\.CRedentiALs \= \[SyStEm\.Net\.CredeNtiALCache\]::DefaUlTNetWoRkCReDEntIALS;", data, re.IGNORECASE) or \
+        re.search("\{\$GPS\[\'ScriptB\'\+\'lockLogging\'\]\[\'EnableScriptB\'\+\'lockLogging\'\]=0;\$GPS\[\'ScriptB\'\+\'lockLogging\'\]\[\'EnableScriptBlockInvocationLogging\'\]=0\}ElsE\{\[SCrIptBLoCk\]", data, re.IGNORECASE) or \
+        (re.search("\$R=\{\$D,\$K=\$Args;\$S=0\.\.255;0\.\.255\|%\{\$J=\(\$J\+\$S\[\$_\]", data, re.IGNORECASE) and \
+         re.search("WC\.HEAdERS\.AdD\(\"Cook", data, re.IGNORECASE)) or \
+        re.search("\$RegPath = .+\$parts = \$RegPath\.split.+\$path = \$RegPath\.split", data, re.IGNORECASE) or \
+        (re.search("schtasks\.exe", data, re.IGNORECASE) and \
+         re.search("powershell\.exe -NonI -W hidden -c .\"IEX \(\[Text\.Encoding\]::UNICODE\.GetString\(\[Convert\]::FromBase64String", data, re.IGNORECASE)) or \
+        re.search("\$iV=\$DaTA\[0\.\.3\];\$dAtA=\$data\[4\.\.\$DATa\.LENgth\];-joIn\[ChAR\[\]\]\(& \$R \$DatA \(\$IV\+\$K\)", data, re.IGNORECASE):
 
         if family == "Unknown":
             family = "PowerShell Empire"
@@ -161,6 +169,15 @@ def family_finder(data):
         else:
             print "[!] DUPLICATE ERROR Encoded 2X - %s\n%s" % (family, data)
             sys.exit(1)
+
+    # Generic RC4
+    #
+    # if re.search("\$R=\{\$D,\$K=\$Args;\$S=0\.\.255;0\.\.255\|%\{\$J=\(\$J\+\$S\[\$_\]", data, re.IGNORECASE):
+    #    if family == "Unknown":
+    #        family = "Generic RC4"
+    #    else:
+    #        print "[!] DUPLICATE ERROR Generic RC4 - %s\n%s" % (family, data)
+    #
 
     # Powerfun Bind
     # https://github.com/rapid7/metasploit-framework/blob/cac890a797d0d770260074dfe703eb5cfb63bd46/data/exploits/powershell/powerfun.ps1
@@ -272,13 +289,13 @@ def family_finder(data):
             sys.exit(1)
 
     # AMSI Bypass
-    #
-    if re.search("System\.Management\.Automation\.AmsiUtils.+amsiInitFailed", data, re.IGNORECASE):
-        if family == "Unknown":
-            family = "AMSI Bypass"
-        else:
-            print "[!] DUPLICATE ERROR AMSI Bypass - %s\n%s" % (family, data)
-            sys.exit(1)
+    # Needs additional qualifiers
+    #if re.search("System\.Management\.Automation\.AmsiUtils.+amsiInitFailed", data, re.IGNORECASE):
+    #    if family == "Unknown":
+    #        family = "AMSI Bypass"
+    #    else:
+    #        print "[!] DUPLICATE ERROR AMSI Bypass - %s\n%s" % (family, data)
+    #        sys.exit(1)
 
     # Downloader Proxy
     #
@@ -306,27 +323,54 @@ def family_finder(data):
 
     return family
 
-def main():
+def base64unfurl(inputString):
+
+    data = None
 
     try:
-        data = base64.b64decode(sys.argv[1])
-
+        data = base64.b64decode(inputString)
     except:
 
+        try:
+            data = base64.b64decode(inputString[0:-1])
+        except:
+
+            try:
+                data = base64.b64decode(inputString[0:-2])
+            except:
+
+                try:
+                    data = base64.b64decode(inputString[0:-3])
+                except:
+                    pass
+
+    return data.replace("\x00", "")
+
+def main():
+
+    data = base64unfurl(sys.argv[1])
+
+    if data == None:
         try:
             fh = open(sys.argv[1], "r")
             data = fh.readlines()
             fh.close()
 
         except:
-
             print "Unable to open file or decode base64 input."
             sys.exit(1)
 
     data = data.replace("\x00", "")
+
+    if "powershell" in data and "-enc" in data:
+        data = base64unfurl(re.search("[A-Za-z0-9]{64,}", data).group())
+
     family = family_finder(data)
 
     print "\n[+] Family: %s\n" % family
 
 if __name__ == '__main__':
     main()
+
+
+
