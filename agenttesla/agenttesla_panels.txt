@@ -102,6 +102,9 @@ hxxp://kf3nqetgl3p3qlvnl4ze.ru/userpanel/panel/,2017-01-01 22:26:36,d6e704895dca
 hxxp://kidertalerz.com/panel/,2017-09-02 07:01:59,0acb7469a9437c06732ad3286ea3623817dbba9a919ee31d8f4b996b48d9abb3
 hxxp://killatenderz.com/panel/,2017-08-28 00:32:55,2c7d207f7846cc675a9b002dfef410f4e6872dc7d0eb88e1d25ca790380b6cb7
 hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=AKSE39786513837&machinetime=3:29%20AM,2017-10-03 03:26:00,06e4ca752cda1274909ff4a0e6b14e3eb3a62d2dea89651f0f3fd232c48c5679
+hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=JOHNS-PC&machinetime=1:36%20PM,2017-11-24 13:31:15,797d62c98a33ff9a016b38c29a8da6fac4c4f7370b0d432e3bb56b95165f4ab9
+hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=JOHNS-PC&machinetime=1:37%20PM,2017-11-24 13:31:15,797d62c98a33ff9a016b38c29a8da6fac4c4f7370b0d432e3bb56b95165f4ab9
+hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=JOHNS-PC&machinetime=9:36%20PM,2017-11-24 13:31:15,797d62c98a33ff9a016b38c29a8da6fac4c4f7370b0d432e3bb56b95165f4ab9
 hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=VILGZJ980173341&machinetime=11:08%20PM,2017-10-02 23:05:55,2ef73ccdfb1c4d695341b954daeb7950ebdb8d2d0453ec851b1b583d95039ba6
 hxxp://kolapharma.com/office/kbpanel/?type=notification&machinename=VILGZJ980173341&machinetime=11:09%20PM,2017-10-02 23:05:55,2ef73ccdfb1c4d695341b954daeb7950ebdb8d2d0453ec851b1b583d95039ba6
 hxxp://koloongroupinc.ru/john/,2017-08-08 14:01:31,97f4ad5fc7a803c0c37ac2b32bde2b1e9fdcb5d41883590c5a530eabdf662cb7
@@ -115,6 +118,7 @@ hxxp://mgelectroncs.com/toto/tun/,2016-12-20 10:08:12,dcdec3008170e56a381ef22010
 hxxp://miloill.com/main/cold/,2017-01-22 17:54:48,9ecf7b9843f3dc895a03b0aeb8dcdfd73089bf234726de8cd556696ea094adda
 hxxp://mitch.sudimex.ml/tesla/admin/,2017-06-27 01:52:48,52006503b103d0006efd89d2080ee0d815b5a940087b8954393add60835b4193
 hxxp://mitch.sudimex.ml/tesla/agent002/,2017-06-29 23:38:02,8a9020aaf78b5916d75455b2f38f88178d9041f0e6a1aedb5848ff919ae82649
+hxxp://mogosan.com/web/,2017-10-13 21:02:07,5134ae58e02f6052e4b1181e0665dff213b2905b7f244eb073ed4ac1f85132fe
 hxxp://mqbearing.club/zz/WebPanel/,2017-06-01 14:20:13,46afa5d1bad9e00f338bce5a2205ff513f24d16305eea7efa6acdd56991096a4
 hxxp://mrabengo.com/panel/,2017-07-14 14:27:53,ed02d061051e4068b87276c70d52432e7e6de5c6fb25ff420083f2eef1ac8eee
 hxxp://mrabengo.com/panel1/,2017-07-13 03:58:44,b56f17b2f8616a9d022bd5b840b5717645677eb156ac9a8cd8fe8d3109a7bdc7
@@ -155,6 +159,9 @@ hxxp://sweed-office.comie.ru/kc/panel/,2017-06-02 04:27:26,4a6a3d4a7b21d28b77ee2
 hxxp://syncav.ms-sync.com/,2017-07-02 10:12:50,b04c115437eb07f9bc0f96ed32f40dd45b1263c1da56bdac71c6d8b51659e8f3
 hxxp://t1st.fav.al/st/,2017-10-12 00:13:46,c9bc5d884c6da84f452b69d2b37c2ebd53c5c0ed83c080bbd87da73c17019858
 hxxp://t2st.fav.al/st/,2017-10-11 18:26:38,23d4f2b0aba78ca4bd272fe20b6a10d6a1230a7912f75ee58e752e56d9200798
+hxxp://t3st.fav.al/st/,2017-11-16 06:28:53,8625b7f23be8f29d02e8f2778043565d254510a30f14439ac66a43dd6afff003
+hxxp://t4st.fav.al/st/,2017-10-17 13:49:20,c179ef8800c3c8ba2f2c6e4b07d51505ee6d193b418eb16b0851ad0e2ed0e231
+hxxp://t5st.fav.al/st/,2017-11-08 21:49:51,1ffb719a45f452fe9380f001aa4d888b7e0280fae07322734a5cde76b1a0ff38
 hxxp://tecomou1d.com/emybeks/,2017-08-09 00:06:49,26b25a072776f184edce41f7fb18e3d479b04da66b5aa0a0a5d069fcfb3e5c66
 hxxp://tecomou1d.com/pomzy/,2017-08-10 06:22:11,794ea2322ecb0842d17695757701162dd0816034a202794c6949aa131dc280d1
 hxxp://tesla.dailyawamitime.com/,2017-07-02 14:54:57,f54e93fcfa73772c0013aed2a5504196f2cadde5af2e84091d07ab228cdc8e59
