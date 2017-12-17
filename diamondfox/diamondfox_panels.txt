@@ -110,6 +110,7 @@ hxxp://antonmakar.beget.tech/,2017-01-17 00:05:07,f18797aa0482567de62becdb28ba43
 hxxp://anveerbsuiness.in/html/,2015-09-06 11:17:43,e383675763ad934e97a3bcfa048abe2f9fd3bafd42e0052b0423e6fe80db4bbb
 hxxp://apps-install.com/tracking1/,2016-07-16 19:46:13,54c7fb22fe3a3c4de780ff72eeea8fc494bf8eab034be4062ab1b0fa7675a9f3
 hxxp://ar0u.com/0001/,2017-03-17 00:00:00,Submission
+hxxp://areapriv8.com/fox/,2017-12-16 08:31:20,eed5822b344009e16ba8a548b858c3dc8fef9288e15e92d27483863b2fcd9f97
 hxxp://armandolesaj.uphero.com/bot/,2016-01-13 10:57:57,78efac8a6f7a0ac221b18f0484688722ac6c271027173936fb4132dede4fa151
 hxxp://as.large-hack.ru/bn/,2016-04-12 08:53:37,b0c2b6faa7bee249cf146de702ddfe93f2aa15e6f09bcefa6ac30b4bd2f1db5a
 hxxp://atmosbot.xyz/Panel/,2016-09-01 00:13:52,a3b06bca23a783273967f4c26f215a3d87bf27eb45cb39f1bacfc2d7bb06266e
