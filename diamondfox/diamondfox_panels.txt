@@ -563,6 +563,7 @@ hxxp://support-management.asia/Panel/,2016-03-16 00:15:28,65b4a94cf526a4dd8336df
 hxxp://swiftgiants.com/ccc/,2015-11-21 01:27:22,8fafb0e8c0a03d5fb1ac677ac0ade2cfd66cb8f1791ed9660baaa5ebb89a3e73
 hxxp://swiftgiants.com/panel/Panel/,2015-11-08 01:50:27,7824d3639e1a77447e03e411c4ac083487774c9ad152b3dc82035abca80d39bf
 hxxp://taj-travel.com/diamond/,2015-11-04 11:48:59,1fb70a5a422384c21d9a1611a4e07a2377dd0217ffdc5d22ca9d2434de62bc70
+hxxp://tambakikan.com/,2018-01-11 12:53:56,fcccefffbbd3d0a96766350844be8d14382cb18f6bcfdd42ed12f6b128107c45
 hxxp://tbhwrm1.org/foxe/,2017-03-17 00:00:00,Submission
 hxxp://tech-dan.pw/d1/Panel/,2015-06-23 18:05:23,c6c64d3cad7f0dae19ef1f4def66adaeb95ff09ecf6d216bb49c46dc5a838efd
 hxxp://tech-dan.pw/d2/Panel/,2015-06-24 03:51:36,adb7f4677aad18561bcd5293d9dcaa590639c4d08d19b126fb937922d573cbff
