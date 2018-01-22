@@ -540,6 +540,7 @@ hxxp://site.coxslot.com/Panel/home.php/,2017-03-17 00:00:00,Submission
 hxxp://sites.y0urn3wb0ss.com/,2017-05-03 01:20:48,d5759be9a448ad3ca10d3bc67e77ce84d5233cc2b2e63b35e2674bcfae48466c
 hxxp://sjp3.tk/data/,2016-03-10 16:10:00,6a06271fa2a01d5d71dce5ce1b0652cd7ddcb2d00c97af577fffd1e429ab9b05
 hxxp://skyloris.tk/blog/,2015-07-20 09:05:11,828af53a7e015013c713f70d7984e65ae2054b2f7273f223e7a3e3f45fad08ed
+hxxp://skyroot.ru/df/,2018-01-21 09:35:14,61ca138a61aefc91b2fcd85f5725f72199394128d66d8e73b9168fa10813121e
 hxxp://slaughtertobot.co.nf/,2017-02-17 17:28:06,eb6ddc83c81d06fd4f690ffa85de5f978edd3d39117e31dc5595be531cdc8f1f
 hxxp://sluhmed.ru/media/media/js/.js/,2015-07-12 22:27:03,64f1ae0a17aefbc1abc9635e4fe86b51f84b0a6a3639daa4ee275037c8e1ba6f
 hxxp://sodaaas.biz/ify/panel/,2016-09-27 12:19:54,4df9aeba4e13456fb3bcb423fc078ad9eb2e52bd45c008bbf923a896a7ea2ac0
