@@ -48,6 +48,7 @@ hxxp://2.stasprlt.beget.tech/248165prin/,2018-04-03 22:03:55,861c0d0d5ae6fce6331
 hxxp://2.stasprlt.beget.tech/316754robert/,2018-03-23 06:11:46,c1a4d49b63350d7101cb94d3acc31395cc7fc458acb185dd275a9b35d5db0302
 hxxp://2.stasprlt.beget.tech/365890toni/,2018-04-16 13:23:20,6dbcb492e0c1bf21facfaaaf3222523fa2bce246af4f45b2c8b5332cb393d41f
 hxxp://2.stasprlt.beget.tech/387955dd3/,2018-04-11 03:20:32,a92b0c8f0ba92e45d7bcc662aef367a9b388d29754c3bc053e0d78d2d9e5db75
+hxxp://2.stasprlt.beget.tech/fox/,2018-04-19 20:48:55,6b720cf5f0b9b01fe983aac9243af2a1cc7fa1d11b5119f02889423b968ce919
 hxxp://2.stasprlt.beget.tech/satan11/,2018-02-26 21:32:07,65d0f433c2743c405952c4f771ddaa3ac2847421fe859a9c8acb94840c328bb3
 hxxp://2.stasprlt.beget.tech/testsatan/,2018-02-20 22:45:31,00559e5fd3a74fda7c7a415e4086f38cb813c444a2561f8d95585b7218d28625
 hxxp://204.45.251.131/diamond/,2016-02-16 02:45:37,48441780576aee525935aeb23e378b7b86dae1a1bb68bd14a5bd68bd757d9e4c
@@ -682,6 +683,7 @@ hxxp://www.biteskillerr.net/errorpage/a02/,2015-08-08 05:01:03,7771f67bf02f9ac4b
 hxxp://www.blackshadowsecurity.com/Panel/,2015-07-17 06:52:13,47e0dc659afd037679c29f4809a3aba55ed4cf11b82fd94c4db8a9cd5a5ab5dd
 hxxp://www.botwest.net/pic/wordpress/wp-includes/Text/Diff/Engine/Panel/,2018-03-01 16:18:31,46fe551f2dbe9d8621a2522a6c6f52f05a980506dc9b171397aa0348e8b09c4e
 hxxp://www.btopenwor1d.com/Panel/,2016-03-22 05:24:37,8b351cce990987428975e5abb814862a5daf1febc77dc49fca631d2ea8be3443
+hxxp://www.cancer.com/gate.php/,2018-04-18 18:41:51,92e99729c78b1e609f4fb32c7a66bbb538068576b4288084b6f24c8c54d816c2
 hxxp://www.cata-coin.net/control/Panel/,2015-07-22 19:13:06,b7a42cb33f72aa5842d05d41b51116a29f0d2c8dabdb43b582d02c2522be7f95
 hxxp://www.cataclysm-net.cf/Panel/,2015-07-25 12:10:13,a46fee5aa6f602f866d46fc7e45bce4712cf1152ad5979652d4097997aaa5016
 hxxp://www.chcfi.com/themes/wind/views/chinese/,2015-08-10 03:53:11,d7ea94c5c5f335859b0bebe040577c12aed6cec8aebebd6eecbaf14b51a102ff
