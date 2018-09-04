@@ -1,0 +1,8 @@
+# Rewrite URL for the shellcode payload download which uses no .php extention
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^(.*)$ $1.php
+
+DirectoryIndex index.php
