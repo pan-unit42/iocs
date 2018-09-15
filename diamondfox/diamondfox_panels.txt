@@ -693,6 +693,7 @@ hxxp://www.africoon.com/panel/,2016-01-08 18:52:53,a2c55c61c3272d1faecd98cc4cbb5
 hxxp://www.amexpresonlineservices.com/diamond/,2015-09-01 09:40:04,3a39a8a042fc80cf5adeab09a891f7a8c7c6aa5c7b05e03db61b1f81b9fc9f4d
 hxxp://www.aminaldistri.com/janter/panel/,2016-10-12 21:27:51,2973fffad9f56418ae07a1d35ecfe86630ff9268184c0a2c099211cb090923e6
 hxxp://www.arabiacranes.com/Panel/,2018-09-11 19:14:08,8fb247c42a98980373d3c523276251b3b17f1cf041740585d44c1a98baa6429a
+hxxp://www.arabiacranes.com/fox/Panel/,2018-09-14 10:29:35,fdcfff54a60d7f1ed7946df33a590bfa92be767c1ddf434487418d598183d415
 hxxp://www.asianreprographic.com/Panel/,2015-07-04 03:48:11,fa21b6b7eabb15dec88ea2842bfe74593bc47afec0e29551acad0028204b4cf5
 hxxp://www.astro-net.cf/Panel/,2015-08-14 10:36:22,918fb1ad4043d403f2ecded7c1b8d42d22cec6a9f3be7cfc323cd34b74547bc1
 hxxp://www.atmosbotnet.pw/,2015-07-07 13:47:57,cea655a6ba9f659ab92961f78d6052e870c094bef5ad60034d6aafb5dfaf51f3
