@@ -235,6 +235,7 @@ hxxp://diamond.cpbph2.com/Panel/,2015-11-17 14:50:26,fbc461ecbb4732f0a73cbfb7392
 hxxp://diamond.wuwy.net/,2016-11-02 20:18:09,deb44ac3be9cb23c99da30bb72ac8371bf894a2669b27c1944a3170d2859c19a
 hxxp://diamondfo.atspace.cc/,2017-06-27 09:55:03,a8139849b70226ed13abc68c04c712be281e01c7e81d3c2c3bdb0f0ae0504de3
 hxxp://diamondfox.co.nf/install.php/,2016-11-22 20:52:27,5dd8cec8dad75043eb7b5e2ae2ce0d0c7898b9349ddbe7c3be21f07dd3d7b1eb
+hxxp://diamondfox.panelspy.tk/,2018-09-27 06:52:57,5beb6a9e085ee57402cf218fad8ae6b7aed098d2103ccfdeba1a69f59448282b
 hxxp://diamondfoxpanel.cf/ghost/,2018-04-11 00:03:27,d2824f824fd4cbd3aa2523514b8b60e39877c38b71cf47f7fbcfb3bde9b5b644
 hxxp://diamondnet.oxulyt1i.bget.ru/,2016-02-28 23:08:03,9a89b663d69d62a71b97da2d95cd64d529156cdcee93ff6d337f06120ea1ac6a
 hxxp://dichvusamp.host22.com/,2016-04-10 00:38:33,bdeea31dc1fcc6ea24ff0eda7718fabb6b6828b3353b1395d9eaccd3e3770bcd
