@@ -310,6 +310,7 @@ hxxp://flyrecords.fr/Panel/,2015-09-13 02:43:03,ed87b31905c4ed205aae20bb62906c67
 hxxp://food6623.eating-organic.net/dia/,2015-12-18 17:21:18,8b5767e0724ac174f4584a38d0743104d040ecf2335431c2f6da0911b7610cbd
 hxxp://forginglinks.net/Panel/,2017-06-18 20:02:48,739d7b07cb5335e24a7984ab6fff1b5de591a12cd3a333a42326023c55a7260f
 hxxp://foxbotpanel.org/diamondfox/,2017-05-12 00:00:00,Submission
+hxxp://frankozdf.com/fox/Panel/tasks.php/,2019-01-04 15:37:04,0c4b43e006cfe101016aa904b3f14d56a7f9923a0c0997362e5f00ddbdf097fc
 hxxp://fraudavenger.org/burnup/,2015-12-12 05:32:30,7bac7a5fb4c2d0d66fbe539fd85157a996ece0f7ad8e42770ade1396786b9423
 hxxp://fraudzz.cc/admin/,2016-01-19 16:42:25,bca9b5a324cd778e71fab207f885d0ed019e026c5e29476ea2990493bf6aa87e
 hxxp://freecreditcards.cf/nope/,2015-07-10 22:27:43,ca6d3593337ec54f7ce383f95633a10a8c33bcc8f3417ce27cc2e96d10b57e43
