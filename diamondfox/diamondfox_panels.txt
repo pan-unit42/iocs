@@ -187,6 +187,7 @@ hxxp://bothome.ru/css/crew/folded/,2016-05-07 19:51:34,ec5cd50703d37cf0bfdaf5d55
 hxxp://botnet.shadow-xploiters.cf/,2016-12-15 15:43:51,3e9b20b7a39b44c65e154c52bba95c777a9aa42a13f84beeaf2cda7800d4fb57
 hxxp://botnet2706.beget.tech/,2017-02-07 14:13:27,66c7ae4ee1bfd45308624fdbc4a0014570b4e2ea22c7c3c59b1ebdfa5ce00e13
 hxxp://botnetddos.ru/Panel/,2017-03-05 03:34:29,aa3cdf545b3e90bcb9e364115cb568264a15d9b5437aba37f6a5f8d0d1dee610
+hxxp://box.az/panel/,2019-04-02 08:02:59,ded2d2e0b988b0c55cc935917eb354048369314ffb6df6635403929e796652ac
 hxxp://boxint.net/jam/,2016-07-31 23:47:02,e54eb5bd84b6ca84cde8821c51ebdeb9f695a5e9ebabb612ae070a3dd8228957
 hxxp://braguty.com/Temp/,2017-06-06 01:40:30,c3acba878b4c914d2c87a2a8db3a91b624b40c500c877d1b332018de402cf9f4
 hxxp://brightfruits.in/nass/panel/,2016-09-25 13:58:33,3c066d3083e86f4159f21d66c0bbb46a2449e4b74c113a097bee912ba8c71ded
