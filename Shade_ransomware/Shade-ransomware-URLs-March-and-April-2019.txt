@@ -1,6 +1,6 @@
 APPENDIX A:
 
-URLS THAT RETURNED SHADE (TROLDESH) RANSOMWARE EXE FROM 2019-03-01 THROUGH 2019-04-24:
+203 URLS THAT RETURNED SHADE (TROLDESH) RANSOMWARE EXE FROM 2019-03-01 THROUGH 2019-04-24:
 
 hxxp://333media[.]co[.]uk/.tmb/inf.inf
 hxxp://3faddi.000webhostapp[.]com/wp-content/themes/shapely/inc/custom-controls/hp.gf
