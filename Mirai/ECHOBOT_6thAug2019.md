@@ -1,8 +1,6 @@
-A Mirai variant circulating under the name of ECHOBOT surfaced on 6th August 2019, containing a total of 57 unique exploits. While the majority of those exploits have already been seen in the wild in the past, a dozen are new additions to these particular samples, and the first known instance of them being employed by a piece of malware. This conforms to the trend seen with Mirai variants, even moreso with ECHOBOT, wherein authors have been testing the effectiveness of public exploits in terms of gains in bot count. Exploits that infect a greater number of devices are retained or reused in future variants whereas the less effective ones are retired or replaced with other exploits.
+A Mirai variant circulating under the name of ECHOBOT surfaced on 6th August 2019, containing a total of 57 unique exploits. While the majority of those exploits have already been seen in the wild in the past, a dozen exploits are new additions to these particular samples, and the first known instance of them being employed by a piece of malware. This conforms to the trend seen with Mirai variants, even moreso with ECHOBOT, wherein authors have been testing the effectiveness of public exploits in terms of gains in bot count. Exploits that infect a greater number of devices are retained or reused in future variants whereas the less effective ones are retired or replaced with other exploits.
 
 Most notably, the new bunch of exploits includes two targeting Biometric Iris readers, and one targeting ethernet control system for PLCs. Also included is an exploit against certain Citrix SD-WAN devices, incorporated less than a month after the public release of the vulnerability and exploit. Aside from those, other targeted devices are IP cameras, routers/gateways, and server management/monitoring tools.
-
-NB: Due to the payload script being faulty, the bots would not succeed at further propagating despite finding vulnerable devices.
 
 IOCs & distinguishing features for these samples have been shared below. Previous research on the same variant can be found [here](https://unit42.paloaltonetworks.com/new-mirai-variant-adds-8-new-exploits-targets-additional-iot-devices/)
 
@@ -10,26 +8,80 @@ IOCs & distinguishing features for these samples have been shared below. Previou
 ```
 0116713cc067ced84b62a55c42218702d576558d3ac8a405703f57977d698d5e
 09399b5e74a4493399a8d36e1b8a655b0f5c8407c838b03246c5852dd6f7f560
+0f1278aee9ad47873fed8476835d1bc1ef28f1d2c5b3fe07fcb85fb5cdaa3b6e
+1318b377aaad56aeb19ab2fdbaec3e051fbf9263ded60d098cb99a7414840187
 15f9419b3a3081b822ed75b4afad8f966e97e7f525e8e11e5ad138ff798d9a01
 162b5c3300a62b1f79fbd2d29054c66bf581519c4cd30cba6fc3ea4c3abe84be
 33ae648bdd89273906b0305eaf2e47e7cae55f1c0cde4cd4fd7f9d86d10b4136
+33d3b78da61b2b106765efed7bc314114e3462c19cb54da3609b5a96cbae9faa
+382509d3f18a8d6e44301c497f39ad5ac0253301d3ee4210a89404d6858dc319
+494f2c5b5e6e963402c10f93612cab0d45d6ae9369f1337c3c7b7c736c19b8c2
+55b455acee8b3e273c30f867a2b7ff71d52f46f9aa873cc443878fa9b952ce3a
+5bcd94aed01385a28417c161de39e87d919f6f68b9e762498df5d82705bc26af
+6e024ceeaa0f896cb96048382bf1d2ab04e6ee28d6f6c78073e87e1389f7b792
+79fbccdd13c18356ec8db2de02289fa3dee6b9f8c6ea4576543984439de0eb47
 7bc9df1d024873eb39636df225a8d38821ddb272a7d7412f5308717c66305daf
 859076a44f01c68b6b256da515d32d741934990c614cc084e054d0db44fc343c
 8cc01a1c17b18bbc8008139abbfbb5f82f36980bed34a88fa5b0991a70c79a1d
+94cc324151572c88340dd5a1659c493c5599038e33bfaf16dc7fe1972bee793e
+94e4dc6fa036427c8bf52e0d40b0e65a7b183deca232cb495cb1f59f75f770f8
+9873c6f225a310a5206301bb7e7fe6a9aab897a7ceee2f0fe01bef8ea6b14cbe
 9b9aecd20bee9437e375436a7808c4d87661c1bbc424a40f6c2bf344591d4100
+9fd62bcc6a5f10ec92bb74ca07530b2c1c8fd9aa791d4a09f5740717b381ddec
 a45daaa2259a7b77b507abb1b415551bd8c96c64bf344ed48e09c779d37310f1
 b0e83b4a0b75d791c870f643c50732aaee861ea4c4c8a92d431ae7a75346a3f9
 c94d88f11b21277cc41b8b302a683a2e5df7346f5b340e31613a12d3172cf523
 cb4b181327e0dbab67acef3e6708da26d003ad4bae86593287cfa7fb77bc0d2c
+d1b77e1fc0b8a01ea4821f6fe4c7ef9f623e884803b8898bd8c9e1c36110c5a6
 d1d8de0491248c38506e586f2d5dc11551354609c6c33ce0d36453997a7e4bd9
+d5f06bcebcedbf4840d2d7f59a7579463b6aa8a03a8e6e4aca3a8872375c27bd
 fc23196a03222392127e92e30efd6dc4c5a07fb96a9298038c8a629671807121
 fcfee5fc93d49bad746ebc65be884b124b83b8003198d5bad4486722b105f6da
+fdaa7f0028f457ae95c64f23e4464a935af22bebcfd9b914eb7be26eecde7874
 ```
 
 ### C2s
 ```
 akuma[.]pw:17
 akumaiotsolutions[.]pw:912
+```
+
+### URLs
+```
+185.164.72.155/richard
+185.164.72.155/ECHOBOT.arm
+185.164.72.155/ECHOBOT.arm6
+185.164.72.155/ECHOBOT.i686
+185.164.72.155/ECHOBOT.mips64
+185.164.72.155/ECHOBOT.sh4
+185.164.72.155/ECHOBOT.x86_64
+185.164.72.155/ECHOBOT.arm4
+185.164.72.155/ECHOBOT.arm7
+185.164.72.155/ECHOBOT.m68k
+185.164.72.155/ECHOBOT.mpsl
+185.164.72.155/ECHOBOT.spc
+185.164.72.155/ECHOBOT.arm5
+185.164.72.155/ECHOBOT.i486
+185.164.72.155/ECHOBOT.mips
+185.164.72.155/ECHOBOT.ppc
+185.164.72.155/ECHOBOT.x86
+185.62.189.143/richard
+185.62.189.143/ECHOBOT.arm
+185.62.189.143/ECHOBOT.arm4
+185.62.189.143/ECHOBOT.arm5
+185.62.189.143/ECHOBOT.arm6
+185.62.189.143/ECHOBOT.arm7
+185.62.189.143/ECHOBOT.i486
+185.62.189.143/ECHOBOT.i686
+185.62.189.143/ECHOBOT.m68k
+185.62.189.143/ECHOBOT.mips
+185.62.189.143/ECHOBOT.mips64
+185.62.189.143/ECHOBOT.mpsl
+185.62.189.143/ECHOBOT.ppc
+185.62.189.143/ECHOBOT.sh4
+185.62.189.143/ECHOBOT.spc
+185.62.189.143/ECHOBOT.x86
+185.62.189.143/ECHOBOT.x86_64
 ```
 
 ### Exploits
