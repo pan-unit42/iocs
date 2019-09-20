@@ -1,0 +1,58 @@
+SHA256,Filename,Tool Name,C2,Task Name,PDB,Notes
+892d5e8e763073648dfebcfd4c89526989d909d6189826a974f17e2311de8bc4,inetinfo.sys,Hisoka v0.8,microsofte-update.com,microsoft-update,,
+a5c1974cf23f5659cc588067ac80e56dee2cbd17a4190b719cb77c343935cd7b,,Hisoka v0.8,microsofte-update.com,,,
+2fd6384af8a6120d7bbd9b6466d4067466e25f31da1951be19289fd0226599a9,,Hisoka v0.8,microsofte-update.com,,,
+be02188eaa4fb68295508b42578807bdab5fc67c4ea8b08affadb251978ea08a,,Hisoka v0.8,microsofte-update.com,,,
+2b2d8bdb5e18694810d70facd2b807cbb94f0f3b3b4d11ec998b674ead31456f,,Hisoka v0.8,microsofte-update.com,,,
+3432ecb711f06deed786ae58ba88a167c15b34b4232cf924fc6a2f6cfc8ef3c9,,Hisoka v0.8,microsofte-update.com,,,
+ec47f99e9fce7af06e8b11f877aca2351b15362efc0fc91dcc23630a54f3c116,,Hisoka v0.8,microsofte-update.com,,,
+4fc4b7ae5da0aeb6285edf0ddd07055c1231e718c2fbfd402f0a17da2f1ba31a,netiso.sys,Hisoka v0.9,google-update.com,google-update,,
+882b4e810489b61507eb3576e0228030dd12a0e03f0148a82055220412603e37,netiso.sys,Hisoka v0.9,,,,
+a78bfa251a01bf6f93b4b52b2ef0679e7f4cc8ac770bcc4fef5bb229e2e888b5,netiso.sys,Hisoka v0.9,learn-service.com,service-update,,
+3996efe9a3cf471a1f816287368fa0f99d2cdb95786530b0b61c7b9024ff717b,,Hisoka v0.9,,,,
+84122b55e5552af1752a00f1a268247feca7e7dbeb4c4cd7b3f5a3005a19fe16,EYE.exe,EYE,,,Z:\TOOLS\Sakabota_Tools\Utility\Micosoft_Visual_Studio_2010_Experss\PRJT\Sync\Sakabota\EYE\EYE\obj\Release\EYE.pdb,
+8391c571bffb3ce538ace4d8a3388b28eb486cca5bdab08ab7b568b4e8fc0ec8,Gon.sys,Gon,,,,
+a391c5b80a729cc661614f3e64d65cb136eca9900a9025aee3af9a167b38f5c9,smsc.exe,Sakabota,pasta58.com,,,
+3314cc701f5c9030622de055879141f6e8c23408029995bd7a88374008aa4390,smscC.exe,Sakabota,pasta58.com,,,
+19e3b10056e33fa7559daf8d9a5104ebb313675a2b4daca37bab7da1a49c2e0f,taskhost.exe,Sakabota,pasta58.com,,,
+ff0bd8f8dee90ba71a491f17b9fda52c918ef9d3580d562029268a99b7410e19,taskhost.exe,Sakabota,pasta58.com,,,
+0ea5565c15303c56c69bbadee462e9c63dbd6ee52f00f187e435af224a48795b,taskhost.exe,Sakabota,pasta58.com,,,
+47ca763da840fdee68b97e8d53cbc56b3f90e4d6532f0b1501b90175b8fca24f,smsc.exe,Sakabota,pasta58.com,,,
+761635c23f3c98a8d18e48c767fff2b0ec321b58064b404ea1b2b4a555913296,smsc.exe,Sakabota,pasta58.com,,,
+b73facbf55053519b5da29397cfd3beea519e9f1bd41c50b6c2f3f1b4eca15a3,smsc.exe,Sakabota,pasta58.com,,,
+db1f460f624a4c13c3004899c5d0a4c3668ba99bb1e6be7f594e965c637b6917,smsc.exe,Sakabota,pasta58.com,,,
+9a431838f2613454c5630a5f186f0aee240dfc5723bd6e1b586bb4118cc3aab7,smsc.exe,Sakabota,pasta58.com,,,
+b9c56da9e911dc85b06f8dc9d1a486663af8f982511e1c3ad568e635e2323274,smsc.exe,Sakabota,pasta58.com,,,
+bf7a448ef2603cce5488d97474c913ba14c9550d03cc5e387fe31eb416dc0259,smsc.exe,Sakabota,pasta58.com,,,
+cc21bc11d9aed226e9c511480e54bb1305cea086ab0b5e310de68228debdc80e,smsc.exe,Sakabota,pasta58.com,,,
+d80aeb4fb326af0bf1179c4fcf2ad01cf98ddab81f709e690bbd728c027064e9,smsc.exe,Sakabota,pasta58.com,,,
+d0f57e566c6b457d6e97dc02266d67d81ef561fba50a86e9f9fc889dc5167068,smsc.exe,Sakabota,pasta58.com,,,
+df0f874219ffac8038290eb4a39ba6686edc35de8913563f8ddc9644ad4bde64,smsc.exe,Sakabota,pasta58.com,,,
+2d7ff8d3aee31cd2f384d74e6b0f07ecda2cea860fb3210c9afe66bc7cc6f90b,smsc.exe,Sakabota,pasta58.com,,,
+66e57d2909e37d39791bee91eb9e8121aa48ea89eae8a09275ae078e9dda2f50,smsc.exe,Sakabota,pasta58.com,,,
+ea31e5afec3b94635e98473183ec420e9c3e6fd13b618dadb5b34bf5c257a5aa,smsc.exe,Sakabota,pasta58.com,,,
+8e18b28dc7351b0e7928b0f5373a6e987ba6d084d84bfd0b29e7f458ca5401e5,smsc.exe,Sakabota,pasta58.com,,,
+40b18a1c06888f8e116b6de21f70359b9763b8066c764542ff3816c118b7d482,smsc.exe,Sakabota,pasta58.com,,,
+335e9eb0bb571ca81cc6829483f0b8d015627f8301373756d04d844cde04918d,smsc.exe,Sakabota,pasta58.com,,,
+5b5f6869d8e7e5746cc9bec58694e4e0049aef0dcac5dfd595322607ba10e1ae,smsc.exe,Sakabota,pasta58.com,,,
+7cfd75ab4822b489f74e83d3046536509c44b29b72b43125b0eca1fe449b5953,smsc.exe,Sakabota,pasta58.com,,,
+ead4efbc822d2f6351225b35e108100ebef0cdd4b4f3c4762e2ab766ea1ab873,,Killua,,,,
+18117d1029bad681b1fc28b3bcf3e3dcb63c040d48e369976fb4968376d7195c,,Killua,learn-service.com,,,
+a49ef5833ed5bf3938f535cf25876555fc0e85bcd278da7227593d9b25d8f65e,,Killua,learn-service.com,,,
+b63cb7453a835d3af235b6424ffae9ce8b20716c4b35eec6d448d4c95121da69,,Killua,,,,
+a78bfa251a01bf6f93b4b52b2ef0679e7f4cc8ac770bcc4fef5bb229e2e888b5,,Killua,learn-service.com,,,
+970f656c3c41d09e674d8da94d66b81cbf7428754780f2a155d400d5e98ca5fa,otc.dll,Killua,,,,
+72eeac8fecf392ece7ba0a12ebe02e69dd8d1740ba82f017c87d8a08d71b890b,otc.dll,Killua,,,,
+206b735740abf36cd2c3515cfcb9016f65e51cbf4930ddff6abf2e75a07a23d4,msdtd.sys,Netero,,google-update,C:\\Users\\bob\\Desktop\\Hisoka\\Netero\\obj\\Debug\\msdtd.pdb,
+3996efe9a3cf471a1f816287368fa0f99d2cdb95786530b0b61c7b9024ff717b,msd,Netero,,Service_Update,C:\\Users\\boss\\Desktop\\Hisoka\\Netero\\obj\\Debug\\msdtd.pdb,
+,,,alforatsystem.com,,,2018 infrastructure overlap
+,,,winx64-microsoft.com,,,2018 infrastructure overlap
+,,,6google.com,,,2018 infrastructure overlap
+,,,windows-updates.com,,,2018 infrastructure overlap
+,,,windows64x.com,,,2018 infrastructure overlap
+,,,microsoft-check.com,,,2018 infrastructure overlap
+,,,firewallsupports.com,,,2018 infrastructure overlap
+,,,check-updates.com,,,2018 infrastructure overlap
+,,,sakabota.com,,,2018 infrastructure overlap
+,,,antivirus-update.top,,,2018 infrastructure overlap
+,,,traveleasy-kw.com,,,2018 infrastructure overlap
