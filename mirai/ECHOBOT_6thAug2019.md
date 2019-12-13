@@ -43,7 +43,7 @@ fdaa7f0028f457ae95c64f23e4464a935af22bebcfd9b914eb7be26eecde7874
 ### C2s
 ```
 akuma[.]pw:17
-akumaiotsolutions[.]pw:912
+akumaiotsolutions[.]pw:777
 ```
 
 ### URLs
@@ -112,7 +112,7 @@ New exploits in these samples seen for the first time in the wild
 * [IrisAccessICU_RCE](https://autofocus.paloaltonetworks.com/#/tag/Unit42.IrisAccessICU_RCE)
 * [BewardN100RCE](https://autofocus.paloaltonetworks.com/#/tag/Unit42.BewardN100RCE)
 * [FritzBoxCmdInjection](https://autofocus.paloaltonetworks.com/#/tag/Unit42.FritzBoxCmdInjection)
-* [FLIRFCSPT_RCE](https://autofocus.paloaltonetworks.com/#/tag/Unit42.FLIRFCSPT_RCE)
+* [FLIRFCSPT_RCE](https://autofocus.paloaltonetworks.com/#/tag/Unit42.FLIR_FCSPT_RCE)
 * [SapidoRB1732_RCE](https://autofocus.paloaltonetworks.com/#/tag/Unit42.SapidoRB1732_RCE)
 * [CVE-2016-0752](https://autofocus.paloaltonetworks.com/#/tag/Unit42.CVE-2016-0752)
 * [CVE-2014-3914](https://autofocus.paloaltonetworks.com/#/tag/Unit42.CVE-2014-3914)
