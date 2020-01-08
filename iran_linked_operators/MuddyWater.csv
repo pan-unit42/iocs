@@ -1,0 +1,377 @@
+Type,Indicator,Name
+Filename,%SystemDrive%\ProgramData\EventManager.dll,
+Filename,%SystemDrive%\ProgramData\EventManager.logs,
+Filename,%SystemDrive%\ProgramData\WindowsDefenderService.ini,
+Filename,%SystemDrive%\ProgramData\Defender.sct,
+Filename,%SystemDrive%\ProgramData\DefenderService.inf,
+Filename,%SystemDrive%\ProgramData\WindowsDefender.ini,
+Filename,%SystemDrive%\ProgramData\ZIPSDK\InstallConfNT.vbs,
+Filename,%SystemDrive%\ProgramData\ZIPSDK\ProjectConfManagerNT.ini,
+Filename,%SystemDrive%\ProgramData\WindowsDefenderTask.ini,
+Filename,%SystemDrive%\ProgramData\WindowsDefenderTask.txt,
+Filename,%SystemDrive%\ProgramData\WindowsDefenderTask.xml,
+Filename,%SystemDrive%\ProgramData\DefenderNT\ConfigRegister.vbs,
+Filename,%SystemDrive%\ProgramData\DefenderNT\SetupConf.ini,
+Filename,%SystemDrive%\ProgramData\ASDKiMalwareSDK\ProjectConfSDK.vbs,
+Filename,%SystemDrive%\ProgramData\ASDKiMalwareSDK\SetupConfSDK.ini,
+Filename,%SystemDrive%\ProgramData\FirefoxSDK\ConfigRegisterSDK.ini,
+Filename,%SystemDrive%\ProgramData\FirefoxSDK\ConfigRegisterSDK.vbs,
+Filename,%SystemDrive%\ProgramData\OneDrive.dll,
+Filename,%SystemDrive%\ProgramData\OneDrive.html,
+Filename,%SystemDrive%\ProgramData\OneDrive.ini,
+Filename,%SystemDrive%\ProgramData\WindowsNT\WindowsNT.ini,
+Filename,%SystemDrive%\ProgramData\WindowsNT\WindowsNT.vbs,
+Filename,%SystemDrive%\ProgramData\SYSTEM32SDK\ConfManagerNT.vbs,
+Filename,%SystemDrive%\ProgramData\SYSTEM32SDK\ProjectConfManagerNT.ini,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsDefenderUpdater,
+Filename,%windir%\System32\Tasks\Microsoft\MicrosoftOneDrive,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsDifenderUpdate,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsSystem32SDK,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsDefenderSDK,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsMalwareDefenderSDK,
+Filename,%windir%\System32\Tasks\Microsoft\WindowsMalwareByteSDK,
+IP,66[.]219[.]22[.]235,
+IP,83[.]171[.]238[.]62,
+IP,185[.]185[.]25[.]175,
+IP,185[.]244[.]14[.]218,
+IP,104[.]237[.]233[.]60,
+IP,104[.]237[.]255[.]212,
+IP,104[.]237[.]233[.]40,
+IP,5[.]9[.]0[.]155,
+IP,103[.]13[.]67[.]4,
+IP,80[.]80[.]163[.]182,
+IP,80[.]90[.]87[.]201,
+IP,91[.]187[.]114[.]210,
+IP,78[.]129[.]139[.]131,
+IP,192[.]168[.]1[.]104:54863,
+IP,163[.]172[.]147[.]222:4555,
+MD5,08acd1149b09bf6455c553f512b51085,
+MD5,a9ec30226c83ba6d7abb8d2011cdae14,
+MD5,E5683fb480353c0dec333a7573710748,
+MD5,159238b473f80272fdcd0a8ddf336a91,
+MD5,16ac1a2c1e1c3b49e1a3a48fb71cc74f,
+MD5,1b086ab28e3d6f73c6605f9ae087ad4a,
+MD5,23c82e8c028af5c64cbe37314732ec19,
+MD5,24e1bd221ba3813ed7b6056136237587,
+MD5,2e82e242cb0684b98a8f6f2c0e8a12f3,
+MD5,37f7e6e5f073508e1ee552ebea5d200e,
+MD5,3bb14adb551663fd2328d59f653ba757,
+MD5,3c2a0d6d0ecf06f1be9ad411d06f7ba8,
+MD5,4c5a5c236c9f4480b3d725f297673fad,
+MD5,4f873578956d2790101443f24e4bd4d3,
+MD5,5466c8a099d1d30096775b1f4357d3cf,
+MD5,59502e209aedf80e170e653306ca1553,
+MD5,5a42a712e3b3cfa1db32d9e3d832f8f1,
+MD5,5bd61a94e7698574eaf82ef277316463,
+MD5,5de97ae178888f2dd222bb8a66060ac2,
+MD5,665947cf7037a6772687b69279753cdf,
+MD5,7a2ff07283ddc69d9f34cfa0d3c936d4,
+MD5,7beb94f602e97785370fec2d059d54a5,
+MD5,801f34abbf90ac2b4fb4b6289830cd16,
+MD5,864d6321be50f29e7a7a4bfab746245a,
+MD5,8a36d91ca331f62642dbcafc2ea1b1ab,
+MD5,9486593e4fb5a4d440093d54a3519187,
+MD5,94edf251b5fe7cc19488b5f0c3c3e359,
+MD5,9c6648cedeb3f5d9f6d104e638bd0c3d,
+MD5,9f4044674100a8c28f9ed1b336c337ce,
+MD5,aa1e8d0e1c4d4eb9984124df003ea7f2,
+MD5,aa564e207926d06b8a59ba50ca2c543d,
+MD5,ab4f947f4649b9ec28d182b02778aa69,
+MD5,ad92ccf85ec170f340457d33bbb81df5,
+MD5,b8939fa58fad8aa1ec271f6dae0b7255,
+MD5,bb476622bcb0c666e12fbe4ccda8bbef,
+MD5,be62fc5b1576e0a8491519e10bab931d,
+MD5,bf310319d6ef95f69a45fc4f2d237ed4,
+MD5,c375bbf248592cee1a1999227457c300,
+MD5,c73fc71ee35e99230941f03fc32934d9,
+MD5,c8b0458c384fd34971875b1c753c9c7c,
+MD5,cd371d1d3bd7c8e2110587cfa8b7eaea,
+MD5,ce2df2907ce543438c19cfaf6c14f699,
+MD5,d15aee026074fbd18f780fb51ec0632a,
+MD5,d632c8444aab1b43a663401e80c0bac4,
+MD5,d6acee43d61cbd4bcd7a5bdf4ed9b343,
+MD5,e3e25957b738968befcf2333aa637d97,
+MD5,eb69fb45feb97af81c2f306564acc2da,
+MD5,f00fd318bf58586c29ab970132d1fd2a,
+MD5,f2b5373f32a4b9b3d34701ff973ba69c,
+MD5,f84914c30ae4e6b9b1f23d5c01e001ed,
+MD5,faa4469d5cd90623312c86d651f2d930,
+MD5,Ffb8ea0347a3af3dd2ab1b4e5a1be18a,
+MD5,345b1ea293764df86506f97ba498cc5e,
+MD5,029cb7e622f4eb0d058d577c9d322e92,
+MD5,06178b5181f30ce00cd55e2690f667ac,
+MD5,2b8ab9112e34bb910055d85ec800db3f,
+MD5,47ec75d3290add179ac5218d193bb9a8,
+MD5,befc203d7fa4c91326791a73e6d6b4da,
+MD5,C561e81e30316208925bfddb3cf3360a,
+MD5,132efd7b3bdfb591c1bf2a4e19c710eb,
+MD5,e7a6c57566d9523daa57fe16f52e377e,
+MD5,c0e35c4523a7931f4c99616d6079fd14,
+MD5,245fa82c89875b70c2669921d4ba14d3,
+SHA256,f5ef4a45e19da1b94c684a6c6d51b86aec622562c45d67cb5aab554f21eb9061,
+SHA256,d5b7a5ae4156676b37543a3183df497367429ae2d01ef33ebc357c4bdd9864c3,
+SHA256,d77d16c310cce09b872c91ca223b106f4b56572242ff5c4e756572070fac210f,
+SHA256,98f0f2c42f703bfbb96de87367866c3cced76d5a8812c4cbc18a2be3da382c95,
+SHA256,200c3d027b2d348b0633f8debbbab9f3efc465617727df9e3fdfa6ceac7d191b,
+SHA256,951585840a07a6496b0270f1028281fcb65d5b9e9a6ed613ca8809b258ed729f,
+SHA256,1dae45ea1f644c0a8e10c962d75fca1cedcfd39a88acef63869b7a5990c1c60b,
+SHA256,10157ab25bab7891068538111333a2101b987e930d5deb7bb60ed63cf7ca197d,
+SHA256,0a9d295016417b00457d4a031b5c52eea41bcde3465ac517767d8795a6a213eb,
+SHA256,20bf83bf516b12d991d38fdc014add8ad5db03907a55303f02d913db261393a9,
+SHA256,c5ca4599d21a89444034676b26d13fe0cd0bf0aeffa01b07d5883fa966adaf35,
+SHA256,36ccae4dffc70249c79cd3156de1cd238af8f7a3e47dc90a1c33476cf97a77b0,
+SHA256,3030d80cfe1ee6986657a2d9b76b626ea05e2c289dee05bd7b9553b10d14e4a1,Decoded PowerStats payload
+SHA256,8b96804d861ea690fcb61224ec27b84476cf3117222cca05e6eba955d9395deb,Lazagne
+SHA256,99077dcb37395603db0f99823a190f50313dc4e9819462c7da29c4bc983f42fd,Lazagne Runner Script
+SHA256,d2a0eec18d755d456a34865ff2ffc14e3969ea77f7235ef5dfc3928972d7960f,Loader script from 144.76.109[.]88
+SHA256,1421a5cd0566f4a69e7ca9cdefa380507144d7ed59cd22e53bfd25263c201a6f,MuddyWater Macro
+SHA256,4e3c7defd6f3061b0303e687a4b5b3cc2a4ae84cdc48706c65a7b1e53402efc0,MuddyWater Macro
+SHA256,1b60b7f9b0faf25288f1057b154413921a6cb373dcee43e831b9263c5b3077ce,MuddyWater Macro
+SHA256,2c8d18f03b6624fa38cae0141b91932ba9dc1221ec5cf7f841a2f7e31685e6a1,MuddyWater Macro
+SHA256,367021beedb3ad415c69c9a0e657dc3ed82b1b24a41a71537d889f5e2b7ca433,MuddyWater Macro
+SHA256,58282917a024ac252966650361ac4cbbbed48a0df7cab7b9a6329d4a04551c0d,MuddyWater Macro
+SHA256,58898648a68f0639c06bedc8242ca48bc6ec56f11ed40d00aa5fdda4e5553482,MuddyWater Macro
+SHA256,81523e0199ae1dc9e87d2b952642785bfbda6326f22e4c0794a19afdf001a9a3,MuddyWater Macro
+SHA256,90b66b3fef77962fbfda364a4f8799bfcc9ab73772026d7a8922a7cf5556a024,MuddyWater Macro
+SHA256,96101de2386e35bc5e38d32524a02c6c5ca7cc6624e656a629b2e0f1693a76fd,MuddyWater Macro
+SHA256,964aaf5d9b1c749df0a2df1f1b4193e5a643893f251e2d74b47663f895da9b13,MuddyWater Macro
+SHA256,97f9a83bc6bb1b3f5cb7ac9401f95265597bff796bb4901631d6fa2c79a48bdc,MuddyWater Macro
+SHA256,a3c1fd46177a078c4b95c744a24103df7d0a58cee1a3be92bc4cdd7dec1b1aa5,MuddyWater Macro
+SHA256,fcfbdffbcad731e0a5aad349215c87ed919865d66c287a6723fd8e2f896c5834,MuddyWater Macro
+SHA256,2bb1637c80f0a7df7260a8583beb033f4afbdd5c321ff5642bc8e1868194e009,MuddyWater Macro
+SHA256,58aec38e98aba66f9f01ca53442d160a2da7b137efbc940672982a4d8415a186,MuddyWater Macro
+SHA256,605fefc7829cfa41710e0b844084eab1f180fe513adc1d8f0f82501a154db0f4,MuddyWater Macro
+SHA256,e8a832b04dbdc413b71076754c3a0bf07cb7b9b61927248c482ddca32e1dab89,MuddyWater Macro
+SHA256,5d049bd7f478ea5d978b3c78f7f0afdf294a94f526fc20ffd6e33022d40d15ae,MuddyWater Macro
+SHA256,12a7898fe5c75e0b57519f1e7019b5d09f5c5cbe49c48ab91daf6fcc09ee8a30,MuddyWater Macro
+SHA256,2602e817a67949860733b3548b37792616d52ffd305405ccab0409bcfedc5d63,MuddyWater Macro
+SHA256,42a4d9527063f73004b049a093a34a4fc3b6ea9505cb9b50b895486cb2dca94b,MuddyWater Macro
+SHA256,5ed5fc6c6918ff6fa4eab7742c03d59155ca87e0fe12bac339f18928e2924a96,MuddyWater Macro
+SHA256,a2ad6bfc47c4f69a2170cc1a9fd620a68b1ebb474b7bdf601066e780e592222f,MuddyWater Macro
+SHA256,c23ece07fc5432ca200f3de3e4c4b68430c6a22199d7fab11916a8c404fb63dc,MuddyWater Macro
+SHA256,cb96cd26f36a3b1aacabfc79bbb5c1e0c9850b1c75c30aa498ad2d4131b02b98,MuddyWater Macro
+SHA256,ed2f9c9d5554d5248a7ad9ad1017af5f1bbadbd2275689a8b019a04c516eeec2,MuddyWater Macro
+SHA256,fe16543109f640ddbf3725e4d9f593de9f13ee9ae96c5e41e9cdccb7ab35b661,MuddyWater Macro
+SHA256,886e3a2f74bf8f46b23c78a6bad80c74fe33579f6fe866bc5075b034c4d5d432,MuddyWater Macro
+SHA256,8ec108b8f66567a8d84975728b2d5e6a2786c2ca368310cca55acad02bb00fa6,MuddyWater Macro
+SHA256,96d80ae577e9b899772a940b4941da39cf7399b5c852048f0d06926eb6c9868a,MuddyWater Macro
+SHA256,bb1a5fb87d34c63ade0ed8a8b95412ba3795fd648a97836cb5117aff8ea08423,MuddyWater Macro
+SHA256,d65e2086aeab56a36896a56589e47773e9252747338c6b59c458155287363f28,MuddyWater Macro
+SHA256,588cd0fe3ae6fbd2fa4cf8de8db8ae2069ea62c9eaa6854caedf45045780661f,MuddyWater Macro
+SHA256,917a6c816684f22934e2998f43633179e14dcc2e609c6931dd2fc36098c48028,MuddyWater Macro
+SHA256,db7bdd6c3ff7a27bd4aa9acc17dc35c38b527fb736a17d0927a0b3d7e94acb42,MuddyWater Macro
+SHA256,de6ce9b75f4523a5b235f90fa00027be5920c97a972ad6cb2311953446c81e1d,MuddyWater Macro
+SHA256,a6673c6d52dd5361afd96f8143b88810812daa97004f69661da625aaaba9363b,MuddyWater Macro
+SHA256,40a6b4c6746e37d0c5ecb801e7656c9941f4839f94d8f4cd61eaf2b812feaabe,MuddyWater Macro
+SHA256,16985600c959f6267476da614243a585b1b222213ec938351ef6a26560c992db,PS2EXE PowerStats (GitHub)
+SHA256,cf87a2ac51503d645e827913dd69f3d80b66a58195e5a0044af23ea6ba46b823,PS2EXE PowerStats (GitHub)
+SHA256,4d72dcd33379fe7a34f9618e692f659fa9d318ab623168cd351c18ca3a805af1,Delivery Doc
+SHA256,7e7b6923f3e2ee919d1ea1c8f8d9a915c52392bd6f9ab515e4eb95fa42355991,Delivery Doc
+SHA256,1dae45ea1f644c0a8e10c962d75fca1cedcfd39a88acef63869b7a5990c1c60b,Delivery Doc
+SHA256,3deaa4072da43185d4213a38403383b7cefe92524b69ce4e7884a3ddc0903f6b,Delivery Doc
+SHA256,36ccae4dffc70249c79cd3156de1cd238af8f7a3e47dc90a1c33476cf97a77b0,Delivery Doc
+SHA256,9389cf41e89a51860f918f29b55e34b5643264c990fe54273ffbbf5336a35a45,Delivery Doc
+SHA256,dab2cd3ddfe29a89b3d80830c6a4950952a44b6c97a664f1e9c182318ae5f4da,Delivery Doc
+SHA256,200c3d027b2d348b0633f8debbbab9f3efc465617727df9e3fdfa6ceac7d191b,Delivery Doc
+SHA256,98f0f2c42f703bfbb96de87367866c3cced76d5a8812c4cbc18a2be3da382c95,Delivery Doc
+SHA256,20bf83bf516b12d991d38fdc014add8ad5db03907a55303f02d913db261393a9,Delivery Doc
+SHA256,f5ef4a45e19da1b94c684a6c6d51b86aec622562c45d67cb5aab554f21eb9061,Delivery Doc
+SHA256,ff349c8bf770ba09d3f9830e22ab6306c022f4bc1beb193b3b2cfe044f9d617b,Delivery Doc
+SHA256,95c650a540ed5385bd1caff45ba06ff90dc0773d744efc4c2e4b29dda102fcce,Delivery Doc
+SHA256,3c0c58d4b9eefea56e2f7be3f07cdb73e659b4db688bfbf9eacd96ba5ab2dfe5,Delivery Doc
+SHA256,745b0e0793fc507d9e1ad7155beb7ac48f8a556e6ef06e43888cbefec3083f2f,Delivery Doc
+SHA256,9580aaca2e0cd607eaf54c3eb933e41538dc10cd341d41e3daa9185b2a6341c4,Delivery Doc
+SHA256,0ae4ce8c511a22da99c6edc4be86af1c5d3a7d2baf1e862925a503d8baae9fd7,Delivery Doc
+SHA256,c19095433ac4884d3205a59e61c90752ecb4e4fa6a84e21f49ed82d9ec48aa3c,Delivery Doc
+SHA256,264f2ea4a8fad97e66d5ad41a57517b4645fe4c4959d55370919379b844b0750,Delivery Doc
+SHA256,36be54812428b4967c3d25aafdc703567b42ad4536c089aefaef673ce36a958f,Delivery Doc
+SHA256,9112505ff574b43dd27efc8afcf029841e1ea5193db90424b8b8b6b0e53c3437,Delivery Doc
+SHA256,d77d16c310cce09b872c91ca223b106f4b56572242ff5c4e756572070fac210f,Delivery Doc
+SHA256,d5b7a5ae4156676b37543a3183df497367429ae2d01ef33ebc357c4bdd9864c3,Delivery Doc
+SHA256,c63f1d364b9fa2c1023ce5a1b5fed12e1eba780c64276811c4b47743dfcbadbd,Delivery Doc
+SHA256,0e7e3c2c7fe34afc02c6e672ae00bc4e432b300ec184dec08440fba91b664999,Delivery Doc
+SHA256,88e02850c575504bb4476f0d519cec8e6a562b72d17ed50b9d465d8e0de50093,Delivery Doc
+SHA256,67c3c5af27d19f25bc55c8e36ef19b57c03b211ce0637055721ae4b0e57011a7,Delivery Doc
+SHA256,5194f84cc52093bb4978167a9f2d5c0903e9de0b81ca20f492e4fc78b6a77655,Delivery Doc
+SHA256,3e6d39886d76ab3c08b26feae075e01e9fb3c90795fa52dd6c74e4ef8b590fe8,Delivery Doc
+SHA256,525ba2c8d35f6972ac8fcec8081ae35f6fe8119500be20a4113900fe57d6a0de,Delivery Doc
+SHA256,5d3d5fa9c6ffa64b2af0c5ce357cb6a16085280d32eb321d679b57472ffb1019,Delivery Doc
+SHA256,6ccb3882c516fafc54444e09f5c60738831292be0231939bec9168a0203e01bb,Delivery Doc
+SHA256,c175b2e9f0d73db293ca061ce95cdd92a423348aa162b14c158d97e9e7c3ff10,Delivery Doc
+SHA256,66733fe27591347f6b28bc7750ba1b47b2853f711adcdb1270951c6b92e795d6,Delivery Doc
+SHA256,fbd63941a25253f5bafe69c9cc86c7effc6ff14b9adddd6f69e2f26ed39a77a4,Delivery Doc
+SHA256,2ba871586176522fe75333e834c16025b01e1771e4c07bc13995adbfa77c45f5,Delivery Doc
+SHA256,6a441b2303aeb38309bf2cb70f1c97213b0fa2cf7a0f0f8251fe6dc9965ada3b,Delivery Doc
+SHA256,d698c1d492332f312487e027d0665970b0462aceeeba3c91e762cff8579e7f72,Delivery Doc
+SHA256,99e9a816e6b3fe7868b9c535ed13028f41089e0275eba1ba46ae7a62a7e47668,Delivery Doc
+SHA256,df1bd693c11893c5259c591dceef707aa0480ef5626529f8a5b0ef826e5c0dec,POWERSTATS
+SHA256,4ba618c04cbdc47de2ab5f2c91f466bc42163fd541de80ab8b5e50f687bbb91c,POWERSTATS
+SHA256,e241b152e3f672434636c527ae0ebbd08c777f488020c98efce8b324486335c5,POWERSTATS
+SHA256,6b4d271a48d118843aee3dee4481fa2930732ed7075db3241a8991418f00d92b,Android Malware
+SHA256,02f54da6c6f2f87ff7b713d46e058dedac1cedabd693643bb7f6dfe994b2105d,Android Malware
+SHA256,9af8a93519d22ed04ffb9ccf6861c9df1b77dc5d22e0aeaff4a582dbf8660ba6,Android Malware
+SHA256,dff2e39b2e008ea89a3d6b36dcd9b8c927fb501d60c1ad5a52ed1ffe225da2e2,Android Malware
+SHA256,26de4265303491bed1424d85b263481ac153c2b3513f9ee48ffb42c12312ac43,Android Malware
+SHA256,3bfec096c4837d1e6485fe0ae0ea6f1c0b44edc611d4f2204cc9cf73c985cbc2,Android Malware
+SHA256,5dbf6e347164d580665208b2bc04756857529121fd1c7861e84f18e8a6027924,Android Malware
+SHA256,e9617764411603ddd4e7f39603a4bdaf602e20126608b3717b1f6fcae60981f2,Android Malware
+SHA256,be9fb556a3c7aef0329e768d7f903e7dd42a821abc663e11fb637ce33b007087,Android Malware
+SHA256,de4a1622b498c1cc989be1a1480a23f4c4e9cd25e729a329cfadb7594c714358,Android Malware
+SHA256,c2c2adecff2e517395571f4f9bee3b8cffed4521a8e1a3e3b363fd5e635f2eee,
+SHA256,b2242bc51ebe2c3abc5a8691546827070540db43843b8328bdb81f450cd1254b,
+SHA256,a4f9509e865d0a387cb8f0367e35ffd259b193f5270aacb67cb99942071c60cc,
+SHA256,484f78eb4a3bb69d62491fdb84f2c81b7ae131ec8452a04d6018a634e961cd6a,Lazagne
+SHA256,a35406d9ef82a68fbabb3c1e19911c9ed41bed335ef44a15037d1580c2b9dd12,Lazagne
+SHA256,efdec1ad0830359632141186917fd32809360894e8c0a28c28d3d0a71f48ec2f,Lazagne
+SHA256,f1a69e2041ab8ab190d029d0e061f107ef1223b553e97c302e973a3b3c80f83e,Lazagne
+SHA256,31cf13e8579f0589424631c6be659480f9a204a50a54073e7d7fe6c9c81fa0db,Lazagne
+SHA256,8674058edfbe636e550109fabb6403827c1bba4ab08833e9692099c96a43497a,POWERSTATS
+SHA256,b134bde3d8d141b9b4e824adaac87fc3eb40d3ab64682a73b2eb1743d7e3ceb0,POWERSTATS
+SHA256,19e69e5925b9fac1a104fc37b06de42043276c17dac88be2f1d1815f7b56b3f6,POWERSTATS
+SHA256,46f6eaa082f3def929dfabf2b7ce62abc47496f8543de932386bca6364023bad,POWERSTATS
+SHA256,666625c87a29745b54710682823e3432fd7a54d2788cbcba2243406bc1b48ab3,POWERSTATS
+SHA256,ae7350a2713d9a7f788c2c670fda44046183dfe646d9837ceaa0b6bad1d45a6e,POWERSTATS
+SHA256,ff9ef26fa3b0b76658a8c6696bf2f9d23f132d1d422050802749134c446f757e,POWERSTATS
+SHA256,a55aedff23bcdc83748d4e87ab992c0fb674a0af6b90687b2a2fc7cab52676a9,POWERSTATS
+SHA256,17405e9f8f889925521912aea72467330f3dffeaf8ec8678ef6f412204262896,POWERSTATS
+SHA256,6ee79815f71e2eb4094455993472c7fb185cde484c8b5326e4754adcb1faf78e,SHARPSTATS
+SHA256,81c7787040ed5ecf21b6f80dc84bc147cec518986bf25aa933dd44c414b5f498,SHARPSTATS
+SHA256,999e4753749228a60d4d20cc5c5e27ca4275fe63e6083053a5b01b5225c8d53a,SHARPSTATS
+SHA256,8501c4df5995fd283e733ab00492f35aecb6ea2315b44e85abb90b3f067ccb64,SHARPSTATS
+SHA256,4bd93e4a9826a65ade60117f6136cb4ed0e17beae8668a7c7981d15c0bed705a,SHARPSTATS
+SHA256,3f06d2d2e1641952f44a2de4db037d3272cfa621fb9388cdb1074643f50c0705,SHARPSTATS
+SHA256,2967f1acceaa7d121f8f2c46bc04a3c146c472997d43f11f98d967a88be6c095,SHARPSTATS
+SHA256,503b2b01bb58fc433774e41a539ae9b06004c7557ac60e7d8a6823f5da428eb8,DELPHSTATS
+SHA256,04acd5721ad37ac5aa84e7f7e20986de0a532fb625a8bc75302a0f38c171cee3,DELPHSTATS
+SHA256,8ea17ed2cb662118937ed6fe189582cc11b2b73bb27a223d0468881ac5fcc08e,DELPHSTATS
+SHA256,e2f82b074074955eeca3b0dd7b2831192bee49de329d5d4b36742c9721c8ad94,DELPHSTATS
+SHA256,121adcf3a52cafd0204ca4d4a42a9a09d6c9f559bcb997e51dba79c6a5a04efd,
+SHA256,edde2eb39ed2f145c41e53e87d43add8de336d3e4d5c8d261f471d35edf3ed47,
+SHA256,e60c802b692a503f4f91e8809bb961b5423c602f6fb374de1af4d983415de3f1,
+SHA256,c84a61ba8c84ca1e879c4d8ac802ec260a8c426d89a09d8627a8c08ff6d88faf,
+SHA256,78da47f5a341909d1e6f50f8d39fdde8129ede86f04f3e88b2278e16c72e2461,
+SHA256,4e2cdfed691d6debab01c1733135b146817c94024177f9ef4b22726fac84322f,
+SHA256,3fee29fefe4aa9386a11a7a615dd052ff89e21d87eee0fff5d6f933d9384ede2,
+SHA256,3c75c2f7b299d9cc03a7ff91c568defaa39b4be02d58a75a85930ab23d2a2cff,
+SHA256,276a765a10f98cda1a38d3a31e7483585ca3722ecad19d784441293acf1b7beb,
+SHA256,818253f297fea7d8a2324ee1a233aabbaf3b0b4b9cdaa1ebd676fe00f2247388,
+SHA256,f6707b5f41192353be3311fc7f48ee30465038366386b909e6cefaade70c91bc,
+SHA256,de7b77f9c456d26e369263b6e1d001279b69e687b2d3029803ede21417d4f5fa,
+SHA256,cc685f30e2f6039d12b4cbc92e38f1d64ba75ac12cb86afce5261a11cf4931de,
+SHA256,0faa2bb90de44ef87c7ee11165f7c702211dd603bdaea94af09cfecc3f525138,
+SHA256,e6812fa0e12cc1913bfc7eb6dceb638429048e3cc59ce576c012a1d27fa20959,
+SHA256,fb773f7324fdca584fff7da490820c7243a10555c8ff717d21c039a5ba337a43,
+SHA256,11761d6cf365932540ccb95b6f20aa45379736cfde33742a004fc8ceccad7daf,
+SHA256,b9d4752b892759bb0cb166ab565f050f4b6385dd67f4288ff2231c69ab984a26,
+SHA256,604e09e01e2bfbc8f3680abd8005906e3fbcd2f4edaf24d80cd7105ec6f991b1,
+SHA256,f2b8d7ce968ed8d6c33116bcfb8aeed97d89ec1ebf4f505c891020dc79d0ddd3,
+SHA256,336237b1ed2c99c0fef4c954490bd8282d6e46941d2ac2b6c9294a1aa9a254ed,
+SHA256,28a0131a9fda9fe2f2272c5091c77dc750da93d4a070dbd817af38723ea18f02,
+SHA256,d320286e80d5785bbd14b10c00f5c9d38d9a781075d7d6ed4eb27c07d4788dbf,
+SHA256,24878dbde796c471a9d028f65421017afc087c958fb54c4b6c3cc7aeabbc1119,
+SHA256,57a9e2e6e715455827faefa982b4312b203189950fe285f1413174f5e812e408,
+SHA256,92bb4432cc9d2988ee4043e420a4df9c8caec4cd93ab258e07546781daa37086,
+URL,http://www.cankayasrc[.]com/style/js/main.php,
+URL,http://ektamservis[.]com/includes/main.php,
+URL,http://gtme[.]ae/font-awesome/css/main.php,
+URL,https://www.adfg[.]ae/wp-includes/widgets/main.php,
+URL,http://adibf[.]ae/wp-includes/js/main.php,
+URL,http://hubinasia[.]com/wp-includes/widgets/main.php,
+URL,https://benangin[.]com/wp-includes/widgets/main.php,
+URL,hxxp://106[.]187[.]38[.]21/short_qr/work[.]php?c=,
+URL,hxxp://arbiogaz[.]com/upload/work[.]php?c=,
+URL,hxxp://azmwn[.]suliparwarda[.]com/wp-content/plugins/wpdatatables/panda[.]php?c=,
+URL,hxxp://azmwn[.]suliparwarda[.]com/wp-content/themes/twentyfifteen/logs[.]php?c=,
+URL,hxxp://bangortalk[.]org[.]uk/speakers[.]php?c=,
+URL,hxxp://best2[.]thebestconference[.]org/ccb/browse_cat[.]php?c=,
+URL,hxxp://camco[.]com[.]pk/Controls/data[.]aspx?c=,
+URL,hxxp://cbpexbrasilia[.]com[.]br/wp-content/plugins/wordpress-seo/power[.]php?c=,
+URL,hxxp://cbpexbrasilia[.]com[.]br/wp-includes/widgets/work[.]php?c=,
+URL,hxxp://cgss[.]com[.]pk/data[.]aspx?c=,
+URL,hxxp://diplomat[.]com[.]sa/wp-content/plugins/wordpress-importer/cache[.]php?c=,
+URL,hxxp://feribschat[.]eu/logs[.]php?c=,
+URL,hxxp://ghanaconsulate[.]com[.]pk/data[.]aspx?c=,
+URL,hxxp://magical-energy[.]com/css[.]aspx?c=,
+URL,hxxp://magical-energy[.]com/css/css[.]aspx?c=,
+URL,hxxp://mainandstrand[.]com/work[.]php?c=,
+URL,hxxp://riyadhfoods[.]com/css/edu[.]aspx?c=,
+URL,hxxp://riyadhfoods[.]com/jquery-ui/js/jquery[.]aspx?c=,
+URL,hxxp://school[.]suliparwarda[.]com/components/com_akeeba/work[.]php?c=,
+URL,hxxp://school[.]suliparwarda[.]com/plugins/editors/codemirror/work[.]php?c=,
+URL,hxxp://suliparwarda[.]com/includes/panda[.]php?c=,
+URL,hxxp://suliparwarda[.]com/layouts/joomla/logs[.]php?c=,
+URL,hxxp://suliparwarda[.]com/wp-content/plugins/entry-views/work[.]php?c=,
+URL,hxxp://suliparwarda[.]com/wp-content/themes/twentyfifteen/work[.]php?c=,
+URL,hxxp://tmclub[.]eu/clubdata[.]php?c=,
+URL,hxxp://watyanagr[.]nfe[.]go[.]th/e-office/lib/work[.]php?c=,
+URL,hxxp://watyanagr[.]nfe[.]go[.]th/watyanagr/power[.]php?c=,
+URL,hxxp://whiver[.]in/power[.]php?c=,
+URL,hxxp://www[.]4seasonrentacar[.]com/viewsure/data[.]aspx?c=,
+URL,hxxp://www[.]akhtaredanesh[.]com/d/file/sym/work[.]php?c=,
+URL,hxxp://www[.]akhtaredanesh[.]com/d/oschool/power[.]php?c=,
+URL,hxxp://www[.]arcadecreative[.]com/work[.]php?c=,
+URL,hxxp://www[.]armaholic[.]com/list[.]php?c=,
+URL,hxxp://www[.]asan-max[.]com/files/articles/css[.]aspx?c=,
+URL,hxxp://www[.]asan-max[.]com/files/articles/large/css[.]aspx?c=,
+URL,hxxp://www[.]autotrans[.]hr/index[.]php?c=,
+URL,hxxp://www[.]dafc[.]co[.]uk/news[.]php?c=,
+URL,hxxp://www[.]eapa[.]org/asphalt[.]php?c=,
+URL,hxxp://www[.]elev8tor[.]com/show-work[.]php?c=,
+URL,hxxp://www[.]jdarchs[.]com/work[.]php?c=,
+URL,hxxp://www[.]kunkrooann[.]com/inc/work[.]php?c=,
+URL,hxxp://www[.]mackellarscreenworks[.]com/work[.]php?c=,
+URL,hxxp://www[.]mitegen[.]com/mic_catalog[.]php?c=,
+URL,hxxp://www[.]nigelwhitfield[.]com/v2/work[.]php?c=,
+URL,hxxp://www[.]pomegranates[.]org/index[.]php?c=,
+URL,hxxp://www[.]ridefox[.]com/content[.]php?c=,
+URL,hxxp://www[.]shapingtomorrowsworld[.]org/category[.]php?c=,
+URL,hxxp://www[.]vanessajackson[.]co[.]uk/work[.]php?c=,
+URL,hxxp://www[.]yaran[.]co//wp-content/plugins/so-masonry/logs[.]php?c=,
+URL,hxxp://www[.]yaran[.]co/wp-includes/widgets/logs[.]php?c=,
+URL,hxxp://www[.]ztm[.]waw[.]pl/pop[.]php?c=,
+URL,hxxps://coa[.]inducks[.]org/publication[.]php?c=,
+URL,hxxps://mhtevents[.]com/account[.]php?c=,
+URL,hxxps://skepticalscience[.]com/graphics[.]php?c=,
+URL,hxxps://wallpapercase[.]com/wp-content/themes/twentyfifteen/logs[.]php?c=,
+URL,hxxps://wallpapercase[.]com/wp-includes/customize/logs[.]php?c=,
+URL,hxxps://www[.]spearhead-training[.]com//html/power[.]php?c=,
+URL,hxxps://www[.]spearhead-training[.]com/work[.]php?c=,
+URL,hxxp://78[.]129[.]139[.]148,
+URL,hxxp://31[.]171[.]154[.]67,
+URL,hxxp://79[.]106[.]224[.]203,
+URL,hxxp://185[.]34[.]16[.]82,
+URL,hxxp://104[.]237[.]233[.]17,
+URL,hxxp://46[.]99[.]148[.]96,
+URL,hxxp://134[.]19[.]215[.]3:443,
+URL,hxxp://gladiyator[.]tk,
+URL,hxxp://51[.]77[.]97[.]65,
+URL,hxxp://185[.]14[.]248[.]26,
+URL,hxxp://185[.]162[.]235[.]182,
+URL,hxxp://185[.]117[.]75[.]116/tmp[.]php,
+URL,hxxp://38[.]132[.]99[.]167/crf[.]txt,
+URL,hxxp://185[.]244[.]149[.]218/JpeGDownload/*[.]jpeg,
+URL,hxxp://185[.]185[.]25[.]175/ref45[.]php,
+URL,hxxp://185[.]185[.]25[.]175/sDownloads/*[.]jpeg,
+URL,hxxp://82[.]102[.]8[.]101/bcerrxy[.]php,
+URL,amazo0n[.]serveftp[.]com/Data,
+URL,zstoreshoping[.]ddns[.]net/Data/,
+URL,hxxp://zstoreshoping[.]ddns[.]net/users[.]php?tname=,
+URL,shopcloths[.]ddns[.]net,
+URL,getgooogle[.]hopto[.]org,
+URL,googleads[.]hopto[.]org,
+URL,hxxp://www[.]shareliverpoolfc[.]co[.]uk/js/main.php,
+URL,hxxp://valis-ti[.]cl/assets/main[.]php,
+URL,hxxp://www[.]latvia-usa[.]org/wp-includes/customize/main.php,
+URL,hxxp://www[.]shareliverpoolfc[.]co[.]uk/js/main[.]php,
+URL,hxxp://www[.]latvia-usa[.]org/wp-includes/customize/main[.]php,
+URL,hxxp://googleads[.]hopto[.]org/data/ce28e899a8d3d00a.]dat,
+URL,hxxp://ciscoupdate2019[.]gotdns[.]ch/users[.]php?,
+URL,hxxps://www[.]jsonstore[.]io/4de4d6d84d17638b3cd0eaf18857784aff27501be7d3dd89fad2b7ac2134f52e,
+URL,hxxps://www[.]jsonstore[.]io/ddf35a64bd5ad54f9de868a84cdb21299a33d126e307ec3a868f65372402816a,
+URL,hxxps://104[.]237[.]233[.]38:8080/YIZDGrM_4mRn_mb8PdhL_QfL2h49-aAO0wfaxRxJAdq9pH2JeliMez10IwMk6PCnluziydTlV-/,
+URL,hxxps://104[.]237[.]255[.]212:443/GfaBcrPI14rArcGvmQT2g3sW3ZtmqL6IU0Vg5oy21aOK4gvmvYx_TCP_whhSnyQH7/,
+URL,hxxps://104[.]237[.]233[.]38:1022/aeacrE65xE9SdVN3CJwS9gbtNM84GL_ajl_AD2EoEOHrmbpQ5qC9J7GcSSZQ0JNBDnOulnMWgNy3FV2kcHRuM0u5NMo5Jv9Ks4zS5-pLkiYs4me/,
+URL,hxxps://104[.]237[.]233[.]38:8080/nud2WCL9WzTiAOMCuFMboA18GWsmrc8k6VqGrXXfqVghYktellhTS7_tg-D64spqdv4sOJ/,
+URL,hxxps://88[.]99[.]17[.]148:443/3gg7DuFHLwC8gPwW3z9rgnS1Is8F83B-95PHYnVpk9219KbHn-IChwxSFR35a117i2Jz_OX9mUPAYRJw3NhMBxUVDp4iMOkzt/,
+URL,hxxps://104[.]237[.]233[.]40:8443/zi5w0iDM6aLEgcWDnumYywaHa33BIPzaylNUPUECcNCmfNNcxzv05flJoB3wvWqH6Uf01vI-1yKF96/,
+URL,hxxps://78[.]129[.]139[.]134:8864/lZkP68TtH_BpZGhmMwxNPwy0vjimgwDRfk01pV2Xu2FztbaevB6RzBUPRietWtBcuxru7tTsF3rZGFPbepd294BP2MGd/,
