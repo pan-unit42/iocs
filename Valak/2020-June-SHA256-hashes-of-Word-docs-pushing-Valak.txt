@@ -1,0 +1,166 @@
+EXAMPLES OF WORD DOCS WITH MACROS FOR VALAK FROM JUNE 2020:
+
+(READ: SHA256 hash  file name)
+
+NOTE: The June 10th wave of Word documents from the same distribution network pushed Ursnif instead of Valak.
+
+10 examples for Word documents with macros for Valak from June 3rd 2020:
+
+0bc00f31cca927a670a3e55425c2096a84b5df5f20ba3f24deefcca49e8f1cec  command-06.20.doc
+1b7b82422dc5e8a2e3c61ab70574ec91d8cf978fd87d25d605b44f0034b78072  enjoin 06.03.2020.doc
+6363a0f8b660b2c32b5e757d61667eb3207122549a646fb781df3fbf2ef267ae  instrument indenture-06.03.2020.doc
+7f4ca2a35d97765521669ea299c0e41ac7f8fa61f859db9e0ad75675c9ba8425  charge_06.03.2020.doc
+939be3a09e1f41c2623765168b6c1638309e1ddb9d8431e96a3730accb8210d8  legal agreement-06.20.doc
+998bb598d699748b7aa75a43784806415b92093433b4ab301942d55b19663541  details_06.20.doc
+9ba046c5691194eab3b7fb251f4289242b0f550903394eec17a5d5f24ab4b0b1  instruct,06.20.doc
+a0b361553e8fadd453476c52e2e2d07861e97162fc4733b68b871c1a94db9ae7  statistics-06.03.2020.doc
+a477757c3d14a6075c691ae2e831793d81bf2998232979abb955a85a3f88714d  question_06.03.2020.doc
+a4f1ea5dd434deee93bdf312f658a7a26f767c7683601fa8b23ef096392eef17  dictate.06.20.doc
+
+10 examples for Word documents with macros for Valak from June 9th 2020:
+
+0735e2d5b95601fc188877cc62022264fab46e9332661bc349d922513acfbe92  legal paper-06.20.doc
+12f437135ae173819f57feb8fe39bb1bb74934db4a724f775fcc0bcccc7c52e8  official paper_06.09.2020.doc
+4d5ce2c99dff174094c910ed55999ec815b62715cf12dfa6b64d11018924fd78  details_06.09.2020.doc
+6236edfb1ba08bb467b0f38add126d5bbb2fc09d7c97073fd20bed39e93b5849  prescribe _06.20.doc
+649db7507fa7715b730da3a02f597e1691344a60264acbdcd1245f023789c394  direct_06.20.doc
+6774b1c2b1bc9195ee8a64576bf6e502d1fc262af3840d508c03644cb69eb5fc  material 06.20.doc
+68de079d6f4f1012b8c39beebbcc46d20a77309eec993dfd13cee8d364ed2ff0  bid 06.09.2020.doc
+80c0b8762f1f9db14bbd213fc20785b0085c849a4ccd43f5679d1c38f091dd33  command,06.20.doc
+cc40def1d498b9742efd5c52b8e755698b3487823dd98e39c9510c46525f4340  files,06.09.2020.doc
+eabe5fc056177a56d9e0f0ccb904f903d4e75d57e6b03acd3c21276951772366  decree,06.09.2020.doc
+
+10 examples for Word documents with macros for Ursnif (instead of Valak) on June 10th 2020:
+
+2806976f598bd1e62dcade04a00b936eeb2db1c966f2420c8d36d1a50c08154a  details,06.010.2020.doc
+2ba84256949705c300537816e00fc9214b5ba3e314ea798db430c41eb94f1d92  rule-06.20.doc
+47b8969e07b7cb38198fb091f0b4e27e1b13a2fc6491d959f0375d1437242b2f  dictate_06.20.doc
+91070b2f3cd29934cba5b537477d17daf48c42b05dec349a6672f00ba4844a3b  order,06.20.doc
+abbc74f6ceb28b5f1ef92a68a94ae36efad9ea34897c05626f7947e536826977  official paper,06.20.doc
+c28f4921c096e04acd3de5b78bcc0423508caab32a7c5eeecc8610f405811b70  command_06.010.2020.doc
+cdf9cf96914356c414fc80ae13396de4bf421c2586a42ded3e9cee7a840023bc  document_06.010.2020.doc
+d4b140fdae078badc591caeef5aeffa65880153052775d6e361686649badb25d  commerce 06.20.doc
+e6c83146a01ebca25c360f17bddb51fc6cca7ef5678b3b9f07878016157291bf  prescribe -06.010.2020.doc
+ead5d72e6786c5ffd4a69fcabb4bc369e1eba2f74397a109e388a4deb25e2a4a  official paper-06.20.doc
+
+6 examples for Word documents with macros for Valak from June 22nd 2020:
+
+042bfddedc517b98c438ddf49b6b5978e23c94f29f09f88272782d64d26f3bcc  charge 06.20.doc
+26c965b293fe9f04072e814701105d5a6664efea575361dbfaad96f07f8916df  decree.06.20.doc
+3ba3b5890c821afdfae1d57eb7dfea5d220614b4d6392144523c7057e08cc121  documents 06.22.2020.doc
+3ebabc542a78fd0112c7431a08ff10588ddd3faf672fca556b88c6d4dd5cbc31  report.06.20.doc
+606bbe77a9ac08785ece6e01913ef0acee69f7cc9e339e310e5e587f6537e8f4  intelligence 06.20.doc
+856e8ac644454a95bafd07383df000f40085fa87fa244cfb80ba5516f2b9c3cb  direct.06.22.2020.doc
+
+4 examples for Word documents with macros for Valak from June 23rd 2020:
+
+058877cf8cd2b4f31b6bec8b3b6d99f30578545de50295b4c170b97ffb346d06  inquiry 06.23.2020.doc
+0b4414cdd8ae8afebfdee365b8bd4b645879c85518f7923193b6eaddc046bf9a  figures 06.20.doc
+bb231ecc485bd3866920bf9a15dad659193f8a41a70cb761acc0c65089fb8182  material-06.20.doc
+d216ce108fa132a3fda38c19ff82d336eaa10276481bda8f4715805022436472  commerce ,06.20.doc
+
+10 examples for Word documents with macros for Valak from June 24th 2020:
+
+5285083f25a2b285aa08bcbfef6e189b826ed3889bc76f50be38deea0f42e695  bid 06.20.doc
+7e2ae571fd689bff2673097c92a334e0032f87274fbacb7dc5580ac3da51eb97  adjure,06.24.2020.doc
+7f44765f5a4ceea218564770e10b399ae5d96660fea1ffde04dff3b454959fc4  file 06.20.doc
+7f86bef0240110c979d04e50f8911aaca607ad9a1041b4ecff0a025365f95500  documents.06.24.2020.doc
+931e10ef0a41c709de57181248e6b727ad20cf5ff57d7b3cc027e7383e90bbdb  specifics_06.20.doc
+c65fd1f06f54ddb8156eb2e7b09c58c14329234b48fa879f4d59631c3f6976e9  commerce -06.20.doc
+c84df62a03548cab7532e3e7ad0ad012b869558d833900916986f898b6e1310d  instrument indenture-06.24.2020.doc
+cfaab7a4f5d1c4ea47c6f44cd9e2ebb620a2c9561dbe3e244f7e7a9a5311de00  material.06.20.doc
+d43312c67cf6faa84efabd89d3c87e6dc4e107ba673cc03a6c3303e18e015eaf  particulars 06.24.2020.doc
+d5bcc6f4dace1429b02acf1c8999a9f68127d5aaab985cb4d555e0d7c0ae80c8  legal paper 06.24.20.doc
+
+17 examples for Word documents with macros for Valak from June 26th 2020:
+
+240ec69cf5e5bd32ab55c4786b41afaa70f5080b231e5adccd54be13f8f64985  facts 06.20.doc
+2933e731115eb4a6921d4a918711a1ad26eb37a9127cabee3f1fe2347a0ceaa3  docs_06.26.2020.doc
+35f21b2a646b0f9d6e10edbc3bcc67699ebb5711af17c1cdce75a6fa90fc9aa6  official paper,06.26.2020.doc
+38f13b5b1040721695c60c03d0cde117976a6d42b94621d2d7aec9a66b0c95e0  decree 06.20.doc
+3dd702e8d44955b24cffc8a46e4d65c26b186cd31333b7d235a5a57d2695634d  legal paper_06.26.2020.doc
+4d99b89c15fcc0dec6f6499c2a8077336fb10cbb5624247a1f1ef38d37183388  require-06.26.20.doc
+64ad32de9729c54e9c5d7074c42353f4dd3ef30a9a88760229d773ac98371ba9  adjure-06.20.doc
+7f431578d7dc2e164de67ea1df794a9c4b96b637d66694b3eb220dfe4a865815  particulars_06.20.doc
+91fdb5a6cf3819104305471e9cd66e8ebfb682eacad4c89422fc574bbeb1757f  instrument indenture-06.26.2020.doc
+9c9d5a18e8cd8b251d5732f0a47c279ca21fecfaeb922b732d63a66ba0f2f0ac  documents,06.26.20.doc
+a4e63436a62d3b7d79c1604a6b640a2c2ce90fb9f7bae4f51eeb057184da5b77  tell 06.26.2020.doc
+b2cf830b5af3c9b3dd724c09fa7c150227ef44b657633b0cfdfedf582d9cea04  instruct-06.20.doc
+b3cce3f709832272bf2c0ed508b6aac37deaa469014923afc3aacd0d44153f4c  input_06.26.2020.doc
+b9a9e672d394c2adf17b4647ba4f2f345b7eb5ff0e0ba8932456b98dc8c9540a  question,06.20.doc
+da31ddcf43212306e6438fa9f8fc2d2186cbfc8846a0f37929bd7c125dfb8f13  enjoin_06.26.2020.doc
+e5622893f8d2dce4a504d338a1ececbc8270b8a019865aa0441597c832816248  command_06.26.2020.doc
+fdfc8f72d4953565b7cf68a9dc9c5ddaad064d850391a510c783b2fb9fba3d8a  figures,06.20.doc
+
+13 examples for Word documents with macros for Valak from June 30th 2020:
+
+6b7b51feb85f6ddb4ce5b6df7ca291fb425961179ff9cc7efd8011bc64918ad9  commerce .06.20.doc
+6df6c10f882b5c56a22a14ef9ed611ebcb2e75e0977f784bc9e49fcea55f7466  dictate-06.20.doc
+43e2b0d9cc45327bd4ea0864d3eb258e95a7fc5bacdc2c523443e528da45c941  direct.06.20.doc
+1a76ae32471c077f6ba8525fdc8812cf8aa242cfc7bfac57d04c91d86e5bd378  facts,06.20.doc
+d8b6998a8d8792c76872493c7fd53c3b6d00ae5c215c7ec814342c236fc7dc2b  file,06.20.doc
+8b3abaed216bb346e12c72deb04736fc1c924efe4afa5fdac5e652f3f04cc3b4  files-06.20.doc
+2343c127037f6941956db9e5813e67f721739e187b978c35de050b849f899cfe  input_06.30.2020.doc
+5986dbadd90892a8bcbba4800934c76c919c3d76b77b624259bcfce6643c42ff  instrument indenture_06.20.doc
+ccdec6d9f7baad7544c7b3ac4d377e1ad56dae73fb85642e0a11f06a0ae58772  order.06.20.doc
+70c4231ea038022a2e9a90624092a392564b0a442d68ba3f8dc182c9bb369d85  prescribe -06.20.doc
+4911a5e171a21ae33442482e105e1e672dff25c9a45e194b604b2aa0bfe01df5  report-06.20.doc
+713b8ee4d69ab5f7db4b5e24fd395d6bbbc0a0f8f8e7b2968b044d231972aab7  require_06.30.2020.doc
+f10db2247990e6ea29d90a8aeb567576af903d65654bd04d8ad910b68e5250fb  statistics 06.20.doc
+
+
+
+- SHA256 hash: 4c0d7b112dfd99c751a85ad9539152c413ede7e5d976f75ae13a8b46ebf53e66
+- File size: 121,111 bytes
+- File name: material.06.20.doc
+- File description: Word doc with macro for Valak
+
+- SHA256 hash: 3769a84dbe7ba74ad7b0b355a864483d3562888a67806082ff094a56ce73bf7e
+- File size: 311,808 bytes
+- File location: http://awh93dhkylps5ulnq-be.com/czwih/fxla.php?l=gap1.cab
+- File location: C:\ProgramData\28215025.dat
+- File description: Initial DLL file for Valak infection
+- File run command: regsvr32.exe -s C:\ProgramData\28215025.dat
+
+- SHA256 hash: 29a246bfe2f587427e8c08969363bc2a54f3670fa2fcaee39dd4965e06764a9a
+- File size: 25,600 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\79e5036f32.bin
+- File type: PE32 executable (GUI) Intel 80386 Mono/.Net assembly, for MS Windows
+- File description: EXE dropped during Valak infection
+
+- SHA256 hash: 0eab2d2538e95419e764bd23408ad7e0cb830b3df3e3e1a77c71af75e6184dd9
+- File size: 11,782 bytes
+- File location: C:\Users\Public\iVIwVADQD.eLxan
+- File description: Script file created during Valak infection
+
+- SHA256 hash: a851520ec65262119dbbc3722776ddc11b5d41751be871ec99bf766e90dd2279
+- File size: 4,858 bytes
+- File location: C:\Users\Public\Disk0.js
+- File description: Script file created during Valak infection
+
+- SHA256 hash: e12afc3044dbd844858293ece9beeccd4de40345de8935927eabdc045d319deb
+- File size: 2,054 bytes
+- File location: C:\Users\Public\diskdiag.ini
+- File description: File used to hide Alternate Data Stream (ADS) containing follow-up malware
+
+- SHA256 hash: c1a7fb22c8cad195185e246b166557b04b4e0a4e1b73ecd4fa2295512bd2721e
+- File size: 3,871,232 bytes
+- File location: C:\Users\Public\diskdiag.ini:a1fc7c5c.bin
+- File description: Follow-up malware, EXE for IcedID installer from ADS
+
+- SHA256 hash: 2caed3da5ba3542198a1187a81c46eb65159050061cf5dc803d6f4e74d797b75
+- File size: 227,655 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\~6476288.tmp
+- File type: PNG image data, 214 x 446, 8-bit/color RGB, non-interlaced 
+- File description: PNG image with encoded data to create IcedID EXE
+
+- SHA256 hash: 45520a22cdf580f091ae46c45be318c3bb4d3e41d161ba8326a2e29f30c025d4
+- File size: 667,077 bytes
+- File location: C:\Users\[username]\AppData\Roaming\[username]\gozeac.png
+- File type: PNG image data, 643 x 283, 8-bit/color RGB, non-interlaced
+- File description: PNG image with encoded data used in IcedID infection
+
+- SHA256 hash: fb82d8338af07adaa5d46c372e5597015ccfb0f6e48dd9dbfceb282d5e8781b7
+- File size: 223,232 bytes
+- File location: C:\Users\[username]\AppData\Roaming\{1C66F8E1-7670-7926-3C20-88F29C49A372}\anokko.exe
+- File description: IcedID EXE persistent on infected Windows host
