@@ -1,8 +1,8 @@
-EXAMPLES OF WORD DOCS WITH MACROS FOR VALAK FROM JUNE 2020:
+EXAMPLES OF WORD DOCS FROM SHATHAK/TA551 DISTRIBUTION DURING JUNE 2020:
 
 (READ: SHA256 hash  file name)
 
-NOTE: The June 10th wave of Word documents from the same distribution network pushed Ursnif instead of Valak.
+NOTE: The June 10th wave of Word documents from Shathak/TA551 distribution network pushed Ursnif instead of Valak.
 
 10 examples for Word documents with macros for Valak from June 3rd 2020:
 
