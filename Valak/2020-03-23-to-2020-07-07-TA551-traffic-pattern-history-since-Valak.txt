@@ -1,0 +1,616 @@
+SHATHAK/TA551 TRAFFIC PATTERN HISTORY SINCE 2020-03-23 (THE FIRST TIME WE NOTED VALAK FROM THIS CAMPAIGN)
+
+------------------------------------------------------
+2020-03-23 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents all named info_03_23.doc with macros that generated HTTP traffic to the following domains:
+
+- f0hc7osjnl2vi61g[.]com
+- m1rd9egxfxinnsoq[.]com
+- turjaxqqzwyfzy6a[.]com
+ 
+HTTP GET requests for Valak DLL:
+
+- GET /jadykf/btnryr.php?l=sojy1.cab
+- GET /jadykf/btnryr.php?l=sojy2.cab
+- GET /jadykf/btnryr.php?l=sojy3.cab
+- GET /jadykf/btnryr.php?l=sojy4.cab
+- GET /jadykf/btnryr.php?l=sojy5.cab
+- GET /jadykf/btnryr.php?l=sojy6.cab
+
+-------------------------------------------------------------------
+2020-03-24 - TA551 PUSHES URSNIF (GOZI/IFSB) (ENGLISH DOC TEMPLATE)
+-------------------------------------------------------------------
+
+Word documents all named info_03_24.doc with macros that generated HTTP traffic to the following domains:
+
+- chersoicryss[.]com
+- gandael6[.]com
+- grumnoud[.]com
+- xolzrorth[.]com
+
+HTTP GET requests for Ursnif (Gozi/IFSB) DLL:
+
+- GET /kundru/targen.php?l=zoak1.cab
+- GET /kundru/targen.php?l=zoak2.cab
+- GET /kundru/targen.php?l=zoak3.cab
+- GET /kundru/targen.php?l=zoak4.cab
+- GET /kundru/targen.php?l=zoak5.cab
+- GET /kundru/targen.php?l=zoak6.cab
+
+--------------------------------------------------------
+2020-03-26 - TA551 PUSHES ZLOADER (ENGLISH DOC TEMPLATE)
+--------------------------------------------------------
+
+Word documents all named information_03.26.doc with macros that generated HTTP traffic to the following domains:
+
+- his3t35rif0krjkn.com
+- hlyctn2zx8zyjox1.com
+- j4abq17dqadmb4hz.com
+- je85oemozig2x4yq.com
+- m4tz0of0xi8o3brr.com
+- x0fopmxsq5y2oqud.com
+ 
+HTTP GET requests for ZLoader DLL:
+
+- GET /kundru/targen.php?l=swep1.cab
+- GET /kundru/targen.php?l=swep2.cab
+- GET /kundru/targen.php?l=swep3.cab
+- GET /kundru/targen.php?l=swep4.cab
+- GET /kundru/targen.php?l=swep5.cab
+- GET /kundru/targen.php?l=swep6.cab
+- GET /kundru/targen.php?l=swep7.cab
+- GET /kundru/targen.php?l=swep8.cab
+
+------------------------------------------------------
+2020-04-23 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 04.20.doc or 04.23.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- fw6rzlxc[.]com
+- gwn2649pm[.]com
+- k0llld9j[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /we20lo85/aio0i32p.php?l=dsxn1.cab
+- GET /we20lo85/aio0i32p.php?l=dsxn2.cab
+- GET /we20lo85/aio0i32p.php?l=dsxn3.cab
+- GET /we20lo85/aio0i32p.php?l=dsxn4.cab
+- GET /we20lo85/aio0i32p.php?l=dsxn5.cab
+
+------------------------------------------------------
+2020-04-27 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 04.20.doc, 04.27.20.doc, or 04.28.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- c1vfsbk[.]com
+- ebwz497[.]com
+- l95dtz8[.]com
+- v0rzpbu[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /we20lo85/aio0i32p.php?l=hopo1.cab
+- GET /we20lo85/aio0i32p.php?l=hopo2.cab
+- GET /we20lo85/aio0i32p.php?l=hopo3.cab
+- GET /we20lo85/aio0i32p.php?l=hopo4.cab
+- GET /we20lo85/aio0i32p.php?l=hopo5.cab
+- GET /we20lo85/aio0i32p.php?l=hopo6.cab
+
+------------------------------------------------------
+2020-04-28 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 04.20.doc, 04.28.20.doc, or 04.28.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- bbfjjf8[.]com
+- fz782ze[.]com
+- qut6oga5219bf00e[.]com
+- sktrutx[.]com
+- siicg8lgadurupkt[.]com
+- xljksdu[.]com
+- ws3lfkm[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /we20lo85/aio0i32p.php?l=nok1.cab
+- GET /we20lo85/aio0i32p.php?l=nok2.cab
+- GET /we20lo85/aio0i32p.php?l=nok3.cab
+- GET /we20lo85/aio0i32p.php?l=nok4.cab
+- GET /we20lo85/aio0i32p.php?l=nok5.cab
+- GET /we20lo85/aio0i32p.php?l=nok6.cab
+- GET /we20lo85/aio0i32p.php?l=nok7.cab
+- GET /we20lo85/aio0i32p.php?l=nok8.cab
+- GET /we20lo85/aio0i32p.php?l=nok9.cab
+- GET /we20lo85/aio0i32p.php?l=nok10.cab
+- GET /we20lo85/aio0i32p.php?l=nok11.cab
+- GET /we20lo85/aio0i32p.php?l=nok12.cab
+
+-----------------------------------------------------
+2020-04-30 - TA551 PUSHES VALAK (GERMAN DOC TEMPLATE)
+-----------------------------------------------------
+
+Word documents with various names ending in 04.20.doc, 04.30.20.doc, or 04.30.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- adersr4utx[.]com
+- qut69bf00e[.]com
+- siicg8lgad[.]com
+- ws3adlfkm1[.]com
+- xcjhb30ton[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /we20lo85/aio0i32p.php?l=kuhs1.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs2.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs3.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs4.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs5.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs6.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs7.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs8.cab
+- GET /we20lo85/aio0i32p.php?l=kuhs9.cab
+
+------------------------------------------------------
+2020-05-05 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 05.20.doc or 05.05.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- landcareus[.]com
+- d9q944ord8l-tydx[.]com
+- oaw5ibkcxru[.]com
+- xekolw77fzn-pwzb[.]com
+- zp9x80h[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /caem/tyf.php?l=ykol1.cab
+- GET /caem/tyf.php?l=ykol2.cab
+- GET /caem/tyf.php?l=ykol3.cab
+- GET /caem/tyf.php?l=ykol4.cab
+- GET /caem/tyf.php?l=ykol5.cab
+- GET /caem/tyf.php?l=ykol6.cab
+- GET /caem/tyf.php?l=ykol7.cab
+- GET /caem/tyf.php?l=ykol8.cab
+- GET /caem/tyf.php?l=ykol9.cab
+- GET /caem/tyf.php?l=ykol10.cab
+- GET /caem/tyf.php?l=ykol11.cab
+- GET /caem/tyf.php?l=ykol12.cab
+
+------------------------------------------------------
+2020-05-07 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.07.20.doc, or 05.07.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- amc4we[.]com
+- d6rc53[.]com
+- j20d7b[.]com
+- jzi0hc[.]com
+- v4x99v[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /caem/tyf.php?l=zest1.cab
+- GET /caem/tyf.php?l=zest2.cab
+- GET /caem/tyf.php?l=zest3.cab
+- GET /caem/tyf.php?l=zest4.cab
+- GET /caem/tyf.php?l=zest5.cab
+- GET /caem/tyf.php?l=zest6.cab
+- GET /caem/tyf.php?l=zest7.cab
+- GET /caem/tyf.php?l=zest8.cab
+- GET /caem/tyf.php?l=zest9.cab
+- GET /caem/tyf.php?l=zest10.cab
+- GET /caem/tyf.php?l=zest11.cab
+- GET /caem/tyf.php?l=zest12.cab
+
+------------------------------------------------------
+2020-05-21 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.21.20.doc, or 05.21.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- a0enorc6of7[.]com
+- bdd1b2i68gj[.]com
+- g009clvp1l7[.]com
+- iibb9j93k0z[.]com
+- k4xqhb6u4fo[.]com
+- pk3ehqmow0a[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw1.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw2.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw3.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw4.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw5.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw6.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw7.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw8.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw9.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw10.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw11.cab
+- GET /w1kbs7qffwr3g5nn/hz1704i8k8bwhyo1.php?l=itsw12.cab
+
+------------------------------------------------------
+2020-05-22 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.22.20.doc, or 05.22.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- a8xui1akl9gjqucfa[.]com
+- c88gpm21qoal18bmk[.]com
+- h6e2at7du07f7a2ip[.]com
+- m8pwsczg0bbzw48j7[.]com
+- nrhlxbt9covscex9b[.]com
+- se66ndx04fofu3sqv[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw1.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw2.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw3.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw4.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw5.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw6.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw7.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw8.cab
+- GET /vv55v37kts7et/idq9p9t142vyk.php?l=frraw9.cab
+
+-----------------------------------------------------
+2020-05-25 - TA551 PUSHES VALAK (GERMAN DOC TEMPLATE)
+-----------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.25.20.doc, or 05.25.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- e5ud9xh7fppe78y[.]com
+- kwjqbk2fw9p8q5y[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs1.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs2.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs3.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs4.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs5.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs6.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs7.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs8.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs9.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs10.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs11.cab
+
+-----------------------------------------------------
+2020-05-26 - TA551 PUSHES VALAK (GERMAN DOC TEMPLATE)
+-----------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.26.20.doc, or 05.26.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- c1j4xptyujjpyt8[.]com
+- herzqvtpb99m0cn[.]com
+- kuvk07l2dzj6wfc[.]com
+- vrsv2haqaq3xy6x[.]com
+- xumti39cg1kuf9t2y[.]com
+- ya66lsx81lwxocgey[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs1.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs2.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs3.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs4.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs5.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs6.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs7.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs8.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs9.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs10.cab
+- GET /gg88wyaftcxr7gu/wo0zz.php?l=sfzs11.cab
+
+------------------------------------------------------
+2020-05-27 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 05.20.doc, 05.27.20.doc, or 05.27.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- edszkas7gimk7v[.]com
+- ft23fpcu5yabw2[.]com
+- hswawuo7c8axfxw3[.]com
+- j5sfioue15kxqs[.]com
+- lj2xwtcr7920v8[.]com
+- m2mfbpsqgq0e2e20[.]com
+- tpc2snch0g7njxjq[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /alfh/xzrn.php?l=lfahe1.cab
+- GET /alfh/xzrn.php?l=lfahe2.cab
+- GET /alfh/xzrn.php?l=lfahe3.cab
+- GET /alfh/xzrn.php?l=lfahe4.cab
+- GET /alfh/xzrn.php?l=lfahe5.cab
+- GET /alfh/xzrn.php?l=lfahe6.cab
+- GET /alfh/xzrn.php?l=lfahe7.cab
+- GET /alfh/xzrn.php?l=lfahe8.cab
+- GET /alfh/xzrn.php?l=lfahe9.cab
+- GET /alfh/xzrn.php?l=lfahe10.cab
+- GET /alfh/xzrn.php?l=lfahe11.cab
+- GET /alfh/xzrn.php?l=lfahe12.cab
+- GET /alfh/xzrn.php?l=lfahe13.cab
+
+------------------------------------------------------
+2020-06-03 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc, 06.03.20.doc, or 06.03.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- 2zvdoq8grm7vwed20-zz[.]com
+- awh93dhkylps5ulnq-be[.]com
+- e2o4bd6sh2b1sjk56-fv[.]com
+- eed9jqjd4b600bu2b-md[.]com
+- k1n3pxnd5e6x2h09a-df[.]com
+- le7dv4wry1qy0dozb-df[.]com
+- le7dv4wry1qy0dozb-df[.]com
+- nbwvg2egflr8t2da1-wo[.]com
+- nwwgbluv65j6g0xgr-xk[.]com 
+
+HTTP GET requests for Valak DLL:
+
+- GET /czwih/fxla.php?l=gap1.cab
+- GET /czwih/fxla.php?l=gap2.cab
+- GET /czwih/fxla.php?l=gap3.cab
+- GET /czwih/fxla.php?l=gap4.cab
+- GET /czwih/fxla.php?l=gap5.cab
+- GET /czwih/fxla.php?l=gap6.cab
+- GET /czwih/fxla.php?l=gap7.cab
+- GET /czwih/fxla.php?l=gap8.cab
+- GET /czwih/fxla.php?l=gap9.cab
+- GET /czwih/fxla.php?l=gap10.cab
+- GET /czwih/fxla.php?l=gap11.cab
+- GET /czwih/fxla.php?l=gap12.cab
+
+------------------------------------------------------
+2020-06-09 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc, 06.09.20.doc, or 06.09.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- a4zy33hbmhxx70w9q[.]com
+- bqoxits0mu0ga6aul[.]com
+- hges2gnmvvv8mv8yi[.]com
+- hzo0aut97bfu7zweb[.]com
+- xsiv7v4qzjq6rdmpp[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /hdil/kzex.php?l=soub1.cab
+- GET /hdil/kzex.php?l=soub2.cab
+- GET /hdil/kzex.php?l=soub3.cab
+- GET /hdil/kzex.php?l=soub4.cab
+- GET /hdil/kzex.php?l=soub5.cab
+- GET /hdil/kzex.php?l=soub6.cab
+- GET /hdil/kzex.php?l=soub7.cab
+- GET /hdil/kzex.php?l=soub8.cab
+- GET /hdil/kzex.php?l=soub9.cab
+- GET /hdil/kzex.php?l=soub10.cab
+- GET /hdil/kzex.php?l=soub11.cab
+- GET /hdil/kzex.php?l=soub12.cab
+
+-------------------------------------------------------------------
+2020-06-10 - TA551 PUSHES URSNIF (GOZI/IFSB) (ENGLISH DOC TEMPLATE)
+-------------------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc or 06.10.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- 00otg18ixk6o8kows[.]com
+- amgvgrlm2w41l2lt373[.]com
+- ebh3zy1l0l66zt144-ph[.]com
+- klt9x5q3tj[.]com
+- kzex9vp0jfw6a8up1[.]com
+- ls9areetm1cxszmsg-ck[.]com
+
+HTTP GET requests for Ursnif (Gozi/IFSB) DLL
+
+- GET /hdil/kzex.php?l=phin1.cab 
+- GET /hdil/kzex.php?l=phin2.cab 
+- GET /hdil/kzex.php?l=phin3.cab 
+- GET /hdil/kzex.php?l=phin4.cab 
+- GET /hdil/kzex.php?l=phin5.cab 
+- GET /hdil/kzex.php?l=phin6.cab 
+- GET /hdil/kzex.php?l=phin7.cab 
+- GET /hdil/kzex.php?l=phin8.cab 
+- GET /hdil/kzex.php?l=phin9.cab 
+- GET /hdil/kzex.php?l=phin10.cab 
+- GET /hdil/kzex.php?l=phin11.cab 
+- GET /hdil/kzex.php?l=phin12.cab 
+
+------------------------------------------------------
+2020-06-22 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc or 06.22.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- 5u2mr[.]com
+- 9nag0[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /unbbmevd/d76.php?l=oev1.cab
+- GET /unbbmevd/d76.php?l=oev2.cab
+- GET /unbbmevd/d76.php?l=oev3.cab
+- GET /unbbmevd/d76.php?l=oev4.cab
+- GET /unbbmevd/d76.php?l=oev5.cab
+- GET /unbbmevd/d76.php?l=oev6.cab
+- GET /unbbmevd/d76.php?l=oev7.cab
+- GET /unbbmevd/d76.php?l=oev8.cab
+- GET /unbbmevd/d76.php?l=oev9.cab
+
+------------------------------------------------------
+2020-06-23 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc or 06.23.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- fdhwgm[.]com
+- fepz41[.]com
+- gr223t[.]com
+- qqm9lv[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /unbbmevd/d76.php?l=ynetz1.cab
+- GET /unbbmevd/d76.php?l=ynetz2.cab
+- GET /unbbmevd/d76.php?l=ynetz3.cab
+- GET /unbbmevd/d76.php?l=ynetz4.cab
+- GET /unbbmevd/d76.php?l=ynetz5.cab
+- GET /unbbmevd/d76.php?l=ynetz6.cab
+- GET /unbbmevd/d76.php?l=ynetz7.cab
+- GET /unbbmevd/d76.php?l=ynetz8.cab
+- GET /unbbmevd/d76.php?l=ynetz9.cab
+- GET /unbbmevd/d76.php?l=ynetz10.cab
+- GET /unbbmevd/d76.php?l=ynetz11.cab
+- GET /unbbmevd/d76.php?l=ynetz12.cab
+
+------------------------------------------------------
+2020-06-24 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc, 06.24.20.doc, or 06.24.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- a9nq0z[.]com
+- e7xfxb[.]com
+- ihgd1u[.]com
+- gma7im[.]com
+- gx6995[.]com
+- mbzrrt[.]com
+- w0j3oq[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /unbbmevd/d76.php?l=ftywl1.cab
+- GET /unbbmevd/d76.php?l=ftywl2.cab
+- GET /unbbmevd/d76.php?l=ftywl3.cab
+- GET /unbbmevd/d76.php?l=ftywl4.cab
+- GET /unbbmevd/d76.php?l=ftywl5.cab
+- GET /unbbmevd/d76.php?l=ftywl6.cab
+- GET /unbbmevd/d76.php?l=ftywl7.cab
+- GET /unbbmevd/d76.php?l=ftywl8.cab
+- GET /unbbmevd/d76.php?l=ftywl9.cab
+- GET /unbbmevd/d76.php?l=ftywl10.cab
+- GET /unbbmevd/d76.php?l=ftywl11.cab
+- GET /unbbmevd/d76.php?l=ftywl12.cab
+
+------------------------------------------------------
+2020-06-26 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc, 06.26.20.doc, or 06.26.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- dy5x1[.]com
+- ofxvp[.]com
+- ttcfv[.]com
+- u8pmg[.]com
+- gx6995[.]com
+- mbzrrt[.]com
+- voaxd[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /unbbmevd/d76.php?l=wozmbl1.cab
+- GET /unbbmevd/d76.php?l=wozmbl2.cab
+- GET /unbbmevd/d76.php?l=wozmbl3.cab
+- GET /unbbmevd/d76.php?l=wozmbl4.cab
+- GET /unbbmevd/d76.php?l=wozmbl5.cab
+- GET /unbbmevd/d76.php?l=wozmbl6.cab
+- GET /unbbmevd/d76.php?l=wozmbl7.cab
+- GET /unbbmevd/d76.php?l=wozmbl8.cab
+- GET /unbbmevd/d76.php?l=wozmbl9.cab
+- GET /unbbmevd/d76.php?l=wozmbl10.cab
+- GET /unbbmevd/d76.php?l=wozmbl11.cab
+- GET /unbbmevd/d76.php?l=wozmbl12.cab
+
+------------------------------------------------------
+2020-06-30 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 06.20.doc, 06.30.20.doc, or 06.30.2020.doc with macros that generated HTTP traffic for the Valak DLL. TA551 used different URL patterns this day from what appeared to have been compromised websites hosting the Valak DLL files.
+
+Two examples of URL for the Valak DLL follow:
+
+- hxxps://sx-facemask[.]com/wp-content/themes/busify/_Eb-6XZQPkeWFE2F0.php?x=MDAwMSCXfM02CmgQnk-DMmwZ6iqPCFHtzoeaRLfZrzLpiPzvIOSihDhzp9ISW4bpG92mmNuiHQNMEkLVrUmEz6koYzX70xVMGf6jVCqQeRVe7t85UJ6Q_r7oGwyZGzHnKZK1O-jzvCDYaZSg3VuYDRvD
+
+- hxxps://www[.]nasproje[.]com/wp-content/plugins/sheet-music-library/_5PvmqsbqvY2g-wh3.php?x=MDAwMSAv9tZkwXwqrYq0xcE50aBHkecQN5ZakWYU-6qbO0aKmgrKwSN7ss7dQ8QK4P-qLPtx9nKnppfrYK2YGtbvm4RJSsbMiKIQL9uitnjxBZHtSLmvXcsJJFVEye3GWi5Gpk-eSdOjMTwN6brGRuf3
+
+------------------------------------------------------
+2020-07-01 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 07.20.doc or 07.01.2020.doc with macros that generated HTTP traffic for the Valak DLL. TA551 used different URL patterns this day from what appeared to have been compromised websites hosting the Valak DLL files.
+
+Two examples of URL for the Valak DLL follow:
+
+- hxxp://407[.]cd[.]gov[.]mn/_W54sEoZKl-m2w6RZ.php/?x=MDAwMSDquFjnnQfNskuQwXSFpyH0Z9_qXomuRTk0GI_JRu_fKoAz7nCHxvKoT8dz8tAtY6hCXcf7As15lmDc9hy783iLCvBjCDIJbjSKoo-yMGxsQeXacHaexrHhGtmbv6dHXB6EcntdaN8Mkiq-pA_sQw~~
+
+- hxxps://bangrajan[.]org/wp-content/uploads/_m8CVdv47q2JCqgaq.php?x=MDAwMSD_acsCi6_1dic7V-Dk5gCE0DDV3NvQOyIDSnpYLVbLeUSOtixzS9j5_-xegs4j_zu5Lm49dFEVSaWhi1PlZnUr0Pw2gDPaJKfcHs2rPGyw94m8hYSKaHfJSB6c2WK5JcwPXSZMKLoHTbP2UWuljg~~
+
+------------------------------------------------------
+2020-07-06 - TA551 PUSHES VALAK (ENGLISH DOC TEMPLATE)
+------------------------------------------------------
+
+Word documents with various names ending in 07.20.doc, 07.06.20.doc, or 07.06.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- dwniu8n[.]com
+- eto9ve1[.]com
+- g7bxxcu[.]com
+- rlb9lmt[.]com
+- wfpyutf[.]com
+- wnrfa9y[.]com
+- yfpyutf[.]com
+
+HTTP GET requests for Valak DLL:
+
+- GET /iz5/yaca.php?l=tze1.cab
+- GET /iz5/yaca.php?l=tze2.cab
+- GET /iz5/yaca.php?l=tze3.cab
+- GET /iz5/yaca.php?l=tze4.cab
+- GET /iz5/yaca.php?l=tze5.cab
+- GET /iz5/yaca.php?l=tze6.cab
+- GET /iz5/yaca.php?l=tze7.cab
+- GET /iz5/yaca.php?l=tze8.cab
+- GET /iz5/yaca.php?l=tze9.cab
+- GET /iz5/yaca.php?l=tze10.cab
+- GET /iz5/yaca.php?l=tze11.cab
+- GET /iz5/yaca.php?l=tze12.cab
+
+-------------------------------------------------------------------
+2020-07-07 - TA551 PUSHES URSNIF (GOZI/IFSB) (ENGLISH DOC TEMPLATE)
+-------------------------------------------------------------------
+
+Word documents with various names ending in 07.20.doc, 07.07.20.doc, or 07.07.2020.doc with macros that generated HTTP traffic to the following domains:
+
+- 50pm4[.]com
+- 58tiy[.]com
+- 9bgnq[.]com
+- ft6gw[.]com
+- d7uap[.]com
+- p7hne[.]com
+- pui4p[.]com
+- zs6eb[.]com
+
+HTTP GET requests for Ursnif (Gozi/IFSB) DLL:
+
+- GET /iz5/yaca.php?l=tze1.cab
+- GET /iz5/yaca.php?l=tze2.cab
+- GET /iz5/yaca.php?l=tze3.cab
+- GET /iz5/yaca.php?l=tze4.cab
+- GET /iz5/yaca.php?l=tze5.cab
+- GET /iz5/yaca.php?l=tze6.cab
+- GET /iz5/yaca.php?l=tze7.cab
+- GET /iz5/yaca.php?l=tze8.cab
+- GET /iz5/yaca.php?l=tze9.cab
+- GET /iz5/yaca.php?l=tze10.cab
+- GET /iz5/yaca.php?l=tze11.cab
+- GET /iz5/yaca.php?l=tze12.cab
