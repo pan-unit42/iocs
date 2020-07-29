@@ -9,7 +9,7 @@
       "created": "2020-07-28T15:38:26.237Z",
       "modified": "2020-07-28T17:21:20.186Z",
       "name": "TEST REPORT",
-      "description": "",
+      "description": "STIX2 IOC FEED",
       "published": "2020-07-28T17:21:20.186Z",
       "object_refs": [
         "attack-pattern--88f7d9ad-003d-43a0-92ca-a7fb09fab8e4",
