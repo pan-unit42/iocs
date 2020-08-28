@@ -1,0 +1,135 @@
+2020-08-27 (THURSDAY) - TA551 (SHATHAK) WORD DOCUMENTS WITH MACROS PUSHING ICEDID MALWARE:
+ 
+CHAIN OF EVENTS:
+ 
+malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+
+NOTES:
+
+- The creation date for these Word documents is Tuesday 2020-08-25, but we didn't start seeing them until Thursday 2020-08-27.
+
+- About half of these Word doc macros retrieve the installer DLL by dropping a copy of MSHTA.EXE at C:\Users\Public\in.com and use it to run JavaScript dropped as C:\Users\Public\in.html
+
+- About half of these Word doc macros retrieve the installer DLL directly from the macro code without using a copy of MSHTA.EXE
+ 
+22 EXAMPLES OF SHA256 HASHES FOR WORD DOCS WITH MACROS FOR ICEDID:
+
+- b3df6d57ed3ccf4e0f377d22d08b982c10ffe700740daecfe0992ddfff9a669f  bid-08.20.doc
+- b268b4d0651c4514d0ba94afa01830c05f7f1ee98b27b5c0c6d3ab45787926d0  bid.08.20.doc
+- 68fc15263dd9c648a39187e4a5c97af4e71e7c668f3c1c7641ba360c5c03ad8e  charge-08.20.doc
+- 17b2f9d1b90c9f6e511c6d1025e5aaca4a74472f72d8b8b2f06bece2b60ee4e4  command-08.20.doc
+- 5e636b1a5d589ec848808390d8a19331a092a3c37ac0ce262e681f1ee644aaf7  decree.08.25.2020.doc
+- 9862fb3ce2a602fb3b69fad3c5f75302e22db1e53d0c6f320c4839827a0b446b  deed contract,08.20.doc
+- 79290e229422def96cf049e0bed1e15ea9ddc90673efc0abec1c53c413f35090  deed contract_08.25.2020.doc
+- 63e3a043bd4ab8c4eced8a487e4abb33ea5d3c4d5421f5f9110510320460a8ea  document-08.20.doc
+- 5aca750f01b7e84fe8d59ca1afc2088cc310292345dcbc90c12f39d9991dd50e  figures 08.25.2020.doc
+- 8c111608db714d9f17021326037ba2b17b13da75748f3dfe862a14de15ad2f9c  files 08.20.doc
+- ed8dc78297958056caeeb16b0889e785349ca9ebe0399b35f0c52dc8a54c6f61  instruct-08.20.doc
+- 4156dc28871028d391394e80b99d3c11ad2c265abac723e38f31bafd3202bc7b  instruct.08.20.doc
+- 6d89d5b89b1bad849d314a33bc4e80cb73b23edf9951ab898da5be65a308f97d  legal agreement_08.20.doc
+- e62178e6fbd0ba249cb0cd90d1a36b3502c7e3f43ee2aa474526e93a7a7bd064  legislate-08.20.doc
+- c0b1b624fa66020f576448e2b7eca2c95a1107c6445dbf761d09fd6dab8769dd  material.08.20.doc
+- cc96581a0887c0b75f143ecd37951873b2211d48f9d7774f79254e662967414b  question-08.25.20.doc
+- 5fbb245fbd54304882c6f1a884e31f004d4c9fd825731b9677adeb74785084f2  question_08.20.doc
+- 2608e5c8fc1ce358bbcd632afcc94bec1c209cd5fb84a1fe570c4d65c4939cee  require,08.20.doc
+- 3c416756e374bd175bcda219cf5a18aea1afe1ccb127b2596efed884b65457ee  specifics-08.20.doc
+- 9b5c94df5bf98c5c4e3cdce6f224fbbde7753f6dcb9af43ab989ac0b7fed1808  specifics_08.20.doc
+- fb6b888d04e1e7831a690a0ba2c295c9321582f1d3d89604b2d8c2737e11a867  statistics.08.25.2020.doc
+- b589011d262c01d60a8e8dfa09924065b70022699c558996269a49f2f912814c  tell 08.20.doc
+
+AT LEAST 8 DOMAINS HOSTING THE INSTALLER DLL:
+
+- ehubo3y[.]com - 45.10.88.24
+- mm24b1h[.]com - 193.187.175.253
+- nuzloz[.]com - 185.219.42.146
+- s3lm81[.]com - 193.38.55.116
+- ti37xy[.]com - 185.62.103.108
+- xaat39f[.]com - 82.146.62.230
+- xdeho9[.]com - 185.144.29.147
+- yj5hzv[.]com - 185.219.42.163
+
+GET REQUESTS FOR THE INSTALLER DLL:
+
+- GET /poli/lapof.php?l=zapym1.cab
+- GET /poli/lapof.php?l=zapym2.cab
+- GET /poli/lapof.php?l=zapym3.cab
+- GET /poli/lapof.php?l=zapym4.cab
+- GET /poli/lapof.php?l=zapym5.cab
+- GET /poli/lapof.php?l=zapym6.cab
+- GET /poli/lapof.php?l=zapym7.cab
+- GET /poli/lapof.php?l=zapym8.cab
+- GET /poli/lapof.php?l=zapym9.cab
+- GET /poli/lapof.php?l=zapym10.cab
+- GET /poli/lapof.php?l=zapym11.cab
+- GET /poli/lapof.php?l=zapym12.cab
+- GET /poli/lapof.php?l=zapym13.cab
+- GET /poli/lapof.php?l=zapym14.cab
+- GET /poli/lapof.php?l=zapym15.cab
+
+21 EXAMPLES OF SHA256 HASHES FOR DLL FILES USED TO INSTALL ICEDID:
+
+- 04d092351f3eb335d96df86dc1bdde977db38207ff9ceabeaf4b2a55522b9070
+- 104416d35a3f4ed8181f5500f7a3e1e80cd0abc65d8c0842533c8adce4a84739
+- 10c80e10ccce71780d02f8886929530d8fe7faff7dd368f646fcbc72d4009159
+- 19abdfeeb529684a81414592fc464f47059777f6e341feb2e82f7b8f1be6c353
+- 1ab652cd34263cc46519094a3a013064876592595ca653179f4a71ea112ff691
+- 1bcba6695203ee0526fe63699d940e371ed63920ef0e815d64fa578f52940bf8
+- 26679c1bd965e5c93d3acf651bac66c19144e47cf58132a76f09e1c2beefe4f0
+- 275ce54f0c6d9728c780d4faca7048929c129a518b0a14ff0f7295240821c238
+- 351484594bef82a835ebf34d8e93366eb7a7e9a572a1a5f8f3793e1864db81a8
+- 4d67fef43262399ba7aac774ca485661b821a6b86fb9d23f8cae0a1a70aac5f3
+- 7151410f3e22084418ffb5d71dccff09ba4fb109fa71fea254406139bccfd7b0
+- 8bfba21a96ffd381fd83f7d3294939fb3bc590867e10afc53f6dc5f42d2743f7
+- 8d4a19f6f6bea669bd04e5934f483d03a538dccc070a05269a8375315ae01562
+- 9202b7365b5ae7a75fdaf0c365babf18d8b72c4ff5f0ebfac83ecd6aea1bcc5f
+- b1e000bbad9a9726210d310d2da7f03ea5ef5c3b6c82fd146672962c87e6c4e3
+- b35f2ce6262cc9f053572bfa8104dc277c44212f1cfb9886270eeb21ecc957fc
+- d85fc0e45cc705cc7052e05fe23b2ed7a18dc13de509ad49509e090465b01230
+- e3b0a7910baae94d465df513c5169ab6ee083d958a892bff6ee54de0897e49f5
+- e74e317d7f682c6664601b006b7a27ba25ec1ac7237e17d5cae5abbe831c65e1
+- ed02690cc0383e88b74233c801084bafaa9e81fd61b2e1f03985776fddde04b9
+- fd9bd7a98f012d9f782b4584f611c40a361f43a01c64d339d4a0e76cb32317f3
+
+LOCATION OF INSTALLER DLL FILES SAVED TO THE VICTIM HOST:
+ 
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+- C:\Users\[username]\Documents\dee94d78.jpg
+- C:\[same directory as Word document]\f047ca69.jpg
+- C:\[same directory as Word document]\b041ebc5.jpg
+- C:\[same directory as Word document]\eb32731d.jpg
+- C:\[same directory as Word document]\a8be06d6.jpg
+- C:\[same directory as Word document]\d8d0494f.jpg
+ 
+RUN METHOD FOR INSTALLER DLL:
+ 
+- regsvr32.exe [filename]
+ 
+AT LEAST 2 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLL FILES:
+
+- 128.199.121[.]86 port 443 - stryjerefer[.]buzz - GET /background.png
+- 128.199.121[.]86 port 443 - tank50[.]top - GET /background.png
+
+SHA256 HASH OF ICEDID EXE CREATED USING ENCODED DATA FROM PNG AT TANK50[.]TOP:
+
+- 58afb18d8c04bd6a2a9f18f29904d1733f017d446bc4cec77da85d1e6158c504
+
+SHA256 HASH OF ICEDID EXE PERSISTENT ON AN INFECTED WINDOWS HOST:
+
+- 26dbab026d66b8e4b035fa9bd5b3f65947c32350ae6759602d953bf3f91b6e0b
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY ICEDID EXE:
+
+- 89.105.194[.]231 port 443 - chinadedoing[.]best
+- 89.105.194[.]231 port 443 - musiciange[.]club
+- 89.105.194[.]231 port 443 - pommiopeo[.]cyou
+- 89.105.194[.]231 port 443 - rightsaqua[.]cyou
+- 89.105.194[.]231 port 443 - feretraidsouth[.]cyou
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - www.intel.com
+- port 443 - help.twitter.com
+- port 443 - support.microsoft.com
