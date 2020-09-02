@@ -1,0 +1,93 @@
+2020-08-17 (FRIDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+31 EXAMPLES OF SHA256 HASHES FOR WORD DOCS WITH MACROS FOR ICEDID:
+
+- f1f700913a75a3aa5aa4bf88416632aa3f55c61a561625ab271fa8927bf27f65  command 08.20.doc
+- a14efc1e6412b0ec48430a77003a01b35b7e59c3c7ad071c9e915209ad243674  command-08.20.doc
+- a27d109a00b0f35ad32ffa7eee648b2c2354baaf5f43dcef8e671efcc23ddf51  command.08.20.doc
+- 1bef8da76ff7648eb0c655737aa886e881a6a06074967b9c817c7b2c7453bf8b  commerce .08.14.2020.doc
+- 4d5f9ad0977ccfa54876f6f559e40e2b2478649c6e11b939bfd4775591f5a274  details,08.14.2020.doc
+- 82a5b52177b8cc4790eb53c69265c14051c33578c09a9c80a37dbc7e8fcd3fa8  details_08.14.2020.doc
+- 8d42c41d5f022f5c10872296b8a8f9210e8462b3cdc46b6666c318ea91137b13  dictate-08.20.doc
+- 28eff0d153da61abf5a18cbd7ea290462c9715702590757c4943c3ac9d6cb2ce  document,08.14.20.doc
+- e81d10668f18cc8988e4e52be8de2e5d426e7b98d2c04a29fd573f632fcf8fe4  enjoin_08.20.doc
+- 5db7abf56b807a605002a1f49191f550fa89fa4ec4f6fc3941830696b28dbd5d  figures-08.14.2020.doc
+- 28365d6047b02e13043a1c2ea9cd29fe7c539ed2410b83eda91102c36389c2fc  file-08.20.doc
+- bbf69c43ecbc074567a9c2aaacbb972792c45a6964398db164e45ed94aab1388  input-08.20.doc
+- 97cfbd5d07a00e3d2e47945c3e0b91fc083c58ab1a6fa8c6d0ac83736777dd4e  input_08.14.2020.doc
+- dcf9fbcec0e61794e1f3591d852f9c1f5246f65d0925803ea775bef0d2ea504c  instruct,08.20.doc
+- 9efa8ebee1863b016f4d62553cdca29ddccdf31140e4170f4fa3f1cb27961a04  instruct_08.14.2020.doc
+- 1a1c8c04cf0a5a3b3e383c2f2060373710d6af8ea4b1320b5bf7f5d7c968b835  intelligence.08.20.doc
+- 52b073005ed4244860f1391c3bc0019db418fac925386c4c76661388d0bbb9d1  legislate.08.20.doc
+- 282e3d504e5b5386f37df63ff329699bb5f370de0fc7ad65e019fc75aaea4a46  official paper-08.14.2020.doc
+- e4e12e65097cb12cbb7e43e188d9f031ab0d981be54af07b2c6209952cf7030a  official paper-08.20.doc
+- 89157513d20236fd60f8746e09b5a97d53c8a9871ed28d31b6f68c49b612f0e0  official paper_08.20.doc
+- 05867883b79d7b14e6df6f5dbf247cd93021c5e76927aede7651b6deb29449b0  particulars 08.14.2020.doc
+- b929154e1606f655131c0af734ed857ef0a7582e59db7b6081983dd6d4f468ce  particulars_08.14.2020.doc
+- 489d71affc99d7b60e7fa6357776250114d38b80608bc19317420db606f6e329  particulars_08.20.doc
+- 5889d486e993169c5f43440a3f293d200bcb8cff987a326ac8646b3d244e8054  prescribe -08.20.doc
+- 24623bf012b703fe3dc63acee468cdf452b270d68f64a6bb75fd4e0d3a41c141  require 08.20.doc
+- 30cd5ee869079f599b8959600bdb4ba79d810eb72b7ee2fc9cc2a0164c768021  require-08.14.2020.doc
+- 6c161aa7a2944d33b2fe5917449ce3d3477c104dfe1944f4251d24ab30a6653c  require.08.20.doc
+- 38f1db5b79de41aaf477133438e9b9c7eaedfe7c1b50f98a9875475fdf7d6395  rule-08.20.doc
+- d310d665078d0fd0a8e7ddcb74eadc0d1f298498f36190e848981e96d839a171  specifics,08.20.doc
+- 41551373cfb434339dd61b7eee60611f80045a2da706380f28c06c7664851f4e  specifics_08.20.doc
+- 3c5fbdf064cf99f28eb638f8a03b1ff032ad89c358b822010882c054f42b6d47  statistics 08.20.doc
+
+AT LEAST 8 DOMAINS HOSTING THE ICEDID INSTALLER DLLS:
+
+- a75ttto[.]com - 82.146.61[.]239
+- bcxsxb[.]com - 94.23.162[.]163
+- dd1wmu5[.]com - 81.29.134[.]83
+- li7x63d[.]com - 193.109.78[.]251
+- owrty2[.]com - 54.38.220[.]85
+- scwwne[.]com - 80.87.200[.]77
+- tikamnd[.]com - 194.31.236[.]252
+- z1qgyxs[.]com - 91.228.218[.]224
+
+URLS HOSTING THE ICEDID INSTALLER DLLS:
+
+- GET /fywek/miqy.php?l=kyzy1.cab
+- GET /fywek/miqy.php?l=kyzy2.cab
+- GET /fywek/miqy.php?l=kyzy3.cab
+- GET /fywek/miqy.php?l=kyzy4.cab
+- GET /fywek/miqy.php?l=kyzy5.cab
+- GET /fywek/miqy.php?l=kyzy6.cab
+- GET /fywek/miqy.php?l=kyzy7.cab
+- GET /fywek/miqy.php?l=kyzy8.cab
+- GET /fywek/miqy.php?l=kyzy9.cab
+- GET /fywek/miqy.php?l=kyzy10.cab
+- GET /fywek/miqy.php?l=kyzy11.cab
+- GET /fywek/miqy.php?l=kyzy12.cab
+
+16 EXAMPLES OF ICEDID INSTALLER DLLS:
+
+- 22b13d0902ceba40b255cf730568a9736591abe71282b0d5ac025483942e827f
+- 2ff16c6db702a57835045bc56e99bd12430c36e49732e5791f2d6974d6f97d77
+- 31f54c246d961fa8d29c44c6848302bb34a67590d77055a79b64125cea87be40
+- 345cc19410a30e6961d2a598bc80718d66e94a0a845624da239eca70d6a77f10
+- 49419ca855aa9a02300718294d3a5b45f69a8896689d29d37923691acfea27ed
+- 4b93960f6e74e38cf7bef3625218b77996b9144400a8aa8d44c837ab93696fb1
+- 6320a5280e5aed7095af2343a9f9e207f775e04544408be99711ebbbcf899c4e
+- 651595581e6b0265fd7af8d8fce632abcbcf15ebd7466ed7f63ecfa513f96c55
+- 65c0e49c5cdf8e6101edce2545f1e938698a613857d1a2bf60245e6efa7b8098
+- 825ef55ed2b25334f5d9d7fd5c3a60ff59259116660863e872fb457e88ad83ed
+- 8dd4df55c66d50ba3b107d9c44cc81a0b8ee157af5eecb7a1728c1aa9c825c24
+- c1b90729436fdedf516c90dde680985002a48306e3e37e3bb4173f3be4926668
+- d20bd85c1a182600c62eae91acfd37d86ff9af50a005fb4e2cbe464f05308918
+- e235ffff3025f647571a3cdba878d517734f691fd1f3075d08c5797ade201351
+- e3fa5804299f5d5ead84422ed6c634258dca44e8489ec6a239ae5a2dae04a2ac
+- eb120e2e4c9390880110d6162c717bb688b053df1b3a86eb9b370f54d68dc03c
+
+LOCATIONS OF THE DLL FILES:
+
+- C:\[same directory as the Word doc]\main.jpg
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+
+RUN METHOD FOR INSTALLER DLL:
+
+- regsvr32.exe [filename]
+
+HTTPS TRAFFIC FOR PNG USED TO CREATE THE ICEDID EXE:
+
+- 89.105.198[.]114 port 443 - coverbeacon[.]top - GET /background.png
