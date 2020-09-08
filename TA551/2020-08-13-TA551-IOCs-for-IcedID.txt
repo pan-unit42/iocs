@@ -1,0 +1,95 @@
+2020-08-13 (THURSDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+22 EXAMPLES OF TA551 WORD DOCS WITH MACROS FOR ICEDID:
+
+- 8456e301e13ca82f0f9e86f5a267dc1e7c2266444c7971448cc8f66e0e416fd0  bid-08.20.doc
+- 90fd213a23dec39b8f7d21ef074d09827160d8124e0b61d169910f7603c52bae  deed contract.08.20.doc
+- 9ee6c59100ad5ec5010c99f3b6848cfca2e8d7a0099ae412e513405de09880de  direct 08.20.doc
+- 7ca3e51cddc3879813093357a90bae5c44d922101e0e31efd63f92d884fcea96  enjoin.08.13.2020.doc
+- fa9b1eee0d9a392ec50328aeff149fa1398f9016dc39d9ce388bef79185bb76e  enjoin.08.20.doc
+- b2cc848c78e07cebf9d092ee0425a96c20c8176d21a8fa017753a420e191209f  figures.08.20.doc
+- 1869a98ae8443bc2cc19ebee347f765abf4646b1e043fdd675242d7ce15c6068  input,08.13.2020.doc
+- fce103c9030afb5a1993199c335cc07acc05ea621cb668368e0549782e3b93c9  input_08.20.doc
+- f57f2f3568066752f8305c36196b7817f10567ad2d18a98ee0ab3f91dfd1b7dd  inquiry,08.13.20.doc
+- ce2fea4198a2d109bd18476ea92118ab4abf20dc708db3ac56143d07d8eba931  instruct 08.20.doc
+- 078a7b6ab55d345871cba5c628a43cb06ed447e0a7e1b76571cd6634a23933ae  legislate.08.13.2020.doc
+- 1fe7cc199e51b6f26e35b5e183fe9fc2f4544e6ed8105faca4fe470bb3d68850  officialpaper-0820.doc
+- 8164936be32d82d603ab8dd6ea5f67b95d5da6f2f469609d452b0ffac948939e  ordain-08.20.doc
+- b4444f7c652110ccc4ce5d5b8a5af84be31990cfb474a49ff66e97c3b704350a  order,08.20.doc
+- c7da20ed327175e5380846934488b43651bd6042628e277c6a4a8a7cfdba5351  particulars,08.20.doc
+- e127aa8e4900fa9b6c43874eba9d73cab85b9a3c1f98524167097b69d1d53ccd  particulars-08.20.doc
+- 31fed29fb566b91129c565a1e015a57afd6c30736666bdb581ca6fcd7afadec9  report-08.20.doc
+- 276673ce33b79f961f26f137d420960721a5d46e06f2ae04e808b085abbc8829  require 08.20.doc
+- 70dd3d31eaa46973a86daa3c37a8c8140029990af38d74948f355320f04f6072  require_08.20.doc
+- b85db76964caaa620c2de3df8b73a14fc84c6134a215c64549a050ed0a866dd6  rule-08.13.2020.doc
+- 6ed87300288b1a2c4422279d097782638d415cf7e3ce8234fdd9724da5694611  rule.08.13.2020.doc
+- 519ebf7f9e0d74537f9e775324b427a35b7807390c705b8bb2f3c53b3e5df58a  specifics,08.20.doc
+- ea3dfbc07b29423ddca47c78d75ffead305b443da300631ebed82ee95d4df320  statistics-08.13.2020.doc
+
+AT LEAST 12 DOMAINS HOSTING THE ICEDID DLL:
+
+- a75ttto[.]com
+- au7vlt[.]com
+- e1u21kl[.]com
+- edxudx6[.]com
+- ge2y74[.]com
+- mqp6p7d[.]com
+- or8gucu[.]com
+- plnr9gs[.]com
+- w5yejb[.]com
+- wmkfdu[.]com
+- ycd4tjz[.]com
+- yra9rm[.]com
+
+URLS FOR ICEDID DLL:
+
+- GET /xezoc/mawu.php?l=ruxa1.cab
+- GET /xezoc/mawu.php?l=ruxa2.cab
+- GET /xezoc/mawu.php?l=ruxa3.cab
+- GET /xezoc/mawu.php?l=ruxa4.cab
+- GET /xezoc/mawu.php?l=ruxa5.cab
+- GET /xezoc/mawu.php?l=ruxa6.cab
+- GET /xezoc/mawu.php?l=ruxa7.cab
+- GET /xezoc/mawu.php?l=ruxa8.cab
+- GET /xezoc/mawu.php?l=ruxa9.cab
+- GET /xezoc/mawu.php?l=ruxa10.cab
+- GET /xezoc/mawu.php?l=ruxa11.cab
+- GET /xezoc/mawu.php?l=ruxa12.cab
+- GET /xezoc/mawu.php?l=ruxa13.cab
+- GET /xezoc/mawu.php?l=ruxa14.cab
+- GET /xezoc/mawu.php?l=ruxa15.cab
+- GET /xezoc/mawu.php?l=ruxa16.cab
+- GET /xezoc/mawu.php?l=ruxa17.cab
+- GET /xezoc/mawu.php?l=ruxa18.cab
+
+25 EXAMPLES OF ICEDID INSTALLER DLLS:
+
+- 0aa2727753d68654ada04a86531c216b15754fe0fabb38bf5db9c9bd4d8933a8
+- 0f65778aca1bb70c05d9ce3bac655fdd2fce2dd80ca43e606dd3927fac7f4e58
+- 15bdc40e28fe263191974143265a1b9e718a1c8b4c30d03a54fbf54e047f7298
+- 2784ba5b7590615d57c8a358c4f0bd8fe10b0da5b7b1804d2c001c978aa43bb0
+- 34d6e9e7f32a1c02b1bb0e3a5c89789b8a917e84087d759e8361727985bddddc
+- 4060134612ebdaae96a4dea94b5b876f7bfee97cd5d1e0e6f8659c71165cc476
+- 45100eae0d92ac2d1142ffd48e6b478c78ca3707601705e867e0e6597e385c5d
+- 49cb8b4834caefbd754777b332e40c302ae8e99017cf6d3e20fb49733dcb2774
+- 4b6543e4fa615e01b202f4e0c05c43faf34671130d1644cb4195c6f257241a05
+- 4fc5f772fd9ecf6cdc1f7a33d5f9aa14b98789a577c3e0153f3509456a750bb8
+- 60adb0a8bb01a52de96c31213433954834f2ca43b677ec67737ad12e633a5c18
+- 66e7d39f7a58302c94e7b06b2dfa5933d52a5774f9b72248d74d5688bfa601f3
+- 83f31a0debd4d9b85a25370045789d49efafe8f8d328d38ebd85782484dada91
+- 8b523f455bedd162d9647c3ed04ee97edf7638c097afe1dc5f0bc8f402c270fd
+- 94349d76ec1a0c4f60d8d6b59e5dd0883a533a17c9a7c7a87cab5d4540e5d4ea
+- a88722b5d4258ab40b9395edf936ee8dae4075b358087ccac7a33f17986cfd76
+- b8b7b8a576e7c59fbb050ff50cfaec4aa5fe35845da1c86ab578fc9360d70c3e
+- bbd6bde5b8c92642cf6bf2cc0e3c64e41079b1a4a587423265fe9d589bf4d1f3
+- c90625e909ccca0661e36811a439c82daac72658c300102bdb4b6741b5c4a7a9
+- cc4495418b61093842a2f0a61767e3d9b1a11272fe4ab101880dc51f4dfd143a
+- d1d4cfe749d56334e9e18d18d1193a5137220ea85ac8c9d53f8e0d9a01f63769
+- db50f9849b9e875b43340e5370419197f864214019a509555a0c0e878416921c
+- dc6388f41af56fc4ad485e90c3602622f7978bd2ad791b27d5f8637e595f21b1
+- e5f1b3c69e967ec1531a0fb923599009fd86a9667110079be0b8cf50360f4e8c
+- e98b07ca60ea27b79f08543d4c6ab61b47366a5f49898622f2ee90f7d12ada55

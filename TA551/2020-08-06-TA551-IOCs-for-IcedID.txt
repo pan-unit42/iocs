@@ -1,0 +1,108 @@
+2020-08-06 (THURSDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+26 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- b23322f71771729668c866c9e3772eddb428c3c5d68bfba9433da3fe63f0c286  adjure 08.20.doc
+- 74e802b554527a8d3bc212eb0b107a63197daa1987a6f8cdd1c9c8ddae269c86  adjure-08.06.2020.doc
+- df144083cb485322e601c9b188c676b989e003f279fa9328b79ec713489968aa  adjure_08.20.doc
+- c6bc5f8db1173945fca0b270656b059c69559a939480561296776938be03730c  charge,08.20.doc
+- 0c57c1af0d46a31bb43a4881026c6f392ac53faac9780f6924dff91aed07d28d  command.08.20.doc
+- 65ae12426a34a5802ca0c627aa4749206e2a75b57d9f938c69112af9be55be1a  command_08.06.2020.doc
+- 48576d904ca6a41f7be143e6aa30a01e9577dde2f744ebe2a43579c05550cc4e  decree 08.06.2020.doc
+- 6e92b206fb95f1e58e078571fe46c8d36632bf9f265af2cea59c8f1c5e4fab7f  decree,08.20.doc
+- 9ea63df909a4947f18ae4e5d35cfea604905a275167de3d5418bc4917a27e281  dictate.08.20.doc
+- 6c371a63e61f8ee4e379d862bb96403eb10864463a517d6c6c423cb3ea296ce8  documents,08.06.2020.doc
+- 0642b8b82c8b1949da4dc684b6f75a180e942673ac9428383a39c3a9ef10e1ca  enjoin-08.06.20.doc
+- dfd2333edc0622b49a01367a1fa60a85d64456e6f53350010a11d2f175e90b0b  enjoin.08.06.2020.doc
+- f6d12ccf893cb4c51b3c049bb07c7e51f3c0f73f55379310459bdd89c5421edf  figures_08.20.doc
+- e64f5c95f57e265b882d1f3d8b17455ffac350ff7c4ee22bb9187a7e10ec66b4  file,08.20.doc
+- addd6c62f38bd5b004abed3cf7edfece4d002ca56a35539f2657754be291bbea  files.08.06.2020.doc
+- affd7dd7f9bd8ec763c8646123f414bd25e68352d742a5bd3904ffa42580cf9f  instruct-08.20.doc
+- b453fe2b22df0a3447c9f1e64d5e2c9d2c0ef6e1d6e47aaaca3b611e868c00d3  instrument indenture-08.06.2020.doc
+- 6d8dd12ffb7ee93a6cd9f1051e17a1087d66f070cc534454fb04d9d8c33bb90c  intelligence,08.06.2020.doc
+- 3fe92d49ce855b4f02a99ba5c4a89edd2255603a4e0b5d9f3cc8767dd0809066  legal agreement 08.20.doc
+- 6badbba16b4cad10bfbb2cc245f4d63c7781aa9678417df84078273a12d3eaa1  legal paper.08.06.20.doc
+- c187247c655ab22dc5e67fe174af4fca1e14cff224dc5b60beff948a8a297dd2  official paper_08.06.2020.doc
+- 24368bddac344e5579e583cf86053d53894542c18f67a718400f62ff56d5a674  report 08.20.doc
+- acd6793d8210f51004f617765bdd882544d389c5191f35470c7f2a2aa6e3a337  require,08.20.doc
+- a3ba4baa49060dd73324c9d6f63a67f23a13b466fae33f85ad7493d58c5f8e6a  rule,08.06.2020.doc
+- e48c527a596751834d830a7c663f8e6e14e7b9d8ee9edbc41d344f4bf1ecbd9c  specifics,08.20.doc
+- a611374f8b55cee7c3a6cf6f05bf074c66cbc234e6f4f07f18762eace713cf88  statistics_08.20.doc
+
+AT LEAST 12 DOMAINS HOSTING THE LOADER DLL:
+
+- ch4ck0j[.]com - 185.230.140[.]81
+- dywb3va[.]com - 185.127.27[.]20
+- ed9fb4[.]com - 193.242.166[.]59
+- j9b8q8[.]com - 45.12.4[.]90
+- pncq6h[.]com - 185.183.96[.]17
+- osog5n[.]com - 51.38.152[.]85
+- oyomc2z[.]com - 82.146.34[.]39
+- pt48tir[.]com - 95.181.152[.]138
+- scgi76[.]com - 77.222.60[.]35
+- sv51gh[.]com - 80.85.157[.]176
+- vebk1x[.]com - 185.62.103[.]76
+- xk625lf[.]com - 2.57.184[.]149
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /pupi/gyru.php?l=taxef1.cab
+- GET /pupi/gyru.php?l=taxef2.cab
+- GET /pupi/gyru.php?l=taxef3.cab
+- GET /pupi/gyru.php?l=taxef4.cab
+- GET /pupi/gyru.php?l=taxef5.cab
+- GET /pupi/gyru.php?l=taxef6.cab
+- GET /pupi/gyru.php?l=taxef7.cab
+- GET /pupi/gyru.php?l=taxef8.cab
+- GET /pupi/gyru.php?l=taxef9.cab
+- GET /pupi/gyru.php?l=taxef10.cab
+- GET /pupi/gyru.php?l=taxef11.cab
+- GET /pupi/gyru.php?l=taxef12.cab
+- GET /pupi/gyru.php?l=taxef13.cab
+- GET /pupi/gyru.php?l=taxef14.cab
+- GET /pupi/gyru.php?l=taxef15.cab
+- GET /pupi/gyru.php?l=taxef16.cab
+- GET /pupi/gyru.php?l=taxef17.cab
+- GET /pupi/gyru.php?l=taxef18.cab
+
+4 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 83d98c2bf9d4d544aa67e0610c7e6b6a4829e201b5878e30b7d11729f90c358e
+- 66471bb23ffb948309e48e5316f37da19938dcca7e0f1687e1ca5882fe16865f
+- ab74fb431a13b818341dce88c95cde771d096b5e5c93ccba33249e264ebfe9c4
+- b947929a2eb373ca547896b5bb3932140a51fdf68a093ac78407e19b9659b5aa
+
+LOCATIONS FOR LOADER DLL:
+
+- C:\ProgramData\1.tmp
+- C:\Users\[username]\AppData\Local\Temp\main.theme
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+DOMAIN RETREIVED BY LOADER DLL FOR INITIAL PNG IMAGE TO CREATE ICEDID EXE:
+
+- northkorisla[.]co - 128.199.198[.]227
+
+ICEDID MALWARE:
+
+- SHA256 hash: 379eba5d8122133d69c864cc01dd3a7be50c976be5616372dd065c2c52c08b5f
+- File size: 361,984 bytes
+- File location example: C:\Users\[username]\AppData\Local\Temp\~1282795140.exe
+- File description: Initial IcedID EXE created by DLL installer
+
+- SHA256 hash: f1bb1db729644b0135c8ad3e124a8d1b79755b027cda3b12c8200b31a6720069
+- File size: 361,984 bytes
+- File location: C:\Users\[username]\AppData\Roaming\qehaap\[username]\laaposkc32.exe
+- File description: IcedID EXE persistent on infected Windows host
+
+ICEDID C2 DOMAINS ON 94.100.18[.]58:
+
+- qazyaquanauti[.]co
+- leaderfreeder[.]co
+- juveperdhue[.]top
