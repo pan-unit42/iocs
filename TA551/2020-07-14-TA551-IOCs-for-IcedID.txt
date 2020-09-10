@@ -1,0 +1,116 @@
+2020-07-14 (TUESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+35 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- 0eb595354a8cdc77bf0a777c6d4ea5f0140ea5c7e26050325b1db7f7de50aa23  certificate-07.14.2020.doc
+- 10eaa9b156e265fb23cd715743f6a99529cea188ab99a3e298a6e6ae2f957ca0  legislate 07.14.2020.doc
+- 23309566de8ac0c7ae3331db0acbbc0e2d73948e83e18d17d428f38660105262  charge_07.14.20.doc
+- 27c347612d0c45694f12436b87212c0bd97c7d5c9762c47364f2ade9facf5d7a  bid,07.14.2020.doc
+- 2bfe81e6ce5bb447a54de0aa7f99f85d893d9ac2927b03265f2faacef1533ff7  document-07.14.2020.doc
+- 341c393143004d48287b363bc116151c64354ab7cbcec5dadc030e4846865486  files_07.20.doc
+- 37d476eace9a5e5658238378c20ac8c58a2f20388999c32bc5519ed922fbff6f  legal paper,07.14.20.doc
+- 3d022cb2a7f029d9c957a4f8a34df81aa344ee081625d0d074ea3301460912ff  material 07.14.20.doc
+- 4362dd22eeabc132303d483dc8af3a667a8f6e7078e86df02019141bcd6a831f  documents,07.14.2020.doc
+- 46c0995eaebefc10ea612e09933f665883317154515e31468e135b20db433473  documents-07.20.doc
+- 4a2254691a0f7724ab775469c53a01154eacb2d014cf04b71f9aa5a93834e320  instrument indenture_07.14.2020.doc
+- 54a1b9d8fde754952b2e4afacc10457bdfb13325d440988cc7424984153caab3  command 07.20.doc
+- 5ff7136ff81c7c7e4b324430a5a0ee98989ca597d40d4d395eda50031994fc7d  legislate_07.14.2020.doc
+- 67794894846550f29040574d2d2aeb8002225c17bbd47090c6d221022e9cb368  details.07.14.2020.doc
+- 6c21170ee4c310fad7a989bae8c08f591f0648c4099822d7931efbbaec99fa39  legislate.07.20.doc
+- 78a95425c0214c050fafa5a3cc6f40d8799a37910100781020120d12cf04dd00  charge.07.20.doc
+- 7bee429e343d642a0ec076b2835e59d220374d038318a3ff87e2883b2d97df46  order,07.20.doc
+- 7f4c6a6b241a89531e909def54254f995865431ae7d00ba5722b0bcdf52fb7ff  inquiry,07.20.doc
+- 9df7c9ac68abc525fbb685d88a91dc9fb0a62d565a61d99b1b4a9e64d2441da5  enjoin 07.14.2020.doc
+- b2303e5ce1a67a85d66031163421fdb221a021fda89d21a1dba1b448acfae8eb  commerce .07.20.doc
+- b4810d726b778bc2f48443157985fdc981e1065454c3dfecec758a0ba39c8789  official paper,07.20.doc
+- b7f2dddd27a7118f6f6cc3923f2af1f83ca5b8ea722ea05f6b27845469899c67  files.07.20.doc
+- bb9b7bf7e2fdefe4fcb05e44f267239955d6c75db7ebf1d6b9926b8e4b1f3330  intelligence.07.20.doc
+- bdda92c5990ded4fd7ef2c4acfa840c0c94d2d56979b99aa4c6284f33cd9d87c  input_07.14.2020.doc
+- c309791c87fb74d43b2b1717c6885ee38cc79971a843f14b46ccf9425fea40ea  instruct_07.14.20.doc
+- c91a48ee32bf0d27b05dfc3703a4ecc96941485b23055e023d0dcffccebdb802  facts_07.14.20.doc
+- d089f14ebdb9ef21a02788fc7d6ee4e32667f5b9fee4ed35e871658f612766eb  figures.07.20.doc
+- d56151602f8851a8113244d0cd38a98a04f743abc6f1b1f0cc29fa9df9c92e9a  ordain,07.14.2020.doc
+- d885d083270df417a78eef7ed4d5d45111ee20e942db3500a2c48699cf8107eb  inquiry_07.20.doc
+- db86431d984efcabaa6645e31eb1fe9bc8ba3b5cf5b80f4eff9306c792301473  order,07.14.2020.doc
+- ddf852ab72ee8ef151f6631bc3fffecd5c71ed240c53005d06d8c677a98d8725  command,07.20.doc
+- eba61461d1da64f0276919d253c8eac99c6381abbab51fcf3e61b1df18fdc1d7  details 07.14.2020.doc
+- ec4749ccc459451f550ef4203595161d31fd393ad2a7ef0147af060faa627308  input,07.14.2020.doc
+- f68bb42ce6d65902275468d5589521805e76a06b724824eb72c6bc1754359d9e  commerce _07.20.doc
+- f9255ededfb06ea33aa41c77a7e664c84951fbd6f8222cf0e49340a8510b4452  inquiry_07.14.20.doc 
+
+AT LEAST 6 DOMAINS HOSTING THE LOADER DLL:
+
+- 1bwsl4[.]com - 37.230.113[.]85
+- 804gtd[.]com - 185.139.70[.]165
+- m33xa3[.]com - 91.235.129[.]43
+- n9i9ep[.]com - 185.144.31[.]90
+- nm5oi0[.]com - 81.29.134[.]62
+- uhq943[.]com - 95.181.187[.]5
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /hboneb/sol95.php?l=puom1.cab
+- GET /hboneb/sol95.php?l=puom2.cab
+- GET /hboneb/sol95.php?l=puom3.cab
+- GET /hboneb/sol95.php?l=puom4.cab
+- GET /hboneb/sol95.php?l=puom5.cab
+- GET /hboneb/sol95.php?l=puom6.cab
+- GET /hboneb/sol95.php?l=puom7.cab
+- GET /hboneb/sol95.php?l=puom8.cab
+- GET /hboneb/sol95.php?l=puom9.cab
+
+
+10 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 09a643588abf74030e68df106c9432ae3c5bc4fecd2afb1cca5a82b28fe30223  Tm.tmp
+- 11e539a659db77e56b85608659f513e4f97b2b2d6a757b4376141eeecd3728f5  lV.tmp
+- 135aecd78ba525b2cbb5547b3e43d5713fd43e3e5a9c14452fc6e25ce85998fc  uZ.tmp
+- 2ea61a28711cd9ac50e849c85c041faf5799e306beedaf0444df3a00a4aa0ea6  Mb.tmp
+- 2f2683e21a11c6ce0848ad2a6ecc8999c91967c15a20bf2ccafe0fb9720b7607  nl.tmp
+- 3fa22573e71c3c461a84acc5c469b5ec5955d317e506c854e7d2d1faea7868ea  Q9.tmp
+- 6fede71248803463757ea05e875e0cdb97d38245c0d28597639aa797a90987ce  qg.tmp
+- 7c06717c56a7890c1763ecc52950dbe81265e15910508e29c79a47a23804aec2  C8.tmp
+- 7eff8901e4f77417a33b4d017a84636d2d8e04c520440511743f945e29e5dda0  d6.tmp
+- a421e1ac6cd39b7709d8929329b2135cb0f1eaea48edc296d03f0b3f41058282  Hf.tmp
+- a59ac4ed7c883d86bac18305763a43e86438455f259560f21fe30a10c2adb6b8  q4.tmp
+- a8967cdcb91ea12285cd9f365ef73895bf90283dbc00f197cfb49cec3c8c3886  nl.tmp
+- b225c3f7f23b2952c54b5d6f7b68f5b90fceb57465e552be33da54e375aab57a  d6.tmp
+- c1a91bfb28f0b216ccb04c7b704dfb4167a2e498cbd4c10bb954529608033aba  nl.tmp
+- c7fd1d9a9cd1fd3351c43763d262ba441d725ad6e34f6a842edb8ce77ac7a614  yH.tmp
+- de5b9a63d071b34ca0951e2c078687d9f8ac5626eec37792c94287608da177c0  E5.tmp
+- ea01f383b43070155d6ce02e6123e53f4aa29488b087f631c9ee4c8afa9da674  FZ.tmp
+- ffb08f27fe1710bc42fed4f350c79885d1a176111b9e4fdcc0b077cb2fe983a7  FZ.tmp
+
+LOCATIONS FOR LOADER DLL:
+
+- These DLL files were usually located in the same directory as the Word doc. In one case, the Word doc was in the Downloads folder, but the DLL appeared in C:\Users\[username]\Documents\ instead.
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+AT LEAST 1 URL GENERATED BY THE LOADER DLL FILES:
+
+- - 104.248.62[.]43 port 443 - ldrglobal[.]casa - GET /background.png
+
+EXAMPLE OF ICEDID EXE CREATED BY THE INSTALLER DLL FILES:
+
+- SHA256 hash: f7ba573893a9c59c66d4d54c8259ab6ac1e6e8b90c580f267a10bf333bcfd531
+- File size: 569,344 bytes
+- File location example: C:\Users\[username]\AppData\Local\Temp\~446334.exe
+- File description: Initial IcedID EXE created by DLL installer
+
+- SHA256 hash: 9ad02a119c0df3fb652557b2b5c3136a3fb7f80e78774f1bffd5237eb2d9a514
+- File size: 569,344 bytes
+- File location: :\Users\[username]\AppData\Local\jifa32\Ugikio32.exe
+- File description: IcedID EXE persistent on infected Windows host (same file as above with different hash)
+
+AT LEAST THREE C2 DOMAINS FOR ICEDID EXE:
+
+- 194.5.249[.]158 port 443 - slizilinno[.]top
+- 194.5.249[.]158 port 443 - portivitto[.]top
+- 194.5.249[.]158 port 443 - mramoritto[.]top 
