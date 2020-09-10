@@ -1,0 +1,124 @@
+2020-08-03 (MONDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+23 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- b6a5fb7c0ff9ef73e53ae8e22df57d3c136be6cd17f1062f158bc05296777b2b  bid 08.03.2020.doc
+- fda796f3d7e32e60c711c4350486cb74a21dae5815bd7f0b56db2d7e9a240c0c  certificate-08.03.2020.doc
+- dd9c376d598e87de0809158dc18854591e0f88befbdb583f5f8031b8c2f1feec  commerce _08.20.doc
+- fd8ecc68d84faa9dd5fc1b190bf13750d9b8753b4a1f593140ca9127f25b8164  deed contract,08.20.doc
+- fbb4622c7f7b1f3b7be0ad5385a4975f258c887bb5cb39ca7f19d27d38a166e9  deed contract_08.20.doc
+- d549aeb5c86a72009026c452e1d9d376d931b677c3deeceb8db2ae8f4684c8a3  dictate-08.20.doc
+- 0a70f1f508242a1d3ff1b8cfc8fadbff381f9ebe64a9885a9412648e005d27ab  direct_08.20.doc
+- 6cf25abc8a176d8131e25d89a20d33ddedd14c4ff4bbcd8939424aaf27723ae2  file.08.20.doc
+- 3fe953127ffc340436c182215fe39537f8af9d4c76191aa21973c2560c614dfc  files 08.03.2020.doc
+- afe83c6513ef3cd5b9bc89e34d3db1ab3d6611eb1b18b3ca0b1ebca2c4faf965  files-08.03.2020.doc
+- 8e0f07c24d2e8ff5c24b41ed82970812e4c312a4cd36637400636a0155f6fe9b  input 08.20.doc
+- cb4f51fc8dd3035acf96bf2bc73b69e9c2017d1f39a9e8547501842470f48caf  inquiry-08.20.doc
+- 5e7f60c14fb2cf9f4149eebe0939df238daf5fb791ea16b0cfc5a9ada77c0aed  instrument indenture,08.20.doc
+- 9d3b2f4fc717278817a9723764792e649245896755842442fad25326821efaef  instrument indenture_08.03.2020.doc
+- 658382d55f23c9f2e86a66e20f57b99461a29aa3e1e413cd385979edde600230  intelligence.08.20.doc
+- 8406c296cd3772c7792abfbf16a5f8c03307039982798274d6838e904dcb54b5  legal paper,08.20.doc
+- eb3e5565d62609ee42fd0e4c5f1095343f1b0157ca931b042a890423d91320ac  legal paper.08.20.doc
+- 0d78a0a42d7dbbf93e7661b269319c0a70894e1cf0584f67f9ae752824919384  legislate 08.03.20.doc
+- 265e12857f3da4f65ebbcd5319bb35026ed64ee8b0fa5bd9fed7e5c3e86791b3  official paper.08.20.doc
+- 3edf8f6d4bdfd9e51639b82da6bc70fc28ae812e44eb154437e3e2d1deb25de9  particulars 08.03.2020.doc
+- d4017450d412f205069efe560b396d66eadbf479de1617f8f381b2a5d5dcb06f  require-08.03.2020.doc
+- d132edb3920e859a608afa764a59e34dbea102ae315dd175684d1fc03b743a0b  tell 08.20.doc
+- 80d4eed1042b49f46ace998a770bcdcc7eb8054c1d9b422c82e3c9feb767d6b0  tell-08.20.doc
+
+AT LEAST 12 DOMAINS HOSTING THE LOADER DLL:
+
+- c9554sq[.]com - 188.127.224[.]174
+- cecee61[.]com - 188.127.224[.]119
+- g7ah9a[.]com - 185.183.98[.]215
+- k5didw[.]com - 185.183.98[.]215
+- n4c3wr[.]com - 77.87.212[.]199
+- niqyd4[.]com - 45.12.4[.]183
+- qoab76[.]com - 77.87.213[.]37
+- u1edcdn[.]com - 45.12.4[.]183
+- vkiz1mv[.]com - 77.87.213[.]48
+- xhs9a81[.]com - 93.189.41[.]201
+- yf8p0p[.]com - 82.146.49[.]22
+- zifudk8[.]com - 185.127.27[.]19
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /cudo/tomys.php?l=rubi1.cab
+- GET /cudo/tomys.php?l=rubi2.cab
+- GET /cudo/tomys.php?l=rubi3.cab
+- GET /cudo/tomys.php?l=rubi4.cab
+- GET /cudo/tomys.php?l=rubi5.cab
+- GET /cudo/tomys.php?l=rubi6.cab
+- GET /cudo/tomys.php?l=rubi7.cab
+- GET /cudo/tomys.php?l=rubi8.cab
+- GET /cudo/tomys.php?l=rubi9.cab
+- GET /cudo/tomys.php?l=rubi10.cab
+- GET /cudo/tomys.php?l=rubi11.cab
+- GET /cudo/tomys.php?l=rubi12.cab
+- GET /cudo/tomys.php?l=rubi13.cab
+- GET /cudo/tomys.php?l=rubi14.cab
+- GET /cudo/tomys.php?l=rubi15.cab
+- GET /cudo/tomys.php?l=rubi16.cab
+- GET /cudo/tomys.php?l=rubi17.cab
+- GET /cudo/tomys.php?l=rubi18.cab
+
+28 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 0148ff9449d6cea780e64caa929d582ad79ac3ffb12f7a3662c27dfe3aba97e8
+- 0399964624b10341b08abc004680acf55f4310893864a6dfb16308968a2179b8
+- 05c853282fe91e90ca3ec6b146e64d201cdafa25846f93afdbd224331e4e8a97
+- 09be0258507d1beb2cafc6f587ef3f92cea8ceab84bbd9189e49b143d9739f25
+- 2e9293f6f7216621f3b5b19e6908c7efb765324317dd3aaeed7e46fc9cdc838d
+- 34507b0e52fcb69c2e3c8abb2e40728507998323fc6aa4a36041097aa4668ca0
+- 3607cfaeb6d4980bd633f62610910d1b1b8f7e946e04001631c30580c097c957
+- 44c70b4e0d89f92aa169e747b5aba208528052ffb5d0e86f3c41c386fe32681d
+- 5864c2c9cd232d5c6583626ecbb1e8d9328c3854842d4be8ab5582b191284174
+- 679d52a88dd9f0816b702798aae6611d5d2d9f9be502210d7a463f239873ecfe
+- 6f1f598ee4f1fbe58a9c0c22639c7488d9ee4e94984fb767d36511519297207b
+- 76f6d5d6ada3266650f1d21b01a46f8298ecfbe8c9421619688cb8d96910b345
+- 88275c5206ae42c147985817b12664e2c063932e2bdf0cc5cd46eb67d340d500
+- 8b0563bfe6634fef6f89508a03ec9a74ab6c5d57bc98c529604822df7288a229
+- 8c946e6dcd88ef31ed658684ddc1722a50efb31c70867db061a1111463957378
+- 9190dfe16b28d7c2622a736ba50587f1de3493f22012417738655733df8f9a99
+- 9d51411e6cce71f721d4d4a61fd2c3f3b739d67d3b8153c7f293f0b5026737e1
+- ad9337eff694a3f41f9dceaeb625302e049c506335062fc7f95f262452b95f90
+- bfb3d4089c6b04677ac916177eeaa9f81d8a439cf4d77c51bbdbffc0a253956a
+- c6e8368971bb0fa073a40246aca5b6b7d623be48b858d84feb8c789f3892ea6d
+- cc86a133e18c7a741274112b99f0a753f82e21e0bb4041fb3ddd9e36ce9f7d7c
+- d2048cfc57e688b09630b40aeea460ed285d4006f0fe842416210267458b046b
+- d40b3c50994499c727586fd9e4b39c91cd78f969a564e059002dcb81cd1f2667
+- dbcc290636ddbb5d42e80e3fe162a8ede0d367cede2fe60da9df6a23d97f7c7a
+- e1d10569a60ac5e63ad89452f5e0e6863709356db0f70a1b5634c23f09c1cecf
+- e228bee1a1deb426981741be5b2b0831940d2a0eab1481cf8eeebfa90916eebd
+- efcf43c8d78b9cdbf5c25e589a328dde69e25b2cda2ca80e4d6f6cc4eaf76268
+- f4ea1a9cbbc80837d191d9a48e7fca6dd404d5d9f1942bbcffc922a52f3b01e1
+
+LOCATIONS FOR LOADER DLL:
+
+- C:\ProgramData\1.tmp
+- C:\Users\[username]\AppData\Local\Temp\main.theme
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+AT LEAST 2 DIFFERENT URLS GENERATED BY THE DIFFERENT LOADER DLL FILES:
+
+- 134.209.191[.]228 port 443 - loadagent[.]casa - GET /background.png
+- 194.5.249[.]199 port 443 - ldrflippo[.]co - GET /background.png
+
+EXAMPLE OF ICEDID EXE CREATED BY THE INSTALLER DLL FILES:
+
+- SHA256 hash: 401fbdf7d6de91a1af01dac926b757f683274132c2a24cb34d7d98196c729332
+- File size: 328,704 bytes
+- File location example: C:\Users\[username]\AppData\Local\Temp\~906093.exe
+- File description: Initial IcedID EXE created by DLL installer
+
+C2 DOMAINS FOR ICEDID EXE:
+
+- 161.35.207[.]41 port 443 - littlehomies[.]cyou
+- 161.35.207[.]41 port 443 - twoloftscats[.]cyou
