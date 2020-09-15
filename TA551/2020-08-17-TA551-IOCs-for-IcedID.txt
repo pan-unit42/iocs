@@ -1,0 +1,104 @@
+2020-08-17 (MONDAY) - TA551 (SHATHAK) WORD DOCUMENTS WITH MACROS PUSHING ICEDID MALWARE:
+
+CHAIN OF EVENTS:
+
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+
+12 EXAMPLES OF SHA256 HASHES FOR WORD DOCS WITH MACROS FOR ICEDID:
+
+- ab939596948fea35572dd8da920c0364ef8aecd37d7216907dcbeb59d42cef74  bid-08.20.doc
+- 31603718e051d569641e9699004f8282d3281619b8443951dec74a63e1a14488  certificate-08.20.doc
+- 04a906f8956e273b9a9e197a509795e282ab81dc52adf88f8239aba6ab75e0ba  charge.08.17.2020.doc
+- 0678fa08f9456d3892a7b771927ac93d08f55c884a539693328190a933b5f7ab  details 08.20.doc
+- f5fe3a1f3f1e7cfe7c66a63a19eba996575a9235835185ab720df14564b95c16  docs.08.20.doc
+- d37078952a13ecd8ebb1c7f11cef969f1b1f7ed64ef90787c4439371779d8c4f  documents-08.20.doc
+- b67ce8de28584d3b10a0aa01a4fa3235c4fce89a8d9e39848e7e0c43e2c58212  enjoin.08.17.20.doc
+- 4c5cfd802d59799af86df0e8fc6b7bc1fc1ea5555bf44879125c8541733e6b86  input 08.17.2020.doc
+- f1deced0518ce8ee4b605ae5059fa266dc0aec51ac95ebf4384e880dfc0d3f88  instrument indenture-08.20.doc
+- 8278dd38fcdc3282fd1d71d51179b70fa3ea83e174544cfb2e4ad52146a10c30  instrument indenture.08.20.doc
+- 6d99e3416c4997109d61988308b24565f6627ecd9f0700f4a29a9b41b55ba7d1  legal agreement,08.20.doc
+- 0932e6e3f36d8c070b72bb143a39ec724b6224581acabf879912911344c6a3dd  specifics.08.20.doc
+
+DOMAINS HOSTING INSTALLER DLL:
+
+- a136h2u[.]com - 193.187.174[.]211
+- a5he9s[.]com - 185.62.103[.]100
+- b97pm6[.]com - 185.82.202[.]68
+- g7hu923[.]com - 45.12.4[.]12
+- hsrykxc[.]com - 45.10.89[.]190
+- lbov709[.]com - 91.210.169[.]95
+- m5cqjhp[.]com - 185.102.136[.]96
+- u30x3ch[.]com - 37.46.131[.]99
+- z70g6n[.]com - 95.213.139[.]71
+- zncx4ha[.]com - 188.120.225[.]90
+
+URLS FOR INSTALLER DLL:
+
+- GET /cugul/lisi.php?l=vese1.cab
+- GET /cugul/lisi.php?l=vese2.cab
+- GET /cugul/lisi.php?l=vese3.cab
+- GET /cugul/lisi.php?l=vese4.cab
+- GET /cugul/lisi.php?l=vese5.cab
+- GET /cugul/lisi.php?l=vese6.cab
+- GET /cugul/lisi.php?l=vese7.cab
+- GET /cugul/lisi.php?l=vese8.cab
+- GET /cugul/lisi.php?l=vese9.cab
+- GET /cugul/lisi.php?l=vese10.cab
+- GET /cugul/lisi.php?l=vese11.cab
+- GET /cugul/lisi.php?l=vese12.cab
+- GET /cugul/lisi.php?l=vese13.cab
+- GET /cugul/lisi.php?l=vese14.cab
+- GET /cugul/lisi.php?l=vese15.cab
+- GET /cugul/lisi.php?l=vese16.cab
+- GET /cugul/lisi.php?l=vese17.cab
+- GET /cugul/lisi.php?l=vese18.cab
+
+12 EXAMPLES OF INSTALLER DLL FILES FOR ICEDID:
+
+- 0b41a454c1d34aa97596c93b0edf85dd8a8eca3dfff9d326950e7d0723cb1608
+- 27a5b15d9746ae517f7aa494deea50b0d6c7b3cb28e793ff1fff1c0286966443
+- 4441869631f184e292844790ca4d365cb4e81cfe36b2933b452fedc80a71a1bd
+- 4c6373e0c79655f2129ddb264d7540ccd7c1cd3e1a021821fade9644effb5ef0
+- 5251393cd54a8a1b7e73a61c60c861187fbbd6d708025bcb99bbe7103fd303d4
+- 5dd46ffb36515bb87100f21b3da62c74a3734782af7dc32f83d51b73d5cdcc51
+- 7cad2aa784582ca07ebbe5167c04c6ff3e65e5696607021fa5136d8888d5365c
+- 97fb0f05128aa1ebff695dfee7ac228ee21a3d53a8a4e26bd4f6d58a0991c310
+- a45f209badc9cd8d0c7164a3a3593771f14fb52eadfd62a1a0b31a92c31af526
+- a7b8e6e02cc803c0d5f9d721855c5162009ed61214994be864104ae11f4281be
+- e131978d83f5387d82720ffaa4596e7c0754b8931fd90db14f60dd5d10901798
+- fa5b017f29571ed8c732843361bca86035be5d6c3a62ac212478ed098dad2bdc
+
+LOCATION OF THE INSTALLER DLL FILES:
+
+- C:\[same directory as Word document]\main.jpg
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+
+RUN METHOD FOR INSTALLER DLL:
+
+- regsvr32.exe [filename]
+
+AT LEAST 2 DOMAINS FOR THE PNG USED TO CREATE THE ICEDID EXE:
+
+- 104.131.33[.]128 port 443 - loadrome[.]directory
+- 128.199.4[.]229 port 443 - loadofficer[.]casa
+
+SHA256 HASH OF ICEDID EXE CREATED USING ENCODED DATA FROM PNG AT LOADOFFICER[.]CASA:
+
+- e3be616e258172d4596cd61cbb6ec39b6e7aa0cf8138793783e21a4b6ab4c038
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY ICEDID EXE:
+
+- 165.227.41[.]66 port 443 - mahindranew[.]co
+- 165.227.41[.]66 port 443 - hwakiraklir[.]top
+- 165.227.41[.]66 port 443 - ghererrafleur[.]co
+- 165.227.41[.]66 port 443 - helindraold[.]co
+- 165.227.41[.]66 port 443 - staerfraer[.]co
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY ICEDID LOADER AND EXE:
+
+- port 443 - support.apple.com
+- port 443 - support.microsoft.com
+- port 443 - help.twitter.com
+- port 443 - www.intel.com
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com

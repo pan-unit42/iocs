@@ -1,0 +1,113 @@
+2020-07-15 (WEDNESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+28 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- 0548735aa27305bb9eaebebc4733636fd618a30f0ffbe5bf96e604bbaff2c690  commerce ,07.20.doc
+- 0b54e812706f8193ab4cb8cac6108089a425ee8611c5f54ec11ab26f5dcc80a0  statistics.07.20.doc
+- 24d8d7ca5bff15f41dce67743aa149ae281fb16a4db37597e6f5a010cfffae8f  material-07.20.doc
+- 2638b58e41a4c7bb765268d166a444604dd9114dbeec9620dde61c253bedf540  question 07.20.doc
+- 399355035df9573d0eb323331f0de7528e40745fa1a1f135e23cfe41c089c821  require_07.15.2020.doc
+- 43d8cf74e96b0bc5baf63c28cb371e5fd3e850eebc43c151fe1ebd890abc845d  document 07.20.doc
+- 455b4f5863cd83b4b8a24b9d1a2c5149f4063cf1da508e5c1e87f346dce77cf8  statistics_07.15.20.doc
+- 5f38dbdecda29af0cd46f2d3f0143686acba2e06e09f63583013d0de0fdeebde  command,07.20.doc
+- 61649936034989b7e6946309b97b08c35ed011710af8837423929f6ffd5fc966  instrument indenture 07.20.doc
+- 63bee746b7d894d319cafd5a66ba5ba8d603fb5addc2b33bd8e79587103d9fcc  document_07.20.doc
+- 773d37d8445cd2fc624285d0f4d410931cd4fa82e00b98176271b9d4b232b87b  bid.07.20.doc
+- 773d37d8445cd2fc624285d0f4d410931cd4fa82e00b98176271b9d4b232b87b  intelligence_07.20.doc
+- 83f7ac065a63f82824e294e70535988c8cd6e9a26ea72f2ebe6e7cf986395189  prescribe -07.15.2020.doc
+- 8faa351a2bcfe0be0ed146f253f2e3dfcbc74c423c297b949eba79f0bf38521e  legislate 07.20.doc
+- 944c58b2165b9cd5169ce0bdb16b5d5e53304c9a203132655a4dc0d0de275f93  file-07.15.20.doc
+- 94881157ad0567eba0288e3e2f2efa909b1435e1583d1ad5113a7ee5d75df411  adjure,07.15.2020.doc
+- 9f58c2f69268558d7b65db44bf7ae100750566857a65f7667e5479ad49b29b88  file.07.15.2020.doc
+- acd559e8448208972b8bd4d2e9d1335affedcc6c1ee949a949713be9e2562b13  instruct_07.15.2020.doc
+- aee49cdbdf37fab97bca6fd5ad671359bfd52a3e418f64a9fbe0599fb3aa92cd  tell,07.15.2020.doc
+- b6ebe519d3bdb49007313f7754932a0e5bd9c54c9c5d1f005e524376ac7b43fc  order-07.20.doc
+- b8f30ca9b962d45509fd21e3e30278166258f0363a232c54cefbc5fc1079d20b  inquiry 07.20.doc
+- d01e351634cc2806d9b56f3b2898d6c3a2dd4f5a0988b8839b7dea324ec8915e  official paper 07.15.2020.doc
+- e3b6fe72f819bca052772ca484a38f06475c07f6545be420dc5f3754d1684369  intelligence.07.15.2020.doc
+- e8f286d72e1f646a1cc24bb76b9e1b16fc4176235a853993a50cc9650ce304d0  direct 07.15.2020.doc
+- ea4275c23d1f52323d75cb595283c655dc9722f8adbb839ad6255f22e5269e75  documents,07.20.doc
+- ec10c14179e57598a88f37a722e85f8a0f2a0f1032f699be63f6fc95afb94d89  commerce .07.15.2020.doc
+- ed9bd7418cd023de453630f9beced66ed0bab5c4b4c2ad0a3c0b240ef677ce02  details 07.20.doc
+- f1fe3a443fea2d5d9995871a649c72543a5ad8820d120e418baeb1ff6c75b122  require.07.20.doc 
+
+AT LEAST 7 DOMAINS HOSTING THE LOADER DLL:
+
+- 3ogrrst[.]com - 93.189.41[.]77
+- 7ty3r5x[.]com - 45.12.4[.]188
+- bne0g5e[.]com - 185.118.167[.]51
+- dc57p88[.]com - 92.63.97[.]211
+- g0x5byv[.]com - 185.174.172[.]165
+- kxwh2gp[.]com - 93.189.42[.]236
+- l4fnses[.]com - 45.12.4[.]188
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /hboneb/sol95.php?l=puom1.cab
+- GET /hboneb/sol95.php?l=puom2.cab
+- GET /hboneb/sol95.php?l=puom3.cab
+- GET /hboneb/sol95.php?l=puom4.cab
+- GET /hboneb/sol95.php?l=puom5.cab
+- GET /hboneb/sol95.php?l=puom6.cab
+- GET /hboneb/sol95.php?l=puom7.cab
+- GET /hboneb/sol95.php?l=puom8.cab
+- GET /hboneb/sol95.php?l=puom9.cab
+- GET /hboneb/sol95.php?l=puom10.cab
+- GET /hboneb/sol95.php?l=puom11.cab
+- GET /hboneb/sol95.php?l=puom12.cab 
+
+25 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 0a4e55e0a4c0923cd7ee8c40c1d2dcdfe07ca0a6af0c1b9478acc200211850e0
+- 1ac978743f3c738fbe213cdb8bef8dba090a773ee91d02023ccd3055255d5189
+- 22da48b3e61772b9fca68a5dd8130de9baafd5ac5b8cd4f3fb0dd93f158dd3bb
+- 294f878ab215f5a0284f7deb43236437dcc5a5daf7c13c1db187d1b4958d8e71
+- 35eeb9e5f71884ff8875f24447d8b7fea2226894cd6c678ac2c1f147eb357259
+- 3b0d7357c12a63507becbe5e8a715adf959a35d430f93602258ce6bf0d59c7e5
+- 3e38f4d77d95d416355902a0402ea29ebad3a2c751927ea36b093ba207139994
+- 41133ba77b17e44bfcb66532c3128b665e488221df3ed6dd002fc71f830473e1
+- 4a88af00bab63fa4471a016b03ab3eb8d58b45404632f338e23199ea7cd96129
+- 4d598f04f28c7977927b4addce64b4f8c9249ee412aa037093904b69e7a5e158
+- 5b8602784584f640e4696e7616c146564b16baa97355eaad33bbb996d3566659
+- 64cfb4f00a7231b0f1637a4b3587137823072bfccf3fdac71e47f9e4e0702956
+- 981ed91197415ca156a0156fc4cafa6fdfa57c8f938559082ecd67748c29520a
+- 997b1a6d4d95a139f1b5f223d315d82e1698219c442cf8d7042d33b4e90b1659
+- 99a022b26cb682a2655f17164315947927407fdd3f2846d810efc1d49bb18e38
+- a4ef74879f390d02355d8ec2bdc05c17025489f316e6b1d8bfc716df82328ff4
+- b45990c0919508be5baf7796951f74e3060bca8931b51611d6d5bf5d1428b6d8
+- b69db5233dc53539cf6239d7a79dec78746392bfb0e71286754c5d44fc432569
+- db1542f02c4f6626ef6fc536f61d3228900d16d8c1ba7c6fd111efea90e42e5d
+- dba22b14f7d14fc7658c549fc12db6be4a5ca09ece9a5a9340fcc3aeb274be1d
+- dd6ba6ab67a73b9234cbe66ba9308bc00bd4a8edafae56075622997b561c26a0
+- ecff96aabe84d7be30a0a68fcfb9242718a44e932f473110229813b6ac6fe318
+- f056b276ce3dc23899f7575f2688af273de3bf86fde8d4c5a05af0a1a7f16c02
+- fa632164e89644a21e624f50581256ab2830f22250f2919785f2f60fa9f755c3
+- fb0a1c0af50bd188f84d65ca5f01326f35bb1684ddc71c81e41a076d96d7a8b5
+
+LOCATIONS FOR LOADER DLL:
+
+- C:\ProgramData\11174.jpg
+- C:\ProgramData\22917.jpg
+- C:\ProgramData\28516.jpg
+- C:\ProgramData\49631.jpg
+- C:\ProgramData\54358.jpg
+- C:\ProgramData\60713.jpg
+- C:\Users\[username]\Documents\BX.tmp
+- C:\Users\[username]\Downloads\MR.tmp
+- C:\Users\[username]\Desktop\Pa.tmp
+- C:\Users\[username]\Documents\iM.tmp
+- C:\Users\[username]\Downloads\tE.tmp
+- C:\Users\[username]\Desktop\vH.tmp
+- C:\Users\[username]\Documents\y0.tmp
+
+DLL RUN METHOD:
+
+- regsvr32.exe -s [filename]
+
+AT 1 URL GENERATED BY THE LOADER DLL FILES:
+
+- 161.35.145.[.]71 port 443 - ldrglobal[.]casa - GET /background.png

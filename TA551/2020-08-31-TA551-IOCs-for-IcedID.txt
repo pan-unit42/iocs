@@ -1,0 +1,105 @@
+2020-08-31 (MONDAY) - TA551 (SHATHAK) WORD DOCUMENTS WITH MACROS PUSHING ICEDID MALWARE:
+ 
+CHAIN OF EVENTS:
+ 
+malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+
+NOTES:
+
+- All of these Word doc macros retrieve the installer DLL by dropping a copy of MSHTA.EXE at C:\Users\Public\in.com and use it to run JavaScript dropped as C:\Users\Public\in.html
+ 
+26 EXAMPLES OF SHA256 HASHES FOR WORD DOCS WITH MACROS FOR ICEDID:
+
+- 047fcce9377d7780eff913793d0bc38cccf1f6a6ac0c8055b51fcc3e87f29232  bid,08.31.2020.doc
+- 4448d95b7410c5bd24f78f644a4bd1e7ca5e776adae200e2acfd67da3af58e67  charge 08.31.2020.doc
+- f34b8ed3dcac5eeb597b634e12f318f9d0303f668bb86af143debfa74cae8b9f  command.08.20.doc
+- 6042c3e708ac2e37dca93ce95693832f14c1b44a3f291f0fbe1b509eafaa2339  command_08.20.doc
+- c3b75a175915cdec1fb768e48463eec3f62ac275406c67534e0fe8261884f3fc  commerce .08.20.doc
+- c13c6d3b73b4015179ca3fd1c3fabdadb587214c25e055bc8252e6c66322490a  deed contract.08.20.doc
+- c0fa0448d1a4dc6bcaed23454372c7e4fa7f97efa9a2bed369fa659887e48cb5  details 08.31.2020.doc
+- 9af7fc78dfe644ddf3dfa92a821d1b6306517e5cdaebe7ab0f32df36fad869ad  dictate 08.20.doc
+- c42dfb40bb144bc7a9b9e0918999c105da7bac87e55e3d82f0aa55c7ed131220  dictate_08.31.2020.doc
+- d0c5c4406265904f586637fb5cbe10451e9a419e23d53b28afb21b98540a3eab  direct-08.20.doc
+- a1d249dc2535761190c3b6d9943e72b4d96c21acb947dac649173721bd639dd1  documents 08.31.2020.doc
+- 6bbcf174f4a341ec7f2e678c36a4d46c58cf31e6f9db0e7066bc6fb9a1d45cf1  documents_08.20.doc
+- 1b2fc33a17e27c76c4268e196fe6b517bbf1710fd1d21fe8faca4278eb2fb235  instrument indenture 08.31.2020.doc
+- b6edbe7e56db7af5ca81fefc9d453a1121c23351ff3a6f1b05b7f049512b2d21  instrument indenture_08.20.doc
+- a69528eca7e4e57067e8ff47cba54187a815bd8ea07c8d395efb4a43b1dbc707  intelligence-08.31.20.doc
+- 19c28e466acc908722898612ec7e52702fad1a6683c0c3f5082d2f0b3d6017bf  intelligence.08.20.doc
+- cddc1194e4d802cfa0494d2db3669d40b475df74b667a237141f867bb110fd4a  legislate,08.20.doc
+- 56d3ec5cd50562c62ff6d0f42860b3b53514696567be33e974d2f36592c57fdc  official paper-08.31.20.doc
+- 5955835cc919ee6920bf152bd54541734da5e19b82a91388fc78e5b5691f33e5  ordain-08.20.doc
+- d0ca21373e4c751461673d02740b16cac3396d846c5f34912d8143b4c7361d95  ordain-08.31.2020.doc
+- 204697d6e6f91c650f703d226bcfabfe56a419e7aa5dd66a57115ca58652da09  order,08.31.20.doc
+- 7bd016b3e22efd5458d4022215abfa9fc384a262e8dcf07b5def77e7a88e3ebe  particulars.08.20.doc
+- f6f717c31306298efc3e7686751ef4afd2bfaf4de6938a99a5a4debe3730ea50  prescribe  08.20.doc
+- 0ff5dade21b313801f938aaaeaa82682674a6a4d5da2df61074dc48c164b3cba  question,08.31.2020.doc
+- b8e7a6d46a9e7722ba3a59f24a2b9bf11de4e29ab7c5ed6cd9b30bc383c732c8  question.08.20.doc
+- fbc1c825d6ec742d58b2f18c3a281610b7dbf7ddf315ed2613ee4bc061d27d8b  report.08.20.doc
+- 74ea36b38e31aecf1f96c79e1bbe6e74110f938b73c32c4d1cd7fc600cabbdcb  require-08.31.2020.doc
+- 289b4af2345c661de233e2d791bb5db615222c421de793d1abd325c70d72a896  rule 08.20.doc
+- 1452c1feef546aae9626423005eb23dbc0332a3ab0e9e1d2ca2658c9e657c4ce  rule,08.31.2020.doc
+- 58874760bc8143678ede198d66bb8cb3424a2127d884bd2fd8b21545a4dc6259  rule-08.20.doc
+- 0b4f6ab528869419e9c48794631803a26ee3e6a0a07024b9fbbe35e16fcd92c1  specifics-08.31.2020.doc
+- dedf967996ac48b5f55317cd6ffb4ed7516c7de35c17f88660863e7d9dd0babd  specifics_08.20.doc
+- 0515a1e6110c37db7e446a314aa179a9734aa1e59c795581e041a4126a7e9b34  specifics_08.31.2020.doc
+- ed4074f2a4b2857e6771a4e4cb660585701ad3c908ec8012049d01d486b9961d  statistics.08.20.doc
+
+AT LEAST 8 DOMAINS HOSTING THE INSTALLER DLL:
+
+- cu021fa[.]com - 185.146.156[.]86
+- d5z7xg[.]com - 188.120.249[.]21
+- ewo5xuk[.]com - 80.85.159[.]37
+- qzxrqi[.]com - 78.40.219[.]190
+- wu4i4g[.]com - 45.10.110[.]21
+- x0hohx6[.]com - 78.40.219[.]55
+- xpe1qhe[.]com - 95.181.198[.]24
+- zloojq[.].com - 95.181.198[.]245
+
+GET REQUESTS FOR THE INSTALLER DLL:
+
+- GET /sapad/huwu.php?l=molef1.cab
+- GET /sapad/huwu.php?l=molef2.cab
+- GET /sapad/huwu.php?l=molef3.cab
+- GET /sapad/huwu.php?l=molef4.cab
+- GET /sapad/huwu.php?l=molef5.cab
+- GET /sapad/huwu.php?l=molef6.cab
+- GET /sapad/huwu.php?l=molef7.cab
+- GET /sapad/huwu.php?l=molef8.cab
+- GET /sapad/huwu.php?l=molef9.cab
+- GET /sapad/huwu.php?l=molef10.cab
+- GET /sapad/huwu.php?l=molef11.cab
+- GET /sapad/huwu.php?l=molef12.cab
+- GET /sapad/huwu.php?l=molef13.cab
+- GET /sapad/huwu.php?l=molef14.cab
+- GET /sapad/huwu.php?l=molef15.cab
+
+5 EXAMPLES OF SHA256 HASHES FOR DLL FILES USED TO INSTALL ICEDID:
+
+- 9ff314b4cf17db144d47154617c96f0509163eae14ae92257e8a045264999ccf
+- ad18292e83c48befdb0028bd98c7219a3a98a9234605f539ac4b210c018af602
+- b8c4f43a1d2d328df6488366afbc1c041117497f8292bf3e2294e9a2cf14de5c
+- cc9bd528ec155b528e0b4f586ea35585979f939f4af4cc00c61083d81695fad2
+- e8f8589053055028424e5dacd3d31ba3de50f7b3c04c1ee87cb91951120a5817
+
+LOCATION OF INSTALLER DLL FILES SAVED TO THE VICTIM HOST:
+ 
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+ 
+RUN METHOD FOR INSTALLER DLL:
+ 
+- regsvr32.exe [filename]
+ 
+AT LEAST 2 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLL FILES:
+
+- 64.227.95[.]68 port 443 - customrecustom[.]top - GET /background.png
+- 64.227.95[.]68 port 443 - piggyniga[.]pw - GET /background.png
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - www.intel.com
+- port 443 - help.twitter.com
+- port 443 - support.microsoft.com

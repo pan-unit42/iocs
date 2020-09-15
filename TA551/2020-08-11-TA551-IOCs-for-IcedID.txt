@@ -1,0 +1,66 @@
+2020-08-11 (TUESDAY) - TA551 (SHATHAK) WORD DOCS PUSHING ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+14 EXAMPLES OF WORD DOCS:
+
+- 5b8ed16b5c32b53b11be86403a98ae7bf300b350da33b2ff4e5062d2860cfa15  charge_08.20.doc
+- 9e5e21604334de0fc6608d7febc013281b0142c3bb13ec228d473d3458fce5c9  charge_08.20.doc
+- 1cdaa6afe2b6edb0325f2177e6e184c7d03a9087b19da3e373817a4a0328be96  details,08.20.doc
+- 3b505a6ae92c207ce08bf030f205bd8613bb84b8248269098b6240b611b87d60  details-08.20.doc
+- 855b124cb3f6f7631840553a3fffea1ffeb9b606f788d4803d3f9ffe0953fe65  dictate.08.11.2020.doc
+- ff15dff9678b6d3f57d8b6f28da518ddd7adb3804af512b0904ecb8bd152bc31  docs.08.11.2020.doc
+- 7ded51aeea7b5b1b164bff1a02c67d8414cbbdc29b40f92643bfcc4e8c6d1f78  documents,08.11.2020.doc
+- 58a8f5436613dec3de04f40e95ecc48a98c0e3c7c77cab554c5c854621a8ac45  file_08.11.2020.doc
+- 23fa2852c0e7e46cde4abb5770d588561351dfcdbc71ac3c0200f7f79d4bd585  input 08.11.2020.doc
+- ceec1acac2ecf7d368bc9379a8483c902162aa8aee523d551362cfc12e7c0a05  instruct.08.20.doc
+- cf6358c9eb962bce0debd951caa00d024d8cbc92d90c48d931f746c77b171433  order.08.11.2020.doc
+- 2fa6725cc773ccebbe9e9dc89d8c1a23ef6029fadbb9a291e4d1541ed61cb707  particulars_08.11.2020.doc
+- 8b7d09899cfcb20972838c7f7dcbe5651060ec8fb316682c72fa3c8a1f84797a  specifics 08.20.doc
+- 4f0c72d209feea375ea7153064fddb3173b68436779a093f48fd60a33cc4022f  specifics_08.11.2020.doc
+
+AT LEAST 7 DOMAINS HOSTING LOADER DLL FILES:
+
+- dad4e13[.]com - 91.107.126[.]245
+- iknod8[.]com - 194.31.236[.]250, 185.255.133[.]5
+- k2tvs59[.]com - 178.57.217[.]39
+- lem1vx[.]com - 62.109.22[.]203 
+- mfar1o[.]com - 78.40.217[.]152
+- vsqs5m[.]com - 80.87.192[.]67
+- yoi1p6r[.]com - 95.181.179[.]227
+
+URLS FOR LOADER DLL FILES:
+
+- GET /bumu/zenes.php?l=city1.cab
+- GET /bumu/zenes.php?l=city2.cab
+- GET /bumu/zenes.php?l=city3.cab
+- GET /bumu/zenes.php?l=city4.cab
+- GET /bumu/zenes.php?l=city5.cab
+- GET /bumu/zenes.php?l=city6.cab
+- GET /bumu/zenes.php?l=city7.cab
+- GET /bumu/zenes.php?l=city8.cab
+- GET /bumu/zenes.php?l=city9.cab
+- GET /bumu/zenes.php?l=city10.cab
+- GET /bumu/zenes.php?l=city11.cab
+- GET /bumu/zenes.php?l=city12.cab
+
+16 EXAMPLES OF SHA256 HASHES FOR THE LOADER DLL FILES FOR ICEDID:
+
+- 0c847146dbf01afa3c91ee1edc0d0115f88c187f741189fb45c54c7df6432ead
+- 33d4b93f27fa6d5f68443a35b0640269b3f6a1cfd8e0015361e462bc369b0133
+- 3517067834c67dfe59fc941b96ef30a24c946cf9d03e0ba3ef641a5031674b54
+- 4bb204a752ee73fefdf46ac94f93031fb67e8d25e1b7b6160550ed55bf0cdec8
+- 54a1ff16fd63ead406eec7b18303d4998ff43c078dc8c4257d6ba593a3e3b24d
+- 611a159dab9ea0c0c470015c31490e77c3b3be94447fa1b227ac148228cf17e3
+- 65b15324213d78f631c008da88303e6f49acaa5f995ffe20155a826a37883f99
+- 65c58463eaf930808c036d35954159c0631961dfcc3abaac19b5ca9d6aabf2b3
+- 8e58233566c9227207f1045843d90703dda7c509a2d4b39212916a84930a2e63
+- 9a25a087142a27b94b10f71bbd87bccaae81535b28563c0ceb3a2ac17814373e
+- bf5db08feb923a86fcb43f5facab00d9f9e9b77301bd7b42959a453ecd5777e0
+- c08e4f1b081a4c270c9e71877232f983a47f148f214df1cb9ff5ef529ad0b848
+- cae030f43d77e7bdad04d3e6d85f3dafc28b9a33186de46ad93074317a8c2bae
+- e4cd1a415a00bc216e6e322c38bd3a14e42c7b96276edb093df5d558e3802088
+- fe6c0de1471535fb2fabb167f7dd8eceb587ee9fb1a873afea30453719c2b80f
+- fea6c70f47f30de75105042cc9356b59def243bc60e5effefbe8b5b69dc61b1b

@@ -1,0 +1,110 @@
+2020-08-10 (MONDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+14 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- 75ba57403bea388c829aff5d0b4a903abfab68db3b17263da86a18b4662ef1cb  adjure_08.010.2020.doc
+- c678f6e234acf0244245375281994f1954635cea2d6db10c62f5fdb3c4911a3d  bid.08.20.doc
+- c938e8bb560e99f727b38ef124a70fb20796304c2da14c250ae65640b9b6f5c8  bid.08.20.doc
+- 0a908e414824d2ce3bf961e3f2ae3ce09c726c654bf2de57edc25d0a4a362c51  command.08.010.2020.doc
+- 815a8fe229db90c20ca98c7b37a7516b2df3249166050a7307e2e48ccf7aeb38  deed contract_08.010.20.doc
+- 1522f0f84efc2b2ec4392617d0fc296e877d965c57d8b2c3d8921b23063971aa  file,08.20.doc
+- 6c6e6aa4e47b032246f79762c5a40abced2f23ebf2569182eed159d06493c89b  input.08.20.doc
+- 2e216eb1be5af4fde40fd9707b58151e03643119ec9629595b237bd03177370b  legal paper_08.010.2020.doc
+- da7635cad9e8994afa317b8386fa804b5ae47233836110d2fb710b3b6564e31e  material-08.20.doc
+- 495a677c450cca6eb68b29d7e9356292e1004471a1727547c2543b528d14e59f  official paper 08.20.doc
+- 6113e8a0b74b5f0338f77d6794442811bd2268f7955cc1ead0035c9eb6dbd503  rule 08.010.2020.doc
+- d94fc393716ac448617996c1d003175e9d4026cdf8f3da445a9b618148c72bc5  rule_08.010.2020.doc
+- 954eb95fe4e0850ab5c6de386722f44d90c4b9d9527aac75be2c1e6478302fc9  rule_08.20.doc
+- a31a51e3cb4d5a4294b2f5abef95f4a3b18271bb264be6b3ca4e2560a0bcfe50  tell_08.010.2020.doc
+
+AT LEAST 11 DOMAINS HOSTING THE LOADER DLL:
+
+- bz3p06l[.]com - 194.31.236[.]240
+- dtin0r[.]com - 82.146.34[.]177
+- i0avgy[.]com - 185.195.26[.]167
+- kgzz30[.]com - 193.107.237[.]47
+- kwmknxy[.]com - 95.181.179[.]206
+- malat0h[.]com - 185.119.59[.]110
+- q5pv4v[.]com - 95.181.179[.]140
+- rrn0xm7[.]com - 194.113.104[.]115
+- ts0ev73[.]com - 80.85.158[.]158
+- vq22znt[.]com - 93.189.42[.]134
+- wqu65x[.]com - 195.195.27[.]249
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /peja/lezow.php?l=ryzif1.cab
+- GET /peja/lezow.php?l=ryzif2.cab
+- GET /peja/lezow.php?l=ryzif3.cab
+- GET /peja/lezow.php?l=ryzif4.cab
+- GET /peja/lezow.php?l=ryzif5.cab
+- GET /peja/lezow.php?l=ryzif6.cab
+- GET /peja/lezow.php?l=ryzif7.cab
+- GET /peja/lezow.php?l=ryzif8.cab
+- GET /peja/lezow.php?l=ryzif9.cab
+- GET /peja/lezow.php?l=ryzif10.cab
+- GET /peja/lezow.php?l=ryzif11.cab
+- GET /peja/lezow.php?l=ryzif12.cab
+- GET /peja/lezow.php?l=ryzif13.cab
+- GET /peja/lezow.php?l=ryzif14.cab
+- GET /peja/lezow.php?l=ryzif15.cab
+- GET /peja/lezow.php?l=ryzif16.cab
+- GET /peja/lezow.php?l=ryzif17.cab
+- GET /peja/lezow.php?l=ryzif18.cab
+
+10 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 6574682ea4a359ed97cfe9b00a4a76c8c1fa9833a5c9525ea3bc8409bac93f3c
+- 65ac2c8856b80610076d254d69358ffafe56bc2303e39bf8e8eb05958974d81f
+- 7305353cdf7ec679f061ab67a564559c95bd41330ab873af32e509c04cc10b9b
+- 7ea1a202effd978ba1f87e351f8d181d503e839d3cc2ef36c08961738a38bdb5
+- bf487cf2fa2b5a5fbe2c69bc1093d57b86e89f623c253cb74dded2ad89cc6fb8
+- d211906acb73763b59025aefe321109bade1d8f9d315627eea1c2a32df19c3a7
+- e345b30c097d70ff6e34273072a991e7d725349f09668bd362a1edbac5792051
+- e872ed306dfbba3554c99c1ae4ebd026f8e2a07c1e0cc3a386651152c8b1b0c4
+- ecc9d224a17d90915911101403c8e043dfaebdb1f91b777ab7aaafff5473e7b7
+- fc0f577076773c7ba2100480209cff46ecbec0add4f9c8542fc382aefda88c72
+
+LOCATIONS FOR LOADER DLL:
+
+- C:\ProgramData\111.tmp
+- C:\ProgramData\preview.jpg
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+DOMAIN RETREIVED BY LOADER DLL FOR INITIAL PNG IMAGE TO CREATE ICEDID EXE:
+
+- soldkorean[.]top - 64.227.103[.]18
+
+ICEDID MALWARE:
+
+- SHA256 hash: 75195784a153205aad34eea77c000358081fd1e1c8abab6e532b2ae8e983c44b
+- File size: 640,000 bytes
+- File location example: C:\Users\[username]\AppData\Local\Temp\~1612329328.exe
+- File location example: C:\Users\[username]\AppData\Local\Temp\~455578.exe
+- File location example: C:\Users\[username]\AppData\Local\Temp\~662921.exe
+- File description: Initial IcedID EXE created by DLL installer
+
+- SHA256 hash: 341621050c83b242a1779e5a88f4c6389b7efc1406d5e5ba8e7828a0d74fbb86
+- File size: 640,000 bytes
+- File location: C:\Users\[username]\AppData\[username]\[username]\uthuak32.exe
+- File description: IcedID EXE persistent on infected Windows host (example 1 of 2)
+
+- SHA256 hash: 648fa862ce3d2230c2754a31f45d20b74f70d8648a9ad5897ba0d6a35627b592
+- File size: 640,000 bytes
+- File location: C:\Users\[username]\AppData\[username]\[username]\yiarpm.exe
+- File description: IcedID EXE persistent on infected Windows host (example 2 of 2)
+
+ICEDID C2 DOMAINS ON 45.66.245[.]145:
+
+- discsnooker[.]best
+- felliohreffer[.]co
+- jallioradio[.]co
+- debuggerhelper[.]top
+- youmecube[.]top

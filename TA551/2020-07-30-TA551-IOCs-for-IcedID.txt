@@ -1,0 +1,106 @@
+2020-07-30 (THURSDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+20 EXAMPLES OF WORD DOCS WITH MACROS FOR LOADER DLL:
+
+- 092381d01ee8ceafc88163dbe0e4255f452d68a69c26bf4bf0c05b9d41303a75  intelligence_07.30.2020.doc
+- 09ad2e05ee1b590996b1d57461f3a991c763cc676afa8ae8b6fc02586b935407  files,07.20.doc
+- 15731a6037944510f53bd37eb5a8c76d762274397d7937b81c6386b8c1a81a2e  inquiry,07.30.2020.doc
+- 254f651790d8e84d7d8b557d7fb064aca16b467af8a29d7906d01cfc3f3948c6  rule-07.30.2020.doc
+- 28d1b2b7dd8b8ee8c3e720236b123ea1688af0e8ff048c9662eafc5077be836b  inquiry-07.20.doc
+- 4e8ce72ab4a9be22ab3d76e278d17259f1250c15bdf3ab15b7416c18604ae350  order,07.30.2020.doc
+- 59d272ffeef2cae40dbe9fd24800fbf552cdbb9f6b3bec9b02e6ab77afd94aac  dictate_07.30.2020.doc
+- 6090c9e520211dca35fd774b94f127ba396727e25f00eafb86bfff5979bfa22a  commerce ,07.20.doc
+- 7c46a8634e0ed291edc1e135d27c042383a9560df45bc4470d30719cb533ba47  ordain_07.20.doc
+- 7f14bd644f7cb4db1ca63ad27918b5752ad90e53036746e82d9c5ca0724db475  tell_07.20.doc
+- 884316f52ec1b6b276e585a01b3099260ffdd1ce4fe09fdb7ef252264e87caa6  tell-07.20.doc
+- 949e2fec1b1290bd78e9bb35c25d6c634b5a8f401bb7d13957fba17286726c2b  report.07.20.doc
+- bd96cc2b200f1b2664339fa50cfa247ea94cee13dc2e02127066950568dc21f8  intelligence.07.20.doc
+- beab9687193a17c2152dbcfccd635e7e61e877862d7bb4c81afc4e56744e0f17  particulars_07.20.doc
+- c2525050626af56480b27b7208ffbab22a4865e252c618730ff4360f18a33d0c  commerce .07.30.2020.doc
+- cccc1b9dc6c97b84b89efa414034da29b8ff1a1cd9921cb33797e6a25a2891c4  legal agreement-07.30.2020.doc
+- d66972dbf6c591bc6ee282518a953bbbe2e5ace24359731c01b53e28df8b3577  instruct_07.20.doc
+- ddd986b55edfcc2a7b680ecf9ffaa9b3a0548bf8eb288d670478aa7415bce522  docs,07.20.doc
+- ded5eb3d65a25bc62e7953174a219605e61a72f03135a48f6153b2aa5098c2f9  order_07.20.doc
+- ec03288989e8458f0daaee296ce994ab525642f21e6927e192905f3ffe571089  particulars_07.30.2020.doc
+
+AT LEAST 10 DOMAINS HOSTING THE LOADER DLL:
+
+- 0eed1ejih[.]com - 2.57.184[.]54
+- 1iif89rvl[.]com - 81.29.134[.]57
+- 6gsdlmpym[.]com - 81.29.134[.]37
+- 6kd743o1w[.]com - 185.144.29[.]2
+- 8wsed5qkw[.]com - 95.181.157[.]197
+- bofzvaxf6[.]com - 95.181.157[.]198
+- jfmmusox0[.]com - 81.29.134[.]49
+- py072wgiw[.]com - 185.144.29[.]3
+- ybvoc9qoo[.]com - 95.181.157[.]195
+- z7rflq080[.]com - 95.181.157[.]199
+
+URLS TO RETRIEVE LOADER DLL:
+
+- GET /bolb/jaent.php?l=liut1.cab
+- GET /bolb/jaent.php?l=liut2.cab
+- GET /bolb/jaent.php?l=liut3.cab
+- GET /bolb/jaent.php?l=liut4.cab
+- GET /bolb/jaent.php?l=liut5.cab
+- GET /bolb/jaent.php?l=liut6.cab
+- GET /bolb/jaent.php?l=liut7.cab
+- GET /bolb/jaent.php?l=liut8.cab
+- GET /bolb/jaent.php?l=liut9.cab
+- GET /bolb/jaent.php?l=liut10.cab
+- GET /bolb/jaent.php?l=liut11.cab
+- GET /bolb/jaent.php?l=liut12.cab
+- GET /bolb/jaent.php?l=liut13.cab
+- GET /bolb/jaent.php?l=liut14.cab
+- GET /bolb/jaent.php?l=liut15.cab
+- GET /bolb/jaent.php?l=liut16.cab
+- GET /bolb/jaent.php?l=liut17.cab
+- GET /bolb/jaent.php?l=liut18.cab
+
+27 EXAMPLES OF SHA256 HASHES FOR LOADER DLL:
+
+- 08e1433330dd63f0f23cfcbd0caa4ab6ad7e36c408a898af2f17f00a2356e20c
+- 0bac073dd46fd8ac5c68c735f7d8ddecd264107e5163a23ce4f0d1d64823c709
+- 10541da23f1a6299fe00f9657b9dad7dae53c3091f39f1cfec03f30a93286168
+- 1f5672777a723b52064ff3876f7d582c524483a5205eb509a9aa6c5566fd4f71
+- 202e93ce45541da3971aebc5ec5027209ab9ce01cfd65e229ecf90d396b8201d
+- 249604488f5145ceee176cb5345c7d3c10b28f8645b7e7b7ad43fff90e3e1141
+- 26814ac4a62e9a9a3fe1059ba49709b161085cc3a1cbbdf5ee20beb742908083
+- 27e9ab78945ccd312212192c0f7cd39a33876b0743f93abbcbd8b5086753b347
+- 45000434dad8947c25761ea8e2257458baa10424402b7d48472fac5b1dc5aa47
+- 54b5a9d4964628097caa5389be308d3306ad5feb01144cf13af0892799da41cb
+- 5e5d856ef6917165ca56dc2e356a25f7b86e902feb29d3570d84b2bd0b7d1529
+- 634de4133f7682703e21d4f98fdf1f5d761edf17882a8b37622c95d0182e582f
+- 7ae35c2610961499b83a35df80b4c9654d10a97fbd5020345f49497941d755a8
+- 7d97f43bdac6a0420b701f622c164af9f6aed64cb5f3cdbdc3bc44088b0ac2d9
+- 85fbffd801a6b050745336a42637077ddb544e3039905d9b93f78df310af6e02
+- 97c5b7288083a6a65513aff8ef98a3b53c7509ef7eaf8b5f220ff908e4fe92bb
+- 9e7743f112f712bdd9d1658079701138fdb195d73957b894acf5017f63feac94
+- b3a9d5d233d155daf54e2ef3e7694e3e1659c0465c34fe0043007fb6983cb32d
+- d872601623df5c1f8f378fb962df80d03922392ec2b3494437c6e347c89c3d14
+- da4e1bb6c651a569ee44eb2d2a37eaae7035a46d8281592b77666f0819fcf1c8
+- e0a4280ea1f844aa28c808c5931e3e245730b70d3c8d6ff8d5c13eaaa7115980
+- e2527c3c1c50b1a4b1c94066d963a0c93b19f28965fc0ad5d53b734b10bf37ed
+- e7d1ee172b95df20dc90f3100a5b06fb150408b76e92f159fd1e8e69c3c61035
+- f291bed7451bf2485250b3ebeed132e7f56712d856b316b6fb8f88a4a205d0a3
+- fdc1a3d88eca9afa817aaf00818f29ea8e80fc1b3a71f46d5231572fb2f69b26
+- ff7222b433477e4794dbfd8b0ad34dc4e6397c7673fe431c6710c6e77a69b78c
+- ff87844648c0e1da40aea7bb418bb8b2011f5c55f7a6c3d43228e3c0cf5c33b8
+
+LOCATIONS FOR LOADER DLL:
+
+- C:\ProgramData\1.tmp
+- C:\Users\[username]\AppData\Local\Temp\main.theme
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+AT LEAST x DIFFERENT URLS GENERATED BY THE DIFFERENT LOADER DLL FILES:
+
+- 194.5.249[.]199 port 443 - ldrgopak[.]casa - GET /background.png
+- 194.5.249[.]199 port 443 - loadbudapest[.]casa - GET /background.png
