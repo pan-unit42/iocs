@@ -1,0 +1,108 @@
+Return-Path: <vinicius.sc@somahospitalar.com.br>
+Received: from 191.252.199.165 (EHLO mail199165.hm1831.locaweb.com.br)
+ by 10.197.33.12 with SMTPs; Thu, 3 Sep 2020 18:22:33 +0000
+X-Originating-Ip: [191.252.199.165]
+Received-SPF: pass (domain of somahospitalar.com.br designates 191.252.199.165 as permitted sender)
+Authentication-Results: atlas321.free.mail.bf1.yahoo.com;
+ dkim=unknown;
+ spf=pass smtp.mailfrom=somahospitalar.com.br;
+ dmarc=unknown
+X-Apparently-To: t****.h******@yahoo.com; Thu, 3 Sep 2020 18:22:33 +0000
+Received: from mcbain0004.email.locaweb.com.br (189.126.112.85) by mail199145.hm1831.locaweb.com.br id ha4q682n8lgj for <t****.h******@yahoo.com>; Thu, 3 Sep 2020 15:22:11 -0300 (envelope-from <vinicius.sc@somahospitalar.com.br>)
+X-Original-To: <t****.h******@yahoo.com>
+Received: from LEONARD0039.mail.collab.local (martin0001.email.locaweb.com.br [189.126.112.73])
+	by mcbain0004.email.locaweb.com.br (Postfix) with ESMTP id 7D02D180FD3
+	for <t****.h******@yahoo.com>; Thu,  3 Sep 2020 15:22:11 -0300 (-03)
+Received: from [200.87.242.147] (200.87.242.147) by
+ LEONARD0039.mail.collab.local (10.30.188.44) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256) id
+ 15.1.2044.4; Thu, 3 Sep 2020 15:22:35 -0300
+Date: Thu, 3 Sep 2020 14:22:10 -0400
+Locaweb_Exchange: Yes
+From: K********* R******* <vinicius.sc@somahospitalar.com.br>
+To: T**** H****** <t****.h******@yahoo.com>
+Subject: Re: Re: Postpone this week's meeting
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+	boundary="--2721644617813540782547331541442470"
+Message-ID:
+	<8cadda8f-2f82-407d-9688-a3a2533458b4@LEONARD0039.mail.collab.local>
+X-Originating-IP: [200.87.242.147]
+X-ClientProxiedBy: PENNY0001.mail.collab.local (10.30.190.2) To
+ LEONARD0039.mail.collab.local (10.30.188.44)
+X-AuthUser: vinicius.sc@somahospitalar.com.br
+Content-Length: 360155
+
+----2721644617813540782547331541442470
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8">
+</head>
+<body>
+Re: Postpone this week's meeting
+<br>
+<br>
+<br>
+<br>
+<br>
+K********* R*******
+<br>
+k*********.r*******@outlook.com
+<br>
+<br>
+<br>
+<br>
+<pre><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+
+
+
+
+<TITLE>Re: Postpone this week's meeting</TITLE>
+
+
+<!-- Converted from text/plain format -->
+
+<P><FONT SIZE=3D2>K*********,<BR>
+<BR>
+Thanks for the heads up.=C2=A0 I'll call later today, and we can reschedule=
+<BR>
+<BR>
+Regards,<BR>
+<BR>
+T****<BR>
+<BR>
+<BR>
+&nbsp;&gt; On Thursday, September 3, 2020, 15:30:06 UTC, K********* R******=
+* &lt;k*********.r*******@outlook.com&gt; wrote:<BR>
+&gt;<BR>
+&gt; T****,<BR>
+&gt;<BR>
+&gt; Can we postpone this week's meeting?=C2=A0 I'm book solid through Frid=
+ay, and next week is much better to catch up on our project.<BR>
+&gt;<BR>
+&gt; Thanks for any help on this.<BR>
+&gt;<BR>
+&gt; Sincerely,<BR>
+&gt;<BR>
+&gt; K*********<BR>
+</FONT>
+</P>
+
+
+</pre>
+</body>
+</html>
+----2721644617813540782547331541442470
+Content-Type: application/msword; name="Mes_G697449.doc"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Mes_G697449.doc"
+
+Information removed. 
+
+SHA256 hash for this attachment: 
+1e8ea370168c58d9ea8d88b67552e2397a879ea142fbb091ab2e258d51db9f69
+
+----2721644617813540782547331541442470--

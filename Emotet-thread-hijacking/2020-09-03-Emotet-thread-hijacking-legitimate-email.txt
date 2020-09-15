@@ -1,0 +1,48 @@
+Authentication-Results: spf=pass (sender IP is 66.163.185.147)
+ smtp.mailfrom=yahoo.com; outlook.com; dkim=pass (signature was verified)
+ header.d=yahoo.com;outlook.com; dmarc=pass action=none
+ header.from=yahoo.com;compauth=pass reason=100
+Received-SPF: Pass (protection.outlook.com: domain of yahoo.com designates
+ 66.163.185.147 as permitted sender) receiver=protection.outlook.com;
+ client-ip=66.163.185.147; helo=sonic305-21.consmr.mail.ne1.yahoo.com;
+Received: from sonic305-21.consmr.mail.ne1.yahoo.com (66.163.185.147) by
+ BN3NAM01FT041.mail.protection.outlook.com (10.152.67.200) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3326.19 via Frontend Transport; Thu, 3 Sep 2020 15:34:59 +0000
+Date: Thu, 3 Sep 2020 15:34:54 +0000 (UTC)
+From: T**** H****** <t****.h******@yahoo.com>
+To: K********* R******* <k*********.r*******@outlook.com>
+Message-ID: <1990464247.2781430.1599147294615@mail.yahoo.com>
+In-Reply-To: <CY4PR2001MB094938A4F0ECC41DCEA7395BFD2C0@CY4PR2001MB0949.namprd20.prod.outlook.com>
+References: <CY4PR2001MB094938A4F0ECC41DCEA7395BFD2C0@CY4PR2001MB0949.namprd20.prod.outlook.com>
+Subject: Re: Postpone this week's meeting
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Length: 448
+X-IncomingHeaderCount: 15
+Return-Path: t****.h******@yahoo.com
+MIME-Version: 1.0
+
+K*********,
+
+Thanks for the heads up.=C2=A0 I'll call later today, and we can reschedule=
+.
+
+Regards,
+
+T****
+
+
+ > On Thursday, September 3, 2020, 15:30:06 UTC, K********* R******* <k****=
+*****.r*******@outlook.com> wrote:=20
+>=20
+> T****,
+>
+> Can we postpone this week's meeting?=C2=A0 I'm book solid through Friday,=
+ and next week is much better to catch up on our project.
+>=20
+> Thanks for any help on this.
+>=20
+> Sincerely,
+>=20
+> K*********
