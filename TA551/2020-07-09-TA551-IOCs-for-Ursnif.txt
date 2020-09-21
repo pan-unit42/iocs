@@ -1,0 +1,145 @@
+2020-07-09 (THURSDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID (ITALIAN LANGUAGE TEMPLATE):
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> Ursnif (Gozi/IFSB) infection
+
+52 EXAMPLES OF TA551 WORD DOCS WITH MACROS FOR URSNIF (GOZI/IFSB):
+
+- b0a9be71fe8845ee4ba32f9d3e47267bdeae9a2dff7d50ea0f27f8959e50cce5  Istruire,07.20.doc
+- 0aec9fa80f0c8fa2c16668e5cf32fa473032e6d6bfc24d44d8f4b2b4502163e1  Materiale 07.20.doc
+- 02ef9794d035e993480a6726cfb677d1547606a2b7920f085c8bc28241338416  accordo legale 07.20.doc
+- 1c822d787c03d5fdefa8efa54a8af4ae8622223b2b01c2a6cbf040f4a218a2ce  accordo legale.07.20.doc
+- 091d8919002155f88fe7b5c6836f3d9c067989d897dd9b1a477eae203632be63  caricare 07.08.2020.doc
+- 00ea129930da0a14d84e659de72d16b4edcb9574ab665466e6b931676fe95aed  caricare,07.20.doc
+- 340997943546e3a333e84ca3764f721b48218557389534beebe4a2ab13b968d4  certificato-07.08.20.doc
+- c53cddec55c086263fad049439bafaa34edfdd0861b640b072c48674d2d273d1  certificato-07.20.doc
+- dcfb8f77847d724370d6688b004e2dc005ca02fc1c9f5665896d43f546174620  certificato_07.08.2020.doc
+- 62e38539f02a11090fde657eed6726f916c4b99ed26a653cdf77a72094b47b89  comando,07.08.2020.doc
+- 7a6163739c86b3973c4d492af93a657108af085d06503284e59cd8758f400db5  comando.07.08.2020.doc
+- 7f2fa5e8de6a3d91a78c091f921a258aefe7c0737198c8d13c7663c453d4dbf1  commercio,07.20.doc
+- 1d298c323e5103aa4872d5b31f84db2e91dd13c6d3378813d222cdcf98bfb05a  contratto di propriet.07.20.doc
+- 1009aea4a8bbbd5395bfec97a0cf88c62577c68a98d32c161ffc97cbd869e7cb  dettagli-07.08.2020.doc
+- 105011fc6a1daea55f9b2fad420e1f0df7d95f17dd8e838613f27efdc22fef9b  dettagli_07.08.20.doc
+- 7322c0954a7addf1f90f728e52464bacec8c6bf4ff810fce58de58c20bfdf5af  dettare,07.08.2020.doc
+- 58cf548f625c59ddbc265c512e42a004e7e2254f022bf745a5f3b034418d6e42  diretto,07.08.2020.doc
+- 5cb7d2f6405343b7f7d25d8cbecbd2683ea53636312ee3f3c5e54d43f707845e  diretto,07.20.doc
+- ca822b28a868bb52c0e59bf09093cf38dedb0a09c82718d3979980f13c02d1b9  docs-07.20.doc
+- 0bf4952eb4a7081a910bf9d122b6ff8fcffccd5d39578e57c98b5b3a16f81816  docs.07.20.doc
+- c3128793b18ad95cb72ee25c7587f0640e80da411384e847acc6af0450dcdde2  docs_07.20.doc
+- 42ccd85c910961fa939059b6903462d1d1da80ab275b93de655ca248fdb1880b  documenti,07.20.doc
+- 03f9be4517e46e9a1a9f7cd4dd6dac324aa4f6dd23c3b88545879b2aee47ac1c  documento legale_07.20.doc
+- 604d7046297dcbf29e1e3a53ecf27136c4e39b2e36fe2314559f380b564ff7b4  documento ufficiale,07.20.doc
+- 27c2470544b26b6ea5222f4c390b401d946a7b9f9f0a9d7fa9b620511a8ae15e  domanda-07.20.doc
+- 898aeaebd508341199c86a83940004f44ab6b4c005a91486c70a878bd5a6054a  fatti 07.08.2020.doc
+- ccf950c9869d1bf9882478bb2a8bbf9b65c21eb0e0c8d851c4bdda3232b40c11  figure.07.08.20.doc
+- f9b682245ad0fe442e1bbe331f67b8c6a6241aac9fb2aa727b020a4f0a897ce2  file 07.08.2020.doc
+- 7aa391fd5872835bc1d3f685a63636069051e45dc215db56aa873606983bb045  file,07.20.doc
+- aab2c9e64ba3bc97562152cd9fce47d31093b6ae38b6ca0cffc35510a53b57e6  file.07.08.2020.doc
+- a76aa17b3c66f1bc861ff329710e0b94c0a9fdefa9e3c1b3e6d1d8410d85b679  file_07.20.doc
+- 81cb6a984a5eb6db5a92f94309a371916b64b2eec9cc6833ae48650886ed5239  inchiesta.07.08.2020.doc
+- 6009d4b5fa09ca6115a5e3f3d393dde2d7d11e08b9ea72b04654df23817004d4  inchiesta.07.20.doc
+- 2d6913b854ce3e9d64b690ba5d3881b707bac4dd928997535d01f68e5273071a  inchiesta_07.20.doc
+- 864154010103498fd577d2cb906cc2b0e6fc63ebf9d4faf76b9f35b75300667d  ingresso,07.20.doc
+- 06ba12dd9057e92557adafaaf4a2c77e0553483e4074b5d723669f07921e0ae6  legiferare 07.20.doc
+- d37026dacdcca52c226e1d715e8d83b4a657b18ef116976dfac72323c82c20ee  offerta 07.08.2020.doc
+- d5f3e5ea9c3b7afb3c4dd818b1807986e73236d6b3b50214d7ad908ac094e81c  offerta,07.08.2020.doc
+- d21916b27b5efdd803201119c97e5318019fff9715a428ec3ca7ded7c86e6e4c  ordinare 07.08.2020.doc
+- c24862e85c78831c5c263e6f8934e9b75c0b39015bd59efe9382af47c8bc125c  ordinare 07.20.doc
+- fed5b5e20c6b7704573865320c3ba2d3e41844747ec4cf21cece347997b7a10e  ordinare-07.08.2020.doc
+- bc871af417ff9adfdd9df5d1b9a34f0a989e4ae058e7009780d4c297ce3de5a0  ordinare-07.20.doc
+- 88e14dd202381ce53133c1284f092d83bb4fc91871caac0eb0621ca99c1985ca  ordine,07.20.doc
+- f1721df32789a9e1551010e0fc30caa050366f4c949c1f73fcf317e85e0ecb35  ordine_07.08.20.doc
+- bf79a1b5281f5e1daa76040f07ae77ec623afecc33d8736bc504df901c0186d0  prescrivere  07.08.2020.doc
+- 286bea5c63bc980b0a9536c046ce8072cfb9020b6f653adacf6f6d491f3d4526  prescrivere ,07.20.doc
+- 2b276d5638fef9e9774853b42fe3626c15a13653423c2da87638f725b687696b  raccontare.07.08.2020.doc
+- a87a4a43ea99fea877e46a92cf90434b15667e7ef463da04640af1bb5116c7ca  raccontare_07.08.2020.doc
+- 25a828d903074603753194b02f064d6f01a7f7f1901773c512818787cee92fac  richiedere-07.20.doc
+- c4b476186a7d27189e16f2c25a20d47c84da5e08fe7994014cbbad879c53dbfd  richiedere.07.20.doc
+- c9f867afbf23760e2dcf9582ec762c18ba458e98b1ac5efc8f69d6785d45d932  statistica 07.08.2020.doc
+- 51e234ae15e4d96c2077f57a5544aab335d75f7a301442c102eaf63351b48151  statistica,07.08.20.doc
+
+AT LEAST 8 DOMAINS HOSTING THE URSNIF (GOZI/IFSB) INSTALLER DLL:
+
+- 9ygw2[.]com - 185.183.162[.]169
+- e9bja[.]com - 95.181.198[.]182
+- cofi3[.]com - 185.118.166[.]209
+- ioyyf[.]com - 95.181.178[.]136
+- hq3ll[.]com - 81.29.134[.]69
+- n2f79[.]com - 95.181.178[.]46
+- nix4e[.]com - 185.139.70[.]183
+- r0rfk[.]com - 93.189.41[.]227
+
+URLS FOR URSNIF (GOZI/IFSB) INSTALLER DLL:
+
+- GET /iz5/yaca.php?l=kpt1.cab
+- GET /iz5/yaca.php?l=kpt2.cab
+- GET /iz5/yaca.php?l=kpt3.cab
+- GET /iz5/yaca.php?l=kpt4.cab
+- GET /iz5/yaca.php?l=kpt5.cab
+- GET /iz5/yaca.php?l=kpt6.cab
+- GET /iz5/yaca.php?l=kpt7.cab
+- GET /iz5/yaca.php?l=kpt8.cab
+- GET /iz5/yaca.php?l=kpt9.cab
+- GET /iz5/yaca.php?l=kpt10.cab
+- GET /iz5/yaca.php?l=kpt11.cab
+- GET /iz5/yaca.php?l=kpt12.cab
+
+10 EXAMPLES OF INSTALLER DLL:
+
+- 278d40dc4e9144a9153d016a417713af54d51162075403ead29cf5aab269bf22
+- 363d9a5910dac53138195fa18c8e43eb99360213ff1abdd5f2a1b0b34208fea7
+- 4410cfd4fd242717a56d892466b563576af0ca4dd4738ab52a8ad818c2386073 
+- 562be8984ba2629bba153f053977bb0ef17942bfefdb610a8eb618d955ded112
+- 6a39a3e7387f3d214042b2d9d99f4d6de18303d56ad96c9a48df20cf4693091b
+- 977956121fd42c67dd015a0b6587d173bfe118f89d26fb653459d8c0e801d224
+- a1a6e3603e050afbe4bd74f714f4bfc69f9f7ff51fc7e6e890a1eab04ccf1737
+- a37a3be0bddd0cb696900b5acf220c32c40e9dfe8d2e41f85a4ca5c0e6fd9307
+- b3dd5fabb9c05eaab15d95ba49d626cee83c8374bf2d965532d3214fdcfbf032
+- f394be3f5bca6042b4c243810e61047cdc48802d278059ab03d07b2495e48704
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\1249.jpg
+- C:\ProgramData\15841.jpg
+- C:\ProgramData\64974.jpg
+- C:\Users\[username]\[same directory as Word doc]\iD.tmp
+- C:\Users\[username]\[same directory as Word doc]\kG.tmp
+- C:\Users\[username]\[same directory as Word doc]\V0.tmp
+- C:\Users\[username]\[same directory as Word doc]\wG.tmp
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+FILES ASSOCIATED WITH THE URSNIF INFECTION AND ACTIVATED THROUGH A REGISTRY UPDATE:
+
+- 02f66dc9ecfc6c4ed36b031f30dce686e019ee38381706c9f7783172c3c3cd44  C:\Users\[username]\appihost.lnk
+- 2c09350d62a868f44c58080232d3d0d54bb4453329b032d5c92d55887efb3980  C:\Users\[username]\Aadtmapi.ps1
+
+URSNIF (GOZI/IFSB) POST-INFECTION TRAFFIC:
+
+- 77.246.145[.]83 port 80 - tobmojiol2adf.com - GET /images/[long string].avi
+- 208.67.222[.]222 port 53 - DNS query for myip.opendns.com
+- 80.87.194[.]192 port 443 - maigmehm2gl.com - HTTPS traffic caused by Ursnif
+- 91.203.145[.]38 port 443 - gstat.sloleaks.com - HTTPS traffic caused by Ursnif
+- 91.203.145[.]38 port 443 - gstat.securezal.com - HTTPS traffic caused by Ursnif
+- 208.91.197[.]91 port 443 - gstat.premiamo.com - HTTPS traffic caused by Ursnif
+- 208.91.197[.]91 port 443 - gstat.premiamo.eu - HTTPS traffic caused by Ursnif
+
+DNS QUERIES CAUSED BY URSNIF URSNIF (GOZI/IFSB) THAT DIDN'T RESOLVE:
+
+- DNS query for dll.microsoft[.]com - response: No such name
+- DNS query for support46.microsoft[.]com - response: No such name
+- DNS query for gstat.securezal[.]xyz - response: No such name
+- DNS query for gstat.secundamo[.]com - response: No such name
+- DNS query for gstat.secundato[.]com - response: No such name
+- DNS query for gstat.secundato[.]net - response: No such name
+- DNS query for gstat.securezzas[.]com - response: No such name
+- DNS query for gstat.securezzas[.]net - response: No such name
+- DNS query for gstat.peshtigodental[.]com - response: No such name
+
+FOLLOW-UP DATA REQUESTED BY URSNIF:
+
+- 62.149.140[.]58 port 80 - tenutasanpaolo[.]com - GET /en/client.rar
+- 62.149.140[.]58 port 80 - www.tenutasanpaolo[.]com - GET /en/client.rar
