@@ -1,0 +1,93 @@
+2020-07-06 (MONDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR VALAK:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> Valak infection --> Follow-up malware: IcedID
+ 
+20 EXAMPLES OF TA551 WORD DOCS WITH MACROS FOR VALAK:
+
+- c52b0211af278f226cd457d9a38cd9b1a74b6b6fd93b0ca55996f965e2aeb81f  charge-07.06.2020.doc
+- d228b9ade70a0ae842de27261fa14be48d451fe9e7c6908941e9915912b7b6d2  command,07.20.doc
+- 92e08c217395485df1bd64fbb430c04a0bf7a9cf979530edec0ba6beb69411ea  deed contract 07.06.2020.doc
+- 37fc36d95fd2868bc044415612ac3272ee3fcf4a9d26e4b6eca0e903fe45bd94  deed contract_07.20.doc
+- d5fc9596416a53d5215488306c756c05a8c2947aa0d0e691c44eef8b394d2cf1  document 07.06.2020.doc
+- a2f9a7847e49898a52fe3ccafa91932e7a44d8c043365d23f4b4f36d5c7036b7  document_07.20.doc
+- ea4d102384ca2780291e512c287610f98e429b726cfe5dbbcdd493d4373b87af  documents-07.20.doc
+- 3fd10043fd08e68e25c49b3718abb1a872153774861b6372fb4921e6461abb1a  enjoin.07.06.2020.doc
+- 4377a1c42993d35af3ea206d4a8961685116cc20e63e314e6671121a3161a0d4  file 07.20.doc
+- adad01a9a6256783bd8783a23d0a90109a49626231b8f45af9c9ce2bc866731c  inquiry_07.20.doc
+- 6ea1c706f6f489185f5f21d1479aa633bbf96ca67a9e4b8018ff4a60c597c649  intelligence 07.20.doc
+- d852afdf778f0349d37604b7fd10503a73ddbcd86972a8b6b16f7921d7d6ffbe  intelligence-07.06.2020.doc
+- d0e788ba57b43c51e8342cf534d5313a71638164589a436c02b357083962b1ba  ordain-07.06.2020.doc
+- 01a81b72be7c961538c08d131a728acbbfb0c3ad05127a34f3a552d971bd326f  order 07.06.2020.doc
+- ca31c78ea4bf375267c5be83cce0fb242348d26fc610ef2b7524258f5d5dfd09  rule 07.20.doc
+- f4ffa993bd9e896aeb7458b695e5cb06710236deb5e88b770dade1f99ade62b2  specifics 07.20.doc
+- 3ebbf0e6d96940219eadcd6c7b59093268fd194683135843df065d4e2cb4b827  specifics,07.06.2020.doc
+- 7aaabd539ed24d5e3fa786f0b1b84e194a24ebbac0b813b1c33760da9cdd1c79  specifics.07.20.doc
+- 144247f13bbf42ac1d21994c83b6f3d4b9b6b7a48532f852993bee7bec07618c  statistics-07.20.doc
+- 3bdaec9c2fc722fe44808607a6927ec5012449b3df37d098ce89bfe97b42f3f7  tell,07.06.2020.doc
+
+AT LEAST 6 DOMAINS HOSTING THE INSTALLER DLL:
+
+- dwniu8n[.]com - 81.176.239[.]52
+- eto9ve1[.]com - 81.29.134[.]120
+- g7bxxcu[.]com - 185.118.164[.]115
+- rlb9lmt[.]com - 93.189.42[.]58
+- wfpyutf[.]com - 82.146.56[.]146
+- wnrfa9y[.]com - 37.46.130[.]112
+
+URLS FOR INSTALLER DLL:
+
+- GET /iz5/yaca.php?l=tze1.cab
+- GET /iz5/yaca.php?l=tze2.cab
+- GET /iz5/yaca.php?l=tze3.cab
+- GET /iz5/yaca.php?l=tze4.cab
+- GET /iz5/yaca.php?l=tze5.cab
+- GET /iz5/yaca.php?l=tze6.cab
+- GET /iz5/yaca.php?l=tze7.cab
+- GET /iz5/yaca.php?l=tze8.cab
+- GET /iz5/yaca.php?l=tze9.cab
+- GET /iz5/yaca.php?l=tze10.cab
+- GET /iz5/yaca.php?l=tze11.cab
+- GET /iz5/yaca.php?l=tze12.cab
+
+24 EXAMPLES OF VALAK INSTALLER DLLS:
+
+- 0a9a32e0535379b75ed38d7e19ba0122a5a495fe6068b2656f2bf0537b5f330e
+- 14aba63fcbf52996ae3db9a7a84a8402d59ee17782ad775f7d9437a11d0b3522
+- 217b9cf2f6f495c6418a0ede12e58c77c574b65e95b85dcfa8a7e0b410b9c339
+- 258e355b507333b7d21e60d7e389b892f13d8de83c6accdc4a4fb15851fc9048
+- 3907fa54f3d9be1216aef4192057f47d2792484301871ac102ae1b2eedba59db
+- 392dd71344972ecd6521c2918b94b2a93bec66bcb63c06c73791b50d81805f52
+- 41b3ec141d3d8bd4f81fbca4edf89c5ef5ad4d5fa63a968be7678ccd449b121a
+- 5bda2c2ac26f281a493c5632a1a39778884f3ebbee73fa029c435da2910e9251
+- 69640f29b171bf69299302627defa20ab512fb2c3e22888497f76d5ddbe7dc41
+- 708585598a333aea8fa2ca411e41268a6ec89dde00c5ab2422b2d49f469f1d70
+- 80181cd2e10484d25967bd55a57c000293ceabf749e52659fe84d4d376913f23
+- 87bc1be7a57936a71e0ddf6745ae65ecba0ef8108c2112a742a4748e5bed6f23
+- 9da67eeb8ed5909d89d2b86250b570c88dd790468ec5c65e3f8b039a9e86fdec
+- a049f10cbfe1ae8a7ec68e89d514eb4dc323b05e1074f2cb55a1628ff70ab966
+- a8f25879e6adca414a3e563b5283ea930755e78c2e34bf6163324a4d1a0e6ced
+- ab0d9ee31ed258f2be846bf8fcd8b731733e76238e5d462f8629b9e412b55be5
+- c90983367fdbfe786dd94a2a2bfd72f8972dbaac153b7300c2dcd988f7c906f8
+- c9511cb4573dd8e1c04e68268a660c88caa00a79156bf0e15081567d67ee3f5b
+- cd2982e6058f87fa2f4df03fc98f75401e9040fa6457fd80a4824885bd765201
+- d92fd8364c498bc84a89dac121a974dc2a47e5f85cf2a00db9f5c45c9c328e10
+- dd79d8e71362096a9f44822a2ec3a71e15384cca0a4e7b8fa8412d3f64da5252
+- dfaa0d6bb10257d100d948848b9d15f9f1d985965d0edaaaaeb0730907b44d0a
+- e46d2fd0909955de24d29b59d9327346b4a95bafd5e90bfde804dad6e579be35
+- f615f73fca17b900769231a619548210132122970eea084c513159094b34d4e4
+
+LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\Users\[same directory as Word doc]\1.exp
+- C:\ProgramData\22492.jpg
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+EXAMPLES OF SHA256 HASHES FOR ICEDID EXE FILES RETRIEVED FROM VALAK-INFECTED HOST:
+ 
+- 585e1d409a14c0f64e77c5d0052f460bbe4883ce26fd94ca393b6868e614d9e8 (initial)
+- a2610511f0dd2e7759cd637e14c279b49d5f8e4f0dbb0b45ef477076da9ac3de (persistent)
