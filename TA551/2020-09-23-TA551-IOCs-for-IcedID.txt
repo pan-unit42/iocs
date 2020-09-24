@@ -1,0 +1,127 @@
+2020-09-23 (WEDNESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+20 EXAMPLES OF TA551 WORD DOCS WITH MACROS FOR ICEDID:
+
+- 00983c154186244d3a9afd0a3fc17d7487307fe7722a655d5ce43fe8112a5896  bid-09.20.doc
+- 03aa2d352abd749cdf6c71b5ababc3aa5d233dd2b4925f0b42ed410c6476cb6b  command,09.20.doc
+- a2efb34b0e95f24c4c23f31df9fb9dcb17cda017d57fde4892409c50a3d6c6f6  dictate 09.20.doc
+- a5f5b318e12250c3512dedc7dd3b3f505057b88c8c55964396ccea7a1b45cad4  dictate 09.23.2020.doc
+- 3b887d069a95788ff5c2504c54e8e00c69aab1504d323b87a8c92eaa08ec6e33  dictate.09.20.doc
+- 89674f074ae3fee497e434ac379ce157ec977c4eff810cd7c0719d0688759987  dictate.09.20.doc
+- 098b49c651033ea4248aa17ee3329b9f4acbbba65bcfc0fcdb73c1a26a3da48c  docs.09.20.doc
+- 4cc0215de5c6e57cc6f655f23c6cf35dbceeeeeab9680d0b5abbaf16d49730da  document,09.23.2020.doc
+- db4d6f9aaef4094edb5d5df3434272662b2ca09a0ae4ad1018d56228f522729c  documents-09.23.2020.doc
+- e99cb7d37c204cf3ac859369fc50ccbc5eb02b1ba964485add9e47a4d973e2ce  enjoin.09.20.doc
+- 28d5ce8422c63be8701b1e54d6ba88319f358bb9c258469614fd339e76365b70  legal paper,09.20.doc
+- 7530e111d0d632a1528584a383fe5e690d93cb8f115c52506cd6941d297f8079  legislate-09.20.doc
+- 0bd4229e28ab114432f4f2e1c7b3ffdee5b04c6549e362bda8a997cd9b51b9e8  material,09.20.doc
+- 22a183035451aa865e6064f248477080e4fb127a7cb87b7104ba7e1f06c1c318  report.09.20.doc
+- d92d7d6579c7d1467c0c6f74dc362aec294fad587ee7b6dbe8bd7f7c367214f6  report_09.23.2020.doc
+- 4764c318b31337935cbfdbf1b2b203288f510ebbf612bca0d6d201dd603dba2e  specifics,09.20.doc
+- 2c39f56264978995ac6983996d960d4cd0abd4ba920773580a6bb31d89503615  specifics-09.20.doc
+- 5b2318acd6cbb143e1ee749558201f1708738bb2b6e0d80fc88906cd584a3060  specifics-09.20.doc
+- 6ac8720012905d8549799b213f82ec4812a321604593f19e3768f64361e4fe7c  statistics-09.20.doc
+- 35199e044e6a22ec48a436dcc80d5ce1e3d2d6cc976275545a71a5954c6678cc  statistics.09.20.doc
+
+AT LEAST 8 DOMAINS HOSTING THE INSTALLER DLL:
+
+- b82uw6[.]com - 109.248.250[.]2
+- epgymd[.]com - 109.237.109[.]96
+- gswxig[.]com - 188.120.250[.]159
+- m7zfuu[.]com - 45.89.66[.]215
+- mddgdia[.]com - 185.228.233[.]115
+- qtudtro[.]com - 91.217.80[.]172
+- sqgdzi[.]com - 149.154.65[.]151
+- vxsi5p2[.]com - 82.146.61[.]8
+
+URLS FOR ICEDID DLL:
+
+- GET /xevot/gadip.php?l=xuluw1.cab
+- GET /xevot/gadip.php?l=xuluw2.cab
+- GET /xevot/gadip.php?l=xuluw3.cab
+- GET /xevot/gadip.php?l=xuluw4.cab
+- GET /xevot/gadip.php?l=xuluw5.cab
+- GET /xevot/gadip.php?l=xuluw6.cab
+- GET /xevot/gadip.php?l=xuluw7.cab
+- GET /xevot/gadip.php?l=xuluw8.cab
+- GET /xevot/gadip.php?l=xuluw9.cab
+- GET /xevot/gadip.php?l=xuluw10.cab
+- GET /xevot/gadip.php?l=xuluw11.cab
+- GET /xevot/gadip.php?l=xuluw12.cab
+
+24 EXAMPLES OF ICEDID INSTALLER DLLS:
+
+- 01c9f99bfec9b672a6cbe2bd465345e7b28ebbe32bae53f675b6ee2746e20335
+- 0de87bcd83237b564ed508b574d0195c7c51220571c22b44f0f188af1369e558
+- 13c850f0419cd63e6eda74d134d468edf9f2d9d13cbbc655fbd36e89c6b1e46f
+- 1fc02c2bbb954f1fbfee85140618025b23c6d3a8a793b28909139a43e68e6adb
+- 436564b5e0223e8a953b527c86ca9184af8f2d97a8ef0e51193e8d343ae77c21
+- 43f6440819114c71e2312a956672c8b2a4aa82e4c9ca230c3cf6b456b5b46d51
+- 50627d0516944503312951774b8b7586f9409f312b7742347697996c10ead658
+- 5c06b00830e828ac09b88c7afcd94dc5a28b238333400d51af06fda58d99b81d
+- 756f91d003c22eec8e478f20b124fef3c8e18fd550df645c0148a6ddd91a973d
+- 78e9ecbe1ad43a3e55286c52bebc0fd3fd51fca0ec8f48caceef60b612ecb4b6
+- 7ff6e0e68e741fe2050a7cfaee0f790a6b0544105d5bdd4ea5ba0646835036da
+- 850970e2dfb4f52b461b6daf8bed02469a391ec1d4c1d9251ab427e06a282225
+- 887a73dd182c064135d8451dc7a1c04b9dd19c89e1ec012b5dd22bac52116e6a
+- a84da88d30017633824c0731d6637a80c1fe97c40f9d6421b39c94b367b35a2f
+- a99e22965dd129f70ffacdf4548faa9cf07929bf8cf455af870984ae0d85d11e
+- b85a0e5ff75ad8ccb59ea7214e9d76f2f70b17d4ba09eb210ce9e1f0d0f66677
+- bfcf04008a57918b9e08e5489fa0a8193f0bee747686d1105e560f366fba5189
+- c8123e802b108c2385b8ba42a7f34eb2eb6bc2fb09bc677ba5397018820c4771
+- caaffbb1e04082773558571e95bbc5cb302614406292710e6104ab85fcf3927e
+- e2d3e9a7819a89cffc3f614f62d44a8312eccea750e9fb0adac154ff5ea0f5f7
+- e8b24d7c8dd0898bf688705afa305bab577fbd5a83bd260f2d07ed29bbc80dff
+- ea2d23a8c4bc9ad4c34b8a20823f8b4db812fb1a7ed96b2cd4a7d67daa2bf2fa
+- ed7b8d4af7983c4517a6b582a3b385056db8d0a7d9c46194947a5ebaead2b1ac
+- f591e473859ad8efcc6390732aca39899fe5910101618bfcff8b4c062c3c5fe0
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\a5ffb.pdf
+- C:\ProgramData\aac59.pdf
+- C:\ProgramData\ad0fd.pdf
+- C:\ProgramData\af8ce.pdf
+- C:\ProgramData\bda43.pdf
+- C:\ProgramData\bdf55.pdf
+- C:\ProgramData\c8c18.pdf
+- C:\ProgramData\cf007.pdf
+- C:\ProgramData\d9cc4.pdf
+- C:\ProgramData\f50a1.pdf
+- C:\ProgramData\fc738.pdf
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+AT LEAST 3 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 142.93.218[.]110 port 443 - astedolo[.]asia - GET /background.png
+- 142.93.218[.]110 port 443 - vragafraga[.]beer - GET /background.png
+- 142.93.218[.]110 port 443 - wertigohol[.]click - GET /background.png
+
+2 EXAMPLES OF SHA256 HASHES FOR ICEDID EXE CREATED BY ICEDID INSTALLER:
+ 
+- a49499eecf0330f3ece7c75bcb04989d2d62d31ed2a7a14e5e6da98a869a520a (initial)
+- 433916382658909eddfca653bb6e6b951a7fec66020b205590a88883ad04d65e (persistent)
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID EXE FILES:
+
+- 46.101.10[.]119 port 443 - smavellpolia[.]cyou
+- 206.81.11[.]50 port 443 - droidattac[.]cyou
+- 46.101.10[.]119 port 443 - headtroller[.]pw 
+- 46.101.10[.]119 port 443 - antologymaster[.]pw
+- 46.101.10[.]119 port 443 - lokopotio[.]pw
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - www.intel.com
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - support.microsoft.com
+- port 443 - help.twitter.com
