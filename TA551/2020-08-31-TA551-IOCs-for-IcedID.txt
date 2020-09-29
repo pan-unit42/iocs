@@ -54,7 +54,7 @@ AT LEAST 8 DOMAINS HOSTING THE INSTALLER DLL:
 - wu4i4g[.]com - 45.10.110[.]21
 - x0hohx6[.]com - 78.40.219[.]55
 - xpe1qhe[.]com - 95.181.198[.]24
-- zloojq[.].com - 95.181.198[.]245
+- zloojq[.]com - 95.181.198[.]245
 
 GET REQUESTS FOR THE INSTALLER DLL:
 
