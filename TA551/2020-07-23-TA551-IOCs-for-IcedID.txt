@@ -109,4 +109,4 @@ C2 DOMAINS FOR ICEDID EXE:
 
 - 194.5.249[.]122 port 443 - passiopersio[.]top 
 - 194.5.249[.]122 port 443 - iskuliokilo[.]pw
-- 194.5.249[.]122 port 443 - betfrosner[.]best
+- 194.5.249[.]122 port 443 - betafrosner[.]best
