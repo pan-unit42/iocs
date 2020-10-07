@@ -1,0 +1,169 @@
+2020-10-06 (TUESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+45 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 431bfa5f974578a2e8f10ead49638ea60670ef07cbd895837b59e7025064f5aa  bid,010.20.doc
+- 0a4c4e460be7220e509682d1496f8dfca0512fbe69c953955a5686d7f0aeda36  bid-010.20.doc
+- 534c78e32c30fa4ac456bdc88b0666880e30b588ff1ad0bebc09ec3dcb3eb720  certificate_010.06.20.doc
+- 2270193cfb47e7f7497c558ad4cdcf6dcac5931513097327ea0b2cd129151b09  certificate_010.20.doc
+- 9e92e5cb6e85d4772f56f99db259c621314255229e6edaa659f17430a4e732a3  charge-010.20.doc
+- 50527489cf1361e6d7d63b3b2fb3d9da06e31faf3c2ef7be9d1a0835a321e0d6  command,010.20.doc
+- b866e851733e1ccbf736c501d0197c22cf721533fce9bc00c5becd0f355e5381  command_010.06.2020.doc
+- ff61c16c59c52fec935b59d5f1fa7ca6e20113d469340550cde56ae670704430  commerce -010.20.doc
+- 3e1c02842daad8422e0f23148d0337cbc681f5e48b177df05ee9da915f9826ca  decree.010.06.2020.doc
+- d6dafe07ef823a3551ab67bf71fd36dfb17929cbf02c1914532af8f02295bf32  deed contract_010.06.2020.doc
+- a45f08e444ec5ab38dd21fbc4bff054bdc4768a110235b90b919c1647ab9e6da  deed contract_010.20.doc
+- 704288e2e6bbebcae69477c234cffd115d2a00518dc3a716881791bb9d4b12ac  details_010.20.doc
+- b6847fc3d1bec1d9740257b94f56733ca40d3a539d0a870c8f8a837558b3b0d5  dictate,010.06.2020.doc
+- fc38174f4b9668f5efbd956ce032e4299d898ceb4396640ee84fb224dccc9b26  docs.010.20.doc
+- 70232e88441e3a7dd48656817f54723947fbbf334d074769fd4f8da85e3ae866  document-010.06.2020.doc
+- 8a73a4ab80d3ae6a1bb55a3581b813b8289f5f0e5f619ca35ba45cf7f89933dc  documents 010.20.doc
+- 2ffbda45a53f332c15b7150b421f092d668ba2d67b857ec5fca9ff644119d9cc  documents,010.06.2020.doc
+- dc717e036cdc1fff7b012d13dd2e6dfb62bfd15f33744c9daeb8a1ec491a8d2a  enjoin_010.06.2020.doc
+- 9d86deb9836db0b17914005f637cb0515cbaebc2fe6cf889c9eb7f1b0dfec129  facts.010.20.doc
+- 683ce06668b500217960653b571dbff8a8287aeca1e891b8df9755727c403422  file 010.20.doc
+- 40648a3a0ec4b2d33e7fb98b6523f1d12c904faabe10c70526574a7984102616  files,010.06.2020.doc
+- bf08ff27b6480193875672afe9b498b33e4fd077ef0da7d85bab2095eb1f7c26  files,010.20.doc
+- f81ed18362be7fce6fe61bb4b4fbd96765f04ce2b366a774afbb8f92769cb877  files-010.20.doc
+- 6492cbbf580dc9d37b5d0f91fb8f6425e87b509e2c8b0ddf4ea1632c1acdd32c  input-010.20.doc
+- f0368432f49de4ce76f719ac9e53ee61d3ab45bd1c00597467196517f19a3cd0  instruct 010.20.doc
+- 02a174bef2e63a33bdd8cf93c1d5ea62ab2b7482e3b75edea4e0144d4c4579fa  instruct,010.20.doc
+- 3c4e0d252706d2ef75d5f86af19fdd28dc1d5ad4f1e6f2ea9cd5bdb2355ed15c  instruct-010.20.doc
+- 2b8e1ec97ce21d3a69355a525405eebda33f90e942747a72985239f25d7854c8  instruct.010.20.doc
+- ecef41b08fcca5abcb3a8aa628bceaed3929b51e09bf7c26e5700158c962d159  instruct_010.20.doc
+- 0a3e21a54bd3152f1ec479adcb5ac1edf89aaef8661a0d46af00c886de053e63  legal agreement 010.06.20.doc
+- 3ed8b7dbf5d863f8e1361b551a3ac040c84a72e272e2c64859e7128e1e87a9b2  legal agreement.010.06.20.doc
+- 6e4703fec2313fd04a6167a2716bf165beacba085e0b35e87588010c595f18f8  legislate_010.20.doc
+- bbe00e3255ec5bf1a308eef647bd88df78038a32c351527f8374756285793040  ordain 010.20.doc
+- 6ec4be3ee77a59db16e27e1a36956d58771563027e702f30fef5d50d0c93adaa  order-010.20.doc
+- 88858ec1b90694966521e56ba01322874e293d6b0e8a1d70bc3db166d6555d0e  order_010.20.doc
+- c3e11e5c7df90d1f6294f88c663b5542614bc45bb0b467c533d99d5b90f71dc4  particulars,010.20.doc
+- f89a55cd43517e173d3f976f7fd17cf339fff5b172438f867d0d49eb0deaf91c  particulars-010.20.doc
+- ead6a41319e80a5b4de5ae234857d6f6d97082bfedc8f4f041ad090e3b1d7f77  particulars.010.20.doc
+- e9d2b3cfe2f9deb6f7d87e09bc695a5c2292805f9e7152167e4d4a70dba521e8  particulars_010.20.doc
+- 109d0a129bc518fd11f32a1b9dcafff0fd920a895619f0062d892515e261dda1  prescribe  010.20.doc
+- 9defc9878acfa98e1fa94b03fd3b51d63707d9a3bc6e61dbc43fdb9c3ddab044  prescribe ,010.20.doc
+- 9fd134f99a5626ac2e84aa2d317de634f2a909cc85bfef297b1b734baf39b8d2  rule,010.20.doc
+- ef308d654946436d66b1869894c54a613197829dd282e8cfe98110565731fe56  specifics.010.06.2020.doc
+- e18cbdedfd7bd16c2acb759e88e4cfb049a9cceac765649ea80bcd855c365b89  specifics.010.20.doc
+- 9272ab8aa5a5a8ddc0f475c4571c54f79da24a679d6e6e3a2ebadca71667cb91  statistics 010.06.2020.doc
+
+AT LEAST 12 DOMAINS HOSTING THE INSTALLER DLL:
+
+- a020dxl[.]com - 193.201.126[.]200
+- f9i9n4t[.]com - 37.46.131[.]168
+- fl9o7m0[.]com - 193.38.55[.]40
+- fwpxcm9[.]com - 45.12.5[.]75
+- gckppms[.]com - 83.166.245[.]77
+- hhy5lu[.]com - 95.213.224[.]118
+- jdsjheu[.]com - 45.12.5[.]75
+- o7s3dv4[.]com - 45.128.207[.]40
+- pu1gsz[.]com - 185.118.164[.]179
+- ptjtnr[.]com - 89.223.100[.]185
+- satkwx[.]com - 77.222.52[.]69
+- wgvo4o[.]com - 149.154.70[.]84
+
+URLS FOR INSTALLER DLL:
+
+- GET /gosy/dyxyd.php?l=zuhag1.cab
+- GET /gosy/dyxyd.php?l=zuhag2.cab
+- GET /gosy/dyxyd.php?l=zuhag3.cab
+- GET /gosy/dyxyd.php?l=zuhag4.cab
+- GET /gosy/dyxyd.php?l=zuhag5.cab
+- GET /gosy/dyxyd.php?l=zuhag6.cab
+- GET /gosy/dyxyd.php?l=zuhag7.cab
+- GET /gosy/dyxyd.php?l=zuhag8.cab
+- GET /gosy/dyxyd.php?l=zuhag9.cab
+- GET /gosy/dyxyd.php?l=zuhag10.cab
+- GET /gosy/dyxyd.php?l=zuhag11.cab
+- GET /gosy/dyxyd.php?l=zuhag12.cab
+- GET /gosy/dyxyd.php?l=zuhag13.cab
+- GET /gosy/dyxyd.php?l=zuhag14.cab
+- GET /gosy/dyxyd.php?l=zuhag15.cab
+- GET /gosy/dyxyd.php?l=zuhag16.cab
+- GET /gosy/dyxyd.php?l=zuhag17.cab
+- GET /gosy/dyxyd.php?l=zuhag18.cab
+
+10 EXAMPLES OF INSTALLER DLLS:
+
+- 1ad81eef947a9c7139a1e74494752bddfa0216563d95a24e66853d85acb9539e
+- 42f6fe266901fd268d8389bd98537d6a948b3dcb023d4a45dc843ae96286d8eb
+- 4f9e84cf761fb4a7c1b392c8157611c8bcf64b911f471e536f37e380240abc9b
+- 7e1177e1adeb226420c3a63b517bc1c658368c9eb42b8c6bf3c28c6343412bf7
+- 88dd2fb9d2e87fde86e7a7b87b84ff3e3ef8c2df2282fa8f00882a20db4314ab 
+- adedd05245a70330fb96846b9540ab45d0f4193234a72d9fce350e481d95737f
+- b129e54663b552b462e5765f6f6fbf529a657b36e47e929341503b1fe986befa
+- e431ab561e3193b0ba9a8e597d77a4c2d4e8524f48482f00e0a5abf32e78fc2f
+- fbe6e66a389307bc6914bcb21b4827648c47a8a3de7fef18f8ad82422f1dfeb3
+- fbff2d5e54e9ac43ca1c749a10242b6ae119d6dc555caeda6288fbc2252fea0f
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\JsTOE.pdf
+- C:\ProgramData\KTfCt.pdf
+- C:\ProgramData\vzlly.pdf
+- C:\ProgramData\KLHGS.pdf
+- C:\ProgramData\Aelbj.pdf
+- C:\ProgramData\FheqX.pdf
+- C:\ProgramData\KFpFM.pdf
+- C:\ProgramData\RZxGk.pdf
+- C:\ProgramData\WMEez.pdf
+- C:\ProgramData\wQZrK.pdf
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+AT LEAST 3 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 161.35.111[.]71 port 443 - loadgiga[.]click - GET /background.png
+- 161.35.111[.]71 port 443 - ldrforce[.]click - GET /background.png
+- 161.35.111[.]71 port 443 - ldraccumuu[.]fit - GET /background.png
+
+MALWARE/ARTIFACTS FROM INFECTED WINDOWS HOSTS: 
+
+- SHA256 hash: 29e2518acbe312e574dd0d21551b785a5ce117723f8159d9307a4cfd73c267f0
+- Location: C:\Users\[username]\AppData\Local\Temp\~511390.tmp
+- Description: PNG file with encoded data used by DLL installer to create initial IcedID EXE (first run)
+
+- SHA256 hash: 2416e7f3ccd0ff606c0d60d73d4f441e2e8c7f6d8151156185d273290307a877
+- Location: C:\Users\[username]\AppData\Local\Temp\~923281.tmp
+- Description: PNG file with encoded data used by DLL installer to create initial IcedID EXE (second run)
+
+- SHA256 hash: 6c3b6c4f16e2c1fbfd133b261b7100d539651b5643b59c04ce9a4faf3b65d922
+- Location: C:\Users\[username]\AppData\Local\Temp\~607843.exe
+- Location: C:\Users\[username]\AppData\Local\Temp\~1019656.exe
+- Description: Initial IcedID EXE (both runs)
+
+- SHA256 hash: 5d46d292a417c5d8fc8b7fbd5d7a1f41d74aab02a4751db12e0edd617665abc3
+- Location: C:\Users\[username]\AppData\Roaming\{0EFE5317-6180-F77F-0C12-50410DB6D2FD}\[username]\Ufujasac.png
+- Description: another PNG file with encoded data used during the infection process (both runs)
+
+- SHA256 hash: 9c3ee16288af89bed69166f1e1690769f0b563c2c2ef1277c6dceaec514e3652
+- Location: C:\Users\[username]\AppData\Roaming\{F3570948-C000-BB41-7BA7-1239225F707C}\jiojcodc.exe
+- Description: IcedID EXE persistent on the infected Windows host (first run)
+
+- SHA256 hash: f8f351415ee7c63613aede4a8b4642c2afa432396ef5f949a1b8e6a58210f41e
+- Location: C:\Users\[username]\AppData\Local\Vaju64\vomuqesp1.exe
+- Description: IcedID EXE persistent on the infected Windows host (second run)
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY ICEDID EXE FILES:
+
+- 91.235.116[.]132 port 443 - rufepuksuka[.]cyou
+- 91.235.116[.]132 port 443 - holubicoklire[.]top
+- 91.235.116[.]132 port 443 - sepneretyiu[.]cyou
+- 91.235.116[.]132 port 443 - donmekyrm[.]top
+- [did not resolve to an IP address] - uzhokpidarok[.]cyou
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY AN INSTALLER DLL SUCCESSFULLY RUNNING:
+
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - www.intel.com
+- port 443 - help.twitter.com
+- port 443 - support.microsoft.com
+- port 443 - support.apple.com
