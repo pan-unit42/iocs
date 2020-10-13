@@ -1,0 +1,145 @@
+2020-10-13 (TUESDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+22 EXAMPLES OF TA551 WORD DOCS WITH MACROS FOR ICEDID:
+
+- d90cac341ea9f377a9a20b2cc2f098956a2b09c1a423a82de9af0fa91f6d777c  bid_010.20.doc
+- f6fcd5702a73bba11f71216e18e452c0a926c61b51a4321314e4cdbebf651bf4  certificate-010.13.20.doc
+- a0224c5fd2cfd0030f9223cc84aef311f7cc320789ca59d4f846dbc383310dce  charge.010.13.20.doc
+- 121451c0538037e6e775f63aa57cd5c071c8e2bf1bda902ab5acbefd99337ebb  command.010.20.doc
+- d220e39e4cfac20fcffdecafc1ccfd321fecd971e51f0df9a4df267c3a662cbe  command_010.20.doc
+- 4cdbcfdd9deec0cd61152f2e9e1ba690640dc0bf3c201a42894abcf37c961546  commerce -010.20.doc
+- 9fa50c60e8dda3f9207e6f5d156df5f9bedd9e1b8a2837861b39245052f27482  decree,010.13.2020.doc
+- 4d0defd5dc6f7691c9b3f06ec2b79694c58f9835e5dec65ad7185957fae44081  details.010.13.2020.doc
+- b81b017a518c71ecc83835f31c3bc9dd9f0fac2bc0fa4f07bd0abff75f507d91  direct-010.20.doc
+- d7eb2833615397fd9c7538c1f31c408e3548d50baaca109f5136b14a424aa1ba  enjoin,010.13.20.doc
+- cf6b55d6cdeee06d03c197eebcdb5e7c9fe8277e5e626426610305192dcf0b00  enjoin_010.13.2020.doc
+- 4dadeaa387616bfc80eb61f521d7a4cb03f6055a64811eaab9c2429723d62823  file 010.13.2020.doc
+- 67e502cc48b587f78ee637cd7f522f2ea6026bbe87921ecd43e0fae11c64f775  instruct-010.20.doc
+- 35fe201a9da94441c3375106dd75c09de9c281b5a1de705448f76ed5a83978ad  instrument indenture-010.13.2020.doc
+- 0d6f7dbd45829aa73f0258440816fdb259599a64df328664ca4714cde5dd4968  intelligence 010.13.2020.doc
+- 6dc7a98930d5541fc9a01f8f71a2c487c51bb8391627a1e16a81d1162c179e80  legal agreement-010.13.2020.doc
+- 2cdbd4ac39b64abd42931d7c23dd5800ca0be0bcd0e871cf0c5e065786437619  official paper-010.20.doc
+- 2d934205d70f10534bb62e059bab4eb2e8732514f7e6874cb9588b2627210594  prescribe .010.20.doc
+- 96f991df625e19fb3957dafe0475035dd5e6d04c7ff7dad819cc33a69bcde1c9  question-010.13.2020.doc
+- 5e3c9cd19c33b048736ccaecf0ebbbab51960cdc5c618970daa6234236c0db01  question.010.20.doc
+- 64567431faf0e14dacab56c8b3d7867e7d6037f1345dc72d67cd1aff208b6ca7  report 010.13.2020.doc
+- 34b84e76d97cf18bb2d69916ee61dbd60481c45c9ac5c7e358e7f428b880859f  rule_010.13.2020.doc
+
+AT LEAST 12 DOMAINS HOSTING THE INSTALLER DLL:
+
+- aqdcyy[.]com - 185.66.14[.]66
+- akfumi[.]com - 193.187.175[.]114
+- ar99xc[.]com - 194.31.237[.]158
+- bn50bmx[.]com - 45.153.75[.]33
+- h4dv4c1w[.]com - 94.250.255[.]189
+- krwrf1[.]com - 78.155.205[.]102
+- mbc8xtc[.]com - 193.201.126[.]251
+- osohc6[.]com - 45.150.64[.]70
+- pdtcgw[.]com - 45.89.67[.]166
+- qczpij[.]com - 194.120.24[.]6
+- t72876p[.]com - 178.250.156[.]128
+- vwofdq[.]com - 80.85.157[.]227
+
+URLS FOR ICEDID DLL:
+
+- GET /ryfu/bary.php?l=konu1.cab
+- GET /ryfu/bary.php?l=konu2.cab
+- GET /ryfu/bary.php?l=konu3.cab
+- GET /ryfu/bary.php?l=konu4.cab
+- GET /ryfu/bary.php?l=konu5.cab
+- GET /ryfu/bary.php?l=konu6.cab
+- GET /ryfu/bary.php?l=konu7.cab
+- GET /ryfu/bary.php?l=konu8.cab
+- GET /ryfu/bary.php?l=konu9.cab
+- GET /ryfu/bary.php?l=konu10.cab
+- GET /ryfu/bary.php?l=konu11.cab
+- GET /ryfu/bary.php?l=konu12.cab
+- GET /ryfu/bary.php?l=konu13.cab
+- GET /ryfu/bary.php?l=konu14.cab
+- GET /ryfu/bary.php?l=konu15.cab
+- GET /ryfu/bary.php?l=konu16.cab
+- GET /ryfu/bary.php?l=konu17.cab
+- GET /ryfu/bary.php?l=konu18.cab
+
+
+25 EXAMPLES OF ICEDID INSTALLER DLLS:
+
+- aee6295dab6fd012e5bd1ee352317e56bef5789e2e83e7d5cc743161cedd957b
+- 121494579fe7d4be119875fa31aa8b573911a797d528e1819d42373e5380bf18
+- 23e672e1c94cc4dc6af971fc62c0ec84c3bcf38e997acd9bea1bea72d707e46a
+- 2ec72eeec8a8187faae32a8e8ba14bb6b17634f172fe834ccdf5b1f0b5ecda6f
+- 2f5e079f3548f68e0b597b439ac37cfde4d05d2c151a402c4953a777e4c3a5d4
+- 3957edd82568c0a36a640bcf97ac6c2c8a594007702641c9879799ca6173247e
+- 3d34785f2f6c2f6e58e7372104e74ceac405f58427785f654d39136182d7cb5d
+- 435fb59379dcbbc4831926f93196705de81fa9ee6c7e106fe99d4ffd58f8fd28
+- 463a0a1424b898c1965fb52a4a5fa8082014fb39bcdaab4c661989fffcaa0109
+- 53f94437c76cb9b5b4153fc36e38c34cf067cc8bce091505729a3ba507199c74
+- 63d55128088857806534c494ecb3f451354b1601a09ee3485300881c286351b7
+- 75ecd5d9f78fbcc887e9ee5559c4a470eacdbffb248f63a2008ad91dd1d5947f
+- 7bbfd3cdb378e8b5b966dcd76b83f1c4ed9004db4843d4ea4aef3cece3e04a67
+- 8e0aa02ea34b646cef7bd9c2f5092b1bc0c6e287c846c0874bb4332dd210a323
+- 8e342676ea2bb2cee9720ee731351bf380e109b773899ad8bdcdea965885b97d
+- c3c2fc97f5cbcdbf6940294d29d7b20fa587731e0ed34a3df9ffc60c6983cdad
+- c89b21e536599a0cbc96605fd8300c9d4797f67addcc4699f808cb07085c8725
+- cfdf1496a343c26a1d779cef6adf80f716b1334f01d48dfaef9ce4a6dc484020
+- d4da7382398a212b943aa7c18543e2c43d5867171371598e328cc0c3a2c27232
+- dba569d0cd4f2290c6fe272d7320ed5d88c99bf8a9eb5e393fc9063320b7b1de
+- dc3423e1039424f90a5c43e578fbf2761b22dc844d5b00864842d813874b51ec
+- e5294c852f5c8e914f3113446c90860b6273ca8f170652ca999fed8e8f856fa8
+- ecaca9ae95e94dbc976c80721085e6fc8ae36d47e905d784fcc3d178275d9de0
+- f46e785f0c2f4def40c95368853599d405294f52371d11998ab229193353c123
+- f58d50deb7d8017efa4d9a4c772b1c400f1d8f2ad31b7bd8efdaaf6d11d70233
+
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\adSDv.txt
+- C:\ProgramData\BNogX.txt
+- C:\ProgramData\CCbhU.txt
+- C:\ProgramData\Cxvdv.txt
+- C:\ProgramData\gJUdx.txt
+- C:\ProgramData\kkDXV.txt
+- C:\ProgramData\MNpGJ.txt
+- C:\ProgramData\MrUJO.txt
+- C:\ProgramData\pxNfw.txt
+- C:\ProgramData\qteNy.txt
+- C:\ProgramData\VPPOy.txt
+- C:\ProgramData\VUccN.txt
+- C:\ProgramData\WLOTG.txt
+- C:\ProgramData\xJGCG.txt
+- C:\ProgramData\yPWvE.txt
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - www.intel.com
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - support.microsoft.com
+- port 443 - help.twitter.com
+
+AT LEAST 2 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 134.209.25[.]122 port 443 - jazzcity[.]top - GET /background.png
+- 161.35.111[.]71 port 443 - ldrpeset[.]casa - GET /background.png
+
+2 EXAMPLES OF SHA256 HASHES FOR ICEDID EXE CREATED BY ICEDID INSTALLER:
+
+- afd16577794eab427980d06631ccb30b157600b938376cc13cd79afd92b77d0e (initial)
+- 48c44bfd12f93fdd1c971da0c38fc7ca50d41ca383406290f587c73c27d26f76 (persistent)
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID EXE FILES:
+
+- 143.110.176[.]28 - port 443 - minishtab[.]cyou
+- 143.110.176[.]28 - port 443 - novemberdejudge[.]cyou
+- 143.110.176[.]28 - port 443 - xoxofuck[.]cyou
+- 143.110.176[.]28 - port 443 - suddekaster[.]best
+- 143.110.176[.]28 - port 443 - sryvplanrespublican[.]cyou
