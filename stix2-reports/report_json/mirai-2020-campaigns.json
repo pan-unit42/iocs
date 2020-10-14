@@ -1,0 +1,840 @@
+{
+  "type": "bundle",
+  "id": "bundle--ae149d62-8a8d-4b38-b0dd-597731217baf",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--ae149d62-8a8d-4b38-b0dd-597731217baf",
+      "created": "2020-09-22T14:15:14.340Z",
+      "modified": "2020-10-13T16:41:52.318Z",
+      "name": "Mirai",
+      "description": "Unit 42 researchers have taken a closer look at a few Mirai variants from two recently discovered campaigns leveraging command injection vulnerability exploits that reveal a familiar IoT attack pattern.\nThis blog will cover the Mirai variants associated with the two exploits, along with a brief analysis of the exploits and the Palo Alto Networks solutions to these types of threats.",
+      "published": "2020-10-13T16:41:52.318Z",
+      "object_refs": [
+        "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+        "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+        "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+        "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+        "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+        "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+        "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+        "course-of-action--4fde129d-ab6f-4c82-89f2-499a34b2a7f1",
+        "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+        "course-of-action--9352128e-2dbe-4621-8800-9e7cc17336e3",
+        "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+        "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+        "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+        "course-of-action--c9efabbf-c21b-4213-a192-6a8e3b3a0905",
+        "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+        "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+        "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+        "indicator--0d3be14c-f121-46bc-ba79-fb97200c99f5",
+        "indicator--115021f0-65e6-4e73-a7d6-ff01902ee168",
+        "indicator--1412903d-7d04-436b-8388-19a65585677a",
+        "indicator--18250910-58c2-412f-bfb4-ec0a0a4f04d1",
+        "indicator--1e3d7524-a35c-4fcd-9a1b-cecd9411306b",
+        "indicator--56a55448-4d9c-40cc-bc68-d1745e0541b2",
+        "indicator--577e0f14-39d3-46c2-af4a-dd920f165269",
+        "indicator--59b6b363-c3cd-430a-bcfc-0f91e1be8d45",
+        "indicator--68d2550d-8613-4653-b9c1-ecc6023399ef",
+        "indicator--83b7ce36-3e58-464b-8cc1-739f6786d6d2",
+        "indicator--a9ead943-1740-4e99-8daa-e8b65fdcc8f0",
+        "indicator--b037dd11-6113-450c-9fd7-0454deecca6c",
+        "indicator--cad8fe75-2e9c-4c67-bc78-86fe62f7c6ce",
+        "indicator--ce1a6bdf-d5da-4189-8178-3d5e658cdaf9",
+        "indicator--ceb7a7bb-25cb-4f27-8698-757c0768b78c",
+        "indicator--d613e3de-9359-453e-80b6-962e702c4827",
+        "indicator--dded4804-59fc-439f-8236-bb48a95076de",
+        "indicator--e2f4a595-2d08-47ce-acdc-446f0b695cfa",
+        "indicator--e7def1ce-81ad-4d93-a5af-21fa28d79416",
+        "indicator--e8dddea6-0d83-418f-aab9-52217129cd8a",
+        "relationship--0aec62da-00e4-4476-8c6f-fd3b2d520e5f",
+        "relationship--0ee5ee72-1073-4158-bbd2-41f835d67a13",
+        "relationship--232147eb-a99e-4eaf-bd55-8888edf17503",
+        "relationship--28e0f672-f923-4bb9-835d-b490f0d48246",
+        "relationship--38b6b356-fc8d-49ba-a81e-05f29e388207",
+        "relationship--438e61bf-3747-46ba-99e5-d7e105dba6ec",
+        "relationship--4c2086b7-760d-4553-8927-cd8cd26eb3c6",
+        "relationship--57347f20-4477-4bad-9ccd-a93ff81d07d5",
+        "relationship--58576c8b-7e2f-4c83-b18e-8fc144ceda40",
+        "relationship--68839261-df89-40d0-ba63-9ef65f82f181",
+        "relationship--6bc9afb9-8ada-4471-b467-5e26bd6f46c9",
+        "relationship--7d87df2d-aa1a-41a0-95a8-3af01030f821",
+        "relationship--7e03ee4d-f6ff-4a49-8afd-0f5479ad48ec",
+        "relationship--88209a2b-9eaa-4816-b65c-4948b6cc455e",
+        "relationship--8e74df63-19f6-42b5-abcd-a4a85382ed13",
+        "relationship--9e9ad66b-0b59-404a-a93f-a755e9f1377a",
+        "relationship--ab9714fc-8402-4ccd-a285-b40a8d33ca26",
+        "relationship--ba7b551d-f084-47f1-aee0-b333cec89627",
+        "relationship--de0d47db-8fae-4f62-82e5-9a83c2d0c032",
+        "relationship--f1777eef-3d91-44a1-89d8-7d61a9db5d45",
+        "relationship--fce157db-2f38-4b7c-8430-69cbc7fa3925"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:38.428Z",
+      "name": "T1190: Exploit Public-Facing Application",
+      "description": "Adversaries may attempt to take advantage of a weakness in an Internet-facing computer or program using software, data, or commands in order to cause unintended or unanticipated behavior. The weakness in the system can be a bug, a glitch, or a design vulnerability. These applications are often websites, but can include databases (like SQL)(Citation: NVD CVE-2016-6662), standard services (like SMB(Citation: CIS Multiple SMB Vulnerabilities) or SSH), and any other applications with Internet accessible open sockets, such as web servers and related services.(Citation: NVD CVE-2014-7169) Depending on the flaw being exploited this may include [Exploitation for Defense Evasion](https://attack.mitre.org/techniques/T1211).\n\nIf an application is hosted on cloud-based infrastructure, then exploiting it may lead to compromise of the underlying instance. This can allow an adversary a path to access the cloud APIs or to take advantage of weak identity and access management policies.\n\nFor websites and databases, the OWASP top 10 and CWE top 25 highlight the most common web-based vulnerabilities.(Citation: OWASP Top 10)(Citation: CWE top 25)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "delivery"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "CIS Multiple SMB Vulnerabilities",
+          "url": "https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-microsoft-windows-smb-server-could-allow-for-remote-code-execution/",
+          "description": "CIS. (2017, May 15). Multiple Vulnerabilities in Microsoft Windows SMB Server Could Allow for Remote Code Execution. Retrieved April 3, 2018."
+        },
+        {
+          "source_name": "CWE top 25",
+          "url": "https://cwe.mitre.org/top25/index.html",
+          "description": "Christey, S., Brown, M., Kirby, D., Martin, B., Paller, A.. (2011, September 13). 2011 CWE/SANS Top 25 Most Dangerous Software Errors. Retrieved April 10, 2019."
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1190",
+          "external_id": "T1190"
+        },
+        {
+          "source_name": "NVD CVE-2014-7169",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2014-7169",
+          "description": "National Vulnerability Database. (2017, September 24). CVE-2014-7169 Detail. Retrieved April 3, 2018."
+        },
+        {
+          "source_name": "NVD CVE-2016-6662",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-6662",
+          "description": "National Vulnerability Database. (2017, February 2). CVE-2016-6662 Detail. Retrieved April 3, 2018."
+        },
+        {
+          "source_name": "OWASP Top 10",
+          "url": "https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project",
+          "description": "OWASP. (2018, February 23). OWASP Top Ten Project. Retrieved April 3, 2018."
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Monitor application logs for abnormal behavior that may indicate attempted or successful exploitation. Use deep packet inspection to look for artifacts of common exploit traffic, such as SQL injection. Web Application Firewalls may detect improper inputs attempting exploitation."
+      ],
+      "x_mitre_platforms": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "AWS CloudTrail logs",
+        "Application logs",
+        "Azure activity logs",
+        "Packet capture",
+        "Stackdriver logs",
+        "Web application firewall logs",
+        "Web logs"
+      ],
+      "x_mitre_contributors": [
+        "Praetorian"
+      ],
+      "x_mitre_version": "2.1"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:37.379Z",
+      "name": "T1059: Command and Scripting Interpreter",
+      "description": "Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries. These interfaces and languages provide ways of interacting with computer systems and are a common feature across many different platforms. Most systems come with some built-in command-line interface and scripting capabilities, for example, macOS and Linux distributions include some flavor of [Unix Shell](https://attack.mitre.org/techniques/T1059/004) while Windows installations include the [Windows Command Shell](https://attack.mitre.org/techniques/T1059/003) and [PowerShell](https://attack.mitre.org/techniques/T1059/001).\n\nThere are also cross-platform interpreters such as [Python](https://attack.mitre.org/techniques/T1059/006), as well as those commonly associated with client applications such as [JavaScript/JScript](https://attack.mitre.org/techniques/T1059/007) and [Visual Basic](https://attack.mitre.org/techniques/T1059/005).\n\nAdversaries may abuse these technologies in various ways as a means of executing arbitrary commands. Commands and scripts can be embedded in [Initial Access](https://attack.mitre.org/tactics/TA0001) payloads delivered to victims as lure documents or as secondary payloads downloaded from an existing C2. Adversaries may also execute commands through interactive terminals/shells.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "installation"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "execution"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1059",
+          "external_id": "T1059"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Command-line and scripting activities can be captured through proper logging of process execution with command-line arguments. This information can be useful in gaining additional insight to adversaries' actions through how they use native processes or custom tools. Also monitor for loading of modules associated with specific languages.\n\nIf scripting is restricted for normal users, then any attempt to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent.\n\nScripts are likely to perform actions with various effects on a system that may generate events, depending on the types of monitoring used. Monitor processes and command-line arguments for script execution and subsequent behavior. Actions may be related to network and system information discovery, collection, or other scriptable post-compromise behaviors and could be used as indicators of detection leading back to the source script."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "PowerShell logs",
+        "Process command-line parameters",
+        "Process monitoring",
+        "Windows event logs"
+      ],
+      "x_mitre_permissions_required": [
+        "User"
+      ],
+      "x_mitre_remote_support": "false",
+      "x_mitre_version": "2.0"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+      "name": "Ensure alerts are enabled for malicious files detected  by WildFire",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Configure WildFire to send an alert when a malicious or greyware file is detected. This alert could be sent by whichever means is preferable, including email, SNMP trap, or syslog message.\n\nAlternatively, configure the WildFire cloud to generate alerts for malicious files. The cloud can generate alerts in addition to or instead of the local WildFire implementation. Note that the destination email address of alerts configured in the WildFire cloud portal is tied to the logged in account, and cannot be modified. Also, new systems added to the WildFire cloud portal will not be automatically set to email alerts."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+      "name": "Ensure a Vulnerability Protection Profile is set to block attacks against critical and high vulnerabilities, and set to default on medium, low, and informational vulnerabilities",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "Configure a Vulnerability Protection Profile set to block attacks against any critical or high vulnerabilities, at minimum, and set to default on any medium, low, or informational vulnerabilities. Configuring an alert action for low and informational, instead of default, will produce additional information at the expense of greater log utilization.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.7",
+      "x_panw_coa_bp_title": "Ensure a Vulnerability Protection Profile is set to block attacks against critical and high vulnerabilities, and set to default on medium, low, and informational vulnerabilities",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure a Vulnerability Protection Profile set to block attacks against any critical or high vulnerabilities, at minimum, and set to default on any medium, low, or informational vulnerabilities. Configuring an alert action for low and informational, instead of default, will produce additional information at the expense of greater log utilization.",
+      "x_panw_coa_bp_rationale_statement": "A Vulnerability Protection Profile helps to protect assets by alerting on, or blocking, network attacks. The default action for attacks against many critical and high vulnerabilities is to only alert on the attack - not to block.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > Vulnerability Protection`.\n\nSet a Vulnerability Protection Profile to block attacks against any critical or high vulnerabilities (minimum), and to default on attacks against any medium, low, or informational vulnerabilities.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > Vulnerability Protection`.\n\nVerify a Vulnerability Protection Profile is set to block attacks against any critical or high vulnerabilities (minimum), and set to default on attacks against any medium, low, or informational vulnerabilities.",
+      "x_panw_coa_bp_impact_statement": "Not configuring a Vulnerability Protection Profile means that network attacks will not be logged, alerted on or blocked.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;TITLE:Deploy Network-Based Intrusion Prevention Systems CONTROL:v7 12.7 DESCRIPTION:Deploy network-based Intrusion Prevention Systems (IPS) to block malicious network traffic at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+      "name": "Ensure a WildFire Analysis profile is enabled for all security policies",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Ensure that all files traversing the firewall are inspected by WildFire by setting a Wildfire file blocking profile on all security policies."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+      "name": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.8",
+      "x_panw_coa_bp_title": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "x_panw_coa_bp_rationale_statement": "A Vulnerability Protection Profile helps to protect assets by alerting on, or blocking network attacks. By applying a secure Vulnerability Protection Profile to all security rules permitting traffic, all network traffic traversing the firewall will be inspected for attacks. This protects both organizational assets from attack and organizational reputation from damage.\n\nNote that encrypted sessions do not allow for complete inspection.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nSet it to use either the 'Strict' or the 'Default' profile, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nVerify either the 'Strict' or the 'Default' profile is selected, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
+      "x_panw_coa_bp_impact_statement": "Not configuring a Vulnerability Protection Profile means that network attacks will not be logged, alerted on or blocked.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;TITLE:Deploy Network-based IDS Sensor CONTROL:v7 12.6 DESCRIPTION:Deploy network-based Intrusion Detection Systems (IDS) sensors to look for unusual attack mechanisms and detect compromise of these systems at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Policies” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-policy.html:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "name": "Ensure 'Service setting of ANY' in a security policy allowing traffic does not exist",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create security policies specifying application-default for the Service setting, in addition to the specific ports desired. The Service setting of `any` should not be used for any policies that allow traffic."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--4fde129d-ab6f-4c82-89f2-499a34b2a7f1",
+      "name": "Cortex XDR - Isolate Endpoint",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:24.186Z",
+      "x_panw_coa_u42_id": "x.5",
+      "x_panw_coa_u42_title": "Cortex XDR - Isolate Endpoint"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+      "name": "Ensure 'WildFire Update Schedule' is set to download and install updates every minute",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Set the WildFire update schedule to download and install updates every minute."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--9352128e-2dbe-4621-8800-9e7cc17336e3",
+      "name": "Enable Anti-Exploit",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+      "name": "Ensure forwarding is enabled for all applications and file types in WildFire file blocking profiles",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Set Applications and File Types fields to any in WildFire file blocking profiles. With a WildFire license, seven file types are supported, while only PE (Portable Executable) files are supported without a license.\nFor the 'web browsing' application, the action 'continue' can be selected. This still forwards the file to the Wildfire service, but also presents the end user with a confirmation message before they receive the file. Selecting 'continue' for any other application will block the file (because the end user will not see the prompt).\nIf there is a 'continue' rule, there should still be an 'any traffic / any application / forward' rule after that in the list."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "name": "Ensure 'Security Policy' denying any/all traffic to/from IP addresses on Trusted Threat Intelligence Sources Exists",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a pair of security rules at the top of the security policies ruleset to block traffic to and from IP addresses known to be malicious.\n\nNote: This recommendation (as written) requires a Palo Alto 'Active Threat License'. Third Party and Open Source Threat Intelligence Feeds can also be used for this purpose."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+      "name": "Ensure all WildFire session information settings are enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Enable all options under Session Information Settings for WildFire."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--c9efabbf-c21b-4213-a192-6a8e3b3a0905",
+      "name": "Enable Anti-Malware Protection",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "name": "Ensure application security policies exist when allowing traffic from an untrusted zone to a more trusted zone",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "When permitting traffic from an untrusted zone, such as the Internet or guest network, to a more trusted zone, such as a DMZ segment, create security policies specifying which specific applications are allowed. \n\n**Enhanced Security Recommendation: **\nRequire specific application policies when allowing `any` traffic, regardless of the trust level of a zone. Do not rely solely on port permissions. This may require SSL interception, and may also not be possible in all environments."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+      "name": "Ensure that WildFire file size upload limits are maximized",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Increase WildFire file size limits to the maximum file size supported by the environment. An organization with bandwidth constraints or heavy usage of unique files under a supported file type may require lower settings.\nThe recommendations account for the CPU load on smaller platforms. If an organization consistently has CPU to spare, it's recommended to set some or all of these values to the maximum."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+      "name": "Ensure forwarding of decrypted content to WildFire is enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Allow the firewall to forward decrypted content to WildFire. Note that SSL Forward-Proxy must also be enabled and configured for this setting to take effect on inside-to-outside traffic flows."
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0d3be14c-f121-46bc-ba79-fb97200c99f5",
+      "created": "2020-09-22T14:19:57.388Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "05a5d6929031deed51f2c7ee8936d1e5b82db9126f746ed5e0be28a758675844",
+      "pattern": "[file:hashes.'SHA-256' = '05a5d6929031deed51f2c7ee8936d1e5b82db9126f746ed5e0be28a758675844']",
+      "valid_from": "2020-09-22T14:19:57.388Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--115021f0-65e6-4e73-a7d6-ff01902ee168",
+      "created": "2020-09-22T14:28:34.680Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "6f2f274639439174687b6368b795a999896f20fea9b8c203e4e3af9eeba4d53a",
+      "pattern": "[file:hashes.'SHA-256' = '6f2f274639439174687b6368b795a999896f20fea9b8c203e4e3af9eeba4d53a']",
+      "valid_from": "2020-09-22T14:28:34.680Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1412903d-7d04-436b-8388-19a65585677a",
+      "created": "2020-09-22T14:29:06.956Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "lol.thezone.vip",
+      "pattern": "[domain-name:value = 'lol.thezone.vip']",
+      "valid_from": "2020-09-22T14:29:06.956Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--18250910-58c2-412f-bfb4-ec0a0a4f04d1",
+      "created": "2020-09-22T14:22:38.971Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "13a0c95b6c23a9da188533fa7bf9e438bf74096a97df8d187cecaf579f72478d",
+      "pattern": "[file:hashes.'SHA-256' = '13a0c95b6c23a9da188533fa7bf9e438bf74096a97df8d187cecaf579f72478d']",
+      "valid_from": "2020-09-22T14:22:38.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1e3d7524-a35c-4fcd-9a1b-cecd9411306b",
+      "created": "2020-09-22T14:22:38.971Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "3eadc091b2eafd3c6d6195f20a6755084fa35b72dba9255dbdd0421a5f89380d",
+      "pattern": "[file:hashes.'SHA-256' = '3eadc091b2eafd3c6d6195f20a6755084fa35b72dba9255dbdd0421a5f89380d']",
+      "valid_from": "2020-09-22T14:22:38.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--56a55448-4d9c-40cc-bc68-d1745e0541b2",
+      "created": "2020-09-22T14:29:06.956Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "xyz.hxarasxg.xyz",
+      "pattern": "[domain-name:value = 'xyz.hxarasxg.xyz']",
+      "valid_from": "2020-09-22T14:29:06.956Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--577e0f14-39d3-46c2-af4a-dd920f165269",
+      "created": "2020-10-08T21:10:46.863Z",
+      "modified": "2020-10-13T15:44:39.935Z",
+      "name": "185.172.110.199",
+      "pattern": "[ipv4-addr:value = '185.172.110.199']",
+      "valid_from": "2020-10-08T21:10:46.863Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--59b6b363-c3cd-430a-bcfc-0f91e1be8d45",
+      "created": "2020-09-22T14:23:25.749Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "12a1a6f1368c60452e9b0732199521b3c786356bb2cb98289abe8b0c9772940e",
+      "pattern": "[file:hashes.'SHA-256' = '12a1a6f1368c60452e9b0732199521b3c786356bb2cb98289abe8b0c9772940e']",
+      "valid_from": "2020-09-22T14:23:25.749Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--68d2550d-8613-4653-b9c1-ecc6023399ef",
+      "created": "2020-09-22T14:19:57.388Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "1b45cf0e6663aa736a2296ff753d8261032b80effcf6b0c4da2f836c2df48f2b",
+      "pattern": "[file:hashes.'SHA-256' = '1b45cf0e6663aa736a2296ff753d8261032b80effcf6b0c4da2f836c2df48f2b']",
+      "valid_from": "2020-09-22T14:19:57.388Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--83b7ce36-3e58-464b-8cc1-739f6786d6d2",
+      "created": "2020-09-22T14:29:06.956Z",
+      "modified": "2020-10-13T15:44:39.935Z",
+      "name": "185.61.137.165",
+      "pattern": "[ipv4-addr:value = '185.61.137.165']",
+      "valid_from": "2020-09-22T14:29:06.956Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a9ead943-1740-4e99-8daa-e8b65fdcc8f0",
+      "created": "2020-09-22T14:23:25.749Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "c7b846783d8704fa22ba06208066ef4cbde8cb48e07c24fea4cdefc9ba117b3c",
+      "pattern": "[file:hashes.'SHA-256' = 'c7b846783d8704fa22ba06208066ef4cbde8cb48e07c24fea4cdefc9ba117b3c']",
+      "valid_from": "2020-09-22T14:23:25.749Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b037dd11-6113-450c-9fd7-0454deecca6c",
+      "created": "2020-09-22T14:23:25.749Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "34fe9ec63e0861a40dd44468fd79d8fa97df0de2b3a70a42de3c26ebfdfea14c",
+      "pattern": "[file:hashes.'SHA-256' = '34fe9ec63e0861a40dd44468fd79d8fa97df0de2b3a70a42de3c26ebfdfea14c']",
+      "valid_from": "2020-09-22T14:23:25.749Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cad8fe75-2e9c-4c67-bc78-86fe62f7c6ce",
+      "created": "2020-08-18T13:52:33.218Z",
+      "modified": "2020-10-13T15:44:39.935Z",
+      "name": "78.142.18.20",
+      "pattern": "[ipv4-addr:value = '78.142.18.20']",
+      "valid_from": "2020-08-18T13:52:33.218Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ce1a6bdf-d5da-4189-8178-3d5e658cdaf9",
+      "created": "2020-09-22T14:29:06.956Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "dotheneedfull.xyz",
+      "pattern": "[domain-name:value = 'dotheneedfull.xyz']",
+      "valid_from": "2020-09-22T14:29:06.956Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ceb7a7bb-25cb-4f27-8698-757c0768b78c",
+      "created": "2020-09-22T14:22:38.971Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "99408a1a1c40a4db4cfde0f17a6791f16ca102c26ecda8f44501d03541d4b2b2",
+      "pattern": "[file:hashes.'SHA-256' = '99408a1a1c40a4db4cfde0f17a6791f16ca102c26ecda8f44501d03541d4b2b2']",
+      "valid_from": "2020-09-22T14:22:38.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d613e3de-9359-453e-80b6-962e702c4827",
+      "created": "2020-09-22T14:22:38.971Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "94d2caf1b122583a9c3a17b24a0ed6efbc34491c79de231072989eaf938c3985",
+      "pattern": "[file:hashes.'SHA-256' = '94d2caf1b122583a9c3a17b24a0ed6efbc34491c79de231072989eaf938c3985']",
+      "valid_from": "2020-09-22T14:22:38.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dded4804-59fc-439f-8236-bb48a95076de",
+      "created": "2020-09-22T14:29:06.956Z",
+      "modified": "2020-10-13T15:44:39.935Z",
+      "name": "80.82.78.85",
+      "pattern": "[ipv4-addr:value = '80.82.78.85']",
+      "valid_from": "2020-09-22T14:29:06.956Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e2f4a595-2d08-47ce-acdc-446f0b695cfa",
+      "created": "2020-09-22T14:19:57.388Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "7a1a49c077c0600cec0985456c8134196c7e6a09811576896eedd20c03fca9b9",
+      "pattern": "[file:hashes.'SHA-256' = '7a1a49c077c0600cec0985456c8134196c7e6a09811576896eedd20c03fca9b9']",
+      "valid_from": "2020-09-22T14:19:57.388Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e7def1ce-81ad-4d93-a5af-21fa28d79416",
+      "created": "2020-09-22T14:19:57.388Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "96f3b93b2b4560bbcfc0dbcbcc490d6914eb674d2f745197761ec73121b2f0d9",
+      "pattern": "[file:hashes.'SHA-256' = '96f3b93b2b4560bbcfc0dbcbcc490d6914eb674d2f745197761ec73121b2f0d9']",
+      "valid_from": "2020-09-22T14:19:57.388Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8dddea6-0d83-418f-aab9-52217129cd8a",
+      "created": "2020-09-22T14:19:57.388Z",
+      "modified": "2020-10-13T15:51:22.000Z",
+      "name": "bae705d860eb190edb7512bc4c9e240b79009ba15464134c0b09e01a4d9c7853",
+      "pattern": "[file:hashes.'SHA-256' = 'bae705d860eb190edb7512bc4c9e240b79009ba15464134c0b09e01a4d9c7853']",
+      "valid_from": "2020-09-22T14:19:57.388Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--0aec62da-00e4-4476-8c6f-fd3b2d520e5f",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--0ee5ee72-1073-4158-bbd2-41f835d67a13",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:11.074Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--c9efabbf-c21b-4213-a192-6a8e3b3a0905",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--232147eb-a99e-4eaf-bd55-8888edf17503",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--28e0f672-f923-4bb9-835d-b490f0d48246",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--38b6b356-fc8d-49ba-a81e-05f29e388207",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--438e61bf-3747-46ba-99e5-d7e105dba6ec",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--4c2086b7-760d-4553-8927-cd8cd26eb3c6",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--57347f20-4477-4bad-9ccd-a93ff81d07d5",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--9352128e-2dbe-4621-8800-9e7cc17336e3",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--58576c8b-7e2f-4c83-b18e-8fc144ceda40",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:11.074Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--9352128e-2dbe-4621-8800-9e7cc17336e3",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--68839261-df89-40d0-ba63-9ef65f82f181",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--4fde129d-ab6f-4c82-89f2-499a34b2a7f1",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--6bc9afb9-8ada-4471-b467-5e26bd6f46c9",
+      "created": "2020-10-13T15:44:40.912Z",
+      "modified": "2020-10-14T18:14:10.374Z",
+      "relationship_type": "uses",
+      "description": "185.172.110.199",
+      "source_ref": "indicator--577e0f14-39d3-46c2-af4a-dd920f165269",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--7d87df2d-aa1a-41a0-95a8-3af01030f821",
+      "created": "2020-10-13T15:44:40.912Z",
+      "modified": "2020-10-14T18:14:10.374Z",
+      "relationship_type": "uses",
+      "description": "80.82.78.85",
+      "source_ref": "indicator--dded4804-59fc-439f-8236-bb48a95076de",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--7e03ee4d-f6ff-4a49-8afd-0f5479ad48ec",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--88209a2b-9eaa-4816-b65c-4948b6cc455e",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--8e74df63-19f6-42b5-abcd-a4a85382ed13",
+      "created": "2020-10-13T15:44:40.912Z",
+      "modified": "2020-10-14T18:14:10.374Z",
+      "relationship_type": "uses",
+      "description": "78.142.18.20",
+      "source_ref": "indicator--cad8fe75-2e9c-4c67-bc78-86fe62f7c6ce",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--9e9ad66b-0b59-404a-a93f-a755e9f1377a",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--ab9714fc-8402-4ccd-a285-b40a8d33ca26",
+      "created": "2020-10-13T15:44:40.912Z",
+      "modified": "2020-10-14T18:14:10.374Z",
+      "relationship_type": "uses",
+      "description": "185.61.137.165",
+      "source_ref": "indicator--83b7ce36-3e58-464b-8cc1-739f6786d6d2",
+      "target_ref": "attack-pattern--7385dfaf-6886-4229-9ecd-6fd678040830"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--ba7b551d-f084-47f1-aee0-b333cec89627",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--de0d47db-8fae-4f62-82e5-9a83c2d0c032",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f1777eef-3d91-44a1-89d8-7d61a9db5d45",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--fce157db-2f38-4b7c-8430-69cbc7fa3925",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:24.187Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--c9efabbf-c21b-4213-a192-6a8e3b3a0905",
+      "target_ref": "attack-pattern--3f886f2a-874f-4333-b794-aa6075009b1c",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    }
+  ]
+}

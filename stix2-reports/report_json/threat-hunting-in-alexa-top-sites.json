@@ -1,0 +1,1801 @@
+{
+  "type": "bundle",
+  "id": "bundle--bad71760-d06e-451a-b7d6-f69c9289b834",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--bad71760-d06e-451a-b7d6-f69c9289b834",
+      "created": "2020-08-17T13:28:52.934Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "Proactive Threat Hunting in Alexa Top Sites",
+      "description": "Recently we launched a threat hunting against Alexa Top domains. Among several days hunting, we found some sites affected by coin miner and skimmer attacks. Three of them are serving cryptocurrency mining malware to visitors whoever visit these pages.The other one is injected by malicious javascript codes which would steal visitors credit card information from the checkout page.",
+      "published": "2020-09-24T15:45:48.463Z",
+      "object_refs": [
+        "attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8",
+        "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+        "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+        "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+        "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+        "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+        "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+        "course-of-action--38519f4f-e6e8-454b-a3f5-b46daef0e316",
+        "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+        "course-of-action--44bfcc9e-cb15-499f-b0fe-3c41e2c2655e",
+        "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+        "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+        "course-of-action--51bcc0dd-f051-4786-aa93-429358ea6238",
+        "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+        "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+        "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+        "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+        "course-of-action--ae18aab6-0a08-4c09-9a97-6c6ef58061a7",
+        "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+        "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+        "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+        "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+        "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+        "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+        "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+        "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+        "indicator--09cfe5b3-e15b-470e-8f42-e5ba2cff7b38",
+        "indicator--0d8098af-e195-4662-a5a9-2db962653bf9",
+        "indicator--101be889-927a-4ac7-966c-4fb7bcc583c1",
+        "indicator--14997541-e76c-4891-84c3-4e61546827b8",
+        "indicator--1ca058df-383e-484c-a845-4cf21d15bdbb",
+        "indicator--2531f2b7-2059-4643-91ca-d9288e3e692d",
+        "indicator--25f3732d-af2c-4370-88d7-94706a28c49e",
+        "indicator--27cbccc4-079c-40a0-b4ed-4f71475dccdb",
+        "indicator--27ea264b-452e-4918-aba7-fa43f90f15cb",
+        "indicator--2b630a1e-32cf-4b1f-a006-3bb186d8d3f3",
+        "indicator--309b1118-3ba7-4ffe-9663-282753a648fb",
+        "indicator--3156f3ea-fe5a-4c15-9580-8fcb64a8c5b6",
+        "indicator--3b850df9-ff55-404b-8c60-7bc1d9b6ee2e",
+        "indicator--44f4ba77-509b-429d-8727-25101d061c0a",
+        "indicator--484f16e4-2895-43a1-870c-5cf6c0c46de2",
+        "indicator--490a72bb-e333-4b72-a85e-34aff28cc37f",
+        "indicator--495284c6-a0f8-40c0-a313-4f5ff86a50fa",
+        "indicator--4988e9cc-2d55-4707-a0ef-db58bf19a07a",
+        "indicator--49ea68a1-470f-4a94-8082-321049be475e",
+        "indicator--561f12d9-89a8-4b10-bfa0-52794113cb30",
+        "indicator--56f73c7b-d44d-4e50-8eb1-6d7cf6aa67cc",
+        "indicator--5b8b4c38-ec9d-4bb3-b0c2-496190ceea13",
+        "indicator--5ed6234c-bfe8-4721-8d92-36bbc80dbb7a",
+        "indicator--609f9752-6b33-4908-9efa-dbc4ef429ddf",
+        "indicator--6467b61e-a25b-43b6-9460-cbb64abee639",
+        "indicator--64d6ec3a-6188-411b-a230-0cd6c94eb574",
+        "indicator--66c08d57-ad58-46c0-95ad-6124a1df6470",
+        "indicator--66fd4a8e-225b-4103-a2da-db7ecd8f67df",
+        "indicator--6f0be9da-65b5-4c63-8385-0329f582e56b",
+        "indicator--6f4063fb-b75f-485d-8e61-745ceab37397",
+        "indicator--6ff184c5-a0b5-4836-9c0e-5e5607647f34",
+        "indicator--72e14f4f-053c-4978-943a-82621f0a9dbd",
+        "indicator--73645666-75c9-4595-a1ab-def55c26500a",
+        "indicator--748b561c-e81c-4403-b71f-6dbfcef4eca0",
+        "indicator--75d00b63-5d6a-4acb-994a-4848bed172fb",
+        "indicator--75e3a0b7-ea90-4075-8ad5-48673130bced",
+        "indicator--78911ac6-b18b-466a-8a88-e5b3d1a78df0",
+        "indicator--7a5de881-6601-4c46-be58-95b9634d66ca",
+        "indicator--7b027b15-634a-4a77-8e15-5c6ff00933d7",
+        "indicator--7b9e86d6-848c-4823-997b-6c312627b2d6",
+        "indicator--7ba17f6e-9e4a-45fe-a201-4f123c7feb35",
+        "indicator--82f53048-42f3-4843-b8e4-a6f4d67a58ee",
+        "indicator--834d0dbd-a29d-4fcf-8ab2-997b9d6ee0f2",
+        "indicator--83de206d-4cc5-4118-b58e-98d9c228dbd2",
+        "indicator--84518267-315f-4d03-8b1c-5acb3753dab6",
+        "indicator--8c751f31-ed32-4861-a6ab-d0bf0e8e01bb",
+        "indicator--8e7a76b6-46e7-4ac0-86ca-0f30d9ac81e0",
+        "indicator--94194d1b-04a9-4349-ac6d-b2d34737cc69",
+        "indicator--9524bf74-2db5-4dc5-87d3-6e36018d9020",
+        "indicator--9fd34769-9a40-4828-8f4b-5a4f82041563",
+        "indicator--a24ee9f5-b5e5-44f6-aa3f-0f7465696eaf",
+        "indicator--a6b5961b-a796-43fd-9515-34c50f6427b2",
+        "indicator--aa4f3c87-2803-46f4-9ebb-98c3914192fc",
+        "indicator--ac9272c9-62c6-480a-b9dc-da149212783b",
+        "indicator--b01f607d-6f2f-417e-ae21-9165f58cedb7",
+        "indicator--b3807a6f-9cc6-414d-8f2e-9b0d4be2274f",
+        "indicator--b58bab8d-746b-4292-a218-bb180e08b3c0",
+        "indicator--b73e06d8-7f42-4969-98bb-d2284fe89f3c",
+        "indicator--b9df04c6-ba7b-4244-a8cb-93756259e125",
+        "indicator--bdd37de9-be4c-4fbe-a216-cc1917a7ec3f",
+        "indicator--c22dca25-ef23-4c6a-b79f-05d3076e5a24",
+        "indicator--c88c33b1-2c2f-4d5d-ae13-8370c2b1177e",
+        "indicator--cb1e0b0f-bf32-45ec-ba52-328c8fcddef4",
+        "indicator--cb24c0dc-2e40-43bb-b944-24c7874872f3",
+        "indicator--cd70f710-40f5-49f5-84ad-06a98ae02775",
+        "indicator--d35c4796-27e1-4e72-9ab4-fcec233a1013",
+        "indicator--d9dfde9f-f08a-490d-a0c4-f498788446fe",
+        "indicator--da81a9ad-56e7-4b76-90c8-201cd8b10982",
+        "indicator--db568f6a-9d61-4f1d-932b-24a80e6fdaf3",
+        "indicator--dc379e7f-53bc-4412-9734-948712686b9f",
+        "indicator--e02603b8-88c4-4c10-9501-923ba7dae3ca",
+        "indicator--e4039b4d-49d7-4ef1-ba98-383b2fb09a04",
+        "indicator--e907df2d-e5aa-447e-bf8f-8cb1f0d72b26",
+        "indicator--ea4ba716-6755-4e7f-91ff-d7cdfa949521",
+        "indicator--ebd03b9c-1efb-4795-90c5-86c019214d0d",
+        "indicator--f93415af-ba52-4b5b-be80-18b1e55a5d1b",
+        "relationship--1bd24773-9d45-470d-bfa6-bdd4ff735a31",
+        "relationship--3a1e4e8a-b2b3-4b8b-9d9d-08f406482031",
+        "relationship--42f7f9f0-37a9-4416-913f-ded7cb6b9013",
+        "relationship--50de5812-75d8-4ec0-ae79-27da69b41881",
+        "relationship--64c1592b-1624-49f1-a973-5c340715c0ad",
+        "relationship--65626653-b0c1-44be-bf7e-c8bea3afa7cc",
+        "relationship--6706e446-ce53-4b02-aafb-50dff2c0015d",
+        "relationship--6f763c9e-736b-4d03-83c1-9bfa1823c18e",
+        "relationship--7926b19e-fde0-4c0b-a9bd-7a3b86a493be",
+        "relationship--8eab6c90-654b-474c-b40c-2b73170cce50",
+        "relationship--a3684627-1af3-4943-8040-164ddd781392",
+        "relationship--a9129405-7138-4f23-8743-012672006849",
+        "relationship--b33c6f4c-ed01-4e83-b184-19c8faf1b8da",
+        "relationship--c2293c71-403a-4f70-b96a-3f317dd89e7b",
+        "relationship--ccee47c3-fa4c-4e4a-b655-7bdeb0e6bb86",
+        "relationship--deb41095-070d-446a-811a-6ab574fc9022",
+        "relationship--e8e21290-dfc5-46ca-9261-5a068d116967",
+        "relationship--edcfe461-63fe-499e-98eb-d4f28f54d2ff",
+        "relationship--eec1f650-2636-4828-bd7d-c8423908a07d",
+        "relationship--f427ad0b-2531-4c3e-ba75-a33ece79958c",
+        "relationship--f7db0bc7-a535-44b4-ba36-d5ea5ac6f71c",
+        "relationship--f8dcb3f5-ae7c-4aae-a508-4cc3ec479ed9",
+        "relationship--fba3936b-0733-4251-a3cd-3708db930e84"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2020-07-27T14:54:34.415Z",
+      "modified": "2020-07-27T14:54:34.415Z",
+      "name": "T1102.003: One-Way Communication",
+      "description": "Adversaries may use an existing, legitimate external Web service as a means for sending commands to a compromised system without receiving return output over the Web service channel. Compromised systems may leverage popular websites and social media to host command and control (C2) instructions. Those infected systems may opt to send the output from those commands back over a different C2 channel, including to another distinct Web service. Alternatively, compromised systems may return no output at all in cases where adversaries want to send instructions to systems and do not want a response.\n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "command-and-control"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1102/003",
+          "external_id": "T1102.003"
+        },
+        {
+          "source_name": "University of Birmingham C2",
+          "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+          "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016."
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Host data that can relate unknown or suspicious process activity using a network connection is important to supplement any existing indicators of compromise based on malware command and control signatures and infrastructure or the presence of strong encryption. Packet capture analysis will require SSL/TLS inspection if data is encrypted. Analyze network data for uncommon data flows. User behavior monitoring may help to detect abnormal patterns of activity.(Citation: University of Birmingham C2)"
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "Host network interface",
+        "Netflow/Enclave netflow",
+        "Network protocol analysis",
+        "Packet capture",
+        "SSL/TLS inspection"
+      ],
+      "x_mitre_permissions_required": [
+        "User"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-12-17T14:33:52.372Z",
+      "modified": "2020-07-27T14:54:38.428Z",
+      "name": "T1189: Drive-by Compromise",
+      "description": "Adversaries may gain access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is typically targeted for exploitation, but adversaries may also use compromised websites for non-exploitation behavior such as acquiring [Application Access Token](https://attack.mitre.org/techniques/T1550/001).\n\nMultiple ways of delivering exploit code to a browser exist, including:\n\n* A legitimate website is compromised where adversaries have injected some form of malicious code such as JavaScript, iFrames, and cross-site scripting.\n* Malicious ads are paid for and served through legitimate ad providers.\n* Built-in web application interfaces are leveraged for the insertion of any other kind of object that can be used to display web content or contain a script that executes on the visiting client (e.g. forum posts, comments, and other user controllable web content).\n\nOften the website used by an adversary is one visited by a specific community, such as government, a particular industry, or region, where the goal is to compromise a specific user or set of users based on a shared interest. This kind of targeted attack is referred to a strategic web compromise or watering hole attack. There are several known examples of this occurring.(Citation: Shadowserver Strategic Web Compromise)\n\nTypical drive-by compromise process:\n\n1. A user visits a website that is used to host the adversary controlled content.\n2. Scripts automatically execute, typically searching versions of the browser and plugins for a potentially vulnerable version. \n    * The user may be required to assist in this process by enabling scripting or active website components and ignoring warning dialog boxes.\n3. Upon finding a vulnerable version, exploit code is delivered to the browser.\n4. If exploitation is successful, then it will give the adversary code execution on the user's system unless other protections are in place.\n    * In some cases a second visit to the website after the initial scan is required before exploit code is delivered.\n\nUnlike [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190), the focus of this technique is to exploit software on a client endpoint upon visiting a website. This will commonly give an adversary access to systems on the internal network instead of external systems that may be in a DMZ.\n\nAdversaries may also use compromised websites to deliver a user to a malicious application designed to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s, like OAuth tokens, to gain access to protected applications and information. These malicious applications have been delivered through popups on legitimate websites.(Citation: Volexity OceanLotus Nov 2017)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "delivery"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "initial-access"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1189",
+          "external_id": "T1189"
+        },
+        {
+          "source_name": "Shadowserver Strategic Web Compromise",
+          "url": "http://blog.shadowserver.org/2012/05/15/cyber-espionage-strategic-web-compromises-trusted-websites-serving-dangerous-results/",
+          "description": "Adair, S., Moran, N. (2012, May 15). Cyber Espionage & Strategic Web Compromises – Trusted Websites Serving Dangerous Results. Retrieved March 13, 2018."
+        },
+        {
+          "source_name": "Volexity OceanLotus Nov 2017",
+          "url": "https://www.volexity.com/blog/2017/11/06/oceanlotus-blossoms-mass-digital-surveillance-and-exploitation-of-asean-nations-the-media-human-rights-and-civil-society/",
+          "description": "Lassalle, D., et al. (2017, November 6). OceanLotus Blossoms: Mass Digital Surveillance and Attacks Targeting ASEAN, Asian Nations, the Media, Human Rights Groups, and Civil Society. Retrieved November 6, 2017."
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Firewalls and proxies can inspect URLs for potentially known-bad domains or parameters. They can also do reputation-based analytics on websites and their requested resources such as how old a domain is, who it's registered to, if it's on a known bad list, or how many other users have connected to it before.\n\nNetwork intrusion detection systems, sometimes with SSL/TLS MITM inspection, can be used to look for known malicious scripts (recon, heap spray, and browser identification scripts have been frequently reused), common script obfuscation, and exploit code.\n\nDetecting compromise based on the drive-by exploit from a legitimate website may be difficult. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of browser processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/techniques/T1055) for attempts to hide execution, evidence of Discovery, or other unusual network traffic that may indicate additional tools transferred to the system."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "SaaS",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "Network device logs",
+        "Network intrusion detection system",
+        "Packet capture",
+        "Process use of network",
+        "SSL/TLS inspection",
+        "Web proxy"
+      ],
+      "x_mitre_permissions_required": [
+        "User"
+      ],
+      "x_mitre_contributors": [
+        "Jeff Sakowicz, Microsoft Identity Developer Platform Services (IDPM Services)",
+        "Saisha Agrawal, Microsoft Threat Intelligent Center (MSTIC)"
+      ],
+      "x_mitre_version": "1.2"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2020-07-27T14:54:34.130Z",
+      "modified": "2020-07-27T14:54:34.130Z",
+      "name": "T1071.001: Web Protocols",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "command-and-control"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1071/001",
+          "external_id": "T1071.001"
+        },
+        {
+          "source_name": "University of Birmingham C2",
+          "url": "https://arxiv.org/ftp/arxiv/papers/1408/1408.1136.pdf",
+          "description": "Gardiner, J.,  Cova, M., Nagaraja, S. (2014, February). Command & Control Understanding, Denying and Detecting. Retrieved April 20, 2016."
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. "
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "Netflow/Enclave netflow",
+        "Network protocol analysis",
+        "Packet capture",
+        "Process monitoring",
+        "Process use of network"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+      "name": "Ensure alerts are enabled for malicious files detected  by WildFire",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Configure WildFire to send an alert when a malicious or greyware file is detected. This alert could be sent by whichever means is preferable, including email, SNMP trap, or syslog message.\n\nAlternatively, configure the WildFire cloud to generate alerts for malicious files. The cloud can generate alerts in addition to or instead of the local WildFire implementation. Note that the destination email address of alerts configured in the WildFire cloud portal is tied to the logged in account, and cannot be modified. Also, new systems added to the WildFire cloud portal will not be automatically set to email alerts."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+      "name": "Ensure a Vulnerability Protection Profile is set to block attacks against critical and high vulnerabilities, and set to default on medium, low, and informational vulnerabilities",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "Configure a Vulnerability Protection Profile set to block attacks against any critical or high vulnerabilities, at minimum, and set to default on any medium, low, or informational vulnerabilities. Configuring an alert action for low and informational, instead of default, will produce additional information at the expense of greater log utilization.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.7",
+      "x_panw_coa_bp_title": "Ensure a Vulnerability Protection Profile is set to block attacks against critical and high vulnerabilities, and set to default on medium, low, and informational vulnerabilities",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure a Vulnerability Protection Profile set to block attacks against any critical or high vulnerabilities, at minimum, and set to default on any medium, low, or informational vulnerabilities. Configuring an alert action for low and informational, instead of default, will produce additional information at the expense of greater log utilization.",
+      "x_panw_coa_bp_rationale_statement": "A Vulnerability Protection Profile helps to protect assets by alerting on, or blocking, network attacks. The default action for attacks against many critical and high vulnerabilities is to only alert on the attack - not to block.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > Vulnerability Protection`.\n\nSet a Vulnerability Protection Profile to block attacks against any critical or high vulnerabilities (minimum), and to default on attacks against any medium, low, or informational vulnerabilities.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > Vulnerability Protection`.\n\nVerify a Vulnerability Protection Profile is set to block attacks against any critical or high vulnerabilities (minimum), and set to default on attacks against any medium, low, or informational vulnerabilities.",
+      "x_panw_coa_bp_impact_statement": "Not configuring a Vulnerability Protection Profile means that network attacks will not be logged, alerted on or blocked.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;TITLE:Deploy Network-Based Intrusion Prevention Systems CONTROL:v7 12.7 DESCRIPTION:Deploy network-based Intrusion Prevention Systems (IPS) to block malicious network traffic at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+      "name": "Ensure that PAN-DB URL Filtering is used",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Configure the device to use PAN-DB URL Filtering instead of BrightCloud.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.9",
+      "x_panw_coa_bp_title": "Ensure that PAN-DB URL Filtering is used",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure the device to use PAN-DB URL Filtering instead of BrightCloud.",
+      "x_panw_coa_bp_rationale_statement": "Standard URL filtering provides protection against inappropriate and malicious URLs and IP addresses. PAN-DB URL Filtering is slightly less granular than the BrightCloud URL filtering. However the PAN-DB Filter offers additional malware protection and PAN threat intelligence by using the Wildfire service as an additional input, which is currently not available in the BrightCloud URL Filtering license. This makes the PAN-DB filter more responsive to specific malware 'campaigns'.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Device > Licenses`.\n\nClick on `PAN-DB URL Filtering`.\n\nSet `Active` to `Yes`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Device > Licenses`.\n\nClick on `PAN-DB URL Filtering`.\n\nVerify `Active` is set to `Yes`.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+      "name": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.10",
+      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_rationale_statement": "Certain URL categories pose a technology-centric threat, such as command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Users visiting websites in these categories, many times unintentionally, are at greater risk of compromising the security of their system. Other categories, such as adult, may pose a legal liability and will be blocked for those reasons.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nSet a URL filter so that all URL categories designated by the organization are listed.\nNavigate to the `Actions` tab. \nSet the action to `Block`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that all URL categories designated by the organization are listed, and the action is set to `Block`.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--38519f4f-e6e8-454b-a3f5-b46daef0e316",
+      "name": "Deploy XSOAR Playbook - Block IP",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.2",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Block IP"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+      "name": "Ensure a WildFire Analysis profile is enabled for all security policies",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Ensure that all files traversing the firewall are inspected by WildFire by setting a Wildfire file blocking profile on all security policies."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--44bfcc9e-cb15-499f-b0fe-3c41e2c2655e",
+      "name": "Deploy XSOAR Playbook - Block URL",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.3",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Block URL"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+      "name": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.8",
+      "x_panw_coa_bp_title": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "x_panw_coa_bp_rationale_statement": "A Vulnerability Protection Profile helps to protect assets by alerting on, or blocking network attacks. By applying a secure Vulnerability Protection Profile to all security rules permitting traffic, all network traffic traversing the firewall will be inspected for attacks. This protects both organizational assets from attack and organizational reputation from damage.\n\nNote that encrypted sessions do not allow for complete inspection.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nSet it to use either the 'Strict' or the 'Default' profile, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nVerify either the 'Strict' or the 'Default' profile is selected, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
+      "x_panw_coa_bp_impact_statement": "Not configuring a Vulnerability Protection Profile means that network attacks will not be logged, alerted on or blocked.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;TITLE:Deploy Network-based IDS Sensor CONTROL:v7 12.6 DESCRIPTION:Deploy network-based Intrusion Detection Systems (IDS) sensors to look for unusual attack mechanisms and detect compromise of these systems at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Policies” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-policy.html:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "name": "Ensure 'Service setting of ANY' in a security policy allowing traffic does not exist",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create security policies specifying application-default for the Service setting, in addition to the specific ports desired. The Service setting of `any` should not be used for any policies that allow traffic."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--51bcc0dd-f051-4786-aa93-429358ea6238",
+      "name": "Deploy XSOAR Playbook Cortex XDR - Isolate Endpoint",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "x_panw_coa_u42_id": "x.4",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook Cortex XDR - Isolate Endpoint"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+      "name": "Ensure that access to every URL is logged",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "URL filters should not specify any categories as `Allow Categories`.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.11",
+      "x_panw_coa_bp_title": "Ensure that access to every URL is logged",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "URL filters should not specify any categories as `Allow Categories`.",
+      "x_panw_coa_bp_rationale_statement": "Setting a URL filter to have one or more entries under Allow Categories will cause no log entries to be produced in the URL Filtering logs for access to URLs in those categories. For forensic, legal, and HR purposes, it is advisable to log access to every URL. In many cases failure to log all URL access is a violation of corporate policy, legal requirements or regulatory requirements.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nFor each permitted category, set the `Site Access` actioun to `alert`",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that the for all allowed categories, that the `Site Access` action is set to `alert`",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+      "name": "Ensure 'WildFire Update Schedule' is set to download and install updates every minute",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Set the WildFire update schedule to download and install updates every minute."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+      "name": "Ensure that antivirus profiles are set to block on all decoders except 'imap' and 'pop3'",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Configure antivirus profiles to a value of 'block' for all decoders except imap and pop3 under both Action and WildFire Action. If required by the organization's email implementation, configure imap and pop3 decoders to 'alert' under both Action and WildFire Action."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+      "name": "Ensure forwarding is enabled for all applications and file types in WildFire file blocking profiles",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Set Applications and File Types fields to any in WildFire file blocking profiles. With a WildFire license, seven file types are supported, while only PE (Portable Executable) files are supported without a license.\nFor the 'web browsing' application, the action 'continue' can be selected. This still forwards the file to the Wildfire service, but also presents the end user with a confirmation message before they receive the file. Selecting 'continue' for any other application will block the file (because the end user will not see the prompt).\nIf there is a 'continue' rule, there should still be an 'any traffic / any application / forward' rule after that in the list."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--ae18aab6-0a08-4c09-9a97-6c6ef58061a7",
+      "name": "Enable DNS Security in Anti-Spyware profile",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "x_panw_coa_u42_id": "x.1",
+      "x_panw_coa_u42_title": "Enable DNS Security in Anti-Spyware profile"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "name": "Ensure 'Security Policy' denying any/all traffic to/from IP addresses on Trusted Threat Intelligence Sources Exists",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a pair of security rules at the top of the security policies ruleset to block traffic to and from IP addresses known to be malicious.\n\nNote: This recommendation (as written) requires a Palo Alto 'Active Threat License'. Third Party and Open Source Threat Intelligence Feeds can also be used for this purpose."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+      "name": "Ensure all WildFire session information settings are enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Enable all options under Session Information Settings for WildFire."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "name": "Ensure application security policies exist when allowing traffic from an untrusted zone to a more trusted zone",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "When permitting traffic from an untrusted zone, such as the Internet or guest network, to a more trusted zone, such as a DMZ segment, create security policies specifying which specific applications are allowed. \n\n**Enhanced Security Recommendation: **\nRequire specific application policies when allowing `any` traffic, regardless of the trust level of a zone. Do not rely solely on port permissions. This may require SSL interception, and may also not be possible in all environments."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+      "name": "Ensure all HTTP Header Logging options are enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.12",
+      "x_panw_coa_bp_title": "Ensure all HTTP Header Logging options are enabled",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
+      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user’s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nSet the following four settings:\n\n a. `Log container page only` box is un-checked\n\n b. Check the `User-Agent` box\n\n c. Check the `Referer` box\n\n d. Check the `X-Forwarded-For` box",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nVerify these four settings:\n\n a. `Log container page only` box is un-checked\n\n b. `User-Agent` box is checked\n\n c. `Referer` box is checked\n\n d. `X-Forwarded-For` box is checked",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+      "name": "Ensure a secure antivirus profile is applied to all relevant security policies",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a secure antivirus profile and apply it to all security policies that could pass HTTP, SMTP, IMAP, POP3, FTP, or SMB traffic. The antivirus profile may be applied to the security policies directly or through a profile group."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+      "name": "Ensure that WildFire file size upload limits are maximized",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Increase WildFire file size limits to the maximum file size supported by the environment. An organization with bandwidth constraints or heavy usage of unique files under a supported file type may require lower settings.\nThe recommendations account for the CPU load on smaller platforms. If an organization consistently has CPU to spare, it's recommended to set some or all of these values to the maximum."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+      "name": "Ensure secure URL filtering is enabled for all security policies allowing traffic to the Internet",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Apply a secure URL filtering profile to all security policies permitting traffic to the Internet. The URL Filtering profile may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.13",
+      "x_panw_coa_bp_title": "Ensure secure URL filtering is enabled for all security policies allowing traffic to the Internet",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Apply a secure URL filtering profile to all security policies permitting traffic to the Internet. The URL Filtering profile may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_rationale_statement": "URL Filtering policies dramatically reduce the risk of users visiting malicious or inappropriate websites. In addition, a complete URL history log for all devices is invaluable when performing forensic analysis in the event of a security incident. Applying complete and approved URL filtering to outbound traffic is a frequent requirement in corporate policies, legal requirements or regulatory requirements.",
+      "x_panw_coa_bp_remediation_procedure": "To Set URL Filtering:\nFor each Security Profile that transits traffic to the internet, navigate to `Policies > Security > Security Profiles > [Policy Name] > Actions`.\n\nSet a URL Filtering profile that complies with the policies of the organization is applied to all Security Policies that transit traffic to the public internet.",
+      "x_panw_coa_bp_audit_procedure": "To Verify URL Filtering:\n\nFor each Security Policy that transits traffic to the public internet, navigate to `Policies > Security > Security Profiles > [Policy Name] > Actions`.\n\nVerify there is a URL Filtering profile that complies with the policies of the organization is applied to all Security Policies that transit traffic to the public internet.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+      "name": "Ensure forwarding of decrypted content to WildFire is enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Allow the firewall to forward decrypted content to WildFire. Note that SSL Forward-Proxy must also be enabled and configured for this setting to take effect on inside-to-outside traffic flows."
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--09cfe5b3-e15b-470e-8f42-e5ba2cff7b38",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/selebritis/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/selebritis/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0d8098af-e195-4662-a5a9-2db962653bf9",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/?p%3D177978",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/?p%3D177978']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--101be889-927a-4ac7-966c-4fb7bcc583c1",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/partai-pendukung-ridwan-kamil-kuasai/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/partai-pendukung-ridwan-kamil-kuasai/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--14997541-e76c-4891-84c3-4e61546827b8",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/siti-badriah-langsung-jawab-sindiran/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/siti-badriah-langsung-jawab-sindiran/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1ca058df-383e-484c-a845-4cf21d15bdbb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2531f2b7-2059-4643-91ca-d9288e3e692d",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "www.clicautousate.it/auto/mini-cabrio-torino-1855861.php?utm_source=libero.it",
+      "pattern": "[url:value = 'www.clicautousate.it/auto/mini-cabrio-torino-1855861.php?utm_source=libero.it']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--25f3732d-af2c-4370-88d7-94706a28c49e",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/pojok-info/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/pojok-info/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--27cbccc4-079c-40a0-b4ed-4f71475dccdb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/jabar-area/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/jabar-area/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--27ea264b-452e-4918-aba7-fa43f90f15cb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/harga-tiket-asian-games-2018-kemahalan-cak-imin-angkat-suara/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/harga-tiket-asian-games-2018-kemahalan-cak-imin-angkat-suara/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2b630a1e-32cf-4b1f-a006-3bb186d8d3f3",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/#mingguini",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/#mingguini']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--309b1118-3ba7-4ffe-9663-282753a648fb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/comments/feed/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/comments/feed/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3156f3ea-fe5a-4c15-9580-8fcb64a8c5b6",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/politik/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/politik/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3b850df9-ff55-404b-8c60-7bc1d9b6ee2e",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/jennifer-lopez-dan-alex-rodriguez",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/jennifer-lopez-dan-alex-rodriguez']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--44f4ba77-509b-429d-8727-25101d061c0a",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/mario-gomez-demi-3-poin-persib-main/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/mario-gomez-demi-3-poin-persib-main/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--484f16e4-2895-43a1-870c-5cf6c0c46de2",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/02/bagaimana-cara-membuat-si-dia-terpuaskan/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/02/bagaimana-cara-membuat-si-dia-terpuaskan/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--490a72bb-e333-4b72-a85e-34aff28cc37f",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/jika-mediasi-gagal-sule-pasrah-dicerai/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/jika-mediasi-gagal-sule-pasrah-dicerai/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--495284c6-a0f8-40c0-a313-4f5ff86a50fa",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/01/cadas-ferry-pak-presiden-jokowi-aja-suruh-bunuh-diri/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/01/cadas-ferry-pak-presiden-jokowi-aja-suruh-bunuh-diri/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4988e9cc-2d55-4707-a0ef-db58bf19a07a",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/feed/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/feed/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--49ea68a1-470f-4a94-8082-321049be475e",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/pemkot-bandung-bakal-tertibkan-minimarket/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/pemkot-bandung-bakal-tertibkan-minimarket/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--561f12d9-89a8-4b10-bfa0-52794113cb30",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/iklan/pemprov-jabar/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/iklan/pemprov-jabar/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--56f73c7b-d44d-4e50-8eb1-6d7cf6aa67cc",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/06/brotherhood-meradang-keluarkan-maklumat-soal/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/06/brotherhood-meradang-keluarkan-maklumat-soal/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5b8b4c38-ec9d-4bb3-b0c2-496190ceea13",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/kpu-jabar-klaim-tak-ada-celah-gugat-hasil-rekap-suara/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/kpu-jabar-klaim-tak-ada-celah-gugat-hasil-rekap-suara/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ed6234c-bfe8-4721-8d92-36bbc80dbb7a",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "https://www.ovci-veci.cz/anti-covid-dezinfekce-f-l-",
+      "pattern": "[url:value = 'https://www.ovci-veci.cz/anti-covid-dezinfekce-f-l-']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--609f9752-6b33-4908-9efa-dbc4ef429ddf",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/olahraga/moto-gp/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/olahraga/moto-gp/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6467b61e-a25b-43b6-9460-cbb64abee639",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/kapolda-jabar-apresiasi-1-800-bandit-jalanan-diamankan-jelang-asian/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/kapolda-jabar-apresiasi-1-800-bandit-jalanan-diamankan-jelang-asian/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--64d6ec3a-6188-411b-a230-0cd6c94eb574",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "zoombangla.com/career/",
+      "pattern": "[url:value = 'zoombangla.com/career/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--66c08d57-ad58-46c0-95ad-6124a1df6470",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/si-jago-merah-lahap-rumah-di-jalan-tera-belakang/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/si-jago-merah-lahap-rumah-di-jalan-tera-belakang/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--66fd4a8e-225b-4103-a2da-db7ecd8f67df",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/#respond",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/warganet-heboh-amanda-manopo-upload-foto/#respond']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6f0be9da-65b5-4c63-8385-0329f582e56b",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/bandung/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/bandung/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6f4063fb-b75f-485d-8e61-745ceab37397",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id//en.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//en.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6ff184c5-a0b5-4836-9c0e-5e5607647f34",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "www.heureka.cz/exit/ovci-veci-cz/3773569318/?z=2&p=29&tb=0",
+      "pattern": "[url:value = 'www.heureka.cz/exit/ovci-veci-cz/3773569318/?z=2&p=29&tb=0']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--72e14f4f-053c-4978-943a-82621f0a9dbd",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id//id.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--73645666-75c9-4595-a1ab-def55c26500a",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/lifestyle/kuliner/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/lifestyle/kuliner/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--748b561c-e81c-4403-b71f-6dbfcef4eca0",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id//id/corporate-website/rate-dan-biaya/prime-lending-rate.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id/corporate-website/rate-dan-biaya/prime-lending-rate.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--75d00b63-5d6a-4acb-994a-4848bed172fb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--75e3a0b7-ea90-4075-8ad5-48673130bced",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/sah-ade-yasin-iwan-setiawan-menang-di-pilbup-bogor/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/sah-ade-yasin-iwan-setiawan-menang-di-pilbup-bogor/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--78911ac6-b18b-466a-8a88-e5b3d1a78df0",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/made-wirawan-waspadai-motivasi-berlipat/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/made-wirawan-waspadai-motivasi-berlipat/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7a5de881-6601-4c46-be58-95b9634d66ca",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "bandung.pojoksatu.id/politik-2/pemilihan-legislatif/#terpopuler",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/politik-2/pemilihan-legislatif/#terpopuler']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7b027b15-634a-4a77-8e15-5c6ff00933d7",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/lifestyle/belanja/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/lifestyle/belanja/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7b9e86d6-848c-4823-997b-6c312627b2d6",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/lifestyle/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/lifestyle/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7ba17f6e-9e4a-45fe-a201-4f123c7feb35",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/mario-gomez-ayo-bobotoh-birukan-gbla-sore/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/mario-gomez-ayo-bobotoh-birukan-gbla-sore/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--82f53048-42f3-4843-b8e4-a6f4d67a58ee",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/politik-2/pilkada-serentak/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/politik-2/pilkada-serentak/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--834d0dbd-a29d-4fcf-8ab2-997b9d6ee0f2",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/politik-2/pilgub-jabar/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/politik-2/pilgub-jabar/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--83de206d-4cc5-4118-b58e-98d9c228dbd2",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/livorno-maaf-juve-kami-sudah-dapatkan-cristiano-lebih/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/livorno-maaf-juve-kami-sudah-dapatkan-cristiano-lebih/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--84518267-315f-4d03-8b1c-5acb3753dab6",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/persib/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/persib/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8c751f31-ed32-4861-a6ab-d0bf0e8e01bb",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/bisnis/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/bisnis/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8e7a76b6-46e7-4ac0-86ca-0f30d9ac81e0",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "https://www.heureka.cz/exit/ovci-veci-cz/3773569318/?z=2&p=29&tb=0",
+      "pattern": "[url:value = 'https://www.heureka.cz/exit/ovci-veci-cz/3773569318/?z=2&p=29&tb=0']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94194d1b-04a9-4349-ac6d-b2d34737cc69",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/vincenzo-alberto-annese-persib-vs-psis-duel",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/vincenzo-alberto-annese-persib-vs-psis-duel']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9524bf74-2db5-4dc5-87d3-6e36018d9020",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/kabupaten-bandung/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/kabupaten-bandung/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9fd34769-9a40-4828-8f4b-5a4f82041563",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id//id/corporate-website/kontak-kami.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id/corporate-website/kontak-kami.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a24ee9f5-b5e5-44f6-aa3f-0f7465696eaf",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/puncaki-daftar-topscorer-ini-reaksi-ezechiel/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/puncaki-daftar-topscorer-ini-reaksi-ezechiel/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a6b5961b-a796-43fd-9515-34c50f6427b2",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/lifestyle/wisata/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/lifestyle/wisata/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--aa4f3c87-2803-46f4-9ebb-98c3914192fc",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/timnas-indonesia-dipastikan-segel-tiket-semifinal-piala-aff-u-19/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/timnas-indonesia-dipastikan-segel-tiket-semifinal-piala-aff-u-19/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ac9272c9-62c6-480a-b9dc-da149212783b",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/#grve-polling-modal",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/#grve-polling-modal']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b01f607d-6f2f-417e-ae21-9165f58cedb7",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "clickout.libero.it/auto-furgoni-in-vendita/AVzIAHFZ2VJ8PlgGhbdOweEIAAABZw",
+      "pattern": "[url:value = 'clickout.libero.it/auto-furgoni-in-vendita/AVzIAHFZ2VJ8PlgGhbdOweEIAAABZw']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b3807a6f-9cc6-414d-8f2e-9b0d4be2274f",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/pencipta-lagi-syantik-bantah-ambil-jargon/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/pencipta-lagi-syantik-bantah-ambil-jargon/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b58bab8d-746b-4292-a218-bb180e08b3c0",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/iklan/bjb-lebaran/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/iklan/bjb-lebaran/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b73e06d8-7f42-4969-98bb-d2284fe89f3c",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id//id/corporate-social-responsibility.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id/corporate-social-responsibility.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b9df04c6-ba7b-4244-a8cb-93756259e125",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/tag/berita-selebritis/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/tag/berita-selebritis/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bdd37de9-be4c-4fbe-a216-cc1917a7ec3f",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/kemenangan-emil-dan-banyak-catatan-bawaslu-untuk-kpu/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/kemenangan-emil-dan-banyak-catatan-bawaslu-untuk-kpu/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c22dca25-ef23-4c6a-b79f-05d3076e5a24",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/bandung-barat",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/bandung-barat']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c88c33b1-2c2f-4d5d-ae13-8370c2b1177e",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/kroasia-menuju-semifinal",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/kroasia-menuju-semifinal']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cb1e0b0f-bf32-45ec-ba52-328c8fcddef4",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/hade-pisan-ezechiel-selain-raja-gol-persib-ternyata-ada-prestasi/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/hade-pisan-ezechiel-selain-raja-gol-persib-ternyata-ada-prestasi/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cb24c0dc-2e40-43bb-b944-24c7874872f3",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id//id/corporate-website/rate-dan-biaya/kurs-valas.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id/corporate-website/rate-dan-biaya/kurs-valas.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cd70f710-40f5-49f5-84ad-06a98ae02775",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/gairah-seks-menurun-sikat-5-buah-ini-sebelum/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/gairah-seks-menurun-sikat-5-buah-ini-sebelum/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d35c4796-27e1-4e72-9ab4-fcec233a1013",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id//id/corporate-website.html",
+      "pattern": "[url:value = 'bandung.pojoksatu.id//id/corporate-website.html']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d9dfde9f-f08a-490d-a0c4-f498788446fe",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/olahraga/top-soccer/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/olahraga/top-soccer/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--da81a9ad-56e7-4b76-90c8-201cd8b10982",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/07/mantap-lagu-exo-akan-dimainkan-di-final-piala-dunia/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/07/mantap-lagu-exo-akan-dimainkan-di-final-piala-dunia/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--db568f6a-9d61-4f1d-932b-24a80e6fdaf3",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.464Z",
+      "name": "www.ovci-veci.cz",
+      "pattern": "[domain-name:value = 'www.ovci-veci.cz']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dc379e7f-53bc-4412-9734-948712686b9f",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/kata-pengamat-peluang-prabowo-ahy-kalahkan-jokowi-lebih/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/kata-pengamat-peluang-prabowo-ahy-kalahkan-jokowi-lebih/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e02603b8-88c4-4c10-9501-923ba7dae3ca",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/08/rekap-suara-pilgub-jabar-diprediksi-minggu/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/08/rekap-suara-pilgub-jabar-diprediksi-minggu/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e4039b4d-49d7-4ef1-ba98-383b2fb09a04",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.463Z",
+      "name": "metahtmlhead.com",
+      "pattern": "[domain-name:value = 'metahtmlhead.com']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e907df2d-e5aa-447e-bf8f-8cb1f0d72b26",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/olahraga/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/olahraga/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ea4ba716-6755-4e7f-91ff-d7cdfa949521",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/iklan/iklan-dprd/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/iklan/iklan-dprd/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ebd03b9c-1efb-4795-90c5-86c019214d0d",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/2018/07/09/made-wirawan-waspadai-permainan-cepat/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/2018/07/09/made-wirawan-waspadai-permainan-cepat/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f93415af-ba52-4b5b-be80-18b1e55a5d1b",
+      "created": "2020-08-17T13:38:50.003Z",
+      "modified": "2020-09-24T15:45:48.465Z",
+      "name": "bandung.pojoksatu.id/read/editor/redaksi3/",
+      "pattern": "[url:value = 'bandung.pojoksatu.id/read/editor/redaksi3/']",
+      "valid_from": "2020-08-17T13:38:50.003Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--1bd24773-9d45-470d-bfa6-bdd4ff735a31",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--44bfcc9e-cb15-499f-b0fe-3c41e2c2655e",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--3a1e4e8a-b2b3-4b8b-9d9d-08f406482031",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--fafab9a4-1478-499e-9088-2043c42720d1",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--42f7f9f0-37a9-4416-913f-ded7cb6b9013",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--67289170-1bd4-4944-be31-d680954141f5",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--50de5812-75d8-4ec0-ae79-27da69b41881",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--ae18aab6-0a08-4c09-9a97-6c6ef58061a7",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "DNS Security"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--64c1592b-1624-49f1-a973-5c340715c0ad",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--f1a1d494-3463-4067-abc7-a731f7dfb9ff",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--65626653-b0c1-44be-bf7e-c8bea3afa7cc",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--6706e446-ce53-4b02-aafb-50dff2c0015d",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--6f763c9e-736b-4d03-83c1-9bfa1823c18e",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--7926b19e-fde0-4c0b-a9bd-7a3b86a493be",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--3de85a76-a879-43e6-80ba-38e09e7e2b0c",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--8eab6c90-654b-474c-b40c-2b73170cce50",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--a3684627-1af3-4943-8040-164ddd781392",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--a9129405-7138-4f23-8743-012672006849",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--b33c6f4c-ed01-4e83-b184-19c8faf1b8da",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--38519f4f-e6e8-454b-a3f5-b46daef0e316",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c2293c71-403a-4f70-b96a-3f317dd89e7b",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--ccee47c3-fa4c-4e4a-b655-7bdeb0e6bb86",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--deb41095-070d-446a-811a-6ab574fc9022",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--51bcc0dd-f051-4786-aa93-429358ea6238",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e8e21290-dfc5-46ca-9261-5a068d116967",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--21ce34c9-4220-41cf-85c7-bc289bb2c79d",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--edcfe461-63fe-499e-98eb-d4f28f54d2ff",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--eec1f650-2636-4828-bd7d-c8423908a07d",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--04a2db1c-3e80-43a4-a9c6-3864195bbf73",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f427ad0b-2531-4c3e-ba75-a33ece79958c",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49790670-d365-43f8-a906-8e45c3c80f63",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f7db0bc7-a535-44b4-ba36-d5ea5ac6f71c",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--95432623-8819-4f74-a8f9-b10b9c4118c3",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f8dcb3f5-ae7c-4aae-a508-4cc3ec479ed9",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--be1d0eb5-a628-4d91-9096-9158e68816cd",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "Wildfire"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--fba3936b-0733-4251-a3cd-3708db930e84",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.015Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+      "target_ref": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    }
+  ]
+}
