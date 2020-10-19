@@ -1,0 +1,160 @@
+2020-10-19 (MONDAY) - TA551 (SHATHAK) WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID DLL
+ 
+NOTES:
+
+- As of Friday 2020-10-16, the installler DLL files started generating IcedID DLL malware instead of IcedID EXE malware.
+- Today's URL patterns for the installer DLL files now include underscores, which we haven't seen before.
+
+20 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 3df7246090c8b2a9c9d19d68ca4bd2908247494a8badea39c00e3f20d60dfcae  bid,010.19.2020.doc
+- fc9565534d447bb7d5498aec1dcf1e0b933a7a717c159690529ba3b5ad7c9922  certificate_010.19.2020.doc
+- 6bae8f2c4c1b730825cc5e9ce7bae35039eb08833b7310bf4f444d2524b1601f  charge_010.20.doc
+- f540a652469981b7a0ba4337c228712888e1d9cf75a00ce17c3fd3775c9b2781  decree-010.20.doc
+- 17f2d25fcba0ad909c0561179407b4bb37917b643b2c181dcdcb4c3cec743a5c  deed contract-010.20.doc
+- 6a6243c111cbf9a94177835ab02a8378497ed18b5ba1d6fdceb03e9410e08cec  direct 010.20.doc
+- 6eb53a11d07dd708ecb63b036145e7e942a61eb693cc3353c612569121b4a110  figures,010.20.doc
+- 75509601134e810e7ae3dc36e8b9abff1025c0a0dada3b21ead7e24fd5f3ce2c  file 010.19.2020.doc
+- 12b73194a373f12d89a83152bd56ee02054dd20030cb6b421b7e79e70e1d2484  file-010.20.doc
+- 732a12f4a7b85176abfc17c142e83761d7a957672852af0d9069a9bc47defeb1  files-010.20.doc
+- cdba1a0f75ecbeda42243f44cd8ac9b9fcd90e9213d8b4f8280e90b956635030  legal agreement.010.20.doc
+- 08d1f171b424a35c7aeebb55da2077078f62fae847616a4f8c80f3e3e11d6573  legal paper.010.19.2020.doc
+- 79957427faa2eed376f597aba9eb43fe9789e715833026fefd50458c73ee32b4  legislate,010.20.doc
+- 56de520fa4445ccabe60373b039299f5709f291ff594482c92670d1eb8b911f6  official paper.010.20.doc
+- a4f88c40f615a527c16159d41c2798ff452c17a394e96d3b028516c46f88462f  ordain 010.20.doc
+- 9bb46cd5d1047a3694b3a3862c7ec16d0c3e7838d91c1361760f92958897be5c  order 010.19.2020.doc
+- 00ec5cc40b91832adc257b43cb28f2fe0734c6e1761ae5020bd8178116ed005c  prescribe ,010.19.2020.doc
+- 7fde0ff1061d3d15fe584f6ea186e1a23b9ce07123ff9dd70f71fcb51c099369  statistics,010.19.2020.doc
+- baf2c1ade873167029a7ebc83ba56dca256ca91bd527a451ddde2efa3e3b6ddb  statistics_010.20.doc
+- 8c7dc92c6019d80364cda2d6ce19b157ac77b013731415d825b1a30f93c6d56d  tell,010.20.doc
+
+AT LEAST 10 DOMAINS HOSTING THE INSTALLER DLL:
+
+- elliekg[.]com - 149.154.64[.]179
+- gjcz2j8[.]com - 178.250.157[.]144
+- ixrbph[.]com - 193.109.79[.]219
+- k8qdr07[.]com - 193.201.126[.]18
+- mwnb93z[.]com - 62.109.14[.]179
+- xydf0m[.]com - 80.85.158[.]53
+- ossxj1[.]com - 185.219.43[.]85
+- ud7vzlt[.]com - 45.8.124[.]36
+- ym5zuxo[.]com - 45.150.64[.]102
+- zcbw6z7[.]com - 45.128.206[.]80
+
+URLS FOR INSTALLER DLL:
+
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux1.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux2.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux3.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux4.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux5.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux6.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux7.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux8.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux9.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux10.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux11.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux12.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux13.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux14.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux15.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux16.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux17.cab
+- GET /biwe_zibofyra/ripy_lani.php?l=qedux18.cab
+
+14 EXAMPLES OF INSTALLER DLL FILES:
+
+- 1dc46726f9e36930e15dd9050113155b9e0151399ce340c5cdb04c2ba5d6ed4e
+- 21b19d7937146e53c46068501a5461f301303312548f185ccefbd437d91b8c94
+- 4926266b9c11332204f2f3f37146b135226b197e49a8da88b1602e235a90d8a0
+- 541c96fa64b46c252217290d9c35c4e8344ae09812ecfb44de678b41117373fe 
+- 56edc2e0d3d9cb181fc4d861cdbca6a960f576ce10d93f1a7ad18d80624185d5
+- 72b60db81122b793a5c8e3fb7971636e567ab6086ba8f2d89bf099a4665fbc4a
+- 76b6235d3ea5f815d353464c4100be71e69b3d81a59e470ad75411f225aa6f23
+- 7dbd994c57818613129946d3251c5a7854ebfaa486f2a59a77c49a71ad88c00c
+- 88f83a7956a854de208aacba19c8a30a0541ce45cdc02a9463a7069b41f51f50
+- c570e65d52a0bc1de13a4e7caeeed3b408b49a3b1d71f980e6719b2299d9bedc
+- c998dc3437900bf80ef67d02c6825e1737dfd9233b1d75d08b959061a1e3f5c5
+- d006d4d6d0fb03e7721d6691f126731420d45a4499bf567eb1c3046e42b83679
+- d8cf22e8533a73a21f129e08c4c2fd5629da093660eed84aad23cf7a82de56ad
+- f9aedb6e69d25d4583a4ba8f4e675a71a6a9f9d129c877f9963bb7a4859305cb
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\ELBHZ.txt
+- C:\ProgramData\HBvgC.txt
+- C:\ProgramData\JBcEB.txt
+- C:\ProgramData\LyuSP.txt
+- C:\ProgramData\mzUan.txt
+- C:\ProgramData\QZsRO.txt
+- C:\ProgramData\rOjqf.txt
+- C:\ProgramData\slKnb.txt
+- C:\ProgramData\ZMyvn.txt
+- C:\ProgramData\ZTqoQ.txt
+
+INSTALLER DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLLS:
+
+- port 443 - www.intel.com
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - support.microsoft.com
+- port 443 - help.twitter.com
+
+AT LEAST 3 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 46.101.0[.]125 port 443 - greerknees[.]top - GET /background.png
+- 46.101.0[.]125 port 443 - isolatedglubus[.]top - GET /background.png
+- 46.101.0[.]125 port 443 - kleeslikreff[.]top - GET /background.png
+- 206.189.179[.]174 port 443 - rusoldat[.]click - GET /background.png
+
+2 EXAMPLES OF SHA256 HASHES FOR ICEDID DLL CREATED BY INSTALLER DLL:
+ 
+- 3dfb74874b9c0b32b66ce96a97170fc430fed51a7cfdbf361e6c4febe2935e5d (initial)
+- a24c5d4c11f1d46b03ae1539df341c7247e1f8809b27a3b873449a1be218bd1e (persistent)
+
+ICEDID DLL RUN METHOD:
+
+- regsvr32.exe /s [filename]
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID DLL FILES:
+
+- 68.183.125[.]188 port 443 - pizzaeaters[.]top
+- 68.183.125[.]188 port 443 - posipako[.]top
+- 68.183.125[.]188 port 443 - defthebest[.]club
+- 68.183.125[.]188 port 443 - luxcarlegend[.]club
+- 68.183.125[.]188 port 443 - touchification[.]pw
+
+MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST:
+
+- SHA256 hash: 0e6c8c69c7ef6d7e050662983dd8518ec725bb29f4d3e25fc0332a9363140dac
+- File size: 315,207 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\~383234.tmp
+- File type: PNG image data, 648 x 378, 8-bit/color RGB, non-interlaced
+- File description: PNG image with encoded data used to create IcedID DLL
+
+- SHA256 hash: 3dfb74874b9c0b32b66ce96a97170fc430fed51a7cfdbf361e6c4febe2935e5d
+- File size: 310,784 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\~479562.dll
+- File description: IcedID DLL
+- Run method: regsvr32.exe /s [filename]
+
+- SHA256 hash: 3d0b9f146bd451064d3c9f43a51aa4fda868b1b5cdd9a0512ce954b8f35d1e1b
+- File size: 679,120 bytes
+- File location: C:\Users\[username]\AppData\Local\Eglezaac32\[username]\Ahubaqac.png
+- File type: PNG image data, 451 x 533, 8-bit/color RGB, non-interlaced
+- File description: PNG image with encoded data used during the infection process
+
+- SHA256 hash: a24c5d4c11f1d46b03ae1539df341c7247e1f8809b27a3b873449a1be218bd1e
+- File size: 310,784 bytes
+- File location: C:\Users\[username]\AppData\Roaming\Ubup\Kupi3\egdasu4.dll
+- File description: IcedID DLL persistent on an infected Windows host
+- Run method: regsvr32.exe /s [filename]
