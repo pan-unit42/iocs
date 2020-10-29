@@ -1,0 +1,151 @@
+{
+  "type": "bundle",
+  "id": "bundle--35fe1b81-a267-4a19-8b8d-601458508d97",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--35fe1b81-a267-4a19-8b8d-601458508d97",
+      "created": "2020-10-27T17:10:43.799Z",
+      "modified": "2020-10-29T12:43:37.773Z",
+      "name": "Domain Parking: Attackers Spreading Emotet and Fake McAfee Updates",
+      "description": "Domain parking services offer a simple solution for domain owners to monetize their sites’ traffic through third-party advertisements. While domain parking might appear harmless at first glance, parked domains pose significant threats, as they can redirect visitors to malicious or unwanted landing pages or turn entirely malicious at any point in time.\nWe have been detecting parked domains for more than nine years. From March to September 2020, we identified 5 million newly parked domains. In the same time frame, we observed that 6 million parked domains have transitioned to other categories. Out of the transitioned parked domains, 1.0% changed to malicious categories (e.g., Phishing, Malware); 2.6% changed to not safe for work categories (e.g., Adult, Gambling); and 30.6% changed to suspicious categories (e.g., Questionable, High Risk). A parked domain compared to a benign domain (e.g., Computer & Internet Info and Shopping) have an eight times higher probability of changing its category to one of the above non-benign categories.",
+      "published": "2020-10-29T12:43:37.773Z",
+      "object_refs": [
+        "indicator--0689e8c5-f75b-404a-89f7-48d7c1ad619e",
+        "indicator--3f3e74c5-6f01-4a26-ad02-eee684820388",
+        "indicator--4692d438-31ef-4111-ba39-ca4840081423",
+        "indicator--6e154d98-34e1-409b-a461-7cff3b8c7984",
+        "indicator--8580f25c-f45c-4039-a521-fa2644bcc19e",
+        "indicator--92f41bfd-8ab2-439d-90d6-c30fb59965f4",
+        "indicator--998d6001-961f-49ab-abf4-66d8d10d6e09",
+        "indicator--a1d8b377-c164-4597-8819-a850aadfc8ee",
+        "indicator--ce43405e-44ad-4815-b542-b2cf0a0ef902",
+        "indicator--d860ca1a-f54e-4de5-aa51-f78e6a33887d"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0689e8c5-f75b-404a-89f7-48d7c1ad619e",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "54ac560845b09ce00a48b604ac7c440331cbde4362839a3dbf14c378230bee21",
+      "pattern": "[file:hashes.'SHA-256' = '54ac560845b09ce00a48b604ac7c440331cbde4362839a3dbf14c378230bee21']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3f3e74c5-6f01-4a26-ad02-eee684820388",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "a9fe73484674696be756808e93f839be7157cd65995d8de9e67e40bf77c9b229",
+      "pattern": "[file:hashes.'SHA-256' = 'a9fe73484674696be756808e93f839be7157cd65995d8de9e67e40bf77c9b229']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4692d438-31ef-4111-ba39-ca4840081423",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "xifinity.com",
+      "pattern": "[domain-name:value = 'xifinity.com']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6e154d98-34e1-409b-a461-7cff3b8c7984",
+      "created": "2020-10-27T17:14:24.852Z",
+      "modified": "2020-10-27T18:07:12.355Z",
+      "name": "valleymedicalandsurgicalclinic.com",
+      "pattern": "[domain-name:value = 'valleymedicalandsurgicalclinic.com']",
+      "valid_from": "2020-10-27T17:14:24.852Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8580f25c-f45c-4039-a521-fa2644bcc19e",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "valleymedicalandsurgicalclinic.com/ujftb/statement/wr7hoba7i9hz",
+      "pattern": "[url:value = 'valleymedicalandsurgicalclinic.com/ujftb/statement/wr7hoba7i9hz']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--92f41bfd-8ab2-439d-90d6-c30fb59965f4",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "antivirus-protection.com-123.xyz",
+      "pattern": "[domain-name:value = 'antivirus-protection.com-123.xyz']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--998d6001-961f-49ab-abf4-66d8d10d6e09",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "50.91.114.38",
+      "pattern": "[ipv4-addr:value = '50.91.114.38']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a1d8b377-c164-4597-8819-a850aadfc8ee",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.355Z",
+      "name": "peoplesvote.uk",
+      "pattern": "[domain-name:value = 'peoplesvote.uk']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ce43405e-44ad-4815-b542-b2cf0a0ef902",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "0redira.com/jr.php",
+      "pattern": "[url:value = '0redira.com/jr.php']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d860ca1a-f54e-4de5-aa51-f78e6a33887d",
+      "created": "2020-10-27T17:49:10.176Z",
+      "modified": "2020-10-27T18:07:12.356Z",
+      "name": "51.38.124.206",
+      "pattern": "[ipv4-addr:value = '51.38.124.206']",
+      "valid_from": "2020-10-27T17:49:10.176Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    }
+  ]
+}

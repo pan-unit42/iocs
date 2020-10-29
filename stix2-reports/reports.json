@@ -1,5 +1,6 @@
 [
     {"id": "report--d8ac40e4-d77a-4f19-8c9b-32e0b02fa899", "rp_file": "test.json", "last_updated": "2020-07-29T00:00:00.000Z", "title": "TEST STIX2 REPORT FEED", "industries": [], "regions": [], "malwares": []},
     {"id": "report--bad71760-d06e-451a-b7d6-f69c9289b834", "rp_file": "threat-hunting-in-alexa-top-sites.json", "last_updated": "2020-10-14T00:00:00.000Z", "title": "THREAT HUNTING IN ALEXA TOP SITES", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--ae149d62-8a8d-4b38-b0dd-597731217baf", "rp_file": "mirai-2020-campaigns.json", "last_updated": "2020-10-14T00:00:00.000Z", "title": "MIRAI 2020 CAMPAIGNS", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--ae149d62-8a8d-4b38-b0dd-597731217baf", "rp_file": "mirai-2020-campaigns.json", "last_updated": "2020-10-14T00:00:00.000Z", "title": "MIRAI 2020 CAMPAIGNS", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--35fe1b81-a267-4a19-8b8d-601458508d97", "rp_file": "domain-parking-emotet-fake-updates.json", "last_updated": "2020-10-29T00:00:00.000Z", "title": "DOMAIN PARKING EMOTET FAKE UPDATES", "industries": [], "regions": [], "malwares": []}
 ]
