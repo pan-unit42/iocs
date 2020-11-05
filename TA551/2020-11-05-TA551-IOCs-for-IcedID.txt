@@ -1,0 +1,113 @@
+2020-11-05 (THURSDAY) - TA551 (SHATHAK) JAPANESE-TEMPLATE WORD DOCS WITH MACROS FOR ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID DLL
+ 
+22 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- db53aff36be9a79d54c8c8f801bb47d065212bae7bc25ac5d1227de7bacb0d41  bid_11.20.doc
+- 2f166df5274595c77cb8089d1742a27ff12721178dde1412ddc8ab16d8415219  charge.11.20.doc
+- c9c1ae9c9684bdb70c0b1055cd8a6272e02040c28d4a2aabbbe0b092ba2c9a4a  command_11.05.2020.doc
+- cae8523e235db27c555dc1a577b6dde1d6ab474f9186f8f7b0e8941380576d40  deed contract_11.05.2020.doc
+- 67b66a7164065cfee6f1a6b39dbcdf8382a3590d0caa9454084ec14a179aa209  document.11.05.2020.doc
+- f92dbcff05c07be3a18da38ec82c9a6668bedaad145dd5f35111f64f77802490  document 11.20.doc
+- ed7eea5064b2d4ed38ea2d1c4fd4182e0c5231718680d05863394882713d0eda  documents_11.20.doc
+- 6138e4dc93c53e3a0e18ac907a6b711609a6dc2728e775c6d8dbc03ea690d27c  enjoin-11.05.2020.doc
+- 04bbbccdf09e3e2c80be37a28a935381d5421bdb15199c450cda4897c0c14414  file.11.20.doc
+- 36a1e1600cda9affea95512dea5547bdd68ef372defc44e4beb241dc5cc3af3f  instrument indenture 11.20.doc
+- 25a8e3742683580e5c50927094a7f452e27fe333f141f29d9e7d32be23c4d049  intelligence-11.05.2020.doc
+- fb41a2684b1d177b80fd3bf07e05b075e146038232e1dbd5f182e215c353ff5c  intelligence 11.20.doc
+- be377a15a446075ddf3543228f8ae34057b165da417c26a4c161e0c8f5d7412a  legal agreement 11.20.doc
+- 48d9e53e3b201e2658eba607b35571db95b67dd10e7294473e98a6b748895eac  legal paper_11.20.doc
+- dcf515a3f72f65521925cbd6912fb830d6b816ba43d9b0f8a5a24d3667fe8673  official paper_11.20.doc
+- 4b0ebfffabca17c273712abe30c9d9b3754fae702d5bf405bff1ee6e28e5ac7e  ordain-11.05.2020.doc
+- a706aec605efdc8e9ba5a04a5b9701432b11c6713e407704ea8cb65d42de5538  order,11.05.2020.doc
+- 77e9ac70a42be16db0e2eb121e201ac204e81fcb0f40296662ffe45ca306f150  particulars,11.20.doc
+- 825a32babe73447b580c8e4395062a476d565bab2a0f943b6e343010245f0cb4  prescribe ,11.20.doc
+- d170136f6b996d1baa08813ef9675f2f1e6a87c5de4102a80c02f092ec742ef0  question.11.20.doc
+- e63028f1b8e568cb784c178e65b0a48a7e80b79afeac46de1a4fa677f972f39b  specifics 11.05.2020.doc
+- 5de2afdb561b6486edf370b7b1d4204ff34c37204205e317317078c0cf479150  specifics-11.05.2020.doc
+
+AT LEAST 10 DOMAINS HOSTING THE INSTALLER DLL:
+
+- cradle5590[.]com - 81.29.143[.]161
+- erase1656[.]com - 185.219.43[.]190
+- essay9763[.]com - 194.40.243[.]77
+- flower5428[.]com - 188.120.253[.]217
+- follow1906[.]com - 185.62.103[.]89
+- oppose1345[.]com - 51.38.154[.]24
+- parent8700[.]com - 95.214.9[.]184
+- soda8729[.]com - 185.118.167[.]118
+- story6649[.]com - 194.116.162[.]177
+- what6233[.]com - 193.201.126[.]82
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- GET /update/LMkbCkgyvjqWYHrUnRSORYglFSwZrsmoxaFPZIcaCsGRXxtzYNNTmLpdKXSpzjNqC/iuyala1
+- GET /update/lFtjCLtUzQAk/EEbR_bIviWPFKbNvDZemEbqswGYhQBSCyHaxB/iuyala2
+- GET /update/lmtlHSlRHjZR/zPPzokHAbq_ZBNwKTlYABdTzdgfvHpFnf/kRTqZXalJ/RWJHqHttdC/kimiCMQZvfsYEU/iuyala2
+- GET /update/blKMhhnEr/shRIACXpnjnSFmKqFFDilOnpWIYEgKDRSapd_ikaXCVIfYUzgoR/iuyala3
+- GET /update/jTbSYPxwSDbmjyCAdkBoQtBNXUnmhnLjd_TRS_vHVVDjTQkK_WNhYWfyPcLVcJVdC/iuyala3
+- GET /update/cj/cIEqNWQHFlDvkGcNvDeYIwQMdVrCpNwffztDBVkfXSlFStt/qnOJkDGbo/iuyala4
+- GET /update/M/dzDStFBPlEZXATkFrlWVNTBBmP/PpNkPImnSRSUNTIfkTwhu/LJDxuTWmFcxcfIhctzsh/kj/iuyala4
+- GET /update/HucYUHsTpuYOq_nKSBSHkrGSHHzkKQWHOzdhKgsWIwMqZbnp__wJAhvYzTLGRGG/iuyala5
+- GET /update/TFrIbaqvLrhafUZl_aClEOdlq/Md_kqJnbYamSKlQTMQpfQIF_bvXbwZOPOLp/iuyala6
+- GET /update/RrKqCYwfhgqRPKmmHhfkeUEnvbkPgK_cqhWnT/QLoRUqFVUCALxtElbM_/iuyala7
+- GET /update/hmZWSpGugwEDOSFHYMOnYeq/pFFxpyMEIpUGdUCmcuJsbhtoDOkLMcrt/l/C/xBwd/iuyala7
+- GET /update/dbdBPCprdQjHfHSIPvJwYsfccHhMqBpItbdUBFqkGKzQNUhUjHSQvebVzSILDaft_WDAAiDXmmbSBY_OIE/iuyala8
+- GET /update/hfYjtijzjwdTPOpa_CQBfoJqZUOMPjBffkBCZdPIQAEDzZSiL/qFdYOq/n/b_dSChZ/lDpktzH/iuyala9
+- GET /update/KWQezyTDDtO/DHYJHdOMYHcx_uUDJ/NkHqHugtrNBcCnm/PzTwlAholekoYd_HBsjjDTwQOThOrtC/iuyala9
+- GET /update/dcpzZShWWf_qnsUlNRz/tcGvT_bMbuZZhCUpYvJAKcWqtivucvvmqmUDPPKxbpgbnEV/iuyala10
+- GET /update/IxGWHEAOCUc_fkAVDcZScLTXIvbUjiFQdL_VPGAnHCLebkjuEdDMSpdFL/iuyala11
+- GET /update/VdlYZWmUkwXoKhIdRUkaZHUscJPjPFcbVOV_cJwtroxpqerBjrQHjkKwOyxuXaM_Kbfrb/iuyala11
+- GET /update/CAIiwHWvhjGAp_z/jTLHZhENzNpJnEZXUalFhr/iuyala12
+- GET /update/VzjuQJCHvhXDxVDcBvqQRgjksNbSKVFIpFZjkS/esWMCfFBGzhlSGjvIfXVmQrMcTdPQtcgsNMmMzhf/iuyala12
+- GET /update/TzjjNphW_iqhAegfQcItABSqdiNhdfprIBGPp/hnlNlyBhBigidYjnCRAogXjX/iuyala13
+- GET /update/jcja/yCGHnwRmyMVTeCqljgln/JTHBIgVESrNVdrgJMGGNdiqqGxCNACjXDBjkMJKFPKvJNYXFVbcxYvbS/iuyala13
+
+8 EXAMPLES OF INSTALLER DLLS:
+
+- 1fa50d8c5b34e135f17d1aee71e4759caeb99b4cbded8aaecf3610dc92421a98
+- 42e6e0689815d949577e3ae3fe6b3c23d0acb050d127dca10002caabb5649f63
+- 5fe831cc1f185f0c1f83661d8e4813ec7014c00cf22fe6de02036ca9f90dcd57
+- 83236cf44a4f97d773664ddebd6faaeb6c0fdf809d43632b49e6345217a4b85f
+- 990e453d4c711820a9036e8b3a2695cba1b51876279db9e5f5a83791bca91d4a
+- aa1d62222a4a2fd38aa7cb4bc0040493409a3e13561de59b740ad53ab4dba118
+- cc4400d249739c029f4ebbaece292fa9553d06ae6fc97c1567cc4ddfad2c10cd
+- f20a6c1783ae9ca8dd81e6c19702b6f81c73293ce8dc52ef4cc152f7de5ebb86
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - www.intel.com
+- port 443 - support.oracle.com
+- port 443 - www.oracle.com
+- port 443 - support.apple.com
+- port 443 - support.microsoft.com
+- port 443 - help.twitter.com
+
+AT LEAST 2 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 167.99.248[.]130 port 443 - covercinemo[.]club - GET /background.png
+- 167.99.248[.]130 port 443 - detecvasquez[.]cyou - GET /background.png
+
+2 EXAMPLES OF SHA256 HASHES FOR ICEDID DLL CREATED BY INSTALLER:
+ 
+- dec4d9a6c0253aa74bd2700f9e981c7724f136f6a68db54284bd1e3072e8254f (initial)
+- 1ad3f240686cb252388a38adbf9ffe2cad9b56c95e4f7fce4b8fc3555f24c426 (persistent)
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID DLL FILES:
+
+-  104.248.90[.]150 port 443 - blokaddio[.]top
+-  104.248.90[.]150 port 443 - defeodallio[.]cyou
+-  104.248.90[.]150 port 443 - grekilioliplane[.]best
+-  104.248.90[.]150 port 443 - nawserty8[.]club
+-  104.248.90[.]150 port 443 - quaddroporrte4[.]top
