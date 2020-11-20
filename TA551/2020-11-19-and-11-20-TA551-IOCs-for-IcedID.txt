@@ -1,0 +1,142 @@
+2020-11-19 (THURSDAY) AND 2020-11-20 (FRIDAY):
+TA551 (SHATHAK) JAPANESE TEMPLATE WORD DOCS WITH MACROS FOR ICEDID
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID EXE
+ 
+20 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 2706d237ff6d203e593aad409d1abc9625d9135d107f5212803c9b320e69cdbc  adjure-11.20.20.doc
+- 36ee261683217a5133ce973441a64c0a9fe671036160e30ae79dedaa81e42f07  bid,11.19.2020.doc
+- 0f7624970709efb005b9f5bac147cb0a555a1f24d50da09c3e812bcf7e587ced  charge,11.20.2020.doc
+- a63970ab8b9f6a83f86f41c4f0409d58c1b917c3f30e2caf6154a6f6f0cd543f  details 11.20.20.doc
+- 29c2892ddcb112dc691ecba633759fb91015d2ad69799552ce553e150b662f9b  direct,11.20.doc
+- ee5b53c4d2021d56e5255e91009ae2f9514703d87a848722eb0b0664089a97bc  docs,11.20.2020.doc
+- 5e3bee5765f99d164979cdb88dd6cd5d5304bfe70622ce9394df5981080359bc  docs_11.20.20.doc
+- c68dcade91918a48855f5ffdc0f20649ebc5c354d8b66cbb74dd3397d3c51293  figures_11.20.2020.doc
+- 002eb91627d82876f4621f33ca8110aff1aa213a16f955094ecc97fe8982330a  file-11.20.doc
+- b27ea49598e2da9a8c63d6f956da496a147b2b08cdedb06407a9d8af267486e8  inquiry 11.20.2020.doc
+- b116a416cfd4819da8a20926c48ed66b18ec626e2e87e999cab1e0551f001e3f  instruct-11.20.doc
+- 54c8a2dba948c8ad658361074ca2e3fef67e4a23b8fd00de2470ff3283732595  instruct_11.19.2020.doc
+- fa7beee59069741ac3c13e36b194b65a385eb23934e419791c7793d2435cb75b  instrument indenture.11.19.2020.doc
+- 8651d095749dfb4192e0ebc8bff72a35eb8bb504e2acf97a6e890ac364d49f0f  material,11.19.2020.doc
+- 24cf2a38d928660fd8e0205825d17f6ae127a13a54e81f0e9734889d19b941ce  rule 11.19.2020.doc
+- a642bc961ab411882c7950950c34847ac166146a6c60ddc6ba3c1fad41920a36  rule 11.20.doc
+- 86f0c3c0ed4f8ed3516c434b4387b7b085b025f11e7ee04632bbf0d871fd2b81  rule-11.19.2020.doc
+- 53d70f699b3b50f705e5688e6d6aaf3c0c89d8205cc73c428e6fa737ca87a0d8  statistics,11.20.doc
+- 44ceaf02836d4b44e02a1f23e708e103e1258a925aacdf60c823ec4ff6baca3b  tell,11.20.doc
+- 8304c3b4269fd789785d2b73f59787f7d98a48dd658db8b5a9ed1b98bb4b737b  tell_11.20.doc
+
+AT LEAST 11 DOMAINS HOSTING INSTALLER DLLS:
+
+- dbw-equip8964[.]com - 194.40.243[.]8
+- dhl-rule6692[.]com - 185.219.41[.]68
+- eeb-sight5314[.]com - 109.237.111[.]19
+- fg-clip8673[.]com - 45.89.66[.]50
+- gp-select7372[.]com - 77.222.52[.]188
+- ney-impose8272[.]com - 77.222.54[.]88
+- oc-timber7979[.]com - 185.173.92[.]110
+- pmj-intact5338[.]com - 185.118.164[.]140
+- ta-price8067[.]com - 193.201.126[.]91
+- xg-endorse4501[.]com - 185.62.103[.]57
+- xgk-company2593.com - 81.29.143[.]168
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- GET /share/nBUhDeRN49397iOcbETzhi_GZ2OvU6gcs8IQQbxFSTqTqi0A5PfZj1TjTNIZYan72/ahtap1
+- GET /share/39Pa76zBXFrMHG36R5MmhhIj9I2TjRjiJEjytNGdInfVkSh13UG_fQQDYldn/ahtap2
+- GET /share/ZSzE0sjR23GkF3VwZi_nqFH2B5lqPUVKxwNC/ahtap3
+- GET /share/Yg6/CIQd2KErfFDl1eSWkcUd0pnUsWFALmffOUVRvaXfs/Nr4amHjhz/ahtap4
+- GET /share/SCUPnjhiwegF/28KxW4cNv99GO1dH3Bah1Vdq/s5TyFU8zEtj5lCbNgfNT8ZE9WrliYYsCLN/93CC/wchJq/ahtap5
+- GET /share/9cfk0oFRnuEqprPEG4xijqctWeAU68kaMLdjgNAkApKqIx/yR9jd6dc3/ahtap6
+- GET /share/1BxDJZ8qM6qIzclPg2wm3gMDZHWvr0cVhd_nM4m_HgCj6n/ESm6r7A6A0S69mAtMJfQu9MVjOA/ahtap7
+- GET /share/HEAKmz6CHif2AkCnl9/orp6AL0mRCDJAmMvwR4DHENWCOvMXzQAkhYXEA8qc8_weQYOZ0D8zQ/ahtap8
+- GET /share/HfVtpvjPczpnRBsBPE4jZeNmQ0MoVPUh5E3YZ/4FgngL70sLGdpEWw9FEbCaPqMHMMU86/ahtap9
+- GET /share/4L0JrUtg80FTgDZOHOblDIRT5AQp3Td4Sl8zckYaIp_VCQxm/nnL9xfcvRNQg4_W4K62K_b/ahtap10
+- GET /share/sfB/kFCW_0BRjb6khSwCYy7AN45uInZ8p8GXOJfDCcspf2cTBGLi/ahtap11
+- GET /share/O3tjjDnZL78kMmzZhZTR/yg6BE7SQj2HJOAoAT_oM4rmf3bErCF6x/ahtap12
+- GET /share/AnBf0ALqWa6tnu11H9PMMQqmXCqLMV4J6nmo_5FcH5Uc9/Vlt21vVa1w/mYgD8vSjg/ahtap13
+- GET /share/LTKLDqLvZ/GYOghr82ODzWsD/CDCkPOx8L8G9p6018z/hTd5jWC73KPhEi_NI6hr5zSBcTgB7Y/ahtap14
+- GET /share/cgHW3FKPXMSQzsZh6BsR5BsU26nFKz7e_5veVPUp1vRzn2mSPjze2y4WgwF7my5_5Psx4LYcn6/ahtap15
+- GET /share/0f6dPIpRf26p8rLrUCL6TpmLpxGjx2d3dYPiVj7Y2mNOJZc1zVfMllhM3ddg6BxjV/ahtap16
+- GET /share/1kD/4yrfsEsrBsgCBYUnzo3WBqsOw5M8RDkTRy2jFSchpQ_UTk_ynhYCWwHV6EjsJrLp0/ahtap18
+
+12 EXAMPLES OF INSTALLER DLLS:
+
+- 18c7a8263bc8809d36c99f328ad689d38c42e03a555387a38e8a1f753bc1c027
+- 22a1dd7063e985984d6bc9c7f0bce3566c7102483ae1ffca9b5713e391d81d12
+- 4b94084b3535bd49e7099b0a445b961c3b6e6b1ca29e6de50c644442c2243bbb
+- 5c9786ee424ec48c047fa168c077e16808a607abe101c6c92c0e6d4d0246aeda
+- 602401d67bdfeb52272b4efb68ce04ecdb64899fc80c3becca7af2be720f7b21
+- 77834f8e7f5e7c25306e7175d8356d0fc5254594eec6a3d45598949b832fd04d
+- 7a9679793408a36e6c81d9bc35d020b21138f57bbc49edf37e0feabd999e1f5f
+- 9566b8797f14c157fbcc513a4daadc16bd16e92909779c8d50f1b3f5e84f5f2b
+- b740d1f0ab2663b200297d20285a16d7f15567eadee95a0e2227729edca4d3d6
+- d05eb3374be903acfa2b66521b12e5883491285d6639c21af5940c041030ff9c
+- e3d8e33c28f16e25e4f8f5b047d8bb68e10f789da382dbe5873cd55a3ed1de27
+- ed8c7d85f22fbb139b20f21cde9431e063db2cfa2b29dd3ac6a2ab7586c988fe
+
+LOCATION FOR THE INSTALLER DLL FILE:
+
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+
+DLL RUN METHOD:
+
+- rundll32.exe [filename],ShowDialogA -r
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - instagram.com
+- port 443 - www.instagram.com
+- port 443 - facebook.com
+- port 443 - www.facebook.com
+- port 443 - tumblr.com
+- port 443 - www.tumblr.com
+- port 443 - twitter.com
+
+AT LEAST 1 URL FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 143.110.185[.]84 port 443 - rasolpewsitr[.]club - GET /background.png
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID DLL FILE:
+
+-  165.232.104[.]85 port 443 - emoposawe[.]cyou
+-  165.232.104[.]85 port 443 - okrufedikol29[.]club
+-  165.232.104[.]85 port 443 - coupper3[.]cyou
+-  165.232.104[.]85 port 443 - plumbum44[.] cyou
+-  165.232.104[.]85 port 443 - desinforma[.]cyou
+
+MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST ON 2020-11-20:
+
+- SHA256 hash: 213ab5658e44f2a111c5e4cffa043660bc49307ebb1b7eedd21dbddca5da41acl
+- File size: 13,312 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\in.com
+- File type: PE32 executable (GUI) Intel 80386, for MS Windows
+- File description: Copy of MSHTA.EXE seen after enabling macros
+
+- SHA256 hash: 74b0b29f5fb8715840e7cc80ffc11e175010b5b9ba1c2cec93d37f80597984dc
+- File size: 20,776 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\in.html
+- File type: HTML document text, ASCII text, with very long lines, with CRLF line terminators
+- File description: HTML file with javascript, vbscript, and obfuscated text, seen after enabling macros
+
+- SHA256 hash: 4b94084b3535bd49e7099b0a445b961c3b6e6b1ca29e6de50c644442c2243bbb
+- File size: 354,816 bytes
+- File location: hxxp://ta-price8067[.]com/share/sfB/kFCW_0BRjb6khSwCYy7AN45uInZ8p8GXOJfDCcspf2cTBGLi/ahtap11
+- File location: C:\Users\[username]\AppData\Local\Temp\temp.tmp
+- File type: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+- File description: Installer DLL retreived by code from in.html
+
+- SHA256 hash: b115ff724125e986f645c46c8663c63fcd1914a2bed52259bdf9e1345f6cbed9
+- File size: 349,055 bytes
+- File location: hxxp://rasolpewsitr[.]club/background.png
+- File location: C:\Users\[username]\AppData\Local\Temp\00053b3b.png
+- File type: PNG image data, 200 x 223, 8-bit/color RGB, non-interlaced
+- File description: PNG file with encoded data, retrieved during the infection and used to create IcedID DLL
+
+- SHA256 hash: 6c9e6fee0da0c11ba4234f3829f7466451e65c008399f44c7f57284baa2b9531
+- File size: 344,576 bytes
+- File location: C:\Users\[username]\AppData\Local\Myselfchase.dat
+- File type: PE32 executable (DLL) (GUI) Intel 80386, for MS Windows
+- File description: IcedID DLL created from encoded data in 00053b3b.png
