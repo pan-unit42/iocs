@@ -27,10 +27,11 @@ CHAIN OF EVENTS:
 - 72d600e7482b11ac7b99ce9ba2716f83a9f7e328a97fb9a28ff4dd9033dd2776  question 11.20.doc
 - e3156ce951337bdbb5458561726bc989b906c4c6ad1bdbfb034e3227ab687226  report_11.20.doc
 
-AT LEAST 9 DOMAINS HOSTING THE INSTALLER DLL:
+AT LEAST 10 DOMAINS HOSTING THE INSTALLER DLL:
 
 - dx-approve9690[.]com - 104.27.144[.]245 or 104.27.145[.]245 or 172.67.159[.]139
 - fi-orphan1895[.]com - 104.27.152[.]71 or 104.27.153[.]71 or 172.67.208[.]141
+- gwz-mass5938[.]com - 104.31.88[.]160 or 104.31.89[.]160 or 172.67.184[.]93
 - lzw-steak3686[.]com - 92.242.40[.]104
 - mh-library9619[.]com - 104.24.122[.]45 or 104.24.123[.]45 or 172[.]67.212.203
 - nl-sick9850[.]com - 37.46.134[.]163
