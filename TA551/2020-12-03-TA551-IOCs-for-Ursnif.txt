@@ -1,0 +1,139 @@
+2020-12-03 (THURSDAY) - TA551 (SHATHAK) WORD DOCS WITH ITALIAN TEMPLATE SEND URSNIF (GOZI/ISFB) WITH PUSHDO:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> Ursnif (Gozi/ISFB) --> Ursnif/Gozi/ISFB infection --> Pushdo and another malware EXE
+ 
+32 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- dcd8c034f700d3304e0de3d4ed6985fb765be95e1f3bb0b65c426488baa32726  File 12.01.2020.doc
+- 22fd641522ad610ef835215e47cba27d0f99381d36f6f1863101750c4cc403b6  File 12.20.doc
+- b338c1165e029041175c9013846c42da24eabb2191dd12e807df0c606e210dcc  accordo legale.12.20.doc
+- 66c2160badff8c341f609ac84cb96963a2b7d96263e53e7c06acdea632cb1bf4  accordo legale_12.20.doc
+- 39210e606009e5d1f94bd03d9763f5fa220fbea1614669ec6a58b1ce460e8125  certificato-12.20.doc
+- a15cc02996cf92026f44f6fcf165ee72e71f88e84730e41a637722abd0c9248e  comando.12.20.doc
+- 705ada121dad43dd3e47926033d3747849129ea1800f0edb7b609eb153af2546  commercio.12.01.2020.doc
+- d0e77d24e99890316a0c02be38d69ac3bd8f1be30afbc02f501661845580fd28  commercio.12.20.doc
+- 52d5fe19d9ad2244797df9731696fe6386911018ab83c0c905bd5700ff662e9d  contratto di propriet-12.20.doc
+- d2150d6a5090017b6fbe8bcd5ac0eff8725d55bb8159610e95acedcf79603b81  dettagli.12.01.2020.doc
+- 25267bdfc7776a531a5c3e4a025e355e5510d3d13bd161388ac7ea1e009a854d  diffidare-12.20.doc
+- b045928597124c64cec795a53c0efe12602947021bd73bf290ec9acde0660d4f  diretto 12.01.2020.doc
+- f744541667e0bbba9c54b91ed5ae556ddcc1e84372a026e2eda80ef8790cda9a  diretto.12.20.doc
+- d4d6b85c4d133a3c0e0a856e87fbf03882a52961589ab06319765028f526690c  documenti 12.20.doc
+- 1e31a14c94f43259d018daf286bd917f52b0ec582a7bbe0978e9ba8db0f58e4e  documenti-12.20.doc
+- 96149595303efbbc997792cef816f75e99b59b5dbece0c7e15f93cc01a0dc0a1  documento legale.12.01.2020.doc
+- 8a8dfbeba256f16cc50f85d356e99a104548aed8fee7b7d86370626b1958391c  domanda_12.20.doc
+- b053e2ba623286169c86b8f476ccccd00162f20402cf091e527dab0898422aa4  fatti.12.01.2020.doc
+- b5a82f358804fb1b59046aaba192e8159c806b627aa63a648b210c88e02f38ab  fatti_12.01.2020.doc
+- bbd36fbe05d1f7b860b5eb1fe18ba7c93629b1280ef07a4cec5fff4d66dd407d  inchiesta,12.01.20.doc
+- 91f5d623916e719899202ad439872628bec0fb22b2da26356c4b1f9573d4388b  legiferare.12.01.2020.doc
+- 5a02517a06b6d8077d1b6c687b9d2cf0c3e7596b5afc86a39632c7623ba88f59  legiferare_12.01.2020.doc
+- 3b91c7faedd5b5e8e9f77db18daace2932b53c846c53aaaa83db60abf2e139e4  offerta.12.20.doc
+- a861f29a0b1f6cc24f3090bb4260cb9388466326e9d320db378f3bdc08e7c267  ordinare_12.01.2020.doc
+- 98df0b48db8339b843f54d9faa3ca608881d79e9e6daeee3d6811ae37d57ed09  particolari,12.20.doc
+- 2c4f29d37ad37a7f4387bd40319b54b17fc6cef89261f718cb61ab4a17f41ed6  particolari-12.01.2020.doc
+- 0b46752d800885ed9e6687ff36985858e5cfa82a8b8b52e0ad9e488d24aee154  particolari_12.01.2020.doc
+- e5cb6bf749b22e4232541bdd75087559bcba643bed551040ec74a561d8de259d  prescrivere  12.20.doc
+- 3a98246da2740013cbb2f86bfe2b1fc8763a04b9b9909e45135e96fe9a6329ab  prescrivere ,12.20.doc
+- ec430a3638c5b5c5f46e76da51d193a3946e4f122182d2f83293305b9a621d82  rapporto,12.20.doc
+- d8a90f9965bacab8e3bf3aed21f1a512caab0ad12f319bc9b798e1ec585fb1e7  richiedere.12.01.2020.doc
+- 3835d1f7b96648c3de52bfdc1b6f3b522cb8fcea2ddc53a7c5f1c63aa6f2fa51  scongiurare,12.01.2020.doc
+
+AT LEAST 12 DOMAINS HOSTING THE INSTALLER DLL:
+
+- d515country[.]com - 172.67.200[.]227
+- hrw393pilot[.]com - 104.27.170[.]120
+- knt807fault[.]com - 172.67.192[.]234
+- m581mushroom[.]com - 104.24.125[.]90
+- nfj254aim[.]com - 104.28.6[.]227
+- pfbtq569flash[.]com - 104.24.117[.]52
+- q654trap[.]com - 104.24.123[.]135
+- rou488reopen[.]com - 172.67.202[.]145
+- tna873miracle[.]com - 104.28.9[.]105
+- vi363suffer[.]com - 104.18.41[.]59
+- wcfv355security[.]com - 104.31.72[.]27
+- wo784prosper[.]com - 104.27.157[.]41
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- GET /analytics/tX43Kq0jDijp6HY4lemCSAhct/Iv8G9u_TdL0u72Y/xspcd1?cj=TAhOOMr&RTJ=UUxCpwJv&Ctrmx=mLwBZGdg
+- GET /0D5FgQlJcMskzpbtgQBE7OE_tLI3/BUu5qgsI6FW8bkEsrF2HLHJUIr/lRD_7cnWmi/rwwHf1xOO/7n6dDzF/xspcd2?RltAN=vsETwS&G_=Ro_LgyQulrPjxaAj&wixw=XYJCRUJhgYHPY&bkUOD=AXjbvUQDbTcWkz
+- GET /analytics/kGTfv2I7JYDGSqRPgmc3AsQQQqZbEGXG3MCHbGTMNN7LSV5uKVtuws_eceMsgrOeN7BZ/CvE7/pZzG3Ak/xspcd3?OTSU=QSmhLgSOxVVUMt&ERpTp=HYfdMmXmaxol&MYA=mnxSjTqeJqwTwT&HwOhk=nWLlCCwQ&_LStQ=VYNnPGb_zmmOYLMx
+- GET /analytics/PtG1Y8TvZDneVNp9Ko4CZPhBzAxPPr6hth5p/tsi2_FzmMO8mM/aCIf89MG1Z3MPLo7U54DU9M5z9/xspcd4?nox=SDL_EaBp&klMT=UfXMrb&sCPJM=bdGvOqL&_bNA=wSWCSB
+- GET /analytics/UqxBT5XP2k8ajkY6mRkZKWAaXsMnELgu2tXGhMH5feS/xspcd5?OZ=lEYpGQRuTtthpl&dX=wWJFEKlT&mipht=ZrBhcYS
+- GET /analytics/P8YVflx5Ov5C9BDMY3G4q8qTUn5i1N4Ev/rSg250c/1/6HHgK/2fYEJP89bZQfpJTQUU/xspcd6?ATMYO=sRYJFObcNOqH&AtY=IibwN_g&SDk=LLpmbcQM&ASHbA=zjEuLeTsMYpUPsP&QrBO=xGprCdAvguWkgckpb&X_G=LlEtwMchF
+- GET /analytics/xK2Jv3gOcnfr33bmSJEPksPB6tw0GVK3d5cU1uKWBXwx4cwLgMWn5dcoh/xspcd7?dLfVQ=kyNYGWRyNHrjV&xK=njMXOpnGlWIYKWI&ran=ZzVcKCBqg
+- GET /analytics/YipebtxQnlzZXt9dGEfR8DO1Pi9MJpcgMRdGS7DLZZNd/xspcd8?cbM=qjOzKRsf&Hrw=VfwkIOZxHpKkTpDWL&BR=jgdzWlTjN&xb=mOJlfD
+- GET /analytics/EUUrk6_3g2my5andQEll_djmGH7kNcvzYX/xspcd9?hf=mEzPnPxOcUsf&KPk=p_EMtoKRwW&gM=NJFiWGS&OU=poqItAHaGMmmhZ&GQgn=sfWoISY
+- GET /analytics/t7nv_JxPxG_Bm6VRzQUYpuDbGC2WNe0TJlkcIZmvnjApfxSUAL/mvRFy_8ZO2VBjKMgi/xspcd10?M_s=jHWbjjh&tYUdg=gMRyGR_c_xtRH&Xhdh=RCFvnQXPIoINbE&bUS=gBVqAHzF
+- GET /analytics/43HoNS/9HVLmKfghLkE6IPYb8BvJqqm3BTsR6/xspcd11?LMPu=QWkCRgpocxUj&sMc=NQHItsIckIEBK&XvYzg=qgTvCGtUlORjS
+- GET /analytics/7iN28XYXRXVRQJE8IgOsxdccDJp7rDgy1gTTSlBjNV0pwPxIxIBE05WXBEvjKYZVFZHp/xspcd12?ns_gn=hqxeQA_LIw&SSpeR=lohWzVtjbtYu&BWAr=KrLdBBDSb&zp=AqneYytzjkcgIhnL
+- GET /analytics/6gwc676ijaR7VVSuR52pRK5_8v58Axp810It/k0rvV7TkpT4CALwISffnSQOr7U/xspcd13?Wa=zvPrVSXIHcjGCMj&NbjL=KFXbpkxoE&SY=VQhGDmVn&wSRd=wXCNUX
+- GET /analytics/GO_H4TCf/3waVFUn34/zViDX3WKpBFXyxKgpfXr32WJ1IrvnWYdJO9ZP9A/xspcd14?KRm=feLuWklaL_hnD&fhGg=r_zMYpRVIilu&EjkX=leLuRb&vo=RJfppYiV
+- GET /analytics/rmYy8k6lN8d8BMslNqU8zejcleqPxhME49nMd/XKOttttHzSq8BimvQultM7ccwIg/xspcd15?KQ=gxbG_oBul&nRxmG=RTzYNYH&s=_TmaFG&TVxo=ZhfZGSpc&jfOp=YlkBuLCbhKriY&hns=OExmTVih&UU=jPcUdyb
+- GET /analytics/tgc__GYw4F5l4STLBqW22CpvHwmGBv_eM_JdHVdF/zXt/xspcd16?SsWk=hfbhfCHd&vWxXQ=BgtMNDWEwVL&KWk=dHYunuF
+- GET /analytics/nI8d2SQfAMYhxWVNxgt0NTcqEts4ROzc9qE6DMphQfcLV34vBgfNKupNv1VJIRB0Dtvtw1l_gNDAzUm/xspcd17?Fqj=_IVyIUFibAC&dYU=cVqPAKmYDEdF&TtWl=_sQzHaS
+- GET /analytics/9WdmBrVn1aWrJ4R0JOWAEagl4xwLhV8J8mA5VtlY8/OQAA5r7bsRT4w3/xspcd18?Emsuj=dAggvQ&bZOe=SAzvXGJPQdrx&VUFv=jmxL_UJvfRdElycT
+
+14 EXAMPLES OF TA551 INSTALLER DLLS FOR URSNIF:
+
+- 2d9042e9844cfad13945bfd8480aefd9afbcca828998e6f65181b77cf93d7e33
+- 31ace401668e11cf7874612cc2ce412dcb2ea96428e14f55364cde9214826023
+- 571cdb9261d5b7b1697a4d92514297f19e5149549c45762dad4f2118f51eeb67
+- 7721248f6c524da20b6f51b54e486e5d58766b29dfc5664a3e7a692dd2eb6655
+- 7ca733ebb2fc1c0fc99bb61736c8c5a2b619110ef0ce8119207157247ecee478
+- 89c0ff2a9bcbc1e2f6054bfbc9f9325e3b02ee2547ed71fc5803d1889f0f642b
+- 8e7b6ffa64cd7b22346a1a1ebe7b72de960aa38180047f07f8b6ed491e2bbeeb
+- aa8d8aae170026695bcdc5913320a2bf5029e49f58fa1955dfc45e1c1c6f80fb
+- c317c52e7b95e14ae974df6fe99df3e5c976b2186897f19fbef68add5dcc28ea
+- d40994e618014f647e61dec2f0c2047fdc8f3cf44c658cabcc6e7b4143d220be
+- d22194b4cf2b034bf60e7dfd51f82abca51c9c337f6035fa60c2d5a9756f0126
+- e06acd3a139d5aee1737775e83f28baf0927a84d9fb7962e7d2733d63531ef3a
+- e80948f77c7aba6369dfc1516a3daa2424f7bdc36d3548bb5c2cf945559c48a3
+- ee7f17f0f5c89fcd2f15b8b82f548099082a7eb58b20506f01f1160888a5390a
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\Users\[username]\AppData\Local\Temp\temp.tmp
+- C:\ProgramData\KaWwz.pdf
+- C:\ProgramData\PVBSc.pdf
+- C:\ProgramData\mjvjD.pdf
+- C:\ProgramData\GsXVM.pdf
+- C:\ProgramData\mnyJk.pdf
+
+DLL RUN METHOD:
+
+- regsvr32.exe [filename]
+
+URSNIF/GOZI/ISFB TRAFFIC AFTER INSTALLER DLL IS RUN:
+
+- port 443 - web.vortex.data.microsoft.com - HTTPS traffic
+- port 80 - ocsp.sca1b.amazontrust.com - GET /images/[long base64 string with underscores and backslashes].avi
+- port 443 - ocsp.sca1b.amazontrust.com - HTTPS traffic
+- 31.41.44[.]37 port 80 - ystatistics[.]com - GET /images/[long base64 string with underscores and backslashes].avi
+- 91.203.145[.]38 port 443 - gstat.sloleaks[.]com - HTTPS traffic
+- 91.203.145[.]38 port 443 - gstat.securezal[.]com - HTTPS traffic
+
+URLS GENERATED BY URSNIF FOR FOLLOW-UP MALWARE:
+
+- 176.10.118[.]191 port 80 - 176.10.118[.]191 - GET /xmas.rar  (this one was for Pushdo)
+- 213.202.253[.]21 port 80 - sertificatkey[.]com - GET /upload/iputil.rar  (not sure what this one is)
+
+PUSHDO TRAFFIC:
+
+- various IP addresses over TCP port 80 - various domains - POST /
+- various IP addresses over TCP port 25 - various domains - possible SMTP traffic
+
+MORE INFO ON FOLLOW-UP MALWARE:
+
+- SHA256 hash: 7a9938273e502427d127d1aced6f9fe7fd25c7fdffe5319788f1e0588280734b
+- File size: 159,136 bytes
+- File location: hxxp://176.10.118[.]191/xmas.rar (encrypted binary decrypted on victim host)
+- File location: C:\Users\[username]\AppData\Local\Temp\21684750.exe
+- File description: EXE for Pushdo malware retrieved by Ursnif-infected host
+
+- SHA256 hash: 439202c41928e352f46c1181b40758485b93b87e0b007ffeb05da30dfe5399b7
+- File size: 75,776 bytes
+- File location: hxxp://sertificatkey[.]com/upload/iputil.rar (encrypted binary decrypted on victim host)
+- File location: C:\Users\[username]\AppData\Local\Temp\22891453.exe
+- File description: second EXE retrieved by Ursnif-infected host
