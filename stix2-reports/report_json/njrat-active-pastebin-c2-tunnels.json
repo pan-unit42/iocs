@@ -1,0 +1,801 @@
+{
+  "type": "bundle",
+  "id": "bundle--7a487a5d-8366-485e-9880-e2cad4d73bec",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7a487a5d-8366-485e-9880-e2cad4d73bec",
+      "created": "2020-11-24T19:30:41.314Z",
+      "modified": "2020-12-09T19:05:18.771Z",
+      "name": "njRAT Spreading Through Active Pastebin Command and Control Tunnel",
+      "description": "Recently, Unit 42 found that malware authors have been leveraging njRAT (also known as Bladabindi), a Remote Access Trojan, to download and deliver second-stage payloads from Pastebin, a popular website that is well-known to be used to store data anonymously.\n\nIn this blog, we will introduce different scenarios and data transformations that we have found in the wild and the relationship between the downloader component and its second-stage malware.\n\nhttps://unit42.paloaltonetworks.com/njrat-pastebin-command-and-control/\n\nPalo Alto Networks customers are protected from njRAT with Threat Prevention, WildFire, and Cortex XDR.",
+      "published": "2020-12-09T19:05:18.771Z",
+      "object_refs": [
+        "indicator--1835c143-3399-4d85-92f7-f00ae7490f80",
+        "indicator--1929210b-6f49-430c-b48d-2c80b533a05c",
+        "indicator--1f8ded4b-e1c5-49c8-80b6-31a64ecf21cc",
+        "indicator--22c08592-09a0-455a-a1e7-ae05a7988f49",
+        "indicator--2349aa87-306f-4dcf-9cec-a2bc37c468c7",
+        "indicator--24e33a69-947c-4656-9a4b-8da04bceaf61",
+        "indicator--258c9410-eb2c-411f-be14-1c304c5fb24b",
+        "indicator--2f014f9b-3b14-4707-9cb9-25c664c04104",
+        "indicator--3006efb5-aad4-473f-904f-d7819c59ec36",
+        "indicator--32c573ae-cdf7-4886-b92b-c318f49b7385",
+        "indicator--364fd023-080b-43ac-9ffe-e6b90c1b504d",
+        "indicator--36a49a43-a966-4f39-811e-3a9cd3991129",
+        "indicator--36cb2b21-6dd4-4821-861e-6033ce14789e",
+        "indicator--38eb9561-1144-4ddd-9f79-018c56cc7114",
+        "indicator--397a560a-a3e4-4510-b38b-196c3e2bbd66",
+        "indicator--430607d7-d328-458e-8e74-23b8cc337f8a",
+        "indicator--43aa7456-87f5-4d11-9192-41bff0b4afca",
+        "indicator--4b0517c9-16d6-49b2-b981-e542f64edf15",
+        "indicator--4c899ebc-63ec-4dc5-81f0-7d91eecb54d1",
+        "indicator--4d34b7be-c94d-4fb7-981c-4960a858c071",
+        "indicator--530fe261-8e44-4609-a661-789b31633e2f",
+        "indicator--57060c7a-b1c5-4f9e-80e8-1e5a47a41b99",
+        "indicator--5be0e088-d91b-4ca6-9d58-1788b6b8d0ea",
+        "indicator--5e248e47-3157-4332-9204-95dffb7a9d36",
+        "indicator--62627945-61bc-4a9e-899a-d78481523c43",
+        "indicator--64bcc1b2-6ab5-4410-b53b-17c3b228b963",
+        "indicator--665dc9cf-1c58-47d9-b3ab-27919607292d",
+        "indicator--74cdeecc-1e6d-4405-a243-22cdb8dff44a",
+        "indicator--79143033-8294-46e7-927a-e0b96d4b50da",
+        "indicator--7f6cde6f-3919-447d-b4eb-b45e2ffb72a4",
+        "indicator--80596039-a8e1-4ff0-ba71-c75cb067cb7b",
+        "indicator--827448ea-b405-412c-9b50-1cc7f4c08a8e",
+        "indicator--849f56c4-1ed9-4cde-980c-d8c2edcfd150",
+        "indicator--892a6b4c-e163-4beb-9256-75525534be64",
+        "indicator--8bbf79a0-9342-4a25-b515-16bd47610094",
+        "indicator--94c2c8c4-f5da-41f7-9bbf-6f5e7842eca0",
+        "indicator--9a3981b3-4fcd-4e14-bff2-9d0291db4fc9",
+        "indicator--9b22d528-aedb-44d6-a9d2-7d6258786dd0",
+        "indicator--a104134c-c885-4ecb-b8fc-088876a7a8fa",
+        "indicator--ac39c39f-0524-460c-91ce-d5620a28b7e1",
+        "indicator--ad7fe156-331c-4804-8579-878e0074ece3",
+        "indicator--aed8f960-6fcb-40b6-a843-d312560e71eb",
+        "indicator--b1e749d3-b0dc-4ad2-bf56-272c59868dbd",
+        "indicator--b64891d4-394a-451e-baeb-aa298bd85fc3",
+        "indicator--bc8e7a7f-a884-4c7d-8871-c3831a337ef5",
+        "indicator--bd5229dc-0104-4996-8859-898cee44464e",
+        "indicator--c0b049b6-f58c-405e-81bf-f104022caefe",
+        "indicator--c42a2bb6-6eef-45d5-bafb-c3fcf8f9f513",
+        "indicator--c5526c35-c2bf-4c94-9493-63453538ccbd",
+        "indicator--c8016b96-eb3e-41f6-a0f0-2a605b843a1a",
+        "indicator--ce42a4a0-ff3d-4ecd-bea9-e54d5decdc88",
+        "indicator--d360f0f1-ed7d-4467-bf9b-ab1990ec0ac4",
+        "indicator--d50d98ee-2f13-4568-a61f-8b49e68ab6fe",
+        "indicator--ddd23150-cd0e-406a-977d-ca3a0fd7b8e3",
+        "indicator--e51e82cd-e34a-4380-aa50-5ea0a435b8f0",
+        "indicator--e5b4af88-40ad-4595-b32e-f984f2f8ad5f",
+        "indicator--eb905711-4282-45d3-b8a2-4fad756fd6e7",
+        "indicator--f9321d63-dc55-4752-96c1-eb369b5ec170",
+        "indicator--fcadb6a0-18b2-4b5b-9ef7-97dea741a24e",
+        "indicator--ff252396-f4a2-454f-b817-33d8ba7d4807"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1835c143-3399-4d85-92f7-f00ae7490f80",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "d347080fbc66e680e2187944efbca11ff10dc5bfcc76c815275c4598bb410ef6",
+      "pattern": "[file:hashes.'SHA-256' = 'd347080fbc66e680e2187944efbca11ff10dc5bfcc76c815275c4598bb410ef6']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1929210b-6f49-430c-b48d-2c80b533a05c",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/pMDgUv62",
+      "pattern": "[url:value = 'http://pastebin.com/raw/pMDgUv62']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1f8ded4b-e1c5-49c8-80b6-31a64ecf21cc",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "db8ca46451a6c32e3b7901b50837500768bb913cafb5e12e2111f8b264672219",
+      "pattern": "[file:hashes.'SHA-256' = 'db8ca46451a6c32e3b7901b50837500768bb913cafb5e12e2111f8b264672219']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--22c08592-09a0-455a-a1e7-ae05a7988f49",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/ZM6QyknC",
+      "pattern": "[url:value = 'http://pastebin.com/raw/ZM6QyknC']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2349aa87-306f-4dcf-9cec-a2bc37c468c7",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/V6UWZm2n",
+      "pattern": "[url:value = 'http://pastebin.com/raw/V6UWZm2n']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--24e33a69-947c-4656-9a4b-8da04bceaf61",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.218Z",
+      "name": "54cf2d7b27faecfe7f44fb67cb608ce5e33a7c00339d13bb35fdb071063d7654",
+      "pattern": "[file:hashes.'SHA-256' = '54cf2d7b27faecfe7f44fb67cb608ce5e33a7c00339d13bb35fdb071063d7654']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--258c9410-eb2c-411f-be14-1c304c5fb24b",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/8DEsZn2y",
+      "pattern": "[url:value = 'http://pastebin.com/raw/8DEsZn2y']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2f014f9b-3b14-4707-9cb9-25c664c04104",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/AqndxJKK",
+      "pattern": "[url:value = 'http://pastebin.com/raw/AqndxJKK']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3006efb5-aad4-473f-904f-d7819c59ec36",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.218Z",
+      "name": "2270b21b756bf5b5b1b5002e844d0abe10179c7178f70cd3f7de02473401443a",
+      "pattern": "[file:hashes.'SHA-256' = '2270b21b756bf5b5b1b5002e844d0abe10179c7178f70cd3f7de02473401443a']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--32c573ae-cdf7-4886-b92b-c318f49b7385",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/1t8LPE7R",
+      "pattern": "[url:value = 'http://pastebin.com/raw/1t8LPE7R']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--364fd023-080b-43ac-9ffe-e6b90c1b504d",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "5ebb875556caefb78d5050e243f0efb9c2c8e759c9b32a426358de0c391e8185",
+      "pattern": "[file:hashes.'SHA-256' = '5ebb875556caefb78d5050e243f0efb9c2c8e759c9b32a426358de0c391e8185']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--36a49a43-a966-4f39-811e-3a9cd3991129",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/yPTNdYRN",
+      "pattern": "[url:value = 'http://pastebin.com/raw/yPTNdYRN']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--36cb2b21-6dd4-4821-861e-6033ce14789e",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "9982c4d431425569a69a022a7a7185e8c47783a792256f4c5420f9e023dee12a",
+      "pattern": "[file:hashes.'SHA-256' = '9982c4d431425569a69a022a7a7185e8c47783a792256f4c5420f9e023dee12a']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--38eb9561-1144-4ddd-9f79-018c56cc7114",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "30c071a9e0207f0ca98105c40ac60ec50104894f3e4ed0fb1e7b901f56d14ad4",
+      "pattern": "[file:hashes.'SHA-256' = '30c071a9e0207f0ca98105c40ac60ec50104894f3e4ed0fb1e7b901f56d14ad4']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--397a560a-a3e4-4510-b38b-196c3e2bbd66",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/a3U5MMj2",
+      "pattern": "[url:value = 'http://pastebin.com/raw/a3U5MMj2']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--430607d7-d328-458e-8e74-23b8cc337f8a",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/q56JPtdY",
+      "pattern": "[url:value = 'http://pastebin.com/raw/q56JPtdY']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--43aa7456-87f5-4d11-9192-41bff0b4afca",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "08f378fe42aec892e6eb163edc3374b0e2eb677bd01e398addd1b1fca4cd23c4",
+      "pattern": "[file:hashes.'SHA-256' = '08f378fe42aec892e6eb163edc3374b0e2eb677bd01e398addd1b1fca4cd23c4']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4b0517c9-16d6-49b2-b981-e542f64edf15",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "69366be315acc001c4b9b10ffc67dad148e73ca46e5ec23509f9bb3eedcd4c08",
+      "pattern": "[file:hashes.'SHA-256' = '69366be315acc001c4b9b10ffc67dad148e73ca46e5ec23509f9bb3eedcd4c08']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4c899ebc-63ec-4dc5-81f0-7d91eecb54d1",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/yEw5XbvF",
+      "pattern": "[url:value = 'http://pastebin.com/raw/yEw5XbvF']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4d34b7be-c94d-4fb7-981c-4960a858c071",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/Rpx7tm9N",
+      "pattern": "[url:value = 'http://pastebin.com/raw/Rpx7tm9N']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--530fe261-8e44-4609-a661-789b31633e2f",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/JKqwsAs6",
+      "pattern": "[url:value = 'http://pastebin.com/raw/JKqwsAs6']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--57060c7a-b1c5-4f9e-80e8-1e5a47a41b99",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/rTjmne99",
+      "pattern": "[url:value = 'http://pastebin.com/raw/rTjmne99']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5be0e088-d91b-4ca6-9d58-1788b6b8d0ea",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/XMKKNkb0",
+      "pattern": "[url:value = 'http://pastebin.com/raw/XMKKNkb0']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5e248e47-3157-4332-9204-95dffb7a9d36",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "bd2387161cc077bfca0e0aae5d63820d1791f528feef65de575999454762d617",
+      "pattern": "[file:hashes.'SHA-256' = 'bd2387161cc077bfca0e0aae5d63820d1791f528feef65de575999454762d617']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--62627945-61bc-4a9e-899a-d78481523c43",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "94e648c0166ee2a63270772840f721ba52a73296159e6b72a1428377f6f329ad",
+      "pattern": "[file:hashes.'SHA-256' = '94e648c0166ee2a63270772840f721ba52a73296159e6b72a1428377f6f329ad']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--64bcc1b2-6ab5-4410-b53b-17c3b228b963",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/zHLUaPvW",
+      "pattern": "[url:value = 'http://pastebin.com/raw/zHLUaPvW']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--665dc9cf-1c58-47d9-b3ab-27919607292d",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "96640d0c05dd83bb10bd7224004056e5527f6fad4429beaf4afa7bad9001efb7",
+      "pattern": "[file:hashes.'SHA-256' = '96640d0c05dd83bb10bd7224004056e5527f6fad4429beaf4afa7bad9001efb7']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--74cdeecc-1e6d-4405-a243-22cdb8dff44a",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "bdc33dbdfd92207ad88b6feb3066bb662a6ca5cf02710870cae38320bb3a35bf",
+      "pattern": "[file:hashes.'SHA-256' = 'bdc33dbdfd92207ad88b6feb3066bb662a6ca5cf02710870cae38320bb3a35bf']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--79143033-8294-46e7-927a-e0b96d4b50da",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "6817906a5eff7b02846e4e6a492ee57c2596d3f19708d8483bef7126faa7267f",
+      "pattern": "[file:hashes.'SHA-256' = '6817906a5eff7b02846e4e6a492ee57c2596d3f19708d8483bef7126faa7267f']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7f6cde6f-3919-447d-b4eb-b45e2ffb72a4",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/h5yBCwpY",
+      "pattern": "[url:value = 'http://pastebin.com/raw/h5yBCwpY']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--80596039-a8e1-4ff0-ba71-c75cb067cb7b",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/ZFchNrpH",
+      "pattern": "[url:value = 'http://pastebin.com/raw/ZFchNrpH']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--827448ea-b405-412c-9b50-1cc7f4c08a8e",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "97b943a45b4716fcea4c73dce4cefe6492a6a51e83503347adcd6c6e02261b84",
+      "pattern": "[file:hashes.'SHA-256' = '97b943a45b4716fcea4c73dce4cefe6492a6a51e83503347adcd6c6e02261b84']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--849f56c4-1ed9-4cde-980c-d8c2edcfd150",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "97227c346830b4df87c92fce616bdec2d6dcbc3e6de3f1c88734fe82e2459b88",
+      "pattern": "[file:hashes.'SHA-256' = '97227c346830b4df87c92fce616bdec2d6dcbc3e6de3f1c88734fe82e2459b88']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--892a6b4c-e163-4beb-9256-75525534be64",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/E4MB4MFj",
+      "pattern": "[url:value = 'http://pastebin.com/raw/E4MB4MFj']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8bbf79a0-9342-4a25-b515-16bd47610094",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/LKRwaias",
+      "pattern": "[url:value = 'http://pastebin.com/raw/LKRwaias']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94c2c8c4-f5da-41f7-9bbf-6f5e7842eca0",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "fd5c731bb53c4e94622e016d83e4c0d605baf8e34c7960f72ff2953c65f0084c",
+      "pattern": "[file:hashes.'SHA-256' = 'fd5c731bb53c4e94622e016d83e4c0d605baf8e34c7960f72ff2953c65f0084c']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9a3981b3-4fcd-4e14-bff2-9d0291db4fc9",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/0HpgqDt2",
+      "pattern": "[url:value = 'http://pastebin.com/raw/0HpgqDt2']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b22d528-aedb-44d6-a9d2-7d6258786dd0",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/Z3mcNqjz",
+      "pattern": "[url:value = 'http://pastebin.com/raw/Z3mcNqjz']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a104134c-c885-4ecb-b8fc-088876a7a8fa",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/HNkipzLK",
+      "pattern": "[url:value = 'http://pastebin.com/raw/HNkipzLK']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ac39c39f-0524-460c-91ce-d5620a28b7e1",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/770qPDMt",
+      "pattern": "[url:value = 'http://pastebin.com/770qPDMt']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ad7fe156-331c-4804-8579-878e0074ece3",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "b3730931aaa526d0189aa267aa0d134eb89e538d79737f332223d3fc697c4f5a",
+      "pattern": "[file:hashes.'SHA-256' = 'b3730931aaa526d0189aa267aa0d134eb89e538d79737f332223d3fc697c4f5a']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--aed8f960-6fcb-40b6-a843-d312560e71eb",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.218Z",
+      "name": "205341c9ad85f4fc99b1e2d0a6a5ba5c513ad33e7009cdf5d2864a422d063aba",
+      "pattern": "[file:hashes.'SHA-256' = '205341c9ad85f4fc99b1e2d0a6a5ba5c513ad33e7009cdf5d2864a422d063aba']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b1e749d3-b0dc-4ad2-bf56-272c59868dbd",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "231d52100365c14be32e2e81306b2bb16c169145a8dbcdc8f921c23d7733cef0",
+      "pattern": "[file:hashes.'SHA-256' = '231d52100365c14be32e2e81306b2bb16c169145a8dbcdc8f921c23d7733cef0']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b64891d4-394a-451e-baeb-aa298bd85fc3",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/TWQYHv9Y",
+      "pattern": "[url:value = 'http://pastebin.com/raw/TWQYHv9Y']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bc8e7a7f-a884-4c7d-8871-c3831a337ef5",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "67cbb963597abb591b8dc527e851fc8823ff22d367f4b580eb95dfad7e399e66",
+      "pattern": "[file:hashes.'SHA-256' = '67cbb963597abb591b8dc527e851fc8823ff22d367f4b580eb95dfad7e399e66']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bd5229dc-0104-4996-8859-898cee44464e",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "75b833695a12e16894a1e1650ad7ed51e6f8599ceaf35bbd8e9461d3454ab711",
+      "pattern": "[file:hashes.'SHA-256' = '75b833695a12e16894a1e1650ad7ed51e6f8599ceaf35bbd8e9461d3454ab711']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c0b049b6-f58c-405e-81bf-f104022caefe",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/JMkdgr4h",
+      "pattern": "[url:value = 'http://pastebin.com/raw/JMkdgr4h']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c42a2bb6-6eef-45d5-bafb-c3fcf8f9f513",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "2af1bb05a5fde5500ea737c08f1b675a306150a26610d2ae3279f8157a3cb4df",
+      "pattern": "[file:hashes.'SHA-256' = '2af1bb05a5fde5500ea737c08f1b675a306150a26610d2ae3279f8157a3cb4df']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c5526c35-c2bf-4c94-9493-63453538ccbd",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/pc9QbQCK",
+      "pattern": "[url:value = 'http://pastebin.com/raw/pc9QbQCK']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c8016b96-eb3e-41f6-a0f0-2a605b843a1a",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/SdcQ9yPM",
+      "pattern": "[url:value = 'http://pastebin.com/raw/SdcQ9yPM']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ce42a4a0-ff3d-4ecd-bea9-e54d5decdc88",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/6MFWAdWS",
+      "pattern": "[url:value = 'http://pastebin.com/raw/6MFWAdWS']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d360f0f1-ed7d-4467-bf9b-ab1990ec0ac4",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "94c2196749457b23f82395277a47d4380217dd821d0a6592fc27e1e375a3af70",
+      "pattern": "[file:hashes.'SHA-256' = '94c2196749457b23f82395277a47d4380217dd821d0a6592fc27e1e375a3af70']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d50d98ee-2f13-4568-a61f-8b49e68ab6fe",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/hsGSLP89",
+      "pattern": "[url:value = 'http://pastebin.com/raw/hsGSLP89']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ddd23150-cd0e-406a-977d-ca3a0fd7b8e3",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.218Z",
+      "name": "03c7015046ef4e39a209384f2632812fa561bfacffc8b195542930e91fa6dceb",
+      "pattern": "[file:hashes.'SHA-256' = '03c7015046ef4e39a209384f2632812fa561bfacffc8b195542930e91fa6dceb']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e51e82cd-e34a-4380-aa50-5ea0a435b8f0",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "9ba0126bd6d0c4b41f5740d3099e1b99fed45b003b78c500430574d57ad1ad39",
+      "pattern": "[file:hashes.'SHA-256' = '9ba0126bd6d0c4b41f5740d3099e1b99fed45b003b78c500430574d57ad1ad39']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e5b4af88-40ad-4595-b32e-f984f2f8ad5f",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "678a25710addeefd8d42903ceddd1c82c70b75c37a80cf2661dab7ced6732cd3",
+      "pattern": "[file:hashes.'SHA-256' = '678a25710addeefd8d42903ceddd1c82c70b75c37a80cf2661dab7ced6732cd3']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eb905711-4282-45d3-b8a2-4fad756fd6e7",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "54d7ee587332bfb04b5bc00ca1e8b6c245bb70a52f34835f9151b9978920b6d7",
+      "pattern": "[file:hashes.'SHA-256' = '54d7ee587332bfb04b5bc00ca1e8b6c245bb70a52f34835f9151b9978920b6d7']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f9321d63-dc55-4752-96c1-eb369b5ec170",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "http://pastebin.com/raw/YtuXz7YX",
+      "pattern": "[url:value = 'http://pastebin.com/raw/YtuXz7YX']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fcadb6a0-18b2-4b5b-9ef7-97dea741a24e",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.219Z",
+      "name": "6d0b09fe963499999af2c16e90b6f8c5ac51138509cc7f3edb4b35ff8bef1f12",
+      "pattern": "[file:hashes.'SHA-256' = '6d0b09fe963499999af2c16e90b6f8c5ac51138509cc7f3edb4b35ff8bef1f12']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ff252396-f4a2-454f-b817-33d8ba7d4807",
+      "created": "2020-11-24T19:50:07.416Z",
+      "modified": "2020-12-01T20:33:10.220Z",
+      "name": "http://pastebin.com/raw/3vsJLpWu",
+      "pattern": "[url:value = 'http://pastebin.com/raw/3vsJLpWu']",
+      "valid_from": "2020-11-24T19:50:07.416Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    }
+  ]
+}
