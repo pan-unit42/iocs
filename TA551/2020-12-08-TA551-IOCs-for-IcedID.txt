@@ -1,0 +1,172 @@
+2020-12-08 (TUESDAY) - TA551 (SHATHAK) WORD DOCS WITH ENGLISH TEMPLATE PUSH ICEDID:
+
+CHAIN OF EVENTS:
+ 
+- malspam --> password-protected zip attachment --> extracted Word doc --> enable macros --> installer DLL --> IcedID DLL
+ 
+20 EXAMPLES OF TA551 WORD DOCS WITH MACROS:
+
+- 202ba6f00b5205469d44803921bba9620bb45abbc34749b0cc00f895a83a04bf  charge 12.20.doc
+- f2a9f566c81458f141f761ddc58f7d64f0dfb05b4938a2125e0a934541af20ca  commerce  12.20.doc
+- 461ee1c8ffb4d7cdaf22e88404f43df3dd5156b91bda1e54a913899d6080bffb  commerce .12.20.doc
+- 54be747b380c5749630578aa34579ae6492ee28471facc97d8da0555510d0f46  deed contract 12.08.20.doc
+- ff6f9c4151318477f4b8589cbe26e78b38abfb16b8413e346535308cd9bdff8b  details,12.20.doc
+- 9315fb447b9fe3a57dbcaeeaa7c84e451152b4a0d019bc380a16b0cb79317f88  direct-12.20.doc
+- 2964adc9b363929472f67c4ff9db452df8f6f63e725e9a5db17b2586dd40641d  direct.12.20.doc
+- c821c00ca5e6ce7d1cfab01427521aeaf41875230aaddf0f9dfcb36d7f00f239  direct_12.08.2020.doc
+- cda724aa4d4b5c43b7f2a25b410cbfea169011dc965d60a7919cd3b0a0d31969  direct_12.20.doc
+- 528eee917fdac747457d41c85e22615190212b6c6b12f783eb85add1e5821650  file 12.20.doc
+- 7089ab3142341f5cf98ae896818d271310dd22f79feddc2f8c263690c24139b7  input,12.08.2020.doc
+- 95d8a113c6d93511eda51376b18a2ab5fd98e635d12f0fa1ae6966f01a2a77d3  inquiry,12.20.doc
+- 8f708afa413541f0708e09ca3e62c32e2fed7093e94281100367043e1ec4c733  instruct,12.20.doc
+- 5ea97a398d273779a35e142a026ef48548b3824215d213b5794e36c534aa2a05  instruct.12.08.2020.doc
+- 3a410a0680c3b8b89574feaa0ab6029e63714974733124f77a4c3b43e03e2078  legal agreement.12.20.doc
+- 78a57aa968598eecb03376319795f66150dc2d9b718258cd813f5859e1b98e75  material.12.20.doc
+- d3c4c8d5587618e64865c13687d6e6db7ba0df0342a6847451ebc906d1b70445  ordain,12.20.doc
+- 9d872d3107d00d5600987126a416d8a7f324466aa659bbb06a3f49366224549f  ordain_12.20.doc
+- 90fe1f2cf67e757f6844a3c68fd61fea00f74a3b94889f7e0847842e60579f08  statistics_12.20.doc
+- 0bd5075afc37b3ebab6495cda1f87bfed0badec7c08834f148e5758ceb13224e  tell.12.08.2020.doc
+
+AT LEAST 11 DOMAINS HOSTING THE INSTALLER DLL:
+
+- as526model[.]com - 5.253.62[.]195
+- bnhvt486brown[.]com - 109.248.222[.]124
+- dvz880whale[.]com - 45.142.215[.]153
+- heb419abandon[.]com - 185.80.129[.]225
+- ksr873sweet[.]com - 45.144.29[.]128
+- oocw740forest[.]com - 45.153.72[.]187
+- qri970bargain[.]com - 212.109.199[.]151
+- r745eyebrow[.]com - 193.47.34[.]254
+- sdlm309tragic[.]com - 81.29.143[.]146
+- sxhkk334advance[.]com - 45.89.67[.]195
+- vu505cluster[.]com - 45.140.146[.]31
+
+EXAMPLES OF URLS FOR INSTALLER DLL:
+
+- GET /analytics/Nwna9_CnrUEexcI2OhL2_opa6WL2woshlQPVSF00/0qOxRrzXJktMnlLwghTZ3/gobgy1?pHHJ=xZkAWztKbmcdk&_KkHG=Q_l_OydiSd&mj=sZLIRcFacDwaWDBR&NcGbq=wxGSgXdCTucBnr
+- GET /analytics/gQ21D8p0IWmBVN3DkPQHfhLoBDqrSq6oBulE2bd5VqPPVcdJBpQisRN5CVp987E_PjwLFmVNUW6uLqvQOz/gobgy2?DLM=kjDixwNJA&Rj=pxnWYYYFhU&UYe=AgDmxODQvpzYi&ds=wrxxD_poTOAkkO_xl&HAAyj=QvORF_c
+- GET /analytics/l64cq2q_kSCl0WYQlMIMOIZt/6M4dBw6ju6c9Fw/gobgy4?nzc=tXWvADTU&hSNi=shnRJa&dmYH=_wgcXjwkmG
+- GET /analytics/RUX6EAKElkGi_iq6VCChXwdStq41k/midWAAbKb4WujF3l7IxcIx/gobgy5?Pk_qZ=DKzGVRBXQ&rnZK=BmFFgkUKCylqJf&LM=YDnAzzwo&KVr=nBnafxkbXXxJpdjmj&lVTD=mwkSdnglBJZ
+- GET /analytics/XMNxnT19P72Dxh/h5uMf6JqrIzEK82cv0HUD47Fu5E3sQq4fNqtVre3y1GMyswwGKTGOCZ_8EV/gobgy6?KJF=mpCKKmxMKm&dR=Jnh_XmcmrDpzlA_pq&IXj=LdhIGhBq&LMYc=BaFLpSpuzclHxSNi&vgS=TpsUlQ_s_EAiQf
+- GET /analytics/ztPQks8NgFHlLlF5_8FAGFPUbmbyS1Q2KUr4DGmbB/gobgy7?VBH=mcCEhOWY&fH=VdxfHTffDkAYlJMk&EqC=VZUiMmxRR&Zcq=gpprJMkZwHTfqn&NvNx=hWgGmSfoGN
+- GET /analytics/XcDDjnGB0BrBf5peYn71LiV72Hmy0KJp0B52EtXr2ykt/gobgy9?gBWgg=dhTOYIGrYJgfL&qpU=PJMOLYHBW&DQCy=ldxDnstdjVMhpK&ALp=zLKVXHqOt
+- GET /analytics/mlqXL2UWZbkkbSPCIVE9vpL496nAkU/rmpVuvPQ7Q/2awGCI5USJSyFsDwBCP3csqi7t2RY6QED1bS3z/gobgy10?AINOT=TTtJYm_g&NS=SvrIxa_FXNkmU&Us=EUUfwjsFta&RXUE=zTczZ&WVcy=zEQSQoqnbDRQw
+- GET /analytics/1R7UOtL_Rjmrn57mWkEl_9HPgHgqNad3U53KXf6IGM4Qb7qgWzGC4/gobgy13?LK=nKqTIzfnOc&Ps=ZIEohghOCP&vMr=qLbJpWwdRjZjIpgU&wFT=PohtpCsCJnYQqzz
+- GET /analytics/nchD6ZJLj7Y/_ogcUB8Q817fGpW2NWfCHTPPFFJw5Xg4_oALhb6Jmj1WQ7qXmB6LMKB1OIZMg1/gobgy15?Sy=TTAP_W_nnOtpPUCF&_oOhD=IUtWWSPF&r=p_gclcfnbuhft&lBj=XmpGZNOw
+- GET /analytics/BFhCbbsvjmjW9vBRvo6xFrr68PQCDE4YQi3zk05vtrIVgdgv02/gobgy16?BCFI=kHDNxDDPoVmW&gEl=OfHFuJSvtY&jON=gxGxHhWq&ERLQn=kybnwgVwxvoI&Jkp=gsKBhPdfhf_OtKoh
+- GET /analytics/Si3G5M7hnUg0El0Nd/HVF7MWsBN9UKUv_wxY/NgJYfq7cGgcOGOU9/gobgy18?OdmEp=NDIuJU&Qn=lBcvVZhbP&KtB=XlIhBgtIEm&QyLjr=lgqrbPbs
+- GET /analytics/tXNjMVrq3jXu1YHPMMf8wkxvpTl_5nREkgrQlFwa1GPc0klbFXhkK/TVIW/gobgy18?YUh=KgLTWpbtJud&VzJh=HwjtHFHfVDQAEpQi&_YXv=qnOhpiUaby&rhOmt=kgIPpWBXPcOcABb&Dr=SpvIsPGl_GZ
+
+8 EXAMPLES OF INSTALLER DLLS:
+
+- 0909d5e055739b2feaa6c237a10b9a40fd5c2ecd05fd2b1222db946a7292df98
+- 6d3d122ce0475175b3e06a52ded78c600952277c1014da58f6b5fbb8b3236dca
+- 7fb191c2ae992530e0d870d24d00b1aba3773205d3c6f369b690e7ef2581a8dc
+- 87b199644ea7ccd1a520ea7c3116f1248002bf2b2e936558382c515595048fae
+- 90c5ae3e185caaf5ff09bd66ce97405535b57964b22a49f18b112449bdf88d6c
+- 90a5a59603dd8b747b11b62a3699b600c88f33e8cf60ae951809f70acd324c60
+- c2892025c8e3e34d70b72714cc8263ce5ab9b3b7519a616dfeabea013a491895
+- ea5b34b1868543d340e3d560765bdc93c9e52b9a19a13896c5df0f111a920baa
+
+EXAMPLES OF LOCATION FOR THE INSTALLER DLL FILES:
+
+- C:\ProgramData\dksYl.pdf
+- C:\ProgramData\EpWvk.pdf
+- C:\ProgramData\fOlUD.pdf
+- C:\ProgramData\nGQdK.pdf
+- C:\ProgramData\qmbBp.pdf
+- C:\ProgramData\uAKDh.pdf
+- C:\ProgramData\WLyPT.pdf
+
+DLL RUN METHOD:
+
+- rundll32.exe [filename],ShowDialogA -r 
+
+HTTPS TRAFFIC TO LEGITIMATE DOMAINS CAUSED BY INSTALLER DLL:
+
+- port 443 - facebook.com
+- port 443 - www.facebook.com
+- port 443 - instagram.com
+- port 443 - www.instagram.com
+- port 443 - twitter.com
+- port 443 - www.tumblr.com
+
+AT LEAST 2 DIFFERENT URLS FOR HTTPS TRAFFIC GENERATED BY INSTALLER DLLS:
+
+- 188.166.88[.]45 port 443 - razunimorep[.]online - GET /background.png
+- 167.71.138[.]137 port 443 - lowbudget[.]top - GET /background.png
+
+4 EXAMPLES OF SHA256 HASHES FOR ICEDID DLL CREATED BY INSTALLER:
+ 
+- e8b68677b602f98c182d2da6d4c2c19cc3c24baf7adf84be8cb35d5991cf55ca (initial, 1st run)
+- 58bf91392e2f9a4964bfa5555599a64f582bae9f8c0b0cf9b7c4e781d44c51b9 (persistent, 1st run)
+- d8e367a71903f2a69391da3cede9876476afd8ed642a430feb5c051bcff662d6 (initial, 2nd run)
+- ed87f3928e4c44ecb4b9d5b6a43f0fdd4a3df6fedd8fb87e88ca78095e3d1482 (persistent, 2nd run)
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID DLL FILES - 1ST RUN:
+
+- 185.38.185[.]103 port 443 - chainoftheapril[.]cyou
+- 185.38.185[.]103 port 443 - unprofessional[.]club
+- 185.38.185[.]103 port 443 - lukapedrilla[.]cyou
+- 185.38.185[.]103 port 443 - xilophones[.]best
+- 185.38.185[.]103 port 443 - localallcases[.]xyz
+
+HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ICEDID DLL FILES - 2ND RUN:
+
+- 5.149.254[.]27 port 443 - reshailam[.]biz
+- 5.149.254[.]27 port 443 - ottepel[.]biz
+- 5.149.254[.]27 port 443 - t3476[.]top
+- 5.149.254[.]27 port 443 - vollhafer[.]top
+- 5.149.254[.]27 port 443 - fiscalclub[.]top
+
+MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST - 1ST RUN:
+
+- SHA256 hash: b94d77249bca706e2d8b5e21b77a41842d04d90e95cfb668bbac0e25d00443ec
+- File size: 124,799 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\00533024.png
+- File type: PNG image data, 295 x 379, 8-bit/color RGB, non-interlaced
+- File description: PNG file with encoded data used to create initial IcedID DLL
+
+- SHA256 hash: e8b68677b602f98c182d2da6d4c2c19cc3c24baf7adf84be8cb35d5991cf55ca
+- File size: 120,320 bytes
+- File location: C:\Users\[username]\AppData\Local\Desertupon.dat
+- File description: Initial IcedID DLL created by Installer DLL using encoded data from above PNG file
+- Run method: regsvr32.exe /s [filename]
+
+- SHA256 hash: f6ea81aaf9a07e24a82b07254a8ed4fcf63d5a8e6ea7b57062f4c5baf9ef8bf2
+- File size: 678,288 bytes
+- File location: C:\Users\[username]\AppData\Local\[username]\Extaofac1.png
+- File type: PNG image data, 605 x 399, 8-bit/color RGB, non-interlaced
+- File description: PNG file with encoded data created after initial IcedID DLL appears
+
+- SHA256 hash: 58bf91392e2f9a4964bfa5555599a64f582bae9f8c0b0cf9b7c4e781d44c51b9
+- File size: 120,320 bytes
+- File location: C:\Users\[username]\AppData\Roaming\{1FC61745-9177-87CC-AB95-75566567863A}\{E758CD86-A1A1-C0CE-C4C1-4AE32F5C6C34}\qoakfs3.dll
+- File description: IcedID DLL persistent on the infected Windows host
+- Run method: regsvr32.exe /s [filename]
+
+MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST - 2ND RUN:
+
+- SHA256 hash: d8a5037909447d3ecbc7cbeeb3dbeb5cffcc457a8018e1f5f819c33dc966b0c6
+- File size: 163,711 bytes
+- File location: C:\Users\[username]\AppData\Local\Temp\001052a6.png
+- File type: PNG image data, 637 x 494, 8-bit/color RGB, non-interlaced
+- File description: PNG file with encoded data used to create initial IcedID DLL
+
+- SHA256 hash: d8e367a71903f2a69391da3cede9876476afd8ed642a430feb5c051bcff662d6
+- File size: 159,232 bytes
+- File location: C:\Users\[username]\AppData\Local\Nearsuper.dat
+- File description: Initial IcedID DLL created by Installer DLL using encoded data from above PNG file
+- Run method: regsvr32.exe /s [filename]
+
+- SHA256 hash: f6ea81aaf9a07e24a82b07254a8ed4fcf63d5a8e6ea7b57062f4c5baf9ef8bf2
+- File size: 678,288 bytes
+- File location: C:\Users\[username]\AppData\Roaming\{6B397018-C748-AA01-4FF0-48B6F31AC4D7}\Ecaxxaac4.png
+- File type: PNG image data, 605 x 399, 8-bit/color RGB, non-interlaced
+- File description: PNG file with encoded data created after initial IcedID DLL appears
+
+- SHA256 hash: ed87f3928e4c44ecb4b9d5b6a43f0fdd4a3df6fedd8fb87e88ca78095e3d1482
+- File size: 159,232 bytes
+- File location: C:\Users\[username]\AppData\Local\[username]\Exet64\Mahaek.dll
+- File description: IcedID DLL persistent on the infected Windows host
+- Run method: regsvr32.exe /s [filename]
