@@ -4,5 +4,6 @@
     {"id": "report--ae149d62-8a8d-4b38-b0dd-597731217baf", "rp_file": "mirai-2020-campaigns.json", "last_updated": "2020-10-14T00:00:00.000Z", "title": "MIRAI 2020 CAMPAIGNS", "industries": [], "regions": [], "malwares": []},
     {"id": "report--35fe1b81-a267-4a19-8b8d-601458508d97", "rp_file": "domain-parking-emotet-fake-updates.json", "last_updated": "2020-10-29T00:00:00.000Z", "title": "DOMAIN PARKING EMOTET FAKE UPDATES", "industries": [], "regions": [], "malwares": []},
     {"id": "report--20fcf04d-1040-4a08-b432-17333a664a83", "rp_file": "vatet-pyxie-defray777.json", "last_updated": "2020-11-09T00:00:00.000Z", "title": "VATET PYXIE AND DEFRAY777", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--7a487a5d-8366-485e-9880-e2cad4d73bec", "rp_file": "njrat-active-pastebin-c2-tunnels.json", "last_updated": "2020-12-09T00:00:00.000Z", "title": "NJRAT ACTIVE PASTEBIN C2 TUNNELS", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--7a487a5d-8366-485e-9880-e2cad4d73bec", "rp_file": "njrat-active-pastebin-c2-tunnels.json", "last_updated": "2020-12-09T00:00:00.000Z", "title": "NJRAT ACTIVE PASTEBIN C2 TUNNELS", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--f6aff1b6-4519-44a1-99bc-cc69fb1bd4ce", "rp_file": "postgresql-delivered-coinminer.json", "last_updated": "2020-12-10T00:00:00.000Z", "title": "POSTGRESQL DELIVERED COINMINER", "industries": [], "regions": [], "malwares": []}
 ]

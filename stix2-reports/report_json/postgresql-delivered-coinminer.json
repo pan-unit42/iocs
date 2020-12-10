@@ -1,0 +1,294 @@
+{
+  "type": "bundle",
+  "id": "bundle--f6aff1b6-4519-44a1-99bc-cc69fb1bd4ce",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--f6aff1b6-4519-44a1-99bc-cc69fb1bd4ce",
+      "created": "2020-11-24T19:51:26.092Z",
+      "modified": "2020-12-09T19:35:48.988Z",
+      "name": "PostgreSQL Delivered Coinminer",
+      "description": "Cryptocurrency mining (or simply coin mining) is a common way for malware authors to monetize their operations. While the underlying mining protocols and techniques are standard, malware actors tend to find smarter ways to hack into the victim's machines. Recently, Palo Alto Network researchers uncovered a novel Linux botnet that exploits a disputed PostgreSQL remote code execution vulnerability that compromises database servers for coin mining. We named it \"PGMiner\" after its delivery channel and mining behavior. PostgreSQL, also known as Postgres, is among the most used open source relational database management systems (RDBMS) for production environments.",
+      "published": "2020-12-09T19:35:48.988Z",
+      "object_refs": [
+        "indicator--013ba33b-35fc-4f67-89a7-970b17702f78",
+        "indicator--09b3bb3a-bedd-4146-9788-1be791618435",
+        "indicator--1a444824-007e-4693-9a4c-84ecf47d7cfb",
+        "indicator--1cee2102-a269-402e-a37b-3bd58f842d6b",
+        "indicator--276fe0f3-0747-4436-9d0a-c7c2d3fe8627",
+        "indicator--2f3a158c-8498-4397-a265-618754209a3b",
+        "indicator--3553550f-2af9-4428-8b78-154e85af092f",
+        "indicator--5afd9c50-40f5-457c-9445-080ddaa0f9dc",
+        "indicator--612ec09d-83f9-4d1c-920f-9536c286919e",
+        "indicator--6bea6e32-8bc2-4082-9b65-0c928867b866",
+        "indicator--74df85c9-839d-4d6e-ba5d-72e3cfd5df35",
+        "indicator--8ad0e2d2-bd66-4c97-9ed3-5a2642a2edf3",
+        "indicator--94e1a4b1-da07-4579-acc6-f6e31e45022a",
+        "indicator--aa4b23cd-1025-464d-9f3b-a8197779d703",
+        "indicator--ab5d2016-1248-4778-8f3b-738a54f96f84",
+        "indicator--af1e75bd-dfb8-4245-bc31-6d1aa6e75a74",
+        "indicator--afc06cf6-4de5-4d7f-8e06-99713e81ac1c",
+        "indicator--bb0cd34f-4f25-48c8-a734-2e32f070ef9a",
+        "indicator--c00f578d-4d8b-4046-9de2-96a5373a06e5",
+        "indicator--c7593718-7b29-446d-80f4-31bfc31a21e4",
+        "indicator--fdc811d4-9585-4ac6-ac34-bef6383701f3"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--013ba33b-35fc-4f67-89a7-970b17702f78",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "6984a04d7e435499ff267cfaf913d51e8644f6c08db8069c56f9247f1e18ba71",
+      "pattern": "[file:hashes.'SHA-256' = '6984a04d7e435499ff267cfaf913d51e8644f6c08db8069c56f9247f1e18ba71']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--09b3bb3a-bedd-4146-9788-1be791618435",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "fef1a83ba6aba160116a8251462dd842f68464a5f767b2e3194820d62fef23b1",
+      "pattern": "[file:hashes.'SHA-256' = 'fef1a83ba6aba160116a8251462dd842f68464a5f767b2e3194820d62fef23b1']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1a444824-007e-4693-9a4c-84ecf47d7cfb",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "e3c5abe56964ddb3b4f0b3c434a9af145efca558307c65d30e8acc5aed45bedc",
+      "pattern": "[file:hashes.'SHA-256' = 'e3c5abe56964ddb3b4f0b3c434a9af145efca558307c65d30e8acc5aed45bedc']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1cee2102-a269-402e-a37b-3bd58f842d6b",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "ojk5zra7b3yq32timb27n4qj5udk4w2l5kqn5ulhnugdscelttfhtoyd.onion",
+      "pattern": "[domain-name:value = 'ojk5zra7b3yq32timb27n4qj5udk4w2l5kqn5ulhnugdscelttfhtoyd.onion']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--276fe0f3-0747-4436-9d0a-c7c2d3fe8627",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "nssnkct6udyyx6zlv4l6jhqr5jdf643shyerk246fs27ksrdehl2z3qd.onion",
+      "pattern": "[domain-name:value = 'nssnkct6udyyx6zlv4l6jhqr5jdf643shyerk246fs27ksrdehl2z3qd.onion']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2f3a158c-8498-4397-a265-618754209a3b",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "47d56fcbf5d90b9c513d8d38a2c00e4bad6ea4e1d17b05dd37feb4d63b2856e1",
+      "pattern": "[file:hashes.'SHA-256' = '47d56fcbf5d90b9c513d8d38a2c00e4bad6ea4e1d17b05dd37feb4d63b2856e1']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3553550f-2af9-4428-8b78-154e85af092f",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "d4cf8cfb4dc9cc3101b8c850369a71af70f11e67df7e41e9af98624ebe54ff4a",
+      "pattern": "[file:hashes.'SHA-256' = 'd4cf8cfb4dc9cc3101b8c850369a71af70f11e67df7e41e9af98624ebe54ff4a']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5afd9c50-40f5-457c-9445-080ddaa0f9dc",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "1b1d6d5f01b26e4ccf6fff8f2626f9318084dc1123ac67ed7d02f955b72a1432",
+      "pattern": "[file:hashes.'SHA-256' = '1b1d6d5f01b26e4ccf6fff8f2626f9318084dc1123ac67ed7d02f955b72a1432']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--612ec09d-83f9-4d1c-920f-9536c286919e",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "0fc1332d2b20ea43d3c3fea50a48bb1991522bc6c79d518ba9b68a763ef2ad58",
+      "pattern": "[file:hashes.'SHA-256' = '0fc1332d2b20ea43d3c3fea50a48bb1991522bc6c79d518ba9b68a763ef2ad58']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6bea6e32-8bc2-4082-9b65-0c928867b866",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "6d95b593f0b5e3cc1985635ad2b943acb083833fea8123e7ac3f88f68e04edd6",
+      "pattern": "[file:hashes.'SHA-256' = '6d95b593f0b5e3cc1985635ad2b943acb083833fea8123e7ac3f88f68e04edd6']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--74df85c9-839d-4d6e-ba5d-72e3cfd5df35",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "864ece624b7069b929385f9cf741355a371e844aa3726d340f91549562e2c604",
+      "pattern": "[file:hashes.'SHA-256' = '864ece624b7069b929385f9cf741355a371e844aa3726d340f91549562e2c604']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8ad0e2d2-bd66-4c97-9ed3-5a2642a2edf3",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "d8c46be19ff3ea5b2c12f050f226a199aaa5f76cc1731c868e29eea6c68b6801",
+      "pattern": "[file:hashes.'SHA-256' = 'd8c46be19ff3ea5b2c12f050f226a199aaa5f76cc1731c868e29eea6c68b6801']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94e1a4b1-da07-4579-acc6-f6e31e45022a",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "6d296648fdbc693e604f6375eaf7e28b87a73b8405dc8cd3147663b5e8b96ff0",
+      "pattern": "[file:hashes.'SHA-256' = '6d296648fdbc693e604f6375eaf7e28b87a73b8405dc8cd3147663b5e8b96ff0']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--aa4b23cd-1025-464d-9f3b-a8197779d703",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "101ccbad7732fb185d51b91d31a67ff058cac3bc31ec36cec05094065a97d6fd",
+      "pattern": "[file:hashes.'SHA-256' = '101ccbad7732fb185d51b91d31a67ff058cac3bc31ec36cec05094065a97d6fd']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ab5d2016-1248-4778-8f3b-738a54f96f84",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "41ef5c6b0cdd068f117902e59233991082a4ecb4877a1fb16016e756412f06ea",
+      "pattern": "[file:hashes.'SHA-256' = '41ef5c6b0cdd068f117902e59233991082a4ecb4877a1fb16016e756412f06ea']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--af1e75bd-dfb8-4245-bc31-6d1aa6e75a74",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "55698654f0fbcf5a6d52f3f44bc0f2257e06835e76fb7142d449a2d1641d7e4b",
+      "pattern": "[file:hashes.'SHA-256' = '55698654f0fbcf5a6d52f3f44bc0f2257e06835e76fb7142d449a2d1641d7e4b']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--afc06cf6-4de5-4d7f-8e06-99713e81ac1c",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "524cce2cf615809bc08ca80facf95f2be7c5071c4cb3eac38c20a1f0ed39ce1f",
+      "pattern": "[file:hashes.'SHA-256' = '524cce2cf615809bc08ca80facf95f2be7c5071c4cb3eac38c20a1f0ed39ce1f']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bb0cd34f-4f25-48c8-a734-2e32f070ef9a",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.417Z",
+      "name": "dreambusweduybcp.onion",
+      "pattern": "[domain-name:value = 'dreambusweduybcp.onion']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c00f578d-4d8b-4046-9de2-96a5373a06e5",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "8d44fbbefa0c59a65e21b0d1598ff7c51487ea1cede544d1c3f56d5db0ea7807",
+      "pattern": "[file:hashes.'SHA-256' = '8d44fbbefa0c59a65e21b0d1598ff7c51487ea1cede544d1c3f56d5db0ea7807']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c7593718-7b29-446d-80f4-31bfc31a21e4",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "8a13c3fe815f15a5600fda30d132dfbd4bb54d9c766da164060dd1d66b12e9e4",
+      "pattern": "[file:hashes.'SHA-256' = '8a13c3fe815f15a5600fda30d132dfbd4bb54d9c766da164060dd1d66b12e9e4']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fdc811d4-9585-4ac6-ac34-bef6383701f3",
+      "created": "2020-11-24T19:53:13.226Z",
+      "modified": "2020-12-08T19:09:46.416Z",
+      "name": "a935d364622ebefbee659caaa9d0af5828952ab9501591c935cf1f919e2a38ff",
+      "pattern": "[file:hashes.'SHA-256' = 'a935d364622ebefbee659caaa9d0af5828952ab9501591c935cf1f919e2a38ff']",
+      "valid_from": "2020-11-24T19:53:13.226Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    }
+  ]
+}
