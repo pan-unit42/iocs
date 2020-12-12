@@ -175,7 +175,7 @@ MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST - 2ND RUN:
 
 - SHA256 hash: f6ea81aaf9a07e24a82b07254a8ed4fcf63d5a8e6ea7b57062f4c5baf9ef8bf2
 - File size: 678,288 bytes
-- File location: C:\Users\[username]\AppData\local\[username]\
+- File location: C:\Users\[username]\AppData\local\[username]\luepasac.png
 - File type: PNG image data, 605 x 399, 8-bit/color RGB, non-interlaced
 - File description: PNG file with encoded data created after initial IcedID DLL appears
 - Note: First submitted to VirusTotal on Monday 2020-11-30
