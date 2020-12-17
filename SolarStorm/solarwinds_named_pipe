@@ -1,0 +1,5 @@
+dataset = xdr_data
+| filter action_file_device_type = 1 and action_file_name != null and lowercase(actor_process_image_name) contains "solarwinds.businesslayerhost"
+| filter action_file_name = "583da945-62af-10e8-4902-a8f205c72b2e"
+| fields agent_hostname, actor_process_instance_id, actor_process_image_name, action_file_name
+| dedup actor_process_instance_id, actor_process_image_name, action_file_name
