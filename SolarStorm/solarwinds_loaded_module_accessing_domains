@@ -1,0 +1,14 @@
+dataset = xdr_data
+| filter (event_type = NETWORK or event_type = STORY) and lowercase(actor_process_image_name) contains "solarwinds.businesslayerhost"
+| filter action_external_hostname not contains "solarwinds" and action_external_hostname not contains ".local"
+| fields agent_hostname, agent_id, actor_process_instance_id, actor_process_image_name, action_external_hostname, dst_action_external_hostname, dns_query_name
+| join (dataset = xdr_data
+        | filter event_sub_type = LOAD_IMAGE_MODULE and
+                                    action_module_sha256 in ("019085a76ba7126fff22770d71bd901c325fc68ac55aa743327984e89f4b0134", 
+                                                        "32519b85c0b422e4656de6e6c41878e95fd95026267daab4215ee59c107d6c77", 
+                                                        "ce77d116a074dab7a22a0fd4f2c1ab475f16eec42e1ded3c0b0aa8211fe858d6")
+                                    and lowercase(actor_process_image_name) contains "solarwinds.businesslayerhost"
+        | fields agent_hostname, agent_id, actor_process_instance_id, actor_process_image_name, action_module_sha256, action_module_path) as modules 
+        modules.actor_process_instance_id = actor_process_instance_id and modules.agent_id = agent_id
+        | fields agent_hostname, agent_id, actor_process_instance_id, actor_process_image_name, action_module_sha256, action_module_path, action_external_hostname, dst_action_external_hostname, dns_query_name
+        | dedup agent_hostname, agent_id, actor_process_instance_id, actor_process_image_name, action_module_path, action_external_hostname, dst_action_external_hostname, dns_query_name
