@@ -1,0 +1,1 @@
+dataset = xdr_data|filter event_type = RPC_CALL and lowercase(actor_process_image_name) = "solarwinds.businesslayerhost*.exe" and action_rpc_interface_name = "IWbemServices"|fields agent_hostname, action_rpc_func_str_call_fields
