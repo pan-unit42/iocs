@@ -1,0 +1,1 @@
+dataset = xdr_data|filter arraystring(action_app_id_transitions, ",") contains "solarwinds" or dst_action_external_hostname = "api.solarwinds.com"  or action_external_hostname = "api.solarwinds.com"| fields agent_hostname, action_local_ip|dedup agent_hostname, action_local_ip
