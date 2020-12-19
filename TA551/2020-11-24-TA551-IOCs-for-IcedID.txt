@@ -86,7 +86,6 @@ MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST:
 
 - SHA256 hash: d4df9780c1d93538eb34c9db64aa87dd5a5ee718b3392dbe7f6719de053ef3ca
 - File size: 112,511 bytes
-- File location: hxxp://futuduramatios[.]best/background.png
 - File location: C:\Users\[username]\AppData\Local\Temp\00070a5e.png
 - File type: PNG image data, 482 x 561, 8-bit/color RGB, non-interlaced
 - File description: PNG file with encoded data used to create initial IcedID DLL
