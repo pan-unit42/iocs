@@ -130,7 +130,6 @@ MALWARE RETRIEVED FROM AN INFECTED WINDOWS HOST ON 2020-11-20:
 
 - SHA256 hash: b115ff724125e986f645c46c8663c63fcd1914a2bed52259bdf9e1345f6cbed9
 - File size: 349,055 bytes
-- File location: hxxp://rasolpewsitr[.]club/background.png
 - File location: C:\Users\[username]\AppData\Local\Temp\00053b3b.png
 - File type: PNG image data, 200 x 223, 8-bit/color RGB, non-interlaced
 - File description: PNG file with encoded data, retrieved during the infection and used to create IcedID DLL
