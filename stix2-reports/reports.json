@@ -7,5 +7,6 @@
     {"id": "report--7a487a5d-8366-485e-9880-e2cad4d73bec", "rp_file": "njrat-active-pastebin-c2-tunnels.json", "last_updated": "2020-12-09T00:00:00.000Z", "title": "NJRAT ACTIVE PASTEBIN C2 TUNNELS", "industries": [], "regions": [], "malwares": []},
     {"id": "report--f6aff1b6-4519-44a1-99bc-cc69fb1bd4ce", "rp_file": "postgresql-delivered-coinminer.json", "last_updated": "2020-12-10T00:00:00.000Z", "title": "POSTGRESQL DELIVERED COINMINER", "industries": [], "regions": [], "malwares": []},
     {"id": "report--3c5c4669-5caf-4505-be4b-7e994b11af79", "rp_file": "fireeye-redteam-tools-threat-brief.json", "last_updated": "2020-12-11T00:00:00.000Z", "title": "FIREEYE REDTEAM TOOLS THREAT BRIEF", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--146dfc10-b7ad-48c3-8c53-1a732aec75d1", "rp_file": "pymicropsia-trojan.json", "last_updated": "2020-12-14T00:00:00.000Z", "title": "PYMICROPSIA TROJAN", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--146dfc10-b7ad-48c3-8c53-1a732aec75d1", "rp_file": "pymicropsia-trojan.json", "last_updated": "2020-12-14T00:00:00.000Z", "title": "PYMICROPSIA TROJAN", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--e74ee529-8b19-4500-8df4-322432f152cd", "rp_file": "pro-ocean-new-cryptojacking-malware.json", "last_updated": "2021-01-28T00:00:00.000Z", "title": "PRO-OCEAN NEW CRYPTOJACKING MALWARE", "industries": [], "regions": [], "malwares": []}
 ]
