@@ -1,0 +1,2945 @@
+{
+  "type": "bundle",
+  "id": "bundle--fb025b8c-6646-412d-beb6-9d7ef3042b68",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--fb025b8c-6646-412d-beb6-9d7ef3042b68",
+      "created": "2021-02-02T16:55:29.390Z",
+      "modified": "2021-02-05T20:37:54.222Z",
+      "name": "WatchDog Cryptomining Operation",
+      "description": "Since at least January 27, 2019, the WatchDog mining operation has collected at least 203 XMR. Researchers have mapped the infrastructure behind the mining operations and have identified 16 root IP endpoints and 7 malicious domains which serve at least 126 malicious URL addresses used to download its toolset. Additionally, researchers have determined that at least 300 compromised systems are performing mining operations at any one time, making the WatchDog mining operation one of the largest and longest lasting cryptojacking operations known to exist",
+      "published": "2021-02-05T20:37:54.222Z",
+      "object_refs": [
+        "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+        "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+        "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+        "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+        "course-of-action--02d40837-4b7a-4bd1-a3c6-1cb4695e02e2",
+        "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
+        "course-of-action--363986e0-366e-43fa-850e-e66ae3aa48e1",
+        "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+        "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+        "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
+        "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+        "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+        "course-of-action--d420c435-ae60-4f5b-b4f9-cfaf94974baf",
+        "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+        "indicator--003db6ab-30c2-4395-b27a-f49d5839b124",
+        "indicator--011a375e-536e-43ab-a695-f2b626ead0cf",
+        "indicator--0120512b-950e-46e6-86a7-d9dd77eddbfb",
+        "indicator--03fd88b2-8531-4c9c-a52b-3010e3cafc29",
+        "indicator--04b0d61d-21f7-4aaf-a86b-0203764bbab9",
+        "indicator--0535a14a-9249-4ffb-a106-95e280cea07a",
+        "indicator--05b042a3-1fb1-44f9-b006-a4f8510600f0",
+        "indicator--05f629ee-394f-44a9-8c88-0272cf9a8988",
+        "indicator--061a5df5-e903-45f2-b4d5-d639ba42add0",
+        "indicator--0680253d-cdcb-43ec-b9ae-c27aea4c0d4f",
+        "indicator--0749888e-2216-46e7-a0ed-d292c01684d3",
+        "indicator--0817bf92-3807-48b5-9dd0-83081622aca0",
+        "indicator--0a391e2b-5fb5-432e-9d31-c612c1678890",
+        "indicator--0aaad8ab-8f2a-479c-ad98-266afa05f647",
+        "indicator--0c4e1305-635e-4af9-913e-e91d6d590c7c",
+        "indicator--0ca85525-742f-4ddd-9f99-9fe3c869b06a",
+        "indicator--0cb660cd-b26f-4a28-bc56-bb83b7b7f7ec",
+        "indicator--0eb0b28e-f2a7-4adf-8b95-f24b929c5481",
+        "indicator--12d3f45a-f7e8-40eb-93cc-d9c7405eaa0f",
+        "indicator--15180b13-d34c-4210-bd67-c143ce55ad31",
+        "indicator--153be35f-d7ae-4b11-b3ed-26caaa27ca09",
+        "indicator--18049c8f-36a2-483e-97a2-ab4e0c8033b1",
+        "indicator--18391dab-73f2-4b91-befe-7b2a00d592a9",
+        "indicator--18b9b4b2-2a4a-4a17-9c6a-093de5a94f41",
+        "indicator--19d9229a-4c55-4b72-91d2-6c6901cae3ce",
+        "indicator--1a7c40e2-1082-429d-9065-8a1236cf61cd",
+        "indicator--1f409945-66d5-49cc-a605-3d00a1e77d3f",
+        "indicator--20225dd5-bcad-4db9-81f0-3cb4bfc67a28",
+        "indicator--236ba680-9ac8-4798-be68-21a2b7d4777a",
+        "indicator--240eed2c-16ef-4152-b976-e0eb1d9def75",
+        "indicator--2460e20f-612f-4b5b-b8c7-0c165601bc74",
+        "indicator--25ded8f3-b09b-4040-aa8e-08e621196df4",
+        "indicator--2753d78e-83e9-4545-87a3-14615800d8a8",
+        "indicator--28888c34-dc7d-4702-ba6e-3d9cbd92ed9c",
+        "indicator--29f01ac6-8a31-40cf-aad3-c1f6cfa35e87",
+        "indicator--2c630140-ae00-4fa4-bd1a-1a9d2dbbc4d0",
+        "indicator--2df7b595-0a8c-4e9a-81a0-d0441f8dcc31",
+        "indicator--2e3a8f7c-f193-40e1-806c-1048330f793d",
+        "indicator--2f0be83e-c375-4a6c-91a5-30639e91ed23",
+        "indicator--30da0c95-a9d5-4291-b02b-9d9e3d88255e",
+        "indicator--31969177-db93-444a-b91f-bfa6524e2d7c",
+        "indicator--31c8dc6d-2248-4c71-8aaa-26dc46d079cf",
+        "indicator--334cabcc-7b27-44e0-a6f2-4fa51f98f87b",
+        "indicator--3804ff2b-0285-44f3-a273-77dcb47437d2",
+        "indicator--380a126b-7729-4bdd-b416-40217db92f66",
+        "indicator--3e1040ad-45c9-4db5-869e-352e3ee75c4e",
+        "indicator--3fd494bf-0a19-4f35-bc50-68c9698038d7",
+        "indicator--402a527f-8800-49ed-b29f-84a45b93303c",
+        "indicator--406b11c2-1058-44e7-85e9-e9bc2898bf6a",
+        "indicator--419e19a8-8715-4f9c-b0a1-cdc374dc2d52",
+        "indicator--421b0289-306a-4e1c-8636-224f3e7c394b",
+        "indicator--42307e0e-6767-4da5-9e88-035e3c8cb6ff",
+        "indicator--44367e02-5b9c-4b89-a5c9-a2d388380d31",
+        "indicator--46c12066-516c-4086-bef1-d10413f35771",
+        "indicator--4acfec7e-6ab8-40cb-91f8-6602f2170e0f",
+        "indicator--4bff770e-308c-406b-a90d-b05e0384222d",
+        "indicator--4e6c5759-2aa8-4fd8-b9c9-93331822d89e",
+        "indicator--4f38ef47-abc9-4d07-85b6-3ab80407e2a8",
+        "indicator--50670a8f-95a2-4814-864f-6632ca5d51f9",
+        "indicator--51fd01dc-93d1-4df5-a4f4-f5fc97375a31",
+        "indicator--52cc355b-86ec-4a34-929d-6f0c7acaf5db",
+        "indicator--541baa4f-1f97-4dba-94e0-9d837e0ad3bc",
+        "indicator--55c90226-d1ad-4b39-8cae-be48b79e8448",
+        "indicator--57aec1e5-8b4d-49ff-80ef-b126beb370c3",
+        "indicator--588e24f3-fb64-4b36-95bc-d65b99ad020c",
+        "indicator--5c2f421f-674f-4b35-8189-d3cbaea52dba",
+        "indicator--5e64a65b-f28d-4715-98d5-e1c230da0a95",
+        "indicator--5ed17bba-b2e9-4401-8e52-2e6724830a9c",
+        "indicator--6096c29f-1701-463d-bb90-fa867abac73c",
+        "indicator--651194d2-8e4d-411d-88b0-59afa2a540e4",
+        "indicator--6711bed5-69d5-4d76-bf59-10739c48fd82",
+        "indicator--679c2cdd-c958-4cb1-b2c8-30167b559b92",
+        "indicator--6b6555d2-86eb-4a95-a36c-690d306a61d5",
+        "indicator--6f3a682e-a9b6-4ac4-9a26-ff922ea6650a",
+        "indicator--70badafd-33bc-4b53-84e8-f72685342215",
+        "indicator--71ccd165-51a8-46a9-b389-01fd97e9d48e",
+        "indicator--71defe41-5daf-4f08-b916-5e5e79fad152",
+        "indicator--730901f6-262d-4509-b4f2-cc93e9524a5a",
+        "indicator--772299aa-8137-4052-ae92-7bf7c52b6d67",
+        "indicator--7806cc46-8b05-49ee-8051-c3371f3620e7",
+        "indicator--7b9a25d2-2e95-4c39-babf-d1c5cae70603",
+        "indicator--7dc547da-54ea-4978-99b3-ff800a0d8f4d",
+        "indicator--7e5d7ccd-6265-4c85-817e-001292561520",
+        "indicator--7f152974-878e-482e-9514-34cc934a6ba9",
+        "indicator--7f9eb0da-cb61-44dd-9222-d61ba0f1e85c",
+        "indicator--80cccdca-48f3-4476-a635-9f25dc7b4397",
+        "indicator--80f64d7c-1eed-485c-8c4b-c912a1342c9c",
+        "indicator--81263d39-de98-4b61-b026-b4da09a52b4e",
+        "indicator--81ed097d-429d-48a7-8a9a-26d3466c29ad",
+        "indicator--83aa08ae-b537-4b35-8ac2-6b1116719f10",
+        "indicator--84402ca9-eaec-43cb-8404-b4a68a884bab",
+        "indicator--85796c7e-d0a6-4eee-b230-2720d4f8609c",
+        "indicator--871e0fce-30a1-48e9-ac97-e8be6eda9c18",
+        "indicator--8874a9f7-ca3e-4da4-8af7-214091832116",
+        "indicator--8954e428-1f4d-4702-be13-77af505b34f2",
+        "indicator--8d615dcc-7685-4bf0-b87d-71fbe15d926d",
+        "indicator--8ef5fc6a-b40e-4b97-b005-ba904a0ac8ac",
+        "indicator--8f656bc0-b031-4ed1-a324-124270743b08",
+        "indicator--8ff9ff0b-99cb-4806-9b7c-8926fe0b7134",
+        "indicator--906c64fa-e163-429c-ba1c-9023e74cbeb4",
+        "indicator--908ecbb4-0fde-4124-a081-4ef9b466b983",
+        "indicator--915ee0e6-a991-4e6a-9778-105e58a5e637",
+        "indicator--91aa75b5-4b36-4db6-b448-5dead1fc72c0",
+        "indicator--91df135f-b934-4679-bb2d-e55ef8f334b9",
+        "indicator--944ed878-0467-46c4-8be3-e1db552ec599",
+        "indicator--9580b8da-48f2-4a28-900b-82860e2dadcf",
+        "indicator--95fe7856-88b1-484f-9345-092aa182f58c",
+        "indicator--961ad8af-e86b-4be0-a695-c9c9aa4fda7b",
+        "indicator--97250d71-43d4-41d0-b0af-c03d8a55d6c1",
+        "indicator--97e99ca9-65fc-4684-bc99-6cc8e992f134",
+        "indicator--97f6ffde-a73e-46c5-b1fb-fbf5a020a9c2",
+        "indicator--98bcc9b6-5449-4eaa-abbb-f39573fae30d",
+        "indicator--992e790a-20bb-406f-b055-26a2848bd637",
+        "indicator--9e3a7e6d-2222-4927-9a41-d2257e6f1ac7",
+        "indicator--a0c7b9b5-9876-4e31-a8ef-4cc36633a315",
+        "indicator--a17e3f0d-d978-4281-807f-01f0655f1aa1",
+        "indicator--a1a1d39e-9db2-42c2-8f9d-5155f75425c4",
+        "indicator--a327ffbb-d27d-461e-aa3e-bc6779bc07fc",
+        "indicator--a5b419b1-9cdd-4fae-a0cc-35323fac72bd",
+        "indicator--a862f424-0115-4919-a7b1-e2e735265951",
+        "indicator--a89daf9e-6589-4991-b603-f8a365deeaa6",
+        "indicator--ababca66-6df1-4d68-b073-3f49746bc6be",
+        "indicator--abd7f684-2dc1-40c9-8f63-0a2dde6e13b7",
+        "indicator--ac58065e-947b-4e76-9fef-5079efcec30a",
+        "indicator--ada45335-a87f-47a3-9c84-debf535c3633",
+        "indicator--af13ac2f-3d6b-41f1-a940-54f665c2ee3c",
+        "indicator--b00b9d6f-27e7-4d11-882b-4bcc10b9fb89",
+        "indicator--b03091a0-b9b6-4821-a121-4ca2e9120828",
+        "indicator--b1084716-d778-47dd-af55-33c1aeaf0ce7",
+        "indicator--b1a7f906-022b-4fd7-93dd-5a10729106b7",
+        "indicator--b2fff8c3-d4a3-4bd1-848c-5f969572ee64",
+        "indicator--b4100825-8252-42aa-9628-88cc1bda2e16",
+        "indicator--b46551d2-11cd-423f-b578-2e449f96a84d",
+        "indicator--b6eeab0a-42f0-4a7a-9841-e011c15ff971",
+        "indicator--b78adff3-6468-45a6-a48f-caaa76125a41",
+        "indicator--b97d7e58-7349-4baf-ad1e-52620a5bab9a",
+        "indicator--baea6fe9-7724-4ddc-9240-5aa697615e3e",
+        "indicator--bc048074-09f5-468e-938b-c9dc40b3369c",
+        "indicator--bc2d937d-d3f5-459e-ae8c-3afb3be3f28c",
+        "indicator--bcb85a36-c3e7-4d69-ba17-fe60b4735f15",
+        "indicator--bd300b95-6fa0-418f-aa10-754c663fb19b",
+        "indicator--be8805e4-f0b0-4e9b-8bee-bb8c5b077fea",
+        "indicator--bfe38c42-cdc1-4e9f-9be2-e239e423594f",
+        "indicator--c0e7c9fb-652a-411e-a9b2-6273c9c3566d",
+        "indicator--c5a713f1-b8cd-4ec1-83d8-a4cd8a009715",
+        "indicator--c6ac162a-4234-431a-9c7f-62e9aedca689",
+        "indicator--ca7682cd-a672-40ac-a0d6-0e26bcd1f8fb",
+        "indicator--ca7d7ba6-11a1-411b-a05a-112fdcb0ef93",
+        "indicator--cce3fe58-06d8-4bd2-81ef-6bbb42e05565",
+        "indicator--cf930b7a-8e37-4855-986f-d687db742158",
+        "indicator--d1e9b247-408d-4296-9d90-b41d0c3d03b4",
+        "indicator--d243720a-ba6f-4e99-b559-eebf0f1722fa",
+        "indicator--d2fca160-1eda-4e3c-9daf-e209986df03d",
+        "indicator--d3cd0b4d-0740-4c39-a48e-dcdb9629c067",
+        "indicator--d499cf67-1f86-4234-86be-f24c0b05007d",
+        "indicator--d758e098-1289-4026-86a9-e7dc6988952d",
+        "indicator--d84c74ef-5e76-4dbd-aa0d-32d3e2d8d1e2",
+        "indicator--d97086fd-324f-4a51-b3ce-61ee89c3f6f5",
+        "indicator--d97dd20e-dd6d-47a9-86ae-8eaddc6e2594",
+        "indicator--d9b929e3-dc11-4138-a387-fb8d2ac10477",
+        "indicator--dade1de8-2c83-4d9d-ad76-b3fd0e89a4c7",
+        "indicator--dcea31e9-58df-4ea0-bf20-8b167aa53329",
+        "indicator--de473cc6-ecb1-456c-956d-8784e249f7d3",
+        "indicator--def91843-c18a-4d54-ae7d-ab8a6e556861",
+        "indicator--e0e04d6c-026f-40c5-aef4-76b3b9e78feb",
+        "indicator--e139686b-4f6d-441b-9ade-668aea8d82c6",
+        "indicator--e3176167-094e-4d89-9316-1ba04fbc73c8",
+        "indicator--e489188b-93fd-4da3-9581-0179fc259b02",
+        "indicator--e5d0f651-b7db-434f-894a-1ac98e7c2d01",
+        "indicator--eb896ef2-aa6e-4d12-bded-e54a42317c05",
+        "indicator--ebe2394d-aaf4-44ab-b0b8-9632d652ebbc",
+        "indicator--edbb5e62-3cb8-4d77-9dd2-4a4e65440634",
+        "indicator--f0223ccc-77ed-4c14-9c4a-25b39d5eec1b",
+        "indicator--f0f830ab-8957-4d48-8e3c-a28a3219d794",
+        "indicator--f1a34f2b-177d-453d-91a6-9bfebbd2c95c",
+        "indicator--f3a433b1-5cc1-4ea9-b45d-3cf0e6a639ac",
+        "indicator--f45af0fe-053e-45e6-b633-5b37bcce2d91",
+        "indicator--f5d0220d-f642-4b53-bf03-39d7d0674c09",
+        "indicator--f5d8cee4-5980-45bc-9f44-a419bbd5b19f",
+        "indicator--f7ddaafd-abb9-4f39-abc1-debe65c2c082",
+        "indicator--f8d39e66-4122-42e9-a946-7be08a49a491",
+        "indicator--f954f6aa-d1b2-43a7-90f2-413fe759562a",
+        "indicator--fc6ce700-11ae-41de-b934-3cbe70b19603",
+        "indicator--fe6cd0a1-2992-417c-9827-87e28348a885",
+        "indicator--fe844b47-862f-42e7-b8bd-bb5901f0554b",
+        "relationship--01de8408-ad82-4250-8c8e-f58fa6f19a90",
+        "relationship--05bdc73d-7c32-49c1-9071-46b467d4db49",
+        "relationship--147814fe-4a67-4e5d-a09c-c181bdee25da",
+        "relationship--258bf26a-4891-4eec-b130-cf6f2b242feb",
+        "relationship--3fe9d06c-5819-4b92-b142-3d25de7d3516",
+        "relationship--694e5cb0-28c6-4110-b106-6c542172d624",
+        "relationship--6b4881d7-4d12-4c38-8940-c0eecc491eea",
+        "relationship--803fabc7-c0f3-4771-aab5-38674bfbe2bd",
+        "relationship--94570d6b-0a61-4aa1-a40a-4f11bfc90152",
+        "relationship--ba5803c7-57b3-4aca-8f7a-618fadbefbaf",
+        "relationship--d79bc1ad-40ac-4875-83b1-675b22f09a27",
+        "relationship--df0ed512-1c81-4cd2-a5dc-183d08fec843",
+        "relationship--e6a3372e-a365-4fe6-a343-496e4232ee9b"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-09-14T14:57:07.257Z",
+      "name": "T1562.001: Disable or Modify Tools",
+      "description": "Adversaries may disable security tools to avoid possible detection of their tools and activities. This can take the form of killing security software or event logging processes, deleting Registry keys so that tools do not start at run time, or other methods to interfere with security tools scanning or reporting information.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "installation"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "defense-evasion"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/578.html",
+          "external_id": "CAPEC-578"
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1562/001",
+          "external_id": "T1562.001"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Monitor processes and command-line arguments to see if security tools are killed or stop running. Monitor Registry edits for modifications to services and startup programs that correspond to security tools. Lack of log events may be suspicious."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "File monitoring",
+        "Process command-line parameters",
+        "Services",
+        "Windows Registry"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "User"
+      ],
+      "x_mitre_defense_bypassed": [
+        "Anti-virus",
+        "File monitoring",
+        "Host intrusion prevention systems",
+        "Log analysis",
+        "Signature-based detection"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2019-05-06T20:46:01.730Z",
+      "modified": "2020-07-27T14:54:42.176Z",
+      "name": "T1496: Resource Hijacking",
+      "description": "Adversaries may leverage the resources of co-opted systems in order to solve resource intensive problems which may impact system and/or hosted service availability. \n\nOne common purpose for Resource Hijacking is to validate transactions of cryptocurrency networks and earn virtual currency. Adversaries may consume enough system resources to negatively impact and/or cause affected machines to become unresponsive.(Citation: Kaspersky Lazarus Under The Hood Blog 2017) Servers and cloud-based(Citation: CloudSploit - Unused AWS Regions) systems are common targets because of the high potential for available resources, but user endpoint systems may also be compromised and used for Resource Hijacking and cryptocurrency mining.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "CloudSploit - Unused AWS Regions",
+          "url": "https://blog.cloudsploit.com/the-danger-of-unused-aws-regions-af0bf1b878fc",
+          "description": "CloudSploit. (2019, June 8). The Danger of Unused AWS Regions. Retrieved October 8, 2019."
+        },
+        {
+          "source_name": "Kaspersky Lazarus Under The Hood Blog 2017",
+          "url": "https://securelist.com/lazarus-under-the-hood/77908/",
+          "description": "GReAT. (2017, April 3). Lazarus Under the Hood. Retrieved April 17, 2019."
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1496",
+          "external_id": "T1496"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Consider monitoring process resource usage to determine anomalous activity associated with malicious hijacking of computer resources such as CPU, memory, and graphics processing resources. Monitor for suspicious use of network resources associated with cryptocurrency mining software. Monitor for common cryptomining software process names and files on local systems that may indicate compromise and resource usage."
+      ],
+      "x_mitre_platforms": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "AWS CloudTrail logs",
+        "Azure activity logs",
+        "Network device logs",
+        "Network protocol analysis",
+        "Process monitoring",
+        "Process use of network",
+        "Stackdriver logs"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "User"
+      ],
+      "x_mitre_impact_type": [
+        "Availability"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:36.978Z",
+      "name": "T1046: Network Service Scanning",
+      "description": "Adversaries may attempt to get a listing of services running on remote hosts, including those that may be vulnerable to remote software exploitation. Methods to acquire this information include port scans and vulnerability scans using tools that are brought onto a system. \n\nWithin cloud environments, adversaries may attempt to discover services running on other cloud hosts. Additionally, if the cloud environment is connected to a on-premises environment, adversaries may be able to identify services running on non-cloud systems as well.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "discovery"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/300.html",
+          "external_id": "CAPEC-300"
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1046",
+          "external_id": "T1046"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events from legitimate remote service scanning may be uncommon, depending on the environment and how they are used. Legitimate open port and vulnerability scanning may be conducted within the environment and will need to be deconflicted with any detection capabilities developed. Network intrusion detection systems can also be used to identify scanning activity. Monitor for process use of the networks and inspect intra-network flows to detect port scans."
+      ],
+      "x_mitre_platforms": [
+        "AWS",
+        "Azure",
+        "GCP",
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "Netflow/Enclave netflow",
+        "Network protocol analysis",
+        "Packet capture",
+        "Process command-line parameters",
+        "Process use of network"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "SYSTEM",
+        "User"
+      ],
+      "x_mitre_contributors": [
+        "Praetorian"
+      ],
+      "x_mitre_version": "2.1"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--e3b6daca-e963-4a69-aee6-ed4fd653ad58",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2020-03-18T19:43:23.372Z",
+      "modified": "2020-07-27T14:54:42.474Z",
+      "name": "T1518: Software Discovery",
+      "description": "Adversaries may attempt to get a listing of software and software versions that are installed on a system or in a cloud environment. Adversaries may use the information from [Software Discovery](https://attack.mitre.org/techniques/T1518) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nAdversaries may attempt to enumerate software for a variety of reasons, such as figuring out what security measures are present or if the compromised system has a version of software that is vulnerable to [Exploitation for Privilege Escalation](https://attack.mitre.org/techniques/T1068).",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "discovery"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1518",
+          "external_id": "T1518"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as lateral movement, based on the information obtained.\n\nMonitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1059/001)."
+      ],
+      "x_mitre_platforms": [
+        "AWS",
+        "Azure",
+        "Azure AD",
+        "GCP",
+        "Linux",
+        "Office 365",
+        "SaaS",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "AWS CloudTrail logs",
+        "Azure activity logs",
+        "File monitoring",
+        "Process command-line parameters",
+        "Process monitoring",
+        "Stackdriver logs"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "User"
+      ],
+      "x_mitre_version": "1.1"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--02d40837-4b7a-4bd1-a3c6-1cb4695e02e2",
+      "name": "Ensure that all zones have Zone Protection Profiles with all Reconnaissance Protection settings enabled, tuned, and set to appropriate actions",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:21.151Z",
+      "description": "Enable all three scan options in a Zone Protection profile. Do not configure an action of Allow for any scan type. The exact interval and threshold values must be tuned to the specific environment. Less aggressive settings are typically appropriate for trusted zones, such as setting an action of alert for all scan types.\n\nAttach appropriate Zone Protection profiles meeting these criteria to all zones. Separate Zone Protection profiles for trusted and untrusted zones is a best practice.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.18",
+      "x_panw_coa_bp_title": "Ensure that all zones have Zone Protection Profiles with all Reconnaissance Protection settings enabled, tuned, and set to appropriate actions",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Enable all three scan options in a Zone Protection profile. Do not configure an action of Allow for any scan type. The exact interval and threshold values must be tuned to the specific environment. Less aggressive settings are typically appropriate for trusted zones, such as setting an action of alert for all scan types.\n\nAttach appropriate Zone Protection profiles meeting these criteria to all zones. Separate Zone Protection profiles for trusted and untrusted zones is a best practice.",
+      "x_panw_coa_bp_rationale_statement": "Port scans and host sweeps are common in the reconnaissance phase of an attack. Bots scouring the Internet in search of a vulnerable target may also scan for open ports and available hosts. Reconnaissance Protection will allow for these attacks to be either alerted on or blocked altogether.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Network > Network Profiles > Zone Protection > Zone Protection Profile > Reconnaissance Protection`.\n\nSet `TCP Port Scan` to `enabled`, its Action to `block-ip`, its Interval to `5`, and its Threshold to `20`.\n\nSet `Host Sweep` to `enabled`, its Action to `block`, its Interval to `10`, and its Threshold to `30`.\n\nSet `UDP Port Scan` to `enabled`, its Action to `alert`, its Interval to `10`, and its Threshold to `20`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Network > Network Profiles > Zone Protection > Zone Protection Profile > Reconnaissance Protection`.\n\nVerify that `TCP Port Scan` is `enabled`, its Action is set to `block-ip`, its Interval is set to `5`, and its Threshold is set to `20`.\n\nVerify that `Host Sweep` is `enabled`, its Action is set to `block`, its Interval is set to `10`, and its Threshold is set to `30`.\n\nVerify that `UDP Port Scan` is `enabled`, its Action is set to `alert`, its Interval is set to `10`, and its Threshold is set to `20`.",
+      "x_panw_coa_bp_impact_statement": "Not configuring a Network Zone Protection Profile leaves an organization exposed to common attacks and reconnaissance from untrusted networks.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Boundary Defense CONTROL:v7 12 DESCRIPTION:Boundary Defense;TITLE:Deny Communication over Unauthorized Ports CONTROL:v7 12.4 DESCRIPTION:Deny communication over unauthorized TCP or UDP ports or application traffic to ensure that only authorized protocols are allowed to cross the network boundary in or out of the network at each of the organization's network boundaries.;TITLE:Monitor and Block Unauthorized Network Traffic CONTROL:v7 13.3 DESCRIPTION:Deploy an automated tool on network perimeters that monitors for unauthorized transfer of sensitive information and blocks such transfers while alerting information security professionals.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Host Sweep Triggering Method in Zone Protection Profile” - https://live.paloaltonetworks.com/docs/DOC-8703:“Understanding DoS Protection” - https://live.paloaltonetworks.com/docs/DOC-5078:“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“What are the Differences between DoS Protection and Zone Protection?” - https://live.paloaltonetworks.com/docs/DOC-4501:PANOS 9.0 Admin Guide - Network Profiles / Zone Protection / Reconnaissance Protection: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-web-interface-help/network/network-network-profiles/network-network-profiles-zone-protection/reconnaissance-protection.html#"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
+      "name": "Enable Traps Tampering Protection",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--363986e0-366e-43fa-850e-e66ae3aa48e1",
+      "name": "Deploy XSOAR Playbook - Port Scan",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "x_panw_coa_u42_id": "x.28",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Port Scan"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+      "name": "Deploy XSOAR Playbook - Hunting C&C Communication Playbook",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.22",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Hunting C&C Communication Playbook"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "name": "Ensure 'Service setting of ANY' in a security policy allowing traffic does not exist",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create security policies specifying application-default for the Service setting, in addition to the specific ports desired. The Service setting of `any` should not be used for any policies that allow traffic."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
+      "name": "Configure Behavioral Threat Protection under the Malware Security Profile",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "name": "Ensure 'Security Policy' denying any/all traffic to/from IP addresses on Trusted Threat Intelligence Sources Exists",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a pair of security rules at the top of the security policies ruleset to block traffic to and from IP addresses known to be malicious.\n\nNote: This recommendation (as written) requires a Palo Alto 'Active Threat License'. Third Party and Open Source Threat Intelligence Feeds can also be used for this purpose."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+      "name": "Deploy XSOAR Playbook - PAN-OS Query Logs for Indicators",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.23",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - PAN-OS Query Logs for Indicators"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--d420c435-ae60-4f5b-b4f9-cfaf94974baf",
+      "name": "Deploy XSOAR Playbook - Endpoint Malware Investigation",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:14.994Z",
+      "x_panw_coa_u42_id": "x.33",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Endpoint Malware Investigation"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "name": "Ensure application security policies exist when allowing traffic from an untrusted zone to a more trusted zone",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "When permitting traffic from an untrusted zone, such as the Internet or guest network, to a more trusted zone, such as a DMZ segment, create security policies specifying which specific applications are allowed. \n\n**Enhanced Security Recommendation: **\nRequire specific application policies when allowing `any` traffic, regardless of the trust level of a zone. Do not rely solely on port permissions. This may require SSL interception, and may also not be possible in all environments."
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--003db6ab-30c2-4395-b27a-f49d5839b124",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "82815c61402cfc0edd6ce3be37848259711ef07e3391e74c85fbdaa676d95c0c",
+      "pattern": "[file:hashes.'SHA-256' = '82815c61402cfc0edd6ce3be37848259711ef07e3391e74c85fbdaa676d95c0c']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--011a375e-536e-43ab-a695-f2b626ead0cf",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "37492d1897f77371f2eb431b9be7c861b81e97f04a091d8c6d63719171eda2ac",
+      "pattern": "[file:hashes.'SHA-256' = '37492d1897f77371f2eb431b9be7c861b81e97f04a091d8c6d63719171eda2ac']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0120512b-950e-46e6-86a7-d9dd77eddbfb",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://146.71.79.230/363A3EDC10A2930DVNICE/update.sh",
+      "pattern": "[url:value = 'http://146.71.79.230/363A3EDC10A2930DVNICE/update.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--03fd88b2-8531-4c9c-a52b-3010e3cafc29",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "67d0f77adf98ac34a6db78110c78652a9b7f63e22ae5ab7df4f57d3413e48822",
+      "pattern": "[file:hashes.'SHA-256' = '67d0f77adf98ac34a6db78110c78652a9b7f63e22ae5ab7df4f57d3413e48822']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--04b0d61d-21f7-4aaf-a86b-0203764bbab9",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://176.123.10.57/cf67356/config.json",
+      "pattern": "[url:value = 'http://176.123.10.57/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0535a14a-9249-4ffb-a106-95e280cea07a",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "bd3506b86452d46d395b38aa807805097da1291c706318b5fe970fe4b20f5406",
+      "pattern": "[file:hashes.'SHA-256' = 'bd3506b86452d46d395b38aa807805097da1291c706318b5fe970fe4b20f5406']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--05b042a3-1fb1-44f9-b006-a4f8510600f0",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "c67881c1f05477939b8964ad26f1a467762a19c2c7d1a1656b338d8113ca1ac1",
+      "pattern": "[file:hashes.'SHA-256' = 'c67881c1f05477939b8964ad26f1a467762a19c2c7d1a1656b338d8113ca1ac1']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--05f629ee-394f-44a9-8c88-0272cf9a8988",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://107.173.159.206:8880/tatavx1hym9z928m/config.json",
+      "pattern": "[url:value = 'http://107.173.159.206:8880/tatavx1hym9z928m/config.json']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--061a5df5-e903-45f2-b4d5-d639ba42add0",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://83.97.20.90/cf67356/config.json",
+      "pattern": "[url:value = 'http://83.97.20.90/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0680253d-cdcb-43ec-b9ae-c27aea4c0d4f",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/1.0.4.tar.gz",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/1.0.4.tar.gz']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0749888e-2216-46e7-a0ed-d292c01684d3",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "1f65569b77f21f47256db339700b4ff33b7570e44e1981b5c213b7b2e65b0f6c",
+      "pattern": "[file:hashes.'SHA-256' = '1f65569b77f21f47256db339700b4ff33b7570e44e1981b5c213b7b2e65b0f6c']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0817bf92-3807-48b5-9dd0-83081622aca0",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://204.44.105.168:66/newdat.sh",
+      "pattern": "[url:value = 'http://204.44.105.168:66/newdat.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0a391e2b-5fb5-432e-9d31-c612c1678890",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/bd.sh",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/bd.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0aaad8ab-8f2a-479c-ad98-266afa05f647",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/config.json",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0c4e1305-635e-4af9-913e-e91d6d590c7c",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "ad05d09e6ed4bd09fe1469e49885c5169458635a1a33f2579cb7caa221b43fce",
+      "pattern": "[file:hashes.'SHA-256' = 'ad05d09e6ed4bd09fe1469e49885c5169458635a1a33f2579cb7caa221b43fce']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0ca85525-742f-4ddd-9f99-9fe3c869b06a",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "895e994dafaa00009a46f3b56ca0d563e066a14e77f5030b1331fc9b3f9f6478",
+      "pattern": "[file:hashes.'SHA-256' = '895e994dafaa00009a46f3b56ca0d563e066a14e77f5030b1331fc9b3f9f6478']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0cb660cd-b26f-4a28-bc56-bb83b7b7f7ec",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "c8ca3ab0ae00a1bf197086370ab5994264ac5bc1fcf52b2ddf8c9fcacc4402ff",
+      "pattern": "[file:hashes.'SHA-256' = 'c8ca3ab0ae00a1bf197086370ab5994264ac5bc1fcf52b2ddf8c9fcacc4402ff']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0eb0b28e-f2a7-4adf-8b95-f24b929c5481",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.191/trace",
+      "pattern": "[url:value = 'http://185.232.65.191/trace']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--12d3f45a-f7e8-40eb-93cc-d9c7405eaa0f",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://176.123.10.57/cf67356/networkmanager",
+      "pattern": "[url:value = 'http://176.123.10.57/cf67356/networkmanager']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--15180b13-d34c-4210-bd67-c143ce55ad31",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://205.209.152.78:8000/update.sh",
+      "pattern": "[url:value = 'http://205.209.152.78:8000/update.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--153be35f-d7ae-4b11-b3ed-26caaa27ca09",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://83.97.20.90/cf67356/networkmanager",
+      "pattern": "[url:value = 'http://83.97.20.90/cf67356/networkmanager']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--18049c8f-36a2-483e-97a2-ab4e0c8033b1",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/newdat.sh",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/newdat.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--18391dab-73f2-4b91-befe-7b2a00d592a9",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://95.182.122.199/init.sh",
+      "pattern": "[url:value = 'http://95.182.122.199/init.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--18b9b4b2-2a4a-4a17-9c6a-093de5a94f41",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://176.123.10.57/cf67356/zzh",
+      "pattern": "[url:value = 'http://176.123.10.57/cf67356/zzh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--19d9229a-4c55-4b72-91d2-6c6901cae3ce",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "e7446d595854b6bac01420378176d1193070ef776788af12300eb77e0a397bf7",
+      "pattern": "[file:hashes.'SHA-256' = 'e7446d595854b6bac01420378176d1193070ef776788af12300eb77e0a397bf7']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1a7c40e2-1082-429d-9065-8a1236cf61cd",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://176.123.10.57/cf67356/phpguard",
+      "pattern": "[url:value = 'http://176.123.10.57/cf67356/phpguard']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1f409945-66d5-49cc-a605-3d00a1e77d3f",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/phpguard",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/phpguard']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--20225dd5-bcad-4db9-81f0-3cb4bfc67a28",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://95.182.122.199/E5DB0E07C3D7BE80V52/networkservice",
+      "pattern": "[url:value = 'http://95.182.122.199/E5DB0E07C3D7BE80V52/networkservice']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--236ba680-9ac8-4798-be68-21a2b7d4777a",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://83.97.20.90/cf67356/newinit.sh",
+      "pattern": "[url:value = 'http://83.97.20.90/cf67356/newinit.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--240eed2c-16ef-4152-b976-e0eb1d9def75",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/phpupdate",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/phpupdate']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2460e20f-612f-4b5b-b8c7-0c165601bc74",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/is.sh",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/is.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--25ded8f3-b09b-4040-aa8e-08e621196df4",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.181.10.234/E5DB0E07C3D7BE80V520/update.sh",
+      "pattern": "[url:value = 'http://185.181.10.234/E5DB0E07C3D7BE80V520/update.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2753d78e-83e9-4545-87a3-14615800d8a8",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "39.100.33.209",
+      "pattern": "[ipv4-addr:value = '39.100.33.209']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--28888c34-dc7d-4702-ba6e-3d9cbd92ed9c",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://47.253.42.213/b2f628/newinit.sh",
+      "pattern": "[url:value = 'http://47.253.42.213/b2f628/newinit.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--29f01ac6-8a31-40cf-aad3-c1f6cfa35e87",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://82.202.66.50/cf67356/zzh",
+      "pattern": "[url:value = 'http://82.202.66.50/cf67356/zzh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2c630140-ae00-4fa4-bd1a-1a9d2dbbc4d0",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/networkmanager",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/networkmanager']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2df7b595-0a8c-4e9a-81a0-d0441f8dcc31",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://83.97.20.90/cf67356/zzh",
+      "pattern": "[url:value = 'http://83.97.20.90/cf67356/zzh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2e3a8f7c-f193-40e1-806c-1048330f793d",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://146.71.79.230/363A3EDC10A2930DVNICE/sysupdate",
+      "pattern": "[url:value = 'http://146.71.79.230/363A3EDC10A2930DVNICE/sysupdate']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2f0be83e-c375-4a6c-91a5-30639e91ed23",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/phpguard",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/phpguard']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--30da0c95-a9d5-4291-b02b-9d9e3d88255e",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://39.100.33.209/b2f628/config.json",
+      "pattern": "[url:value = 'http://39.100.33.209/b2f628/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--31969177-db93-444a-b91f-bfa6524e2d7c",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.191/update.sh",
+      "pattern": "[url:value = 'http://185.232.65.191/update.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--31c8dc6d-2248-4c71-8aaa-26dc46d079cf",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "198.98.57.187",
+      "pattern": "[ipv4-addr:value = '198.98.57.187']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--334cabcc-7b27-44e0-a6f2-4fa51f98f87b",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://82.202.66.50/cf67356/networkmanager",
+      "pattern": "[url:value = 'http://82.202.66.50/cf67356/networkmanager']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3804ff2b-0285-44f3-a273-77dcb47437d2",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://93.115.23.117/N3DN0E09C5D9BU70V1720/sysguard",
+      "pattern": "[url:value = 'http://93.115.23.117/N3DN0E09C5D9BU70V1720/sysguard']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--380a126b-7729-4bdd-b416-40217db92f66",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://204.44.105.168:66/config.json",
+      "pattern": "[url:value = 'http://204.44.105.168:66/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3e1040ad-45c9-4db5-869e-352e3ee75c4e",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gengine.com.de/api/sysguard",
+      "pattern": "[url:value = 'https://de.gengine.com.de/api/sysguard']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3fd494bf-0a19-4f35-bc50-68c9698038d7",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "68cedf2a018c0830655dc9bb94aadf6492ab31196cbc83ceb44defae0a02d3dc",
+      "pattern": "[file:hashes.'SHA-256' = '68cedf2a018c0830655dc9bb94aadf6492ab31196cbc83ceb44defae0a02d3dc']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--402a527f-8800-49ed-b29f-84a45b93303c",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://209.182.218.161:80/363A3EDC10A2930D/update.sh",
+      "pattern": "[url:value = 'http://209.182.218.161:80/363A3EDC10A2930D/update.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--406b11c2-1058-44e7-85e9-e9bc2898bf6a",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "0a48bd0d41052c1e3138d558fc06ebde8d6f15b8d866200b8f00b214a73eb5b9",
+      "pattern": "[file:hashes.'SHA-256' = '0a48bd0d41052c1e3138d558fc06ebde8d6f15b8d866200b8f00b214a73eb5b9']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--419e19a8-8715-4f9c-b0a1-cdc374dc2d52",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://204.44.105.168:66/networkmanager",
+      "pattern": "[url:value = 'http://204.44.105.168:66/networkmanager']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--421b0289-306a-4e1c-8636-224f3e7c394b",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://py2web.store/7356a3333e6999999999/phpguard",
+      "pattern": "[url:value = 'http://py2web.store/7356a3333e6999999999/phpguard']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--42307e0e-6767-4da5-9e88-035e3c8cb6ff",
+      "created": "2021-02-02T17:02:14.586Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "https://us.gsearch.com.de/api/sysupdate",
+      "pattern": "[url:value = 'https://us.gsearch.com.de/api/sysupdate']",
+      "valid_from": "2021-02-02T17:02:14.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--44367e02-5b9c-4b89-a5c9-a2d388380d31",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://93.115.23.117/N3DN0E09C5D9BU70V1720/sysupdate",
+      "pattern": "[url:value = 'http://93.115.23.117/N3DN0E09C5D9BU70V1720/sysupdate']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--46c12066-516c-4086-bef1-d10413f35771",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/networkmanager",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/networkmanager']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4acfec7e-6ab8-40cb-91f8-6602f2170e0f",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://95.182.122.199/E5DB0E07C3D7BE80V52/config.json",
+      "pattern": "[url:value = 'http://95.182.122.199/E5DB0E07C3D7BE80V52/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4bff770e-308c-406b-a90d-b05e0384222d",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://82.202.66.50/cf67356/phpguard",
+      "pattern": "[url:value = 'http://82.202.66.50/cf67356/phpguard']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4e6c5759-2aa8-4fd8-b9c9-93331822d89e",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "55dd539d8fe94648294e91df89b005f1dba330b432ceda25775963485bae7def",
+      "pattern": "[file:hashes.'SHA-256' = '55dd539d8fe94648294e91df89b005f1dba330b432ceda25775963485bae7def']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4f38ef47-abc9-4d07-85b6-3ab80407e2a8",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "107.173.159.206",
+      "pattern": "[ipv4-addr:value = '107.173.159.206']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--50670a8f-95a2-4814-864f-6632ca5d51f9",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "d6cf2d54e3bb564cb15638b58d2dd124ae7acd40e05af42d1bdc0588a8d5211d",
+      "pattern": "[file:hashes.'SHA-256' = 'd6cf2d54e3bb564cb15638b58d2dd124ae7acd40e05af42d1bdc0588a8d5211d']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--51fd01dc-93d1-4df5-a4f4-f5fc97375a31",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "208.109.11.21",
+      "pattern": "[ipv4-addr:value = '208.109.11.21']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--52cc355b-86ec-4a34-929d-6f0c7acaf5db",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "2f642efdf56b30c1909c44a65ec559e1643858aaea9d5f18926ee208ec6625ed",
+      "pattern": "[file:hashes.'SHA-256' = '2f642efdf56b30c1909c44a65ec559e1643858aaea9d5f18926ee208ec6625ed']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--541baa4f-1f97-4dba-94e0-9d837e0ad3bc",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://209.182.218.161:80/363A3EDC10A2930D/sysupdate",
+      "pattern": "[url:value = 'http://209.182.218.161:80/363A3EDC10A2930D/sysupdate']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--55c90226-d1ad-4b39-8cae-be48b79e8448",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gsearch.com.de/api/networkservice",
+      "pattern": "[url:value = 'https://de.gsearch.com.de/api/networkservice']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--57aec1e5-8b4d-49ff-80ef-b126beb370c3",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "e3cbb08913493e54d74081349972423444cbc0f4853707b84409131d19cad15b",
+      "pattern": "[file:hashes.'SHA-256' = 'e3cbb08913493e54d74081349972423444cbc0f4853707b84409131d19cad15b']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--588e24f3-fb64-4b36-95bc-d65b99ad020c",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://py2web.store/7356a3333e6999999999/networkmanager",
+      "pattern": "[url:value = 'http://py2web.store/7356a3333e6999999999/networkmanager']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5c2f421f-674f-4b35-8189-d3cbaea52dba",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "49366ae4766492d94136ca1f715a37554aa6243686c66bf3c6fbb9da9cb2793d",
+      "pattern": "[file:hashes.'SHA-256' = '49366ae4766492d94136ca1f715a37554aa6243686c66bf3c6fbb9da9cb2793d']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5e64a65b-f28d-4715-98d5-e1c230da0a95",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://93.115.23.117/N3DN0E09C5D9BU70V1720/networkservice",
+      "pattern": "[url:value = 'http://93.115.23.117/N3DN0E09C5D9BU70V1720/networkservice']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ed17bba-b2e9-4401-8e52-2e6724830a9c",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://204.44.105.168:66/phpguard",
+      "pattern": "[url:value = 'http://204.44.105.168:66/phpguard']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6096c29f-1701-463d-bb90-fa867abac73c",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.181.10.234/E5DB0E07C3D7BE80V520/config.json",
+      "pattern": "[url:value = 'http://185.181.10.234/E5DB0E07C3D7BE80V520/config.json']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--651194d2-8e4d-411d-88b0-59afa2a540e4",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://198.98.57.187/config.json",
+      "pattern": "[url:value = 'http://198.98.57.187/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6711bed5-69d5-4d76-bf59-10739c48fd82",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "51de345f677f46595fc3bd747bfb61bc9ff130adcbec48f3401f8057c8702af9",
+      "pattern": "[file:hashes.'SHA-256' = '51de345f677f46595fc3bd747bfb61bc9ff130adcbec48f3401f8057c8702af9']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--679c2cdd-c958-4cb1-b2c8-30167b559b92",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gsearch.com.de/api/sysupdate",
+      "pattern": "[url:value = 'https://de.gsearch.com.de/api/sysupdate']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6b6555d2-86eb-4a95-a36c-690d306a61d5",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "global.bitmex.com.de",
+      "pattern": "[domain-name:value = 'global.bitmex.com.de']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6f3a682e-a9b6-4ac4-9a26-ff922ea6650a",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.247.117.64/cf67356/newdat.sh",
+      "pattern": "[url:value = 'http://185.247.117.64/cf67356/newdat.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--70badafd-33bc-4b53-84e8-f72685342215",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://93.115.23.117/N3DN0E09C5D9BU70V1720/update.sh",
+      "pattern": "[url:value = 'http://93.115.23.117/N3DN0E09C5D9BU70V1720/update.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--71ccd165-51a8-46a9-b389-01fd97e9d48e",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.247.117.64/cf67356/config.json",
+      "pattern": "[url:value = 'http://185.247.117.64/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--71defe41-5daf-4f08-b916-5e5e79fad152",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://198.98.57.187/trace",
+      "pattern": "[url:value = 'http://198.98.57.187/trace']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--730901f6-262d-4509-b4f2-cc93e9524a5a",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "sjjjv.xyz",
+      "pattern": "[domain-name:value = 'sjjjv.xyz']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--772299aa-8137-4052-ae92-7bf7c52b6d67",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/is.sh",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/is.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7806cc46-8b05-49ee-8051-c3371f3620e7",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "818c16d1921572ffee6853c16c5c9158d2f217b6adbb5154cbb7daf945db493c",
+      "pattern": "[file:hashes.'SHA-256' = '818c16d1921572ffee6853c16c5c9158d2f217b6adbb5154cbb7daf945db493c']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7b9a25d2-2e95-4c39-babf-d1c5cae70603",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "de.gengine.com.de",
+      "pattern": "[domain-name:value = 'de.gengine.com.de']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7dc547da-54ea-4978-99b3-ff800a0d8f4d",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.153.240.58/N3DN0E09C5D9BU70V1720/update.sh",
+      "pattern": "[url:value = 'http://45.153.240.58/N3DN0E09C5D9BU70V1720/update.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7e5d7ccd-6265-4c85-817e-001292561520",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "146.71.79.230",
+      "pattern": "[ipv4-addr:value = '146.71.79.230']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7f152974-878e-482e-9514-34cc934a6ba9",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.181.10.234/E5DB0E07C3D7BE80V520/sysguard",
+      "pattern": "[url:value = 'http://185.181.10.234/E5DB0E07C3D7BE80V520/sysguard']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7f9eb0da-cb61-44dd-9222-d61ba0f1e85c",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://209.182.218.161:80/363A3EDC10A2930D/networkservice",
+      "pattern": "[url:value = 'http://209.182.218.161:80/363A3EDC10A2930D/networkservice']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--80cccdca-48f3-4476-a635-9f25dc7b4397",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://146.71.79.230/363A3EDC10A2930DVNICE/config.json",
+      "pattern": "[url:value = 'http://146.71.79.230/363A3EDC10A2930DVNICE/config.json']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--80f64d7c-1eed-485c-8c4b-c912a1342c9c",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "b6a5790a9bfaf159af68c4dbb09de9c2c0c2371c886fdb28223d40e6984b1dd7",
+      "pattern": "[file:hashes.'SHA-256' = 'b6a5790a9bfaf159af68c4dbb09de9c2c0c2371c886fdb28223d40e6984b1dd7']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--81263d39-de98-4b61-b026-b4da09a52b4e",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://209.182.218.161:80/363A3EDC10A2930D/sysguard",
+      "pattern": "[url:value = 'http://209.182.218.161:80/363A3EDC10A2930D/sysguard']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--81ed097d-429d-48a7-8a9a-26d3466c29ad",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gengine.com.de/api/sysupdate",
+      "pattern": "[url:value = 'https://de.gengine.com.de/api/sysupdate']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--83aa08ae-b537-4b35-8ac2-6b1116719f10",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/newdat.sh",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/newdat.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--84402ca9-eaec-43cb-8404-b4a68a884bab",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/phpupdate",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/phpupdate']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--85796c7e-d0a6-4eee-b230-2720d4f8609c",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://93.115.23.117/N3DN0E09C5D9BU70V1720/config.json",
+      "pattern": "[url:value = 'http://93.115.23.117/N3DN0E09C5D9BU70V1720/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--871e0fce-30a1-48e9-ac97-e8be6eda9c18",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.192/cf67356/phpguard",
+      "pattern": "[url:value = 'http://185.232.65.192/cf67356/phpguard']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8874a9f7-ca3e-4da4-8af7-214091832116",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://95.182.122.199/E5DB0E07C3D7BE80V52/sysupdate",
+      "pattern": "[url:value = 'http://95.182.122.199/E5DB0E07C3D7BE80V52/sysupdate']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8954e428-1f4d-4702-be13-77af505b34f2",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://146.71.79.230/363A3EDC10A2930DVNICE/networkservice",
+      "pattern": "[url:value = 'http://146.71.79.230/363A3EDC10A2930DVNICE/networkservice']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8d615dcc-7685-4bf0-b87d-71fbe15d926d",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.192/cf67356/networkmanager",
+      "pattern": "[url:value = 'http://185.232.65.192/cf67356/networkmanager']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8ef5fc6a-b40e-4b97-b005-ba904a0ac8ac",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.232.65.191/cf67356/newinit.sh",
+      "pattern": "[url:value = 'http://185.232.65.191/cf67356/newinit.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8f656bc0-b031-4ed1-a324-124270743b08",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "93.115.23.117",
+      "pattern": "[ipv4-addr:value = '93.115.23.117']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8ff9ff0b-99cb-4806-9b7c-8926fe0b7134",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gengine.com.de/api/networkservice",
+      "pattern": "[url:value = 'https://de.gengine.com.de/api/networkservice']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--906c64fa-e163-429c-ba1c-9023e74cbeb4",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "py2web.store",
+      "pattern": "[domain-name:value = 'py2web.store']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--908ecbb4-0fde-4124-a081-4ef9b466b983",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "a322dc6af6fed1326b04ec966e66b68dd8ef22374edd286569710afc65ccc741",
+      "pattern": "[file:hashes.'SHA-256' = 'a322dc6af6fed1326b04ec966e66b68dd8ef22374edd286569710afc65ccc741']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--915ee0e6-a991-4e6a-9778-105e58a5e637",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.191/cf67356/zzh",
+      "pattern": "[url:value = 'http://185.232.65.191/cf67356/zzh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--91aa75b5-4b36-4db6-b448-5dead1fc72c0",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/phpupdate",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/phpupdate']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--91df135f-b934-4679-bb2d-e55ef8f334b9",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "185.232.65.192",
+      "pattern": "[ipv4-addr:value = '185.232.65.192']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--944ed878-0467-46c4-8be3-e1db552ec599",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "106.15.74.113",
+      "pattern": "[ipv4-addr:value = '106.15.74.113']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9580b8da-48f2-4a28-900b-82860e2dadcf",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "185.181.10.234",
+      "pattern": "[ipv4-addr:value = '185.181.10.234']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--95fe7856-88b1-484f-9345-092aa182f58c",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "43d7b29668786731f1bbbb3ae860487e84604195b186c1b7b253f99156d7f57a",
+      "pattern": "[file:hashes.'SHA-256' = '43d7b29668786731f1bbbb3ae860487e84604195b186c1b7b253f99156d7f57a']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--961ad8af-e86b-4be0-a695-c9c9aa4fda7b",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://py2web.store/cf67356/zzh",
+      "pattern": "[url:value = 'http://py2web.store/cf67356/zzh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--97250d71-43d4-41d0-b0af-c03d8a55d6c1",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "185.232.65.191",
+      "pattern": "[ipv4-addr:value = '185.232.65.191']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--97e99ca9-65fc-4684-bc99-6cc8e992f134",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.153.240.58/N3DN0E09C5D9BU70V1720/sysguard",
+      "pattern": "[url:value = 'http://45.153.240.58/N3DN0E09C5D9BU70V1720/sysguard']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--97f6ffde-a73e-46c5-b1fb-fbf5a020a9c2",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "758dbfda2b7d2e97caba294089c4c836ab447d7c9ceef510c667526fd873e161",
+      "pattern": "[file:hashes.'SHA-256' = '758dbfda2b7d2e97caba294089c4c836ab447d7c9ceef510c667526fd873e161']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--98bcc9b6-5449-4eaa-abbb-f39573fae30d",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "96fe63c25e7551a90051431aeddb962f05d82b7dd2940c0e8e1282273ba81e22",
+      "pattern": "[file:hashes.'SHA-256' = '96fe63c25e7551a90051431aeddb962f05d82b7dd2940c0e8e1282273ba81e22']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--992e790a-20bb-406f-b055-26a2848bd637",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://py2web.store/cf67356/newinit.sh",
+      "pattern": "[url:value = 'http://py2web.store/cf67356/newinit.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9e3a7e6d-2222-4927-9a41-d2257e6f1ac7",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gsearch.com.de/api/update.sh",
+      "pattern": "[url:value = 'https://de.gsearch.com.de/api/update.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a0c7b9b5-9876-4e31-a8ef-4cc36633a315",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://39.100.33.209/b2f628/newinit.sh",
+      "pattern": "[url:value = 'http://39.100.33.209/b2f628/newinit.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a17e3f0d-d978-4281-807f-01f0655f1aa1",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "ipzse.com",
+      "pattern": "[domain-name:value = 'ipzse.com']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a1a1d39e-9db2-42c2-8f9d-5155f75425c4",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gsearch.com.de/api/config.json",
+      "pattern": "[url:value = 'https://de.gsearch.com.de/api/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a327ffbb-d27d-461e-aa3e-bc6779bc07fc",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/newdat.sh",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/newdat.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a5b419b1-9cdd-4fae-a0cc-35323fac72bd",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gsearch.com.de/api/sysguard",
+      "pattern": "[url:value = 'https://de.gsearch.com.de/api/sysguard']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a862f424-0115-4919-a7b1-e2e735265951",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://py2web.store/cf67356/config.json",
+      "pattern": "[url:value = 'http://py2web.store/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a89daf9e-6589-4991-b603-f8a365deeaa6",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "199.19.226.117",
+      "pattern": "[ipv4-addr:value = '199.19.226.117']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ababca66-6df1-4d68-b073-3f49746bc6be",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.232.65.191/cf67356/config.json",
+      "pattern": "[url:value = 'http://185.232.65.191/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--abd7f684-2dc1-40c9-8f63-0a2dde6e13b7",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://sjjjv.xyz/update.sh",
+      "pattern": "[url:value = 'https://sjjjv.xyz/update.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ac58065e-947b-4e76-9fef-5079efcec30a",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://39.100.33.209/b2f628fff19fda999999999/is.sh",
+      "pattern": "[url:value = 'http://39.100.33.209/b2f628fff19fda999999999/is.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ada45335-a87f-47a3-9c84-debf535c3633",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.153.240.58/N3DN0E09C5D9BU70V1720/sysupdate",
+      "pattern": "[url:value = 'http://45.153.240.58/N3DN0E09C5D9BU70V1720/sysupdate']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--af13ac2f-3d6b-41f1-a940-54f665c2ee3c",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/config.json",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b00b9d6f-27e7-4d11-882b-4bcc10b9fb89",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/config.json",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b03091a0-b9b6-4821-a121-4ca2e9120828",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://209.182.218.161:80/363A3EDC10A2930D/config.json",
+      "pattern": "[url:value = 'http://209.182.218.161:80/363A3EDC10A2930D/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b1084716-d778-47dd-af55-33c1aeaf0ce7",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://146.71.79.230/363A3EDC10A2930DVNICE/sysguard",
+      "pattern": "[url:value = 'http://146.71.79.230/363A3EDC10A2930DVNICE/sysguard']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b1a7f906-022b-4fd7-93dd-5a10729106b7",
+      "created": "2021-02-02T17:02:14.586Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "https://us.gsearch.com.de/api/sysguard",
+      "pattern": "[url:value = 'https://us.gsearch.com.de/api/sysguard']",
+      "valid_from": "2021-02-02T17:02:14.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b2fff8c3-d4a3-4bd1-848c-5f969572ee64",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://45.153.240.58/N3DN0E09C5D9BU70V1720/networkservice",
+      "pattern": "[url:value = 'http://45.153.240.58/N3DN0E09C5D9BU70V1720/networkservice']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b4100825-8252-42aa-9628-88cc1bda2e16",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://global.bitmex.com.de/cf67355a3333e6/networkmanager",
+      "pattern": "[url:value = 'http://global.bitmex.com.de/cf67355a3333e6/networkmanager']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b46551d2-11cd-423f-b578-2e449f96a84d",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.192/trace",
+      "pattern": "[url:value = 'http://185.232.65.192/trace']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b6eeab0a-42f0-4a7a-9841-e011c15ff971",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "204.44.105.168",
+      "pattern": "[ipv4-addr:value = '204.44.105.168']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b78adff3-6468-45a6-a48f-caaa76125a41",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://82.202.66.50/cf67356/newinit.sh",
+      "pattern": "[url:value = 'http://82.202.66.50/cf67356/newinit.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b97d7e58-7349-4baf-ad1e-52620a5bab9a",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gengine.com.de/api/config.json",
+      "pattern": "[url:value = 'https://de.gengine.com.de/api/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--baea6fe9-7724-4ddc-9240-5aa697615e3e",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "185.232.65.124",
+      "pattern": "[ipv4-addr:value = '185.232.65.124']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bc048074-09f5-468e-938b-c9dc40b3369c",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "205.209.152.78",
+      "pattern": "[ipv4-addr:value = '205.209.152.78']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bc2d937d-d3f5-459e-ae8c-3afb3be3f28c",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/is.sh",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/is.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bcb85a36-c3e7-4d69-ba17-fe60b4735f15",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "ed1e49cb05c375cc1149c349880ed077b6ee75cb7e5c6cae9cbd4bd086950c93",
+      "pattern": "[file:hashes.'SHA-256' = 'ed1e49cb05c375cc1149c349880ed077b6ee75cb7e5c6cae9cbd4bd086950c93']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bd300b95-6fa0-418f-aa10-754c663fb19b",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "95.182.122.199",
+      "pattern": "[ipv4-addr:value = '95.182.122.199']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--be8805e4-f0b0-4e9b-8bee-bb8c5b077fea",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://de.gengine.com.de/api/update.sh",
+      "pattern": "[url:value = 'https://de.gengine.com.de/api/update.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bfe38c42-cdc1-4e9f-9be2-e239e423594f",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://95.182.122.199/E5DB0E07C3D7BE80V52/Saltmin.sh",
+      "pattern": "[url:value = 'http://95.182.122.199/E5DB0E07C3D7BE80V52/Saltmin.sh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c0e7c9fb-652a-411e-a9b2-6273c9c3566d",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "de.gsearch.com.de",
+      "pattern": "[domain-name:value = 'de.gsearch.com.de']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c5a713f1-b8cd-4ec1-83d8-a4cd8a009715",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "185.247.117.64",
+      "pattern": "[ipv4-addr:value = '185.247.117.64']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c6ac162a-4234-431a-9c7f-62e9aedca689",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://198.98.57.187/update.sh",
+      "pattern": "[url:value = 'http://198.98.57.187/update.sh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ca7682cd-a672-40ac-a0d6-0e26bcd1f8fb",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://82.202.66.50/cf67356/config.json",
+      "pattern": "[url:value = 'http://82.202.66.50/cf67356/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ca7d7ba6-11a1-411b-a05a-112fdcb0ef93",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.191/config.json",
+      "pattern": "[url:value = 'http://185.232.65.191/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cce3fe58-06d8-4bd2-81ef-6bbb42e05565",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "55c92d64ffa9d170e340e0528dc8ea1fa9be98f91db891869947c5b168a728c8",
+      "pattern": "[file:hashes.'SHA-256' = '55c92d64ffa9d170e340e0528dc8ea1fa9be98f91db891869947c5b168a728c8']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cf930b7a-8e37-4855-986f-d687db742158",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.232.65.192/config.json",
+      "pattern": "[url:value = 'http://185.232.65.192/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d1e9b247-408d-4296-9d90-b41d0c3d03b4",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://45.153.240.58/N3DN0E09C5D9BU70V1720/config.json",
+      "pattern": "[url:value = 'http://45.153.240.58/N3DN0E09C5D9BU70V1720/config.json']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d243720a-ba6f-4e99-b559-eebf0f1722fa",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "3ab7cf786eeb23ebd11e86e0fc48b0a9b37a427d5d730d774c9ed8d98a925c6f",
+      "pattern": "[file:hashes.'SHA-256' = '3ab7cf786eeb23ebd11e86e0fc48b0a9b37a427d5d730d774c9ed8d98a925c6f']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d2fca160-1eda-4e3c-9daf-e209986df03d",
+      "created": "2021-02-02T17:03:18.571Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "d54157bb703b360bb911363d9bb483a2ee00ee619d566d033a8c316f06cf26cc",
+      "pattern": "[file:hashes.'SHA-256' = 'd54157bb703b360bb911363d9bb483a2ee00ee619d566d033a8c316f06cf26cc']",
+      "valid_from": "2021-02-02T17:03:18.571Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d3cd0b4d-0740-4c39-a48e-dcdb9629c067",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://47.253.42.213/b2f628/config.json",
+      "pattern": "[url:value = 'http://47.253.42.213/b2f628/config.json']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d499cf67-1f86-4234-86be-f24c0b05007d",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "ac719447894b2f5029f493c7395d128f710a3ba7b31c199558f3ee00fb90ea12",
+      "pattern": "[file:hashes.'SHA-256' = 'ac719447894b2f5029f493c7395d128f710a3ba7b31c199558f3ee00fb90ea12']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d758e098-1289-4026-86a9-e7dc6988952d",
+      "created": "2021-02-02T17:02:14.586Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "https://us.gsearch.com.de/api/update.sh",
+      "pattern": "[url:value = 'https://us.gsearch.com.de/api/update.sh']",
+      "valid_from": "2021-02-02T17:02:14.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d84c74ef-5e76-4dbd-aa0d-32d3e2d8d1e2",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "2b52288383588f65803a5dc9583171103be79f0b196d01241b5cd3a8cf69b190",
+      "pattern": "[file:hashes.'SHA-256' = '2b52288383588f65803a5dc9583171103be79f0b196d01241b5cd3a8cf69b190']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d97086fd-324f-4a51-b3ce-61ee89c3f6f5",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.181.10.234/E5DB0E07C3D7BE80V520/sysupdate",
+      "pattern": "[url:value = 'http://185.181.10.234/E5DB0E07C3D7BE80V520/sysupdate']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d97dd20e-dd6d-47a9-86ae-8eaddc6e2594",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://47.253.42.213/b2f628/zzh",
+      "pattern": "[url:value = 'http://47.253.42.213/b2f628/zzh']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d9b929e3-dc11-4138-a387-fb8d2ac10477",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.232.65.124/update.sh",
+      "pattern": "[url:value = 'http://185.232.65.124/update.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dade1de8-2c83-4d9d-ad76-b3fd0e89a4c7",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://205.209.152.78:8000/sysupdate",
+      "pattern": "[url:value = 'http://205.209.152.78:8000/sysupdate']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dcea31e9-58df-4ea0-bf20-8b167aa53329",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.247.117.64/cf67356/phpupdate",
+      "pattern": "[url:value = 'http://185.247.117.64/cf67356/phpupdate']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--de473cc6-ecb1-456c-956d-8784e249f7d3",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "6a7109481e113fd92ff98534e780f47a32b64bfa5692f7bd7da33c84033a9028",
+      "pattern": "[file:hashes.'SHA-256' = '6a7109481e113fd92ff98534e780f47a32b64bfa5692f7bd7da33c84033a9028']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--def91843-c18a-4d54-ae7d-ab8a6e556861",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://107.173.159.206:8880/tatavx1hym9z928m/bsh.sh",
+      "pattern": "[url:value = 'http://107.173.159.206:8880/tatavx1hym9z928m/bsh.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0e04d6c-026f-40c5-aef4-76b3b9e78feb",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "80b1a70d7ec5d1944787afff3c2feac3aa40ec8c64177886481d96623bc786bf",
+      "pattern": "[file:hashes.'SHA-256' = '80b1a70d7ec5d1944787afff3c2feac3aa40ec8c64177886481d96623bc786bf']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e139686b-4f6d-441b-9ade-668aea8d82c6",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.226Z",
+      "name": "849f86a8fd06057eeb1ae388789881516239282dd4cb079b8281f995035874e1",
+      "pattern": "[file:hashes.'SHA-256' = '849f86a8fd06057eeb1ae388789881516239282dd4cb079b8281f995035874e1']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e3176167-094e-4d89-9316-1ba04fbc73c8",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.247.117.64/cf67356/phpguard",
+      "pattern": "[url:value = 'http://185.247.117.64/cf67356/phpguard']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e489188b-93fd-4da3-9581-0179fc259b02",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://sjjjv.xyz/sysupdate",
+      "pattern": "[url:value = 'https://sjjjv.xyz/sysupdate']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e5d0f651-b7db-434f-894a-1ac98e7c2d01",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://107.173.159.206:8880/tatavx1hym9z928m/update.sh",
+      "pattern": "[url:value = 'http://107.173.159.206:8880/tatavx1hym9z928m/update.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eb896ef2-aa6e-4d12-bded-e54a42317c05",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "https://us.gsearch.com.de/api/config.json",
+      "pattern": "[url:value = 'https://us.gsearch.com.de/api/config.json']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ebe2394d-aaf4-44ab-b0b8-9632d652ebbc",
+      "created": "2021-02-02T17:02:14.586Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "https://us.gsearch.com.de/api/networkservice",
+      "pattern": "[url:value = 'https://us.gsearch.com.de/api/networkservice']",
+      "valid_from": "2021-02-02T17:02:14.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--edbb5e62-3cb8-4d77-9dd2-4a4e65440634",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "45.153.240.58",
+      "pattern": "[ipv4-addr:value = '45.153.240.58']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f0223ccc-77ed-4c14-9c4a-25b39d5eec1b",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://176.123.10.57/cf67356/newinit.sh",
+      "pattern": "[url:value = 'http://176.123.10.57/cf67356/newinit.sh']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f0f830ab-8957-4d48-8e3c-a28a3219d794",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "2eeac2b9577047a9eef2d164c13ace5e826ac85990a3a915871d6b0c2fc8fe67",
+      "pattern": "[file:hashes.'SHA-256' = '2eeac2b9577047a9eef2d164c13ace5e826ac85990a3a915871d6b0c2fc8fe67']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f1a34f2b-177d-453d-91a6-9bfebbd2c95c",
+      "created": "2021-02-02T16:59:52.942Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "45.9.148.37",
+      "pattern": "[ipv4-addr:value = '45.9.148.37']",
+      "valid_from": "2021-02-02T16:59:52.942Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f3a433b1-5cc1-4ea9-b45d-3cf0e6a639ac",
+      "created": "2021-02-02T17:01:56.439Z",
+      "modified": "2021-02-05T20:37:54.223Z",
+      "name": "http://xmr.ipzse.com:66/rs.sh",
+      "pattern": "[url:value = 'http://xmr.ipzse.com:66/rs.sh']",
+      "valid_from": "2021-02-02T17:01:56.439Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f45af0fe-053e-45e6-b633-5b37bcce2d91",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://39.100.33.209/b2f628/zzh",
+      "pattern": "[url:value = 'http://39.100.33.209/b2f628/zzh']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f5d0220d-f642-4b53-bf03-39d7d0674c09",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://185.247.117.64/cf67356/networkmanager",
+      "pattern": "[url:value = 'http://185.247.117.64/cf67356/networkmanager']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f5d8cee4-5980-45bc-9f44-a419bbd5b19f",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://83.97.20.90/cf67356/phpguard",
+      "pattern": "[url:value = 'http://83.97.20.90/cf67356/phpguard']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f7ddaafd-abb9-4f39-abc1-debe65c2c082",
+      "created": "2021-02-02T17:00:58.586Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://204.44.105.168:66/phpupdate",
+      "pattern": "[url:value = 'http://204.44.105.168:66/phpupdate']",
+      "valid_from": "2021-02-02T17:00:58.586Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f8d39e66-4122-42e9-a946-7be08a49a491",
+      "created": "2021-02-02T17:02:32.069Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "0c4aa6afd2a81fd15f3bd65adcbd4f649fbc58ef12dd2d528125435169555901",
+      "pattern": "[file:hashes.'SHA-256' = '0c4aa6afd2a81fd15f3bd65adcbd4f649fbc58ef12dd2d528125435169555901']",
+      "valid_from": "2021-02-02T17:02:32.069Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f954f6aa-d1b2-43a7-90f2-413fe759562a",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "http://185.181.10.234/E5DB0E07C3D7BE80V520/networkservice",
+      "pattern": "[url:value = 'http://185.181.10.234/E5DB0E07C3D7BE80V520/networkservice']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fc6ce700-11ae-41de-b934-3cbe70b19603",
+      "created": "2021-02-02T17:00:19.669Z",
+      "modified": "2021-02-05T20:37:54.225Z",
+      "name": "us.gsearch.com.de",
+      "pattern": "[domain-name:value = 'us.gsearch.com.de']",
+      "valid_from": "2021-02-02T17:00:19.669Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fe6cd0a1-2992-417c-9827-87e28348a885",
+      "created": "2021-02-02T17:01:30.332Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://45.9.148.37/cf67356a3333e6999999999/phpguard",
+      "pattern": "[url:value = 'http://45.9.148.37/cf67356a3333e6999999999/phpguard']",
+      "valid_from": "2021-02-02T17:01:30.332Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fe844b47-862f-42e7-b8bd-bb5901f0554b",
+      "created": "2021-02-02T17:00:40.010Z",
+      "modified": "2021-02-05T20:37:54.224Z",
+      "name": "http://107.173.159.206:8880/tatavx1hym9z928m/sysupdate",
+      "pattern": "[url:value = 'http://107.173.159.206:8880/tatavx1hym9z928m/sysupdate']",
+      "valid_from": "2021-02-02T17:00:40.010Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--01de8408-ad82-4250-8c8e-f58fa6f19a90",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--05bdc73d-7c32-49c1-9071-46b467d4db49",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--147814fe-4a67-4e5d-a09c-c181bdee25da",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--02d40837-4b7a-4bd1-a3c6-1cb4695e02e2",
+      "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--258bf26a-4891-4eec-b130-cf6f2b242feb",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--3fe9d06c-5819-4b92-b142-3d25de7d3516",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--694e5cb0-28c6-4110-b106-6c542172d624",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--d420c435-ae60-4f5b-b4f9-cfaf94974baf",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--6b4881d7-4d12-4c38-8940-c0eecc491eea",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--803fabc7-c0f3-4771-aab5-38674bfbe2bd",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-09-04T13:59:35.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--94570d6b-0a61-4aa1-a40a-4f11bfc90152",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--ba5803c7-57b3-4aca-8f7a-618fadbefbaf",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:15.016Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+      "target_ref": "attack-pattern--cd25c1b4-935c-4f0e-ba8d-552f28bc4783",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--d79bc1ad-40ac-4875-83b1-675b22f09a27",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--df0ed512-1c81-4cd2-a5dc-183d08fec843",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:21.152Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--363986e0-366e-43fa-850e-e66ae3aa48e1",
+      "target_ref": "attack-pattern--e3a12395-188d-4051-9a16-ea8e14d07b88",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e6a3372e-a365-4fe6-a343-496e4232ee9b",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-09-04T13:59:35.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+    }
+  ]
+}
