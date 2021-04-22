@@ -1,0 +1,229 @@
+APPENDIX A: BAZARCALL CAMPAIGN EMAILS - PARTIAL DATA FROM MARCH 2021 THROUGH APRIL 2021
+
+EXAMPLES OF SENDING MAIL SERVERS:
+
+- Received: from 52.151.9[.]80 ([52.151.9[.]80])
+- Received: from localhost ([18.209.29[.]210])
+- Received: from 4klever[.]com ([87.251.88[.]11])
+- Received: from 4room[.]net ([87.251.88[.]13])
+- Received: from 51qxct[.]com ([101.36.112[.]175])
+- Received: from aa.beachhouseak[.]com ([137.74.254[.]3])
+- Received: from audiovision1978[.]com ([70.166.227[.]250])
+- Received: from asia-firstnews[.]com ([159.89.192[.]216])
+- Received: from bb.theabayevgroup[.]com ([31.42.191[.]41])
+- Received: from brasiliaeletronica[.]com[.]br ([47.91.185[.]206])
+- Received: from cc.billfriar[.]com ([109.201.140[.]122])
+- Received: from casahome[.]cc ([103.43.160[.]123])
+- Received: from cycling.informationholiday[.]com ([147.135.87[.]18])
+- Received: from demo.badt[.]vn ([123.20.172[.]64])
+- Received: from dev.sebpo[.]net ([202.53.167[.]144])
+- Received: from furniture.aoyalab[.]com ([147.135.87[.]18])
+- Received: from hkclmy[.]com ([101.36.112[.]175])
+- Received: from hrmvietnam[.]com ([45.119.212[.]28])
+- Received: from huskywelpeneite[.]com ([173.82.255[.]222])
+- Received: from ibest[.]com[.]br ([50.87.144[.]194])
+- Received: from jbisng[.]com ([70.35.200[.]131])
+- Received: from koreasaudi[.]com ([59.25.184[.]69])
+- Received: from levetop[.]ltd ([158.101.155[.]5])
+- Received: from lo.arizonalandauction[.]biz ([38.107.221[.]74])
+- Received: from m12-11.163[.]com ([220.181.12[.]11])
+- Received: from mail.irip.ac[.]ir ([194.225.133[.]41])
+- Received: from maya-med[.]com ([87.251.88[.]54])
+- Received: from mbrsoft[.]com ([87.251.88[.]9])
+- Received: from mechanicel[.]com ([87.251.88[.]55])
+- Received: from monkey.interdon[.]net ([193.178.236[.]141])
+- Received: from murkinson[.]com ([87.251.88[.]57])
+- Received: from naparniki[.]com ([87.251.88[.]56])
+- Received: from neru.sakha[.]ru ([79.133.68[.]4])
+- Received: from news.bannawag[.]com ([45.129.96[.]196])
+- Received: from portalpapoaberto[.]com[.]br ([104.248.73[.]124])
+- Received: from primetelecommunications[.]com ([101.36.112[.]175])
+- Received: from remindsends[.]com ([87.251.87[.]228])
+- Received: from sports.informationholiday[.]com ([147.135.87[.]18])
+- Received: from ss.bungalowak[.]com ([137.74.254[.]44])
+- Received: from ss.white-dolphin[.]org ([108.62.12[.]5])
+- Received: from ss9ss[.]com ([103.229.183.245])
+- Received: from tents.alynamic[.]com ([147.135.87[.]18])
+- Received: from toobatel[.]com ([217.218.171[.]100])
+- Received: from ty.thewalkingpoet[.]org ([46.166.128[.]150])
+- Received: from uatdelightfoods[.]in ([172.104.188[.]146])
+- Received: from vancualat[.]com ([103.18.7[.]65])
+- Received: from vf.marigoldproductions[.]com ([46.166.128[.]151])
+- Received: from virjehschool[.]com ([78.157.40[.]211])
+- Received: from xieliling[.]com ([106.75.176[.]225])
+- Received: from xx.streamyoursport[.]com ([194.15.113[.]193])
+- Received: from yy.onlinelandauctions[.]biz ([38.107.221[.]80])
+- Received: from zhangjiwen[.]com ([120.48.19[.]251])
+
+EXAMPLES OF SENDING EMAIL ADDRESSES:
+
+- From: Abram Nelson <zaqupy@zhangjiwen[.]com>
+- From: Admin Order <sender@naparniki[.]com>
+- From: Admin Order <sender@remindsends[.]com>
+- From: Alejandro Baker <kitijuci@toobatel[.]com>
+- From: Alejandro Foster <deconuhi@tents.alynamic[.]com>
+- From: Amos Porter <sender@naparniki[.]com>
+- From: Andrew Cummings <sender@naparniki[.]com>
+- From: Ann Nichols <sender@mbrsoft[.]com>
+- From: "Bookspoint" <no-reply@worldbookpoint[.]com>
+- From: Brody Clark <wikotedupo@portalpapoaberto[.]com.br>
+- From: Charles Oliver <no-reply@worldbookpoint[.]com>
+- From: Claud Watson <sender@naparniki[.]com>
+- From: Connor Garcia <lidov@neru.sakha[.]ru>
+- From: Cuthbert Cook <sender@naparniki[.]com>
+- From: Edwin Barnes <wecaco@virjehschool[.]com>
+- From: Eric Romero <no-reply@bookspace[.]com>
+- From: Ezekiel Moore <nusilyzu@levetop[.]ltd>
+- From: Fidel Thomas <syderevigiqape@virjehschool[.]com>
+- From: Fischer Brooks <qejoxu@toobatel[.]com>
+- From: Fitzgerald Richardson <qiuzhi2012lyw@163[.]com>
+- From: Gerald Wright <takara_c@ibest[.]com[.]br>
+- From: Giovani Griffin <gysowyxu@furniture.aoyalab[.]com>
+- From: Gunner Collins <carlosroberto@brasiliaeletronica[.]com[.]br>
+- From: Harry Stewart <bitebo@demo.badt[.]vn>
+- From: Holden Collins <vagijacy@portalpapoaberto[.]com[.]br>
+- From: Ibraheem Morgan <vysuzibehewive@toobatel[.]com>
+- From: Israel Kelly <lynysutobu@toobatel[.]com>
+- From: Isidro Flores <zopixizo@portalpapoaberto[.]com[.]br>
+- From: Jaxson Nelson <zedelagisolagu@portalpapoaberto[.]com[.]br>
+- From: John Ross <no-reply@worldbookpoint[.]com>
+- From: Jorge Miller <no-reply@worldbookpoint[.]com>
+- From: Justina Berry <sender@murkinson[.]com>
+- From: Gilbert Long <lavydamuqovebo@levetop[.]ltd>
+- From: Lawrence Smith <no-reply@worldbookpoint[.]com>
+- From: Lincoln Sanchez <juzuhafutyze@furniture.aoyalab[.]com>
+- From: Lionel Bell <qaceji@hkclmy[.]com>
+- From: Mark Jones <no-reply@bookspace[.]com>
+- From: Peter Lane <no-reply@bookspace[.]com>
+- From: Order confirmed <sender@mechanicel[.]com>
+- From: Paolo Turner <vikyrupo@huskywelpeneite[.]com>
+- From: Quang Ramirez <javidankherad@irip[.]ac[.]ir>
+- From: Quinton Perry <cipelymu@dev.sebpo[.]net>
+- From: Remington Smith <cejopy@vancualat[.]com>
+- From: Rex Jackson <zawyxigucyby@ss9ss[.]com>
+- From: Rhys Rogers <xuzeko@hrmvietnam[.]com>
+- From: Ronald Collins <bunonohyhe@uatdelightfoods[.]in>
+- From: Ruben Johnson <zovivuvexipume@virjehschool[.]com>
+- From: Russell Smith <memevexyca@jbisng[.]com>
+- From: Saul Miller <conipygu@virjehschool[.]com>
+- From: Scott Martin <order@bookplace[.]com>
+- From: Stanley Perry <megupecuvi@casahome[.]cc>
+- From: Stanley Price <no-reply@bookspace[.]com>
+- From: Sylas Hill <tulene@audiovision1978[.]com>
+- From: System Admin <sender@4klever[.]com>
+- From: System Admin <sender@4room[.]net>
+- From: System Admin <sender@maya-med[.]com>
+- From: System Admin <sender@murkinson[.]com>
+- From: System Admin <sender@remindsends[.]com>
+- From: Tomas Jones <tynenu@xieliling[.]com>
+- From: Trenton Williams <jwillardjr@primetelecommunications[.]com>
+- From: Uchechi Campbell <hydasypatedi@hrmvietnam[.]com>
+- From: Usman Bell <dawaze@51qxct[.]com>
+- From: Vance Peterson <vylile@hrmvietnam[.]com>
+- From: Vincent Simmons <gysugeco@localhost>
+- From: Virgil Williams <no-reply@bookspace[.]com>
+- From: Von Taylor <kityjuli@dev.sebpo[.]net>
+- From: Wallace Peterson <cyvopa@asia-firstnews[.]com>
+- From: Willem Hall <juviky@sports.informationholiday[.]com>
+- From: Xandro Kelly <beditu@52.151.9[.]80>
+- From: Xaviell Simmons <jiqysizupadu@casahome[.]cc>
+- From: Xavion Howard <bufagagolyfesu@hrmvietnam[.]com>
+- From: Yakov Alexander <ryviheky@hrmvietnam[.]com>
+- From: Yakov Mitchell <savuxiqizy@koreasaudi[.]com>
+- From: Yehoshua Moore <qyrezoquco@zhangjiwen[.]com>
+- From: Your purchase <sender@naparniki[.]com>
+- From: Zackery Stewart <dpaulamotos1@ibest[.]com[.]br>
+- From: Zeke Adams <vuvuwe@cycling.informationholiday[.]com>
+
+EXAMPLES OF SUBJECT LINES:
+
+- Subject: 040**********. Are you all set to continue your current premium subscription? 
+- Subject: 040**********. Are you all set to prolong your premium plan?
+- Subject: 040**********. Are you prepared maintain your premium plan?
+- Subject: 040**********. Are you prepared prolong your premium subscription
+- Subject: 040**********. Are you ready to continue your plan?
+- Subject: 040**********. Are you ready to maintain your current premium plan? 
+- Subject: 040**********. Are you willing to maintain your current premium
+- Subject: 040**********. The demo period on your own profile is about to end
+- Subject: 040**********. The demo period on your account is about to end
+- Subject: 040**********. The demo phase on your own account is almost over
+- Subject: 040**********. The demo phase on your own account is coming to an end
+- Subject: 040**********. The demo stage on your account is ending
+- Subject: 040**********. The demo stage on your profile is almost over
+- Subject: 040**********. The demo stage on your profile is coming to an end
+- Subject: 040**********. The testing period on your own account is almost over
+- Subject: 040**********. The testing period on your own profile is coming to an end
+- Subject: 040**********. The testing phase on your own profile is almost over
+- Subject: 040**********. The testing stage on your account is ending
+- Subject: 040**********. The testing stage on your own account is about to end
+- Subject: 040**********. The testing stage on your own profile is coming to an
+- Subject: 040**********. The testing stage on your profile is ending
+- Subject: 040**********. The trial period on your account is ending
+- Subject: 040**********. The trial period on your own profile is ending
+- Subject: 040**********. The trial period on your profile is about to end
+- Subject: 040**********. The trial phase on your own account is ending
+- Subject: 040**********. The trial phase on your profile is about to end
+- Subject: 040**********. The trial phase on your profile is almost over
+- Subject: 041*********. All set to go for a premium?
+- Subject: 041*********. All set to try a premium plan?
+- Subject: 041*********. All set to try out a premium?
+- Subject: 041*********. Are you prepared prolong your premium plan?
+- Subject: 041*********. Are you ready to continue your current plan? 
+- Subject: 041*********. Are you ready to continue your paid plan? 
+- Subject: 041*********. Are you willing to prolong your premium subscription? 
+- Subject: 041*********. Prepared to try a premium?
+- Subject: 041*********. Prepared to try out a premium plan?
+- Subject: 041*********. The demo phase on your account is almost over
+- Subject: 041*********. The demo stage on your account is almost over
+- Subject: 041*********. The demo stage on your profile is coming to an end
+- Subject: 041*********. The testing period on your account is about to end
+- Subject: 041*********. The testing period on your own profile is almost over
+- Subject: 041*********. The trial period on your own account is about to end
+- Subject: 041*********. The trial period on your own profile is ending
+- Subject: 041*********. The trial period on your profile is about to end
+- Subject: 041*********. The trial phase on your own account is ending
+- Subject: 041*********. The trial phase on your profile is coming to an end
+- Subject: 041*********. The trial stage on your account is coming to an end
+- Subject: 041*********. The trial stage on your profile is about to end
+- Subject: Do you want to extend your free period CHT********? 
+- Subject: Do you want to extend your free period ? CHT********
+- Subject: Thank you for using your free trial. Time to move on! CHT********
+- Subject: Want to extend your free trial BCS********
+- Subject: Your premium plan demo comes to an end in 3 days 040**********
+- Subject: Your current premium plan demo comes to an end in 1 day 040**********
+- Subject: Your current premium plan demo ends in 24 hours 040**********
+- Subject: Your current premium plan demo expires in 24 hours 040**********
+- Subject: Your current premium plan trial comes to an end in 24 hours 040**********
+- Subject: Your current premium plan trial comes to an end in 48 hours 040**********
+- Subject: Your current premium plan trial comes to an end in 3 days 040*********
+- Subject: Your current premium plan trial expires in 24 hours 040**********
+- Subject: Your current premium trial ends in 48 hours 040**********
+- Subject: Your current premium trial expires in 3 days 040*********
+- Subject: Your free period BCS******** is about to end!
+- Subject: Your free period CHT******** is almost over! 
+- Subject: Your free period CHT******** is going to end! 
+- Subject: Your free period is almost over!  CHT********
+- Subject: Your free trial BCS******** has come to end!
+- Subject: Your free trial has come to end! CHT********
+- Subject: Your free trial period BCS******** is almost over!
+- Subject: Your free trial period is almost over! CHT********
+- Subject: Your premium plan demo expires in 48 hours 040**********
+- Subject: Your premium trial comes to an end in 1 day 040**********
+- Subject: Your premium trial comes to an end in 24 hours 040**********
+- Subject: Your premium trial expires in 3 days 040*********
+
+EXAMPLES OF PHONE NUMBERS FOR CALL CENTER PERSONNEL (READ: DATE - PHONE NUMBER)
+
+- 2021-03-25 - 1-661-501-2041
+- 2021-03-29 - 1-816-897-0374
+- 2021-04-07 - 1-901-584-0490
+- 2021-04-07 - 1-816-307-4271
+- 2021-04-07 - 1-909-741-1518
+- 2021-04-08 - 1-909-741-1518 (repeat)
+- 2021-04-12 - 1-816-307-4271 (repeat)
+- 2021-04-13 - 1-816-307-4271 (repeat)
+- 2021-04-13 - 1-720-738-7597
+- 2021-04-14 - 1-816-307-4271 (repeat)
+- 2021-04-15 - 1-737-710-1686
+- 2021-04-15 - 1-725-240-1295
+- 2021-04-16 - 1-312-313-9156
