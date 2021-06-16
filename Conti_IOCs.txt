@@ -1,3 +1,15 @@
+185.178.209[.]193	Cobalt Strike C2 communication	
+195.123.217[.]36	Cobalt Strike C2 communication	
+195.123.222[.]2	Cobalt Strike C2 communication	
+bestarg[.]com	Cobalt Strike C2 communication	
+162.244.80[.]177	Cobalt Strike C2 communication	
+185.206.21[.]82	Cobalt Strike C2 communication	
+gue[.]life	Cobalt Strike C2 communication	
+leafrace[.]com	Cobalt Strike C2 communication	
+185.178.209.193	Cobalt Strike C2 communication	
+217.12.202[.]115	Cobalt Strike C2 communication	
+217.12.202[.]207	Cobalt Strike C2 communication	
+
 124ccbfc91951101809fb9a889faa3353f4cf352caac216e446c36be3d1056a2
 4bfd58d4e4a6fe5e91b408bc190a24d352124902085f9c2da948ad7d79b72618
 b287d96b69b35aeff63b844996ea81b3411eac1b542743110bbbb0d8cb1c5b25
