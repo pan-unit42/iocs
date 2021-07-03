@@ -21,4 +21,5 @@
     {"id": "report--75478d66-3f26-423b-9d03-8ca1fbe1c6ad", "rp_file": "CodeCov_Breach.json", "last_updated": "2021-06-03T00:00:00.000Z", "title": "CODECOV BREACH", "industries": [], "regions": [], "malwares": []},
     {"id": "report--e76f15c5-953f-4c56-98c5-71b093f2df67", "rp_file": "NOBELIUM.json", "last_updated": "2021-06-03T00:00:00.000Z", "title": "NOBELIUM", "industries": [], "regions": [], "malwares": []},
     {"id": "report--410011c0-89d0-407e-83cc-ad2262fd67b4", "rp_file": "matanbuchus-loader.json", "last_updated": "2021-06-16T00:00:00.000Z", "title": "MATANBUCHUS LOADER", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1", "rp_file": "REvil_SupplyChain_Attack_Kaseya.json", "last_updated": "2021-07-03T00:00:00.000Z", "title": "Kaseya Supply Chain Attack", "industries": [], "regions": [], "malwares": []}
 ]
