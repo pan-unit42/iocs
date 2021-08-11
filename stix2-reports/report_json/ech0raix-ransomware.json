@@ -1,0 +1,1721 @@
+{
+  "type": "bundle",
+  "id": "bundle--96b10fc1-1103-49a8-8e62-b0b57acd54f2",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--96b10fc1-1103-49a8-8e62-b0b57acd54f2",
+      "created": "2021-08-09T19:38:43.745Z",
+      "modified": "2021-08-11T13:05:05.455Z",
+      "name": "New eCh0raix Ransomware Variant Targets QNAP and Synology Network-Attached Storage Devices",
+      "description": "Unit 42 researchers have discovered a new variant of eCh0raix/QNAPCrypt ransomware targeting Synology network-attached storage (NAS) and Quality Network Appliance Provider (QNAP) NAS devices. To achieve this, attackers are also leveraging CVE-2021-28799 to deliver the new eCh0raix ransomware variant to QNAP devices. While eCh0raix is a known ransomware that has historically targeted QNAP and Synology NAS devices in separate campaigns, this new variant is the first time we’ve seen it combining functionality to target both QNAP and Synology NAS devices, demonstrating that some ransomware developers are continuing to invest in optimizing the tools used to target devices common in the small office and home office (SOHO).",
+      "published": "2021-08-11T13:05:05.455Z",
+      "object_refs": [
+        "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+        "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+        "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+        "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+        "course-of-action--09cad5e4-8c95-494f-862e-0c640b175348",
+        "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+        "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+        "course-of-action--39928312-81bb-4445-a269-9f3d0bb88d5c",
+        "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+        "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+        "course-of-action--513f7288-0f4f-49d1-8447-8664f065d798",
+        "course-of-action--553711d6-06e4-49e2-a1ad-929d9cce8e39",
+        "course-of-action--5839cd6c-7897-43c4-82f3-5c03096a51c4",
+        "course-of-action--58d4b1e7-a7d1-45d8-855b-b5e13ace3dba",
+        "course-of-action--5c05fcbe-aadd-4f64-9437-c1181c641f35",
+        "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+        "course-of-action--68c5676d-ab2f-4e68-a57c-28880a9f5709",
+        "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+        "course-of-action--922b1227-c493-43f6-8b4a-ae6d6963eb8b",
+        "course-of-action--a1294d38-0f0d-4973-a949-f38cccbc7469",
+        "course-of-action--b07fe965-d582-4581-aa2f-9676705f5560",
+        "course-of-action--b1f31bc6-40cd-4c64-805f-1680eda35801",
+        "course-of-action--b4ed79f9-b72c-4423-9a9c-f29134fda870",
+        "course-of-action--b62423f4-1849-4d9f-88c0-7160a8bed5c2",
+        "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+        "course-of-action--c45b79a8-2d29-4d8c-95ab-acea7e478e50",
+        "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+        "course-of-action--d84f79f8-219c-43cb-a918-ab7dd235413a",
+        "course-of-action--dac0a39c-bdb6-46b2-9d5e-60618d873a3b",
+        "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+        "course-of-action--dfbe8c4c-b5c9-4ac2-a2f4-a43a73d1d621",
+        "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+        "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+        "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
+        "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+        "indicator--082e5b08-bc58-4c5c-a746-1cb1ac15f752",
+        "indicator--09909cc5-01f1-4937-ad76-3e8e631dee2f",
+        "indicator--0b5afcd2-9acc-4bbf-a428-755dbf7129b1",
+        "indicator--18c1d537-8cb9-4578-8aeb-b1336475b0c0",
+        "indicator--1abd33da-982e-4d52-af06-4339612a7c13",
+        "indicator--35bf3a12-9e79-44b9-800d-01f1ee4c3177",
+        "indicator--385be45c-4012-4e6e-9a9a-c9b404dd3565",
+        "indicator--38616ea1-2566-4099-b2a4-f62093a1ae90",
+        "indicator--3a411b34-09f0-4763-b4db-bd4168f10888",
+        "indicator--3edc248f-f880-4263-844d-6098cc6bd9b1",
+        "indicator--3fa4e169-cee9-46a0-924a-cc7c70d51b3d",
+        "indicator--43ee3929-2952-4ac2-a83d-236116d3b865",
+        "indicator--527e35ac-57d3-4bfb-bb6d-04c3d1ea3bd9",
+        "indicator--5720494e-2aab-48c1-a8d1-0e0d41d3bbaf",
+        "indicator--5f5eceae-5f09-48e2-8b46-198cfb516725",
+        "indicator--6444bb86-6373-452f-ba3d-5db609218dbb",
+        "indicator--75a0c2f9-f650-46b9-8af1-5e0217cd9d4d",
+        "indicator--75cdb05b-51c8-4b51-bd38-094f0b4fdc0d",
+        "indicator--7def1abb-97b1-4857-81a7-06954666d8b9",
+        "indicator--854b88ca-42b4-4495-a3d9-ddae26c47758",
+        "indicator--879a01cf-4414-45b2-9b7f-60dd5c6d4081",
+        "indicator--8d772047-71df-4ae9-9bbe-972b73c8ecba",
+        "indicator--9084b874-9145-47aa-bba4-6a96d110fee6",
+        "indicator--91210d41-75bc-4e0a-a6fa-4a58833f25a9",
+        "indicator--9149634d-c1d9-477a-a47a-a686fc95ef2d",
+        "indicator--9d18e11b-33a1-4421-8b87-703d1b35fec3",
+        "indicator--a553b4cd-6d4e-4781-bf91-fcd07083bb7d",
+        "indicator--a7be766f-a1bc-4147-ab46-a75ed7e60858",
+        "indicator--aa01e32a-881f-455a-8dd5-92460eea9bfa",
+        "indicator--adc73913-e0a0-4553-9865-d237f202bb63",
+        "indicator--b9f01a9a-c160-4d15-b7dd-9a2effb702a4",
+        "indicator--c81e19c8-61dd-4727-ae9c-52198cc42b26",
+        "indicator--cebb38b4-3fd7-4706-9f2e-05f3e548c804",
+        "indicator--d57e0899-6474-4866-9837-6cda28df10fb",
+        "indicator--d853bbc9-e28f-4ce1-acba-e20ef6a08227",
+        "indicator--e0d041ed-e3b3-4dc5-82eb-02f37f22c0e5",
+        "indicator--e5ccc518-daad-4d6d-9931-eb0f2f162065",
+        "indicator--ed1c90f3-216d-4ae6-9338-b758df832955",
+        "indicator--f5a05e67-ae41-408b-9532-52f64324c0c9",
+        "indicator--f6b6487a-13e2-4510-9059-0f94b725a0d2",
+        "indicator--f746d68a-226e-4530-a7cd-e66338eb03dc",
+        "indicator--f870c072-df65-43c2-96ab-8473d0cc59a5",
+        "indicator--f8de0294-5e61-445a-8b7a-721bab5c8057",
+        "indicator--fa241ef2-b3b0-453c-92de-d73946aa3f29",
+        "indicator--fc39de94-f1b0-46d7-b0ed-be45bf5b3260",
+        "indicator--fef97e14-670a-44d4-8728-3c1b29a66e80",
+        "relationship--0b4b4aeb-b22c-46f8-b2c9-175a9abdf3ee",
+        "relationship--150f248a-d7a1-44ab-9728-f71e0d9f90b5",
+        "relationship--1c5b9e1f-97d7-4dbd-bf81-c4dbdc535785",
+        "relationship--1e18d009-83fc-4861-b463-61d26fde5127",
+        "relationship--1f348472-9cd6-405c-a2be-cf20c9d01a95",
+        "relationship--2c9f3677-15b5-45ab-aa7b-a161b5e331be",
+        "relationship--3d6375dd-a55a-49fc-92c2-0401a31cff89",
+        "relationship--3f09d478-8ab3-4438-ba45-cc863a830d93",
+        "relationship--4fb3a28b-54b8-477a-9bc1-a02821eb134b",
+        "relationship--51207728-35b3-40c1-9eb7-71dee64cb04b",
+        "relationship--5e575754-6f9d-4400-949d-e4f4094615e9",
+        "relationship--5e69fac6-2767-4b91-aed3-ae321489a739",
+        "relationship--6702c1aa-c55a-4110-be6a-1e13aff502e3",
+        "relationship--7bdc6940-e8df-4dd0-93a5-a5230451cd5d",
+        "relationship--7e108987-e5ab-4073-8459-263b1d9c1041",
+        "relationship--85afed6f-181c-4ad5-9613-28a26870cee0",
+        "relationship--a3cb25c8-b620-4e2c-a441-c208b6b5ec27",
+        "relationship--a7f64457-5711-46e9-8521-7336d0095bb8",
+        "relationship--aa40e063-e1ea-4544-b73b-2783a46c16b4",
+        "relationship--bb0260eb-ff24-4588-9652-af43b7a14e1f",
+        "relationship--be869ffb-1c0a-4335-9301-3e1dc24ad75c",
+        "relationship--c03a30f4-da3c-460c-b372-93bfac4958f2",
+        "relationship--c295cfbf-91b8-456a-9379-c180fe4f0fde",
+        "relationship--c50f07f3-e005-4753-b08b-4be1d90970b4",
+        "relationship--c9a563d8-cd1d-4c5a-8c2d-2db810fdf15c",
+        "relationship--e2c90f55-1181-4b7d-932b-cc24dba2c587",
+        "relationship--e650b72b-f1f4-4a98-9ce4-80c8f663262d",
+        "relationship--e65d9e76-e360-4264-a3bb-bbbb378b18f9",
+        "relationship--f4704dc5-5b89-4b01-8a16-7510222f4810",
+        "relationship--f4a3286a-e9db-416e-85bc-c39b1b03af31",
+        "relationship--fd46c2da-d30c-4a4a-ab44-479ac9b0fde1"
+      ],
+      "labels": [
+        "intrusion-set"
+      ]
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:36.978Z",
+      "name": "T1037: Boot or Logon Initialization Scripts",
+      "description": "Adversaries may use scripts automatically executed at boot or logon initialization to establish persistence. Initialization scripts can be used to perform administrative functions, which may often execute other programs or send information to an internal logging server. These scripts can vary based on operating system and whether applied locally or remotely.  \n\nAdversaries may use these scripts to maintain persistence on a single system. Depending on the access configuration of the logon scripts, either local credentials or an administrator account may be necessary. \n\nAn adversary may also be able to escalate their privileges since some boot or logon initialization scripts run with higher privileges.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "installation"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "persistence"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "privilege-escalation"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/564.html",
+          "external_id": "CAPEC-564"
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1037",
+          "external_id": "T1037"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Monitor logon scripts for unusual access by abnormal users or at abnormal times. Look for files added or modified by unusual accounts outside of normal administration duties. Monitor running process for actions that could be indicative of abnormal programs or executables running upon logon."
+      ],
+      "x_mitre_platforms": [
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "File monitoring",
+        "Process monitoring"
+      ],
+      "x_mitre_version": "2.0"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:37.379Z",
+      "name": "T1057: Process Discovery",
+      "description": "Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Adversaries may use the information from [Process Discovery](https://attack.mitre.org/techniques/T1057) during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.\n\nIn Windows environments, adversaries could obtain details on running processes using the [Tasklist](https://attack.mitre.org/software/S0057) utility via [cmd](https://attack.mitre.org/software/S0106) or <code>Get-Process</code> via [PowerShell](https://attack.mitre.org/techniques/T1059/001). Information about processes can also be extracted from the output of [Native API](https://attack.mitre.org/techniques/T1106) calls such as <code>CreateToolhelp32Snapshot</code>. In Mac and Linux, this is accomplished with the <code>ps</code> command. Adversaries may also opt to enumerate processes via /proc.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "discovery"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/573.html",
+          "external_id": "CAPEC-573"
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1057",
+          "external_id": "T1057"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "System and network discovery techniques normally occur throughout an operation as an adversary learns the environment. Data and events should not be viewed in isolation, but as part of a chain of behavior that could lead to other activities, such as Lateral Movement, based on the information obtained.\n\nNormal, benign system and network events that look like process discovery may be uncommon, depending on the environment and how they are used. Monitor processes and command-line arguments for actions that could be taken to gather system and network information. Remote access tools with built-in features may interact directly with the Windows API to gather information. Information may also be acquired through Windows system management tools such as [Windows Management Instrumentation](https://attack.mitre.org/techniques/T1047) and [PowerShell](https://attack.mitre.org/techniques/T1059/001)."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "API monitoring",
+        "Process command-line parameters",
+        "Process monitoring"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "SYSTEM",
+        "User"
+      ],
+      "x_mitre_system_requirements": [
+        "Administrator, SYSTEM may provide better process ownership details"
+      ],
+      "x_mitre_version": "1.2"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2018-08-03T19:54:02.821Z",
+      "modified": "2020-07-27T14:54:37.764Z",
+      "name": "T1090.003: Multi-hop Proxy",
+      "description": "To disguise the source of malicious traffic, adversaries may chain together multiple proxies. Typically, a defender will be able to identify the last proxy traffic traversed before it enters their network; the defender may or may not be able to identify any previous proxies before the last-hop proxy. This technique makes identifying the original source of the malicious traffic even more difficult by requiring the defender to trace malicious traffic through several proxies to identify its source.",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "command-and-control"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "command-and-control"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1090/003",
+          "external_id": "T1090.003"
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "When observing use of Multi-hop proxies, network data from the actual command and control servers could allow correlating incoming and outgoing flows to trace malicious traffic back to its source. Multi-hop proxies can also be detected by alerting on traffic to known anonymity networks (such as [Tor](https://attack.mitre.org/software/S0183)) or known adversary infrastructure that uses this technique."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "Netflow/Enclave netflow",
+        "Network protocol analysis"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "attack-pattern",
+      "id": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
+      "created": "2019-05-06T20:45:52.682Z",
+      "modified": "2020-09-14T14:57:07.257Z",
+      "name": "T1486: Data Encrypted for Impact",
+      "description": "Adversaries may encrypt data on target systems or on large numbers of systems in a network to interrupt availability to system and network resources. They can attempt to render stored data inaccessible by encrypting files or data on local and remote drives and withholding access to a decryption key. This may be done in order to extract monetary compensation from a victim in exchange for decryption or a decryption key (ransomware) or to render data permanently inaccessible in cases where the key is not saved or transmitted.(Citation: US-CERT Ransomware 2016)(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)(Citation: US-CERT SamSam 2018) In the case of ransomware, it is typical that common user files like Office documents, PDFs, images, videos, audio, text, and source code files will be encrypted. In some cases, adversaries may encrypt critical system files, disk partitions, and the MBR.(Citation: US-CERT NotPetya 2017)\n\nTo maximize impact on the target organization, malware designed for encrypting data may have worm-like features to propagate across a network by leveraging other attack techniques like [Valid Accounts](https://attack.mitre.org/techniques/T1078), [OS Credential Dumping](https://attack.mitre.org/techniques/T1003), and [SMB/Windows Admin Shares](https://attack.mitre.org/techniques/T1021/002).(Citation: FireEye WannaCry 2017)(Citation: US-CERT NotPetya 2017)",
+      "kill_chain_phases": [
+        {
+          "kill_chain_name": "lockheed",
+          "phase_name": "act-on-objectives"
+        },
+        {
+          "kill_chain_name": "mitre-attack",
+          "phase_name": "impact"
+        }
+      ],
+      "external_references": [
+        {
+          "source_name": "FireEye WannaCry 2017",
+          "url": "https://www.fireeye.com/blog/threat-research/2017/05/wannacry-malware-profile.html",
+          "description": "Berry, A., Homan, J., and Eitzman, R. (2017, May 23). WannaCry Malware Profile. Retrieved March 15, 2019."
+        },
+        {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1486",
+          "external_id": "T1486"
+        },
+        {
+          "source_name": "US-CERT NotPetya 2017",
+          "url": "https://www.us-cert.gov/ncas/alerts/TA17-181A",
+          "description": "US-CERT. (2017, July 1). Alert (TA17-181A): Petya Ransomware. Retrieved March 15, 2019."
+        },
+        {
+          "source_name": "US-CERT Ransomware 2016",
+          "url": "https://www.us-cert.gov/ncas/alerts/TA16-091A",
+          "description": "US-CERT. (2016, March 31). Alert (TA16-091A): Ransomware and Recent Variants. Retrieved March 15, 2019."
+        },
+        {
+          "source_name": "US-CERT SamSam 2018",
+          "url": "https://www.us-cert.gov/ncas/alerts/AA18-337A",
+          "description": "US-CERT. (2018, December 3). Alert (AA18-337A): SamSam Ransomware. Retrieved March 15, 2019."
+        }
+      ],
+      "object_marking_refs": [
+        "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
+      ],
+      "x_mitre_detection": [
+        "Use process monitoring to monitor the execution and command line parameters of of binaries involved in data destruction activity, such as vssadmin, wbadmin, and bcdedit. Monitor for the creation of suspicious files as well as unusual file modification activity. In particular, look for large quantities of file modifications in user directories.\n\nIn some cases, monitoring for unusual kernel driver installation activity can aid in detection."
+      ],
+      "x_mitre_platforms": [
+        "Linux",
+        "Windows",
+        "macOS"
+      ],
+      "x_mitre_data_sources": [
+        "File monitoring",
+        "Kernel drivers",
+        "Process command-line parameters",
+        "Process monitoring"
+      ],
+      "x_mitre_permissions_required": [
+        "Administrator",
+        "SYSTEM",
+        "User",
+        "root"
+      ],
+      "x_mitre_impact_type": [
+        "Availability"
+      ],
+      "x_mitre_version": "1.0"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--09cad5e4-8c95-494f-862e-0c640b175348",
+      "name": "Ensure that security policies restrict User-ID Agent traffic from crossing into untrusted zones",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create security policies to deny Palo Alto User-ID traffic originating from the interface configured for the UID Agent service that are destined to any untrusted zone."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+      "name": "Ensure that PAN-DB URL Filtering is used",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Configure the device to use PAN-DB URL Filtering instead of BrightCloud.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.9",
+      "x_panw_coa_bp_title": "Ensure that PAN-DB URL Filtering is used",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure the device to use PAN-DB URL Filtering instead of BrightCloud.",
+      "x_panw_coa_bp_rationale_statement": "Standard URL filtering provides protection against inappropriate and malicious URLs and IP addresses. PAN-DB URL Filtering is slightly less granular than the BrightCloud URL filtering. However the PAN-DB Filter offers additional malware protection and PAN threat intelligence by using the Wildfire service as an additional input, which is currently not available in the BrightCloud URL Filtering license. This makes the PAN-DB filter more responsive to specific malware 'campaigns'.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Device > Licenses`.\n\nClick on `PAN-DB URL Filtering`.\n\nSet `Active` to `Yes`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Device > Licenses`.\n\nClick on `PAN-DB URL Filtering`.\n\nVerify `Active` is set to `Yes`.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+      "name": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.10",
+      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_rationale_statement": "Certain URL categories pose a technology-centric threat, such as command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Users visiting websites in these categories, many times unintentionally, are at greater risk of compromising the security of their system. Other categories, such as adult, may pose a legal liability and will be blocked for those reasons.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nSet a URL filter so that all URL categories designated by the organization are listed.\nNavigate to the `Actions` tab. \nSet the action to `Block`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that all URL categories designated by the organization are listed, and the action is set to `Block`.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--39928312-81bb-4445-a269-9f3d0bb88d5c",
+      "name": "Ensure that the User-ID service account does not have interactive logon rights",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Restrict the User-ID service account from interactively logging on to systems in the Active Directory domain."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+      "name": "Deploy XSOAR Playbook - Hunting C&C Communication Playbook",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.22",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Hunting C&C Communication Playbook"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "name": "Ensure 'Service setting of ANY' in a security policy allowing traffic does not exist",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create security policies specifying application-default for the Service setting, in addition to the specific ports desired. The Service setting of `any` should not be used for any policies that allow traffic."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--513f7288-0f4f-49d1-8447-8664f065d798",
+      "name": "Deploy XSOAR Playbook - Block Account Generic",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "x_panw_coa_u42_id": "x.9",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Block Account Generic"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--553711d6-06e4-49e2-a1ad-929d9cce8e39",
+      "name": "Ensure that 'Include/Exclude Networks' is used if User-ID is enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "If User-ID is configured, use the Include/Exclude Networks section to limit the User-ID scope to operate only on trusted networks. There is rarely a legitimate need to allow WMI probing or other User identification on an untrusted network."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--5839cd6c-7897-43c4-82f3-5c03096a51c4",
+      "name": "Ensure passive DNS monitoring is set to enabled on all anti-spyware profiles in use",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Enable passive DNS monitoring within all anti-spyware profiles in use.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.5",
+      "x_panw_coa_bp_title": "Ensure passive DNS monitoring is set to enabled on all anti-spyware profiles in use",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Enable passive DNS monitoring within all anti-spyware profiles in use.",
+      "x_panw_coa_bp_rationale_statement": "Enabling passive DNS monitoring improves PAN’s threat prevention and threat intelligence capabilities. This is performed without source information delivered to PAN to ensure sensitive DNS information of the organization is not compromised.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Device > Setup > Telemetry`. Set `Passive DNS Monitoring` to enabled",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Device > Setup > Telemetry`. Ensure that `Passive DNS Monitoring` is enabled",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Enabled DNS Query Logging CONTROL:v6 8.6 DESCRIPTION:Enable domain name system (DNS) query logging to detect hostname lookup for known malicious C2 domains.;TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Enable DNS Query Logging CONTROL:v7 8.7 DESCRIPTION:Enable Domain Name System (DNS) query logging to detect hostname lookups for known malicious domains.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“What Information is Submitted to the Palo Alto Networks when Enabling the Passive DNS Feature” - https://live.paloaltonetworks.com/docs/DOC-7256:'PAN-OS Administrator's Guide 9.0 (English) - DNS Security' - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/threat-prevention/dns-security.html#"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--58d4b1e7-a7d1-45d8-855b-b5e13ace3dba",
+      "name": "XDR monitors for behavioral events via BIOCs along a causality chain to identify discovery behaviors",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.27",
+      "x_panw_coa_u42_title": "XDR monitors for behavioral events via BIOCs along a causality chain to identify discovery behaviors"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--5c05fcbe-aadd-4f64-9437-c1181c641f35",
+      "name": "Configure Restrictions Security Profile",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+      "name": "Ensure that access to every URL is logged",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "URL filters should not specify any categories as `Allow Categories`.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.11",
+      "x_panw_coa_bp_title": "Ensure that access to every URL is logged",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "URL filters should not specify any categories as `Allow Categories`.",
+      "x_panw_coa_bp_rationale_statement": "Setting a URL filter to have one or more entries under Allow Categories will cause no log entries to be produced in the URL Filtering logs for access to URLs in those categories. For forensic, legal, and HR purposes, it is advisable to log access to every URL. In many cases failure to log all URL access is a violation of corporate policy, legal requirements or regulatory requirements.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nFor each permitted category, set the `Site Access` actioun to `alert`",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that the for all allowed categories, that the `Site Access` action is set to `alert`",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--68c5676d-ab2f-4e68-a57c-28880a9f5709",
+      "name": "Ensure that the User-ID Agent has minimal permissions if User-ID is enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "If the integrated (on-device) User-ID Agent is utilized, the Active Directory account for the agent should only be a member of the Event Log Readers group, Distributed COM Users group, and Domain Users group. If the Windows User-ID agent is utilized, the Active Directory account for the agent should only be a member of the Event Log Readers group, Server Operators group, and Domain Users group."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+      "name": "Ensure that antivirus profiles are set to block on all decoders except 'imap' and 'pop3'",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Configure antivirus profiles to a value of 'block' for all decoders except imap and pop3 under both Action and WildFire Action. If required by the organization's email implementation, configure imap and pop3 decoders to 'alert' under both Action and WildFire Action."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--922b1227-c493-43f6-8b4a-ae6d6963eb8b",
+      "name": "Ensure 'SSL Inbound Inspection' is required for all untrusted traffic destined for servers using SSL or TLS",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "Configure SSL Inbound Inspection for all untrusted traffic destined for servers using SSL or TLS.",
+      "x_panw_coa_bp_section_number": "8",
+      "x_panw_coa_bp_recommendation_number": "8.2",
+      "x_panw_coa_bp_title": "Ensure 'SSL Inbound Inspection' is required for all untrusted traffic destined for servers using SSL or TLS",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure SSL Inbound Inspection for all untrusted traffic destined for servers using SSL or TLS.",
+      "x_panw_coa_bp_rationale_statement": "Without SSL Inbound Inspection, the firewall is not able to protect SSL or TLS-enabled webservers against many threats.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Policies > Decryption`.\n\nSet `SSL Inbound Inspection` appropriately for all untrusted traffic destined for servers using SSL or TLS.\n\nNavigate to `Policies > Decryption`. For each service published to the internet (or other untrusted zones), create a Policy and set the following options:\n- `General` tab: `Name` set to a descriptive name\n- `Source`: `Source Zone` set to the target zone (Internet in many cases). `Source Address` set to the target address space (`Any` for internet traffic)\n- `Destination` tab: `Destination Zone` should be set to the appropriate zone, or `Any`. `Destination Address` set to the target host address\n- `Options` tab: Type set to `SSL Inbound Inspection`",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Policies > Decryption`.\n\nVerify `SSL Inbound Inspection` is set appropriately for all untrusted traffic destined for servers using SSL or TLS.\n\nNavigate to `Policies > Decryption`. For each service published to the internet (or other untrusted zones), verify the following settings:\n- `General` tab: `Name` set to a descriptive name\n- `Source`: `Source Zone` set to the target zone (Internet in many cases). `Source Address` set to the target address space (`Any` for internet traffic)\n- `Destination` tab: `Destination Zone` should be set to the appropriate zone, or `Any`. `Destination Address` set to the target host address\n- `Options` tab: Type set to `SSL Inbound Inspection`",
+      "x_panw_coa_bp_impact_statement": "Not decrypting inbound traffic to TLS encrypted services means that inspection for many common attacks cannot occur on the firewall. This means that all defenses against these attacks are up to the host.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Design Network Perimeters To Leverage Proxy CONTROL:v6 12.5 DESCRIPTION:Design and implement network perimeters so that all outgoing network traffic to the Internet must pass through at least one application layer filtering proxy server. The proxy should support decrypting network traffic, logging individual TCP sessions, blocking specific URLs, domain names, and IP addresses to implement a black list, and applying whitelists of allowed sites that can be accessed through the proxy while blocking all other sites. Organizations should force outbound traffic to the Internet through an authenticated proxy server on the enterprise perimeter.;TITLE:Boundary Defense CONTROL:v6 12 DESCRIPTION:Boundary Defense;TITLE:Deploy Application Layer Filtering Proxy Server CONTROL:v7 12.9 DESCRIPTION:Ensure that all network traffic to or from the Internet passes through an authenticated application layer proxy that is configured to filter unauthorized connections.;TITLE:Decrypt Network Traffic at Proxy CONTROL:v7 12.10 DESCRIPTION:Decrypt all encrypted network traffic at the boundary proxy prior to analyzing the content. However, the organization may use whitelists of allowed sites that can be accessed through the proxy without decrypting the traffic.;TITLE:Boundary Defense CONTROL:v7 12 DESCRIPTION:Boundary Defense;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“How to Implement SSL Decryption” - https://live.paloaltonetworks.com/docs/DOC- 1412:“PAN-OS Administrator's Guide 9.0 (English) - Decryption (English)” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/decryption.html#"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--a1294d38-0f0d-4973-a949-f38cccbc7469",
+      "name": "Ensure an anti-spyware profile is configured to block on all spyware severity levels, categories, and threats",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "If a single rule exists within the anti-spyware profile, configure it to block on any spyware severity level, any category, and any threat. If multiple rules exist within the anti-spyware profile, ensure all spyware categories, threats, and severity levels are set to be blocked. Additional rules may exist for packet capture or exclusion purposes.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.3",
+      "x_panw_coa_bp_title": "Ensure an anti-spyware profile is configured to block on all spyware severity levels, categories, and threats",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "If a single rule exists within the anti-spyware profile, configure it to block on any spyware severity level, any category, and any threat. If multiple rules exist within the anti-spyware profile, ensure all spyware categories, threats, and severity levels are set to be blocked. Additional rules may exist for packet capture or exclusion purposes.",
+      "x_panw_coa_bp_rationale_statement": "Requiring a blocking policy for all spyware threats, categories, and severities reduces the risk of spyware traffic from successfully exiting the organization. Without an anti-spyware profile assigned to any potential hostile zone, the first protection in the path against malware is removed, leaving in most cases only the desktop endpoint protection application to detect and remediate any potential spyware.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nSet a rule within the anti-spyware profile that is configured to perform the `Block Action` on `any Severity` level, `any Category`, and `any Threat Name`.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nVerify a rule exists within the anti-spyware profile that is configured to perform the `Block Action` on `any Severity` level, `any Category`, and `any Threat Name`.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-policy.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--b07fe965-d582-4581-aa2f-9676705f5560",
+      "name": "Ensure remote access capabilities for the User-ID service account are forbidden.",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Restrict the User-ID service account’s ability to gain remote access into the organization. This capability could be made available through a variety of technologies, such as VPN, Citrix GoToMyPC, or TeamViewer. Remote services that integrate authentication with the organization’s Active Directory may unintentionally allow the User-ID service account to gain remote access."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--b1f31bc6-40cd-4c64-805f-1680eda35801",
+      "name": "Ensure 'SSL Forward Proxy Policy' for traffic destined to the Internet is configured",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.067Z",
+      "description": "Configure SSL Forward Proxy for all traffic destined to the Internet. In most organizations, including all categories except `financial-services`, `government` and `health-and-medicine` is recommended.",
+      "x_panw_coa_bp_section_number": "8",
+      "x_panw_coa_bp_recommendation_number": "8.1",
+      "x_panw_coa_bp_title": "Ensure 'SSL Forward Proxy Policy' for traffic destined to the Internet is configured",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure SSL Forward Proxy for all traffic destined to the Internet. In most organizations, including all categories except `financial-services`, `government` and `health-and-medicine` is recommended.",
+      "x_panw_coa_bp_rationale_statement": "Without SSL inspection, the firewall cannot apply many of its protection features against encrypted traffic. The amount of encrypted malware traffic continues to rise, and legitimate websites using SSL encryption are hacked or tricked into delivering malware on a frequent basis. As encryption on the Internet continues to grow at a rapid rate, SSL inspection is no longer optional as a practical security measure. If proper decryption is not configured, it follows that the majority of traffic is not being fully inspected for malicious content or policy violations. This is a major exposure, allowing delivery of exploits and payloads direct to user desktops.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Policies > Decryption`.\nCreate a Policy for all traffic destined to the Internet. This Policy should include:\n- `Source` tab: The `Source Zone` and/or `Source Address` should include all target internal networks. `Source User` should include all target internal users\n- `Destination` tab: The `Destination Zone` should include the untrusted target zone (usually the `internet`). `Destination Address` is typically `Any` for an internet destination.\n- `Service/URL Category` tab: all `URL Category` entries should be included except `financial-services`, `government` and `health-and-medicine` (this list may vary depending on your organization and its policies).\n- `Options` tab: `Type` set to `SSL Forward Proxy`",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Policies > Decryption`.\nVerify `SSL Forward Proxy` is set for all traffic destined to the Internet. \n\nVerify each Decryption Policy Rule:\n- `Source` tab: The `Source Zone` and/or `Source Address` should include all target internal networks. `Source User` should include all target internal users\n- `Destination` tab: The `Destination Zone` should include the untrusted target zone (usually the `internet`). `Destination Address` is typically `Any` for an internet destination.\n- `Service/URL Category` tab: Verify that all `URL Category` entries are included except `financial-services`, `government` and `health-and-medicine` (this list may vary depending on your organization and its policies).\n- `Options` tab: Verify that the `Type` is set to `SSL Forward Proxy`",
+      "x_panw_coa_bp_impact_statement": "Failure to decrypt outbound traffic allows attackers to mask attacks, data exfiltration and/or command and control (C2) traffic by simply using standard TLS encryption.\nPrivacy concerns for your organization's users will dictate that some common categories should be exempted from inspection and decryption. Personal banking or healthcare information is almost always exempted, as are interactions with government entities. Exemptions and inclusions to decryption policies should be negotiated internally and governed by published Corporate Policies.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Design Network Perimeters To Leverage Proxy CONTROL:v6 12.5 DESCRIPTION:Design and implement network perimeters so that all outgoing network traffic to the Internet must pass through at least one application layer filtering proxy server. The proxy should support decrypting network traffic, logging individual TCP sessions, blocking specific URLs, domain names, and IP addresses to implement a black list, and applying whitelists of allowed sites that can be accessed through the proxy while blocking all other sites. Organizations should force outbound traffic to the Internet through an authenticated proxy server on the enterprise perimeter.;TITLE:Boundary Defense CONTROL:v6 12 DESCRIPTION:Boundary Defense;TITLE:Deploy Application Layer Filtering Proxy Server CONTROL:v7 12.9 DESCRIPTION:Ensure that all network traffic to or from the Internet passes through an authenticated application layer proxy that is configured to filter unauthorized connections.;TITLE:Decrypt Network Traffic at Proxy CONTROL:v7 12.10 DESCRIPTION:Decrypt all encrypted network traffic at the boundary proxy prior to analyzing the content. However, the organization may use whitelists of allowed sites that can be accessed through the proxy without decrypting the traffic.;TITLE:Boundary Defense CONTROL:v7 12 DESCRIPTION:Boundary Defense;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“How to Implement SSL Decryption” - https://live.paloaltonetworks.com/docs/DOC- 1412:““PAN-OS Administrator's Guide 9.0 (English) - Decryption (English)” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/decryption.html#"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--b4ed79f9-b72c-4423-9a9c-f29134fda870",
+      "name": "Ensure that the Certificate used for Decryption is Trusted",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:11.068Z",
+      "description": "The CA Certificate used for in-line HTTP Man in the Middle should be trusted by target users. For `SSL Forward Proxy` configurations, there are classes of users that need to be considered.\n\n1: Users that are members of the organization, users of machines under control of the organization. For these people and machines, ensure that the CA Certificate is in one of the Trusted CA certificate stores. This is easily done in Active Directory, using Group Policies for instance. A MDM (Mobile Device Manager) can be used to accomplish the same task for mobile devices such as telephones or tablets. Other central management or orchestration tools can be used for Linux or 'IoT' (Internet of Things) devices.\n\n2: Users that are not member of the organization - often these are classed as 'Visitors' in the policies of the organization. If a public CA Certificate is a possibility for your organization, then that is one approach. A second approach is to not decrypt affected traffic - this is easily done, but leaves the majority of 'visitor' traffic uninspected and potentially carrying malicious content. The final approach, and the one most commonly seen, is to use the same certificate as is used for the hosting organization. In this last case, visitors will see a certificate warning, but the issuing CA will be the organization that they are visiting.",
+      "x_panw_coa_bp_section_number": "8",
+      "x_panw_coa_bp_recommendation_number": "8.3",
+      "x_panw_coa_bp_title": "Ensure that the Certificate used for Decryption is Trusted",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "not_scored",
+      "x_panw_coa_bp_description": "The CA Certificate used for in-line HTTP Man in the Middle should be trusted by target users. For `SSL Forward Proxy` configurations, there are classes of users that need to be considered.\n\n1: Users that are members of the organization, users of machines under control of the organization. For these people and machines, ensure that the CA Certificate is in one of the Trusted CA certificate stores. This is easily done in Active Directory, using Group Policies for instance. A MDM (Mobile Device Manager) can be used to accomplish the same task for mobile devices such as telephones or tablets. Other central management or orchestration tools can be used for Linux or 'IoT' (Internet of Things) devices.\n\n2: Users that are not member of the organization - often these are classed as 'Visitors' in the policies of the organization. If a public CA Certificate is a possibility for your organization, then that is one approach. A second approach is to not decrypt affected traffic - this is easily done, but leaves the majority of 'visitor' traffic uninspected and potentially carrying malicious content. The final approach, and the one most commonly seen, is to use the same certificate as is used for the hosting organization. In this last case, visitors will see a certificate warning, but the issuing CA will be the organization that they are visiting.",
+      "x_panw_coa_bp_rationale_statement": "Using a self-signed certificate, or any certificate that generates a warning in the browser, means that members of the organization have no method of determining if they are being presented with a legitimate certificate, or an attacker's 'man in the middle' certificate. It also very rapidly teaches members of the organization to bypass all security warnings of this type.",
+      "x_panw_coa_bp_remediation_procedure": "Set the CA Certificate(s):\n\nNavigate to `Device > Certificate Management > Certificates`. Import the appropriate CA Certificates from any internal Certificate Authorities. \n\nAlternatively, generate a self-signed certificate for an internal CA on the firewall, and then import the root certificate for that CA into the trusted CA list of target clients. In an Active Directory environment this can be facilitated using a Group Policy.\n\nSet the Certificate Profile needed for the SSL Forward Proxy:\n- Navigate to `Device > Certificate Management > Certificate Profile`.\n\nSet the decryption profile to include the settings described in the `SSL Forward Proxy` guidance in this document",
+      "x_panw_coa_bp_audit_procedure": "Verify the CA Certificate(s): \n\nNavigate to `Device > Certificate Management > Certificates`\n- Verify that appropriate internal certificates are imported, and that all certificates in the list are valid. In particular, verify the `Subject`, `Issuer`, `CA`, `Expires`, `Algorithm` and `Usage` fields\n- Alternatively, if an internal CA is implemented on the firewall, verify that target clients have the root certificate for this CA imported into their list of trusted certificate authorities.\n\nVerify the Certificate Profile needed for the SSL Forward Proxy:\n- Navigate to `Device > Certificate Management > Certificate Profile`. Verify that an appropriate profile is created.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Design Network Perimeters To Leverage Proxy CONTROL:v6 12.5 DESCRIPTION:Design and implement network perimeters so that all outgoing network traffic to the Internet must pass through at least one application layer filtering proxy server. The proxy should support decrypting network traffic, logging individual TCP sessions, blocking specific URLs, domain names, and IP addresses to implement a black list, and applying whitelists of allowed sites that can be accessed through the proxy while blocking all other sites. Organizations should force outbound traffic to the Internet through an authenticated proxy server on the enterprise perimeter.;TITLE:Deploy Application Layer Filtering Proxy Server CONTROL:v7 12.9 DESCRIPTION:Ensure that all network traffic to or from the Internet passes through an authenticated application layer proxy that is configured to filter unauthorized connections.;TITLE:Decrypt Network Traffic at Proxy CONTROL:v7 12.10 DESCRIPTION:Decrypt all encrypted network traffic at the boundary proxy prior to analyzing the content. However, the organization may use whitelists of allowed sites that can be accessed through the proxy without decrypting the traffic.;TITLE:Boundary Defense CONTROL:v6 12 DESCRIPTION:Boundary Defense;TITLE:Boundary Defense CONTROL:v7 12 DESCRIPTION:Boundary Defense;"
+      ],
+      "x_panw_coa_bp_references": [
+        "How to Implement and Test SSL Decryption' - https://live.paloaltonetworks.com/t5/Configuration-Articles/How-to-Implement-and-Test-SSL-Decryption/ta-p/59719:“PAN-OS Administrator's Guide 9.0 (English) - Decryption (English)” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/decryption.html#:'SSL Certificates Resource List on Configuring and Troubleshooting' - https://live.paloaltonetworks.com/t5/Management-Articles/SSL-certificates-resource-list/ta-p/53068:'Certificates' - http://palo-alto.wikia.com/wiki/Certificates"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--b62423f4-1849-4d9f-88c0-7160a8bed5c2",
+      "name": "Ensure that User-ID is only enabled for internal trusted interfaces",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Only enable the User-ID option for interfaces that are both internal and trusted. There is rarely a legitimate need to allow WMI probing (or any user-id identification) on an untrusted interface.\nThe exception to this is identification of remote-access VPN users, who are identified as they connect."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "name": "Ensure 'Security Policy' denying any/all traffic to/from IP addresses on Trusted Threat Intelligence Sources Exists",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a pair of security rules at the top of the security policies ruleset to block traffic to and from IP addresses known to be malicious.\n\nNote: This recommendation (as written) requires a Palo Alto 'Active Threat License'. Third Party and Open Source Threat Intelligence Feeds can also be used for this purpose."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--c45b79a8-2d29-4d8c-95ab-acea7e478e50",
+      "name": "Ensure DNS sinkholing is configured on all anti-spyware profiles in use",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Configure DNS sinkholing for all anti-spyware profiles in use. All internal requests to the selected sinkhole IP address must traverse the firewall. Any device attempting to communicate with the DNS sinkhole IP address should be considered infected.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.4",
+      "x_panw_coa_bp_title": "Ensure DNS sinkholing is configured on all anti-spyware profiles in use",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Configure DNS sinkholing for all anti-spyware profiles in use. All internal requests to the selected sinkhole IP address must traverse the firewall. Any device attempting to communicate with the DNS sinkhole IP address should be considered infected.",
+      "x_panw_coa_bp_rationale_statement": "DNS sinkholing helps to identify infected clients by spoofing DNS responses for malware domain queries. Without sinkholing, the DNS server itself may be seen as infected, while the truly infected device remains unidentified. In addition, sinkholing also ensures that DNS queries that might be indicators of compromise do not transit the internet, where they could be potentially used to negatively impact the 'ip reputation' of the organization's internet network subnets.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nWithin the each anti-spyware profile, under its `DNS Signatures` tab, set the `DNS Signature Source` List:\n`Palo Alto Networks Content DNS Signatures` should have as its `Action on DNS Queries` set to `sinkhole`\nIf licensed, the `Palo Alto Networks Cloud DNS Security` should have as its `Action on DNS Queries` set to `sinkhole`\n\nVerify the '`Sinkhole IPv4`' IP address is correct. This should be set to `sinkhole.paloaltnetworks.com`, or if an internal host is set then that host IP or FQDN should be in that field\n\nVerify the '`Sinkhole IPv6`' IP address is correct. This should be set to `IPv6 Loopback IP (::1)`, or if an internal DNS Sinkhole host is set then that host IP or FQDN should be in that field\n\nNavigate to `Policies > Security Policies`\nFor each outbound security Policy, in the `Actions` tab, set the `Anti-Spyware` setting to include the Spyware Profile created, either explicitly or as a `Group Profile`",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nWithin the each anti-spyware profile, under its `DNS Signatures` tab, verify the `DNS Signature Source` List:\n`Palo Alto Networks Content DNS Signatures` should have as its `Action on DNS Queries` set to `sinkhole`\nIf licensed, the `Palo Alto Networks Cloud DNS Security` should have as its `Action on DNS Queries` set to `sinkhole`\n\nVerify the '`Sinkhole IPv4`' IP address is correct. This should be set to `sinkhole.paloaltnetworks.com`, or if an internal host is set then that host IP or FQDN should be in that field\n\nVerify the '`Sinkhole IPv6`' IP address is correct. This should be set to `IPv6 Loopback IP (::1)`, or if an internal DNS Sinkhole host is set then that host IP or FQDN should be in that field\n\nNavigate to `Policies > Security Policies`\nFor each outbound security Policy, in the `Actions` tab, verify that the `Anti-Spyware` setting includes the Spyware Profile created, either explicitly or as a `Group Profile`\n\nTo verify correct operation of DNS Security, from an internal station make a DNS request to each of the following hosts:\n- `test-malware.testpanw.com` to test `Malware` DNS Signature checks\n- `test-c2.testpanw.com` to test `C2` DNS Signature checks\n- `test-dga.testpanw.com` to test `DGA` (Domain Generation Algorithm) DNS attack checks \n- `test-dnstun.testpanw.com` to test `DNS Tunneling` attack checks\nEach of these DNS requests should be redirected to the configured DNS Sinkhole server IP address\nEach of these DNS requests should appear in the firewall logs, under `Monitor > Logs > Threat`. If configured, each of these requests should generate an alert in the organization's SIEM.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Enabled DNS Query Logging CONTROL:v6 8.6 DESCRIPTION:Enable domain name system (DNS) query logging to detect hostname lookup for known malicious C2 domains.;TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Enable DNS Query Logging CONTROL:v7 8.7 DESCRIPTION:Enable Domain Name System (DNS) query logging to detect hostname lookups for known malicious domains.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“How to Deal with Conficker using DNS Sinkhole” - https://live.paloaltonetworks.com/docs/DOC-6628:“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:'PANOS Administrator's Guide 9.0 (English) - Security Profiles': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:'PAN-OS Administrator's Guide 9.0 (English) - DNS Security' - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/threat-prevention/dns-security.html#"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+      "name": "Deploy XSOAR Playbook - PAN-OS Query Logs for Indicators",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.805Z",
+      "x_panw_coa_u42_id": "x.23",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - PAN-OS Query Logs for Indicators"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--d84f79f8-219c-43cb-a918-ab7dd235413a",
+      "name": "Ensure a secure anti-spyware profile is applied to all security policies permitting traffic to the Internet",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Create one or more anti-spyware profiles and collectively apply them to all security policies permitting traffic to the Internet. The anti-spyware profiles may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.6",
+      "x_panw_coa_bp_title": "Ensure a secure anti-spyware profile is applied to all security policies permitting traffic to the Internet",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Create one or more anti-spyware profiles and collectively apply them to all security policies permitting traffic to the Internet. The anti-spyware profiles may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_rationale_statement": "By applying secure anti-spyware profiles to all applicable traffic, the threat of sensitive data exfiltration or command-and-control traffic successfully passing through the firewall is greatly reduced. Anti-spyware profiles are not restricted to particular protocols like antivirus profiles, so anti-spyware profiles should be applied to all security policies permitting traffic to the Internet. Assigning an anti-spyware profile to each trusted zone will quickly and easily identify trusted hosts that have been infected with spyware, by identifying the infection from their outbound network traffic. In addition, that outbound network traffic will be blocked by the profile.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nAlso navigate to `Policies > Security`.\n\nSet one or more anti-spyware profiles to collectively apply to all inside to outside traffic from any address to any address and any application and service.",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > Anti-Spyware`.\n\nAlso navigate to `Policies > Security`.\n\nVerify there are one or more anti-spyware profiles that collectively apply to all inside to outside traffic from any address to any address and any application and service.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dac0a39c-bdb6-46b2-9d5e-60618d873a3b",
+      "name": "Deploy XSOAR Playbook Palo Alto Networks Endpoint  Malware Investigation",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T19:00:12.602Z",
+      "x_panw_coa_u42_id": "x.21",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook Palo Alto Networks Endpoint  Malware Investigation"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "name": "Ensure application security policies exist when allowing traffic from an untrusted zone to a more trusted zone",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "When permitting traffic from an untrusted zone, such as the Internet or guest network, to a more trusted zone, such as a DMZ segment, create security policies specifying which specific applications are allowed. \n\n**Enhanced Security Recommendation: **\nRequire specific application policies when allowing `any` traffic, regardless of the trust level of a zone. Do not rely solely on port permissions. This may require SSL interception, and may also not be possible in all environments."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dfbe8c4c-b5c9-4ac2-a2f4-a43a73d1d621",
+      "name": "Deploy XSOAR Playbook - Access Investigation Playbook",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "x_panw_coa_u42_id": "x.7",
+      "x_panw_coa_u42_title": "Deploy XSOAR Playbook - Access Investigation Playbook"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+      "name": "Ensure all HTTP Header Logging options are enabled",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.12",
+      "x_panw_coa_bp_title": "Ensure all HTTP Header Logging options are enabled",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
+      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user’s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
+      "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nSet the following four settings:\n\n a. `Log container page only` box is un-checked\n\n b. Check the `User-Agent` box\n\n c. Check the `Referer` box\n\n d. Check the `X-Forwarded-For` box",
+      "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nVerify these four settings:\n\n a. `Log container page only` box is un-checked\n\n b. `User-Agent` box is checked\n\n c. `Referer` box is checked\n\n d. `X-Forwarded-For` box is checked",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+      "name": "Ensure a secure antivirus profile is applied to all relevant security policies",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.882Z",
+      "description": "Create a secure antivirus profile and apply it to all security policies that could pass HTTP, SMTP, IMAP, POP3, FTP, or SMB traffic. The antivirus profile may be applied to the security policies directly or through a profile group."
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
+      "name": "Deploy XSOAR Playbook - Ransomware Manual for incident response.",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-09-04T13:59:35.883Z"
+    },
+    {
+      "type": "course-of-action",
+      "id": "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+      "name": "Ensure secure URL filtering is enabled for all security policies allowing traffic to the Internet",
+      "created": "2020-06-23T19:50:31.722Z",
+      "modified": "2020-06-26T13:02:55.804Z",
+      "description": "Apply a secure URL filtering profile to all security policies permitting traffic to the Internet. The URL Filtering profile may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_section_number": "6",
+      "x_panw_coa_bp_recommendation_number": "6.13",
+      "x_panw_coa_bp_title": "Ensure secure URL filtering is enabled for all security policies allowing traffic to the Internet",
+      "x_panw_coa_bp_status": "published",
+      "x_panw_coa_bp_scoring_status": "full",
+      "x_panw_coa_bp_description": "Apply a secure URL filtering profile to all security policies permitting traffic to the Internet. The URL Filtering profile may be applied to the security policies directly or through a profile group.",
+      "x_panw_coa_bp_rationale_statement": "URL Filtering policies dramatically reduce the risk of users visiting malicious or inappropriate websites. In addition, a complete URL history log for all devices is invaluable when performing forensic analysis in the event of a security incident. Applying complete and approved URL filtering to outbound traffic is a frequent requirement in corporate policies, legal requirements or regulatory requirements.",
+      "x_panw_coa_bp_remediation_procedure": "To Set URL Filtering:\nFor each Security Profile that transits traffic to the internet, navigate to `Policies > Security > Security Profiles > [Policy Name] > Actions`.\n\nSet a URL Filtering profile that complies with the policies of the organization is applied to all Security Policies that transit traffic to the public internet.",
+      "x_panw_coa_bp_audit_procedure": "To Verify URL Filtering:\n\nFor each Security Policy that transits traffic to the public internet, navigate to `Policies > Security > Security Profiles > [Policy Name] > Actions`.\n\nVerify there is a URL Filtering profile that complies with the policies of the organization is applied to all Security Policies that transit traffic to the public internet.",
+      "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
+      "x_panw_coa_bp_cis_controls": [
+        "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
+      ],
+      "x_panw_coa_bp_references": [
+        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--082e5b08-bc58-4c5c-a746-1cb1ac15f752",
+      "created": "2021-08-10T12:52:49.298Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "6df0897d4eb0826c47850968708143ecb9b58a0f3453caa615c0f62396ef816b",
+      "pattern": "[file:hashes.'SHA-256' = '6df0897d4eb0826c47850968708143ecb9b58a0f3453caa615c0f62396ef816b']",
+      "valid_from": "2021-08-10T12:52:49.298Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--09909cc5-01f1-4937-ad76-3e8e631dee2f",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "36cfb1a7c971041c9483e4f4e092372c9c1ab792cd9de7b821718ccd0dbb09c1",
+      "pattern": "[file:hashes.'SHA-256' = '36cfb1a7c971041c9483e4f4e092372c9c1ab792cd9de7b821718ccd0dbb09c1']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0b5afcd2-9acc-4bbf-a428-755dbf7129b1",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "161.35.151.35:9100",
+      "pattern": "[url:value = '161.35.151.35:9100']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--18c1d537-8cb9-4578-8aeb-b1336475b0c0",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "64.42.152.46",
+      "pattern": "[ipv4-addr:value = '64.42.152.46']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1abd33da-982e-4d52-af06-4339612a7c13",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "21d5021d00e95dba6e23cee3e83b126b068ad936128894a1750bbcd4f1eb9391",
+      "pattern": "[file:hashes.'SHA-256' = '21d5021d00e95dba6e23cee3e83b126b068ad936128894a1750bbcd4f1eb9391']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--35bf3a12-9e79-44b9-800d-01f1ee4c3177",
+      "created": "2021-08-10T12:53:20.971Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "183.76.46.30/1/crp_linux_386",
+      "pattern": "[url:value = '183.76.46.30/1/crp_linux_386']",
+      "valid_from": "2021-08-10T12:53:20.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--385be45c-4012-4e6e-9a9a-c9b404dd3565",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "a8accaab01a8ad16029ea0e8035a79083140026e33f8580aae217b1ef216febc",
+      "pattern": "[file:hashes.'SHA-256' = 'a8accaab01a8ad16029ea0e8035a79083140026e33f8580aae217b1ef216febc']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--38616ea1-2566-4099-b2a4-f62093a1ae90",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "9f9bbbc80a2035df99abd60dc26e9b068b63e5fcc498e700b8cc6640ca39261b",
+      "pattern": "[file:hashes.'SHA-256' = '9f9bbbc80a2035df99abd60dc26e9b068b63e5fcc498e700b8cc6640ca39261b']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3a411b34-09f0-4763-b4db-bd4168f10888",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/41xvlF4tQ1b3iXd5okwCNhcj7fh9gMB2",
+      "pattern": "[url:value = 'https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/41xvlF4tQ1b3iXd5okwCNhcj7fh9gMB2']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3edc248f-f880-4263-844d-6098cc6bd9b1",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "9d4bc803c256bd340664ce08c2bf68249f33419d7decd866f3ade78626c95422",
+      "pattern": "[file:hashes.'SHA-256' = '9d4bc803c256bd340664ce08c2bf68249f33419d7decd866f3ade78626c95422']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3fa4e169-cee9-46a0-924a-cc7c70d51b3d",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "2e3a6bd6d2e03c347d8c717465fec6347037b7f25adae49e9e089bc744706545",
+      "pattern": "[file:hashes.'SHA-256' = '2e3a6bd6d2e03c347d8c717465fec6347037b7f25adae49e9e089bc744706545']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--43ee3929-2952-4ac2-a83d-236116d3b865",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/hv3PWxhLkfOuNjE9u3eOGogbGSH2bGT0",
+      "pattern": "[url:value = 'https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/hv3PWxhLkfOuNjE9u3eOGogbGSH2bGT0']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--527e35ac-57d3-4bfb-bb6d-04c3d1ea3bd9",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "0fa72e1644ed30436844eafc53c3003f0de056d68953673e0b5600099d0b5b8f",
+      "pattern": "[file:hashes.'SHA-256' = '0fa72e1644ed30436844eafc53c3003f0de056d68953673e0b5600099d0b5b8f']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5720494e-2aab-48c1-a8d1-0e0d41d3bbaf",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "4691946e508348f458da1b1a7617d55d3fa4dc9679fff39993853e018fc28f8e",
+      "pattern": "[file:hashes.'SHA-256' = '4691946e508348f458da1b1a7617d55d3fa4dc9679fff39993853e018fc28f8e']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5f5eceae-5f09-48e2-8b46-198cfb516725",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "0e4534d015c4e6691ff3920b19c93d63c61a0f36497cb0861a149999b61b98e1",
+      "pattern": "[file:hashes.'SHA-256' = '0e4534d015c4e6691ff3920b19c93d63c61a0f36497cb0861a149999b61b98e1']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6444bb86-6373-452f-ba3d-5db609218dbb",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "fedcce505a5e307c1d116d52b3122f6484b3d25fb3c4d666fe7af087cfe85349",
+      "pattern": "[file:hashes.'SHA-256' = 'fedcce505a5e307c1d116d52b3122f6484b3d25fb3c4d666fe7af087cfe85349']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--75a0c2f9-f650-46b9-8af1-5e0217cd9d4d",
+      "created": "2021-08-10T12:52:49.298Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "cc112184b17d65229ce20487d98a3751dceb3efbee7bf70929a35b66416ae248",
+      "pattern": "[file:hashes.'SHA-256' = 'cc112184b17d65229ce20487d98a3751dceb3efbee7bf70929a35b66416ae248']",
+      "valid_from": "2021-08-10T12:52:49.298Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--75cdb05b-51c8-4b51-bd38-094f0b4fdc0d",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "f6f6e34e93c4ec191807819bd0a3e18fe91bd390ec6c67fadc970d01c25f517b",
+      "pattern": "[file:hashes.'SHA-256' = 'f6f6e34e93c4ec191807819bd0a3e18fe91bd390ec6c67fadc970d01c25f517b']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7def1abb-97b1-4857-81a7-06954666d8b9",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "283b2fa0fcddff18278d924c89c68bbcd980728761bd26c5dea4ec4de69b841e",
+      "pattern": "[file:hashes.'SHA-256' = '283b2fa0fcddff18278d924c89c68bbcd980728761bd26c5dea4ec4de69b841e']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--854b88ca-42b4-4495-a3d9-ddae26c47758",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "98.144.56.47/1/crp_linux_386",
+      "pattern": "[url:value = '98.144.56.47/1/crp_linux_386']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--879a01cf-4414-45b2-9b7f-60dd5c6d4081",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/-xS-0UcHPaAJgaQCkyE29icDiJeAakj7",
+      "pattern": "[url:value = 'https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/-xS-0UcHPaAJgaQCkyE29icDiJeAakj7']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8d772047-71df-4ae9-9bbe-972b73c8ecba",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "3c533054390bc2d04ba96089302170a806c5cdb624536037a38c9ecb5aeea75d",
+      "pattern": "[file:hashes.'SHA-256' = '3c533054390bc2d04ba96089302170a806c5cdb624536037a38c9ecb5aeea75d']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9084b874-9145-47aa-bba4-6a96d110fee6",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "185.181.229.175:9100",
+      "pattern": "[url:value = '185.181.229.175:9100']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--91210d41-75bc-4e0a-a6fa-4a58833f25a9",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "88a73f1c1e5a7c921f61638d06f3fed7389e1b163da7a1cc62a666d0a88baf47",
+      "pattern": "[file:hashes.'SHA-256' = '88a73f1c1e5a7c921f61638d06f3fed7389e1b163da7a1cc62a666d0a88baf47']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9149634d-c1d9-477a-a47a-a686fc95ef2d",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "0b851832f9383df7739cd28ccdfd59925e9af7203b035711a7d96bba34a9eb04",
+      "pattern": "[file:hashes.'SHA-256' = '0b851832f9383df7739cd28ccdfd59925e9af7203b035711a7d96bba34a9eb04']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9d18e11b-33a1-4421-8b87-703d1b35fec3",
+      "created": "2021-08-10T12:52:49.298Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "670250a169ba548c07a5066a70087e83bbc7fd468ef46199d76f97f9e7f72f36",
+      "pattern": "[file:hashes.'SHA-256' = '670250a169ba548c07a5066a70087e83bbc7fd468ef46199d76f97f9e7f72f36']",
+      "valid_from": "2021-08-10T12:52:49.298Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a553b4cd-6d4e-4781-bf91-fcd07083bb7d",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "230d4522c2ffe31d6facd9eae829d486dfc5b4f55b2814e28471c6d0e7c9bf49",
+      "pattern": "[file:hashes.'SHA-256' = '230d4522c2ffe31d6facd9eae829d486dfc5b4f55b2814e28471c6d0e7c9bf49']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a7be766f-a1bc-4147-ab46-a75ed7e60858",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "7fa8ebcccde118986c4fd4a0f61ca7e513d1c2e28a6efdf183c10204550d87ce",
+      "pattern": "[file:hashes.'SHA-256' = '7fa8ebcccde118986c4fd4a0f61ca7e513d1c2e28a6efdf183c10204550d87ce']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--aa01e32a-881f-455a-8dd5-92460eea9bfa",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "3b93b18ae4f3aad450897e7d02346b843e38358a0c51b834d1971824c0a30b97",
+      "pattern": "[file:hashes.'SHA-256' = '3b93b18ae4f3aad450897e7d02346b843e38358a0c51b834d1971824c0a30b97']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--adc73913-e0a0-4553-9865-d237f202bb63",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "176.122.23.54:9100",
+      "pattern": "[url:value = '176.122.23.54:9100']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b9f01a9a-c160-4d15-b7dd-9a2effb702a4",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "d2ebe2a961d07501f0614b3ba511cf44cb0be2e8e342e464a20633ed7f1fc884",
+      "pattern": "[file:hashes.'SHA-256' = 'd2ebe2a961d07501f0614b3ba511cf44cb0be2e8e342e464a20633ed7f1fc884']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c81e19c8-61dd-4727-ae9c-52198cc42b26",
+      "created": "2021-08-10T12:53:20.971Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "183.76.46.30/1/crp_linux_arm",
+      "pattern": "[url:value = '183.76.46.30/1/crp_linux_arm']",
+      "valid_from": "2021-08-10T12:53:20.971Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cebb38b4-3fd7-4706-9f2e-05f3e548c804",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "2.37.149.230/1/crp_linux_arm",
+      "pattern": "[url:value = '2.37.149.230/1/crp_linux_arm']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d57e0899-6474-4866-9837-6cda28df10fb",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "19448f9aa1fe6c07d52abc59d1657a7381cfdb4a4fa541279097cc9e9412964b",
+      "pattern": "[file:hashes.'SHA-256' = '19448f9aa1fe6c07d52abc59d1657a7381cfdb4a4fa541279097cc9e9412964b']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d853bbc9-e28f-4ce1-acba-e20ef6a08227",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "2fe577fd9c77d3bebdcf9bfc6416c3f9a12755964a8098744519709daf2b09ce",
+      "pattern": "[file:hashes.'SHA-256' = '2fe577fd9c77d3bebdcf9bfc6416c3f9a12755964a8098744519709daf2b09ce']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0d041ed-e3b3-4dc5-82eb-02f37f22c0e5",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "64.42.152.46/h/crp_linux_arm",
+      "pattern": "[url:value = '64.42.152.46/h/crp_linux_arm']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e5ccc518-daad-4d6d-9931-eb0f2f162065",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "bb3b0e981e52a8250abcdf320bf7e5398d7bebf015643f8469f63d943b42f284",
+      "pattern": "[file:hashes.'SHA-256' = 'bb3b0e981e52a8250abcdf320bf7e5398d7bebf015643f8469f63d943b42f284']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ed1c90f3-216d-4ae6-9338-b758df832955",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "98.144.56.47/1/crp_linux_arm",
+      "pattern": "[url:value = '98.144.56.47/1/crp_linux_arm']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f5a05e67-ae41-408b-9532-52f64324c0c9",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "fe4efccf56f989bf1b326dd9890681d21c97309fee61fdac8eb2081398e4d2b1",
+      "pattern": "[file:hashes.'SHA-256' = 'fe4efccf56f989bf1b326dd9890681d21c97309fee61fdac8eb2081398e4d2b1']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f6b6487a-13e2-4510-9059-0f94b725a0d2",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "039a997681655004aed1cc4c6ee24bf112d79e4f3b823ccae96b4a32c5ed1b4c",
+      "pattern": "[file:hashes.'SHA-256' = '039a997681655004aed1cc4c6ee24bf112d79e4f3b823ccae96b4a32c5ed1b4c']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f746d68a-226e-4530-a7cd-e66338eb03dc",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "74169aebae6412e5408904d8f6a2eb977113b3ac355c53dfd366e2903b428c62",
+      "pattern": "[file:hashes.'SHA-256' = '74169aebae6412e5408904d8f6a2eb977113b3ac355c53dfd366e2903b428c62']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f870c072-df65-43c2-96ab-8473d0cc59a5",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "2.37.149.230/1/crp_linux_386",
+      "pattern": "[url:value = '2.37.149.230/1/crp_linux_386']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f8de0294-5e61-445a-8b7a-721bab5c8057",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.661Z",
+      "name": "551e03e17d1df9bd5b712bec7763578c01e7bffe9b93db246e36ec0a174f7467",
+      "pattern": "[file:hashes.'SHA-256' = '551e03e17d1df9bd5b712bec7763578c01e7bffe9b93db246e36ec0a174f7467']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fa241ef2-b3b0-453c-92de-d73946aa3f29",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/chuADfBHD8hpgVs7wH8eS3S0Vv-rusj6",
+      "pattern": "[url:value = 'https://veqlxhq7ub5qze3qy56zx2cig2e6tzsgxdspkubwbayqije6oatma6id.onion/api/GetAvailKeysByApiKey/chuADfBHD8hpgVs7wH8eS3S0Vv-rusj6']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fc39de94-f1b0-46d7-b0ed-be45bf5b3260",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.662Z",
+      "name": "64.42.152.46/h/crp_linux_386",
+      "pattern": "[url:value = '64.42.152.46/h/crp_linux_386']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fef97e14-670a-44d4-8728-3c1b29a66e80",
+      "created": "2021-08-09T19:48:43.456Z",
+      "modified": "2021-08-10T15:00:09.664Z",
+      "name": "185.10.68.89:9100",
+      "pattern": "[url:value = '185.10.68.89:9100']",
+      "valid_from": "2021-08-09T19:48:43.456Z",
+      "labels": [
+        "malicious-activity"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--0b4b4aeb-b22c-46f8-b2c9-175a9abdf3ee",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--d84f79f8-219c-43cb-a918-ab7dd235413a",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--150f248a-d7a1-44ab-9728-f71e0d9f90b5",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--5c05fcbe-aadd-4f64-9437-c1181c641f35",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--1c5b9e1f-97d7-4dbd-bf81-c4dbdc535785",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--922b1227-c493-43f6-8b4a-ae6d6963eb8b",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--1e18d009-83fc-4861-b463-61d26fde5127",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--b1f31bc6-40cd-4c64-805f-1680eda35801",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--1f348472-9cd6-405c-a2be-cf20c9d01a95",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--41a5e724-166d-496a-bfa6-5f7d671c733e",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--2c9f3677-15b5-45ab-aa7b-a161b5e331be",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--39928312-81bb-4445-a269-9f3d0bb88d5c",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--3d6375dd-a55a-49fc-92c2-0401a31cff89",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--7bbb332f-22cf-48f2-a4a1-5bc9d2b034ca",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--3f09d478-8ab3-4438-ba45-cc863a830d93",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T13:02:55.809Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--58d4b1e7-a7d1-45d8-855b-b5e13ace3dba",
+      "target_ref": "attack-pattern--8f4a33ec-8b1f-4b80-a2f6-642b2e479580",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--4fb3a28b-54b8-477a-9bc1-a02821eb134b",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dfbe8c4c-b5c9-4ac2-a2f4-a43a73d1d621",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--51207728-35b3-40c1-9eb7-71dee64cb04b",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--553711d6-06e4-49e2-a1ad-929d9cce8e39",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--5e575754-6f9d-4400-949d-e4f4094615e9",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--a1294d38-0f0d-4973-a949-f38cccbc7469",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--5e69fac6-2767-4b91-aed3-ae321489a739",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--c5148c0d-4c4a-4ad6-b2c7-942f9eb91673",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--6702c1aa-c55a-4110-be6a-1e13aff502e3",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--b4ed79f9-b72c-4423-9a9c-f29134fda870",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--7bdc6940-e8df-4dd0-93a5-a5230451cd5d",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--49881f38-2571-47a1-a122-26a5968f1137",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--7e108987-e5ab-4073-8459-263b1d9c1041",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--b07fe965-d582-4581-aa2f-9676705f5560",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--85afed6f-181c-4ad5-9613-28a26870cee0",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--e15f23e0-f6ae-4440-865f-63ac76b93bf5",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--a3cb25c8-b620-4e2c-a441-c208b6b5ec27",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--68c5676d-ab2f-4e68-a57c-28880a9f5709",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--a7f64457-5711-46e9-8521-7336d0095bb8",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--bca382b3-2a97-451f-a849-80f7a4e7edce",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--aa40e063-e1ea-4544-b73b-2783a46c16b4",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--bb0260eb-ff24-4588-9652-af43b7a14e1f",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--5e951942-0565-46f4-b09e-80426812b6b5",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--be869ffb-1c0a-4335-9301-3e1dc24ad75c",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--b62423f4-1849-4d9f-88c0-7160a8bed5c2",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c03a30f4-da3c-460c-b372-93bfac4958f2",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--f4a8da12-c6f0-4a33-ae42-590c5602be99",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c295cfbf-91b8-456a-9379-c180fe4f0fde",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--c45b79a8-2d29-4d8c-95ab-acea7e478e50",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c50f07f3-e005-4753-b08b-4be1d90970b4",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dac0a39c-bdb6-46b2-9d5e-60618d873a3b",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c9a563d8-cd1d-4c5a-8c2d-2db810fdf15c",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--513f7288-0f4f-49d1-8447-8664f065d798",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e2c90f55-1181-4b7d-932b-cc24dba2c587",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:12.608Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--09cad5e4-8c95-494f-862e-0c640b175348",
+      "target_ref": "attack-pattern--03259939-0b57-482f-8eb5-87c0e0d54334",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e650b72b-f1f4-4a98-9ce4-80c8f663262d",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--2c886776-61fb-487c-a880-41f4b7195627",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--e65d9e76-e360-4264-a3bb-bbbb378b18f9",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dcd486e6-fcf5-4692-9187-115efdae9694",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "NGFW"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f4704dc5-5b89-4b01-8a16-7510222f4810",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--dff22e97-a89e-4ff7-b615-0165258bf8d5",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "URL Filtering"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f4a3286a-e9db-416e-85bc-c39b1b03af31",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2021-04-12T18:24:34.257Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--fd46c2da-d30c-4a4a-ab44-479ac9b0fde1",
+      "created": "2020-06-23T19:50:42.481Z",
+      "modified": "2020-06-26T19:00:26.890Z",
+      "relationship_type": "mitigates",
+      "source_ref": "course-of-action--5839cd6c-7897-43c4-82f3-5c03096a51c4",
+      "target_ref": "attack-pattern--a782ebe2-daba-42c7-bc82-e8e9d923162d",
+      "x_panw_coa_u42_panw_product": [
+        "Threat Prevention"
+      ]
+    }
+  ]
+}
