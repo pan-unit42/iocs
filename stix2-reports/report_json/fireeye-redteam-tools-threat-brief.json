@@ -9,7 +9,7 @@
       "created": "2020-12-09T22:09:54.432Z",
       "modified": "2020-12-11T01:01:19.034Z",
       "name": "FireEye Breach IOCs",
-      "description": "On Dec. 8, 2020, one of the leading cybersecurity companies in the industry, FireEye, reported a breach and data exfiltration unlike any that we have seen previously. What makes this attack unique is not only the target, FireEye being a well-known cybersecurity company, but that the stolen data contains the internal, custom-crafted red-team and penetration testing tools used by the company to imitate advanced persistent threats (APT) during customer security consultations. FireEye’s blog provided a wealth of information for defenders to implement security controls and mitigations for defense against the stolen tools. \n\nIt is important to note that these custom tools were not released into the wild, they were stolen by a sophisticated threat actor and we likely will not see a sudden widespread use of them. That being said, FireEye went beyond what was required – and what companies have done in the past – in releasing detection techniques. Providing defenders access to the Yara rules, indicators of compromise (IOCs), Snort signatures and other threat data is a class act and very much appreciated by defenders and researchers at Palo Alto Networks – and surely across the industry as a whole.\n\nReferences: \nhttps://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html\nhttps://github.com/fireeye/red_team_tool_countermeasures/blob/master/signatures_table_of_content.csv\n",
+      "description": "On Dec. 8, 2020, one of the leading cybersecurity companies in the industry, FireEye, reported a breach and data exfiltration unlike any that we have seen previously. What makes this attack unique is not only the target, FireEye being a well-known cybersecurity company, but that the stolen data contains the internal, custom-crafted red-team and penetration testing tools used by the company to imitate advanced persistent threats (APT) during customer security consultations. FireEye\u2019s blog provided a wealth of information for defenders to implement security controls and mitigations for defense against the stolen tools. \n\nIt is important to note that these custom tools were not released into the wild, they were stolen by a sophisticated threat actor and we likely will not see a sudden widespread use of them. That being said, FireEye went beyond what was required \u2013 and what companies have done in the past \u2013 in releasing detection techniques. Providing defenders access to the Yara rules, indicators of compromise (IOCs), Snort signatures and other threat data is a class act and very much appreciated by defenders and researchers at Palo Alto Networks \u2013 and surely across the industry as a whole.\n\nReferences: \nhttps://www.fireeye.com/blog/products-and-services/2020/12/fireeye-shares-details-of-recent-cyber-attack-actions-to-protect-community.html\nhttps://github.com/fireeye/red_team_tool_countermeasures/blob/master/signatures_table_of_content.csv\n",
       "published": "2020-12-11T01:01:19.034Z",
       "object_refs": [
         "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
@@ -636,10 +636,10 @@
       "type": "attack-pattern",
       "id": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2020-07-27T14:54:34.130Z",
-      "modified": "2020-07-27T14:54:34.130Z",
+      "created": "2020-03-09T14:12:31.196Z",
+      "modified": "2021-04-14T15:36:02.195Z",
       "name": "T1059.003: Windows Command Shell",
-      "description": "Adversaries may abuse the Windows command shell for execution. The Windows command shell (<code>cmd.exe</code>) is the primary command prompt on Windows systems. The Windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. \n\nBatch files (ex: .bat or .cmd) also provide the shell with a list of sequential commands to run, as well as normal scripting operations such as conditionals and loops. Common uses of batch files include long or repetitive tasks, or the need to run the same set of commands on multiple systems.\n\nAdversaries may leverage <code>cmd.exe</code> to execute various commands and payloads. Common uses include <code>cmd.exe /c</code> to execute a single command, or abusing <code>cmd.exe</code> interactively with input and output forwarded over a command and control channel.",
+      "description": "Adversaries may abuse the Windows command shell for execution. The Windows command shell ([cmd](https://attack.mitre.org/software/S0106)) is the primary command prompt on Windows systems. The Windows command prompt can be used to control almost any aspect of a system, with various permission levels required for different subsets of commands. \n\nBatch files (ex: .bat or .cmd) also provide the shell with a list of sequential commands to run, as well as normal scripting operations such as conditionals and loops. Common uses of batch files include long or repetitive tasks, or the need to run the same set of commands on multiple systems.\n\nAdversaries may leverage [cmd](https://attack.mitre.org/software/S0106) to execute various commands and payloads. Common uses include [cmd](https://attack.mitre.org/software/S0106) to execute a single command, or abusing [cmd](https://attack.mitre.org/software/S0106) interactively with input and output forwarded over a command and control channel.",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -660,30 +660,30 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Usage of the Windows command shell may be common on administrator, developer, or power user systems depending on job function. If scripting is restricted for normal users, then any attempt to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent.\n\nScripts are likely to perform actions with various effects on a system that may generate events, depending on the types of monitoring used. Monitor processes and command-line arguments for script execution and subsequent behavior. Actions may be related to network and system information Discovery, Collection, or other scriptable post-compromise behaviors and could be used as indicators of detection leading back to the source script."
-      ],
+      "x_mitre_detection": "Usage of the Windows command shell may be common on administrator, developer, or power user systems depending on job function. If scripting is restricted for normal users, then any attempt to enable scripts running on a system would be considered suspicious. If scripts are not commonly used on a system, but enabled, scripts running out of cycle from patching or other administrator functions are suspicious. Scripts should be captured from the file system when possible to determine their actions and intent.\n\nScripts are likely to perform actions with various effects on a system that may generate events, depending on the types of monitoring used. Monitor processes and command-line arguments for script execution and subsequent behavior. Actions may be related to network and system information Discovery, Collection, or other scriptable post-compromise behaviors and could be used as indicators of detection leading back to the source script.",
       "x_mitre_platforms": [
         "Windows"
       ],
       "x_mitre_data_sources": [
-        "Process command-line parameters",
-        "Process monitoring",
-        "Windows event logs"
+        "Command: Command Execution",
+        "Process: Process Creation"
       ],
+      "x_mitre_is_subtechnique": true,
       "x_mitre_permissions_required": [
         "User"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_version": "1.1",
+      "x_panw_parent_technique": "Command and Scripting Interpreter",
+      "x_panw_parent_technique_subtechnique": "Command and Scripting Interpreter: Windows Command Shell"
     },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2018-08-03T19:54:02.821Z",
-      "modified": "2020-07-27T14:54:36.978Z",
+      "created": "2020-02-05T14:17:46.686Z",
+      "modified": "2020-02-05T20:05:41.548Z",
       "name": "T1027.002: Software Packing",
-      "description": "Adversaries may perform software packing or virtual machine software protection to conceal their code. Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory. Virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. A virtual machine is then called to run this code.(Citation: ESET FinFisher Jan 2018) \n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.",
+      "description": "Adversaries may perform software packing or virtual machine software protection to conceal their code. Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory. Virtual machine software protection translates an executable's original code into a special format that only a special virtual machine can run. A virtual machine is then called to run this code.(Citation: ESET FinFisher Jan 2018) \n\nUtilities used to perform software packing are called packers. Example packers are MPRESS and UPX. A more comprehensive list of known packers is available, (Citation: Wikipedia Exe Compression) but adversaries may create their own packing techniques that do not leave the same artifacts as well-known packers to evade defenses.  ",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -696,6 +696,11 @@
       ],
       "external_references": [
         {
+          "source_name": "mitre-attack",
+          "url": "https://attack.mitre.org/techniques/T1027/002",
+          "external_id": "T1027.002"
+        },
+        {
           "source_name": "capec",
           "url": "https://capec.mitre.org/data/definitions/570.html",
           "external_id": "CAPEC-570"
@@ -706,11 +711,6 @@
           "description": "Kafka, F. (2018, January). ESET's Guide to Deobfuscating and Devirtualizing FinFisher. Retrieved August 12, 2019."
         },
         {
-          "source_name": "mitre-attack",
-          "url": "https://attack.mitre.org/techniques/T1027/002",
-          "external_id": "T1027.002"
-        },
-        {
           "source_name": "Wikipedia Exe Compression",
           "url": "http://en.wikipedia.org/wiki/Executable_compression",
           "description": "Executable compression. (n.d.). Retrieved December 4, 2014."
@@ -719,14 +719,16 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Use file scanning to look for known software packers or artifacts of packing techniques. Packing is not a definitive indicator of malicious activity, because legitimate software may use packing techniques to reduce binary size or to protect proprietary code."
-      ],
+      "x_mitre_detection": "Use file scanning to look for known software packers or artifacts of packing techniques. Packing is not a definitive indicator of malicious activity, because legitimate software may use packing techniques to reduce binary size or to protect proprietary code.",
       "x_mitre_platforms": [
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
-      "x_mitre_data_sources": "Binary file metadata",
+      "x_mitre_data_sources": [
+        "File: File Content",
+        "File: File Metadata"
+      ],
+      "x_mitre_is_subtechnique": true,
       "x_mitre_defense_bypassed": [
         "Anti-virus",
         "Heuristic detection",
@@ -735,7 +737,9 @@
       "x_mitre_contributors": [
         "Filip Kafka, ESET"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_version": "1.0",
+      "x_panw_parent_technique": "Obfuscated Files or Information",
+      "x_panw_parent_technique_subtechnique": "Obfuscated Files or Information: Software Packing"
     },
     {
       "type": "course-of-action",

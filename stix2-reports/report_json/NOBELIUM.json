@@ -133,10 +133,10 @@
       "type": "attack-pattern",
       "id": "attack-pattern--2b742742-28c3-4e1b-bab7-8350d6300fa7",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2018-08-03T19:54:02.821Z",
-      "modified": "2020-07-27T14:54:44.085Z",
+      "created": "2020-03-02T19:15:44.182Z",
+      "modified": "2021-04-14T14:38:42.715Z",
       "name": "T1566.002: Spearphishing Link",
-      "description": "Adversaries may send spearphishing emails with a malicious link in an attempt to elicit sensitive information and/or gain access to victim systems. Spearphishing with a link is a specific variant of spearphishing. It is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. \n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this case, the malicious emails contain links. Generally, the links will be accompanied by social engineering text and require the user to actively click or copy and paste a URL into a browser, leveraging [User Execution](https://attack.mitre.org/techniques/T1204). The visited website may compromise the web browser using an exploit, or the user will be prompted to download applications, documents, zip files, or even executables depending on the pretext for the email in the first place. Adversaries may also include links that are intended to interact directly with an email reader, including embedded images intended to exploit the end system directly or verify the receipt of an email (i.e. web bugs/web beacons). Links may also direct users to malicious applications  designed to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s, like OAuth tokens, in order to gain access to protected applications and information.(Citation: Trend Micro Pawn Storm OAuth 2017)",
+      "description": "Adversaries may send spearphishing emails with a malicious link in an attempt to gain access to victim systems. Spearphishing with a link is a specific variant of spearphishing. It is different from other forms of spearphishing in that it employs the use of links to download malware contained in email, instead of attaching malicious files to the email itself, to avoid defenses that may inspect email attachments. Spearphishing may also involve social engineering techniques, such as posing as a trusted source.\n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this case, the malicious emails contain links. Generally, the links will be accompanied by social engineering text and require the user to actively click or copy and paste a URL into a browser, leveraging [User Execution](https://attack.mitre.org/techniques/T1204). The visited website may compromise the web browser using an exploit, or the user will be prompted to download applications, documents, zip files, or even executables depending on the pretext for the email in the first place. Adversaries may also include links that are intended to interact directly with an email reader, including embedded images intended to exploit the end system directly or verify the receipt of an email (i.e. web bugs/web beacons). Links may also direct users to malicious applications  designed to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s, like OAuth tokens, in order to gain access to protected applications and information.(Citation: Trend Micro Pawn Storm OAuth 2017)",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -149,59 +149,68 @@
       ],
       "external_references": [
         {
-          "source_name": "capec",
-          "url": "https://capec.mitre.org/data/definitions/163.html",
-          "external_id": "CAPEC-163"
-        },
-        {
           "source_name": "mitre-attack",
           "url": "https://attack.mitre.org/techniques/T1566/002",
           "external_id": "T1566.002"
         },
         {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/163.html",
+          "external_id": "CAPEC-163"
+        },
+        {
           "source_name": "Trend Micro Pawn Storm OAuth 2017",
           "url": "https://blog.trendmicro.com/trendlabs-security-intelligence/pawn-storm-abuses-open-authentication-advanced-social-engineering-attacks",
           "description": "Hacquebord, F.. (2017, April 25). Pawn Storm Abuses Open Authentication in Advanced Social Engineering Attacks. Retrieved October 4, 2019."
+        },
+        {
+          "source_name": "Microsoft Anti Spoofing",
+          "url": "https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/anti-spoofing-protection?view=o365-worldwide",
+          "description": "Microsoft. (2020, October 13). Anti-spoofing protection in EOP. Retrieved October 19, 2020."
+        },
+        {
+          "source_name": "ACSC Email Spoofing",
+          "url": "https://www.cyber.gov.au/sites/default/files/2019-03/spoof_email_sender_policy_framework.pdf",
+          "description": "Australian Cyber Security Centre. (2012, December). Mitigating Spoofed Emails Using Sender Policy Framework. Retrieved October 19, 2020."
         }
       ],
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "URL inspection within email (including expanding shortened links) can help detect links leading to known malicious sites. Detonation chambers can be used to detect these links and either automatically go to these sites to determine if they're potentially malicious, or wait and capture the content if a user visits the link.\n\nBecause this technique usually involves user interaction on the endpoint, many of the possible detections take place once [User Execution](https://attack.mitre.org/techniques/T1204) occurs."
-      ],
+      "x_mitre_detection": "URL inspection within email (including expanding shortened links) can help detect links leading to known malicious sites. Detonation chambers can be used to detect these links and either automatically go to these sites to determine if they're potentially malicious, or wait and capture the content if a user visits the link.\n\nFiltering based on DKIM+SPF or header analysis can help detect when the email sender is spoofed.(Citation: Microsoft Anti Spoofing)(Citation: ACSC Email Spoofing)\n\nBecause this technique usually involves user interaction on the endpoint, many of the possible detections take place once [User Execution](https://attack.mitre.org/techniques/T1204) occurs.",
       "x_mitre_platforms": [
+        "Google Workspace",
         "Linux",
+        "macOS",
         "Office 365",
         "SaaS",
-        "Windows",
-        "macOS"
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "DNS records",
-        "Detonation chamber",
-        "Email gateway",
-        "Mail server",
-        "Packet capture",
-        "SSL/TLS inspection",
-        "Web proxy"
+        "Application Log: Application Log Content",
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
       ],
+      "x_mitre_is_subtechnique": true,
       "x_mitre_contributors": [
         "Jeff Sakowicz, Microsoft Identity Developer Platform Services (IDPM Services)",
         "Mark Wee",
+        "Philip Winther",
         "Saisha Agrawal, Microsoft Threat Intelligent Center (MSTIC)",
         "Shailesh Tiwary (Indian Army)"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_version": "2.1",
+      "x_panw_parent_technique": "Phishing",
+      "x_panw_parent_technique_subtechnique": "Phishing: Spearphishing Link"
     },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2020-07-27T14:54:34.130Z",
-      "modified": "2020-07-27T14:54:34.130Z",
+      "created": "2020-03-15T16:13:46.151Z",
+      "modified": "2020-03-26T20:15:35.821Z",
       "name": "T1071.001: Web Protocols",
-      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic.",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic. ",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -227,29 +236,27 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. "
-      ],
+      "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. ",
       "x_mitre_platforms": [
         "Linux",
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Netflow/Enclave netflow",
-        "Network protocol analysis",
-        "Packet capture",
-        "Process monitoring",
-        "Process use of network"
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_version": "1.0",
+      "x_panw_parent_technique": "Application Layer Protocol",
+      "x_panw_parent_technique_subtechnique": "Application Layer Protocol: Web Protocols"
     },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--ef67e13e-5598-4adc-bdb2-998225874fa9",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2020-07-27T14:54:35.038Z",
-      "modified": "2020-07-27T14:54:35.038Z",
+      "created": "2020-03-11T14:43:31.706Z",
+      "modified": "2020-03-11T14:43:31.706Z",
       "name": "T1204.001: Malicious Link",
       "description": "An adversary may rely upon a user clicking a malicious link in order to gain execution. Users may be subjected to social engineering to get them to click on a link that will lead to code execution. This user action will typically be observed as follow-on behavior from [Spearphishing Link](https://attack.mitre.org/techniques/T1566/002). Clicking on a link may also lead to other execution techniques such as exploitation of a browser or application vulnerability via [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203). Links may also lead users to download files that require execution via [Malicious File](https://attack.mitre.org/techniques/T1204/002).",
       "kill_chain_phases": [
@@ -272,32 +279,33 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Inspect network traffic for indications that a user visited a malicious site, such as links included in phishing campaigns directed at your organization.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded from a link and executed on the user's computer."
-      ],
+      "x_mitre_detection": "Inspect network traffic for indications that a user visited a malicious site, such as links included in phishing campaigns directed at your organization.\n\nAnti-virus can potentially detect malicious documents and files that are downloaded from a link and executed on the user's computer.",
       "x_mitre_platforms": [
         "Linux",
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Anti-virus",
-        "Process monitoring",
-        "Web proxy"
+        "File: File Creation",
+        "Network Traffic: Network Connection Creation",
+        "Network Traffic: Network Traffic Content"
       ],
+      "x_mitre_is_subtechnique": true,
       "x_mitre_permissions_required": [
         "User"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_version": "1.0",
+      "x_panw_parent_technique": "User Execution",
+      "x_panw_parent_technique_subtechnique": "User Execution: Malicious Link"
     },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--f6ad61ee-65f3-4bd0-a3f5-2f0accb36317",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2018-08-03T19:54:02.821Z",
-      "modified": "2020-07-27T14:54:44.085Z",
+      "created": "2020-03-02T19:24:00.951Z",
+      "modified": "2020-10-18T01:55:02.988Z",
       "name": "T1566.003: Spearphishing via Service",
-      "description": "Adversaries may send spearphishing messages via third-party services in an attempt to elicit sensitive information and/or gain access to victim systems. Spearphishing via service is a specific variant of spearphishing. It is different from other forms of spearphishing in that it employs the use of third party services rather than directly via enterprise email channels. \n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries send messages through various social media services, personal webmail, and other non-enterprise controlled services. These services are more likely to have a less-strict security policy than an enterprise. As with most kinds of spearphishing, the goal is to generate rapport with the target or get the target's interest in some way. Adversaries will create fake social media accounts and message employees for potential job opportunities. Doing so allows a plausible reason for asking about services, policies, and software that's running in an environment. The adversary can then send malicious links or attachments through these services.\n\nA common example is to build rapport with a target via social media, then send content to a personal webmail service that the target uses on their work computer. This allows an adversary to bypass some email restrictions on the work account, and the target is more likely to open the file since it's something they were expecting. If the payload doesn't work as expected, the adversary can continue normal communications and troubleshoot with the target on how to get it working.",
+      "description": "Adversaries may send spearphishing messages via third-party services in an attempt to gain access to victim systems. Spearphishing via service is a specific variant of spearphishing. It is different from other forms of spearphishing in that it employs the use of third party services rather than directly via enterprise email channels. \n\nAll forms of spearphishing are electronically delivered social engineering targeted at a specific individual, company, or industry. In this scenario, adversaries send messages through various social media services, personal webmail, and other non-enterprise controlled services. These services are more likely to have a less-strict security policy than an enterprise. As with most kinds of spearphishing, the goal is to generate rapport with the target or get the target's interest in some way. Adversaries will create fake social media accounts and message employees for potential job opportunities. Doing so allows a plausible reason for asking about services, policies, and software that's running in an environment. The adversary can then send malicious links or attachments through these services.\n\nA common example is to build rapport with a target via social media, then send content to a personal webmail service that the target uses on their work computer. This allows an adversary to bypass some email restrictions on the work account, and the target is more likely to open the file since it's something they were expecting. If the payload doesn't work as expected, the adversary can continue normal communications and troubleshoot with the target on how to get it working.",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -310,33 +318,34 @@
       ],
       "external_references": [
         {
-          "source_name": "capec",
-          "url": "https://capec.mitre.org/data/definitions/163.html",
-          "external_id": "CAPEC-163"
-        },
-        {
           "source_name": "mitre-attack",
           "url": "https://attack.mitre.org/techniques/T1566/003",
           "external_id": "T1566.003"
+        },
+        {
+          "source_name": "capec",
+          "url": "https://capec.mitre.org/data/definitions/163.html",
+          "external_id": "CAPEC-163"
         }
       ],
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203) or usage of malicious scripts."
-      ],
+      "x_mitre_detection": "Because most common third-party services used for spearphishing via service leverage TLS encryption, SSL/TLS inspection is generally required to detect the initial communication/delivery. With SSL/TLS inspection intrusion detection signatures or other security gateway appliances may be able to detect malware. \n\nAnti-virus can potentially detect malicious documents and files that are downloaded on the user's computer. Endpoint sensing or network sensing can potentially detect malicious events once the file is opened (such as a Microsoft Word document or PDF reaching out to the internet or spawning Powershell.exe) for techniques such as [Exploitation for Client Execution](https://attack.mitre.org/techniques/T1203) or usage of malicious scripts.",
       "x_mitre_platforms": [
         "Linux",
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Anti-virus",
-        "SSL/TLS inspection",
-        "Web proxy"
+        "Application Log: Application Log Content",
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_version": "2.0",
+      "x_panw_parent_technique": "Phishing",
+      "x_panw_parent_technique_subtechnique": "Phishing: Spearphishing via Service"
     },
     {
       "type": "course-of-action",
@@ -374,22 +383,22 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
       "type": "course-of-action",
       "id": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
-      "name": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "name": "Ensure that URL Filtering uses the action of \u201cblock\u201d or \u201coverride\u201d on the <enterprise approved value> URL categories",
       "created": "2020-06-23T19:50:31.722Z",
       "modified": "2020-06-26T13:02:55.804Z",
-      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization\u2014such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
       "x_panw_coa_bp_section_number": "6",
       "x_panw_coa_bp_recommendation_number": "6.10",
-      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of \u201cblock\u201d or \u201coverride\u201d on the <enterprise approved value> URL categories",
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
-      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization\u2014such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
       "x_panw_coa_bp_rationale_statement": "Certain URL categories pose a technology-centric threat, such as command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Users visiting websites in these categories, many times unintentionally, are at greater risk of compromising the security of their system. Other categories, such as adult, may pose a legal liability and will be blocked for those reasons.",
       "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nSet a URL filter so that all URL categories designated by the organization are listed.\nNavigate to the `Actions` tab. \nSet the action to `Block`.",
       "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that all URL categories designated by the organization are listed, and the action is set to `Block`.",
@@ -398,7 +407,7 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - Security Profiles\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:\u201cPAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
@@ -447,19 +456,19 @@
         "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
       ]
     },
     {
       "type": "course-of-action",
       "id": "course-of-action--66779efa-ecc3-4e80-91b9-c584b171ebe6",
-      "name": "Ensure that User Credential Submission uses the action of “block” or “continue” on the URL categories",
+      "name": "Ensure that User Credential Submission uses the action of \u201cblock\u201d or \u201ccontinue\u201d on the URL categories",
       "created": "2020-06-23T19:50:31.722Z",
       "modified": "2020-06-26T13:02:55.804Z",
       "description": "Ideally user names and passwords user within an organization are not used with third party sites. Some sanctioned SAS applications may have connections to the corporate domain, in which case they will need to be exempt from the user credential submission policy through a custom URL category.",
       "x_panw_coa_bp_section_number": "6",
       "x_panw_coa_bp_recommendation_number": "6.20",
-      "x_panw_coa_bp_title": "Ensure that User Credential Submission uses the action of “block” or “continue” on the URL categories",
+      "x_panw_coa_bp_title": "Ensure that User Credential Submission uses the action of \u201cblock\u201d or \u201ccontinue\u201d on the URL categories",
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
       "x_panw_coa_bp_description": "Ideally user names and passwords user within an organization are not used with third party sites. Some sanctioned SAS applications may have connections to the corporate domain, in which case they will need to be exempt from the user credential submission policy through a custom URL category.",
@@ -468,7 +477,7 @@
       "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nChoose the `Categories` tab. Verify that the `User Credential Submitting` action on all enabled URL categories is set to either `block` or `continue`.\n\nUnder the `User Credential Detection` tab ensure the `User Credential Detection` is set to a value appropriate to your organization, and is not set to `Disabled`. Verify that the `Log Severity` value is set to a value appropriate to your organization and your logging or SIEM solution.",
       "x_panw_coa_bp_impact_statement": "Not preventing users from submitting their corporate credentials to the Internet can leave them open to phishing attacks or allow for credential reuse on unauthorized sites. Using internal email accounts provides malicious actors with intelligence information, which can be used for phishing, credential stuffing and other attacks. Using internal passwords will often provide authenticated access directly to sensitive information. Not only that, but a pattern of credential re-use can expose personal information from multiple online sources.",
       "x_panw_coa_bp_cis_controls": [
-        "TITLE:Email and Web Browser Protections CONTROL:v7 7 DESCRIPTION:Email and Web Browser Protections;TITLE:Profile User Account Usage And Monitor For Anomalies CONTROL:v6 16.10 DESCRIPTION:Profile each user’s typical account usage by determining normal time-of-day access and access duration. Reports should be generated that indicate users who have logged in during unusual hours or have exceeded their normal login duration. This includes flagging the use of the user’s credentials from a computer other than computers on which the user generally works.;"
+        "TITLE:Email and Web Browser Protections CONTROL:v7 7 DESCRIPTION:Email and Web Browser Protections;TITLE:Profile User Account Usage And Monitor For Anomalies CONTROL:v6 16.10 DESCRIPTION:Profile each user\u2019s typical account usage by determining normal time-of-day access and access duration. Reports should be generated that indicate users who have logged in during unusual hours or have exceeded their normal login duration. This includes flagging the use of the user\u2019s credentials from a computer other than computers on which the user generally works.;"
       ],
       "x_panw_coa_bp_references": [
         "PAN OS 9.0 Admin Guide - URL Filtering / User Credential Detection: https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-web-interface-help/objects/objects-security-profiles-url-filtering/user-credential-detection.html#"
@@ -535,7 +544,7 @@
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
       "x_panw_coa_bp_description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
-      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user’s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
+      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user\u2019s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
       "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nSet the following four settings:\n\n a. `Log container page only` box is un-checked\n\n b. Check the `User-Agent` box\n\n c. Check the `Referer` box\n\n d. Check the `X-Forwarded-For` box",
       "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nVerify these four settings:\n\n a. `Log container page only` box is un-checked\n\n b. `User-Agent` box is checked\n\n c. `Referer` box is checked\n\n d. `X-Forwarded-For` box is checked",
       "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
@@ -543,7 +552,7 @@
         "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
@@ -590,7 +599,7 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {

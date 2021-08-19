@@ -146,8 +146,8 @@
       "type": "attack-pattern",
       "id": "attack-pattern--9c99724c-a483-4d60-ad9d-7f004e42e8e8",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2020-07-27T14:54:34.415Z",
-      "modified": "2020-07-27T14:54:34.415Z",
+      "created": "2020-03-14T22:45:52.963Z",
+      "modified": "2020-03-26T23:26:10.109Z",
       "name": "T1102.003: One-Way Communication",
       "description": "Adversaries may use an existing, legitimate external Web service as a means for sending commands to a compromised system without receiving return output over the Web service channel. Compromised systems may leverage popular websites and social media to host command and control (C2) instructions. Those infected systems may opt to send the output from those commands back over a different C2 channel, including to another distinct Web service. Alternatively, compromised systems may return no output at all in cases where adversaries want to send instructions to systems and do not want a response.\n\nPopular websites and social media acting as a mechanism for C2 may give a significant amount of cover due to the likelihood that hosts within a network are already communicating with them prior to a compromise. Using common services, such as those offered by Google or Twitter, makes it easier for adversaries to hide in expected noise. Web service providers commonly use SSL/TLS encryption, giving adversaries an added level of protection.",
       "kill_chain_phases": [
@@ -175,32 +175,31 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Host data that can relate unknown or suspicious process activity using a network connection is important to supplement any existing indicators of compromise based on malware command and control signatures and infrastructure or the presence of strong encryption. Packet capture analysis will require SSL/TLS inspection if data is encrypted. Analyze network data for uncommon data flows. User behavior monitoring may help to detect abnormal patterns of activity.(Citation: University of Birmingham C2)"
-      ],
+      "x_mitre_detection": "Host data that can relate unknown or suspicious process activity using a network connection is important to supplement any existing indicators of compromise based on malware command and control signatures and infrastructure or the presence of strong encryption. Packet capture analysis will require SSL/TLS inspection if data is encrypted. Analyze network data for uncommon data flows. User behavior monitoring may help to detect abnormal patterns of activity.(Citation: University of Birmingham C2)",
       "x_mitre_platforms": [
         "Linux",
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Host network interface",
-        "Netflow/Enclave netflow",
-        "Network protocol analysis",
-        "Packet capture",
-        "SSL/TLS inspection"
+        "Network Traffic: Network Connection Creation",
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
       ],
+      "x_mitre_is_subtechnique": true,
       "x_mitre_permissions_required": [
         "User"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_version": "1.0",
+      "x_panw_parent_technique": "Web Service",
+      "x_panw_parent_technique_subtechnique": "Web Service: One-Way Communication"
     },
     {
       "type": "attack-pattern",
       "id": "attack-pattern--d742a578-d70e-4d0e-96a6-02a9c30204e6",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2018-12-17T14:33:52.372Z",
-      "modified": "2020-07-27T14:54:38.428Z",
+      "created": "2018-04-18T17:59:24.739Z",
+      "modified": "2020-03-29T23:48:15.056Z",
       "name": "T1189: Drive-by Compromise",
       "description": "Adversaries may gain access to a system through a user visiting a website over the normal course of browsing. With this technique, the user's web browser is typically targeted for exploitation, but adversaries may also use compromised websites for non-exploitation behavior such as acquiring [Application Access Token](https://attack.mitre.org/techniques/T1550/001).\n\nMultiple ways of delivering exploit code to a browser exist, including:\n\n* A legitimate website is compromised where adversaries have injected some form of malicious code such as JavaScript, iFrames, and cross-site scripting.\n* Malicious ads are paid for and served through legitimate ad providers.\n* Built-in web application interfaces are leveraged for the insertion of any other kind of object that can be used to display web content or contain a script that executes on the visiting client (e.g. forum posts, comments, and other user controllable web content).\n\nOften the website used by an adversary is one visited by a specific community, such as government, a particular industry, or region, where the goal is to compromise a specific user or set of users based on a shared interest. This kind of targeted attack is referred to a strategic web compromise or watering hole attack. There are several known examples of this occurring.(Citation: Shadowserver Strategic Web Compromise)\n\nTypical drive-by compromise process:\n\n1. A user visits a website that is used to host the adversary controlled content.\n2. Scripts automatically execute, typically searching versions of the browser and plugins for a potentially vulnerable version. \n    * The user may be required to assist in this process by enabling scripting or active website components and ignoring warning dialog boxes.\n3. Upon finding a vulnerable version, exploit code is delivered to the browser.\n4. If exploitation is successful, then it will give the adversary code execution on the user's system unless other protections are in place.\n    * In some cases a second visit to the website after the initial scan is required before exploit code is delivered.\n\nUnlike [Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190), the focus of this technique is to exploit software on a client endpoint upon visiting a website. This will commonly give an adversary access to systems on the internal network instead of external systems that may be in a DMZ.\n\nAdversaries may also use compromised websites to deliver a user to a malicious application designed to [Steal Application Access Token](https://attack.mitre.org/techniques/T1528)s, like OAuth tokens, to gain access to protected applications and information. These malicious applications have been delivered through popups on legitimate websites.(Citation: Volexity OceanLotus Nov 2017)",
       "kill_chain_phases": [
@@ -222,7 +221,7 @@
         {
           "source_name": "Shadowserver Strategic Web Compromise",
           "url": "http://blog.shadowserver.org/2012/05/15/cyber-espionage-strategic-web-compromises-trusted-websites-serving-dangerous-results/",
-          "description": "Adair, S., Moran, N. (2012, May 15). Cyber Espionage & Strategic Web Compromises – Trusted Websites Serving Dangerous Results. Retrieved March 13, 2018."
+          "description": "Adair, S., Moran, N. (2012, May 15). Cyber Espionage & Strategic Web Compromises \u2013 Trusted Websites Serving Dangerous Results. Retrieved March 13, 2018."
         },
         {
           "source_name": "Volexity OceanLotus Nov 2017",
@@ -233,23 +232,21 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Firewalls and proxies can inspect URLs for potentially known-bad domains or parameters. They can also do reputation-based analytics on websites and their requested resources such as how old a domain is, who it's registered to, if it's on a known bad list, or how many other users have connected to it before.\n\nNetwork intrusion detection systems, sometimes with SSL/TLS MITM inspection, can be used to look for known malicious scripts (recon, heap spray, and browser identification scripts have been frequently reused), common script obfuscation, and exploit code.\n\nDetecting compromise based on the drive-by exploit from a legitimate website may be difficult. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of browser processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/techniques/T1055) for attempts to hide execution, evidence of Discovery, or other unusual network traffic that may indicate additional tools transferred to the system."
-      ],
+      "x_mitre_detection": "Firewalls and proxies can inspect URLs for potentially known-bad domains or parameters. They can also do reputation-based analytics on websites and their requested resources such as how old a domain is, who it's registered to, if it's on a known bad list, or how many other users have connected to it before.\n\nNetwork intrusion detection systems, sometimes with SSL/TLS MITM inspection, can be used to look for known malicious scripts (recon, heap spray, and browser identification scripts have been frequently reused), common script obfuscation, and exploit code.\n\nDetecting compromise based on the drive-by exploit from a legitimate website may be difficult. Also look for behavior on the endpoint system that might indicate successful compromise, such as abnormal behavior of browser processes. This could include suspicious files written to disk, evidence of [Process Injection](https://attack.mitre.org/techniques/T1055) for attempts to hide execution, evidence of Discovery, or other unusual network traffic that may indicate additional tools transferred to the system.",
       "x_mitre_platforms": [
         "Linux",
+        "macOS",
         "SaaS",
-        "Windows",
-        "macOS"
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Network device logs",
-        "Network intrusion detection system",
-        "Packet capture",
-        "Process use of network",
-        "SSL/TLS inspection",
-        "Web proxy"
+        "Application Log: Application Log Content",
+        "File: File Creation",
+        "Network Traffic: Network Connection Creation",
+        "Network Traffic: Network Traffic Content",
+        "Process: Process Creation"
       ],
+      "x_mitre_is_subtechnique": false,
       "x_mitre_permissions_required": [
         "User"
       ],
@@ -263,10 +260,10 @@
       "type": "attack-pattern",
       "id": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161",
       "created_by_ref": "identity--c78cb6e5-0c4b-4611-8297-d1b8b55e40b5",
-      "created": "2020-07-27T14:54:34.130Z",
-      "modified": "2020-07-27T14:54:34.130Z",
+      "created": "2020-03-15T16:13:46.151Z",
+      "modified": "2020-03-26T20:15:35.821Z",
       "name": "T1071.001: Web Protocols",
-      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic.",
+      "description": "Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server. \n\nProtocols such as HTTP and HTTPS that carry web traffic may be very common in environments. HTTP/S packets have many fields and headers in which data can be concealed. An adversary may abuse these protocols to communicate with systems under their control within a victim network while also mimicking normal, expected traffic. ",
       "kill_chain_phases": [
         {
           "kill_chain_name": "lockheed",
@@ -292,22 +289,20 @@
       "object_marking_refs": [
         "marking-definition--fa42a846-8d90-4e51-bc29-71d5b4802168"
       ],
-      "x_mitre_detection": [
-        "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. "
-      ],
+      "x_mitre_detection": "Analyze network data for uncommon data flows (e.g., a client sending significantly more data than it receives from a server). Processes utilizing the network that do not normally have network communication or have never been seen before are suspicious. Analyze packet contents to detect application layer protocols that do not follow the expected protocol standards regarding syntax, structure, or any other variable adversaries could leverage to conceal data.(Citation: University of Birmingham C2)\n\nMonitor for web traffic to/from known-bad or suspicious domains. ",
       "x_mitre_platforms": [
         "Linux",
-        "Windows",
-        "macOS"
+        "macOS",
+        "Windows"
       ],
       "x_mitre_data_sources": [
-        "Netflow/Enclave netflow",
-        "Network protocol analysis",
-        "Packet capture",
-        "Process monitoring",
-        "Process use of network"
+        "Network Traffic: Network Traffic Content",
+        "Network Traffic: Network Traffic Flow"
       ],
-      "x_mitre_version": "1.0"
+      "x_mitre_is_subtechnique": true,
+      "x_mitre_version": "1.0",
+      "x_panw_parent_technique": "Application Layer Protocol",
+      "x_panw_parent_technique_subtechnique": "Application Layer Protocol: Web Protocols"
     },
     {
       "type": "course-of-action",
@@ -338,7 +333,7 @@
         "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;TITLE:Deploy Network-Based Intrusion Prevention Systems CONTROL:v7 12.7 DESCRIPTION:Deploy network-based Intrusion Prevention Systems (IPS) to block malicious network traffic at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;"
       ],
       "x_panw_coa_bp_references": [
-        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+        "\u201cThreat Prevention Deployment Tech Note\u201d - https://live.paloaltonetworks.com/docs/DOC-3094:\u201cPAN-OS Administrator's Guide 9.0 (English) - Security Profiles\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
       ]
     },
     {
@@ -362,22 +357,22 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
       "type": "course-of-action",
       "id": "course-of-action--2fd9769c-5e50-4528-985f-a1d117329991",
-      "name": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "name": "Ensure that URL Filtering uses the action of \u201cblock\u201d or \u201coverride\u201d on the <enterprise approved value> URL categories",
       "created": "2020-06-23T19:50:31.722Z",
       "modified": "2020-06-26T13:02:55.804Z",
-      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization\u2014such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
       "x_panw_coa_bp_section_number": "6",
       "x_panw_coa_bp_recommendation_number": "6.10",
-      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of “block” or “override” on the <enterprise approved value> URL categories",
+      "x_panw_coa_bp_title": "Ensure that URL Filtering uses the action of \u201cblock\u201d or \u201coverride\u201d on the <enterprise approved value> URL categories",
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
-      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization—such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
+      "x_panw_coa_bp_description": "Ideally, deciding which URL categories to block, and which to allow, is a joint effort between IT and another entity of authority within an organization\u2014such as the legal department or administration. For most organizations, blocking or requiring an override on the following categories represents a minimum baseline: adult, hacking, command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Some organizations may add 'unknown' and 'dynamic-dns' to this list, at the expense of some support calls on those topics.",
       "x_panw_coa_bp_rationale_statement": "Certain URL categories pose a technology-centric threat, such as command-and-control, copyright-infringement, extremism, malware, phishing, proxy-avoidance-and-anonymizers, and parked. Users visiting websites in these categories, many times unintentionally, are at greater risk of compromising the security of their system. Other categories, such as adult, may pose a legal liability and will be blocked for those reasons.",
       "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nSet a URL filter so that all URL categories designated by the organization are listed.\nNavigate to the `Actions` tab. \nSet the action to `Block`.",
       "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering`.\n\nVerify that all URL categories designated by the organization are listed, and the action is set to `Block`.",
@@ -386,7 +381,7 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:“PAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - Security Profiles\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html:\u201cPAN-OS Admin Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
@@ -421,13 +416,13 @@
       "name": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
       "created": "2020-06-23T19:50:31.722Z",
       "modified": "2020-06-26T19:00:11.067Z",
-      "description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN\u2019s \u201cThreat Prevention Deployment Tech Note\u201d in the references section.",
       "x_panw_coa_bp_section_number": "6",
       "x_panw_coa_bp_recommendation_number": "6.8",
       "x_panw_coa_bp_title": "Ensure a secure Vulnerability Protection Profile is applied to all security rules allowing traffic",
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
-      "x_panw_coa_bp_description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN’s “Threat Prevention Deployment Tech Note” in the references section.",
+      "x_panw_coa_bp_description": "For any security rule allowing traffic, apply a securely configured Vulnerability Protection Profile. Careful analysis of the target environment should be performed before implementing this configuration, as outlined by PAN\u2019s \u201cThreat Prevention Deployment Tech Note\u201d in the references section.",
       "x_panw_coa_bp_rationale_statement": "A Vulnerability Protection Profile helps to protect assets by alerting on, or blocking network attacks. By applying a secure Vulnerability Protection Profile to all security rules permitting traffic, all network traffic traversing the firewall will be inspected for attacks. This protects both organizational assets from attack and organizational reputation from damage.\n\nNote that encrypted sessions do not allow for complete inspection.",
       "x_panw_coa_bp_remediation_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nSet it to use either the 'Strict' or the 'Default' profile, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
       "x_panw_coa_bp_audit_procedure": "Navigate to `Policies > Security`.\n\nFor each Policy, under the `Actions` tab, select `Vulnerability Protection`.\n\nVerify either the 'Strict' or the 'Default' profile is selected, or a custom profile that complies with the organization's policies, legal and regulatory requirements.",
@@ -436,7 +431,7 @@
         "TITLE:Deploy Network-based Anti-malware Tools CONTROL:v6 8.5 DESCRIPTION:Use network-based anti-malware tools to identify executables in all network traffic and use techniques other than signature-based detection to identify and filter out malicious content before it arrives at the endpoint.;TITLE:Deploy Network-based IDS Sensors on DMZ Systems CONTROL:v6 12.3 DESCRIPTION:Deploy network-based IDS sensors on Internet and extranet DMZ systems and networks that look for unusual attack mechanisms and detect compromise of these systems. These network-based IDS sensors may detect attacks through the use of signatures, network behavior analysis, or other mechanisms to analyze traffic.;TITLE:Deploy Network-based IDS Sensor CONTROL:v7 12.6 DESCRIPTION:Deploy network-based Intrusion Detection Systems (IDS) sensors to look for unusual attack mechanisms and detect compromise of these systems at each of the organization's network boundaries.;TITLE:Malware Defenses CONTROL:v7 8 DESCRIPTION:Malware Defenses;TITLE:Deploy Network-based IPS Devices To Complement IDS Sensors CONTROL:v6 12.4 DESCRIPTION:Network-based IPS devices should be deployed to complement IDS by blocking known bad signatures or the behavior of potential attacks. As attacks become automated, methods such as IDS typically delay the amount of time it takes for someone to react to an attack. A properly configured network-based IPS can provide automation to block bad traffic. When evaluating network-based IPS products, include those using techniques other than signature-based detection (such as virtual machine or sandbox-based approaches) for consideration.;"
       ],
       "x_panw_coa_bp_references": [
-        "“Threat Prevention Deployment Tech Note” - https://live.paloaltonetworks.com/docs/DOC-3094:“PAN-OS Administrator's Guide 9.0 (English) - Security Policies” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-policy.html:“PAN-OS Administrator's Guide 9.0 (English) - Security Profiles” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
+        "\u201cThreat Prevention Deployment Tech Note\u201d - https://live.paloaltonetworks.com/docs/DOC-3094:\u201cPAN-OS Administrator's Guide 9.0 (English) - Security Policies\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-policy.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - Security Profiles\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/policy/security-profiles.html"
       ]
     },
     {
@@ -477,7 +472,7 @@
         "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering” - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html:\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering\u201d - https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering.html"
       ]
     },
     {
@@ -550,7 +545,7 @@
       "x_panw_coa_bp_status": "published",
       "x_panw_coa_bp_scoring_status": "full",
       "x_panw_coa_bp_description": "Enable all options (User-Agent, Referer, and X-Forwarded-For) for HTTP header logging.",
-      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user’s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
+      "x_panw_coa_bp_rationale_statement": "Logging HTTP header information provides additional information in the URL logs, which may be useful during forensic investigations. The User-Agent option logs which browser was used during the web session, which could provide insight to the vector used for malware retrieval. The Referer option logs the source webpage responsible for referring the user to the logged webpage. The X-Forwarded-For option is useful for preserving the user\u2019s source IP address, such as if a user traverses a proxy server prior to the firewall. Un-checking the Log container page only box produces substantially more information about web activity, with the expense of producing far more entries in the URL logs. If this option remains checked, a URL filter log entry showing details of a malicious file download may not exist.",
       "x_panw_coa_bp_remediation_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nSet the following four settings:\n\n a. `Log container page only` box is un-checked\n\n b. Check the `User-Agent` box\n\n c. Check the `Referer` box\n\n d. Check the `X-Forwarded-For` box",
       "x_panw_coa_bp_audit_procedure": "Navigate to `Objects > Security Profiles > URL Filtering > URL Filtering Profile > URL Filtering Settings`.\n\nVerify these four settings:\n\n a. `Log container page only` box is un-checked\n\n b. `User-Agent` box is checked\n\n c. `Referer` box is checked\n\n d. `X-Forwarded-For` box is checked",
       "x_panw_coa_bp_impact_statement": "Not having an effective URL Filtering configuration can leave an organization open to legal action, internal HR issues, non-compliance with regulatory policies or productivity loss.",
@@ -558,7 +553,7 @@
         "TITLE:Log All URL Requests From Systems CONTROL:v6 7.4 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Ensure Network Boundary Devices Log Verbosely CONTROL:v6 6.5 DESCRIPTION:Configure network boundary devices, including firewalls, network-based IPS, and inbound and outbound proxies, to verbosely log all traffic (both allowed and blocked) arriving at the device.;TITLE:Log all URL requests CONTROL:v7 7.6 DESCRIPTION:Log all URL requests from each of the organization's systems, whether onsite or a mobile device, in order to identify potentially malicious activity and assist incident handlers with identifying potentially compromised systems.;TITLE:Activate audit logging CONTROL:v7 6.2 DESCRIPTION:Ensure that local logging has been enabled on all systems and networking devices.;TITLE:Enable Detailed Logging CONTROL:v7 6.3 DESCRIPTION:Enable system logging to include detailed information such as an event source, date, user, timestamp, source addresses, destination addresses, and other useful elements.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
@@ -598,7 +593,7 @@
         "TITLE:Deploy, Use, And Maintain Network-based URL Filters CONTROL:v6 7.6 DESCRIPTION:The organization shall maintain and enforce network based URL filters that limit a system's ability to connect to websites not approved by the organization. The organization shall subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Maintain and Enforce Network-Based URL Filters CONTROL:v7 7.4 DESCRIPTION:Enforce network-based URL filters that limit a system's ability to connect to websites not approved by the organization. This filtering shall be enforced for each of the organization's systems, whether they are physically at an organization's facilities or not.;TITLE:Subscribe to URL-Categorization service CONTROL:v7 7.5 DESCRIPTION:Subscribe to URL categorization services to ensure that they are up-to-date with the most recent website category definitions available. Uncategorized sites shall be blocked by default.;"
       ],
       "x_panw_coa_bp_references": [
-        "“PAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
+        "\u201cPAN-OS Administrator's Guide 9.0 (English) - URL Filtering Best Practices': https://docs.paloaltonetworks.com/pan-os/9-0/pan-os-admin/url-filtering/url-filtering-best-practices.html"
       ]
     },
     {
