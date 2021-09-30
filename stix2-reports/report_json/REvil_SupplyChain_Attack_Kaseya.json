@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+  "id": "bundle--c1d1a6e7-acb6-438f-9de2-8930784d46a4",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+      "id": "report--6f687ab2-e2e7-423c-8839-586189fd27a4",
       "created": "2021-07-03T21:29:13.303Z",
-      "modified": "2021-07-03T22:40:26.935Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign - Kaseya Supply Chain Attack",
       "description": "On July 2, REvil affiliates carried out a supply chain attack against Kaseya, Miami-based developer of software for managed service providers. Kaseya VSA servers was used to deploy ransomware on unsuspecting victims. This was due to an vulnerability found by the threat actors. \n\n",
       "published": "2021-07-03T22:40:26.935Z",

@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--536e88ea-64d4-4bdf-8c36-48e1dc45a710",
+  "id": "bundle--6e1dde0c-66e5-4dc8-a3f9-bd99a9000a13",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--536e88ea-64d4-4bdf-8c36-48e1dc45a710",
+      "id": "report--5341dd11-cd9f-4517-8792-9aed7f10a785",
       "created": "2021-01-29T18:00:38.882Z",
-      "modified": "2021-03-16T15:53:59.779Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign 1 - DoppelPaymer",
       "description": "DopplePaymer is a ransomware family first identified publicly in April 2019. This initial version contained relatively little functionality when compared with later DopplePaymer variants, and actual attacks started being leveraged in June, 2019; implying the actors were testing functionality prior to employing the malware in an attack.\nDopplePaymer is part of a family of ransomware called BitPaymer. DopplePaymer surfaced in April, 2019 and is considered a variant of the BitPaymer family. The actors behind DopplePaymer share some overlap with an actor known as Indrik Spider. DopplePaymer, like many other ransomware families, maintains a data-leak site and social media presence typically including lists of victims and leaked data from compromised victims.",
       "published": "2021-03-16T15:53:59.779Z",

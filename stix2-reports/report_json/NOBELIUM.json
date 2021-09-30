@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--e76f15c5-953f-4c56-98c5-71b093f2df67",
+  "id": "bundle--d97daba0-71cc-42f3-85fc-d26b229ada43",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--e76f15c5-953f-4c56-98c5-71b093f2df67",
+      "id": "report--be3e03e6-6cd7-4c32-9bc5-dd7b19a241b3",
       "created": "2021-05-28T20:34:55.319Z",
-      "modified": "2021-05-28T21:12:07.091Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign 1 - NOBELIUM",
       "description": "Nobelium threat actor started a wide-scale malicious email campaign in January 2021. On May 25, 2021, the campaign escalated as NOBELIUM leveraged the legitimate mass-mailing service, Constant Contact, to masquerade as a US-based development organization and distribute malicious URLs to a wide variety of organizations and industry verticals. ",
       "published": "2021-05-28T21:12:07.091Z",

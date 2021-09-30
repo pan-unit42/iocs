@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--2d6f2672-1830-494b-b2a3-35549d22890d",
+  "id": "bundle--cb6e12d3-bb98-4a70-be30-c02dec8b3d6a",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--2d6f2672-1830-494b-b2a3-35549d22890d",
+      "id": "report--caa68b1e-2bbe-45fb-9a63-9b6b685cde4e",
       "created": "2021-02-22T17:33:07.020Z",
-      "modified": "2021-03-16T16:08:08.388Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign 1 - GandCrab",
       "description": "GandCrab Ransomware was a short lived but prolific ransomware family in its time. It was first observed in January 2018 and was a prevalent threat until May 2019. During that time it had gone through a number of different versions. GandCrab infections were most commonly observed as payloads in malvertizing, spam, and exploit kit attacks. Malvertizing attacks are malicious advertisements that are used to infect victims via a drive-by download. Exploit kits have routinely been used in a similar manner, with a multitude of dropping GandCrab on a victim computer. The most common exploit kits used to distribute GandCrab were Rig and Grandsoft.\nWhat made GandCrab unique was the affiliate program that was used to propagate the malware. This left the distribution of the ransomware to partners who would gather victims and would in turn receive a portion of the profits from ransoms paid. It's been reported that affiliates would receive 30 to 40 percent.",
       "published": "2021-03-16T16:08:08.388Z",

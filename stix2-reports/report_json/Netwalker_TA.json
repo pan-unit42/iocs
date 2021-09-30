@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+  "id": "bundle--2abeb106-8a3c-4741-95d7-9a5cd13e5af2",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "id": "report--9d6a8f5f-75d8-4597-a48c-8762bffe5156",
       "created": "2020-07-28T19:58:16.749Z",
-      "modified": "2021-03-16T15:50:29.797Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign 1 - Netwalker Ransomware Investigation",
       "description": "NetWalker ransomware was first observed in August 2019 and was originally called Mailto by the security community because the encrypted files were changed to a .mailto extension. After analysis of a decryption tool, provided by developers after payment, the true name given by its developers was found to be NetWalker. At the time, it was a commodity threat, meaning it would be distributed via mass spam campaigns not taking into consideration who their victims would be.\nA cybercrime group called Circus Spider, which is believed to be of Russian origin, created this ransomware.\nNetWalker has become a considerable threat to corporate victims in particular due to not only encrypting data but threatening to publicly release sensitive data stolen during encryption.",
       "published": "2021-03-16T15:50:29.797Z",

@@ -1,13 +1,13 @@
 {
   "type": "bundle",
-  "id": "bundle--2c10679c-b308-4823-aaf1-54887a44d6be",
+  "id": "bundle--66ae87c6-0625-431e-ab52-89f2ac8e61b6",
   "spec_version": "2.0",
   "objects": [
     {
       "type": "report",
-      "id": "report--2c10679c-b308-4823-aaf1-54887a44d6be",
+      "id": "report--bce9ad6c-c8c2-4c53-a6f1-96cf0c8b0f67",
       "created": "2021-04-19T18:50:01.617Z",
-      "modified": "2021-04-19T21:56:12.713Z",
+      "modified": "2021-09-30T11:24:10.261Z",
       "name": "Campaign 1 - CodeCov Breach",
       "description": "On April 16th, Codecov, an online platform and software company that provides code testing reports and statics, disclosed that an adversary modified their Bash Uploader tool. This tool allows its customers to send code coverage reports to the Codecov platform for analysis.\nAccording to the CodeCov statement the adversary was focused on data collection. Their investigation concluded that since January 31, the Bash Uploader script was modified to export user information out of the CodeCov infrastructure to the adversary C2. This information could include, but is not limited to credentials, tokens, services, datastores and application code.",
       "published": "2021-04-19T21:56:12.713Z",
