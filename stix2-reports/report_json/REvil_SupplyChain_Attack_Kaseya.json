@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--c1d1a6e7-acb6-438f-9de2-8930784d46a4",
+  "id": "bundle--ca90d5be-174e-46e7-8fd9-ecf484a4a2c9",
   "spec_version": "2.0",
   "objects": [
     {
@@ -58,6 +58,7 @@
         "relationship--1441888c-d527-4e6c-8916-4fb470a6348f",
         "relationship--1dd81d2f-12f7-49e8-8082-9d17621ece30",
         "relationship--2249a7c5-6e76-450f-877b-7557d12a1842",
+        "relationship--24249905-4dd7-4a28-ad2d-b5218cd6ac18",
         "relationship--253367eb-551d-435e-92f0-f11f81a719fa",
         "relationship--2c1bf944-d267-400c-86ad-170e4c14882f",
         "relationship--35fc4e0e-008f-45c8-94c6-d1a40630b543",
@@ -66,6 +67,8 @@
         "relationship--3b08139b-af9b-4599-b9d5-aa19f0d59390",
         "relationship--3f49f221-c134-4951-a87d-7debb88e230f",
         "relationship--3f82387f-4581-4fe4-93cb-b2fb27228bb5",
+        "relationship--47a0196a-9380-429c-8b92-886baaef5c9d",
+        "relationship--4b179f1d-2214-4278-89ee-d43c1f385d71",
         "relationship--511e5815-6908-4ae0-8d36-42bca2bc177f",
         "relationship--5c0641ba-06a5-4a27-8c3f-210016e12092",
         "relationship--6111c56e-fc84-4e1f-a33c-3b4db9cf76d7",
@@ -86,6 +89,7 @@
         "relationship--9f08a6e2-b49d-460d-a6ff-ddc856f6c0e2",
         "relationship--a2954074-7ca6-4bcb-8557-12cedca6c856",
         "relationship--a6e6d30c-0abb-4a86-bb1a-03a0831ed2f4",
+        "relationship--aafb3218-5cc5-47d4-8f8c-dec0bd2a3c19",
         "relationship--ac149068-651e-4f11-9737-01691937d21a",
         "relationship--ac299b7f-3a67-4850-a852-643a0e955205",
         "relationship--ae6b018d-9149-4df5-a69a-f4fb579e6f8d",
@@ -106,6 +110,7 @@
         "relationship--fbc26073-e640-448d-8a08-5954326bf968"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -1151,6 +1156,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--24249905-4dd7-4a28-ad2d-b5218cd6ac18",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+      "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--253367eb-551d-435e-92f0-f11f81a719fa",
       "created": "2021-07-03T21:56:50.113Z",
       "modified": "2021-07-03T22:40:26.937Z",
@@ -1239,6 +1253,24 @@
       "x_panw_coa_u42_panw_product": [
         "Wildfire"
       ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--47a0196a-9380-429c-8b92-886baaef5c9d",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+      "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--4b179f1d-2214-4278-89ee-d43c1f385d71",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+      "target_ref": "attack-pattern--32901740-b42c-4fdd-bc02-345b5dc57082"
     },
     {
       "type": "relationship",
@@ -1453,6 +1485,15 @@
       "x_panw_coa_u42_panw_product": [
         "Wildfire"
       ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--aafb3218-5cc5-47d4-8f8c-dec0bd2a3c19",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1",
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
     },
     {
       "type": "relationship",

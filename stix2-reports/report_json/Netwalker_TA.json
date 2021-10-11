@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--2abeb106-8a3c-4741-95d7-9a5cd13e5af2",
+  "id": "bundle--116667a1-c9af-47b7-8de1-68fe8210cf12",
   "spec_version": "2.0",
   "objects": [
     {
@@ -200,6 +200,7 @@
         "relationship--10b43bc7-5398-4e27-af0d-0f06e5597ab5",
         "relationship--11cbd0e9-f1c4-4fe5-b6bc-cbfaed571a32",
         "relationship--12f06656-19c7-4a0b-aafc-fa164959980c",
+        "relationship--14b6bfb5-eb41-4cbd-aa9f-177fe7bd3305",
         "relationship--15034ff5-a316-45d6-b7bd-fb6d268ef7b2",
         "relationship--15059ac1-9d30-4a89-820f-a468c24a67e1",
         "relationship--15515310-419b-452d-8040-1f59b9443ae1",
@@ -324,6 +325,7 @@
         "relationship--85b2df26-1dfc-4438-bc83-211c9a614b7e",
         "relationship--865d72a0-500a-4e48-a568-17b8edc30ce2",
         "relationship--88209a2b-9eaa-4816-b65c-4948b6cc455e",
+        "relationship--8884eb71-ea92-46f9-afc1-1305c0231052",
         "relationship--89644d8c-0eab-42bd-aeb3-72333804786a",
         "relationship--8a9c32af-84dc-4b27-8f16-d643e09fe948",
         "relationship--8bc0321f-3bd7-4633-8940-63044d5fef74",
@@ -341,6 +343,7 @@
         "relationship--9615416e-6e7a-4740-a723-ffea3e7b1e0e",
         "relationship--9639cfd6-c065-4df8-b100-91074c5f5d9b",
         "relationship--96a53c0a-d692-44ae-9963-9cad23579ec0",
+        "relationship--9744bcaa-c3e3-4734-8709-687ab8247ba5",
         "relationship--9887b4e7-35ae-4dda-9935-8cad8dafe5af",
         "relationship--98c9d518-3ca6-4908-8de6-4d8a2baae9f6",
         "relationship--9a4ddbc7-3b45-48c3-bae6-55ad9f0a017d",
@@ -395,8 +398,10 @@
         "relationship--c62a7356-6f6c-46db-93a5-f818fd65f2c3",
         "relationship--c6a4ad80-6834-4620-9d0e-0834655e38d2",
         "relationship--c6f62940-9350-4456-aa91-dbf3f4357010",
+        "relationship--c74fb70c-4976-41a8-a8d3-71853c145b96",
         "relationship--c7af7cc6-e6a2-4e17-b8b8-d827ec79e2bd",
         "relationship--c808962e-cff8-4fdb-9db8-dc5de8f9dce5",
+        "relationship--c93d4bb4-15d3-49bc-b7fb-934e21aae8b6",
         "relationship--ca49a799-3db5-41e7-b529-d3f3442ab388",
         "relationship--cb5809e7-f7ad-4052-a335-253d10e7c87b",
         "relationship--cdf15b0c-1fab-4251-b711-30e43601d6d1",
@@ -450,6 +455,7 @@
         "relationship--f4526700-c729-48fa-9226-23bbc1b2b29d",
         "relationship--f47d37fd-f5fe-4536-af21-d6ab9573f894",
         "relationship--f4a3286a-e9db-416e-85bc-c39b1b03af31",
+        "relationship--f53c617e-c1d5-4822-886e-c3de65fb7739",
         "relationship--f54d0c01-7efb-4666-aad5-704ef25288d0",
         "relationship--f5bd5d5d-f4c8-4d49-a5eb-ff6c98c72821",
         "relationship--f60baed1-20ea-4da0-8498-afa23e275a27",
@@ -465,6 +471,7 @@
         "relationship--febf391a-1d95-4d2d-83d6-876b2a7529a8"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -4397,6 +4404,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--14b6bfb5-eb41-4cbd-aa9f-177fe7bd3305",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--970a3432-3237-47ad-bcca-7d8cbb217736"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--15034ff5-a316-45d6-b7bd-fb6d268ef7b2",
       "created": "2021-02-17T21:00:44.973Z",
       "modified": "2021-03-16T15:50:29.803Z",
@@ -5050,7 +5066,10 @@
       "modified": "2020-09-04T13:59:35.889Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--6e7fd69d-8042-45eb-a459-16ef3160080d",
-      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",
@@ -5616,7 +5635,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -5712,6 +5734,15 @@
       "x_panw_coa_u42_panw_product": [
         "Threat Prevention"
       ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--8884eb71-ea92-46f9-afc1-1305c0231052",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--dfd7cc1d-e1d8-4394-a198-97c4cab8aa67"
     },
     {
       "type": "relationship",
@@ -5885,6 +5916,15 @@
       "relationship_type": "uses",
       "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
       "target_ref": "attack-pattern--3489cfc5-640f-4bb3-a103-9137b97de79f"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--9744bcaa-c3e3-4734-8709-687ab8247ba5",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--9efb1ea7-c37b-4595-9640-b7680cd84279"
     },
     {
       "type": "relationship",
@@ -6455,6 +6495,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--c74fb70c-4976-41a8-a8d3-71853c145b96",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--c7af7cc6-e6a2-4e17-b8b8-d827ec79e2bd",
       "created": "2020-07-27T14:54:55.988Z",
       "modified": "2021-01-06T19:13:06.736Z",
@@ -6473,6 +6522,15 @@
       "relationship_type": "indicates",
       "source_ref": "indicator--f741a88e-17c2-4576-a6fc-681a72c69a5b",
       "target_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--c93d4bb4-15d3-49bc-b7fb-934e21aae8b6",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
     },
     {
       "type": "relationship",
@@ -6829,7 +6887,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -7014,7 +7075,19 @@
       "modified": "2020-09-04T13:59:35.896Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
-      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--f53c617e-c1d5-4822-886e-c3de65fb7739",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--1df5f8e6-9a29-49ce-8946-884d3093fcc9",
+      "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
     },
     {
       "type": "relationship",

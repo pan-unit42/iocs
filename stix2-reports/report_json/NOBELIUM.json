@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--d97daba0-71cc-42f3-85fc-d26b229ada43",
+  "id": "bundle--9b7d1a5e-005f-49f4-8d37-4581ad3e85f2",
   "spec_version": "2.0",
   "objects": [
     {
@@ -113,9 +113,11 @@
         "relationship--f91c331e-515f-40d3-8538-25270c34adc8",
         "relationship--fb470946-bb6c-4b44-8b12-3719b44be6a0",
         "relationship--fba8fd84-651b-405a-baee-1671860b550d",
-        "relationship--fc691593-88f4-4000-a685-8ff825b6d500"
+        "relationship--fc691593-88f4-4000-a685-8ff825b6d500",
+        "relationship--fe9772f9-2dc1-4629-9c5f-555ac444d141"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -1442,6 +1444,15 @@
       "relationship_type": "uses",
       "description": "refreshauthtoken-default-rtdb.firebaseio.com",
       "source_ref": "indicator--cbcef1e9-cb30-4959-bd2d-15c8a7018734",
+      "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--fe9772f9-2dc1-4629-9c5f-555ac444d141",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--e76f15c5-953f-4c56-98c5-71b093f2df67",
       "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
     }
   ]

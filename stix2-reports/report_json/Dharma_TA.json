@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--5cca2424-2095-4f86-ac5f-1c7893aa2aad",
+  "id": "bundle--9a3ab0be-b51e-43d2-b94c-0acf22bc809c",
   "spec_version": "2.0",
   "objects": [
     {
@@ -107,6 +107,7 @@
         "indicator--e3cebf0d-f76a-47da-806f-8d6c7cae3633",
         "indicator--e89066e0-469f-419c-86b2-2ee26e4eb77d",
         "indicator--f2e5ef05-7c10-4c3e-b148-857b50dfd587",
+        "relationship--03074ce2-948b-4e31-a463-603103c77a90",
         "relationship--042f6a61-7bdf-436e-8a0f-14c1ffafcbb1",
         "relationship--05a73ed5-fcb3-4d6d-a474-94514beda5ba",
         "relationship--05dfd906-3b56-48f2-a26c-38ae3d1bc473",
@@ -218,6 +219,7 @@
         "relationship--fc9cebd7-c794-41bb-a513-dc289ea07905"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -2457,6 +2459,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--03074ce2-948b-4e31-a463-603103c77a90",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--4ec01e92-59b1-47b9-b5da-bd7ed6e45319",
+      "target_ref": "attack-pattern--d1fcf083-a721-4223-aedf-bf8960798d62"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--042f6a61-7bdf-436e-8a0f-14c1ffafcbb1",
       "created": "2021-02-19T17:24:57.683Z",
       "modified": "2021-03-16T16:03:33.682Z",
@@ -2759,7 +2770,10 @@
       "modified": "2020-09-04T13:59:35.889Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--6e7fd69d-8042-45eb-a459-16ef3160080d",
-      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",
@@ -2942,7 +2956,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -3419,7 +3436,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -3497,7 +3517,10 @@
       "modified": "2020-09-04T13:59:35.896Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
-      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",

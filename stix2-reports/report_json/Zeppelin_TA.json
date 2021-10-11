@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--b8ecc308-263d-4f63-88e7-8a93fd03ccb9",
+  "id": "bundle--d81d972e-b45e-4869-b8da-b7047193ac6e",
   "spec_version": "2.0",
   "objects": [
     {
@@ -100,6 +100,7 @@
         "relationship--3dd63bb0-3f46-4838-894c-7f256290ced0",
         "relationship--3e7d830d-8acc-4c71-9592-72e75c537c61",
         "relationship--406f16d7-17ac-4736-be4c-481a56e43d9c",
+        "relationship--45835e97-ed89-439a-8479-ed2fdc0c3010",
         "relationship--45ef6ecc-e1b6-4b37-a9e4-0d32e04bbe96",
         "relationship--470c322a-59d2-4659-8d15-58a73ec8353d",
         "relationship--48e7a7ba-fb8e-4fb9-ac16-dcb340b99348",
@@ -120,10 +121,12 @@
         "relationship--635b3108-3a0c-4a87-b7f7-e86001697648",
         "relationship--6507380a-dc6f-4fc9-8899-4fb862232a6a",
         "relationship--6b26a014-5d81-4543-9da1-c7f37ef3466c",
+        "relationship--6d427cc5-6665-483c-be4b-cafa359620de",
         "relationship--6d97adf0-38ab-4670-af66-f84620c594f8",
         "relationship--6f7aab85-83a4-4090-b267-2991ab88e4ce",
         "relationship--70afeac7-656e-429c-9144-cb7704a8f4a8",
         "relationship--722b5800-9de5-4896-9872-cb1967b36897",
+        "relationship--775a2160-a49c-410a-ab15-f627a0f32092",
         "relationship--808021d7-e082-4761-b3d3-480376cff3b1",
         "relationship--8560536b-905c-41ed-953a-538e196d1adb",
         "relationship--85b2df26-1dfc-4438-bc83-211c9a614b7e",
@@ -167,6 +170,7 @@
         "relationship--fb7be05a-450b-4cf9-b219-7d16fa5380f0"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -1629,6 +1633,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--45835e97-ed89-439a-8479-ed2fdc0c3010",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--75478d66-3f26-423b-9d03-8ca1fbe1c6ad",
+      "target_ref": "attack-pattern--df8b2a25-8bdf-4856-953c-a04372b1c161"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--45ef6ecc-e1b6-4b37-a9e4-0d32e04bbe96",
       "created": "2020-06-23T19:50:42.481Z",
       "modified": "2020-12-17T01:20:35.148Z",
@@ -1667,7 +1680,10 @@
       "modified": "2020-09-04T13:59:35.889Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--6e7fd69d-8042-45eb-a459-16ef3160080d",
-      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",
@@ -1840,6 +1856,15 @@
     },
     {
       "type": "relationship",
+      "id": "relationship--6d427cc5-6665-483c-be4b-cafa359620de",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--75478d66-3f26-423b-9d03-8ca1fbe1c6ad",
+      "target_ref": "attack-pattern--deb98323-e13f-4b0c-8d94-175379069062"
+    },
+    {
+      "type": "relationship",
       "id": "relationship--6d97adf0-38ab-4670-af66-f84620c594f8",
       "created": "2021-02-17T21:11:06.315Z",
       "modified": "2021-03-16T15:57:10.612Z",
@@ -1873,6 +1898,15 @@
       "relationship_type": "indicates",
       "source_ref": "indicator--22f64385-f808-4f89-a573-7ffed83b4626",
       "target_ref": "campaign--75478d66-3f26-423b-9d03-8ca1fbe1c6ad"
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--775a2160-a49c-410a-ab15-f627a0f32092",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--75478d66-3f26-423b-9d03-8ca1fbe1c6ad",
+      "target_ref": "attack-pattern--57340c81-c025-4189-8fa0-fc7ede51bae4"
     },
     {
       "type": "relationship",
@@ -2285,7 +2319,10 @@
       "modified": "2020-09-04T13:59:35.896Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
-      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",

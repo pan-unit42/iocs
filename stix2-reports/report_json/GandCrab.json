@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--cb6e12d3-bb98-4a70-be30-c02dec8b3d6a",
+  "id": "bundle--89f10a71-8e87-4529-b5ae-e55837001b62",
   "spec_version": "2.0",
   "objects": [
     {
@@ -199,6 +199,7 @@
         "relationship--fa010200-b6d9-4bd3-80bb-374b89d14124"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -2499,7 +2500,10 @@
       "modified": "2020-09-04T13:59:35.889Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--6e7fd69d-8042-45eb-a459-16ef3160080d",
-      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",
@@ -2673,7 +2677,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -2985,7 +2992,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -3066,7 +3076,10 @@
       "modified": "2020-09-04T13:59:35.896Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
-      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",

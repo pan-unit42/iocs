@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--0ef5c6f6-090c-4638-af93-83ed02082b5d",
+  "id": "bundle--536b7c9b-4125-4f22-9272-76065bf42c5e",
   "spec_version": "2.0",
   "objects": [
     {
@@ -226,6 +226,7 @@
         "relationship--e6a3372e-a365-4fe6-a343-496e4232ee9b"
       ],
       "labels": [
+        "atom-report",
         "intrusion-set"
       ]
     },
@@ -2910,7 +2911,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--0e6326f9-f619-438d-a0da-fe6b1d3b436b",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     },
     {
       "type": "relationship",
@@ -2967,7 +2971,10 @@
       "modified": "2020-09-04T13:59:35.890Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--9f39b252-d548-4657-9426-28b6c25d53ed",
-      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579"
+      "target_ref": "attack-pattern--ac08589e-ee59-4935-8667-d845e38fe579",
+      "x_panw_coa_u42_panw_product": [
+        "Cortex XDR Prevent"
+      ]
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--ee37acd2-877d-4967-ae2d-b1463095f5f1",
+  "id": "bundle--6a00c314-8a90-44a9-83f7-af5deee2fddf",
   "spec_version": "2.0",
   "objects": [
     {
@@ -105,6 +105,7 @@
         "relationship--ffbb8d39-968a-4a60-b945-44ba98b1d276"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -1241,7 +1242,10 @@
       "modified": "2020-09-04T13:59:35.889Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--6e7fd69d-8042-45eb-a459-16ef3160080d",
-      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a"
+      "target_ref": "attack-pattern--f5d8eed6-48a9-4cdf-a3d7-d1ffa99c3d2a",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",
@@ -1583,7 +1587,10 @@
       "modified": "2020-09-04T13:59:35.896Z",
       "relationship_type": "mitigates",
       "source_ref": "course-of-action--ee3e1dca-24ea-48a8-825a-e2d2c4b916d9",
-      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0"
+      "target_ref": "attack-pattern--b80d107d-fa0d-4b60-9684-b0433e8bdba0",
+      "x_panw_coa_u42_panw_product": [
+        "XSOAR"
+      ]
     },
     {
       "type": "relationship",

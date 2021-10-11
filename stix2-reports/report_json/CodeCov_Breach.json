@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--66ae87c6-0625-431e-ab52-89f2ac8e61b6",
+  "id": "bundle--aa97a523-742c-4349-80c7-4a58b4817d1e",
   "spec_version": "2.0",
   "objects": [
     {
@@ -27,6 +27,7 @@
         "indicator--17e7e6bc-88ea-4db1-af4d-e098194e7df7",
         "indicator--527c2226-86e8-4b6a-a36b-1d6f865e52a7",
         "indicator--c457a384-e12b-47fe-aeb2-900c0de2a2dd",
+        "relationship--04c6cb8a-4b73-40b4-b831-282e817332f4",
         "relationship--1441888c-d527-4e6c-8916-4fb470a6348f",
         "relationship--1dd81d2f-12f7-49e8-8082-9d17621ece30",
         "relationship--39e06710-c579-423a-8eb2-5ade88fce2c7",
@@ -43,6 +44,7 @@
         "relationship--f31f62ce-591a-4cdc-867c-80abd1449505"
       ],
       "labels": [
+        "atom-report",
         "campaign"
       ]
     },
@@ -301,6 +303,15 @@
       "labels": [
         "malicious-activity"
       ]
+    },
+    {
+      "type": "relationship",
+      "id": "relationship--04c6cb8a-4b73-40b4-b831-282e817332f4",
+      "created": "2021-10-11T10:41:14.898Z",
+      "modified": "2021-10-11T10:41:14.898Z",
+      "relationship_type": "uses",
+      "source_ref": "campaign--2c10679c-b308-4823-aaf1-54887a44d6be",
+      "target_ref": "attack-pattern--3f18edba-28f4-4bb9-82c3-8aa60dcac5f7"
     },
     {
       "type": "relationship",

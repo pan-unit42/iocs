@@ -1,6 +1,6 @@
 {
   "type": "bundle",
-  "id": "bundle--9b98c5f7-decc-43d0-a015-b7f9fee1ac54",
+  "id": "bundle--f3d9996b-8de8-478b-9cc3-b0f201edcdce",
   "spec_version": "2.0",
   "objects": [
     {
@@ -210,6 +210,7 @@
         "relationship--fef6f410-1d0b-4cf0-8b94-1f2ac468c05f"
       ],
       "labels": [
+        "atom-report",
         "intrusion-set"
       ]
     },
