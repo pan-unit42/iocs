@@ -23,5 +23,6 @@
     {"id": "report--410011c0-89d0-407e-83cc-ad2262fd67b4", "rp_file": "matanbuchus-loader.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "MATANBUCHUS LOADER", "industries": [], "regions": [], "malwares": []},
     {"id": "report--c2d24ad5-10c7-4073-a0e3-a82f78fe7bb1", "rp_file": "REvil_SupplyChain_Attack_Kaseya.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "Kaseya Supply Chain Attack", "industries": [], "regions": [], "malwares": []},
     {"id": "report--96b10fc1-1103-49a8-8e62-b0b57acd54f2", "rp_file": "ech0raix-ransomware.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "ECH0RAIX RANSOMWARE", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--b8ee2a32-20bb-4509-8f62-415389607a7e", "rp_file": "websvn-vulnerability.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "WEBSVN VULNERABILITY", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--b8ee2a32-20bb-4509-8f62-415389607a7e", "rp_file": "websvn-vulnerability.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "WEBSVN VULNERABILITY", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--bb6cf37d-21cf-43d2-98cf-87c50b8f92a7", "rp_file": "bazarloader-network-recon.json", "last_updated": "2021-11-01T00:00:00.000Z", "title": "BAZARLOADER", "industries": [], "regions": [], "malwares": []}
 ]
