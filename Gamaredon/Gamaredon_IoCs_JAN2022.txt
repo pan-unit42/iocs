@@ -1027,13 +1027,10 @@ a67e5d562e754426e061c74b04af19d8f59a9bfe5134d5bb6ed4d429d022840a
 
 # VNC Domains and IPs
 
-cat.gotdns.ch
-check-update.ru
 moscowguarante.com
 mucoris.ru
 seemsurprise.com
 technec.org
-torrent-vnc.ddns.net
 124.15.125.1
 
 # VNC Samples
