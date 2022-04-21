@@ -1,0 +1,96 @@
+import idautils
+import idaapi
+import idc
+from idc import get_operand_value
+
+# mapping of instruction to the bytes that should be used for patching
+PATCH_INSTRUCTIONS_JNZ = {
+    0x75: [b'\xeb'],  # patching Jnz
+    0x0f: [b'\x90', b'\xe9']  # patching Jnz near
+}
+
+PATCH_INSTRUCTIONS_JZ = {
+    0x74: [b'\x90', b'\x90'],  # patching Jnz
+    0x0f: [b'\x90', b'\x90', b'\x90', b'\x90', b'\x90', b'\x90']  # patching Jnz near
+}
+
+
+def patch_bytes(ea, patch_instructions):
+    """
+    patches the bytes at ea based on the values at patch_instructions
+    :param ea: effective address to patch
+    :param patch_instructions: dict of patch instructions.
+                               Maps a byte of the opcode to the values to be used for patching
+    :return:
+    """
+    byte_val = ord(idc.get_bytes(ea, 1))
+    if byte_val not in patch_instructions:
+        return
+
+    new_instruction = patch_instructions[byte_val]
+    for n, patch_byte in enumerate(new_instruction):
+        idaapi.patch_bytes(ea + n, patch_byte)
+
+
+def search_jz_or_jnz(ea, lookup_limit=0x10):
+    """
+    searches for both jz and jnz instructions, upto lookup_limit
+    :param ea: start address for search jz or jnz
+    :param lookup_limit: the search limit in bytes, after addr
+    :return: address of "jz / jnz" instruction, or None if not found
+    """
+    ea_search_limit = ea + lookup_limit
+    while ea < ea_search_limit:
+        try:
+            instr = idautils.DecodeInstruction(ea)
+            if instr.itype == idaapi.NN_jnz or instr.itype == idaapi.NN_jz:
+                return instr
+        except Exception:
+            pass
+        ea = idc.next_head(ea)
+
+    return None
+
+
+def locate_and_patch_opaque(ea):
+    """
+    search for:
+        - cmp reg,0xA
+        - whatever instructions
+        - jnz pattern
+    patches the found jz/jnz instruction to NOPs
+    :param ea: effective address to check
+    :return:
+    """
+    instr = idautils.DecodeInstruction(ea)
+    # check if this is a CMP instrucion and the operand is 0xA, as can be found in our sample
+    if instr.itype == idaapi.NN_cmp and get_operand_value(ea, 1) == 0xA:
+        cmp_ea = ea
+        # locate the point when OP decide to avoid unexecuted code blocks
+        j_instr = search_jz_or_jnz(ea)
+        if j_instr is not None:
+            print(f'0x{cmp_ea:X} {idc.generate_disasm_line(cmp_ea, 0)}')
+            print(f'0x{ea:X} {idc.generate_disasm_line(j_instr.ea, 0)}')
+            # actually patching the instructions
+            if j_instr.itype == idaapi.NN_jnz:
+                patch_bytes(j_instr.ea, PATCH_INSTRUCTIONS_JNZ)
+            elif j_instr.itype == idaapi.NN_jz:
+                patch_bytes(j_instr.ea, PATCH_INSTRUCTIONS_JZ)
+
+            idc.set_cmt(j_instr.ea, f"{j_instr.get_canon_mnem()}_patched!!", 0)
+
+
+def deobfuscate_opaque_function(func_ea):
+    """
+    patches any opaque predicated in the function to nops or equivalent instructions.
+    The resulting function is much more readable.
+    :param func_ea: effective address within a function, not mandatory to be the first address
+                    of the function
+    :return:
+    """
+    for i in idautils.FuncItems(func_ea):
+        locate_and_patch_opaque(i)
+
+
+ea_here = idc.here()
+deobfuscate_opaque_function(ea_here)
