@@ -1,0 +1,149 @@
+#Make sure the "Local Windows debugger" options are setup to debug target dll
+
+import idaapi
+import idautils
+import idc
+import ida_funcs
+from idc import print_insn_mnem, print_operand, get_operand_value
+from ida_idd import Appcall
+import pefile
+import ida_hexrays
+
+def get_exports():
+    #Get a list of exports for current binary
+    exports_list = []
+    for exp in idautils.Entries():
+        #Entries return a list of tuples (index, ordinal, ea, name)
+        export_addr = idc.get_name_ea(idc.BADADDR, exp[3])#get ea via export name
+        exports_list.append(export_addr)
+    return exports_list
+
+def get_arg(ea):
+    """
+    Extract the 3 values of the parameters (rcx,rdx,r8) for a given effective address
+    :param ea: effective address
+    :return: Tuple of operands
+    """
+    if print_insn_mnem(ea) == "mov":
+        operand = print_operand(ea, 0)
+        if operand in ["r8", "r8d", "rcx", "ecx", "rdx", "edx"]:
+            op1 = get_operand_value(ea, 1) & 0xFFFFFFFF
+            return operand, op1
+    return None, None
+
+def check_instruction_call_reg(ea):
+    """
+    Check if the instruction at the current address is "call rax/eax/rdi/edi"
+    :param ea:  effective address
+    :return:
+    """
+    if print_insn_mnem(ea) == "call":
+        if print_operand(ea, 0) in ["rax", "eax","rdi", "edi","r14"]:
+            return True
+    return False
+
+def get_args_of_func(addr, args_count, lookup_limit=0x20):
+    """
+    search for the argument of a function.
+    The search will be up-to "lookup_limit" bytes before addr
+    :param addr: address of an xref to function
+    :param args_count: number of arguments to look for
+    :param lookup_limit: the search limit in bytes, before addr
+    :return: dictionary of arguments
+    """
+    args = {}
+    curr_addr = addr
+    found_args = 0
+    # While loop to locate the args_count parameters for addr
+    while curr_addr > (addr - lookup_limit) and found_args < args_count:
+        curr_addr = idc.prev_head(curr_addr)
+        try:
+            register, operand_value = get_arg(curr_addr)
+            if register is not None and operand_value is not None:
+                found_args += 1
+                args[register] = operand_value
+                # adding the 8-byte regs for ease of use
+                if register == 'ecx':
+                    args['rcx'] = operand_value
+                elif register == 'edx':
+                    args['rdx'] = operand_value
+                elif register == 'r8d':
+                    args['r8'] = operand_value
+                elif register == 'r9d':
+                    args['r9'] = operand_value
+        except TypeError:
+            pass
+    return args
+
+def search_for_call_reg(addr, lookup_limit=0x50):
+    """
+    searches for "call eax/rax/rdi/rdx" and returns its address
+    :param addr: address of an xref to function
+    :param lookup_limit: the search limit in bytes, after addr
+    :return: address of "call eax/rax" instruction, or None if not found
+    """
+    curr_addr = addr
+    while curr_addr < addr + lookup_limit:
+        curr_addr = idc.next_head(curr_addr)
+        try:
+            if check_instruction_call_reg(curr_addr):
+                # call eax/rax was found
+                return curr_addr
+        except Exception:
+            continue
+    return None
+
+def rename_obduscated_api_calls(func_ea, appcall_callable):
+#Make sure symbols for Windows Dlls are loaded during the debugging process
+    xrefs = set(idautils.XrefsTo(func_ea, 0))
+    for xref in xrefs:
+        cur_addr = xref.frm
+        args = get_args_of_func(cur_addr, 3)
+        try:
+            appcall_result = appcall_callable(args['rcx'], args['rdx'], args['r8d'])
+        except Exception as e:
+            print(f'appcall exception: {e}')
+            continue
+
+        # resolve the name of the resulting address
+        addr = appcall_result.value
+        # added to load symbols required for get_func_name()
+        idc.jumpto(addr)
+        func_name = ida_funcs.get_func_name(addr)
+        if func_name is None:
+            #force IDA to trigger function ID then retry resolving name of the resulting address
+            idc.add_func(addr)
+            func_name = ida_funcs.get_func_name(addr)
+            #For troubleshooting why resolving of function name failed
+            #Try manually reload debug symbols and then rerun the scripts
+            print(f'{addr:X}')
+            print(f'Xref = {xref.frm:X}', args)
+            continue
+
+        # rename func look for Call eax
+        try:
+            call_reg_addr = search_for_call_reg(cur_addr)
+            if call_reg_addr is not None:
+                api_name = func_name.split("_")[1]
+                idc.op_man(call_reg_addr, 0, api_name)  # rename the operand of Call Rax/eax to Call <api_name>
+        except Exception:
+            continue
+
+def main_rename_obfuscated_api_calls(obfuscation_func_ea):
+    obf_api_callable = Appcall.proto(obfuscation_func_ea, "QWORD FN_API_Decoder(QWORD,QWORD,QWORD);")
+    rename_obduscated_api_calls(obfuscation_func_ea, obf_api_callable)
+
+def setup_debugger_for_appcall():
+    obfuscation_func_ea = 0x00000018000B9B0  # FN_API_Decoder
+    
+    ida_dbg.load_debugger("win32", 0)
+    # Start AppCall when addr of export SreismeoW is reached!
+    target_ea = get_exports()[0]
+
+    # Execute the sample till the addr of export SreismeoW when AppCall can be used to resolve the APIs
+    ida_dbg.run_to(target_ea)
+    ev = idc.wait_for_next_event(WFNE_SUSP,-1)    
+    main_rename_obfuscated_api_calls(obfuscation_func_ea)
+    exit_process()
+
+setup_debugger_for_appcall()                       
