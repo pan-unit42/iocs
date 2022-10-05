@@ -26,5 +26,6 @@
     {"id": "report--b8ee2a32-20bb-4509-8f62-415389607a7e", "rp_file": "websvn-vulnerability.json", "last_updated": "2021-10-11T00:00:00.000Z", "title": "WEBSVN VULNERABILITY", "industries": [], "regions": [], "malwares": []},
     {"id": "report--bb6cf37d-21cf-43d2-98cf-87c50b8f92a7", "rp_file": "bazarloader-network-recon.json", "last_updated": "2021-11-01T00:00:00.000Z", "title": "BAZARLOADER", "industries": [], "regions": [], "malwares": []},
     {"id": "report--76308643-76fa-4f07-8cd6-464e543b6967", "rp_file": "AstarothMalware.json", "last_updated": "2022-09-21T19:34:56.257Z", "title": "ASTAROTH MALWARE", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--909206b3-5e9c-43ee-a643-2ab355483301", "rp_file": "qakbotmalware.json", "last_updated": "2022-10-04T13:12:05.139Z", "title": "QAKBOT MALWARE", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--909206b3-5e9c-43ee-a643-2ab355483301", "rp_file": "qakbotmalware.json", "last_updated": "2022-10-04T13:12:05.139Z", "title": "QAKBOT MALWARE", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--959e0017-c770-4387-b9d8-fb310ae0f251", "rp_file": "IcedIDMalware.json", "last_updated": "2022-10-05T16:14:30.728Z", "title": "ICEDID MALWARE", "industries": [], "regions": [], "malwares": []}
 ]
