@@ -27,6 +27,6 @@
     {"id": "report--bb6cf37d-21cf-43d2-98cf-87c50b8f92a7", "rp_file": "bazarloader-network-recon.json", "last_updated": "2021-11-01T00:00:00.000Z", "title": "BAZARLOADER", "industries": [], "regions": [], "malwares": []},
     {"id": "report--76308643-76fa-4f07-8cd6-464e543b6967", "rp_file": "AstarothMalware.json", "last_updated": "2022-09-21T19:34:56.257Z", "title": "ASTAROTH MALWARE", "industries": [], "regions": [], "malwares": []},
     {"id": "report--909206b3-5e9c-43ee-a643-2ab355483301", "rp_file": "qakbotmalware.json", "last_updated": "2022-10-11T15:04:27.202Z", "title": "QAKBOT MALWARE", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--959e0017-c770-4387-b9d8-fb310ae0f251", "rp_file": "IcedID_Malware.json", "last_updated": "2022-10-12T16:02:46.322Z", "title": "ICEDID MALWARE", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--959e0017-c770-4387-b9d8-fb310ae0f251", "rp_file": "IcedID_Malware.json", "last_updated": "2022-10-17T20:27:17.235Z", "title": "ICEDID MALWARE", "industries": [], "regions": [], "malwares": []},
     {"id": "report--052b86c4-150c-47a9-b5d1-4afe0230928a", "rp_file": "malicious-nod-detection.json", "last_updated": "2022-10-13T17:10:11.694Z", "title": "MALICIOUS NOD DETECTION", "industries": [], "regions": [], "malwares": []}
 ]
