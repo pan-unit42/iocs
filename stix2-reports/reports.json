@@ -29,5 +29,6 @@
     {"id": "report--909206b3-5e9c-43ee-a643-2ab355483301", "rp_file": "qakbotmalware.json", "last_updated": "2022-10-11T15:04:27.202Z", "title": "QAKBOT MALWARE", "industries": [], "regions": [], "malwares": []},
     {"id": "report--959e0017-c770-4387-b9d8-fb310ae0f251", "rp_file": "IcedID_Malware.json", "last_updated": "2022-11-01T13:33:58.389Z", "title": "ICEDID MALWARE", "industries": [], "regions": [], "malwares": []},
     {"id": "report--052b86c4-150c-47a9-b5d1-4afe0230928a", "rp_file": "malicious-nod-detection.json", "last_updated": "2022-10-13T17:10:11.694Z", "title": "MALICIOUS NOD DETECTION", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "realtek-sdk-cve-2021-35394.json", "last_updated": "2023-01-02T19:05:13.213Z", "title": "REALTEK-SDK CVE-2021-35394", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "realtek-sdk-cve-2021-35394.json", "last_updated": "2023-01-02T19:05:13.213Z", "title": "REALTEK-SDK CVE-2021-35394", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "cve-2023-23397.json", "last_updated": "2023-04-04T19:08:29.989Z", "title": "CVE-2023-23397", "industries": [], "regions": [], "malwares": []}
 ]
