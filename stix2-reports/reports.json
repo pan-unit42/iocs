@@ -31,5 +31,5 @@
     {"id": "report--052b86c4-150c-47a9-b5d1-4afe0230928a", "rp_file": "malicious-nod-detection.json", "last_updated": "2022-10-13T17:10:11.694Z", "title": "MALICIOUS NOD DETECTION", "industries": [], "regions": [], "malwares": []},
     {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "realtek-sdk-cve-2021-35394.json", "last_updated": "2023-01-02T19:05:13.213Z", "title": "REALTEK-SDK CVE-2021-35394", "industries": [], "regions": [], "malwares": []},
     {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "cve-2023-23397.json", "last_updated": "2023-04-04T19:08:29.989Z", "title": "CVE-2023-23397", "industries": [], "regions": [], "malwares": []},
-{"id": "report--a50d4b07-9aa3-4b29-a645-bef11e185904", "rp_file": "2024-01-31-AZOrult.json", "last_updated": "2024-31-01T19:08:29.989Z", "title": "AZOrult", "industries": [], "regions": [], "malwares": []}
+{"id": "report--a50d4b07-9aa3-4b29-a645-bef11e185904", "rp_file": "2024-01-31-AZOrult.json", "last_updated": "2024-02-06T19:00:00.001Z", "title": "AZOrult", "industries": [], "regions": [], "malwares": []}
 ]
