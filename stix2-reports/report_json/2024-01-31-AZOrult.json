@@ -1,7 +1,22 @@
 {
-  "type": "bundle",
   "id": "bundle--a50d4b07-9aa3-4b29-a645-bef11e185904",
     "objects": [
+{
+            "created": "2024-02-06T19:00:00.001Z",
+            "description": "AZOrult malware",
+            "id": "report--a50d4b07-9aa3-4b29-a645-bef11e185904",
+            "labels": [
+                "atom-playbook",
+                "intrusion-set"
+            ],
+            "modified": "2024-02-06T19:00:00.001Z",
+            "name": "AZOrult Malware",
+            "object_refs": [
+                "report--a50d4b07-9aa3-4b29-a645-bef11e185904"
+            ],
+            "published": "2024-02-06T19:00:00.001Z",
+            "type": "report"
+        },
         {
             "type": "indicator",
             "id": "indicator--675e4a57-dc74-40cd-b3e1-dd32f9eb5424",
