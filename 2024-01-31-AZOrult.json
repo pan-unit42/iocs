@@ -1,307 +1,307 @@
 {
   "type": "bundle",
-  "id": "bundle--a8d3db9b-237a-80b3-6a5e-b0fbc772666e",
+  "id": "bundle--a50d4b07-9aa3-4b29-a645-bef11e185904",
     "objects": [
         {
+            "type": "indicator",
+            "id": "indicator--675e4a57-dc74-40cd-b3e1-dd32f9eb5424",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--d3b3629e-bb7c-d4d8-af2c-1a6c7cd87dc9",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.zip",
             "pattern": "[file:hashes.'SHA-256' = '12d5c8201d462576f38a2c1cf62eb3f9f09c3799b4212325d33509ef1253f4e7']",
-            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-18T17:58:24.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--058e5039-c178-4f0b-8180-2ffb893dc8bf",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--792a40cf-cce6-7e51-3b95-c38a3bfeeabb",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "unknown file name",
             "pattern": "[file:hashes.'SHA-256' = '2cfc868cb40b56731a780dfa2b7a0846dd68c07871734162d1c522409875172a']",
-            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T18:00:00.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--1d927eca-0ea4-4a4a-af4e-be05b86292a5",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--792a40cf-cce6-7e51-3b95-c38a3bfeeabb",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.zip",
             "pattern": "[file:hashes.'SHA-256' = '564feb259d7b57a39096e52144501ccdc19adfa9d0f0ff3e0e9fd890018bbd88']",
-            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-19T16:24:04.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--23d75a98-2d00-464a-b895-faae4a502555",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--84e340bf-41b5-0f7a-0d43-aa25e7f3d7b7",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.zip",
             "pattern": "[file:hashes.'SHA-256' = '5b524804b111045386657c118c97fede66c9544a25d6b55c396995fe67383504']",
-            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T14:32:26.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--05f1e485-bfa7-4b74-beb2-88f4c40272dd",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--19997802-b175-605e-d0b4-9a3e10d36ea5",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.zip",
             "pattern": "[file:hashes.'SHA-256' = 'cd198cc166d1739b7f09e4ff1f0873a11aa4101dffd88f5f2bb97f0fc6282941']",
-            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a ZIP archive used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T14:33:24.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--df4969ae-30a7-4b59-9c14-91c9abf27b05",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--244c7fbf-6215-a386-d361-6ad472fe96b3",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.Lnk",
             "pattern": "[file:hashes.'SHA-256' = '308c9761057bfb6f03df26098424a40232b40faabfdd993a4259b77c07541432']",
-            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T14:32:26.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--223402bb-68db-49db-971e-8dc5597a5eea",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--3f91227d-a70e-f95a-3743-aa34d285b39a",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "unknown file name",
             "pattern": "[file:hashes.'SHA-256' = '5d9ce9b131f2eae4b2e2109bc72cf6f49a8f843da41822f3d03f4acb6fdd7078']",
-            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T18:00:00.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--c772c17c-2478-4c3a-b24e-c09bcb1e0ed6",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--59d2c5f8-5fae-16a8-8d37-7251338f1622",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.Lnk",
             "pattern": "[file:hashes.'SHA-256' = 'fe6e8562f2cc9e19436ca3dacffb6a9280376642e8413db3add2f4ac072dfabe']",
-            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-18T17:58:24.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--a76845c5-6ba1-4724-8bb9-602835213d54",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--7d7365fd-4359-6d95-0461-b4279c26c410",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.Lnk",
             "pattern": "[file:hashes.'SHA-256' = 'ac56e203726a3e8c65ded489b076ff49edfa3321a2071d2ec43968858cf0401d']",
-            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-19T16:24:04.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--f611fcd2-583a-4ea3-bee5-ccf34d05da54",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--2c7ca841-2ba4-3938-58e3-c556e86ba4d5",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "citibank_statement_Dec_2023.Lnk",
             "pattern": "[file:hashes.'SHA-256' = '52307607508a94a64d1afdb805274904a4cd1feeb1b90c0cf30ad9376f1896c1']",
-            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Windows shortcut used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T14:33:24.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--c6a0a879-a5a7-46a6-ba2f-5323fb4b5032",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--9ef047de-eddf-b7fe-4377-5f5ee0babdd1",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "38MirrorsConnectionAgent.msi",
             "pattern": "[file:hashes.'SHA-256' = '6df1cda132d06e5cc00d6d8d88dfa8ed2dea8c036225d505008cd842a4de378c']",
-            "description": "This is a Microsft Installer (MSI) file used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Microsft Installer (MSI) file used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-19T13:14:34.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--9b5731d8-3a0a-41fa-b40b-0b8fd40f0864",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--4c6e78c6-6375-223b-3013-1a7c164e6488",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "97WiseU_Connect_Home.msi",
             "pattern": "[file:hashes.'SHA-256' = '8aac79ce5ff07259eed8be3d9beef6a2e14fce7f54d85083f6c4390654841fde']",
-            "description": "This is a Microsft Installer (MSI) file used in a campaign spreading AZORult malware as early as 2024-01-09."
+            "description": "This is a Microsft Installer (MSI) file used in a campaign spreading AZORult malware as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-09T11:52:30.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--51596e51-1f41-4689-9373-152574795449",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--28ecf23a-ce86-f4f2-e960-e418b3028749",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
-             "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=F308D37440058965!162&authkey=ABzcv7ofhAvMZiQ&.msi",
-           "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=F308D37440058965!162&authkey=ABzcv7ofhAvMZiQ&.msi']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=F308D37440058965!162&authkey=ABzcv7ofhAvMZiQ&.msi",
+            "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=F308D37440058965!162&authkey=ABzcv7ofhAvMZiQ&.msi']",
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-19T13:28:32.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--f962a04b-a68e-4540-af95-7cb4df8c13b0",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--6b1955f4-b1f0-57a9-7f25-61bbf3620a39",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=269ACD1A87F57BB5!126&authkey=APDxsVshJA4PNGE&.msi",
             "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=269ACD1A87F57BB5!126&authkey=APDxsVshJA4PNGE&.msi']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-16T15:27:26.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--13d73954-a984-4555-809d-68c2102d9dc8",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--d50f9a52-ee20-5bdf-51e2-123fde99ead3",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=269ACD1A87F57BB5!188&authkey=ADmjb8zvNZHhwLc&.msi",
             "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=269ACD1A87F57BB5!188&authkey=ADmjb8zvNZHhwLc&.msi']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-19T04:32:23.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--4d58ed0e-945b-40a2-937f-7183644d11c7",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--4c3b28db-4f0c-b059-a96e-a0f3ea5b65ee",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=727E23581ED1347F!145&authkey=AG3ulcj2nuOJlYQ&.msi",
             "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=727E23581ED1347F!145&authkey=AG3ulcj2nuOJlYQ&.msi']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-22T00:57:43.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--0be5ec2d-1e1a-4e98-8e8b-77ce185497ff",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--5d563660-9c9e-7cb3-bafc-5e8002a6f7a0",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=8AF1295DA3BD6959!204&authkey=AE1txFLokHN75gM&.msi",
             "pattern": "[url:value = 'https://onedrive.live.com/download?cid=85B4181C5D4F7514&resid=8AF1295DA3BD6959!204&authkey=AE1txFLokHN75gM&.msi']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-18T09:58:09.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--47acd16d-4e1a-4050-8c6a-806a31c7ab35",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--f5c51f09-53a8-45f0-964e-ea10f2747c2b",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "http://152.89.198.227:5000/l%20F%20L%20Q%20J%20T%20M%20Z%20n%20D%205%20t",
             "pattern": "[url:value = 'http://152.89.198.227:5000/l%20F%20L%20Q%20J%20T%20M%20Z%20n%20D%205%20t']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-31T00:00:00.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--5129b491-f1d8-477e-aaa9-f171973478d1",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--5bfa389d-5b97-662d-1ee9-97f36973f98a",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "http://152.89.198.227:5000/l%20F%20L%20Q%20J%20T%20M%20Z%20n%20D%205%20t",
             "pattern": "[url:value = 'http://152.89.198.227:5000/l%20F%20L%20Q%20J%20T%20M%20Z%20n%20D%205%20t']",
-            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09."
+            "description": "URL generated by Windows shortcut used in campaign to spread AZORult as early as 2024-01-09.",
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
+            "spec_version": "2.1",
             "valid_from": "2024-01-31T00:00:00.001Z"
         },
         {
+            "type": "indicator",
+            "id": "indicator--c9da7b38-8545-4c1b-af8a-db488575adbb",
             "created": "2024-02-06T19:00:00.001Z",
-            "id": "indicator--944230cb-1d8c-c2cd-c3c5-634e9a79c572",
             "labels": [
                 "malicious-activity"
             ],
             "modified": "2024-02-06T19:00:00.001Z",
             "name": "152.89.198.227",
             "pattern": "[ipv4-addr:value = '152.89.198.227']",
-            "description": "IP used by Windows shortcut in campaign to spread AZORult as early as 2024-01-09."
             "pattern_type": "stix",
-            "spec_version": "2.1"
-            "type": "indicator",
-            "valid_from": "2024-02-0xTxx:xx:xx001Z"
-        },
+            "spec_version": "2.1",
+            "description": "IP used by Windows shortcut in campaign to spread AZORult as early as 2024-01-09.",
+            "valid_from": "2024-01-31T00:00:00.001Z"
+        }
     ],
     "type": "bundle"
 }
