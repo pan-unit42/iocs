@@ -1,0 +1,137 @@
+{
+  "id": "bundle--551bf890-d842-4ea6-9ed1-3be29f486d83",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--1cfd37c5-1f3d-4c6a-8d6f-9eb93f283f2e",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "Qft.zip",
+            "pattern": "[file:hashes.'SHA-256' = '3cb8174becb3c89318ed01ccd76e71cbeb8bc9e0fcbce8e110d40cd71af20fa2']",
+            "description": "Zip archive used for TA577 Pikabot infection.",
+            "valid_from": "2024-02-08T17:24:29.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--3c2564f1-5205-44c4-a66a-2a97f9446692",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "Qft.js",
+            "pattern": "[file:hashes.'SHA-256' = '5211026d2559210ba16c4b896445737eaa920e4f18abe116da0180388207c3d7']",
+            "description": "JavaScript (.js) file used for TA577 Pikabot infection.",
+            "valid_from": "2024-02-08T17:24:29.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--000369b7-9603-4ba3-a969-ddc18554bbdf",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "Jrdhtjydhjf.exe",
+            "pattern": "[file:hashes.'SHA-256' = 'ca5fb5814ec62c8f04936740aabe2664b3c7d036203afbd8425cd67cf1f4b79d']",
+            "description": "Windows executable (.exe) used for TA577 Pikabot infection.",
+            "valid_from": "2024-02-08T12:23:13.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--ee11ce89-efda-4a21-b3c7-6c0f999276c5",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "http://orangebrands.co.tz/pgdfga/",
+            "pattern": "[url:value = 'http://orangebrands.co.tz/pgdfga/']",
+            "description": "TA577 URL for zip archive leading to Pikabot infection on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--a09db1cb-2d0c-4e50-8cc9-3212af6e243e",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "http://orangebrands.co.tz/pgdfga//?5DSb=1707413069",
+            "pattern": "[url:value = 'http://orangebrands.co.tz/pgdfga//?5DSb=1707413069']",
+            "description": "TA577 URL for zip archive leading to Pikabot infection on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--91585e6e-a95e-4e63-b9fa-132c0052ac8e",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "https://gloverstech.com/tJWz9/",
+            "pattern": "[url:value = 'https://gloverstech.com/tJWz9/']",
+            "description": "TA577 URL for Pikabot EXE seen on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--a663e9bc-6c0b-40cf-81ae-a1bfcc3ce245",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "https://gloverstech.com/tJWz9/0.526635390798647.dat",
+            "pattern": "[url:value = 'https://gloverstech.com/tJWz9/0.526635390798647.dat']",
+            "description": "TA577 URL for Pikabot EXE seen on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--53ec5036-46d0-407d-a103-87024f101ceb",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "https://158.220.80.167:2967/",
+            "pattern": "[url:value = 'https://158.220.80.167:2967/']",
+            "description": "Pikabot C2 URL seen on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--49b58023-1d21-4933-a817-974fad20d746",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "https://104.129.55.103:2224/",
+            "pattern": "[url:value = 'https://104.129.55.103:2224/']",
+            "description": "Pikabot C2 URL seen on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--c2cd7a75-5389-4f2c-aa94-8b426a8a2f13",
+            "created": "2024-02-08T23:59:59.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-08T23:59:59.001Z",
+            "name": "https://158.220.80.157:9785/",
+            "pattern": "[url:value = 'https://158.220.80.157:9785/']",
+            "description": "Pikabot C2 URL seen on 2024-02-08.",
+            "valid_from": "2024-02-08T00:00:00.001Z"
+        }
+    ],
+    "spec_version": "2.0",
+    "type": "bundle"
+}
