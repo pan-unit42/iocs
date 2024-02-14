@@ -1,0 +1,254 @@
+{
+  "id": "bundle--477c67ce-1048-4427-b0b8-2ea67ccfc83f",
+    "objects": [
+        {
+            "type": "indicator",
+            "id": "indicator--a6c6189b-8d85-429b-bb6c-5a899a06a0fc",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "allegato_708.js",
+            "pattern": "[file:hashes.'SHA-256' = '847b4ad90b1daba2d9117a8e05776f3f902dda593fb1252289538acf476c4268']",
+            "description": "JavaScript file used for Danabot infection on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--652b5ce2-e71f-42b5-a495-c0653fda074c",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "C:\Users\[username]\AppData\Local\Temp\bwrSQOxPJu.dl",
+            "pattern": "[file:hashes.'SHA-256' = '2597322a49a6252445ca4c8d713320b238113b3b8fd8a2d6fc1088a5934cee0e']",
+            "description": "Danabot DLL seen on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--cef17874-0a27-4f65-af07-3949e13a7cf4",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "C:\ProgramData\Eyyddidh.tmp",
+            "pattern": "[file:hashes.'SHA-256' = '4d6dfd1fc01876b9602c32f6350458a2ee8914876a75a66d81dea588ce31bd28']",
+            "description": "Data binary seen during Danabot infection on 2024-02-14. Not malicious on its own.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--3ac295e6-bc3f-4b34-a9d7-021d347ce6fa",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "tcp://195.133.88.98:443/",
+            "pattern": "[url:value = 'tcp://195.133.88.98:443/']",
+            "description": "C2 channel for Danabot seen on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--6ca0687b-ea1e-4925-98bc-4741d661a923",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "tcp://91.201.67.85:443/",
+            "pattern": "[url:value = 'tcp://91.201.67.85:443/']",
+            "description": "C2 channel for Danabot seen on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--01178a80-9da4-4c9f-96f2-4ee68b106196",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "tcp://62.173.146.41:443/",
+            "pattern": "[url:value = 'tcp://62.173.146.41:443/']",
+            "description": "C2 channel for Danabot seen on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--095606fa-97ac-43e0-917d-f6c54ae5a42c",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "http://portfolio.serveirc.com/login.php",
+            "pattern": "[url:value = 'http://portfolio.serveirc.com/login.php']",
+            "description": "URL returning malicious JavaScript (.js) file for Danabot on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--e320972b-7334-45cc-b10a-a126e4d6eea1",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "http://content.servepics.com/login.php",
+            "pattern": "[url:value = 'http://content.servepics.com/login.php']",
+            "description": "URL returning malicious JavaScript (.js) file for Danabot on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--3228cd31-d088-4c5e-a4e2-2b00043a47a8",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "http://soundata.top/resources.dll",
+            "pattern": "[url:value = 'http://soundata.top/resources.dll']",
+            "description": "URL returning malicious DLL file for Danabot on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--f8834132-9db2-4c72-83be-0a625dda7ab8",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "http://soundline.top/resources.dll",
+            "pattern": "[url:value = 'http://soundline.top/resources.dll']",
+            "description": "URL returning malicious DLL file for Danabot on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--b1b42063-bb43-4feb-abcc-7030b2d628df",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "http://soundbase.top/resources.dll",
+            "pattern": "[url:value = 'http://soundbase.top/resources.dll']",
+            "description": "URL returning malicious DLL file for Danabot on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        },
+        {
+            "type": "indicator",
+            "id": "indicator--4070cdbb-af00-4e1b-ad0c-cd344eeb0135",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "62.173.146.41",
+            "pattern": "[ipv4-addr:value = '62.173.146.41']",
+            "description": "IP address for Danabot C2 on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--d612f088-0b61-47c4-9a64-35ad8f6577b4",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "91.201.67.85",
+            "pattern": "[ipv4-addr:value = '91.201.67.85']",
+            "description": "IP address for Danabot C2 on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--dca9d085-43f9-40b4-982d-e1d34b680ed2",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "195.133.88.98",
+            "pattern": "[ipv4-addr:value = '195.133.88.98']",
+            "description": "IP address for Danabot C2 on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--0470a24c-3ab8-4334-a491-01a20cfe6b88",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "portfolio.serveirc.com",
+            "pattern": "[fqdn:value = 'portfolio.serveirc.com/']",
+            "description": "Domain hosting malicious content for Danabot infections on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--84091906-9529-43aa-996f-6a568d0d0f36",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "content.servepics.com",
+            "pattern": "[fqdn:value = 'content.servepics.com']",
+            "description": "Domain hosting malicious content for Danabot infections on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--f1ca2cd8-0716-430c-bb23-adfb38a3141a",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "soundata.top",
+            "pattern": "[fqdn:value = 'soundata.top']",
+            "description": "Domain hosting malicious content for Danabot infections on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--5db1baf2-8ef7-4ac7-887c-135d3a10cade",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "soundline.top",
+            "pattern": "[fqdn:value = 'soundline.top']",
+            "description": "Domain hosting malicious content for Danabot infections on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+        {
+            "type": "indicator",
+            "id": "indicator--0770c071-4982-4eb6-8d72-aa2d7d6c9f8a",
+            "created": "2024-02-14T00:00:00.001Z",
+            "labels": [
+                "malicious-activity"
+            ],
+            "modified": "2024-02-14T00:00:00.001Z,
+            "name": "soundbase.top",
+            "pattern": "[fqdn:value = 'soundbase.top']",
+            "description": "Domain hosting malicious content for Danabot infections on 2024-02-14.",
+            "valid_from": "2024-02-14T00:00:00.001Z"
+        }
+   ],
+    "spec_version": "2.0",
+    "type": "bundle"
+}
