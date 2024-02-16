@@ -33,5 +33,6 @@
     {"id": "report--56fb4492-e83a-401f-b674-b63f3712c030", "rp_file": "cve-2023-23397.json", "last_updated": "2023-04-04T19:08:29.989Z", "title": "CVE-2023-23397", "industries": [], "regions": [], "malwares": []},
     {"id": "report--a50d4b07-9aa3-4b29-a645-bef11e185904", "rp_file": "2024-01-31-AZOrult.json", "last_updated": "2024-02-07T14:20:00.001Z", "title": "AZOrult", "industries": [], "regions": [], "malwares": []},
     {"id": "report--551bf890-d842-4ea6-9ed1-3be29f486d83", "rp_file": "2024-02-08-Pikabot.json", "last_updated": "2024-02-08T23:59:59.001Z", "title": "2024-02-08 Pikabot", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--477c67ce-1048-4427-b0b8-2ea67ccfc83f", "rp_file": "2024-02-14-Danabot.json", "last_updated": "2024-02-14T20:25.001Z", "title": "2024-02-14 Danabot", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--477c67ce-1048-4427-b0b8-2ea67ccfc83f", "rp_file": "2024-02-14-Danabot.json", "last_updated": "2024-02-14T20:25.001Z", "title": "2024-02-14 Danabot", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--7ef27fa2-8d4a-42ba-a2a7-b163bcb55543", "rp_file": "2024-02-15-Bradesco-phishing.json", "last_updated": "2024-02-16T16:10:01.001Z", "title": "2024-02-15 Bradesco Phishing", "industries": [], "regions": [], "malwares": []}
 ]
