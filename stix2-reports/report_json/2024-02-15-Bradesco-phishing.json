@@ -1,0 +1,84 @@
+{
+  "type": "bundle",
+  "id": "bundle--42bc9250-d981-4b98-a4c7-4745d3e64ee1",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7ef27fa2-8d4a-42ba-a2a7-b163bcb55543",
+      "created": "2024-02-16T16:10:01.001Z",
+      "modified": "2024-02-16T16:10:01.001Z",
+      "name": "Brazil Phishing Email Leads to Fake Bradesco Banking Page.",
+      "description": "A Portuguese language phishing email sent on 2024-02-15 contains a link for a fake Bradesco banking page. Bradesco is a Brazilian financial services company.",
+      "published": "2024-02-16T15:36:01.001Z",
+      "external_references": [
+        {
+          "source_name": "Mastodon's infosec.exchange.",
+          "url": "https://infosec.exchange/@malware_traffic/111941884867646893",
+          "description": "2024-02-15 Brazil phishing email with link that redirects to fake Bradesco bank page."
+        }
+      ],
+      "object_refs": [
+        "indicator--e8781737-b128-413b-b0f9-97d2c341d080",
+        "indicator--2b8ba036-18cb-4e66-9183-f1c0757528b5",
+        "indicator--62ddcfdb-586f-4c87-97c3-3d06f131c50f",
+        "indicator--cf16bcf5-6bee-49e4-981d-287cab159ff4"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8781737-b128-413b-b0f9-97d2c341d080",
+      "created": "2024-02-16T16:10:01.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-16T16:10:01.001Z",
+      "name": "http://159.223.156.106/",
+      "pattern": "[url:value = 'http://159.223.156.106/']",
+      "description": "Link from 2024-02-15 Brazil language phishing email for fake Bradesco banking page.",
+      "valid_from": "2024-02-15T17:34:02.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2b8ba036-18cb-4e66-9183-f1c0757528b5",
+      "created": "2024-02-16T16:10:01.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-16T16:10:01.001Z",
+      "name": "https://ib2w-acessoclientedesco.com/pontos/app/",
+      "pattern": "[url:value = 'https://ib2w-acessoclientedesco.com/pontos/app/']",
+      "description": "URL for fake Bradesco banking page (Brazil) seen as early as 2024-02-15.",
+      "valid_from": "2024-02-15T17:34:02.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--62ddcfdb-586f-4c87-97c3-3d06f131c50f",
+      "created": "2024-02-16T16:10:01.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-16T16:10:01.001Z",
+      "name": "ib2w-acessoclientedesco.com",
+      "pattern": "[domain-name:value = 'ib2w-acessoclientedesco.com']",
+      "description": "Domain for fake Bradesco banking page (Brazil) registred on 2024-02-06.",
+      "valid_from": "2024-02-06T00:00:01.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cf16bcf5-6bee-49e4-981d-287cab159ff4",
+      "created": "2024-02-16T16:10:01.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-16T16:10:01.001Z",
+      "name": "159.223.156.106",
+      "pattern": "[ipv4-addr:value = '159.223.156.106']",
+      "description": "IP address used in link from 2024-02-15 Brazil language phishing email for fake Bradesco banking page.",
+      "valid_from": "2024-02-15T17:34:02.001Z"
+    }
+  ]
+}
