@@ -1,0 +1,300 @@
+{
+  "type": "bundle",
+  "id": "bundle--fa76de51-8bb8-4e47-b7c1-60f9ca24db94",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--b195a176-37cc-46fe-85bd-d6c2e0f6c9c7",
+      "created": "2024-02-21T00:00:00.001Z",
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "Parrot TDS --> SocGholish --> Async RAT",
+      "title": "Parrot TDS --> SocGholish --> Async RAT",
+      "description": "Site with Parrot TDS redirected to SocGholish fake browser update page. SocGholish payload installed AsyncRAT.",
+      "published": "2024-02-21T22:09:00.001Z",
+      "external_references": [
+        {
+          "source_name": "2024-02-21 LinkedIn Timely Threat Intelligence (TTI) post from Palo Alto Networks Unit 42",
+          "url": "https://www.linkedin.com/posts/unit42_parrottds-socgholish-asyncrat-activity-7166192124441415681-rnLv",
+          "description": "LinkedIn post from Palo Alto Networks Unit 42 about Parrot TDS --> SocGholish --> Async RAT."
+        },
+        {
+          "source_name": "2024-02-21 X (Twitter) Timely Threat Intelligence (TTI) post from Palo Alto Networks Unit 42",
+          "url": "https://twitter.com/Unit42_Intel/status/1760426508558950518",
+          "description": "Twitter post from Palo Alto Networks Unit 42 about Parrot TDS --> SocGholish --> Async RAT."
+        }
+      ],
+      "object_refs": [
+        "indicator--58c3b5de-b6c2-4eb0-a94f-29befbcb9a70",
+        "indicator--22511e46-0b49-4841-8b25-fc976e1ffb51",
+        "indicator--2a90f28d-7274-42ab-b67b-4f391d1777b3",
+        "indicator--81813585-7d6f-4185-a97f-0db070f9fd9c",
+        "indicator--56a69f75-8715-4eda-998e-1d5a6f5a754a",
+        "indicator--1ec5f29b-78db-4ec2-b1e5-86ad0059d6f8",
+        "indicator--25bc05da-854b-467d-9655-0babe8b33aa3",
+        "indicator--76723a02-123f-4316-8893-110ea39a9ab3",
+        "indicator--62422eeb-8876-47f3-970c-63c29546f46a",
+        "indicator--c872e61a-b8a5-4b2e-9961-623a0ba623f2",
+        "indicator--999dcafe-ee35-4dec-9b85-0f9186c7399d",
+        "indicator--22c090b8-df74-4c45-bc85-a008c504a5ea",
+        "indicator--52a670f1-a236-413a-9e15-fd489f6853f5",
+        "indicator--9cd58696-925f-4112-a782-ac5dfbb8c204",
+        "indicator--71a93c29-24bf-4e1e-a308-8a427e8ae8f3",
+        "indicator--772ca8f1-4c9d-4cd4-b745-e00866def770",
+        "indicator--3d33d104-1820-491c-ac93-681d0957804b",
+        "indicator--361d907c-fe7b-441a-8044-c29e8e47ebc6",
+        "indicator--793cc6ab-0864-4c55-9690-2897765abea4"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--58c3b5de-b6c2-4eb0-a94f-29befbcb9a70",
+      "created": "2024-02-21T21:58:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T21:58:00.001Z",
+      "name": "UрdateInstаller.zip",
+      "pattern": "[file:hashes.'SHA-256' = '67e46ff71741f00418f46766d0946da1031af35e34359dd70651d1ee2b4e5ee2']",
+      "description": "SocGholish zip archive came from a malicious fake browser update page.",
+      "valid_from": "2024-02-21T16:04:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--22511e46-0b49-4841-8b25-fc976e1ffb51",
+      "created": "2024-02-21T21:58:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T21:58:00.001Z",
+      "name": "Version.122.7424.25.js",
+      "pattern": "[file:hashes.'SHA-256' = 'fb0238b388d9448a6b36aca4e6a9e4fbcbac3afc239cb70251778d40351b5765']",
+      "description": "SocGholish JavaScript file extracted from a downloaded zip archive. The zip archive came from a malicious fake browser update page.",
+      "valid_from": "2024-02-21T16:04:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2a90f28d-7274-42ab-b67b-4f391d1777b3",
+      "created": "2024-02-21T21:58:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T21:58:00.001Z",
+      "name": "Find-DscResource_QoS.log",
+      "pattern": "[file:hashes.'SHA-256' = 'fb0238b388d9448a6b36aca4e6a9e4fbcbac3afc239cb70251778d40351b5765']",
+      "description": "PowerShell script for Async RAT persistent on an infected Windows host.",
+      "valid_from": "2024-02-21T16:05:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--81813585-7d6f-4185-a97f-0db070f9fd9c",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "https://retraining.allstardriving.org/",
+      "pattern": "[url:value = 'https://retraining.allstardriving.org/']",
+      "description": "HTTPS traffic for SocGholish page displaying fake browser download on 2024-02-21.",
+      "valid_from": "2024-01-08T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--56a69f75-8715-4eda-998e-1d5a6f5a754a",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "https://aphqj.members.openarmscv.com/",
+      "pattern": "[url:value = 'https://aphqj.members.openarmscv.com/']",
+      "description": "URL generated by SocGholish JavaScript (.js) file for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1ec5f29b-78db-4ec2-b1e5-86ad0059d6f8",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "http://pbvzje4.top/f15.svg",
+      "pattern": "[url:value = 'http://pbvzje4.top/f15.svg']",
+      "description": "URL that returned script for Async RAT C2 infection 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--25bc05da-854b-467d-9655-0babe8b33aa3",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "http://bjlkchhaaigceke.top/b%20jzioh%20h.php?",
+      "pattern": "[url:value = 'http://bjlkchhaaigceke.top/b%20jzioh%20h.php?']",
+      "description": "URL that returned script for Async RAT C2 infection 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--76723a02-123f-4316-8893-110ea39a9ab3",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "http://bjlkchhaaigceke.top/tx5lm7djyqhtr.php?",
+      "pattern": "[url:value = 'http://bjlkchhaaigceke.top/tx5lm7djyqhtr.php?']",
+      "description": "URL that returned script for Async RAT C2 infection 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--62422eeb-8876-47f3-970c-63c29546f46a",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "https://h4cg7rhbmieqskr.top:25638/",
+      "pattern": "[url:value = 'https://h4cg7rhbmieqskr.top:25638/']",
+      "description": "Async RAT C2 traffic using HTTPS TLSv1 on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c872e61a-b8a5-4b2e-9961-623a0ba623f2",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "retraining.allstardriving.org",
+      "pattern": "[domain-name:value = 'retraining.allstardriving.org']",
+      "description": "SocGholish domain for page displaying fake browser download on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--999dcafe-ee35-4dec-9b85-0f9186c7399d",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "aphqj.members.openarmscv.com",
+      "pattern": "[domain-name:value = 'aphqj.members.openarmscv.com']",
+      "description": "Domain called by SocGholish JavaScript (.js) file for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--22c090b8-df74-4c45-bc85-a008c504a5ea",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "pbvzje4.top",
+      "pattern": "[domain-name:value = 'pbvzje4.top']",
+      "description": "Domain first registered on 2024-01-12, hosting files for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-01-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--52a670f1-a236-413a-9e15-fd489f6853f5",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "bjlkchhaaigceke.top",
+      "pattern": "[domain-name:value = 'bjlkchhaaigceke.top']",
+      "description": "Domain hosting files for Async RAT infection, registered on 2024-02-18.",
+      "valid_from": "2024-02-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9cd58696-925f-4112-a782-ac5dfbb8c204",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "h4cg7rhbmieqskr.top",
+      "pattern": "[domain-name:value = 'h4cg7rhbmieqskr.top']",
+      "description": "Async RAT C2 domain registered on 2024-02-15.",
+      "valid_from": "2024-02-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--71a93c29-24bf-4e1e-a308-8a427e8ae8f3",
+      "created": "2024-02-15T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "66.135.17.87",
+      "pattern": "[ipv4-addr:value = '66.135.17.87']",
+      "description": "IP address for SocGholish domain retraining.allstardriving.org on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--772ca8f1-4c9d-4cd4-b745-e00866def770",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "45.59.170.106",
+      "pattern": "[ipv4-addr:value = '45.59.170.106']",
+      "description": "IP address for aphqj.members.openarmscv.com domain called by SocGholish JavaScript (.js) file for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3d33d104-1820-491c-ac93-681d0957804b",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "49.13.65.235",
+      "pattern": "[ipv4-addr:value = '49.13.65.235']",
+      "description": "IP address for domain pbvzje4.top hosting files for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--361d907c-fe7b-441a-8044-c29e8e47ebc6",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "167.71.107.109",
+      "pattern": "[ipv4-addr:value = '167.71.107.109']",
+      "description": "IP address for domain bjlkchhaaigceke.top hosting files for Async RAT infection on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--793cc6ab-0864-4c55-9690-2897765abea4",
+      "created": "2024-02-21T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-21T00:00:00.001Z",
+      "name": "5.161.113.150",
+      "pattern": "[ipv4-addr:value = '5.161.113.150']",
+      "description": "IP address for Async RAT C2 domain seen on 2024-02-21.",
+      "valid_from": "2024-02-21T00:00:00.001Z"
+    }
+  ]
+}
