@@ -1,0 +1,104 @@
+{
+  "type": "bundle",
+  "id": "bundle--7e56a35b-88ba-4dcc-b451-260b943805f1",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--2f9b836f-509b-4073-9146-20d6ec5596b2",
+      "created": "2024-02-27T21:02:00.001Z",
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "Code updates to Akira Ransomware.",
+      "title": "Timely Threat Intelligence (TTI) post on code updates to Akira Ransomware.",
+      "description": "This is a description of the activity.",
+      "published": "2024-02-27T21:22:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-02-27",
+          "url": "https://www.linkedin.com/posts/unit42_akiraransomware-kcipher2-chacha20-activity-7168276634125492225-Q2T6",
+          "description": "Linkedin post from Unit 42 on ransomware samples possibly impersonating Lockbit."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-02-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1762570867291070880",
+          "description": "X (Twitter) post from Unit 42 on ransomware samples possibly impersonating Lockbit."
+        }
+      ],
+      "object_refs": [
+        "indicator--678c6608-cb48-4609-9c6b-3602ca6d7e56",
+        "indicator--9d55f35b-c03a-4af9-8555-8382dd4bc0cd",
+        "indicator--e0a10834-c0fb-4828-897d-70771146b4a0",
+        "indicator--e0dec640-de2d-4dd0-b1e3-5007dd8daed9",
+        "indicator--8d551e0e-4d39-4680-bd1e-b4558b0fdece"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--678c6608-cb48-4609-9c6b-3602ca6d7e56",
+      "created": "2024-02-27T21:02:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "lb3_packed.exe",
+      "pattern": "[file:hashes.'SHA-256' = '0447c931bb8efc6dc531f69a891f2a0f28a85a18b25e04366fdb59bf827b2eb1']",
+      "description": "Windows executable (.exe) file for possible Lockbit ransomware imposter.",
+      "valid_from": "2024-02-24T00:44:10.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9d55f35b-c03a-4af9-8555-8382dd4bc0cd",
+      "created": "2024-02-27T21:02:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "lb3.exe",
+      "pattern": "[file:hashes.'SHA-256' = '31208a2640c1f2806d21bb8b40abd47b24dd3be85dedb1fdb9f33dac47b23152']",
+      "description": "Windows executable (.exe) file for possible Lockbit ransomware imposter.",
+      "valid_from": "2024-02-24T00:50:49.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0a10834-c0fb-4828-897d-70771146b4a0",
+      "created": "2024-02-27T21:02:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "lb3.exe",
+      "pattern": "[file:hashes.'SHA-256' = '9b5f1ec1ca04344582d1eca400b4a21dfff89bc650aba4715edd7efb089d8141']",
+      "description": "Windows executable (.exe) file for possible Lockbit ransomware imposter.",
+      "valid_from": "2024-02-24T00:36:38.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0dec640-de2d-4dd0-b1e3-5007dd8daed9",
+      "created": "2024-02-27T21:02:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "lb3.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'b3a994f26b694fcfdc68e57fc6aeea2aa4b4906ff50b0319e00c693537a3b25c']",
+      "description": "Windows executable (.exe) file for possible Lockbit ransomware imposter.",
+      "valid_from": "2024-02-24T00:39:06.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8d551e0e-4d39-4680-bd1e-b4558b0fdece",
+      "created": "2024-02-27T21:02:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T21:02:00.001Z",
+      "name": "lb3.vmp.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'f8935a295a316e15f60fadf465383f19cf881a42ba008ed1792cbeecb21580dc']",
+      "description": "Windows executable (.exe) file for possible Lockbit ransomware imposter.",
+      "valid_from": "2024-02-24T01:08:24.001Z"
+    }
+  ]
+}
