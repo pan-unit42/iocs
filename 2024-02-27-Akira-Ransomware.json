@@ -1,0 +1,296 @@
+{
+  "type": "bundle",
+  "id": "bundle--c3d070f4-0c74-4af7-9b5f-4d0de2554913",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--95323298-09f7-4de1-9251-1048fdae633c",
+      "created": "2024-02-27T18:03:00.001Z",
+      "modified": "2024-02-27T18:03:00.001Z",
+      "name": "Code updates to Akira Ransomware.",
+      "title": "Timely Threat Intelligence (TTI) post on code updates to Akira Ransomware.",
+      "description": "This is a description of the activity.",
+      "published": "2024-02-27T17:22:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-02-27",
+          "url": "https://www.linkedin.com/posts/unit42_akiraransomware-kcipher2-chacha20-activity-7168276634125492225-Q2T6",
+          "description": "Linkedin post from Unit 42 on code updates to Akira ransomware."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-02-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1762510454377619694",
+          "description": "X (Twitter) post from Unit 42 on code updates to Akira ransomware (1 of 3)."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-02-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1762510703745704339",
+          "description": "X (Twitter) post from Unit 42 on code updates to Akira ransomware (2 of 3)."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-02-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1762528566166626725",
+          "description": "X (Twitter) post from Unit 42 on code updates to Akira ransomware (3 of 3)."
+        }
+      ],
+      "object_refs": [
+        "indicator--4bb95a62-5eba-4fad-b8df-b870e5704a15",
+        "indicator--19356ee2-9258-421b-bc41-fde9f1bfe1bd",
+        "indicator--20ce6146-10f0-4122-a675-f79697f2a485",
+        "indicator--44b5c5b0-5834-4269-a4ba-e12f8db5e5ba",
+        "indicator--bbc57622-909e-415c-9fd8-eb3359b9e2c2",
+        "indicator--8a825a62-fc18-4ca3-8990-dcdabe23dabc",
+        "indicator--20fad463-d031-4194-92e5-0293fee9541e",
+        "indicator--583f362e-4118-45f1-bfb1-7b263d2af479",
+        "indicator--39c3ddc9-ba02-47a3-8657-3759ca4728a0",
+        "indicator--638a30db-e263-4218-bd65-d28dad815625",
+        "indicator--2b2d7216-62a5-45e7-ab67-a805c661b146",
+        "indicator--e1d086e5-2781-44cb-b459-02dafc696172",
+        "indicator--03b146cd-04cc-4cd7-9a5e-5ca50df5a388",
+        "indicator--5ebe31a1-5011-4348-97ef-db75d91daaf2",
+        "indicator--4f037f49-e197-4a69-9b46-ee734c39b4c7",
+        "indicator--c197f80e-2a7a-42dd-9b44-8c976a6b2c25",
+        "indicator--1393010d-4e1f-45b8-9e70-15dd817e4230",
+        "indicator--c45e8919-107b-46af-9859-e8605c354c1b"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4bb95a62-5eba-4fad-b8df-b870e5704a15",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "78642603005f826a3b47effb852da980a6483ffb9461e30842020848305c9353",
+      "pattern": "[file:hashes.'SHA-256' = '78642603005f826a3b47effb852da980a6483ffb9461e30842020848305c9353']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-26T16:31:17.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--19356ee2-9258-421b-bc41-fde9f1bfe1bd",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "2db4a15475f382e34875b37d7b27c3935c7567622141bc203fde7fe602bc8643",
+      "pattern": "[file:hashes.'SHA-256' = '2db4a15475f382e34875b37d7b27c3935c7567622141bc203fde7fe602bc8643']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-10T13:30:55.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--20ce6146-10f0-4122-a675-f79697f2a485",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "2727c73f3069457e9ad2197b3cda25aec864a2ab8da3c2790264d06e13d45c3d",
+      "pattern": "[file:hashes.'SHA-256' = '2727c73f3069457e9ad2197b3cda25aec864a2ab8da3c2790264d06e13d45c3d']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-08T02:04:13.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--44b5c5b0-5834-4269-a4ba-e12f8db5e5ba",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "hessen.exe",
+      "pattern": "[file:hashes.'SHA-256' = '7d5da695e6f9a421e3d3a94e384ce00e8ec58fac5b895b4cba5b66a6de7fafd5']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-19T16:36:08.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bbc57622-909e-415c-9fd8-eb3359b9e2c2",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "win.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'd5558ec7979a96fe1ddcb1f33053a1ac3416a9b65d4f27b5cc9fd0a816296184']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-17T18:59:27.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8a825a62-fc18-4ca3-8990-dcdabe23dabc",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "akira.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'e5c8888f51369c2105d47a4998ad9b4053471bd98b4fd73a854207da09206ee2']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-14T16:31:01.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--20fad463-d031-4194-92e5-0293fee9541e",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "win.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'ca651d0eb676923c3b29190f7941d8d2ac8f14e4ad6c26c466069bbc59df4d1d']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-08T13:23:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--583f362e-4118-45f1-bfb1-7b263d2af479",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "w.exe",
+      "pattern": "[file:hashes.'SHA-256' = '99c1cd740fa749a163ce8cdf93722191c4ba5d97de81576623a8bbcb622473d6']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-08T20:39:12.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--39c3ddc9-ba02-47a3-8657-3759ca4728a0",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "vrsaki.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'c9a1d8240147075cb7ffd8d568e6d3c517ac4cfdddccd5bb37857e7bde6d2eb7']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-02-07T22:17:32.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--638a30db-e263-4218-bd65-d28dad815625",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "w.exe",
+      "pattern": "[file:hashes.'SHA-256' = '77fe1619aa07d2ab169a2fa23feb22d7433bf07e856cda1402cf60205beddd7f']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-31T19:18:27.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2b2d7216-62a5-45e7-ab67-a805c661b146",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "1.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'f1f82d3b62f92f4fe8af320afea6c346210bb51774bb1567149e308469d40c92']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-28T00:42:24.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e1d086e5-2781-44cb-b459-02dafc696172",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "win.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'ffcddd8544bca0acde69f49abd1ea9dbee5f4eb73df51dd456b401c045a0b6af']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-27T14:18:34.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--03b146cd-04cc-4cd7-9a5e-5ca50df5a388",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "ad32.exe",
+      "pattern": "[file:hashes.'SHA-256' = '08207409e1d789aea68419b04354184490ce46339be071c6c185c75ab9d08cba']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-24T19:20:45.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ebe31a1-5011-4348-97ef-db75d91daaf2",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "w.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'ee0a27f3de6f21463f8125dbfc95268ff995ef8ea464660d67cf9f77e240e1ab']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-22T20:16:40.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4f037f49-e197-4a69-9b46-ee734c39b4c7",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "w.exe",
+      "pattern": "[file:hashes.'SHA-256' = '58e9cd249d947f829a6021cf6ab16c2ca8e83317dbe07a294e2035bb904d0cf3']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-15T10:40:54.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c197f80e-2a7a-42dd-9b44-8c976a6b2c25",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "win.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'b7bbfb66338a3413f981561115bd8ef8a4014479bcc320de563499cfc73a3de2']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-17T13:04:53.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1393010d-4e1f-45b8-9e70-15dd817e4230",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "w.exe",
+      "pattern": "[file:hashes.'SHA-256' = '56f1014eb2d145c957f9bc0843f4e506735d7821e16355bcfbb6150b1b5f39db']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-08T23:19:02.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c45e8919-107b-46af-9859-e8605c354c1b",
+      "created": "2024-02-27T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-27T00:00:00.001Z",
+      "name": "6270cef0c8cc45905556c40c9273391d71ef8d73c865d44d2254a8a4943ae5b4 ",
+      "pattern": "[file:hashes.'SHA-256' = '6270cef0c8cc45905556c40c9273391d71ef8d73c865d44d2254a8a4943ae5b4']",
+      "description": "64-bit Windows executable (.exe) ile for Akira ransomware.",
+      "valid_from": "2024-01-03T22:45:47.001Z"
+    }
+  ]
+}
