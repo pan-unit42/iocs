@@ -35,5 +35,6 @@
     {"id": "report--551bf890-d842-4ea6-9ed1-3be29f486d83", "rp_file": "2024-02-08-Pikabot.json", "last_updated": "2024-02-08T23:59:59.001Z", "title": "2024-02-08 Pikabot", "industries": [], "regions": [], "malwares": []},
     {"id": "report--477c67ce-1048-4427-b0b8-2ea67ccfc83f", "rp_file": "2024-02-14-Danabot.json", "last_updated": "2024-02-14T20:25.001Z", "title": "2024-02-14 Danabot", "industries": [], "regions": [], "malwares": []},
     {"id": "report--7ef27fa2-8d4a-42ba-a2a7-b163bcb55543", "rp_file": "2024-02-15-Bradesco-phishing.json", "last_updated": "2024-02-16T16:10:01.001Z", "title": "2024-02-15 Bradesco phishing", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--b195a176-37cc-46fe-85bd-d6c2e0f6c9c7", "rp_file": "2024-02-21-AsyncRAT.json", "last_updated": "2024-02-21T00:00:01.001Z", "title": "2024-02-21 Async RAT", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--b195a176-37cc-46fe-85bd-d6c2e0f6c9c7", "rp_file": "2024-02-21-AsyncRAT.json", "last_updated": "2024-02-21T00:00:01.001Z", "title": "2024-02-21 Async RAT", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--95323298-09f7-4de1-9251-1048fdae633c", "rp_file": "2024-02-27-Akira-Ransomware.json", "last_updated": "2024-02-27T18:03:00.001Z", "title": "2024-02-27 Akira Ransomware", "industries": [], "regions": [], "malwares": []}
 ]
