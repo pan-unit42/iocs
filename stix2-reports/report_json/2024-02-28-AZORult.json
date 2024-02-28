@@ -1,0 +1,155 @@
+{
+  "type": "bundle",
+  "id": "bundle--f7c329b1-ed67-4380-9846-9d95a1ae97b1",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--3909a4a5-6174-4532-9bf5-012dbb7e6621",
+      "created": "2024-02-28T22:05:00.001Z",
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "2024-02-28-AZORult.json",
+      "title": "2024-02-28: AZORult from CitiBank-themed zip archive.",
+      "description": "2024-02-28 (Wednesday): AZORult (KoiStealer/KoiLoader) from CitiBank-themed zip archive --> Windows shortcut",
+      "published": "2024-02-28T22:05:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Mastodon",
+          "url": "https://infosec.exchange/@malware_traffic/112011130324706956",
+          "description": "Mastodon social media post on recent AZORult (KoiStealer/KoiLoader) activity."
+        }
+      ],
+      "object_refs": [
+        "indicator--9aae1dd9-4a24-4588-a61e-a87847ff8632",
+        "indicator--5f5790d1-0a11-4056-a8ab-b612de13df03",
+        "indicator--04869d92-b0cc-4452-90fa-a7b920dd385c",
+        "indicator--480e651a-ee03-4d2a-a2b0-0504bbc582ca",
+        "indicator--c6ec12a4-4582-44ef-be56-09ccfa12ad3b",
+        "indicator--dce4779a-26bb-44da-8d3d-078bce527a7b",
+        "indicator--6900a2eb-159c-40f5-b2e8-70fdc3fca5ee",
+        "indicator--c6fa867e-bba3-4a68-91bc-9eb89bb56f6e",
+        "indicator--61890613-41e1-47f2-9a3f-5961668776ab"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9aae1dd9-4a24-4588-a61e-a87847ff8632",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "citibank_statement_26_02_2024.zip",
+      "pattern": "[file:hashes.'SHA-256' = '7515e80a47403cc2d79060db8dc2ecb1715d2a18ed77e302ed66d67a93149ba4']",
+      "description": "Zip archive for AZORult (KoiStealer/KoiLoader) seen on 2024-02-28.",
+      "valid_from": "2024-02-28T05:29:56.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5f5790d1-0a11-4056-a8ab-b612de13df03",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "citibank_statement_26_02_2024.lnk",
+      "pattern": "[file:hashes.'SHA-256' = '069581d9b75846a7eb92c4683b50f80fd28bfca870a288561a1ae23034d731f6']",
+      "description": "Windows shortcut (.lnk) for AZORult (KoiStealer/KoiLoader) seen on 2024-02-28.",
+      "valid_from": "2024-02-28T05:29:56.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--04869d92-b0cc-4452-90fa-a7b920dd385c",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "https://www.sqjeans.com/libs/fonts/fungofruit.php",
+      "pattern": "[url:value = 'https://www.sqjeans.com/libs/fonts/fungofruit.php']",
+      "description": "URL hosting malicious content for AZORult (KoiStealer/KoiLoader) as early as 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--480e651a-ee03-4d2a-a2b0-0504bbc582ca",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "https://www.sqjeans.com/libs/fonts/agent1.ps1",
+      "pattern": "[url:value = 'https://www.sqjeans.com/libs/fonts/agent1.ps1']",
+      "description": "URL hosting malicious content for AZORult (KoiStealer/KoiLoader) as early as 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c6ec12a4-4582-44ef-be56-09ccfa12ad3b",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "https://www.sqjeans.com/libs/fonts/agent3.ps1",
+      "pattern": "[url:value = 'https://www.sqjeans.com/libs/fonts/agent3.ps1']",
+      "description": "URL hosting malicious content for AZORult (KoiStealer/KoiLoader) as early as 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dce4779a-26bb-44da-8d3d-078bce527a7b",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "https://www.sqjeans.com /libs/fonts/service.exe",
+      "pattern": "[url:value = 'https://www.sqjeans.com /libs/fonts/service.exe']",
+      "description": "URL hosting malicious content for AZORult (KoiStealer/KoiLoader) as early as 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6900a2eb-159c-40f5-b2e8-70fdc3fca5ee",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "https://www.sqjeans.com/libs/fonts/sd2.ps1",
+      "pattern": "[url:value = 'https://www.sqjeans.com/libs/fonts/sd2.ps1']",
+      "description": "URL hosting malicious content for AZORult (KoiStealer/KoiLoader) as early as 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c6fa867e-bba3-4a68-91bc-9eb89bb56f6e",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "http://195.123.220.40/config.php",
+      "pattern": "[url:value = 'http://195.123.220.40/config.php']",
+      "description": "AZORult (KoiStealer/KoiLoader) C2 URL seen on 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--61890613-41e1-47f2-9a3f-5961668776ab",
+      "created": "2024-02-28T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-02-28T22:05:00.001Z",
+      "name": "http://195.123.220.40/index.php",
+      "pattern": "[url:value = 'http://195.123.220.40/index.php']",
+      "description": "AZORult (KoiStealer/KoiLoader) C2 URL seen on 2024-02-28.",
+      "valid_from": "2024-02-28T00:00:00.001Z"
+    }
+  ]
+}
