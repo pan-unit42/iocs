@@ -1,0 +1,43 @@
+{
+  "type": "bundle",
+  "id": "bundle--ae01e340-1706-4455-bf7d-bf3fe5a0dc88",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--f353fa9f-0340-444f-ba10-0bb78a348510",
+      "created": "2024-03-04T23:20:00.001Z",
+      "modified": "2024-03-04T23:20:00.001Z",
+      "name": "2024-03-04 GootLoader",
+      "title": "2024-03-04 Fake Forum Post for GootLoader",
+      "description": "URL found on 2024-03-04 leading to fake forum post for GootLoader malware.",
+      "published": "2024-03-04T23:08:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Mastodon",
+          "url": "https://infosec.exchange/@malware_traffic/112039934661788706",
+          "description": "2024-03-04 Mastodon post from @malware_traffic"
+        }
+      ],
+      "object_refs": [
+        "indicator--a9bb8cfb-d555-43d5-b7e4-f1280e7b9f15"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a9bb8cfb-d555-43d5-b7e4-f1280e7b9f15",
+      "created": "2024-03-04T23:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-04T23:20:00.001Z",
+      "name": "http://muganni.com.tr/residential-sale-and-purchase-agreement-form-nz-legal-contracts/",
+      "pattern": "[url:value = 'http://muganni.com.tr/residential-sale-and-purchase-agreement-form-nz-legal-contracts/']",
+      "description": "URL found on 2024-03-04 leading to fake forum post for GootLoader malware.",
+      "valid_from": "2024-03-04T00:00:00.001Z"
+    }
+  ]
+}
