@@ -1,0 +1,468 @@
+{
+  "type": "bundle",
+  "id": "bundle--58a2ba7c-a051-4f4d-ac1b-74c801fc100c",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7e18b115-8694-4eb5-a227-b8c476235e05",
+      "created": "2024-03-07T05:00:00.001Z",
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "T2024-03-06: Pikabot infection leads to Meduza Stealer.",
+      "title": "2024-03-06: Pikabot infection leads to Meduza Stealer.",
+      "description": "Unit 42 Timely Threat Intelligence (TTI) post on Pikabot leading to Meduza Stealer.",
+      "published": "2024-03-07T00:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-03-07",
+          "url": "https://www.linkedin.com/posts/unit42_pikabot-meduza-meduzastealer-activity-7171529296388321282-7yIh/",
+          "description": "Linkedin post from Unit 42 on Pikabot leading to Meduza Stealer."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-03-07",
+          "url": "https://twitter.com/Unit42_Intel/status/1765763677192356196",
+          "description": "X (Twitter) post from Unit 42 on Pikabot leading to Meduza Stealer."
+        }
+      ],
+      "object_refs": [
+        "indicator--1e020d9b-fb58-4ba7-bde1-b3054bad44c9",
+        "indicator--1e024bdf-6efb-4743-89fe-1beaa717ea14",
+        "indicator--3957a3fd-f38f-41a4-8c65-d83b26dead43",
+        "indicator--4732018c-1a06-4561-9d74-853b78b708c4",
+        "indicator--54610ee1-e9d4-45d0-9b4a-fec3be11fd1e",
+        "indicator--d4dd3297-d00a-4da2-b6f9-129ee67c6301",
+        "indicator--17225c73-a082-402f-bbf0-98f906827063",
+        "indicator--9dbeae7f-4cf9-4685-8f42-1f05f9ffac94",
+        "indicator--2a55614b-8ec7-4aa6-b2b4-a3a704f408c0",
+        "indicator--5c1795ce-af02-46cd-bce9-77c0b3063b85",
+        "indicator--e390ad7e-488a-403d-90e4-4e594a1f9ec4",
+        "indicator--0515e21d-cd9a-4bd5-a341-48fdb69370b1",
+        "indicator--d5f13445-3b6a-40fb-a9aa-20c35e963483",
+        "indicator--a5d0db4b-347c-446a-9b04-863f579f8d18",
+        "indicator--c57c15d1-10e6-40e2-af44-eed73c34a31f",
+        "indicator--35cfa032-0801-40fb-a9a4-242e605d9c63",
+        "indicator--88eb8bfc-b6f3-4fbf-9b46-9bc4e3f9dd3c",
+        "indicator--21572887-1166-4569-b4db-45dd869c445a",
+        "indicator--57a3404e-7473-4547-84b7-0d4604e2d727",
+        "indicator--9361cd13-cb54-4c9d-89be-1e9d60e81387",
+        "indicator--2ca69140-c7f3-4679-a5a6-fe2fe8695eb2",
+        "indicator--2d2b5f25-a3fb-46fd-9878-af31bcb91379",
+        "indicator--9b988f6a-fc18-478d-97b5-e8eb410335f7",
+        "indicator--36a4a868-aea3-4f66-9b15-988ba4991177",
+        "indicator--40eff80a-82fa-44ba-9181-fbb89a1838cb",
+        "indicator--99ff755b-4fd2-43fd-a941-e530912f29a9",
+        "indicator--dd291b87-8fa9-4322-a0fe-338771b21cfe",
+        "indicator--d46bd55d-033c-4c72-aabf-01c6e940a91c",
+        "indicator--51ffd294-57ed-4f33-997d-ec98dfb568ab",
+        "indicator--5e4ad0a3-be26-47bd-8288-f1fb7cb550e9",
+        "indicator--06e2d693-3019-4f1d-b2d4-cd2f564ab44e"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1e020d9b-fb58-4ba7-bde1-b3054bad44c9",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "CUMQUECL.iso",
+      "pattern": "[file:hashes.'SHA-256' = 'cc5f2925491e4c13369067816029bb586221330f95a40b0c8a746bee0dd76c44']",
+      "description": "ISO disk image distributed as email attachment on 2024-03-06, containing files for Pikabot infection.",
+      "valid_from": "2024-03-06T15:31:31.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1e024bdf-6efb-4743-89fe-1beaa717ea14",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "PERSPICIATISM.iso",
+      "pattern": "[file:hashes.'SHA-256' = 'c2071407cf960fa166ac47d86f4a92b64873cd8c37a4ea416e80488c5f327c8f']",
+      "description": "ISO disk image distributed as email attachment on 2024-03-06, containing files for Pikabot infection.",
+      "valid_from": "2024-03-06T12:24:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3957a3fd-f38f-41a4-8c65-d83b26dead43",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "REPELLENDUSYU.iso",
+      "pattern": "[file:hashes.'SHA-256' = 'c2261343c19a193e92980764be4d4db3677fef9ec18ccd3fa4a3dbe45da46b05']",
+      "description": "ISO disk image distributed as email attachment on 2024-03-06, containing files for Pikabot infection.",
+      "valid_from": "2024-03-06T13:33:44.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4732018c-1a06-4561-9d74-853b78b708c4",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "SITXH.iso",
+      "pattern": "[file:hashes.'SHA-256' = '99c0867b3cfeafe1e2aa83f18b01b88107aff94b77a2c118abb215dbc5c00fb3']",
+      "description": "ISO disk image distributed as email attachment on 2024-03-06, containing files for Pikabot infection.",
+      "valid_from": "2024-03-06T12:27:32.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--54610ee1-e9d4-45d0-9b4a-fec3be11fd1e",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "edputil.dll",
+      "pattern": "[file:hashes.'SHA-256' = '37cd467d8007b310a18c2c0675f5aacce24bb3d8c7213695033ba1ee8f59ffd3']",
+      "description": "DLL side loaded by legitimate Microsoft file write.exe for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T10:04:23.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d4dd3297-d00a-4da2-b6f9-129ee67c6301",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "edputil.dll",
+      "pattern": "[file:hashes.'SHA-256' = '905a3a144f94a38ac6059759879caec19cff446b98c24bb2035b3293330e03b2']",
+      "description": "DLL side loaded by legitimate Microsoft file write.exe for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T10:04:33.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--17225c73-a082-402f-bbf0-98f906827063",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "edputil.dll",
+      "pattern": "[file:hashes.'SHA-256' = 'fc7c36172f3763c94e20a94886dbac42fd27a1cd91c3cf1f4808897932fc55fb']",
+      "description": "DLL side loaded by legitimate Microsoft file write.exe for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T10:06:16.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9dbeae7f-4cf9-4685-8f42-1f05f9ffac94",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "6775.png",
+      "pattern": "[file:hashes.'SHA-256' = 'fb8e3ef19f0a3ad298b8d315a716aae1151332c1f097296962a3a04017f940ae']",
+      "description": "DLL file for Pikabot seen on 2024-03-06. Run method: rundll32 [file],GetModuleProp",
+      "valid_from": "2024-03-06T13:13:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2a55614b-8ec7-4aa6-b2b4-a3a704f408c0",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://topflowersclub.com/aUvM/6875",
+      "pattern": "[url:value = 'https://topflowersclub.com/aUvM/6875']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5c1795ce-af02-46cd-bce9-77c0b3063b85",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://yourunitedlaws.com/mrD/8428",
+      "pattern": "[url:value = 'https://yourunitedlaws.com/mrD/8428']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e390ad7e-488a-403d-90e4-4e594a1f9ec4",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://yourunitedlaws.com/mrD/7207",
+      "pattern": "[url:value = 'https://yourunitedlaws.com/mrD/7207']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0515e21d-cd9a-4bd5-a341-48fdb69370b1",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://yourunitedlaws.com/mrD/4462",
+      "pattern": "[url:value = 'https://yourunitedlaws.com/mrD/4462']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d5f13445-3b6a-40fb-a9aa-20c35e963483",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://yourunitedlaws.com/mrD/2138",
+      "pattern": "[url:value = 'https://yourunitedlaws.com/mrD/2138']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a5d0db4b-347c-446a-9b04-863f579f8d18",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://yourunitedlaws.com/mrD/",
+      "pattern": "[url:value = 'https://yourunitedlaws.com/mrD/']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c57c15d1-10e6-40e2-af44-eed73c34a31f",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://topflowersclub.com/aUvM/",
+      "pattern": "[url:value = 'https://topflowersclub.com/aUvM/']",
+      "description": "URL hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--35cfa032-0801-40fb-a9a4-242e605d9c63",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://45.77.63.237:5632/",
+      "pattern": "[url:value = 'https://45.77.63.237:5632/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--88eb8bfc-b6f3-4fbf-9b46-9bc4e3f9dd3c",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://70.34.199.64:9785/",
+      "pattern": "[url:value = 'https://70.34.199.64:9785/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--21572887-1166-4569-b4db-45dd869c445a",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://70.34.223.164:5000/",
+      "pattern": "[url:value = 'https://70.34.223.164:5000/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--57a3404e-7473-4547-84b7-0d4604e2d727",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://84.46.240.42:2083/",
+      "pattern": "[url:value = 'https://84.46.240.42:2083/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9361cd13-cb54-4c9d-89be-1e9d60e81387",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://94.72.104.77:13724/",
+      "pattern": "[url:value = 'https://94.72.104.77:13724/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2ca69140-c7f3-4679-a5a6-fe2fe8695eb2",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://94.72.104.80:5000/",
+      "pattern": "[url:value = 'https://94.72.104.80:5000/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2d2b5f25-a3fb-46fd-9878-af31bcb91379",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://154.12.236.248:13786/",
+      "pattern": "[url:value = 'https://154.12.236.248:13786/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b988f6a-fc18-478d-97b5-e8eb410335f7",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://154.53.55.165:13783/",
+      "pattern": "[url:value = 'https://154.53.55.165:13783/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--36a4a868-aea3-4f66-9b15-988ba4991177",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://158.247.240.58:5632/",
+      "pattern": "[url:value = 'https://158.247.240.58:5632/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--40eff80a-82fa-44ba-9181-fbb89a1838cb",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://198.38.94.213:2224/",
+      "pattern": "[url:value = 'https://198.38.94.213:2224/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--99ff755b-4fd2-43fd-a941-e530912f29a9",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "https://209.126.86.48:1194/",
+      "pattern": "[url:value = 'https://209.126.86.48:1194/']",
+      "description": "URL for Pikabot C2 traffic seen on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dd291b87-8fa9-4322-a0fe-338771b21cfe",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "http://141.98.83.242/auth/login",
+      "pattern": "[url:value = 'http://141.98.83.242/auth/login']",
+      "description": "URL for control panel on Meduza Stealer C2 server seen as early as 2024-01-29",
+      "valid_from": "2024-01-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d46bd55d-033c-4c72-aabf-01c6e940a91c",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "tcp://141.98.83.242:15666/",
+      "pattern": "[url:value = 'tcp://141.98.83.242:15666/']",
+      "description": "Data exfiltration for Meduza Stealer as early as 2024-01-29.",
+      "valid_from": "2024-01-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--51ffd294-57ed-4f33-997d-ec98dfb568ab",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "yourunitedlaws.com",
+      "pattern": "[domain-name:value = 'yourunitedlaws.com']",
+      "description": "Domain hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+     {
+      "type": "indicator",
+      "id": "indicator--5e4ad0a3-be26-47bd-8288-f1fb7cb550e9",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "topflowersclub.com",
+      "pattern": "[domain-name:value = 'topflowersclub.com']",
+      "description": "Domain hosting DLL for Pikabot infection on 2024-03-06.",
+      "valid_from": "2024-03-06T00:00:00.001Z"
+    },
+   {
+      "type": "indicator",
+      "id": "indicator--06e2d693-3019-4f1d-b2d4-cd2f564ab44e",
+      "created": "2024-03-07T05:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-07T05:00:00.001Z",
+      "name": "141.98.83.242",
+      "pattern": "[ipv4-addr:value = '141.98.83.242']",
+      "description": "IP addresss hosting Meduza Stealer C2 server as early as 2024-01-29.",
+      "valid_from": "2024-01-29T00:00:00.001Z"
+    }
+  ]
+}
