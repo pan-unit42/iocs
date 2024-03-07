@@ -39,5 +39,6 @@
     {"id": "report--95323298-09f7-4de1-9251-1048fdae633c", "rp_file": "2024-02-27-Akira-Ransomware.json", "last_updated": "2024-02-27T18:03:00.001Z", "title": "2024-02-27 Akira Ransomware", "industries": [], "regions": [], "malwares": []},
     {"id": "report--2f9b836f-509b-4073-9146-20d6ec5596b2", "rp_file": "2024-02-24-Lockbit-imposter-ransomware.json", "last_updated": "2024-02-27T21:02:00.001Z", "title": "2024-02-24 Lockbit imposter ransomware", "industries": [], "regions": [], "malwares": []},
     {"id": "report--3909a4a5-6174-4532-9bf5-012dbb7e6621", "rp_file": "2024-02-28-AZORult.json", "last_updated": "2024-02-28T22:05:00.001Z", "title": "2024-02-28 AZORult", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--f353fa9f-0340-444f-ba10-0bb78a348510", "rp_file": "2024-03-04-GootLoader.json", "last_updated": "2024-03-04T23:20:00.001Z", "title": "2024-03-04 Fake Forum Post for GootLoader", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--f353fa9f-0340-444f-ba10-0bb78a348510", "rp_file": "2024-03-04-GootLoader.json", "last_updated": "2024-03-04T23:20:00.001Z", "title": "2024-03-04 Fake Forum Post for GootLoader", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--7e18b115-8694-4eb5-a227-b8c476235e05", "rp_file": "2024-03-06-Pikabot-with-Meduza-Stealer.json", "last_updated": "2024-03-07T05:00:00.001Z", "title": "2024-03-06: Pikabot infection leads to Meduza Stealer.", "industries": [], "regions": [], "malwares": []}
 ]
