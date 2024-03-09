@@ -1,0 +1,369 @@
+{
+  "type": "bundle",
+  "id": "bundle--371108b6-2346-471a-8ac0-921de14dcd7c",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--1596ed5a-4a89-40b9-9304-c5ade6660362",
+      "created": "2024-03-09T02:50:00.001Z",
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "2024-03-07: Latrodectus infection leads to Lumma Stealer.",
+      "title": "2024-03-07: Latrodectus infection leads to Lumma Stealer.",
+      "description": "Unit 42 Timely Threat Intelligence (TTI) post on Latrodectus leading to Lumma Stealer.",
+      "published": "2024-03-08T23:18:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-03-08",
+          "url": "https://www.linkedin.com/posts/unit42_latrodectus-lummastealer-unit42threatintel-activity-7172007697196810240-gBxT/",
+          "description": "Linkedin post from Unit 42 on Latrodectus leading to Lumma Stealer on 2024-03-07."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-03-08",
+          "url": "https://twitter.com/Unit42_Intel/status/1766242077585596520",
+          "description": "X (Twitter) post from Unit 42 on Latrodectus leading to Lumma Stealeron 2024-03-07."
+        }
+      ],
+      "object_refs": [
+        "indicator--836a886b-725a-4d0c-9472-e8caa85518c7",
+        "indicator--11467e04-a466-48de-8386-02d1bda11419",
+        "indicator--f14c3d1f-4366-4323-bd0f-606879cdda79",
+        "indicator--378609e2-e0f6-475f-9a10-82a4ca76b244",
+        "indicator--45f364ae-30b2-4a55-b6b0-ea3c56b1d5fa",
+        "indicator--dd69a7a4-4e4f-4f31-9011-b46bdf0ef5d4",
+        "indicator--05b0797a-4461-4230-a88d-90e3d5b6772a",
+        "indicator--a124c1fa-c2e1-49b3-bf06-0354e4db2058",
+        "indicator--11bad035-0715-4428-8a5c-07383a11a50a",
+        "indicator--de557b50-93a5-4131-8fca-e3fdafb6c01a",
+        "indicator--902167cd-d35f-4a91-843e-006490801b66",
+        "indicator--df693ab3-8169-4547-8c01-c27a9f6e9019",
+        "indicator--cc42a97e-f7bc-4196-a1f2-ed1318aeb742",
+        "indicator--6626d11d-8180-416d-8f82-460a99853f1d",
+        "indicator--430446eb-fc22-4e72-9526-f3ba74298302",
+        "indicator--f955f650-b789-49d4-a05b-3e87afa4fed1",
+        "indicator--960a15bf-d93d-4d8f-81c8-1e4880ae9be3",
+        "indicator--93c7a0ca-b7b0-437c-98bd-baead4efd28f",
+        "indicator--ac0f7c2f-44a1-4930-929c-0ecce195e466",
+        "indicator--3ba9320a-211d-410f-972b-e89394790fd7",
+        "indicator--306cdcf6-ee56-4f19-a345-98b9c4c25c9a",
+        "indicator--f0a0cd14-146b-4c3d-b628-60f0fb226e14",
+        "indicator--bda4712a-50f9-4e20-bb4e-b1da43bfcd06"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--836a886b-725a-4d0c-9472-e8caa85518c7",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "Doc_g81_67p132651-93b87214a4280-5471a2.js",
+      "pattern": "[file:hashes.'SHA-256' = '7fe955e3bfa79f81f110747d912cdd45c019ff1510ba1d53050c134797c202b9']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen on 2024-03-07.",
+      "valid_from": "2024-03-07T16:13:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--11467e04-a466-48de-8386-02d1bda11419",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "Doc_p10_51w070205-06q90756q1213-0967n0.js",
+      "pattern": "[file:hashes.'SHA-256' = 'c0fced3875d6aaa4fb082e26046a897e92de897a5540351e1df964d343353602']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen on 2024-03-07.",
+      "valid_from": "2024-03-07T16:41:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f14c3d1f-4366-4323-bd0f-606879cdda79",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "Doc_p73_09g609402-63f72619t6687-1674i1.js",
+      "pattern": "[file:hashes.'SHA-256' = 'f4df6f09f0e463a29ab49c760d867f620eab79454defe258a30ab1460913a718']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen on 2024-03-07.",
+      "valid_from": "2024-03-07T14:18:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--378609e2-e0f6-475f-9a10-82a4ca76b244",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "Doc_u06_11t252280-22f87291a9089-6090h7.js",
+      "pattern": "[file:hashes.'SHA-256' = '1122b30ee6b611f73c54425002c2349ab75e02de1d562fda34a4afa6e16c2f3f']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen on 2024-03-07.",
+      "valid_from": "2024-03-07T16:13:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--45f364ae-30b2-4a55-b6b0-ea3c56b1d5fa",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "cisa.msi",
+      "pattern": "[file:hashes.'SHA-256' = '3a950d7e6736f17c3df90844c76d934dc66c17ec76841a4ad58de07af7955f0f']",
+      "description": "Microsoft Installer (.msi) file used for Latrodectus infection as early as 2024-03-06.",
+      "valid_from": "2024-03-06T16:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dd69a7a4-4e4f-4f31-9011-b46bdf0ef5d4",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "Update_5574b828.dll",
+      "pattern": "[file:hashes.'SHA-256' = 'aee22a35cbdac3f16c3ed742c0b1bfe9739a13469cf43b36fb2c63565111028c']",
+      "description": "Windows DLL for Latrodectus seen on 2024-03-07. Run method: rundll32 [file], vgml",
+      "valid_from": "2024-03-07T20:20:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--05b0797a-4461-4230-a88d-90e3d5b6772a",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "-1561714384.exe",
+      "pattern": "[file:hashes.'SHA-256' = '364a149283b79cb26ba93bd95d6480c329458ae4e1985800611ce1dff79640fe']",
+      "description": "Windows EXE for Lumma Stealer seen during Latrodectus infection on 2024-03-07.",
+      "valid_from": "2024-03-07T21:11:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0a8c000-09ff-4c08-9a9b-1be24cd75556",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://something.com/someurlpath",
+      "pattern": "[url:value = 'https://something.com/someurlpath']",
+      "description": "This is a description of the URL.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a124c1fa-c2e1-49b3-bf06-0354e4db2058",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://something.com/someurlpath",
+      "pattern": "[url:value = 'https://something.com/someurlpath']",
+      "description": "This is a description of the URL.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--11bad035-0715-4428-8a5c-07383a11a50a",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://something.com/someurlpath",
+      "pattern": "[url:value = 'https://something.com/someurlpath']",
+      "description": "This is a description of the URL.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--de557b50-93a5-4131-8fca-e3fdafb6c01a",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://something.com/someurlpath",
+      "pattern": "[url:value = 'https://something.com/someurlpath']",
+      "description": "This is a description of the URL.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--902167cd-d35f-4a91-843e-006490801b66",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://lufyfeo.org/BJqYKWtHf",
+      "pattern": "[url:value = 'https://lufyfeo.org/BJqYKWtHf']",
+      "description": "From thread-hijacked email, this URL redirects to fake Azure page distributing .js file for Latrodectus infection. Seen on 2024-03-07.",
+      "valid_from": "2024-03-07T18:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--df693ab3-8169-4547-8c01-c27a9f6e9019",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://horaot.org/",
+      "pattern": "[url:value = 'https://horaot.org/']",
+      "description": "URL for fake Azure page distributing .js file for Latrodectus infection. Seen on 2024-03-07.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cc42a97e-f7bc-4196-a1f2-ed1318aeb742",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://horaot.org/vl.php",
+      "pattern": "[url:value = 'https://horaot.org/vl.php']",
+      "description": "URL from fake Azure page distributing .js file for Latrodectus infection. Seen on 2024-03-07. This redirects to Google Firebase URL for .js file download.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6626d11d-8180-416d-8f82-460a99853f1d",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/t04isSpgLc%2FDoc_p73_09g609402-63f72619t6687-1674i1.js?alt=media&token=4ac98b2d-9c63-487a-8ff9-fffae570578a",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/t04isSpgLc%2FDoc_p73_09g609402-63f72619t6687-1674i1.js?alt=media&token=4ac98b2d-9c63-487a-8ff9-fffae570578a']",
+      "description": "Google Firebase URL hosting malicious .js file for Latrodectus infection, seen on 2024-03-07.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--430446eb-fc22-4e72-9526-f3ba74298302",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/vCGChyqLoo%2FDoc_g81_67p132651-93b87214a4280-5471a2.js?alt=media&token=13640016-f4a7-4f52-bcc6-af1c0a55daf3",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/vCGChyqLoo%2FDoc_g81_67p132651-93b87214a4280-5471a2.js?alt=media&token=13640016-f4a7-4f52-bcc6-af1c0a55daf3']",
+      "description": "Google Firebase URL hosting malicious .js file for Latrodectus infection, seen on 2024-03-07.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f955f650-b789-49d4-a05b-3e87afa4fed1",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/poflTeFzqB%2FDoc_u06_11t252280-22f87291a9089-6090h7.js?alt=media&token=9bf9b214-5882-4a0a-8815-d10cbc77a539",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/poflTeFzqB%2FDoc_u06_11t252280-22f87291a9089-6090h7.js?alt=media&token=9bf9b214-5882-4a0a-8815-d10cbc77a539']",
+      "description": "Google Firebase URL hosting malicious .js file for Latrodectus infection, seen on 2024-03-07.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--960a15bf-d93d-4d8f-81c8-1e4880ae9be3",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/SV3SRPclfX%2FDoc_p10_51w070205-06q90756q1213-0967n0.js?alt=media&token=9e3b37c5-9b84-4bfe-be63-2a064c6f9111",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/maga-414515.appspot.com/o/SV3SRPclfX%2FDoc_p10_51w070205-06q90756q1213-0967n0.js?alt=media&token=9e3b37c5-9b84-4bfe-be63-2a064c6f9111']",
+      "description": "Google Firebase URL hosting malicious .js file for Latrodectus infection, seen on 2024-03-07.",
+      "valid_from": "2024-03-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--93c7a0ca-b7b0-437c-98bd-baead4efd28f",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "lufyfeo.org",
+      "pattern": "[domain-name:value = 'lufyfeo.org']",
+      "description": "Domain used in URL for Latrodectus infection chain seen on 2024-03-07 (registered on 2024-02-26).",
+      "valid_from": "2024-02-26T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ac0f7c2f-44a1-4930-929c-0ecce195e466",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "horaot.org",
+      "pattern": "[domain-name:value = 'horaot.org']",
+      "description": "Domain used for fake Azure web page in Latrodectus infection chain seen on 2024-03-07 (registered on 2024-02-27).",
+      "valid_from": "2024-02-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3ba9320a-211d-410f-972b-e89394790fd7",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "aytobusesre.com",
+      "pattern": "[domain-name:value = 'aytobusesre.com']",
+      "description": "Domain used for Latrodectus C2 traffic seen on 2024-03-07 (registered on 2023-11-13).",
+      "valid_from": "2023-11-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--306cdcf6-ee56-4f19-a345-98b9c4c25c9a",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "popfealt.one",
+      "pattern": "[domain-name:value = 'popfealt.one']",
+      "description": "Domain used for Latrodectus C2 traffic seen on 2024-03-07 (registered on 2023-11-06).",
+      "valid_from": "2023-11-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f0a0cd14-146b-4c3d-b628-60f0fb226e14",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "auctiondecadecontaii.shop",
+      "pattern": "[domain-name:value = 'auctiondecadecontaii.shop']",
+      "description": "Domain used for Lumma Stealer C2 traffic seen on 2024-03-07 (registered on 2024-02-26).",
+      "valid_from": "2024-02-26T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bda4712a-50f9-4e20-bb4e-b1da43bfcd06",
+      "created": "2024-03-09T02:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-09T02:50:00.001Z",
+      "name": "95.164.3.17",
+      "pattern": "[ipv4-addr:value = '95.164.3.17']",
+      "description": "IP addresss hosting public-facing SMB server hosting latrodectus malware as early as 2024-03-06.",
+      "valid_from": "2024-03-06T16:45:00.001Z"
+    }
+  ]
+}
