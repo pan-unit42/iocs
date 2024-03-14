@@ -1,0 +1,243 @@
+{
+  "type": "bundle",
+  "id": "bundle--d6e74c31-264c-4de6-a0b0-b89c8d24c8d1",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--a1512c5f-2862-4106-94bf-a7e52e592608",
+      "created": "2024-03-14T15:00:00.001Z",
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "2024-03-13: GootLoader Infection From Fake Forum Post",
+      "title": "2024-03-13: GootLoader Infection From Fake Forum Post",
+      "description": "Unit 42 Timely Threat Intelligence (TTI) post on GootLoader infection from fake forum post on 2023-03-13.",
+      "published": "2024-03-14T14:30:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-03-14",
+          "url": "https://www.linkedin.com/posts/unit42_gootloader-timelythreatintel-unit42threatintel-activity-7174049166199779328-iB3F",
+          "description": "LinkedIn post from Unit 42 on GootLoader infection from fake forum post on 2024-03-14."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-03-14",
+          "url": "https://twitter.com/Unit42_Intel/status/1768283551168946470",
+          "description": "X (Twitter) post from Unit 42 on GootLoader infection from fake forum post on 2024-03-14."
+        }      ],
+      "object_refs": [
+        "indicator--b07bb298-548b-4e80-b6d2-259e4eb5ffe1",
+        "indicator--f2b250a5-c155-4f19-af48-399a87aa2f03",
+        "indicator--4d48c401-41dc-447b-a7b5-39c59efdebc0",
+        "indicator--845dba74-ffcb-4639-8d99-a6f69714ef01",
+        "indicator--eefb5f22-f9ff-4877-8685-f35caa0bdcc7",
+        "indicator--b05cbc47-4120-492e-a8f0-1677cbf2ddeb",
+        "indicator--b2d26a4b-5bbd-4eb9-a10b-23e49cb0cb58",
+        "indicator--07c40fc8-3e88-412b-8b30-d17ec5595b64",
+        "indicator--1f420ed1-e081-4a84-b553-5b90f490f50c",
+        "indicator--f20ebcf5-2637-4e1e-b069-39773f92daea",
+        "indicator--24ccdbd5-f1bc-4d49-b3cf-73cd3f7b0738",
+        "indicator--55015e13-cfd9-4b54-9ccc-143ff93008f4",
+        "indicator--9f27ca83-513c-4627-ba73-361506c1e3dc",
+        "indicator--c6fbcba7-e4a8-4edc-80fe-308be50cb8b9",
+        "indicator--f90c391d-5384-4927-b7c9-538a93cc9902"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b07bb298-548b-4e80-b6d2-259e4eb5ffe1",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "Pa_collective_agreement_pay_16041.zip",
+      "pattern": "[file:hashes.'SHA-256' = '9302e732d148b91ec40a17db1d73f776ef16452a2fc7daba2e821772f3115378']",
+      "description": "Zip archive containing JavaScript (.js) file used for GootLoader infection on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f2b250a5-c155-4f19-af48-399a87aa2f03",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "pa collective agreement pay 80199.js",
+      "pattern": "[file:hashes.'SHA-256' = '5117f249927d0204740450b643df2c2b62c42255ad5b4f6573b59c6f2bf11795']",
+      "description": "Initial JavaScript (.js) file used for GootLoader infection on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4d48c401-41dc-447b-a7b5-39c59efdebc0",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "Formula Language.js",
+      "pattern": "[file:hashes.'SHA-256' = '0470b13e58261073dc74d1e4e6df64e24c74ee774fe8a7cc07adfee3bec7f536']",
+      "description": "Persistent JavaScript (.js) file seen during GootLoader infection on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--845dba74-ffcb-4639-8d99-a6f69714ef01",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://schindelhansel.de/2022/03/20/pa-collective-agreement-pay/ ",
+      "pattern": "[url:value = 'https://schindelhansel.de/2022/03/20/pa-collective-agreement-pay/ ']",
+      "description": "URL for fake forum page used for GootLoader infection on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eefb5f22-f9ff-4877-8685-f35caa0bdcc7",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://potvinfoundation.org/read.php",
+      "pattern": "[url:value = 'https://potvinfoundation.org/read.php']",
+      "description": "URL from fake forum page hosting zip archive for GootLoader seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b05cbc47-4120-492e-a8f0-1677cbf2ddeb",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://kickfin.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://kickfin.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b2d26a4b-5bbd-4eb9-a10b-23e49cb0cb58",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://kintaroramen.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://kintaroramen.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--07c40fc8-3e88-412b-8b30-d17ec5595b64",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://monportailrh.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://monportailrh.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1f420ed1-e081-4a84-b553-5b90f490f50c",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://pandorasboxny.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://pandorasboxny.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f20ebcf5-2637-4e1e-b069-39773f92daea",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "http://sxshentai.com/xmlrpc.php",
+      "pattern": "[url:value = 'http://sxshentai.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--24ccdbd5-f1bc-4d49-b3cf-73cd3f7b0738",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://thekartingarena.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://thekartingarena.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--55015e13-cfd9-4b54-9ccc-143ff93008f4",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://toyoaviation.ro/xmlrpc.php",
+      "pattern": "[url:value = 'https://toyoaviation.ro/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9f27ca83-513c-4627-ba73-361506c1e3dc",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://viyatravel.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://viyatravel.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c6fbcba7-e4a8-4edc-80fe-308be50cb8b9",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://www.auriault86.com/xmlrpc.php",
+      "pattern": "[url:value = 'https://www.auriault86.com/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f90c391d-5384-4927-b7c9-538a93cc9902",
+      "created": "2024-03-14T15:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-14T15:00:00.001Z",
+      "name": "https://www.doctorsacademy.org/xmlrpc.php",
+      "pattern": "[url:value = 'https://www.doctorsacademy.org/xmlrpc.php']",
+      "description": "URL for GootLoader C2 seen on 2024-03-13.",
+      "valid_from": "2024-03-13T00:00:00.001Z"
+    }
+  ]
+}
