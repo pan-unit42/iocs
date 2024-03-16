@@ -7,11 +7,11 @@
       "type": "report",
       "id": "report--1c8a23bf-d6fe-48b7-b92b-7e694c399c0b",
       "created": "2024-03-16T00:20:00.001Z",
-      "modified": "2024-03-16T00:20:00.001Z",
+      "modified": "2024-03-16T03:39:00.001Z",
       "name": "2024-03-14: AsyncRAT and XWorm Infection",
       "title": "2024-03-14: AsyncRAT and XWorm Infection",
-      "description": "Unit 42 Timely Threat Intelligence (TTI) post on GootLoader infection from fake forum post on 2023-03-13.",
-      "published": "2024-03-14T14:30:00.001Z",
+      "description": "Unit 42 Timely Threat Intelligence (TTI) post on Async RAT and XWorm infection on 2023-03-14.",
+      "published": "2024-03-14T20:45:00.001Z",
       "external_references": [
         {
           "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-03-14 (2 of 2)",
