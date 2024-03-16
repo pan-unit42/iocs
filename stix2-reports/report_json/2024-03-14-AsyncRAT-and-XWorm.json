@@ -1,0 +1,431 @@
+{
+  "type": "bundle",
+  "id": "bundle--e16d9f35-f877-49ff-9574-73242abb76df",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--1c8a23bf-d6fe-48b7-b92b-7e694c399c0b",
+      "created": "2024-03-16T00:20:00.001Z",
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "2024-03-14: AsyncRAT and XWorm Infection",
+      "title": "2024-03-14: AsyncRAT and XWorm Infection",
+      "description": "Unit 42 Timely Threat Intelligence (TTI) post on GootLoader infection from fake forum post on 2023-03-13.",
+      "published": "2024-03-14T14:30:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on Linkedin, date 2024-03-14 (2 of 2)",
+          "url": "https://www.linkedin.com/posts/unit42_asyncrat-xworm-xrat-ugcPost-7174172957638877184-6qDz",
+          "description": "LinkedIn post from Unit 42 on AsyncRAT and XWorm infection on 2024-03-14."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post on X (Twitter), date 2024-03-14 (2 of 2)",
+          "url": "https://twitter.com/Unit42_Intel/status/1768408063621345565",
+          "description": "X (Twitter) post from Unit 42 on AsyncRAT and XWorm infection on 2024-03-14."
+        },
+        {
+          "source_name": "malware-traffic-analysis.net",
+          "url": "https://malware-traffic-analysis.net/2024/03/14/index.html",
+          "description": "Packet capture and malware samples from AsyncRAT and XWorm infection on 2024-03-14."
+        }
+      ],
+      "object_refs": [
+        "indicator--914be80d-daaf-478f-bf44-0eb3b3489c48",
+        "indicator--cc89b372-84d1-478d-bdec-3847d8280598",
+        "indicator--988b2188-16ba-4dc6-b5ff-b805ce7e18d1",
+        "indicator--bee51a0b-e73d-4be8-ac0d-8181d17827a2",
+        "indicator--c6f18757-ad21-430e-b887-76fb12fa0916",
+        "indicator--45fb622f-4e90-4640-9440-810ade9d2633",
+        "indicator--84353d68-0d6d-4940-999a-7616cc9be54b",
+        "indicator--3682d992-cdc9-4468-a243-049e276cb18b",
+        "indicator--0b93e41e-4cd0-4a9b-b3fc-e9bd604aaa90",
+        "indicator--78c8950d-31fa-42f8-b38d-77a21edc3381",
+        "indicator--bd49e0d4-d864-4dc1-b158-a0a8e80c92d5",
+        "indicator--151a2198-c130-4546-a6c0-c2dd7a627c81",
+        "indicator--b5dfa338-5a41-4b98-96f7-e2c72e06dd62",
+        "indicator--5ee445e2-617e-4df5-b426-e8c8e367dca3",
+        "indicator--a33d0e20-9a4c-4039-9e16-8dab54b67bac",
+        "indicator--f6252f88-0be1-4135-aeee-824e25031994",
+        "indicator--361c460b-5dcc-47f3-b027-46f6101bdca5",
+        "indicator--e616e76c-f643-4c5b-8bba-af7491ecef46",
+        "indicator--d17827ea-7c19-4c00-9e8c-00398d5c7fe4",
+        "indicator--46da1663-6b86-4d18-8083-af609251a854",
+        "indicator--b7bcfd0d-8dab-4821-8cac-1e7a4cd97bce",
+        "indicator--0429a772-ef4c-4662-9495-7f41e6c5cb3b",
+        "indicator--0de82a39-687c-4ecc-85e6-c68412229339",
+        "indicator--df74ff71-de7e-42e9-b7d7-434ca76ad23a",
+        "indicator--608f2177-bbd9-48af-9c3a-9ead5b156c6b",
+        "indicator--ae195182-5eb5-470b-9ca8-47beb0fef0dc",
+        "indicator--b8c79b4c-2a4f-4465-9ce1-0dae9f4b6fff",
+        "indicator--406a0462-5c14-45a7-9762-295fd0d972c0"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--914be80d-daaf-478f-bf44-0eb3b3489c48",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "aktuelle Rechnung.zip",
+      "pattern": "[file:hashes.'SHA-256' = '3cb36ce8561f55afe94f6d715ce84bf29e88e80e09390a2879d0183bee852a50']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T13:01:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cc89b372-84d1-478d-bdec-3847d8280598",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "A1.net rechnung.url",
+      "pattern": "[file:hashes.'SHA-256' = 'a3c5cc8456b5ee181e8589d17c551462dac4c933a8cacb29bc4fbe1b73ef326a']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T13:01:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--988b2188-16ba-4dc6-b5ff-b805ce7e18d1",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "Modelo-34.pdf.lnk",
+      "pattern": "[file:hashes.'SHA-256' = '1cf5c8381cf27c9796942ef696718c147e740379728323400137baa30d7e9eff']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T04:58:40.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bee51a0b-e73d-4be8-ac0d-8181d17827a2",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file.bat",
+      "pattern": "[file:hashes.'SHA-256' = '505b3b5420679bdb032c08f20c93ed1a050ec316f9f0cf3586a5f461910f629e']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T04:57:45.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c6f18757-ad21-430e-b887-76fb12fa0916",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file.ps1",
+      "pattern": "[file:hashes.'SHA-256' = 'ccdcd4e68e94bbe91802f665de9f2c4bbda2e03a0bca9bcb9364f87e6897f3a6']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T05:19:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--45fb622f-4e90-4640-9440-810ade9d2633",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "loader.ps1",
+      "pattern": "[file:hashes.'SHA-256' = '2e9e0f2d4fc1c4013bf3d1db520d1d87e2afc58731755a7558d4d18fe983629a']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-10T20:52:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--84353d68-0d6d-4940-999a-7616cc9be54b",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "payload.ps1",
+      "pattern": "[file:hashes.'SHA-256' = 'f7733f44c96968ba579d684a6eed7e265623cc98f4c6926aa27b6254755542f6']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T05:12:13.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3682d992-cdc9-4468-a243-049e276cb18b",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "update.cmd",
+      "pattern": "[file:hashes.'SHA-256' = '60d1e55a7d30437b3763f34ec2fad55fc02d92a93d54c64a9972dfe0dd019826']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-05T04:21:52.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0b93e41e-4cd0-4a9b-b3fc-e9bd604aaa90",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "Upgrade.bat",
+      "pattern": "[file:hashes.'SHA-256' = 'd7c19dd0c6c050e33eff90eb5c4db78c37a770a25d8545ea5912dd0a01f991ca']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-14T04:23:50.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--78c8950d-31fa-42f8-b38d-77a21edc3381",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "windows.cmd",
+      "pattern": "[file:hashes.'SHA-256' = '760347b1f227e8f8daffe612f026b63dd77abeee26b1787b8feea9a66707e2ef']",
+      "description": "This is a description of the file.",
+      "valid_from": "2024-03-05T04:22:08.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bd49e0d4-d864-4dc1-b158-a0a8e80c92d5",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "Client.exe",
+      "pattern": "[file:hashes.'SHA-256' = '3af53377773a96f1c9ba6b2d62934f1d22036ed6ad465ae528f67f2816edbd31']",
+      "description": "AsyncRAT EXE extracted from process memory of infection on 2024-03-14 (1 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--151a2198-c130-4546-a6c0-c2dd7a627c81",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "Client.exe",
+      "pattern": "[file:hashes.'SHA-256' = '1ca5b9398a15b5066cee6ad42de5266dfcfdb0fc1a98bba49e1594c3fc07b7d9']",
+      "description": "AsyncRAT EXE extracted from process memory of infection on 2024-03-14 (2 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b5dfa338-5a41-4b98-96f7-e2c72e06dd62",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "b.exe",
+      "pattern": "[file:hashes.'SHA-256' = '20d81d1f5c8ccea6498c3026c78ad701fd0a936dade86d04c514ad3835cadf16']",
+      "description": "XWorm EXE extracted from process memory of infection on 2024-03-14 (1 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ee445e2-617e-4df5-b426-e8c8e367dca3",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "payload.exe",
+      "pattern": "[file:hashes.'SHA-256' = '9a18f0e78cc5c27d1439b2842de6db4c43b8efed7db06dfd700a9becc00ccab7']",
+      "description": "XWorm EXE extracted from process memory of infection on 2024-03-14 (2 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a33d0e20-9a4c-4039-9e16-8dab54b67bac",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "https://dl.dropboxusercontent.com/scl/fi/dmis3wgtn3qwq3t7by0mn/aktuelle-Rechnung.zip?rlkey=u39claei5t86zzoqztz50oj1w&dl=0",
+      "pattern": "[url:value = 'https://dl.dropboxusercontent.com/scl/fi/dmis3wgtn3qwq3t7by0mn/aktuelle-Rechnung.zip?rlkey=u39claei5t86zzoqztz50oj1w&dl=0']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T13:01:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f6252f88-0be1-4135-aeee-824e25031994",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/Modelo-34.pdf.lnk",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/Modelo-34.pdf.lnk']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T04:58:40.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--361c460b-5dcc-47f3-b027-46f6101bdca5",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://101.99.94.234@8789/DavWWWRoot/file.bat",
+      "pattern": "[url:value = 'file://101.99.94.234@8789/DavWWWRoot/file.bat']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T04:57:45.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e616e76c-f643-4c5b-8bba-af7491ecef46",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/update.cmd",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/update.cmd']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-05T04:21:52.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d17827ea-7c19-4c00-9e8c-00398d5c7fe4",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/windows.cmd",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/windows.cmd']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-05T04:22:08.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--46da1663-6b86-4d18-8083-af609251a854",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/upgrade.bat",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/upgrade.bat']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T04:23:50.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b7bcfd0d-8dab-4821-8cac-1e7a4cd97bce",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/loader.ps1",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/loader.ps1']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-10T20:52:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0429a772-ef4c-4662-9495-7f41e6c5cb3b",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/file.ps1",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/file.ps1']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T06:19:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0de82a39-687c-4ecc-85e6-c68412229339",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/payload.ps1",
+      "pattern": "[url:value = 'file://sunshine-bizrate-inc-software.trycloudflare.com@SSL/DavWWWRoot/payload.ps1']",
+      "description": "URL hosting file used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T05:12:13.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--df74ff71-de7e-42e9-b7d7-434ca76ad23a",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "https://sunshine-bizrate-inc-software.trycloudflare.com/modelo.pdf",
+      "pattern": "[url:value = 'https://sunshine-bizrate-inc-software.trycloudflare.com/modelo.pdf']",
+      "description": "Decoy PDF used in campaign to infect Windows hosts with AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T04:58:40.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--608f2177-bbd9-48af-9c3a-9ead5b156c6b",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "https://91.134.150.150:3232/",
+      "pattern": "[url:value = 'https://91.134.150.150:3232/",
+      "description": "C2 traffic for AsyncRAT malware seen on 2024-03-14 (1 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ae195182-5eb5-470b-9ca8-47beb0fef0dc",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "https://91.92.252.234:3232/",
+      "pattern": "[url:value = 'https://91.92.252.234:3232/']",
+      "description": "C2 traffic for AsyncRAT malware seen on 2024-03-14 (2 of 2).",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b8c79b4c-2a4f-4465-9ce1-0dae9f4b6fff",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "tcp://91.134.150.150:7000/",
+      "pattern": "[url:value = 'tcp://91.134.150.150:7000/']",
+      "description": "C2 traffic for XWorm malware seen on 2024-03-14.",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--406a0462-5c14-45a7-9762-295fd0d972c0",
+      "created": "2024-03-16T00:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-16T00:20:00.001Z",
+      "name": "sunshine-bizrate-inc-software.trycloudflare.com",
+      "pattern": "[domain-name:value = 'sunshine-bizrate-inc-software.trycloudflare.com']",
+      "description": "Domain used for infection chain delivering AsyncRAT and XWorm on 2024-03-14.",
+      "valid_from": "2024-03-14T00:00:00.001Z"
+    }
+  ]
+}
