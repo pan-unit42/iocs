@@ -384,7 +384,7 @@
       ],
       "modified": "2024-03-16T00:20:00.001Z",
       "name": "https://91.134.150.150:3232/",
-      "pattern": "[url:value = 'https://91.134.150.150:3232/",
+      "pattern": "[url:value = 'https://91.134.150.150:3232/']",
       "description": "C2 traffic for AsyncRAT malware seen on 2024-03-14 (1 of 2).",
       "valid_from": "2024-03-14T00:00:00.001Z"
     },
