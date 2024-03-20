@@ -1,0 +1,230 @@
+{
+  "type": "bundle",
+  "id": "bundle--eb3ec8af-3899-48a7-97fc-5428b90e73de",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--d85b01ba-fa75-4b61-b102-00c068fb4336",
+      "created": "2024-03-20T17:35:00.001Z",
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "2024-03-19 - DarkGate Infection",
+      "title": "2024-03-19 - DarkGate Infection",
+      "description": "Indicators from a DarkGate infection on 2024-03-19.",
+      "published": "2024-03-20T14:45:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from Linkedin on 2024-03-20",
+          "url": "https://www.linkedin.com/posts/unit42_darkgate-unit42threatintel-timelythreatintel-activity-7176227299975946241-o6qb",
+          "description": "LinkedIn post from Unit 42 on DarkGate infection on 2024-03-19."
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-03-20",
+          "url": "https://twitter.com/Unit42_Intel/status/1770461681145061378",
+          "description": "X (Twitter) post from Unit 42 on DarkGate infection on 2024-03-19."
+        }
+      ],
+      "object_refs": [
+        "indicator--131eb913-3b9a-4876-a55b-0ba1e21023e2",
+        "indicator--4413df6b-3ae0-4ec4-929d-5f25a3e32119",
+        "indicator--ff3bd466-9c7c-4ec2-83d4-eeb55ce8a521",
+        "indicator--df8b17c4-33ac-4101-a7aa-714ad9118549",
+        "indicator--7893bfa2-f8bd-4eca-a736-785e9b8640ee",
+        "indicator--7611a270-e561-49c7-93b5-f2749c420f81",
+        "indicator--67c4cca0-607a-489e-b46c-021544aac3c8",
+        "indicator--11b8ffd6-8d07-41a7-9ea1-b506c0b1da5d",
+        "indicator--7a9d3f15-2eda-4015-9a00-f7e7d941eaca",
+        "indicator--7374c28b-8aa8-44a4-a16d-29af37faa62c",
+        "indicator--3e4a6216-9c29-421a-ad56-5305d293beb4",
+        "indicator--431cf354-0865-4568-9554-232294f51d0b",
+        "indicator--e0347af3-7d5a-472b-b57b-4e9267d7ee2a",
+        "indicator--7c93415d-e15d-4764-b82f-82216d142d70"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--131eb913-3b9a-4876-a55b-0ba1e21023e2",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "march19-D3468-2024.xlsx",
+      "pattern": "[file:hashes.'SHA-256' = '11f4b7dfe50ee9e2797e309acb8b771f72f581fd0247d7df9418a46e2462f51c']",
+      "description": "Excel spreadsheet with link to malicious content for DarkGate seen on 2024-03-19.",
+      "valid_from": "2024-03-19T18:35:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4413df6b-3ae0-4ec4-929d-5f25a3e32119",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "march19-D4644-2024.xlsx",
+      "pattern": "[file:hashes.'SHA-256' = '2ebb7dc18fd2903b209987b2fc615a7de7624c329e360b36022cd0afd8434bdc']",
+      "description": "Excel spreadsheet with link to malicious content for DarkGate seen on 2024-03-19.",
+      "valid_from": "2024-03-19T18:35:44.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ff3bd466-9c7c-4ec2-83d4-eeb55ce8a521",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "march19-D8585-2024.xlsx",
+      "pattern": "[file:hashes.'SHA-256' = 'ccc1b2fd835612e9d995d13d20bc10605f5156fe1054339d07502851cdeb658f']",
+      "description": "Excel spreadsheet with link to malicious content for DarkGate seen on 2024-03-19.",
+      "valid_from": "2024-03-19T18:35:36.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--df8b17c4-33ac-4101-a7aa-714ad9118549",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "march19-D9134-2024.xlsx",
+      "pattern": "[file:hashes.'SHA-256' = 'faa5a30dc1d15e038ec5cbce94f59c23d4dd237cc72c09f82dbdefa6d0baa864']",
+      "description": "Excel spreadsheet with link to malicious content for DarkGate seen on 2024-03-19.",
+      "valid_from": "2024-03-19T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7893bfa2-f8bd-4eca-a736-785e9b8640ee",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "AZURE_DOC_OPEN.vbs",
+      "pattern": "[file:hashes.'SHA-256' = 'b3a8c88bdd9701a5ca532e0b433944e0992a3ae90e0bb974b2d091b2a01efb94']",
+      "description": "VBS script hosted on SMB share for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7611a270-e561-49c7-93b5-f2749c420f81",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "script.ahk",
+      "pattern": "[file:hashes.'SHA-256' = '5aac7d31149048763e688878c3910ae4881826db80e078754f5d08f2c1f39572']",
+      "description": "AutoHotkey script (.ahk) file used for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T17:59:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--67c4cca0-607a-489e-b46c-021544aac3c8",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "hafbccc.ahk",
+      "pattern": "[file:hashes.'SHA-256' = '442c5ecbf607b1b332bf83e2710197a374f540deba90d00564f566ee1612979e']",
+      "description": "AutoHotkey script (.ahk) file used for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T17:59:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--11b8ffd6-8d07-41a7-9ea1-b506c0b1da5d",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "file://escuelademarina.com/cloud/AZURE_DOC_OPEN.vbs",
+      "pattern": "[url:value = 'file://escuelademarina.com/cloud/AZURE_DOC_OPEN.vbs']",
+      "description": "SMB share hosting VBS file for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T16:31:04.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7a9d3f15-2eda-4015-9a00-f7e7d941eaca",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "http://badbutperfect.com/nrwncpwo",
+      "pattern": "[url:value = 'http://badbutperfect.com/nrwncpwo']",
+      "description": "DarkGate C2 URL hosting script to install DarkGate files on 2024-03-19.",
+      "valid_from": "2024-03-19T16:57:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7374c28b-8aa8-44a4-a16d-29af37faa62c",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "http://badbutperfect.com/test2",
+      "pattern": "[url:value = 'http://badbutperfect.com/test2']",
+      "description": "DarkGate C2 URL hosting copy of AutoHotkey.exe on 2024-03-19.",
+      "valid_from": "2024-03-19T16:57:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3e4a6216-9c29-421a-ad56-5305d293beb4",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "http://badbutperfect.com/jvtobaqj",
+      "pattern": "[url:value = 'http://badbutperfect.com/jvtobaqj']",
+      "description": "DarkGate C2 URL hosting AuthoHotkey script (.ahk) on 2024-03-19.",
+      "valid_from": "2024-03-19T16:57:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--431cf354-0865-4568-9554-232294f51d0b",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "http://badbutperfect.com/ozkpfzju",
+      "pattern": "[url:value = 'http://badbutperfect.com/ozkpfzju']",
+      "description": "DarkGate C2 URL hosting content for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T16:57:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e0347af3-7d5a-472b-b57b-4e9267d7ee2a",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "escuelademarina.com",
+      "pattern": "[domain-name:value = 'escuelademarina.com']",
+      "description": "Domain hosting VBS file for DarkGate infection on 2024-03-19.",
+      "valid_from": "2024-03-19T16:31:04.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7c93415d-e15d-4764-b82f-82216d142d70",
+      "created": "2024-03-20T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-20T17:35:00.001Z",
+      "name": "badbutperfect.com",
+      "pattern": "[domain-name:value = 'badbutperfect.com']",
+      "description": "DarkGate C2 domain from infection on 2024-03-19.",
+      "valid_from": "2024-03-19T10:07:00.001Z"
+    }
+  ]
+}
