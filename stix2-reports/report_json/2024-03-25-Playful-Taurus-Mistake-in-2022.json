@@ -1,0 +1,104 @@
+{
+  "type": "bundle",
+  "id": "bundle--2a2a5d3f-88a7-43be-be51-dafedb29dc22",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--19ba3ecc-3a38-427b-9eb6-83eed94771de",
+      "created": "2024-03-28T04:10:00.001Z",
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "2024-03-25-Playful-Taurus-Mistake-in-2022.json",
+      "title": "2024-03-25: Playful Taurus Mistake in 2022",
+      "description": "Unit 42 social media posts on 2024-03-25 about recently-discovered Playful Taurus Mistake in 2022",
+      "published": "2024-03-25T18:35:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-03-25",
+          "url": "https://www.linkedin.com/posts/unit42_playfultaurus-unit42threatintel-apts-activity-7178097070908608514-40G6",
+          "description": "LinkedIn post from Unit 42 on 2024-03-25 about recently-discovered Playful Taurus threat actor mistake from 2022"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-03-25",
+          "url": "https://twitter.com/Unit42_Intel/status/1772331391566389677",
+          "description": "X (Twitter) post from Unit 42 on 2024-03-25 about recently-discovered Playful Taurus threat actor mistake from 2022"
+        }
+      ],
+      "object_refs": [
+        "indicator--22622cc9-2295-4485-bb96-0a323e3362a1",
+        "indicator--9b5a9612-2be0-444c-86db-da982aa713e7",
+        "indicator--93315019-e506-48b2-864b-0af207340d7b",
+        "indicator--28662a0e-3bec-4631-a867-863a252163a0",
+        "indicator--a8fa82b3-4235-4bb7-8d51-c9de8e094520"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--22622cc9-2295-4485-bb96-0a323e3362a1",
+      "created": "2024-03-28T04:10:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "2022-07-03 Turian malware sample used by Playful Taurus",
+      "pattern": "[file:hashes.'SHA-256' = '55b65177bfe12aee82e27f6de311649e4d643608bfb811bd7768e92a11c671dc']",
+      "description": "Turian malware sample (Windows EXE) used by threat actor named Playful Taurus submitted to VirusTotal on 2022-07-03.",
+      "valid_from": "2022-07-03T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b5a9612-2be0-444c-86db-da982aa713e7",
+      "created": "2024-03-28T04:10:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "2022-07-08 Turian malware sample used by Playful Taurus",
+      "pattern": "[file:hashes.'SHA-256' = 'f7671e43dd22264d534f3a211383f45d0359985a13ebed09dabb12e1384ec807']",
+      "description": "Turian malware sample (Windows EXE) used by threat actor named Playful Taurus submitted to VirusTotal on 2022-07-08.",
+      "valid_from": "2022-07-08T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--93315019-e506-48b2-864b-0af207340d7b",
+      "created": "2024-03-28T04:10:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "appmgmt.dll",
+      "pattern": "[file:hashes.'SHA-256' = '5d471822810e1633760863c98f8bcf2e0525c67ee0ea4b28fa11a22780e8ce9f']",
+      "description": "Turian malware recently found in our telemetry from October 2023 that we believe is from the threat actor Playful Taurus.",
+      "valid_from": "2023-10-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--28662a0e-3bec-4631-a867-863a252163a0",
+      "created": "2024-03-28T04:10:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "update.adobeonline.net",
+      "pattern": "[domain-name:value = 'update.adobeonline.net]",
+      "description": "Domain used by threat actor Playful Taurus as early as 2022-07-19.",
+      "valid_from": "2022-07-19T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a8fa82b3-4235-4bb7-8d51-c9de8e094520",
+      "created": "2024-03-28T04:10:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T04:10:00.001Z",
+      "name": "update.adboeonline.net",
+      "pattern": "[domain-name:value = 'update.adboeonline.net']",
+      "description": "Misspelled domain that uses adboeonline instead of adobeonline. Seen in configuration of two Turian malware samples from 2022 used by threat actor Playful Taurus. Later registered by what we believe is likely a different threat actor.",
+      "valid_from": "2024-07-03T00:00:00.001Z"
+    }
+  ]
+}
