@@ -44,5 +44,6 @@
     {"id": "report--1596ed5a-4a89-40b9-9304-c5ade6660362", "rp_file": "2024-03-07-Latrodectus-with-Lumma-Stealer.json", "last_updated": "2024-03-09T02:50:00.001Z", "title": "2024-03-07: Latrodectus infection leads to Lumma Stealer.", "industries": [], "regions": [], "malwares": []},
     {"id": "report--a1512c5f-2862-4106-94bf-a7e52e592608", "rp_file": "2024-03-13-GootLoader.json", "last_updated": "2024-03-14T15:00:00.001Z", "title": "2024-03-13: GootLoader Infection From Fake Forum Post", "industries": [], "regions": [], "malwares": []},
     {"id": "report--1c8a23bf-d6fe-48b7-b92b-7e694c399c0b", "rp_file": "2024-03-14-AsyncRAT-and-XWorm.json", "last_updated": "2024-03-16T03:39:00.001Z", "title": "2024-03-14: AsyncRAT and XWorm Infection", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--d85b01ba-fa75-4b61-b102-00c068fb4336", "rp_file": "2024-03-19-DarkGate.json", "last_updated": "2024-03-20T17:35:00.001Z", "title": "2024-03-19 - DarkGate Infection", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--d85b01ba-fa75-4b61-b102-00c068fb4336", "rp_file": "2024-03-19-DarkGate.json", "last_updated": "2024-03-20T17:35:00.001Z", "title": "2024-03-19 - DarkGate Infection", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--c38c5819-012a-487c-861b-e6e80c83b22b", "rp_file": "2024-03-26-Matanbuchus-with-Danabot.json", "last_updated": "2024-03-27T16:30:00.001Z", "title": "2024-03-26: Google ad leads to Matanbuchus infection with Danabot", "industries": [], "regions": [], "malwares": []}
 ]
