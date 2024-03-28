@@ -83,7 +83,7 @@
       ],
       "modified": "2024-03-28T04:10:00.001Z",
       "name": "update.adobeonline.net",
-      "pattern": "[domain-name:value = 'update.adobeonline.net]",
+      "pattern": "[domain-name:value = 'update.adobeonline.net']",
       "description": "Domain used by threat actor Playful Taurus as early as 2022-07-19.",
       "valid_from": "2022-07-19T00:00:00.001Z"
     },
