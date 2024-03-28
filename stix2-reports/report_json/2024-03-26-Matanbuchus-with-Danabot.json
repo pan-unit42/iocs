@@ -1,0 +1,342 @@
+{
+  "type": "bundle",
+  "id": "bundle--91744e39-140d-4fb8-8c13-838dc6827f4f",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--c38c5819-012a-487c-861b-e6e80c83b22b",
+      "created": "2024-03-27T16:30:00.001Z",
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "2024-03-26: Google ad leads to Matanbuchus infection with Danabot",
+      "title": "2024-03-26: Google ad leads to Matanbuchus infection with Danabot",
+      "description": "Indicators from a Google ad leading to a Matanbuchus infection with Danabot",
+      "published": "2024-03-27T14:05:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-03-27",
+          "url": "https://www.linkedin.com/posts/unit42_malvertising-matanbuchus-danabot-activity-7178753900911480833-JlSx",
+          "description": "LinkedIn post from Unit 42 about Matanbuchus and Danabot infection from 2024-03-26"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-03-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1772988284571877807",
+          "description": "X (Twitter) post from Unit 42 about Matanbuchus and Danabot infection from 2024-03-26"
+        }
+      ],
+      "object_refs": [
+        "indicator--baab7db6-3c9b-4099-9402-819cc95b8771",
+        "indicator--c9341537-0c9c-4874-84c3-dddea09709ff",
+        "indicator--0da6b11c-189e-4ba7-8180-6a155892e82e",
+        "indicator--2ca1c8da-d18d-4faf-80b8-ae8cb45e2cac",
+        "indicator--511f8ddd-6d82-4db9-8c5d-2b0e8fd3f47b",
+        "indicator--94030f5e-dbb0-4082-840b-6185c3f0b685",
+        "indicator--6a7903a8-9c4f-48e2-9d8b-5b85e3f59dec",
+        "indicator--4edb0edc-aa2a-4782-b892-01437d7b6ddd",
+        "indicator--922b720e-e6b8-4298-ad5e-5ff829ffeee9",
+        "indicator--30e7685b-40af-4427-a548-941ebc9e5b1e",
+        "indicator--1ab8b6d6-6cd1-4672-9fab-7be7f732bb02",
+        "indicator--28357a8a-d46b-4dca-ac99-f3d3a378ab35",
+        "indicator--5063e282-949b-4b7f-837c-d398080263af",
+        "indicator--4c3cbef4-ac71-425d-8e1f-3787c622652b",
+        "indicator--e3b68c25-65cf-4dbe-ade9-cab5a49cff53",
+        "indicator--e8b60107-0e51-4691-82ef-672efae8c2e5",
+        "indicator--9730c275-e52a-436c-a37c-9a794bfdb9a3",
+        "indicator--c45cb22c-4f4b-4875-a9f7-8de5e84e5bde",
+        "indicator--a5e452e9-fc4d-42c3-8eb3-eb993ef2cc88",
+        "indicator--7b669195-c3ac-4fc8-b365-73be4b38fd6f",
+        "indicator--4dd8ea31-1cc1-46a9-b13b-b6f7c5e22084",
+        "indicator--70ce3009-86ab-4a6a-9256-3533eaef3e12"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--baab7db6-3c9b-4099-9402-819cc95b8771",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "q-report-53394.zip",
+      "pattern": "[file:hashes.'SHA-256' = 'b5e059038a44325c0cf1b04831dc943946181d6ca0107421933a6697e8a27731']",
+      "description": "Zip archive downloaded from fake funds claim site as early as 2024-03-25. This zip contains a JS file to install Matanbuchus malware.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c9341537-0c9c-4874-84c3-dddea09709ff",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "q-report-60033.js",
+      "pattern": "[file:hashes.'SHA-256' = '43aa76bec0e160c4e4a587e452b3303fa7ac72f08521bcbdcae2c370d669e451']",
+      "description": "JS file desgined to install Matanbuchus malware, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0da6b11c-189e-4ba7-8180-6a155892e82e",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "bLhLldebqq.msi",
+      "pattern": "[file:hashes.'SHA-256' = '8b8e9a0de005d5ec4539a7db288d1553eacb2e7b64067cb88882d7047511a13c']",
+      "description": "Microsoft Installer (.msi) file designed to isntall Matanbuchus, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2ca1c8da-d18d-4faf-80b8-ae8cb45e2cac",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "Dad.dll (also: dad86.DLL)",
+      "pattern": "[file:hashes.'SHA-256' = '7832c515d7e0198d97733266c34b3ea207c4938fe8877301952ef2ec7efcb1ec']",
+      "description": "Windows DLL file for Matanbuchus, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--511f8ddd-6d82-4db9-8c5d-2b0e8fd3f47b",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "DLL with unknown filename",
+      "pattern": "[file:hashes.'SHA-256' = 'b82d24fe86378e237041a5a62fe679d43e949e7a1b5471fbf61b0cfa9c465db1']",
+      "description": "Windows DLL file for Matanbuchus, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94030f5e-dbb0-4082-840b-6185c3f0b685",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "uyegwfgefwg.exe",
+      "pattern": "[file:hashes.'SHA-256' = '5f24b7934a1981d24700049056dca1be14a19db32779a97ca19766f218e47c0f']",
+      "description": "Windows EXE file for Danabot, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6a7903a8-9c4f-48e2-9d8b-5b85e3f59dec",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "Hqeyair.dll",
+      "pattern": "[file:hashes.'SHA-256' = 'f4b783cd81ae0eba7234e0a4d14d47c813b0e8c18b1d8eb00eda6d326b8c6fbe']",
+      "description": "Windows DLL file for Danabot, seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e3b68c25-65cf-4dbe-ade9-cab5a49cff53",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "Malicious Google ad URL seen as early as 2024-03-25 for Matanbuchus infection",
+      "pattern": "[url:value = 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjY8_qR2JCFAxU5bn8AHYnXBu4YABAAGgJvYQ&ae=2&gclid=EAIaIQobChMI2PP6kdiQhQMVOW5_AB2J1wbuEAAYASAAEgKLs_D_BwE&ohost=www.google.com&cid=CAASJeRoOAJ0_zKfdLVscQrBoEBG8c7vXlYST1ChsiV3NATg9v4nHcg&sig=AOD64_1_94oePg6l1kMgeiCy4EKh1tLeog&q&adurl&ved=2ahUKEwi-le-R2JCFAxXrJEQIHaWJCu0Q0Qx6BAgHEAE']",
+      "description": "Malicious Google ad URL seen as early as 2024-03-25 that led to fake funds claim site distributing malware for Matanbuchus infection.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4c3cbef4-ac71-425d-8e1f-3787c622652b",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "Fake unclaimed funds page seen as early as 2024-03-25 for Matanbuchus infection",
+      "pattern": "[url:value = 'https://www.treasurybanks.org/?utm_source=googleads&utm_medium=cpc&utm_campaign=peopletreasury&gad_source=1&gclid=EAIaIQobChMI2PP6kdiQhQMVOW5_AB2J1wbuEAAYASAAEgKLs_D_BwE']",
+      "description": "URL for fake unclaimed funds page associated with Matanbuchus infection as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5063e282-949b-4b7f-837c-d398080263af",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "https://bologna.sunproject.dev/download/pdf",
+      "pattern": "[url:value = 'https://bologna.sunproject.dev/download/pdf']",
+      "description": "URL that returned decoy PDF file during Matanbuchus infection as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--28357a8a-d46b-4dca-ac99-f3d3a378ab35",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "https://rome.sunproject.dev/download/agent",
+      "pattern": "[url:value = 'https://rome.sunproject.dev/download/agent']",
+      "description": "URL that returned MSI file for Matanbuchus infection as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1ab8b6d6-6cd1-4672-9fab-7be7f732bb02",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "https://sweetapp.page/userinfo/useraccount.aspx",
+      "pattern": "[url:value = 'https://sweetapp.page/userinfo/useraccount.aspx']",
+      "description": "URL that returned Matanbuchus DLL as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--30e7685b-40af-4427-a548-941ebc9e5b1e",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "https://gammaproject.dev/index.aspx",
+      "pattern": "[url:value = 'https://gammaproject.dev/index.aspx']",
+      "description": "URL that returned base64 text used to create Matanbuchus DLL as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--922b720e-e6b8-4298-ad5e-5ff829ffeee9",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "http://gammaproject.dev/blogs/skinny/bleat/index.php",
+      "pattern": "[url:value = 'http://gammaproject.dev/blogs/skinny/bleat/index.php']",
+      "description": "URL (HTTP POST request) for Matanbuchus C2 seen as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4edb0edc-aa2a-4782-b892-01437d7b6ddd",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "https://torontoclub.vip/uyegwfgefwg.exe",
+      "pattern": "[url:value = 'https://torontoclub.vip/uyegwfgefwg.exe']",
+      "description": "URL hosting Danabot EXE as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8b60107-0e51-4691-82ef-672efae8c2e5",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "treasurybanks.org",
+      "pattern": "[domain-name:value = 'treasurybanks.org']",
+      "description": "Domain for fake funds claim site used to distributed malware as early as 2024-03-25.",
+      "valid_from": "2023-07-18T14:12:27Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9730c275-e52a-436c-a37c-9a794bfdb9a3",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "bologna.sunproject.dev",
+      "pattern": "[domain-name:value = 'bologna.sunproject.dev']",
+      "description": "Domain hosting decoy PDF file used during infection chain for Matanbuchus malware as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c45cb22c-4f4b-4875-a9f7-8de5e84e5bde",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "rome.sunproject.dev",
+      "pattern": "[domain-name:value = 'rome.sunproject.dev']",
+      "description": "Domain hosting MSI file used for Matanbuchus malware infection as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a5e452e9-fc4d-42c3-8eb3-eb993ef2cc88",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "sweetapp.page",
+      "pattern": "[domain-name:value = 'sweetapp.page']",
+      "description": "Domain hosting DLL file used for Matanbuchus malware infection as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7b669195-c3ac-4fc8-b365-73be4b38fd6f",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "gammaproject.dev",
+      "pattern": "[domain-name:value = 'gammaproject.dev']",
+      "description": "Domain used for Matanbuchus C2 server as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4dd8ea31-1cc1-46a9-b13b-b6f7c5e22084",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "torontoclub.vip",
+      "pattern": "[domain-name:value = 'torontoclub.vip']",
+      "description": "Domain hosting Windows EXE for Danabot as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--70ce3009-86ab-4a6a-9256-3533eaef3e12",
+      "created": "2024-03-27T16:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-27T16:30:00.001Z",
+      "name": "34.168.202.91",
+      "pattern": "[ipv4-addr:value = '34.168.202.91']",
+      "description": "IP addresss hosting a Danabot C2 server as early as 2024-03-25.",
+      "valid_from": "2024-03-25T00:00:00.001Z"
+    }
+  ]
+}
