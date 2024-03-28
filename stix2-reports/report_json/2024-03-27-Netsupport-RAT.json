@@ -1,0 +1,216 @@
+{
+  "type": "bundle",
+  "id": "bundle--3166bfbc-6824-408e-923d-e6705d54d2e6",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--1c464bbd-ec8f-458e-82bd-606a783da44c",
+      "created": "2024-03-28T03:25:00.001Z",
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "2024-03-27-Netsupport-RAT.json",
+      "title": "2024-03-27: Google Ad to fake AnyConnect page pushing NetSupport RAT",
+      "description": "Google Ad leads to fake AnyConnect page pushing Trojanized installer that includes NetSupport RAT package, seen on 2024-03-27.",
+      "published": "2024-03-27T21:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-03-27",
+          "url": "https://www.linkedin.com/posts/unit42_netsupportrat-unit42threatintel-remoteaccesstrojan-activity-7178858426649780224-GJ_N/",
+          "description": "LinkedIn post from Unit 42 about Trojanized AnyConnect installer with Netsupport RAT on 2024-03-27"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-03-27",
+          "url": "https://twitter.com/Unit42_Intel/status/1773092807311315211",
+          "description": "X (Twitter) post from Unit 42 about Trojanized AnyConnect installer with Netsupport RAT on 2024-03-27"
+        }
+      ],
+      "object_refs": [
+        "indicator--8c92cc97-549e-4d11-b6da-0503067a87cd",
+        "indicator--9ce33fc9-f4ae-49f9-8733-27b0862dbb69",
+        "indicator--f1d09b8f-d52a-441e-bfb7-d5dde4bbdac1",
+        "indicator--7fb23975-4001-4e4e-a2ac-02a75df927dd",
+        "indicator--cb612369-651a-4f79-85f3-e0abd1e2f32c",
+        "indicator--79631e58-5346-43ee-9fb0-165cad9e9f9d",
+        "indicator--975ae797-c3eb-4e5d-a590-01256c8b1784",
+        "indicator--5312dc4e-fab9-415c-954a-94bdbb863fb9",
+        "indicator--d3be154c-4392-46b5-b0aa-95b16cc11474",
+        "indicator--545226c9-c575-4bc0-a88d-b8c16d8f2be5",
+        "indicator--bac2ab44-86b9-4b68-867e-1e52f4fd5514",
+        "indicator--f230b5de-e6fd-4a37-bf03-d7e235a6af2a",
+        "indicator--08996a63-cca6-4e3c-9272-79c317457f35"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8c92cc97-549e-4d11-b6da-0503067a87cd",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "SecureClientInstaller.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'edaa4e44df8652613f83cab2b7790f3a8c0086fee134747747afc139e5481ad4']",
+      "description": "Trojanized Cisco AnyConnect installer with malicious NetSupport RAT package, downloaded from fake AnyConnect page on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9ce33fc9-f4ae-49f9-8733-27b0862dbb69",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "client32.exe",
+      "pattern": "[file:hashes.'SHA-256' = '89f0c8f170fe9ea28b1056517160e92e2d7d4e8aa81f4ed696932230413a6ce1']",
+      "description": "EXE for NetSupport Manager, a legitimate Remote Access Tool (RAT). This is not malicious, but highly-suspicious in many environments. Used for malicious NetSupport RAT package on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f1d09b8f-d52a-441e-bfb7-d5dde4bbdac1",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "client32.ini",
+      "pattern": "[file:hashes.'SHA-256' = 'bcd5d07db95d03eff196b476d468501709b6d151661b48d71a8a1688490191b4']",
+      "description": "Configuration file for malicious NetSupport RAT package on 2024-03-27. Not inherently malicious by itself, but definitely an indicator of malicious activity.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7fb23975-4001-4e4e-a2ac-02a75df927dd",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "Malicious Google ad URL seen on 2024-03-27",
+      "pattern": "[url:value = 'https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwixzYjI6JSFAxXlgsIIHT8gAw8YABAAGgJqZg&ase=2&gclid=EAIaIQobChMIsc2IyOiUhQMV5YLCCB0_IAMPEAAYASAAEgIla_D_BwE&ohost=www.google.com&cid=CAASJORoBM2adynphmvvnFgtcXGAF-tXiZBfBGs0DocgIUoxTohiEQ&sig=AOD64_1Vf3QePgmBZDyNU5BL6I5sOpgzrg&q&nis=4&adurl&ved=2ahUKEwjhjP_H6JSFAxUxJ0QIHX2WD98Q0Qx6BAgGEAE']",
+      "description": "Google ad URL leading to fake AnyConnect page pushing Trojanized AnyConnect installer on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cb612369-651a-4f79-85f3-e0abd1e2f32c",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "https://natureaquadesigns.com/wp-content/uploads/index.php?gad_source=1&gclid=EAIaIQobChMIsc2IyOiUhQMV5YLCCB0_IAMPEAAYASAAEgIla_D_BwE",
+      "pattern": "[url:value = 'https://natureaquadesigns.com/wp-content/uploads/index.php?gad_source=1&gclid=EAIaIQobChMIsc2IyOiUhQMV5YLCCB0_IAMPEAAYASAAEgIla_D_BwE']",
+      "description": "Seen after Google ad URL, this URL redirects to fake AnyConnect page pushing Trojanized AnyConnect installer on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--79631e58-5346-43ee-9fb0-165cad9e9f9d",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "https://ciscadex.com/actual.html?gad_source=1&gclid=EAIaIQobChMI5bvDn46VhQMVQSytBh1JiAYKEAMYASAAEgIcEPD_BwE&natureaquadesigns.com",
+      "pattern": "[url:value = 'https://ciscadex.com/actual.html?gad_source=1&gclid=EAIaIQobChMI5bvDn46VhQMVQSytBh1JiAYKEAMYASAAEgIcEPD_BwE&natureaquadesigns.com']",
+      "description": "Fake AnyConnect page pushing Trojanized AnyConnect installer on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--975ae797-c3eb-4e5d-a590-01256c8b1784",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "https://ciscadex.com/hand.php",
+      "pattern": "[url:value = 'https://ciscadex.com/hand.php']",
+      "description": "URL from download button on fake AnyConnect page pushing Trojanized AnyConnect installer on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5312dc4e-fab9-415c-954a-94bdbb863fb9",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "https://www.dropbox.com/scl/fi/v2p3mp8qgwvik4pms4pp0/SecureClientInstaller.exe?rlkey=8jf4auncnsnqf37xirbxxwjgf&dl=1",
+      "pattern": "[url:value = 'https://www.dropbox.com/scl/fi/v2p3mp8qgwvik4pms4pp0/SecureClientInstaller.exe?rlkey=8jf4auncnsnqf37xirbxxwjgf&dl=1']",
+      "description": "Dropbox URL hosting Trojanized AnyConnect installer seen on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d3be154c-4392-46b5-b0aa-95b16cc11474",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "http://45.155.249.55/fakeurl.htm",
+      "pattern": "[url:value = 'http://45.155.249.55/fakeurl.htm']",
+      "description": "NetSupport RAT C2 seen on 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--545226c9-c575-4bc0-a88d-b8c16d8f2be5",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "ciscadex.com",
+      "pattern": "[domain-name:value = 'ciscadex.com']",
+      "description": "Domain hosting fake Cisco AnyConnect pushing Trojanized installer with malicious NetSupport RAT package seen as early as 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bac2ab44-86b9-4b68-867e-1e52f4fd5514",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "techcoredigital.com",
+      "pattern": "[domain-name:value = 'techcoredigital.com']",
+      "description": "Malicious domain used by NetSupport RAT package for C2 server as early as 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f230b5de-e6fd-4a37-bf03-d7e235a6af2a",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "tomuttaro.com",
+      "pattern": "[domain-name:value = 'tomuttaro.com']",
+      "description": "Malicious domain used by NetSupport RAT package for C2 server as early as 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--08996a63-cca6-4e3c-9272-79c317457f35",
+      "created": "2024-03-28T03:25:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-03-28T03:25:00.001Z",
+      "name": "45.155.249.55",
+      "pattern": "[ipv4-addr:value = '45.155.249.55']",
+      "description": "IP address used for C2 server by NetSupport RAT package as early as 2024-03-27.",
+      "valid_from": "2024-03-27T00:00:00.001Z"
+    }
+  ]
+}
