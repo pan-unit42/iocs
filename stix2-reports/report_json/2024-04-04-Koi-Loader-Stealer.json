@@ -1,0 +1,356 @@
+{
+  "type": "bundle",
+  "id": "bundle--587b9143-6528-4eef-9aa5-6e5862b3a3a1",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--028327cf-5ed9-453a-900f-670466210ae4",
+      "created": "2024-04-04T22:40:00.001Z",
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "2024-04-04-Koi-Loader-Stealer.json",
+      "title": "2024-04-04: KoiLoader/KoiStealer activity",
+      "description": "Koi Loader/Koi Stealer activity seen on 2024-04-04",
+      "published": "2024-04-04T14:20:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-04-04",
+          "url": "https://www.linkedin.com/posts/unit42_koiloader-koistealer-unit42threatintel-activity-7181656774993747968-DphDs",
+          "description": "LinkedIn post from Unit 42 about KoiLoader/KoiStealer from 2024-04-04"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-04-04",
+          "url": "https://twitter.com/Unit42_Intel/status/1775891118963503288",
+          "description": "X (Twitter) post from Unit 42 about KoiLoader/KoiStealer from 2024-04-04"
+        }
+      ],
+      "object_refs": [
+        "indicator--7aa173aa-9768-4f12-b985-7c8396b29f75",
+        "indicator--654fee26-299c-482c-9f3d-9a15abbb217a",
+        "indicator--8be85200-07b2-47af-b2f1-7bf79c7d4daf",
+        "indicator--7de7d4d2-54ea-4a01-b051-651be363af69",
+        "indicator--d610cc21-4aec-4adb-9084-26d1639e2a76",
+        "indicator--6b351631-6a30-431e-9c6e-f112c28c241b",
+        "indicator--8101150d-e07a-453d-b5d5-ea66a388e043",
+        "indicator--45e7405b-81fe-4867-a7b6-7c47338133ed",
+        "indicator--2e89e9fb-485e-4736-8777-f5cd7f5b9c93",
+        "indicator--d993ae51-69bc-4c12-9de8-ce4c76861237",
+        "indicator--152a25de-46c3-4732-8c03-f72f351e954d",
+        "indicator--0176f095-6384-4d34-bfd3-4ea34279b427",
+        "indicator--0a871b37-887b-42fd-be7d-8100eaf31589",
+        "indicator--eddc4fd6-2834-4d2c-9855-bc5495db3bcf",
+        "indicator--8be7dbec-81e2-4799-85ee-f72dc52bbb5e",
+        "indicator--1000e5d9-eeeb-4960-af47-16e8bb4edc5f",
+        "indicator--96029552-5afa-40de-b2cf-764f27aa7e53",
+        "indicator--23f44108-25f9-4bc6-901a-52e98d016985",
+        "indicator--434a6796-8685-45ec-a5a0-b08a09b102a3",
+        "indicator--0bb650ca-37eb-4409-8b6b-ed64bc0ec929",
+        "indicator--5a974e7e-71c1-40ec-9c0b-f85abcf2e0af",
+        "indicator--2b7333a0-af93-4faf-a963-25579809f361",
+        "indicator--e1ac0f68-bbf4-4a5c-8854-adde39d92792"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7aa173aa-9768-4f12-b985-7c8396b29f75",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "Chase_Bank_Statement_March.zip",
+      "pattern": "[file:hashes.'SHA-256' = '3e150b3a958f67da3a821e468c3f3f72b4404dfba207158343589eab24c0074a']",
+      "description": "Zip archive with bank-themed name as initial lure for KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-02-04T08:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--654fee26-299c-482c-9f3d-9a15abbb217a",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "Chase_Bank_Statement_March.zip",
+      "pattern": "[file:hashes.'SHA-256' = '69bd5f29178b163082d9114ac996c5fc631700042348c07025905a172910d194']",
+      "description": "Zip archive with bank-themed name as initial lure for KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T08:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8be85200-07b2-47af-b2f1-7bf79c7d4daf",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "Chase_Bank_Statement_March.lnk",
+      "pattern": "[file:hashes.'SHA-256' = '4f1a84d8a870a63bc255303d47f86a604b4233a97a49f4f26fc9b958d94ed24f']",
+      "description": "Windows shortcut from zip archive with bank-themed name used as initial lure for KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T08:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7de7d4d2-54ea-4a01-b051-651be363af69",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "Chase_Bank_Statement_March.lnk",
+      "pattern": "[file:hashes.'SHA-256' = 'a6b75518b8e82e0990fd3510e803c76afdf56fe205c4bed27b74263f33e74aea']",
+      "description": "Windows shortcut from zip archive with bank-themed name used as initial lure for KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T08:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d610cc21-4aec-4adb-9084-26d1639e2a76",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "menkind.php",
+      "pattern": "[file:hashes.'SHA-256' = 'e1a02fabd6c23c16aa0d95bcffa2578fe008f003a293941e9db426ee4ae30b3a']",
+      "description": "Text-based script file used during KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:48:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6b351631-6a30-431e-9c6e-f112c28c241b",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "meningina.php",
+      "pattern": "[file:hashes.'SHA-256' = '00d029276eff4aa93ef5b736f2cc8e01658d1d9dcabf0356e32248c63c3b0222']",
+      "description": "Text-based script file used during KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:48:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8101150d-e07a-453d-b5d5-ea66a388e043",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "agent1.ps1",
+      "pattern": "[file:hashes.'SHA-256' = '8020e944bea4e2c2d8d3a95abd805b68c0627b4e7a7a14812df8e714a9321f45']",
+      "description": "PowerShell script file associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:46:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--45e7405b-81fe-4867-a7b6-7c47338133ed",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "agent3.ps1",
+      "pattern": "[file:hashes.'SHA-256' = 'c90dda7e0bd8f2947160f8ab3825897df4f2e4a36498ca5016db6db0c7164311']",
+      "description": "PowerShell script file associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T00:14:48.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2e89e9fb-485e-4736-8777-f5cd7f5b9c93",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "mendipite.exe",
+      "pattern": "[file:hashes.'SHA-256' = '97b7cf5bf4cadde3bd8745e3347bb9707a43cb816f21a062eaf3010b6768a551']",
+      "description": "Windows EXE file associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:42:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d993ae51-69bc-4c12-9de8-ce4c76861237",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "sd2.ps1",
+      "pattern": "[file:hashes.'SHA-256' = 'cf3727cbc326f0d37c0adf0c1d13e97d6723d767c43236a7fe2a71169ce4e030']",
+      "description": "PowerShell script file associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--152a25de-46c3-4732-8c03-f72f351e954d",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "sd4.ps1",
+      "pattern": "[file:hashes.'SHA-256' = 'aac338d4f543a930e5f464042d43a616d3ce972aa4568648f981d34664b97709']",
+      "description": "PowerShell script file associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0176f095-6384-4d34-bfd3-4ea34279b427",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "pg20.exe",
+      "pattern": "[file:hashes.'SHA-256' = '001e9bd6b2aebb2b089ceb8ebe1488c66765c10d365ceffa77d67cedecea8c33']",
+      "description": "Decoded EXE from PowerShell script file named sd2.ps1 associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0a871b37-887b-42fd-be7d-8100eaf31589",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "pg40.exe",
+      "pattern": "[file:hashes.'SHA-256' = '5c8186097677ae054afe689a14394b4171fcea8172d419842157de07f2b42fda']",
+      "description": "Decoded EXE from PowerShell script file named sd4.ps1 associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eddc4fd6-2834-4d2c-9855-bc5495db3bcf",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/menkind.php",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/menkind.php']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:48:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8be7dbec-81e2-4799-85ee-f72dc52bbb5e",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/meningina.php",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/meningina.php']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:48:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1000e5d9-eeeb-4960-af47-16e8bb4edc5f",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/agent1.ps1",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/agent1.ps1']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:46:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--96029552-5afa-40de-b2cf-764f27aa7e53",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/agent3.ps1",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/agent3.ps1']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:48:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--23f44108-25f9-4bc6-901a-52e98d016985",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/mendipite.exe",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/mendipite.exe']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:42:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--434a6796-8685-45ec-a5a0-b08a09b102a3",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/sd2.ps1",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/sd2.ps1']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0bb650ca-37eb-4409-8b6b-ed64bc0ec929",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "https://saidecommunity.org/assets/js/sd4.ps1",
+      "pattern": "[url:value = 'https://saidecommunity.org/assets/js/sd4.ps1']",
+      "description": "URL hosting malicious content associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T14:47:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5a974e7e-71c1-40ec-9c0b-f85abcf2e0af",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "http://195.123.218.40/fougade.php",
+      "pattern": "[url:value = 'http://195.123.218.40/fougade.php']",
+      "description": "C2 URL associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2b7333a0-af93-4faf-a963-25579809f361",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "http://195.123.218.40/index.php?id=&subid=Xtxgn5mh",
+      "pattern": "[url:value = 'http://195.123.218.40/index.php?id=&subid=Xtxgn5mh']",
+      "description": "C2 URL associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e1ac0f68-bbf4-4a5c-8854-adde39d92792",
+      "created": "2024-04-04T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-04T22:40:00.001Z",
+      "name": "http://195.123.218.40/index.php",
+      "pattern": "[url:value = 'http://195.123.218.40/index.php']",
+      "description": "C2 URL associated with KoiLoader/KoiStealer infection as early as 2024-04-02.",
+      "valid_from": "2024-04-02T00:00:00.001Z"
+    }
+  ]
+}
