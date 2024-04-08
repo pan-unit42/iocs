@@ -1,0 +1,62 @@
+{
+  "type": "bundle",
+  "id": "bundle--e460cca9-72c7-46db-b6e9-2053644e3053",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--8dcf0720-d5c2-457c-b01e-9cf7daff81c7",
+      "created": "2024-04-08T19:41:00.001Z",
+      "modified": "2024-04-08T19:41:00.001Z",
+      "name": "Boggy-Serpens-uses-AutodialDLL.json",
+      "title": "Boggy Serpens uses AutodialDLL",
+      "description": "Discovery of threat actor Boggy Serpens (MuddyWater) using AutodialDLL to load malicious DLL for C2 framework.",
+      "published": "2024-04-08T18:27:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-04-08",
+          "url": "https://www.linkedin.com/posts/unit42_boggyserpens-muddywater-unit42threatintel-activity-7183168477073956864-aNYm/",
+          "description": "LinkedIn post from Unit 42 about Boggy Serpens (MuddyWater) using AutodialDLL from 2024-04-08"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-04-08",
+          "url": "https://twitter.com/Unit42_Intel/status/1777402805533184107",
+          "description": "X (Twitter) post from Unit 42 about Boggy Serpens (MuddyWater) using AutodialDLL from 2024-04-08"
+        }
+      ],
+      "object_refs": [
+        "indicator--361c0434-8618-4f4d-8841-a14a64a7889a",
+        "indicator--ecf02ea4-7945-465c-a732-9823f67dc60b"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--361c0434-8618-4f4d-8841-a14a64a7889a",
+      "created": "2024-04-08T19:41:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-08T19:41:00.001Z",
+      "name": "filename.exe",
+      "pattern": "[file:hashes.'SHA-256' = '0f06f11ae1a611ff4a415aec1540aebe2d9ce3a27ef5acff426d97bea1c8202a']",
+      "description": "Malicious DLL used for C2 Framework (Muddy2Go or DarkBeatC2) by Boggy Serpens (MuddyWater) in January 2024.",
+      "valid_from": "2024-01-01T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ecf02ea4-7945-465c-a732-9823f67dc60b",
+      "created": "2024-04-08T19:41:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-08T19:41:00.001Z",
+      "name": "googleonlinee.com",
+      "pattern": "[domain-name:value = 'googleonlinee.com']",
+      "description": "Domain used for C2 traffic by Boggy Serpens (MuddyWater) as early as 2023-11-28.",
+      "valid_from": "2023-11-28T00:00:00.001Z"
+    }
+  ]
+}
