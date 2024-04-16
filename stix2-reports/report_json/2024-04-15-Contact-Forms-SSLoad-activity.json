@@ -1,0 +1,230 @@
+{
+  "type": "bundle",
+  "id": "bundle--eec8a804-a174-4965-8e1d-9bd27b125be7",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--47bef71f-5a0e-43f9-914a-8a9ddfdb5720",
+      "created": "2024-04-16T03:55:00.001Z",
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "2024-04-15-Contact-Forms-SSLoad-activity.json",
+      "title": "Contact Forms campaign pushes SSLoad malware",
+      "description": "Contact Forms campaign pushes SSLoad malware.",
+      "published": "2024-04-15T11:51:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-04-15",
+          "url": "https://www.linkedin.com/posts/unit42_contactforms-ssload-wirshark-activity-7185786751922192384-JPBX",
+          "description": "LinkedIn post from Unit 42 on 2024-04-15 about Contact Forms campaign pushing SSLoad malware"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-04-15",
+          "url": "https://twitter.com/Unit42_Intel/status/1780021135813337366",
+          "description": "X (Twitter) post from Unit 42 on 2024-04-15 about Contact Forms campaign pushing SSLoad malware"
+        }
+      ],
+      "object_refs": [
+        "indicator--537bb99b-00c4-44d3-9d08-b53ef0cf91f1",
+        "indicator--c757fe05-73a3-4840-97f4-ecfc8d26947a",
+        "indicator--2959623c-e980-48e7-941e-c1d1cc3c7bb3",
+        "indicator--b5a57024-e29b-431a-ae67-5ea77c7613ee",
+        "indicator--6e9f290a-3838-48c2-b1d8-7724dd5f970b",
+        "indicator--53acc664-add4-4c43-a679-97b3257db508",
+        "indicator--bfdc32c3-7484-43da-8051-2d82c5491898",
+        "indicator--b31180a6-0fca-495b-b6ae-f922b15ba102",
+        "indicator--a0bdc63f-50f5-4646-8027-85648cb40742",
+        "indicator--4556350e-f14f-4ce9-a4a9-a09a4a67b454",
+        "indicator--807a5db8-1e8c-4073-8956-6a8fb6114a07",
+        "indicator--b7717f35-893e-4a1a-acc9-791d8edfade7",
+        "indicator--c1b535f8-9331-4dfa-8a3b-36cd1c415aec",
+        "indicator--0582bd3d-399d-47d0-a363-cf01435d9ea0"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--537bb99b-00c4-44d3-9d08-b53ef0cf91f1",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "Letter_b23_98b161159-63t511248325-3676a8.js",
+      "pattern": "[file:hashes.'SHA-256' = '93a215b08cce42249341816df7a85edac12d4bcef166b15da64bb238637f6e76']",
+      "description": "Javascript file from Contact Forms campaign on 2024-04-15 designed to install SSLoad malware.",
+      "valid_from": "2024-04-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c757fe05-73a3-4840-97f4-ecfc8d26947a",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "Letter_u79_20w517865-65u0451500340-7186n6.js",
+      "pattern": "[file:hashes.'SHA-256' = '5fb093a9348fcf4a81befda978c948796a8319fcabe7899c2cf5ba1419ec9d35']",
+      "description": "Javascript file from Contact Forms campaign on 2024-04-15 designed to install SSLoad malware.",
+      "valid_from": "2024-04-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2959623c-e980-48e7-941e-c1d1cc3c7bb3",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "sharepoint.msi",
+      "pattern": "[file:hashes.'SHA-256' = '90f1511223698f33a086337a6875db3b5d6fbcce06f3195cdd6a8efa90091750']",
+      "description": "MSI file from Contact Forms campaign designed to install SSLoad malware seen as early as 2024-04-11.",
+      "valid_from": "2024-04-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b5a57024-e29b-431a-ae67-5ea77c7613ee",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "MenuEx.dll",
+      "pattern": "[file:hashes.'SHA-256' = '09ffc4188bf11bf059b616491fcb8a09a474901581f46ec7f2c350fbda4e1e1c']",
+       "description": "DLL file from Contact Forms campaign designed to install SSLoad malware seen as early as 2024-04-11.",
+      "valid_from": "2024-04-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6e9f290a-3838-48c2-b1d8-7724dd5f970b",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://mmtixmm.org/65629679a60671570e93799683b05/case49308469q2097/court/out/367910732497/documents?t017538i87=0535008152&i=qz&dmc=www.scotchblue.com&4666842q3&cmp=horvitzlevy&4721702y0",
+      "pattern": "[url:value = 'http://mmtixmm.org/65629679a60671570e93799683b05/case49308469q2097/court/out/367910732497/documents?t017538i87=0535008152&i=qz&dmc=www.scotchblue.com&4666842q3&cmp=horvitzlevy&4721702y0']",
+      "description": "Example of URL from Contact Forms campaign reported to VirusTotal on 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--53acc664-add4-4c43-a679-97b3257db508",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "https://mebumau.org/?4666842q3&4721702y0&cmp=horvitzlevy&dmc=www.scotchblue.com&i=qz&t017538i87=0535008152",
+      "pattern": "[url:value = 'https://mebumau.org/?4666842q3&4721702y0&cmp=horvitzlevy&dmc=www.scotchblue.com&i=qz&t017538i87=0535008152']",
+      "description": "Example of URL for fake Azure page used in Contact Forms campaign as early as 2024-04-15.",
+      "valid_from": "2024-04-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bfdc32c3-7484-43da-8051-2d82c5491898",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/I3Hl2Mxyqs%2FLetter_b23_98b161159-63t511248325-3676a8.js?alt=media&token=a097d607-7759-4aaa-b6e2-bfe5c43df76e",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/I3Hl2Mxyqs%2FLetter_b23_98b161159-63t511248325-3676a8.js?alt=media&token=a097d607-7759-4aaa-b6e2-bfe5c43df76e']",
+      "description": "Example of Firebase URL hosting malicious .js file for Contact Forms campaign SSLoad malware infection on 2024-04-15.",
+      "valid_from": "2024-04-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b31180a6-0fca-495b-b6ae-f922b15ba102",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/VbxHHBQUee%2FLetter_u79_20w517865-65u0451500340-7186n6.js?alt=media&token=41e2b597-6b12-448a-92d1-9c770c818489",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/VbxHHBQUee%2FLetter_u79_20w517865-65u0451500340-7186n6.js?alt=media&token=41e2b597-6b12-448a-92d1-9c770c818489']",
+      "description": "Example of Firebase URL hosting malicious .js file for Contact Forms campaign SSLoad malware infection on 2024-04-15.",
+      "valid_from": "2024-04-15T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a0bdc63f-50f5-4646-8027-85648cb40742",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://globalsolutionunlimitedltd.com/share/sharepoint.msi",
+      "pattern": "[url:value = 'http://globalsolutionunlimitedltd.com/share/sharepoint.msi']",
+      "description": "WebDAV URL hosting MSI used for SSLoad infection as early as 2024-04-11.",
+      "valid_from": "2024-04-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4556350e-f14f-4ce9-a4a9-a09a4a67b454",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "https://t.me/+st2YadnCIU1iNmQyh",
+      "pattern": "[url:value = 'https://t.me/+st2YadnCIU1iNmQy']",
+      "description": "Telegram URL established on 2024-01-28 to pass information for SSLoad malware.",
+      "valid_from": "2024-01-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--807a5db8-1e8c-4073-8956-6a8fb6114a07",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://85.239.53.219/api/g",
+      "pattern": "[url:value = 'http://85.239.53.219/api/g']",
+      "description": "C2 URL for SSLoad activity seen as early as 2024-04-04.",
+      "valid_from": "2024-04-04T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b7717f35-893e-4a1a-acc9-791d8edfade7",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://85.239.53.219/api/gateway",
+      "pattern": "[url:value = 'http://85.239.53.219/api/gateway']",
+      "description": "C2 URL for SSLoad activity seen as early as 2024-04-04.",
+      "valid_from": "2024-04-04T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c1b535f8-9331-4dfa-8a3b-36cd1c415aec",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://85.239.53.219/api/b0408631-d621-61e4-7035-f7d17fc50af8/tasks",
+      "pattern": "[url:value = 'http://85.239.53.219/api/b0408631-d621-61e4-7035-f7d17fc50af8/tasks']",
+      "description": "Example of C2 URL for SSLoad activity seen as early as 2024-04-04. Note: the UUID in this URL is specific to each infected host.",
+      "valid_from": "2024-04-04T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0582bd3d-399d-47d0-a363-cf01435d9ea0",
+      "created": "2024-04-16T03:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-16T03:55:00.001Z",
+      "name": "http://85.239.53.219/download?id=Cosmos&module=2&filename=None",
+      "pattern": "[url:value = 'http://85.239.53.219/download?id=Cosmos&module=2&filename=None']",
+      "description": "C2 URL for SSLoad activity seen as early as 2024-04-04.",
+      "valid_from": "2024-04-04T00:00:00.001Z"
+    }
+  ]
+}
