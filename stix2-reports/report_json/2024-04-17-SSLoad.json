@@ -1,0 +1,281 @@
+{
+  "type": "bundle",
+  "id": "bundle--95cd0c7a-355e-43ae-96f8-0cf82fb8ccb3",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--f55fe5f2-9d4d-4154-9f67-abef4bb1eedd",
+      "created": "2024-04-17T23:50:00.001Z",
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "2024-04-17-SSLoad.json",
+      "title": "2024-04-17 (Wednesday): TA578 pushes SSLoad Malware",
+      "description": "024-04-17 (Wednesday): TA578 pushes SSLoad Malware",
+      "published": "2024-04-17T22:28:00.001Z",
+      "external_references": [
+        {
+          "source_name": "malware-traffic-analysis.net",
+          "url": "https://malware-traffic-analysis.net/2024/04/17/index.html",
+          "description": "2024-04-17 (Wednesday): TA578 pushes SSLoad malware"
+        }
+      ],
+      "object_refs": [
+        "indicator--ee61e4a2-4276-4f3a-b78c-aa8ed4c9c951",
+        "indicator--cd3b64d9-b2fa-427a-a613-6e5db1a25630",
+        "indicator--822ebc14-4fdf-427e-8caf-9bdfd770bccc",
+        "indicator--07b3fcf5-c2e3-4b76-9ceb-814fe186948c",
+        "indicator--013b72b9-3454-47ce-8079-16af37b1d694",
+        "indicator--be938128-8954-4240-9818-5609db666597",
+        "indicator--df8ae6ac-7338-4da5-9245-a111ae52a468",
+        "indicator--d244f5a0-77e8-4624-af7b-2b4dfaa44bac",
+        "indicator--0bd67983-43e7-42da-8e88-9a1f7790e8a3",
+        "indicator--235b3254-f3ed-4d04-ac98-ff8b89300760",
+        "indicator--afa2481b-a65f-4236-93ff-cc19752e48ea",
+        "indicator--dde28c7b-4954-4aff-856f-16d97cdee4e9",
+        "indicator--498e1899-86e1-406e-8721-11ff34b09a48",
+        "indicator--d67ebb0a-4a49-4228-a28b-b585d7cee4ee",
+        "indicator--7912331d-10f4-4871-8cdf-dd1bfd0b6653",
+        "indicator--3379b9c9-5781-448f-88b7-87ffeec9ed36",
+        "indicator--86278ed5-ef72-4f8f-b90c-ef026bf6e661",
+        "indicator--68d59517-1724-44a3-8e42-694cbd8b918a"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ee61e4a2-4276-4f3a-b78c-aa8ed4c9c951",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "Doc_013_90b156084-36i39529q5318-5545n0.js",
+      "pattern": "[file:hashes.'SHA-256' = '2b36385eea638d0d1b6cd608a1ecf500281c94cbb6454fe1bf13dc92e4a8b028']",
+      "description": "JavaScript (.js) file used for installing SSLoad malware, seen on 2024-04-17.",
+      "valid_from": "2024-04-17T14:37:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cd3b64d9-b2fa-427a-a613-6e5db1a25630",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "avp.msi",
+      "pattern": "[file:hashes.'SHA-256' = 'dcae57ec4b69236146f744c143c42cc8bdac9da6e991904e6dbf67ec1179286a']",
+      "description": "Microsoft Installer (.msi) file used for installing SSLoad malware, seen on 2024-04-17.",
+      "valid_from": "2024-04-17T15:15:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--822ebc14-4fdf-427e-8caf-9bdfd770bccc",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "forcedelctl.dll",
+      "pattern": "[file:hashes.'SHA-256' = '3bca1dcaef4430272b9029c9a4bc8be0d45ecff66e8de8679ed30d8afab00f6f']",
+      "description": "Malicious DLL for SSLoad malware, seen in the wild as early as 2024-04-16.",
+      "valid_from": "2024-04-16T05:10:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--07b3fcf5-c2e3-4b76-9ceb-814fe186948c",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://akshayascientifics.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://akshayascientifics.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--013b72b9-3454-47ce-8079-16af37b1d694",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://iespppomabamba.edu.pe/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://iespppomabamba.edu.pe/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--be938128-8954-4240-9818-5609db666597",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://jacolinktravel.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://jacolinktravel.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--df8ae6ac-7338-4da5-9245-a111ae52a468",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://lapataca.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://lapataca.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d244f5a0-77e8-4624-af7b-2b4dfaa44bac",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://prominencedigiworld.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://prominencedigiworld.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0bd67983-43e7-42da-8e88-9a1f7790e8a3",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://rummyking24.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://rummyking24.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--235b3254-f3ed-4d04-ac98-ff8b89300760",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://www.mlmigration.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://www.mlmigration.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--afa2481b-a65f-4236-93ff-cc19752e48ea",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://www.prottahobarta.com/wp-content/plugins/hot-random-image/index.html",
+      "pattern": "[url:value = 'https://www.prottahobarta.com/wp-content/plugins/hot-random-image/index.html']",
+      "description": "One of the initial URLs leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dde28c7b-4954-4aff-856f-16d97cdee4e9",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://corsproxy.io/?https%3A%2F%2Fpastebin.com%2Fraw%2F15mMbxgt",
+      "pattern": "[url:value = 'https://corsproxy.io/?https%3A%2F%2Fpastebin.com%2Fraw%2F15mMbxgt']",
+      "description": "Redirect URL leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--498e1899-86e1-406e-8721-11ff34b09a48",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://necrtlr4.org/",
+      "pattern": "[url:value = 'https://necrtlr4.org/']",
+      "description": "Redirect URL leading to fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d67ebb0a-4a49-4228-a28b-b585d7cee4ee",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://mmqsrsl.org/",
+      "pattern": "[url:value = 'https://mmqsrsl.org/']",
+      "description": "URL from fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7912331d-10f4-4871-8cdf-dd1bfd0b6653",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://mmqsrsl.org/vl.php",
+      "pattern": "[url:value = 'https://mmqsrsl.org/vl.php']",
+      "description": "URL from fake Azure site used for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3379b9c9-5781-448f-88b7-87ffeec9ed36",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/ORlpPVzEZW%2FLetter_w57_650124837-127205601702-9458b0.js?alt=media&token=cccc834f-3ce4-4704-b3dc-4d113de3f960",
+      "pattern": "[url:value = 'https://firebasestorage.googleapis.com/v0/b/terfe-419414.appspot.com/o/ORlpPVzEZW%2FLetter_w57_650124837-127205601702-9458b0.js?alt=media&token=cccc834f-3ce4-4704-b3dc-4d113de3f960']",
+      "description": "URL hosting malicious .js file for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--86278ed5-ef72-4f8f-b90c-ef026bf6e661",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "http://krd6.com/share/avp.msi",
+      "pattern": "[url:value = 'http://krd6.com/share/avp.msi']",
+      "description": "URL hosting malicious .msi file for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--68d59517-1724-44a3-8e42-694cbd8b918a",
+      "created": "2024-04-17T23:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-17T23:50:00.001Z",
+      "name": "http://85.239.53.219/download?id=Nevada&module=2&filename=None",
+      "pattern": "[url:value = 'http://85.239.53.219/download?id=Nevada&module=2&filename=None']",
+      "description": "C2 URL for SSLoad infection on 2024-04-17.",
+      "valid_from": "2024-04-17T00:00:00.001Z"
+    }
+  ]
+}
