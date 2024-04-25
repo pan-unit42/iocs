@@ -1,0 +1,118 @@
+{
+  "type": "bundle",
+  "id": "bundle--cdf2cd39-eb4f-4bbd-8d9f-974ded80210a",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--119b1e5d-9140-4700-b806-5058f885e54b",
+      "created": "2024-04-19T14:20:00.001Z",
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "2024-04-18-SSLoad-with-CobaltStrike.json",
+      "title": "2024-04-18 SSLoad infection with Cobalt Strike",
+      "description": "2024-04-18 SSLoad infection with Cobalt Strike",
+      "published": "2024-04-19T14:17:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-04-19",
+          "url": "https://www.linkedin.com/posts/unit42_ssload-cobaltstrike-timelythreatintel-activity-7187091840968351744-xqe-",
+          "description": "LinkedIn post from Unit 42 about SSLoad infection with Cobalt Strike from 2024-04-18"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-04-19",
+          "url": "https://twitter.com/Unit42_Intel/status/1781326222019932535",
+          "description": "X (Twitter) post from Unit 42 about SSLoad infection with Cobalt Strike from 2024-04-18"
+        }
+      ],
+      "object_refs": [
+        "indicator--83c96fec-2237-458b-9b11-e2b789c22999",
+        "indicator--98fc8dcc-6d49-4a86-91a0-d723e1c5cbc4",
+        "indicator--3393ae87-5e73-4074-9c8e-dd13d4645dfe",
+        "indicator--49082c24-1ee7-415b-a591-2ceab3a6fab7",
+        "indicator--f8c25d98-0945-474e-ac2b-97249cd61b19",
+        "indicator--40ca69fd-e79e-483b-a44b-9bd0200d93b9"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--83c96fec-2237-458b-9b11-e2b789c22999",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "Incident_Report_Harassment.doc",
+      "pattern": "[file:hashes.'SHA-256' = '88ad960a647f18d3d1bd89ac5b15cac9989f215506df5e710ca252cba539553a']",
+      "description": "Word doc with macro for SSLoad infection as early as 2024-04-09",
+      "valid_from": "2024-04-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--98fc8dcc-6d49-4a86-91a0-d723e1c5cbc4",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "app.pln",
+      "pattern": "[file:hashes.'SHA-256' = '73774861d946d62c2105fef4718683796cb77de7ed42edaec7affcee5eb0a0ee']",
+      "description": "SSLoad DLL dropped by Word doc macro on 2024-04-18.",
+      "valid_from": "2024-04-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3393ae87-5e73-4074-9c8e-dd13d4645dfe",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "7bEGowXLibG.dll",
+      "pattern": "[file:hashes.'SHA-256' = '16bc219a61e07e9ef91370950515a857290c0770ac2b3354a902f65824894316']",
+      "description": "Cobalt Strike DLL retreived by SSLoad-infected host on 2024-04-18.",
+      "valid_from": "2024-04-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--49082c24-1ee7-415b-a591-2ceab3a6fab7",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "http://212.18.104.28/8080.dll",
+      "pattern": "[url:value = 'http://212.18.104.28/8080.dll']",
+      "description": "URL hosting Cobalt Strike DLL retreived by SSLoad-infected host on 2024-04-18.",
+      "valid_from": "2024-04-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f8c25d98-0945-474e-ac2b-97249cd61b19",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "http://193.32.176.22:8080/",
+      "pattern": "[url:value = 'http://193.32.176.22:8080/']",
+      "description": "Cobalt Strike C2 from Cobalt Strike DLL from SSLoad infection on 2024-04-18.",
+      "valid_from": "2024-04-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--40ca69fd-e79e-483b-a44b-9bd0200d93b9",
+      "created": "2024-04-19T14:20:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-19T14:20:00.001Z",
+      "name": "85.239.53.219",
+      "pattern": "[ipv4-addr:value = '85.239.53.219']",
+      "description": "IP address for SSLoad C2 traffic seen as early as 2024-04-09.",
+      "valid_from": "2024-04-09T00:00:00.001Z"
+    }
+  ]
+}
