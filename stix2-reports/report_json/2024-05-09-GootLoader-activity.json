@@ -1,0 +1,356 @@
+{
+  "type": "bundle",
+  "id": "bundle--4af28a50-3f0e-49b3-9a4d-1924e6a779d7",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--6738c30b-a63e-4f7a-b15b-07adbc4f5efe",
+      "created": "2024-05-10T20:30:00.001Z",
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "This is the name or title of the activity.",
+      "title": "This is the title of the activity.",
+      "description": "This is a description of the activity.",
+      "published": "2024-05-10T19:56:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-05-10",
+          "url": "https://www.linkedin.com/posts/unit42_gootloader-unit42threatintel-timelythreatintel-activity-7194787295676313600-UylW/",
+          "description": "LinkedIn post from Unit 42 about GootLoader activity from 2024-05-09"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-05-10",
+          "url": "https://twitter.com/Unit42_Intel/status/1789021679634505978",
+          "description": "X (Twitter) post from Unit 42 about GootLoader activity from 2024-05-09"
+        }
+      ],
+      "object_refs": [
+        "indicator--ae03a599-d01f-4103-b38f-7d8a4570eb64",
+        "indicator--1bff4dd5-8da2-47fd-86c6-b691f011bab5",
+        "indicator--80b9bc03-9cfe-4c39-bb8a-6119b8369ed0",
+        "indicator--5552e7ea-8125-4bcb-a7ff-46256c2b4585",
+        "indicator--b9efa86e-afb1-43d7-a551-eed406648553",
+        "indicator--3c1d4ed9-ca4b-484e-948d-e17b1d619263",
+        "indicator--8943183b-56e3-450c-88e9-f8cb82c7f311",
+        "indicator--11860ad7-d323-480a-8ae8-50f0222faeb9",
+        "indicator--9db982b9-8057-4d75-990f-cbdf426e64e9",
+        "indicator--753e3f97-4976-4f3f-a791-db029490f828",
+        "indicator--8067fbce-5a98-4b69-bca4-36e777e037c0",
+        "indicator--caedfcf0-2285-4bdd-9485-31827cebf496",
+        "indicator--9b4300f3-5417-44f2-870d-e6b5307029c0",
+        "indicator--f729e50a-d237-4f09-874a-1ccc25200a17",
+        "indicator--1ba7d056-b04e-4889-b536-63fff5986881",
+        "indicator--7c7c2ee1-95e3-44d4-86bf-47b27d9dc6bb",
+        "indicator--0ef9477b-902c-495d-8152-4c74d97baaa6",
+        "indicator--9806f2b9-cf7c-4a7a-a27b-fd69f59c5453",
+        "indicator--947adeed-2d63-4600-85de-9ffff6fa07b2",
+        "indicator--99399ef5-b3b1-494a-845f-dbd46ce1e1af",
+        "indicator--6635fb77-57e8-49a0-bfbc-b04f5893a3ff",
+        "indicator--8b07ea65-33fb-4a31-9688-d836b551bd35",
+        "indicator--3fa75d94-2a1b-496c-b827-5319d83402f3"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ae03a599-d01f-4103-b38f-7d8a4570eb64",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": " Is_bear_spray_legal_in_ca_33201.zip",
+      "pattern": "[file:hashes.'SHA-256' = '97c05027943e99873b4d953cd8f4ec017fdbc73b1f79f1c5c9504d55f585f86d']",
+      "description": "Zip archive containing .js file for GootLoader infection seen on 2024-05-09.",
+      "valid_from": "2024-05-09T21:30:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1bff4dd5-8da2-47fd-86c6-b691f011bab5",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "is bear spray legal in ca 8551.js",
+      "pattern": "[file:hashes.'SHA-256' = '0117cb52f92ac381cd2707abd44dadeab443673f6b6fe7664f22660c73005e8f']",
+      "description": "A .js file extracted from zip archive, this .js file was used for a GootLoader infection on 2024-05-09.",
+      "valid_from": "2024-05-09T21:30:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--80b9bc03-9cfe-4c39-bb8a-6119b8369ed0",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "Build Automation.js",
+      "pattern": "[file:hashes.'SHA-256' = 'd5077092a452a90bd42198fea4cb1905ab01c46bba7d5bb5fab615a4b6748897']",
+      "description": "Persistent through a Windows registry updated, this is a .js file seen during a GootLoader infection on 2024-05-09.",
+      "valid_from": "2024-05-09T21:32:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5552e7ea-8125-4bcb-a7ff-46256c2b4585",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://solar-audio.net/is-bear-spray-legal-in-ca-california-bear-spray-laws-explained/",
+      "pattern": "[url:value = 'https://solar-audio.net/is-bear-spray-legal-in-ca-california-bear-spray-laws-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b9efa86e-afb1-43d7-a551-eed406648553",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://ecolejilespoir.com/are-dune-buggies-street-legal-in-ohio-rules-regulations-explained/",
+      "pattern": "[url:value = 'https://ecolejilespoir.com/are-dune-buggies-street-legal-in-ohio-rules-regulations-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3c1d4ed9-ca4b-484e-948d-e17b1d619263",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://fotos-epm.com/release/are-pet-monkeys-legal-in-colorado-laws-and-regulations-explained/",
+      "pattern": "[url:value = 'https://fotos-epm.com/release/are-pet-monkeys-legal-in-colorado-laws-and-regulations-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8943183b-56e3-450c-88e9-f8cb82c7f311",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://lavozdecipolletti.com/are-caracals-legal-in-california-rules-and-regulations-explained/",
+      "pattern": "[url:value = 'https://lavozdecipolletti.com/are-caracals-legal-in-california-rules-and-regulations-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--11860ad7-d323-480a-8ae8-50f0222faeb9",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://rapiclic.com/is-bear-spray-legal-in-florida-regulations-and-laws-explained/",
+      "pattern": "[url:value = 'https://rapiclic.com/is-bear-spray-legal-in-florida-regulations-and-laws-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9db982b9-8057-4d75-990f-cbdf426e64e9",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://regyan.com/are-hollow-points-legal-in-canada-laws-and-regulations-explained/",
+      "pattern": "[url:value = 'https://regyan.com/are-hollow-points-legal-in-canada-laws-and-regulations-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--753e3f97-4976-4f3f-a791-db029490f828",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://shemshadpub.ir/is-prizepicks-legal-in-new-york-legal-considerations-explained/",
+      "pattern": "[url:value = 'https://shemshadpub.ir/is-prizepicks-legal-in-new-york-legal-considerations-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8067fbce-5a98-4b69-bca4-36e777e037c0",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://solohan.co/is-bear-spray-legal-in-california-laws-regulations-and-restrictions/",
+      "pattern": "[url:value = 'https://solohan.co/is-bear-spray-legal-in-california-laws-regulations-and-restrictions/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--caedfcf0-2285-4bdd-9485-31827cebf496",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://williambelle.com/are-tibetan-mastiffs-legal-in-the-uk-ownership-laws-explained/",
+      "pattern": "[url:value = 'https://williambelle.com/are-tibetan-mastiffs-legal-in-the-uk-ownership-laws-explained/']",
+      "description": "URL for fake forum page used to distribute GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b4300f3-5417-44f2-870d-e6b5307029c0",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://aynasy.com/manual.php",
+      "pattern": "[url:value = 'https://aynasy.com/manual.php']",
+      "description": "URL hosting GootLoader malware, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f729e50a-d237-4f09-874a-1ccc25200a17",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://amani.ma/",
+      "pattern": "[url:value = 'https://amani.ma/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1ba7d056-b04e-4889-b536-63fff5986881",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "http://donationtown.org/",
+      "pattern": "[url:value = 'http://donationtown.org/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7c7c2ee1-95e3-44d4-86bf-47b27d9dc6bb",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://ecomsutra.com/",
+      "pattern": "[url:value = 'https://ecomsutra.com/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0ef9477b-902c-495d-8152-4c74d97baaa6",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://great-peoples.ru/",
+      "pattern": "[url:value = 'https://great-peoples.ru/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9806f2b9-cf7c-4a7a-a27b-fd69f59c5453",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://missingmiddlehousing.com/",
+      "pattern": "[url:value = 'https://missingmiddlehousing.com/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--947adeed-2d63-4600-85de-9ffff6fa07b2",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://ndeb-bned.ca/",
+      "pattern": "[url:value = 'https://ndeb-bned.ca/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--947adeed-2d63-4600-85de-9ffff6fa07b2",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://technative.io/",
+      "pattern": "[url:value = 'https://technative.io/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6635fb77-57e8-49a0-bfbc-b04f5893a3ff",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://technians.com/",
+      "pattern": "[url:value = 'https://technians.com/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8b07ea65-33fb-4a31-9688-d836b551bd35",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://www.magicbandcollectors.com/",
+      "pattern": "[url:value = 'https://www.magicbandcollectors.com/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3fa75d94-2a1b-496c-b827-5319d83402f3",
+      "created": "2024-05-10T20:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-10T20:30:00.001Z",
+      "name": "https://www.zs-lucina.cz/",
+      "pattern": "[url:value = 'https://www.zs-lucina.cz/']",
+      "description": "URL for GootLoader C2, seen as early as 2024-05-09.",
+      "valid_from": "2024-05-09T00:00:00.001Z"
+    }
+  ]
+}
