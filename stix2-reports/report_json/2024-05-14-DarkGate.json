@@ -1,0 +1,328 @@
+{
+  "type": "bundle",
+  "id": "bundle--e0521f56-04d7-4801-be14-8c0a71ee8678",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--5fce82a3-0520-47da-b4c2-718f2f999506",
+      "created": "2024-05-14T22:05:00.001Z",
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "2024-05-14-DarkGate.json",
+      "title": "DarkGate Activity on 2024-05-14",
+      "description": "Timely Threat Intelligence post for DarkGate Activity on Tuesday 2024-05-14.",
+      "published": "2024-05-15T18:40:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-05-15",
+          "url": "https://www.linkedin.com/posts/unit42_darkgate-timelythreatintel-unit42threatintel-activity-7196580114761928704-Nblk/",
+          "description": "LinkedIn post from Unit 42 about DarkGate from 2024-05-14"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-05-15",
+          "url": "https://twitter.com/Unit42_Intel/status/1790814496845394110",
+          "description": "X (Twitter) post from Unit 42 about DarkGate activity from 2024-05-14"
+        }
+      ],
+      "object_refs": [
+        "indicator--684267cf-1f0b-4486-bab3-dace7cc8d9a7",
+        "indicator--ee76d04e-6a42-4243-9b62-6383ac50a77a",
+        "indicator--2c24c489-7f00-44f6-8747-20ca305e4810",
+        "indicator--26015352-aee8-466b-9d6b-7a85dd3b5237",
+        "indicator--eb54a357-18b0-4126-aa8f-0ebef2dacbbd",
+        "indicator--fc5b5370-bf35-422d-9fe5-7a37f338cbd7",
+        "indicator--8f7fa4cb-be5d-4cde-9c3e-981aebbfcea7",
+        "indicator--0972e58b-5e1a-4e54-b3df-2d970af659a0",
+        "indicator--5c529354-eee2-4c98-8c8a-b45026c90d65",
+        "indicator--ea1a8577-d580-495b-99c8-4944644e4498",
+        "indicator--c7df55cb-85f7-46bc-b9b8-72cf7b574c9e",
+        "indicator--715cafd2-306d-406e-ad3f-6ea52f743d14",
+        "indicator--e30c361c-e627-422a-be4d-9cd04b47aca7",
+        "indicator--150d88cd-2093-4db6-8324-1c9122743c89",
+        "indicator--a8fb970d-ddfe-4bee-a270-ca9cbbd33054",
+        "indicator--3657ab32-d807-4a69-8708-8420bf8669af",
+        "indicator--4b8235a4-6fc0-4efc-a9d6-636c7599aa96",
+        "indicator--d90a26cf-1b7f-4f40-bb28-680ad4f09a7d",
+        "indicator--61bf20e8-b73f-4fad-bd05-75179f3be781",
+        "indicator--46d9219c-2339-4c4e-87d1-65c7b3c14584",
+        "indicator--83204eee-f119-41fc-b213-cc738aa76fb0"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--684267cf-1f0b-4486-bab3-dace7cc8d9a7",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_119275.html",
+      "pattern": "[file:hashes.'SHA-256' = 'b8229d8cc26b1622815a3d3537ab3c6a4a1ec24888953eda0d69cd602f05c272']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ee76d04e-6a42-4243-9b62-6383ac50a77a",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_234892.html",
+      "pattern": "[file:hashes.'SHA-256' = '3fe42a4a39f3d0136df91b1d1b2959229cbe0e3cf2f4106e007b3f4f5548e80a']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2c24c489-7f00-44f6-8747-20ca305e4810",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_299872.html",
+      "pattern": "[file:hashes.'SHA-256' = '224d0143a56436022401792f17fb3794684c4f5f8041dd650de1d3fb8494fbfd']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--26015352-aee8-466b-9d6b-7a85dd3b5237",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_328152.html",
+      "pattern": "[file:hashes.'SHA-256' = '7d89719f670760b2947490c40649128ccaf5fbc07368cfb2763ca3998c6cd9f9']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eb54a357-18b0-4126-aa8f-0ebef2dacbbd",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_436171.html",
+      "pattern": "[file:hashes.'SHA-256' = '0f1c3f1142a2d8fa1e38325830f53ed18a9a2110f6f390f0c514f379cda6d752']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fc5b5370-bf35-422d-9fe5-7a37f338cbd7",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_446619.html",
+      "pattern": "[file:hashes.'SHA-256' = '638c9af9e73f0ba1f92022c5eb0f2b42a7f15471d18678c91690d291b5ca68f9']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8f7fa4cb-be5d-4cde-9c3e-981aebbfcea7",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_554063.html",
+      "pattern": "[file:hashes.'SHA-256' = '01037b2cc999d1d16c1ebcc90d35c3b6f61c543f78d03e495dd924d50db818b0']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0972e58b-5e1a-4e54-b3df-2d970af659a0",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_447386.html",
+      "pattern": "[file:hashes.'SHA-256' = '0f48436d98086390b6ddefd7ad9974947224400d419f6d9373e29ca47e8e8357']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5c529354-eee2-4c98-8c8a-b45026c90d65",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_583479.html",
+      "pattern": "[file:hashes.'SHA-256' = '107994ddca0ed2b774041c076b699df4f34d2fbdca11539404571cb133d41554']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ea1a8577-d580-495b-99c8-4944644e4498",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_654380.html",
+      "pattern": "[file:hashes.'SHA-256' = 'e8dcc385584b5859ef5674bf26a986957a6eaeab87389fad2c9bcca9ca900456']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c7df55cb-85f7-46bc-b9b8-72cf7b574c9e",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_673434.html",
+      "pattern": "[file:hashes.'SHA-256' = '28c3ecfb7bf397fb6713ca739162b676f57b58fc10a62003e1bc2d9f364e4cfc']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--715cafd2-306d-406e-ad3f-6ea52f743d14",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_765966.html",
+      "pattern": "[file:hashes.'SHA-256' = '232b5aee821e426540ee151fe260fe4fb05b6bff1d3d4de6c65b8de22b1c13fd']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e30c361c-e627-422a-be4d-9cd04b47aca7",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "May_787116.html",
+      "pattern": "[file:hashes.'SHA-256' = 'b83ce1fb93f6e9f4d52deb736d1362e645a6e5a8f8371ee77a21228140f541b0']",
+      "description": "HTML file used for DarkGate infection on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--150d88cd-2093-4db6-8324-1c9122743c89",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "1.hta",
+      "pattern": "[file:hashes.'SHA-256' = '5c204217d48f2565990dfdf2269c26113bd14c204484d8f466fb873312da80cf']",
+      "description": "HTA file to download Powershell script for DarkGate infection as early as 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a8fb970d-ddfe-4bee-a270-ca9cbbd33054",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "file.zip",
+      "pattern": "[file:hashes.'SHA-256' = '8c382d51459b91b7f74b23fbad7dd2e8c818961561603c8f6614edc9bb1637d1']",
+      "description": "Zip archive containing Autoit3.exe and Autoit3 script for DarkGate malware infection seen on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3657ab32-d807-4a69-8708-8420bf8669af",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "script.a3x",
+      "pattern": "[file:hashes.'SHA-256' = '2f05419f0baf87feb1c1f4ecb6d391fd9e8083e9e5219fba09875aaca85001a2']",
+      "description": "Autoit3 script for DarkGate malware infection seen on 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4b8235a4-6fc0-4efc-a9d6-636c7599aa96",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "https://www.rockcreekdds.com/wp-content/1.hta",
+      "pattern": "[url:value = 'https://www.rockcreekdds.com/wp-content/1.hta']",
+      "description": "URL seen on 2024-05-14 hosting HTA file for DarkGate infection.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d90a26cf-1b7f-4f40-bb28-680ad4f09a7d",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "http://flexiblemaria.com/umkglnks",
+      "pattern": "[url:value = 'http://flexiblemaria.com/umkglnks']",
+      "description": "URL seen on 2024-05-14 hosting PowerShell script for DarkGate infection.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--61bf20e8-b73f-4fad-bd05-75179f3be781",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "http://flexiblemaria.com/iinkqrwu",
+      "pattern": "[url:value = 'http://flexiblemaria.com/iinkqrwu']",
+      "description": "URL seen on 2024-05-14 hosting zip archive for DarkGate infection.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--46d9219c-2339-4c4e-87d1-65c7b3c14584",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "http://flexiblemaria.com/",
+      "pattern": "[url:value = 'http://flexiblemaria.com/']",
+      "description": "DarkGate C2 URL seen on 2024-05-14, using HTTP POST request.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--83204eee-f119-41fc-b213-cc738aa76fb0",
+      "created": "2024-05-14T22:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-05-14T22:05:00.001Z",
+      "name": "flexiblemaria.com",
+      "pattern": "[domain-name:value = 'flexiblemaria.com']",
+      "description": "DarkGate C2 domain seen as early as 2024-05-14.",
+      "valid_from": "2024-05-14T00:00:00.001Z"
+    }
+  ]
+}
