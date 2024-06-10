@@ -1,0 +1,85 @@
+{
+  "type": "bundle",
+  "id": "bundle--cb9f5c86-a0c8-443a-af4d-22e75000fb5c",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--cc127794-0c82-4100-91ee-dd9cdadf8c11",
+      "created": "2024-06-10T20:11:00.001Z",
+      "modified": "2024-06-10T20:11:00.001Z",
+      "name": "2024-06-10-OriginLogger.json",
+      "title": "Malspam pushes OriginLogger (AgentTesla) on 2024-06-10",
+      "description": "Malspam pushes OriginLogger (AgentTesla) on 2024-06-10",
+      "published": "2024-06-10T20:05:00.001Z",
+      "external_references": [
+        {
+          "source_name": "infosec.exchange on Mastodon social media platform ",
+          "url": "https://infosec.exchange/@malware_traffic/112594119547890292",
+          "description": "Mastodon post on infosec.exchange about OriginLogger (AgentTesla) activity on 2024-06-10."
+        }
+      ],
+      "object_refs": [
+        "indicator--beed0050-f599-4df3-b1d2-068ebd9bcbd9",
+        "indicator--9bc5b0e6-7819-4ea7-983e-39191bfb36c2",
+        "indicator--b7cac412-ef85-4ae3-8b42-7c9ba107d062",
+        "indicator--210eeaae-b701-4aa5-b9ed-1f94a972812c"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--beed0050-f599-4df3-b1d2-068ebd9bcbd9",
+      "created": "2024-06-10T20:11:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-10T20:11:00.001Z",
+      "name": "SOA MAY 2024.rar",
+      "pattern": "[file:hashes.'SHA-256' = '891b5bb34a57b6f58d635f8c3c64e9f1ca2fec59030fb9094fa3efebfb5b8729']",
+      "description": "Email attachment, RAR archive containing malicious file for OriginLogger (AgentTesla) seen as early as 2024-06-10.",
+      "valid_from": "2024-06-10T02:23:00.001Z"
+    },
+     {
+      "type": "indicator",
+      "id": "indicator--9bc5b0e6-7819-4ea7-983e-39191bfb36c2",
+      "created": "2024-06-10T20:11:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-10T20:11:00.001Z",
+      "name": "SOA MAY 2024.exe",
+      "pattern": "[file:hashes.'SHA-256' = '4210e25c33df901302fe42704fcd0832729e4efade9da5abe6a8f2512244024f']",
+      "description": "Windows executable (EXE) file for OriginLogger (AgentTesla) seen as early as 2024-06-10.",
+      "valid_from": "2024-06-10T02:23:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b7cac412-ef85-4ae3-8b42-7c9ba107d062",
+      "created": "2024-06-10T20:11:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-10T20:11:00.001Z",
+      "name": "mail.bredband2.com",
+      "pattern": "[domain-name:value = 'mail.bredband2.com']",
+      "description": "Email server domain used for OriginLogger (AgentTesla) data exfiltration as early as 2024-06-10.",
+      "valid_from": "2024-06-10T02:23:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--210eeaae-b701-4aa5-b9ed-1f94a972812c",
+      "created": "2024-06-10T20:11:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-10T20:11:00.001Z",
+      "name": "albee.leun@expressairhkg.com",
+      "pattern": "[email-addr:value = 'albee.leun@expressairhkg.com']",
+      "description": "Sending email address used by malspam pushing OriginLogger (AgentTesla) as early as 2024-06-10",
+      "valid_from": "2024-06-10T15:34:41.001Z"
+    }
+  ]
+}
