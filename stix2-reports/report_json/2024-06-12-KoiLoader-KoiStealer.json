@@ -1,0 +1,370 @@
+{
+  "type": "bundle",
+  "id": "bundle--beed0050-f599-4df3-b1d2-068ebd9bcbd9",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--9bc5b0e6-7819-4ea7-983e-39191bfb36c2",
+      "created": "2024-06-13T01:05:00.001Z",
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "2024-06-12-KoiLoader-KoiStealer.json",
+      "title": "2024-06-12: KoiLoader/KoiStealer infection.",
+      "description": "Details on a KoiLoader/KoiStealer infection on 2024-06-12.",
+      "published": "2024-06-12T23:35:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-06-12",
+          "url": "https://www.linkedin.com/posts/unit42_koiloader-koistealer-unit42threatintel-activity-7206786128199258113-2y7y",
+          "description": "LinkedIn post from Unit 42 about a KoiLoader/KoiStealer infection from 2024-06-12"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-06-12",
+          "url": "https://x.com/Unit42_Intel/status/1801020508755869718",
+          "description": "X (Twitter) post from Unit 42 about a KoiLoader/KoiStealer infection from 2024-06-12"
+        }
+      ],
+      "object_refs": [
+        "indicator--b7cac412-ef85-4ae3-8b42-7c9ba107d062",
+        "indicator--210eeaae-b701-4aa5-b9ed-1f94a972812c",
+        "indicator--7041aac4-ee04-416f-b939-0ef0d519a514",
+        "indicator--95d37263-5f82-4583-afdb-3ebf7d4575c1",
+        "indicator--8cb27914-eb49-4cf0-821c-32fc2ba3e92a",
+        "indicator--b3983a3d-8eff-4122-837b-3eaed86d6c08",
+        "indicator--363d82f7-7b04-44bc-a08b-055e705dd4dc",
+        "indicator--4910f657-6c4c-44f3-b75f-ca8b58b304be",
+        "indicator--691f8121-2c49-4cc5-9b3c-9efe5acf7906",
+        "indicator--cfb25ec2-ae65-45b4-9517-ea2fb2c19935",
+        "indicator--76dc9f36-5020-479a-b252-232bfadb39ff",
+        "indicator--cc048a2c-138d-45b4-99a6-93989150ad2f",
+        "indicator--dbb0eab7-c1f5-4177-a9d1-8a32907c9b9e",
+        "indicator--f2765dc2-5557-43d3-bd02-c1d6154a2465",
+        "indicator--6b359fac-81cc-48d7-b581-99370733f0d1",
+        "indicator--dcf558dc-1672-478c-9a80-ba2deb48bc4a",
+        "indicator--fd844a5c-669f-491f-8af0-f0918aa49b71",
+        "indicator--74a2c229-63bd-4787-b01f-de5ef421c728",
+        "indicator--25a5d51e-65ad-4dce-be38-37e9cfb8b231",
+        "indicator--f947a444-20db-47ee-b8c6-9095966ffc7c",
+        "indicator--e9b6e377-9c86-406b-9081-6787f917e546",
+        "indicator--0af9f1b4-030f-4221-9e77-21a62b4f457e",
+        "indicator--dc66b702-78d3-46e5-baf9-8b22f9ec44cd",
+        "indicator--f8a10d4c-ebf4-40ea-b2a8-7198cdb2d3bb"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b7cac412-ef85-4ae3-8b42-7c9ba107d062",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "hsbc_statement_may.zip",
+      "pattern": "[file:hashes.'SHA-256' = '74d0aa9d0fd22c1d133a210f919c3c1123425832ffc08bdd519abacfa35681e1']",
+      "description": "Zip archive containing Windows shortcut for Koi Loader (KoiLoader) seen on 2024-06-12.",
+      "valid_from": "2024-06-12T13:50:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--210eeaae-b701-4aa5-b9ed-1f94a972812c",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "hsbc_statement_may.lnk",
+      "pattern": "[file:hashes.'SHA-256' = '975216ec8d4fef4fd3ae4eff18447dcf2f4db56a8980a2a26c3f3b0a30882762']",
+      "description": "Windows shortcut for Koi Loader (KoiLoader) seen on 2024-06-12.",
+      "valid_from": "2024-06-12T13:55:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7041aac4-ee04-416f-b939-0ef0d519a514",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "wells_fargo_statement.zip",
+      "pattern": "[file:hashes.'SHA-256' = '510fe1efb4c907e23c4b0ad4e2aa33e4ed0575f8078e7a763a5fa3c82a7b327c']",
+      "description": "Zip archive containing Windows shortcut for Koi Loader (KoiLoader) seen on 2024-06-12.",
+      "valid_from": "2024-06-12T14:57:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--95d37263-5f82-4583-afdb-3ebf7d4575c1",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "wells_fargo_statement.lnk",
+      "pattern": "[file:hashes.'SHA-256' = '8e5e5103559d2f567adfc193605e3d1ec2170ee3a31e1330dbcd1e2b5cc4a3ec']",
+      "description": "Windows shortcut for Koi Loader (KoiLoader) seen on 2024-06-12.",
+      "valid_from": "2024-06-11T23:32:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8cb27914-eb49-4cf0-821c-32fc2ba3e92a",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/1u3i-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/1u3i-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b3983a3d-8eff-4122-837b-3eaed86d6c08",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/sebw-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/sebw-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--363d82f7-7b04-44bc-a08b-055e705dd4dc",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/zd8y-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/zd8y-galaxy/samsung-s23?sharedfile=chase_31_05_24_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4910f657-6c4c-44f3-b75f-ca8b58b304be",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/gg5d-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/gg5d-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--691f8121-2c49-4cc5-9b3c-9efe5acf7906",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/p29a-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/p29a-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cfb25ec2-ae65-45b4-9517-ea2fb2c19935",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/pi70l-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/pi70l-galaxy/samsung-s10?sharedfile=hsbc_statement_may.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--76dc9f36-5020-479a-b252-232bfadb39ff",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/53bpt-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/53bpt-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cc048a2c-138d-45b4-99a6-93989150ad2f",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/ob9l-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/ob9l-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dbb0eab7-c1f5-4177-a9d1-8a32907c9b9e",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://sites.google.com/view/x3d-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=",
+      "pattern": "[url:value = 'https://sites.google.com/view/x3d-files/easy-exchange?sharedfile=wells_fargo_statement.pdf&hid=']",
+      "description": "URL for page to distribute malicious zip archive for Koi Loader (KoiLoader) as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f2765dc2-5557-43d3-bd02-c1d6154a2465",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://mawyon.com/equal/boat.php",
+      "pattern": "[url:value = 'https://mawyon.com/equal/boat.php']",
+      "description": "URL used to retreive Google captcha page for Koi Loader (KoiLoader) infection chain as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6b359fac-81cc-48d7-b581-99370733f0d1",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://mucecsas.com/green/jocote.php",
+      "pattern": "[url:value = 'https://mucecsas.com/green/jocote.php']",
+      "description": "URL used to retreive Google captcha page for Koi Loader (KoiLoader) infection chain as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dcf558dc-1672-478c-9a80-ba2deb48bc4a",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://lechiavetteusb.it/imgs/usb/logo/andantezWA.php",
+      "pattern": "[url:value = 'https://lechiavetteusb.it/imgs/usb/logo/andantezWA.php']",
+      "description": "URL hosting Koi Loader (KoiLoader) content as early as 2042-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fd844a5c-669f-491f-8af0-f0918aa49b71",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://lechiavetteusb.it/imgs/usb/logo/arteriomalacia4hc.php",
+      "pattern": "[url:value = 'https://lechiavetteusb.it/imgs/usb/logo/arteriomalacia4hc.php']",
+      "description": "URL hosting Koi Loader (KoiLoader) content as early as 2042-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--74a2c229-63bd-4787-b01f-de5ef421c728",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://lechiavetteusb.it/imgs/usb/logo/khesariQUXH.ps1",
+      "pattern": "[url:value = 'https://lechiavetteusb.it/imgs/usb/logo/khesariQUXH.ps1']",
+      "description": "URL hosting Koi Loader (KoiLoader) content as early as 2042-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--25a5d51e-65ad-4dce-be38-37e9cfb8b231",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://lechiavetteusb.it/imgs/usb/logo/wizeninglYZn.ps1",
+      "pattern": "[url:value = 'https://lechiavetteusb.it/imgs/usb/logo/wizeninglYZn.ps1']",
+      "description": "URL hosting Koi Loader (KoiLoader) content as early as 2042-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f947a444-20db-47ee-b8c6-9095966ffc7c",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "https://lechiavetteusb.it/imgs/usb/logo/spiralitykSzkj.exe",
+      "pattern": "[url:value = 'https://lechiavetteusb.it/imgs/usb/logo/spiralitykSzkj.exe']",
+      "description": "URL hosting Koi Loader (KoiLoader) content as early as 2042-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e9b6e377-9c86-406b-9081-6787f917e546",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "http://89.251.22.227/guacos.php ",
+      "pattern": "[url:value = 'http://89.251.22.227/guacos.php ']",
+      "description": "URL for Koi Stealer (KoiStealer) C2 seen as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0af9f1b4-030f-4221-9e77-21a62b4f457e",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "http://89.251.22.227/index.php?id=&subid=gDfS4DCY",
+      "pattern": "[url:value = 'http://89.251.22.227/index.php?id=&subid=gDfS4DCY']",
+      "description": "URL for Koi Stealer (KoiStealer) C2 seen as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dc66b702-78d3-46e5-baf9-8b22f9ec44cd",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "http://89.251.22.227/index.php",
+      "pattern": "[url:value = 'http://89.251.22.227/index.php']",
+      "description": "URL for Koi Stealer (KoiStealer) C2 seen as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f8a10d4c-ebf4-40ea-b2a8-7198cdb2d3bb",
+      "created": "2024-06-13T01:05:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-13T01:05:00.001Z",
+      "name": "89.251.22.227",
+      "pattern": "[ipv4-addr:value = '89.251.22.227']",
+      "description": "IP addresss used as Koi Stealer (KoiStealer) C2 as early as 2024-06-11.",
+      "valid_from": "2024-06-11T00:00:00.001Z"
+    }
+  ]
+}
