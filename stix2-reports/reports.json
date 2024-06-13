@@ -57,5 +57,6 @@
     {"id": "report--d5475dc5-8fc5-4e05-8749-18c4150534ed", "rp_file": "2024-04-12-MidnightEclipse.json", "last_updated": "2024-04-25T18:50:00.001Z", "title": "Threat Brief: Operation MidnightEclipse, Post-Exploitation Activity Related to CVE-2024-3400", "industries": [], "regions": [], "malwares": []},
     {"id": "report--6738c30b-a63e-4f7a-b15b-07adbc4f5efe", "rp_file": "2024-05-09-GootLoader-activity.json", "last_updated": "2024-05-10T20:30:00.001Z", "title": "GootLoader Activity on 2024-05-09", "industries": [], "regions": [], "malwares": []},
     {"id": "report--5fce82a3-0520-47da-b4c2-718f2f999506", "rp_file": "2024-05-14-DarkGate.json", "last_updated": "2024-05-14T22:05:00.001Z", "title": "DarkGate Activity on 2024-05-14", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--cc127794-0c82-4100-91ee-dd9cdadf8c11", "rp_file": "2024-06-10-OriginLogger.json", "last_updated": "2024-06-10T20:11:00.001Z", "title": "Malspam pushes OriginLogger (AgentTesla) on 2024-06-10", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--cc127794-0c82-4100-91ee-dd9cdadf8c11", "rp_file": "2024-06-10-OriginLogger.json", "last_updated": "2024-06-10T20:11:00.001Z", "title": "Malspam pushes OriginLogger (AgentTesla) on 2024-06-10", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--9bc5b0e6-7819-4ea7-983e-39191bfb36c2", "rp_file": "2024-06-12-KoiLoader-KoiStealer.json", "last_updated": "2024-06-13T01:05:00.001Z", "title": "2024-06-12: KoiLoader/KoiStealer infection.", "industries": [], "regions": [], "malwares": []}
 ]
