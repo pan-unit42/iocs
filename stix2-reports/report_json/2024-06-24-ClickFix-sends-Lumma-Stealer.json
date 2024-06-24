@@ -1,0 +1,188 @@
+{
+  "type": "bundle",
+  "id": "bundle--5dcdf982-8059-49c2-9c5a-daea7baeb744",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--001ab801-06af-4c5d-a1fd-bb20c16fc902",
+      "created": "2024-06-24T21:45:00.001Z",
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "2024-06-24-ClickFix-sends-Lumma-Stealer.json",
+      "title": "ClickFix Popup sends Lumma Stealer",
+      "description": "ClickFix Popup sends Lumma Stealer on 2024-06-24",
+      "published": "2024-06-24T20:34:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-06-24",
+          "url": "https://www.linkedin.com/posts/unit42_lummastealer-lumma-unit42threatintel-activity-7211104318320435200-C3Xr",
+          "description": "LinkedIn post from Unit 42 about ClickFix popup sending Lumma Stealer on 2024-06-24"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-06-24",
+          "url": "https://x.com/Unit42_Intel/status/1805338698025718221",
+          "description": "X (Twitter) post from Unit 42 ClickFix popup sending Lumma Stealer on 2024-06-24"
+        }
+      ],
+      "object_refs": [
+        "indicator--07c83d06-079b-4f1c-b538-2630ba26aeb7",
+        "indicator--580eb13f-d7d8-4bf7-8fe4-2eeda146350a",
+        "indicator--e8c25e56-8c2a-45c5-8586-599ce6fcde71",
+        "indicator--cca09cdb-4960-48f6-af89-7f8b86ba0c89",
+        "indicator--669b8f0b-afc4-47ef-9ad4-ca82472ab2e0",
+        "indicator--c0bafb7c-9927-431a-a1c8-5af4dd4db14f",
+        "indicator--5f092b64-0062-4b02-a5a4-b638d01bc828",
+        "indicator--da6f4654-2b30-4fbd-9157-37149ad469f9",
+        "indicator--a756abe9-12ae-4354-9716-e5114b0b811b",
+        "indicator--07c85533-b7cc-487a-8197-911615af5944",
+        "indicator--2a31211c-11d2-45fe-ae70-1ab3f9a9c451"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--07c83d06-079b-4f1c-b538-2630ba26aeb7",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "ClickFix_PowerShell_Script",
+      "pattern": "[file:hashes.'SHA-256' = '21af4ef9bcebc0c3b52eaf93bbcc069c9df6248f51d4a4016c1970ebec6f5aab']",
+      "description": "ileless PowerShell command script copied from malicious popup notification window.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--580eb13f-d7d8-4bf7-8fe4-2eeda146350a",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "cow.html",
+      "pattern": "[file:hashes.'SHA-256' = '07594ba29d456e140a171cba12d8d9a2db8405755b81da063a425b1a8b50d073']",
+      "description": "Powershell script to retreive and install Lumma Stealer.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8c25e56-8c2a-45c5-8586-599ce6fcde71",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "omgsoft.zip",
+      "pattern": "[file:hashes.'SHA-256' = '6608aeae3695b739311a47c63358d0f9dbe5710bd0073042629f8d9c1df905a8']",
+      "description": "Zip archive containing EXE for Lumma Stealer malware.",
+      "valid_from": "2024-06-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cca09cdb-4960-48f6-af89-7f8b86ba0c89",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "omgsoft.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'e60d911f2ef120ed782449f1136c23ddf0c1c81f7479c5ce31ed6dcea6f6adf9']",
+      "description": "EXE for Lumma Stealer malware.",
+      "valid_from": "2024-06-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--669b8f0b-afc4-47ef-9ad4-ca82472ab2e0",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "https://bsc-dataseed1.binance.org/",
+      "pattern": "[url:value = 'https://bsc-dataseed1.binance.org/']",
+      "description": "URL redirecting to another URL hosting content for malicious ClickFix popup window as early as 2024-06-24.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c0bafb7c-9927-431a-a1c8-5af4dd4db14f",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "https://mdasidy72.lol/endpoint",
+      "pattern": "[url:value = 'https://mdasidy72.lol/endpoint']",
+      "description": "URL hosting content for malicious ClickFix popup window as early as 2024-06-24.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5f092b64-0062-4b02-a5a4-b638d01bc828",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "https://weoleycastletaxis.co.uk/chao/baby/cow.html",
+      "pattern": "[url:value = 'https://weoleycastletaxis.co.uk/chao/baby/cow.html']",
+      "description": "URL hosting PowerShell script used in ClickFix campaign for Lumma Stealer as early as 2024-06-21.",
+      "valid_from": "2024-06-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--da6f4654-2b30-4fbd-9157-37149ad469f9",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "https://weoleycastletaxis.co.uk/chao/baby/omgsoft.zip",
+      "pattern": "[url:value = 'https://weoleycastletaxis.co.uk/chao/baby/omgsoft.zip']",
+      "description": "URL hosting zip archive used in ClickFix campaign for Lumma Stealer as early as 2024-06-21.",
+      "valid_from": "2024-06-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a756abe9-12ae-4354-9716-e5114b0b811b",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "bsc-dataseed1.binance.org",
+      "pattern": "[domain-name:value = 'bsc-dataseed1.binance.org']",
+      "description": "Domain redirecing to another domain for ClickFix popup window on 2024-06-24",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--07c85533-b7cc-487a-8197-911615af5944",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "mdasidy72.lol",
+      "pattern": "[domain-name:value = 'mdasidy72.lol']",
+      "description": "Domain hosting content for ClickFix popup window on 2024-06-24.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2a31211c-11d2-45fe-ae70-1ab3f9a9c451",
+      "created": "2024-06-24T21:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-24T21:45:00.001Z",
+      "name": "latesttributedowps.shop",
+      "pattern": "[domain-name:value = 'latesttributedowps.shop']",
+      "description": "Lumma Stealer C2 domain seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T00:00:00.001Z"
+    }
+  ]
+}
