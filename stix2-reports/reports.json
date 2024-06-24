@@ -58,5 +58,6 @@
     {"id": "report--6738c30b-a63e-4f7a-b15b-07adbc4f5efe", "rp_file": "2024-05-09-GootLoader-activity.json", "last_updated": "2024-05-10T20:30:00.001Z", "title": "GootLoader Activity on 2024-05-09", "industries": [], "regions": [], "malwares": []},
     {"id": "report--5fce82a3-0520-47da-b4c2-718f2f999506", "rp_file": "2024-05-14-DarkGate.json", "last_updated": "2024-05-14T22:05:00.001Z", "title": "DarkGate Activity on 2024-05-14", "industries": [], "regions": [], "malwares": []},
     {"id": "report--cc127794-0c82-4100-91ee-dd9cdadf8c11", "rp_file": "2024-06-10-OriginLogger.json", "last_updated": "2024-06-10T20:11:00.001Z", "title": "Malspam pushes OriginLogger (AgentTesla) on 2024-06-10", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--9bc5b0e6-7819-4ea7-983e-39191bfb36c2", "rp_file": "2024-06-12-KoiLoader-KoiStealer.json", "last_updated": "2024-06-13T01:05:00.001Z", "title": "2024-06-12: KoiLoader/KoiStealer infection.", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--9bc5b0e6-7819-4ea7-983e-39191bfb36c2", "rp_file": "2024-06-12-KoiLoader-KoiStealer.json", "last_updated": "2024-06-13T01:05:00.001Z", "title": "2024-06-12: KoiLoader/KoiStealer infection.", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--001ab801-06af-4c5d-a1fd-bb20c16fc902", "rp_file": "2024-06-24-ClickFix-sends-Lumma-Stealer.json", "last_updated": "2024-06-24T21:45:00.001Z", "title": "ClickFix Popup sends Lumma Stealer", "industries": [], "regions": [], "malwares": []}
 ]
