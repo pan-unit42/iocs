@@ -1,0 +1,510 @@
+{
+  "type": "bundle",
+  "id": "bundle--848fae1e-eba5-409f-9f2a-dbd21ff3016c",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--a8864fa0-fe7e-49e2-8fdb-4004d510eb02",
+      "created": "2024-06-27T15:45:00.001Z",
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "2024-06-25-Latrodectus.json",
+      "title": "2024-06-25: Latrodectus infection with BackConnect and KeyholeVNC",
+      "description": "Latrodectus infection with BackConnect and KeyholeVNC on 2024-06-25",
+      "published": "2024-06-27T14:51:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-06-27",
+          "url": "https://www.linkedin.com/posts/unit42_latrodectus-backconnect-keyholevnc-activity-7212105182103359488-UsPs",
+          "description": "LinkedIn post from Unit 42 about Latrodectus activity from 2024-06-25"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-06-27",
+          "url": "https://x.com/Unit42_Intel/status/1806339560273563668",
+          "description": "X (Twitter) post from Unit 42 about Latrodectus activity 2024-06-25"
+        }
+      ],
+      "object_refs": [
+        "indicator--2918217d-30ca-417f-9724-660b1474abac",
+        "indicator--9c19966e-db4e-408e-b1e7-8b7a007d1a8e",
+        "indicator--2c8be0cb-e98e-4f55-bf18-a3d54ba81027",
+        "indicator--fddd32ba-67a4-4a53-b21c-8c8feb6e63bf",
+        "indicator--ca260f83-ab5d-4137-b268-b374dd3b8f85",
+        "indicator--b121dbf1-bf7e-4e55-b383-27699fc9705a",
+        "indicator--238beaee-bbb3-4d2f-b842-a626e36ed59b",
+        "indicator--2c3d8ca1-5c31-43f8-8cb3-b5bd78a88738",
+        "indicator--e324af37-e1fa-4b62-8c6d-6447b37132e2",
+        "indicator--7635f92d-d152-4629-9244-455cc2b7cbf8",
+        "indicator--03bbc6f0-3334-4d72-b4d4-3ec40222f933",
+        "indicator--3b2ee495-fa0c-4952-95ee-fbe48d96dcd1",
+        "indicator--eb041aad-495f-45aa-886b-029fdbad7c5f",
+        "indicator--88d70dd9-08c4-4d30-987c-dec8a8c5ed79",
+        "indicator--04153acf-d9c7-4faf-b4f0-c9a2f05cc510",
+        "indicator--0a6a6541-acbf-474d-a4f2-311e16975548",
+        "indicator--5c6ef9ad-5c70-438e-a696-549521933d33",
+        "indicator--ca4a23ca-49bc-4af7-9601-58725d413e73",
+        "indicator--88a36f8f-2d73-4a8b-90f0-010bdde95df5",
+        "indicator--ebeba384-d914-47d0-a167-60c23712a29a",
+        "indicator--1863e839-c4a8-428a-91d7-94e0d83ca987",
+        "indicator--832a2daa-32c8-40cf-b813-26ee98569ef5",
+        "indicator--b72e794f-cd7c-460e-8db0-0a02b471cc2a",
+        "indicator--29c10b20-8cea-4a0b-bfad-6f1b243dccc9",
+        "indicator--2a6de64d-469b-43da-ac7a-a9f23503089b",
+        "indicator--61cbc646-b1ad-421b-9ebc-d96a7a7cfb04",
+        "indicator--b14d0ffc-5b16-4e74-84ad-44b400c996dd",
+        "indicator--1fd30c17-0895-4ec8-b7dc-cc6c203793ab",
+        "indicator--e17214cf-ef5d-4107-b1ae-89b99314b575",
+        "indicator--c857c62c-70d1-4577-a054-00a366507a0e",
+        "indicator--6122e8ed-8b4d-497a-93bd-d08be8931e2a",
+        "indicator--78640e66-503a-4b2f-90c7-eee3d53e5c31",
+        "indicator--fedb86df-057b-41f6-8456-58a237b75fa3",
+        "indicator--53d2e792-2b03-45a6-bbac-4125e56295e1"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2918217d-30ca-417f-9724-660b1474abac",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-18-58-33.js",
+      "pattern": "[file:hashes.'SHA-256' = '04086187681a0737f44284e2f715e3d90a7284157916cf1ece61cccc6d975227']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T19:02:05.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9c19966e-db4e-408e-b1e7-8b7a007d1a8e",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-21-45-51.js",
+      "pattern": "[file:hashes.'SHA-256' = '073ed26f17f8efd735ad3f7737e88936f4bf2efd9722a37495874d6dd73ec12d']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-22.",
+      "valid_from": "2024-06-22T03:26:40.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2c8be0cb-e98e-4f55-bf18-a3d54ba81027",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-16-01-01.js",
+      "pattern": "[file:hashes.'SHA-256' = '0a12f2ccd4dc561b924c3c88a9571a36fdd01acd12d5a3eca88d2336989fcb89']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T16:09:06.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fddd32ba-67a4-4a53-b21c-8c8feb6e63bf",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-21-10-43.js",
+      "pattern": "[file:hashes.'SHA-256' = '1e2a94cb10157e71a550fd514c3d3607da6e1d2e3dc59b8aec2b175f8492b182']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T22:15:01.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ca260f83-ab5d-4137-b268-b374dd3b8f85",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-18-13-38.js",
+      "pattern": "[file:hashes.'SHA-256' = '232ec24aa416bd642fdd2eb5d5eae2c72f2dd028b0f5058e193acb656e010f6d']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T19:45:03.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b121dbf1-bf7e-4e55-b383-27699fc9705a",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-21-01-44.js",
+      "pattern": "[file:hashes.'SHA-256' = '25d817277b8f9116b5379a5b676a11e8d3ca40dea387b903851a6f8eff989a88']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T01:39:22.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--238beaee-bbb3-4d2f-b842-a626e36ed59b",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-11-58-52.js",
+      "pattern": "[file:hashes.'SHA-256' = '3ac8decd825d1ed7a86ed86d7789b44c0f0c467d4f482ab0863df1b7b1e3e8cc']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-23.",
+      "valid_from": "2024-06-23T17:40:25.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2c3d8ca1-5c31-43f8-8cb3-b5bd78a88738",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-18-01-54.js",
+      "pattern": "[file:hashes.'SHA-256' = '5b51c052283b08f981cbab43a7c5fcfe740941317adc6c9d9352291dacfda5f0']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T20:04:16.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e324af37-e1fa-4b62-8c6d-6447b37132e2",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-20-37-01.js",
+      "pattern": "[file:hashes.'SHA-256' = '6532ac1ec717187e1b8d7b7060d8c2bc2992efa2c669082d6e94b35a73b6f4ba']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-25.",
+      "valid_from": "2024-06-25T14:15:13.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7635f92d-d152-4629-9244-455cc2b7cbf8",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-00-26-49.js",
+      "pattern": "[file:hashes.'SHA-256' = '6c0824f3dad54ddd96d6ae184c121b4205a2e1d4fd3f1e16140b06ab62449a66']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T07:03:08.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--03bbc6f0-3334-4d72-b4d4-3ec40222f933",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-16-46-33.js",
+      "pattern": "[file:hashes.'SHA-256' = '9003415cc22d4e8b3c444ffcf84bb3f1c3a294d40d1f66329733edfc8472a7d2']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-25.",
+      "valid_from": "2024-06-25T18:24:41.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3b2ee495-fa0c-4952-95ee-fbe48d96dcd1",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-21-34-26.js",
+      "pattern": "[file:hashes.'SHA-256' = 'e57990d251937c5e4b27bf2240a08da37a40399bd3faa75ed67616ac3935f843']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T17:30:09.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eb041aad-495f-45aa-886b-029fdbad7c5f",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-16-44-54.js",
+      "pattern": "[file:hashes.'SHA-256' = 'e5f590d41d7ab1a7fde73fc0cb62c55c9ee2116383cbcf82620dcc74db9a9e81']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T17:13:43.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--88d70dd9-08c4-4d30-987c-dec8a8c5ed79",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "Form_Ver-14-12-56.js",
+      "pattern": "[file:hashes.'SHA-256' = 'fb242f64edbf8ae36a4cf5a80ba8f21956409b448eb0380949bb9152373db981']",
+      "description": "JavaScript (.js) file for Latrodectus infection seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T22:32:41.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--04153acf-d9c7-4faf-b4f0-c9a2f05cc510",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "BST.msi",
+      "pattern": "[file:hashes.'SHA-256' = '5b18441926e832038099acbe4a90c9e1907c9487ac14bdf4925ac170dddc24b6']",
+      "description": "Microsoft installer (.msi) file used for Latrodectus infection seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T19:45:55.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0a6a6541-acbf-474d-a4f2-311e16975548",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "vpn.msi",
+      "pattern": "[file:hashes.'SHA-256' = '4586250dbf8cbe579662d3492dd33fe0b3493323d4a060a0d391f20ecb28abf1']",
+      "description": "Microsoft installer (.msi) file used for Latrodectus infection seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T16:10:42.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5c6ef9ad-5c70-438e-a696-549521933d33",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "neuro.msi",
+      "pattern": "[file:hashes.'SHA-256' = 'd71bfab9cca5df6a28e12ba51fe5eaf0f9151514b3fd363264513347a8c5cf3a']",
+      "description": "Microsoft installer (.msi) file used for Latrodectus infection seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T19:14:54.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ca4a23ca-49bc-4af7-9601-58725d413e73",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "aclui.dll from BST.msi",
+      "pattern": "[file:hashes.'SHA-256' = '8484560c1526ee2e313a2b57f52ea5b31edd05a0c9664bd7f60da020871bfe6f']",
+      "description": "Malicious DLL for Latrodectus seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T19:49:13.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--88a36f8f-2d73-4a8b-90f0-010bdde95df5",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "aclui.dll from vpn.msi",
+      "pattern": "[file:hashes.'SHA-256' = 'c5dc5fd676ab5b877bc86f88485c29d9f74933f8e98a33bddc29f0f3acc5a5b9']",
+      "description": "Malicious DLL for Latrodectus seen as early as 2024-06-21.",
+      "valid_from": "2024-06-21T16:12:29.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ebeba384-d914-47d0-a167-60c23712a29a",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "capisp.dll from neuro.msi",
+      "pattern": "[file:hashes.'SHA-256' = '9b7bdb4cb71e84c5cff0923928bf7777a41cb5e0691810ae948304c151c0c1c5']",
+      "description": "Malicious DLL for Latrodectus seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T17:41:30.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1863e839-c4a8-428a-91d7-94e0d83ca987",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "http://85.208.108.63/BST.msi",
+      "pattern": "[url:value = 'http://85.208.108.63/BST.msi']",
+      "description": "URL hosting Microsoft installer (.msi) file for Latrodectus as early as 2024-06-20.",
+      "valid_from": "2024-06-20T19:45:39.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--832a2daa-32c8-40cf-b813-26ee98569ef5",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "http://193.32.177.192/vpn.msi",
+      "pattern": "[url:value = 'http://193.32.177.192/vpn.msi']",
+      "description": "URL hosting Microsoft installer (.msi) file for Latrodectus as early as 2024-06-21.",
+      "valid_from": "2024-06-21T16:10:29.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b72e794f-cd7c-460e-8db0-0a02b471cc2a",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "http://85.208.108.30/neuro.msi",
+      "pattern": "[url:value = 'http://85.208.108.30/neuro.msi']",
+      "description": "URL hosting Microsoft installer (.msi) file for Latrodectus as early as 2024-06-24.",
+      "valid_from": "2024-06-24T19:14:42.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--29c10b20-8cea-4a0b-bfad-6f1b243dccc9",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "kurvabbr.pw",
+      "pattern": "[domain-name:value = 'kurvabbr.pw']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-13.",
+      "valid_from": "2024-06-13T13:37:08.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2a6de64d-469b-43da-ac7a-a9f23503089b",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "barsen.monster",
+      "pattern": "[domain-name:value = 'barsen.monster']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-13.",
+      "valid_from": "2024-06-13T09:43:47.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--61cbc646-b1ad-421b-9ebc-d96a7a7cfb04",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "bibidj.biz",
+      "pattern": "[domain-name:value = 'bibidj.biz']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-18.",
+      "valid_from": "2024-06-18T13:19:23.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b14d0ffc-5b16-4e74-84ad-44b400c996dd",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "barsman.biz",
+      "pattern": "[domain-name:value = 'barsman.biz']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-18.",
+      "valid_from": "2024-06-18T13:19:55.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1fd30c17-0895-4ec8-b7dc-cc6c203793ab",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "garunt.biz",
+      "pattern": "[domain-name:value = 'garunt.biz']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-18.",
+      "valid_from": "2024-06-18T13:19:24.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e17214cf-ef5d-4107-b1ae-89b99314b575",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "finjuiceer.com",
+      "pattern": "[domain-name:value = 'finjuiceer.com']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T11:52:44.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c857c62c-70d1-4577-a054-00a366507a0e",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "meakdgahup.com",
+      "pattern": "[domain-name:value = 'meakdgahup.com']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-16.",
+      "valid_from": "2024-06-16T12:02:42.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6122e8ed-8b4d-497a-93bd-d08be8931e2a",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "riscoarchez.com",
+      "pattern": "[domain-name:value = 'riscoarchez.com']",
+      "description": "Latrodectus C2 domain seen as early as 2024-06-13.",
+      "valid_from": "2024-06-13T18:56:53.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--78640e66-503a-4b2f-90c7-eee3d53e5c31",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "64.7.198.158",
+      "pattern": "[ipv4-addr:value = '64.7.198.158']",
+      "description": "IP addresss used for BackConnect and Keyhole VNC over TCP port 443, associated with Latrodectus infection on 2024-06-25.",
+      "valid_from": "2024-06-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fedb86df-057b-41f6-8456-58a237b75fa3",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "rundll32 aclui.dll, edit",
+      "pattern": "[process:command_line  = 'rundll32 aclui.dll, edit']",
+      "description": "Command to run persistent Latrodectus DLL named aclui.dll seen as early as 2024-06-20.",
+      "valid_from": "2024-06-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--53d2e792-2b03-45a6-bbac-4125e56295e1",
+      "created": "2024-06-27T15:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-06-27T15:45:00.001Z",
+      "name": "rundll32 capisp.dll, remi",
+      "pattern": "[process:command_line  = 'rundll32 capisp.dll, remi']",
+      "description": "Command to run persistent Latrodectus DLL named capisp.dll seen as early as 2024-06-24.",
+      "valid_from": "2024-06-24T00:00:00.001Z"
+    }
+  ]
+}
