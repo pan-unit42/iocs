@@ -1,0 +1,202 @@
+{
+  "type": "bundle",
+  "id": "bundle--a23a108e-0d53-438e-87c7-1e10671ac692",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--c95a6be7-2826-49be-8f7a-6238c0ab3c7a",
+      "created": "2024-07-16T16:45:00.001Z",
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "2024-07-15-phishing.json",
+      "title": "2024-07-15: Recent Phishing campaigns Using HTTP Referesh Headers",
+      "description": "Technical post with information on recent phishing campaigns using HTTP refresh headers.",
+      "published": "2024-07-15T15:22:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-07-15",
+          "url": "https://www.linkedin.com/posts/unit42_phishing-timelythreatintel-unit42threatintel-activity-7218635942796926978-ztlB",
+          "description": "LinkedIn post from Unit 42 on 2024-07-15 about phishing campaigns using HTTP refresh headers"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-07-15",
+          "url": "https://twitter.com/Unit42_Intel/status/1812870324045685177",
+          "description": "X (Twitter) post from Unit 42 on 2024-07-15 about phishing campaigns using HTTP refresh headers"
+        }
+      ],
+      "object_refs": [
+        "indicator--383840c6-fcaa-4d02-8986-822af1893c85",
+        "indicator--0f8ec3c1-ae3f-414f-81ee-8e58a19499e2",
+        "indicator--6a2be2b4-92e6-4a87-90f4-6814b90ecc56",
+        "indicator--206357f5-3080-4b96-89b2-e01a55783de7",
+        "indicator--94ebc653-11e4-40c3-89a7-454105729bad",
+        "indicator--9ec7a055-2ce9-46f5-9099-cd032f314236",
+        "indicator--559414e3-fc7b-4c65-bb50-82c8ac7e8acf",
+        "indicator--cdcf8f6d-d901-4c46-b469-772d5931f069",
+        "indicator--9d24f92c-2217-4ffe-b660-5fe2e17d8746",
+        "indicator--e04d9ddb-e9b0-498f-9fc5-ddf9ee633de2",
+        "indicator--fe6e5798-3cda-42f3-bdbb-c1e06a7c38ed",
+        "indicator--ad56e8ca-f9cb-4097-8f6b-d5b243d5b5b5"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--383840c6-fcaa-4d02-8986-822af1893c85",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://mldproltd.com/img/slim/r-xcut.php",
+      "pattern": "[url:value = 'https://mldproltd.com/img/slim/r-xcut.php']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0f8ec3c1-ae3f-414f-81ee-8e58a19499e2",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://vf.qen12.za.com/.well-known/acme-challenge//r-xcut.php",
+      "pattern": "[url:value = 'https://vf.qen12.za.com/.well-known/acme-challenge//r-xcut.php']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-01T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6a2be2b4-92e6-4a87-90f4-6814b90ecc56",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://ipfs.io/ipfs/bafkreicj32yprjitxoyrmoxqcknj2xohjinvl5zcy6bnandbuggdki3bxu",
+      "pattern": "[url:value = 'https://ipfs.io/ipfs/bafkreicj32yprjitxoyrmoxqcknj2xohjinvl5zcy6bnandbuggdki3bxu']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--206357f5-3080-4b96-89b2-e01a55783de7",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://ipfs.io/ipfs/bafkreicbn4xgfxajydu6jbz2b5b5mijjnfskkns7uufaat5fao3tjddadi",
+      "pattern": "[url:value = 'https://ipfs.io/ipfs/bafkreicbn4xgfxajydu6jbz2b5b5mijjnfskkns7uufaat5fao3tjddadi']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-06-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94ebc653-11e4-40c3-89a7-454105729bad",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://ipfs.io/ipfs/bafkreic7intzjnj746hcrgdbvs6xeg6tzdr2nen5jupl3nnpg7lucql4qy",
+      "pattern": "[url:value = 'https://ipfs.io/ipfs/bafkreic7intzjnj746hcrgdbvs6xeg6tzdr2nen5jupl3nnpg7lucql4qy']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-01T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9ec7a055-2ce9-46f5-9099-cd032f314236",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://cf-ipfs.com/ipfs/bafkreicj32yprjitxoyrmoxqcknj2xohjinvl5zcy6bnandbuggdki3bxu",
+      "pattern": "[url:value = 'https://cf-ipfs.com/ipfs/bafkreicj32yprjitxoyrmoxqcknj2xohjinvl5zcy6bnandbuggdki3bxu']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--559414e3-fc7b-4c65-bb50-82c8ac7e8acf",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://cf-ipfs.com/ipfs/bafkreicbn4xgfxajydu6jbz2b5b5mijjnfskkns7uufaat5fao3tjddadi",
+      "pattern": "[url:value = 'https://cf-ipfs.com/ipfs/bafkreicbn4xgfxajydu6jbz2b5b5mijjnfskkns7uufaat5fao3tjddadi']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-06-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cdcf8f6d-d901-4c46-b469-772d5931f069",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://cf-ipfs.com/ipfs/bafkreic7intzjnj746hcrgdbvs6xeg6tzdr2nen5jupl3nnpg7lucql4qy",
+      "pattern": "[url:value = 'https://cf-ipfs.com/ipfs/bafkreic7intzjnj746hcrgdbvs6xeg6tzdr2nen5jupl3nnpg7lucql4qy']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-01T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9d24f92c-2217-4ffe-b660-5fe2e17d8746",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://fe.xrqo8.ru.com/[.]well-known/acme-challenge/",
+      "pattern": "[url:value = 'https://fe.xrqo8.ru.com/[.]well-known/acme-challenge/']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-02T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e04d9ddb-e9b0-498f-9fc5-ddf9ee633de2",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://4cut.pl//fancybox/top/",
+      "pattern": "[url:value = 'https://4cut.pl//fancybox/top/']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-06-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fe6e5798-3cda-42f3-bdbb-c1e06a7c38ed",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://guide-orientation.tn/go_page.php",
+      "pattern": "[url:value = 'https://guide-orientation.tn/go_page.php']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-06-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ad56e8ca-f9cb-4097-8f6b-d5b243d5b5b5",
+      "created": "2024-07-16T16:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-07-16T16:45:00.001Z",
+      "name": "https://atmmahmud.com/kgh/",
+      "pattern": "[url:value = 'https://atmmahmud.com/kgh/']",
+      "description": "URL used in phishing campaign",
+      "valid_from": "2024-07-01T00:00:00.001Z"
+    }
+  ]
+}
