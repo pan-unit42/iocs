@@ -1,0 +1,719 @@
+{
+  "type": "bundle",
+  "id": "bundle--253467f5-edc6-452d-a814-8a3f3c05febe",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--459a94f3-a285-4d74-b2c4-dca0be3b99c0",
+      "created": "2024-08-02T18:35:00.001Z",
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "2024-08-01-cryptocurrency-phishing-scams.json",
+      "title": "2024-08-01 (Thursday): Cryptocurrency Phishing/Scams",
+      "description": "Indicators from Cryptocurrency phishing/scams campaign",
+      "published": "2024-08-02T18:35:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-08-02",
+          "url": "https://www.linkedin.com/posts/unit42_phishing-scam-cryptocurrency-activity-7225172518267928577-Tui9",
+          "description": "LinkedIn post from Unit 42 about Cryptocurrency Phishing/Scams on 2024-08-01"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-08-02",
+          "url": "https://x.com/Unit42_Intel/status/1819406900951240740",
+          "description": "X (Twitter) post from Unit 42 about Cryptocurrency Phishing/Scams on 2024-08-01"
+        }
+      ],
+      "object_refs": [
+        "indicator--7a4e8600-e7d2-4985-ba95-0ad5654ea201",
+        "indicator--318918ae-1a75-415f-87f9-a6dc6fdf425d",
+        "indicator--a2efd81e-1c76-4e5e-ab8a-f32878035e7e",
+        "indicator--4093ab4b-d9b3-4a5e-ba73-2fffa74e16de",
+        "indicator--acdf24f7-957f-4c7e-934b-a41068e984d6",
+        "indicator--c689268d-6780-4e69-8ac7-b758561099e2",
+        "indicator--f6cae597-0777-42ac-8958-88e0756f96d2",
+        "indicator--3f38e01a-9181-40fe-a920-ffbc8bb407f4",
+        "indicator--1f21889c-246f-43a7-affd-e2ec9e5ef274",
+        "indicator--fd8fdaf3-2de3-4080-818c-fd3f5a67e87f",
+        "indicator--f68faa38-0004-43d4-ab66-6a8d507c3a5f",
+        "indicator--89f7dde3-7cef-4db1-bf9b-a79ebc1e4459",
+        "indicator--f3c10688-9456-414b-940f-00ec36957c44",
+        "indicator--4b034300-d358-40b5-89a6-269ff79c47c0",
+        "indicator--967c6a0e-68fc-4401-8d58-b88dbee1af2d",
+        "indicator--4a2113af-18fd-4d7e-8162-e4f358b99ad3",
+        "indicator--985165b8-c5a0-4038-9c22-872c20c27a0f",
+        "indicator--5a4b2471-ad57-4ad1-a302-52230fe44615",
+        "indicator--12b598e4-3a54-4458-bb18-67a66a2f669e",
+        "indicator--5b8c3237-3f78-48f1-b393-e8e9a9e99e99",
+        "indicator--c62006f7-b95f-4e30-b64a-3d0dbfcd9996",
+        "indicator--1fdf85b9-e3cc-4172-8774-d39cd7151d82",
+        "indicator--f1f2e68e-f426-4fbf-a139-9614961d116e",
+        "indicator--c54f3969-e421-4e60-bc67-1fa46a601ecc",
+        "indicator--115ada2e-82ed-4ab7-bb5e-e6e2e2ed551a",
+        "indicator--034f32aa-9a3e-4c74-8ebb-e58fef1fc20d",
+        "indicator--afa61d16-61ee-46bf-8cb6-97a64fd7a667",
+        "indicator--287a74ce-c0d0-40eb-9412-6ed75a04ac18",
+        "indicator--08235778-0d64-4387-8ceb-f106804453af",
+        "indicator--51bb1587-40c6-40ec-939f-c851ac76b1e6",
+        "indicator--d8d6dc9c-73af-4d66-a1a5-6e305535e3fd",
+        "indicator--52c39449-0175-457d-a29c-e261f6c3ebf5",
+        "indicator--c9d633d6-9092-4522-9b0b-4f453fc5a2e4",
+        "indicator--a7db1922-fc61-4f20-ac57-3d00bb4133d9",
+        "indicator--a630a927-7c6c-44f3-9758-567ccd1e65fc",
+        "indicator--a686946d-d00b-4bcc-86e6-3a99e2ec83f5",
+        "indicator--ea20ff43-497f-49dd-bc2d-c190d7d62b7b",
+        "indicator--27656ce3-9fca-4f1f-85f5-af7e63759eb1",
+        "indicator--e56d509d-ce34-42fe-892c-8058754e29d4",
+        "indicator--c9da5ab4-fd41-4f41-8eca-4b9a5f546501",
+        "indicator--d8ed7c8c-7fc7-4743-acf6-09e3edf4fd59",
+        "indicator--3db75977-2a60-4036-bc5e-7ad68b06e555",
+        "indicator--f0fca9f4-5838-4d59-83aa-9cb322b457e6",
+        "indicator--7e57e059-0698-4d7b-9a15-aa3c9b3418d2",
+        "indicator--cb2237f4-4ad1-4c58-97c1-c3d685527d87",
+        "indicator--5eae7830-77f5-4dfd-8c31-5d512ce25ca2",
+        "indicator--0cf6a17d-fd83-465c-9fd2-c43e7f45147d",
+        "indicator--ae958519-ce56-430f-ab32-0d786153f6c8",
+        "indicator--d47af8ab-879d-4169-924c-dc50d4ca8a9c"      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7a4e8600-e7d2-4985-ba95-0ad5654ea201",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "aaex773.xyz",
+      "pattern": "[domain-name:value = 'aaex773.xyz']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--318918ae-1a75-415f-87f9-a6dc6fdf425d",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bitflyioho.com",
+      "pattern": "[domain-name:value = 'bitflyioho.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a2efd81e-1c76-4e5e-ab8a-f32878035e7e",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bitft6888.top",
+      "pattern": "[domain-name:value = 'bitft6888.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4093ab4b-d9b3-4a5e-ba73-2fffa74e16de",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bittradeint.com",
+      "pattern": "[domain-name:value = 'bittradeint.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--acdf24f7-957f-4c7e-934b-a41068e984d6",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bittrpro.xyz",
+      "pattern": "[domain-name:value = 'bittrpro.xyz']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c689268d-6780-4e69-8ac7-b758561099e2",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bloombergdown.com",
+      "pattern": "[domain-name:value = 'bloombergdown.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f6cae597-0777-42ac-8958-88e0756f96d2",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "bmt-seo3.top",
+      "pattern": "[domain-name:value = 'bmt-seo3.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3f38e01a-9181-40fe-a920-ffbc8bb407f4",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "btcbourse.world",
+      "pattern": "[domain-name:value = 'btcbourse.world']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1f21889c-246f-43a7-affd-e2ec9e5ef274",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "btcpros.vip",
+      "pattern": "[domain-name:value = 'btcpros.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fd8fdaf3-2de3-4080-818c-fd3f5a67e87f",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cbs-dexx.top",
+      "pattern": "[domain-name:value = 'cbs-dexx.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f68faa38-0004-43d4-ab66-6a8d507c3a5f",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cexbh.com",
+      "pattern": "[domain-name:value = 'cexbh.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--89f7dde3-7cef-4db1-bf9b-a79ebc1e4459",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cexbp.com",
+      "pattern": "[domain-name:value = 'cexbp.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f3c10688-9456-414b-940f-00ec36957c44",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cexdr.com",
+      "pattern": "[domain-name:value = 'cexdr.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4b034300-d358-40b5-89a6-269ff79c47c0",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cointr9.vip",
+      "pattern": "[domain-name:value = 'cointr9.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--967c6a0e-68fc-4401-8d58-b88dbee1af2d",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "crypto13036947.com",
+      "pattern": "[domain-name:value = 'crypto13036947.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4a2113af-18fd-4d7e-8162-e4f358b99ad3",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cryptocloud.vip",
+      "pattern": "[domain-name:value = 'cryptocloud.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--985165b8-c5a0-4038-9c22-872c20c27a0f",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "cuoixgem.com",
+      "pattern": "[domain-name:value = 'cuoixgem.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5a4b2471-ad57-4ad1-a302-52230fe44615",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "d16789.com",
+      "pattern": "[domain-name:value = 'd16789.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--12b598e4-3a54-4458-bb18-67a66a2f669e",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "dcsmlxyusdt.com",
+      "pattern": "[domain-name:value = 'dcsmlxyusdt.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5b8c3237-3f78-48f1-b393-e8e9a9e99e99",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "easymarket.cc",
+      "pattern": "[domain-name:value = 'easymarket.cc']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c62006f7-b95f-4e30-b64a-3d0dbfcd9996",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "finance-dnxesomi.com",
+      "pattern": "[domain-name:value = 'finance-dnxesomi.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1fdf85b9-e3cc-4172-8774-d39cd7151d82",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "fzcm01.com",
+      "pattern": "[domain-name:value = 'fzcm01.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f1f2e68e-f426-4fbf-a139-9614961d116e",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "getbit.vip",
+      "pattern": "[domain-name:value = 'getbit.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c54f3969-e421-4e60-bc67-1fa46a601ecc",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "getbit365.top",
+      "pattern": "[domain-name:value = 'getbit365.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--115ada2e-82ed-4ab7-bb5e-e6e2e2ed551a",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "globalcurrency.top",
+      "pattern": "[domain-name:value = 'globalcurrency.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--034f32aa-9a3e-4c74-8ebb-e58fef1fc20d",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "graeyal.cyou",
+      "pattern": "[domain-name:value = 'graeyal.cyou']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--afa61d16-61ee-46bf-8cb6-97a64fd7a667",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "grraysel.cyou",
+      "pattern": "[domain-name:value = 'grraysel.cyou']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--287a74ce-c0d0-40eb-9412-6ed75a04ac18",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "ledgerx-tys.xyz",
+      "pattern": "[domain-name:value = 'ledgerx-tys.xyz']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--08235778-0d64-4387-8ceb-f106804453af",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "leees-usdt.cyou",
+      "pattern": "[domain-name:value = 'leees-usdt.cyou']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--51bb1587-40c6-40ec-939f-c851ac76b1e6",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "mbn-coin.com",
+      "pattern": "[domain-name:value = 'mbn-coin.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d8d6dc9c-73af-4d66-a1a5-6e305535e3fd",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "mmm.1mhgbt.buzz",
+      "pattern": "[domain-name:value = 'mmm.1mhgbt.buzz']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--52c39449-0175-457d-a29c-e261f6c3ebf5",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "nexusx.cloud",
+      "pattern": "[domain-name:value = 'nexusx.cloud']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c9d633d6-9092-4522-9b0b-4f453fc5a2e4",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "oke.dog",
+      "pattern": "[domain-name:value = 'oke.dog']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a7db1922-fc61-4f20-ac57-3d00bb4133d9",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "onbara.com",
+      "pattern": "[domain-name:value = 'onbara.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a630a927-7c6c-44f3-9758-567ccd1e65fc",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "online-usdt.shop",
+      "pattern": "[domain-name:value = 'online-usdt.shop']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a686946d-d00b-4bcc-86e6-3a99e2ec83f5",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "option-mexc.vip",
+      "pattern": "[domain-name:value = 'option-mexc.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ea20ff43-497f-49dd-bc2d-c190d7d62b7b",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "ouyiusdtr.vip",
+      "pattern": "[domain-name:value = 'ouyiusdtr.vip']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--27656ce3-9fca-4f1f-85f5-af7e63759eb1",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "paxc.cc",
+      "pattern": "[domain-name:value = 'paxc.cc']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e56d509d-ce34-42fe-892c-8058754e29d4",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "pisces-vips.com",
+      "pattern": "[domain-name:value = 'pisces-vips.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c9da5ab4-fd41-4f41-8eca-4b9a5f546501",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "qqd2ep76.com",
+      "pattern": "[domain-name:value = 'qqd2ep76.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d8ed7c8c-7fc7-4743-acf6-09e3edf4fd59",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "strikeaa.live",
+      "pattern": "[domain-name:value = 'strikeaa.live']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3db75977-2a60-4036-bc5e-7ad68b06e555",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "tbwaba.com",
+      "pattern": "[domain-name:value = 'tbwaba.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f0fca9f4-5838-4d59-83aa-9cb322b457e6",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "test.super369.icu",
+      "pattern": "[domain-name:value = 'test.super369.icu']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7e57e059-0698-4d7b-9a15-aa3c9b3418d2",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "tradecoin-vip.com",
+      "pattern": "[domain-name:value = 'tradecoin-vip.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cb2237f4-4ad1-4c58-97c1-c3d685527d87",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "vapors.cloud",
+      "pattern": "[domain-name:value = 'vapors.cloud']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5eae7830-77f5-4dfd-8c31-5d512ce25ca2",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "wsamll.net",
+      "pattern": "[domain-name:value = 'wsamll.net']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0cf6a17d-fd83-465c-9fd2-c43e7f45147d",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "xexplm.com",
+      "pattern": "[domain-name:value = 'xexplm.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ae958519-ce56-430f-ab32-0d786153f6c8",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "zbz-nex.com",
+      "pattern": "[domain-name:value = 'zbz-nex.com']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d47af8ab-879d-4169-924c-dc50d4ca8a9c",
+      "created": "2024-08-02T18:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-02T18:35:00.001Z",
+      "name": "zbz-nexx.top",
+      "pattern": "[domain-name:value = 'zbz-nexx.top']",
+      "description": "Domain used in cryptocurrency phishing/scam campaign.",
+      "valid_from": "2024-08-02T18:35:00.001Z"
+    }
+  ]
+}
