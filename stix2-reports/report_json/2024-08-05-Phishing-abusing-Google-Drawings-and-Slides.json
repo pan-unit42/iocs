@@ -1,0 +1,202 @@
+{
+  "type": "bundle",
+  "id": "bundle--cc8deee0-1988-4411-b21f-c62937873446",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--1c4bf822-27ee-4af3-b5db-630667c656ed",
+      "created": "2024-08-05T19:55:00.001Z",
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "2024-08-05-Phishing-abusing-Google-Drawings-and-Slides.json",
+      "title": "This is the title of the activity.",
+      "description": "This is a description of the activity.",
+      "published": "2024-08-05T19:04:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-08-05",
+          "url": "https://www.linkedin.com/posts/unit42_phishing-activity-7226301955445309440-LjyE/",
+          "description": "LinkedIn post from Unit 42 about Phishing campaigns abusing Google Drawings and Google Slides on 2024-08-05"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-08-05",
+          "url": "https://x.com/Unit42_Intel/status/1820536336526299460",
+          "description": "LinkedIn post from Unit 42 about Phishing campaigns abusing Google Drawings and Google Slides on 2024-08-05"
+        }
+      ],
+      "object_refs": [
+        "indicator--911f81ad-b592-4122-9da8-a6bbdaa89aeb",
+        "indicator--e11ce232-4f28-4aee-b1a8-3e584e704065",
+        "indicator--248dafba-c72f-411a-b3bf-50ad684d1727",
+        "indicator--e15b7c9c-6a98-41f9-bc07-d730373d17d5",
+        "indicator--8fdcdbb3-38ff-4010-b619-fa34af065890",
+        "indicator--29d2a21e-bea0-44ba-ae25-095de853f8fb",
+        "indicator--e8df892d-5b54-4efe-89a6-bb34e73272c6",
+        "indicator--3c0a32c3-7b27-49d5-a10b-8fbf3cc806d4",
+        "indicator--e8142dbe-3b67-49a8-840b-1d2a4c352669",
+        "indicator--b25e8ba5-0157-4381-8364-8c92922b82e8",
+        "indicator--0ffe58f9-d21b-4d9f-93eb-f72efc893725",
+        "indicator--d6352941-2b69-40f7-bc2e-defb3004b5d7"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--911f81ad-b592-4122-9da8-a6bbdaa89aeb",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://docs.google.com/drawings/d/1SqoWfCQEkv3y_gLdr5i07wgfpWxHrtggYVJeLckU9nQ/preview",
+      "pattern": "[url:value = 'https://docs.google.com/drawings/d/1SqoWfCQEkv3y_gLdr5i07wgfpWxHrtggYVJeLckU9nQ/preview']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e11ce232-4f28-4aee-b1a8-3e584e704065",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://docs.google.com/drawings/d/1UEqGZdp23M2nTJhoI7aMEXd9MB2AniNUQAERHLqruXY/preview",
+      "pattern": "[url:value = 'https://docs.google.com/drawings/d/1UEqGZdp23M2nTJhoI7aMEXd9MB2AniNUQAERHLqruXY/preview']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--248dafba-c72f-411a-b3bf-50ad684d1727",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://docs.google.com/presentation/d/e/2PACX-1vT-deEghOu694SszDVsmEMCXfMJ7nlE08JicC1VRqVHl52Lpt_8XkWyntga4Laex-Z3cT3IE31Poe0g/pub",
+      "pattern": "[url:value = 'https://docs.google.com/presentation/d/e/2PACX-1vT-deEghOu694SszDVsmEMCXfMJ7nlE08JicC1VRqVHl52Lpt_8XkWyntga4Laex-Z3cT3IE31Poe0g/pub']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e15b7c9c-6a98-41f9-bc07-d730373d17d5",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://docs.google.com/presentation/d/e/2PACX-1vSMcWcXkT6Sj1zUSKwPxxorafu58YpjAd1mpi1oB1mbUpiMiQTvJDbD3zULJTTWvtpjXOvamDEBY5f3/pub",
+      "pattern": "[url:value = 'https://docs.google.com/presentation/d/e/2PACX-1vSMcWcXkT6Sj1zUSKwPxxorafu58YpjAd1mpi1oB1mbUpiMiQTvJDbD3zULJTTWvtpjXOvamDEBY5f3/pub']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8fdcdbb3-38ff-4010-b619-fa34af065890",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://docs.google.com/presentation/d/e/2PACX-1vRdrlMXfpcvp7a-cdFD6fU4qN6V6uo0JuHb8cW8VM5hJQ4lViEIN3_Q4CdtJGhfVYYMAMVz_MjHA8to/pub",
+      "pattern": "[url:value = 'https://docs.google.com/presentation/d/e/2PACX-1vRdrlMXfpcvp7a-cdFD6fU4qN6V6uo0JuHb8cW8VM5hJQ4lViEIN3_Q4CdtJGhfVYYMAMVz_MjHA8to/pub']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--29d2a21e-bea0-44ba-ae25-095de853f8fb",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "https://qrco.de/bfGIhB&sa=D&source=editors&ust=1722878637402243&usg=AOvVaw0v6cDNKP1ZIq0s6Xitu1TK",
+      "pattern": "[url:value = 'https://qrco.de/bfGIhB&sa=D&source=editors&ust=1722878637402243&usg=AOvVaw0v6cDNKP1ZIq0s6Xitu1TK']",
+      "description": "URL associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8df892d-5b54-4efe-89a6-bb34e73272c6",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "resapalosze.top",
+      "pattern": "[domain-name:value = 'resapalosze.top']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3c0a32c3-7b27-49d5-a10b-8fbf3cc806d4",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "binsmails.top",
+      "pattern": "[domain-name:value = 'binsmails.top']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e8142dbe-3b67-49a8-840b-1d2a4c352669",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "supportaccmangespaymentswebappsintl.evaxuan.com",
+      "pattern": "[domain-name:value = 'supportaccmangespaymentswebappsintl.evaxuan.com']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b25e8ba5-0157-4381-8364-8c92922b82e8",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "currently887.weebly.com",
+      "pattern": "[domain-name:value = 'currently887.weebly.com']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--0ffe58f9-d21b-4d9f-93eb-f72efc893725",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "currently-att-8-2-2024.weeblysite.com",
+      "pattern": "[domain-name:value = 'currently-att-8-2-2024.weeblysite.com']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d6352941-2b69-40f7-bc2e-defb3004b5d7",
+      "created": "2024-08-05T19:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-05T19:55:00.001Z",
+      "name": "aliceblue-horse-717430.builder-preview.com",
+      "pattern": "[domain-name:value = 'aliceblue-horse-717430.builder-preview.com']",
+      "description": "Domain associated with phishing campaing abusing Google Drawings or Google Slides.",
+      "valid_from": "2024-08-05T00:00:00.001Z"
+    }
+  ]
+}
