@@ -1,0 +1,300 @@
+{
+  "type": "bundle",
+  "id": "bundle--363730e4-6786-4a21-b7e2-a635f827a719",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--5c122cad-b79c-4084-bbff-f63eb2c48de7",
+      "created": "2024-08-29T22:47:00.001Z",
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "2024-08-28-Lumma-Stealer.json",
+      "title": "Fake Human Captcha Style Pages Lead to Copy/Paste Script for Lumma Stealer",
+      "description": "Fake human captcha style pages lead to copy/paste script for Lumma Stealer",
+      "published": "2024-08-29T15:23:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-08-29",
+          "url": "https://www.linkedin.com/posts/unit42_lumma-stealer-lummastealer-activity-7234943650328125440-Y4CX/",
+          "description": "LinkedIn post from Unit 42 about Lumma Stealer from 2024-08-28"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-08-29",
+          "url": "https://x.com/Unit42_Intel/status/1829178013423992948",
+          "description": "X (Twitter) post from Unit 42 about Lumma Stealer from 2024-08-28"
+        }
+      ],
+      "object_refs": [
+        "indicator--d3fbee74-03df-43b2-ace8-2836bc5948cf",
+        "indicator--731bb8ae-bcb0-4c01-ad33-a79c037b9fad",
+        "indicator--bdda2868-f3d7-4066-8438-2b34b4dc6013",
+        "indicator--491720bb-b6a7-48c2-851d-9ed7cd029c65",
+        "indicator--119606f0-e0e8-45b2-8778-d49229161f75",
+        "indicator--eab0390b-e1bd-470f-ab6b-1d75167f2944",
+        "indicator--7c9c56d6-ac37-4807-8215-62b56d06221a",
+        "indicator--56a70310-59c5-473f-b9f1-a8caac4c3e2b",
+        "indicator--71795be6-430a-46e4-8663-b9fd01c30142",
+        "indicator--caf7f217-4d47-46d2-bf13-0c8a3ebad1c9",
+        "indicator--97b38969-31cd-4c73-afd6-88f6540699b8",
+        "indicator--f368ba1a-7faf-4f2f-ac41-23577c6b54d2",
+        "indicator--77c9b870-7757-47de-ad51-547d0cdb8507",
+        "indicator--04272f8b-e567-4067-b40a-901b0b1b05b1",
+        "indicator--48d2c0b8-9f37-4e9c-9342-f19883ca2bd4",
+        "indicator--76b9633c-ca14-4c67-82d0-508f9ab9460b",
+        "indicator--824e6a28-3470-44a7-b63f-c47c6fae221d",
+        "indicator--f7962440-3ccb-4e73-8fe5-1b47f40f6b38",
+        "indicator--2a6b6423-197f-429e-b8db-ec65aec38b3f"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d3fbee74-03df-43b2-ace8-2836bc5948cf",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "DIALER.EXE",
+      "pattern": "[file:hashes.'SHA-256' = '07b127b0c351547fa8ec4cac6cd5fd68dc8916dc4557ab13909ca95d53478a7d']",
+      "description": "Windows Executable file (.exe) for Lumma Stealer (LummaStealer) seen as early as 2024-08-27.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--731bb8ae-bcb0-4c01-ad33-a79c037b9fad",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "DIALER.EXE",
+      "pattern": "[file:hashes.'SHA-256' = '539574e6af31c459925943267001e2a9d61fb2c592762b5c4dcbedd90155d8a3']",
+      "description": "Windows Executable file (.exe) for Lumma Stealer (LummaStealer) seen as early as 2024-08-27.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bdda2868-f3d7-4066-8438-2b34b4dc6013",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "DIALER.EXE",
+      "pattern": "[file:hashes.'SHA-256' = '7d6ee310f1cd4512d140c94a95f0db4e76a7171c6a65f5c483e7f8a08f7efe78']",
+      "description": "Windows Executable file (.exe) for Lumma Stealer (LummaStealer) seen as early as 2024-08-21.",
+      "valid_from": "2024-08-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--491720bb-b6a7-48c2-851d-9ed7cd029c65",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://ch3.dlvideosfre.click/human-verify-system.html",
+      "pattern": "[url:value = 'https://ch3.dlvideosfre.click/human-verify-system.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-21 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--119606f0-e0e8-45b2-8778-d49229161f75",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://get-verified.b-cdn.net/captcha-verify-v5.html",
+      "pattern": "[url:value = 'https://get-verified.b-cdn.net/captcha-verify-v5.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-28 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--eab0390b-e1bd-470f-ab6b-1d75167f2944",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://get-verified2.b-cdn.net/captcha-verify-v2.html",
+      "pattern": "[url:value = 'https://get-verified2.b-cdn.net/captcha-verify-v2.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-27 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7c9c56d6-ac37-4807-8215-62b56d06221a",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://human-check.b-cdn.net/verify-captcha-v7.html",
+      "pattern": "[url:value = 'https://human-check.b-cdn.net/verify-captcha-v7.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-25 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--56a70310-59c5-473f-b9f1-a8caac4c3e2b",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://human-verify02.b-cdn.net/captcha-verify-v2.html",
+      "pattern": "[url:value = 'https://human-verify02.b-cdn.net/captcha-verify-v2.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-27 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--71795be6-430a-46e4-8663-b9fd01c30142",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/human-captcha-v1.html",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/human-captcha-v1.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-28 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--caf7f217-4d47-46d2-bf13-0c8a3ebad1c9",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/human-verify-system.html",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/human-verify-system.html']",
+      "description": "URL hosting a fake human captcha page as early as 2024-08-28 to deliver Lumma Stealer.",
+      "valid_from": "2024-08-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--97b38969-31cd-4c73-afd6-88f6540699b8",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/pgrtmed",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/pgrtmed']",
+      "description": "URL hosting Lumma Stealer EXE as early as 2024-08-27.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f368ba1a-7faf-4f2f-ac41-23577c6b54d2",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/pgrtx",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/pgrtx']",
+      "description": "URL hosting Lumma Stealer EXE as early as 2024-08-27.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--77c9b870-7757-47de-ad51-547d0cdb8507",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/pgrt1.zip",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/pgrt1.zip']",
+      "description": "URL hosting zip archive as early as 2024-08-27 retreived by a Lumma Stealer EXE.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--04272f8b-e567-4067-b40a-901b0b1b05b1",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://myapt67.s3.amazonaws.com/pgrt2.zip",
+      "pattern": "[url:value = 'https://myapt67.s3.amazonaws.com/pgrt2.zip']",
+      "description": "URL hosting zip archive as early as 2024-08-27 retreived by a Lumma Stealer EXE.",
+      "valid_from": "2024-08-27T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--48d2c0b8-9f37-4e9c-9342-f19883ca2bd4",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://verif.dlvideosfre.click/2ndhsoru",
+      "pattern": "[url:value = 'https://verif.dlvideosfre.click/2ndhsoru']",
+      "description": "URL hosting Lumma Stealer EXE as early as 2024-08-21.",
+      "valid_from": "2024-08-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--76b9633c-ca14-4c67-82d0-508f9ab9460b",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://verif.dlvideosfre.click/K1.zip",
+      "pattern": "[url:value = 'https://verif.dlvideosfre.click/K1.zip']",
+      "description": "URL hosting zip archive as early as 2024-08-21 retreived by a Lumma Stealer EXE.",
+      "valid_from": "2024-08-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--824e6a28-3470-44a7-b63f-c47c6fae221d",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "https://verif.dlvideosfre.click/K2.zip",
+      "pattern": "[url:value = 'https://verif.dlvideosfre.click/K2.zip']",
+      "description": "URL hosting zip archive as early as 2024-08-21 retreived by a Lumma Stealer EXE.",
+      "valid_from": "2024-08-21T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f7962440-3ccb-4e73-8fe5-1b47f40f6b38",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "futureddospzmvq.shop",
+      "pattern": "[domain-name:value = 'futureddospzmvq.shop']",
+      "description": "Lumma Stealer C2 domain first registered on 2024-08-10.",
+      "valid_from": "2024-08-10T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2a6b6423-197f-429e-b8db-ec65aec38b3f",
+      "created": "2024-08-29T22:47:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-08-29T22:47:00.001Z",
+      "name": "tibedowqmwo.shop",
+      "pattern": "[domain-name:value = 'tibedowqmwo.shop']",
+      "description": "Lumma Stealer C2 domain first registered on 2024-08-22.",
+      "valid_from": "2024-08-22T00:00:00.001Z"
+    }
+  ]
+}
