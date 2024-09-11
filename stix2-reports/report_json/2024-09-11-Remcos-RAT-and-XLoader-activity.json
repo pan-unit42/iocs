@@ -1,0 +1,337 @@
+{
+  "type": "bundle",
+  "id": "bundle--c4e26507-22f0-426f-884e-68bcfd23a5b9",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--0de7d04a-90e1-47a6-91df-bb13908c9e83",
+      "created": "2024-09-11T22:40:00.001Z",
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "2024-09-11-Remcos-RAT-and-XLoader-activity.json",
+      "title": "Data Dump of Remcos RAT and XLoader (Formbook) Activity",
+      "description": "Data dump of Remcos RAT and XLoader (Formbook) activity",
+      "published": "2024-09-11T21:21:27.001Z",
+      "external_references": [
+        {
+          "source_name": "Malware-Traffic-Analysis.net post on 2024-09-11",
+          "url": "https://malware-traffic-analysis.net/2024/09/11/index.html",
+          "description": "Malware-Traffic-Analysis.net post with data dump of Remcos RAT and XLoader (Formbook) activity on 2024-09-11"
+        }
+      ],
+      "object_refs": [
+        "indicator--d988faa7-d7ba-4ac0-bf9b-4b2d35c073c7",
+        "indicator--5859a384-56ea-4571-9e40-ee9d2cbb2f89",
+        "indicator--ad69923a-e8a7-4ba6-92c5-3c6605d59ead",
+        "indicator--f3fa6375-db87-4585-aedc-12ac6a778493",
+        "indicator--e1d34689-66f1-4a51-9d8c-59071e4b1c65",
+        "indicator--aac43d32-8b95-460c-8f4b-7ff8edaa55df",
+        "indicator--8d8c7e52-41ff-43d4-b339-3953ca7aa23f",
+        "indicator--65af4a94-aa44-4160-a4a8-ad34e99a6e68",
+        "indicator--c73b71d2-6046-4556-bfd6-352f55ab22c4",
+        "indicator--934a80c5-63dd-45f2-8280-fb6aaf2b33c2",
+        "indicator--8b600f66-77e3-481f-b605-4adbbc399deb",
+        "indicator--889e2d35-3fbe-4315-8787-e2b3a96e6e9e",
+        "indicator--ebb964e8-8739-432b-b51e-5ed9a6e06773",
+        "indicator--8eec3968-afee-48c9-a912-7a2c9b7cec50",
+        "indicator--3540f79c-dd00-4c43-9de4-89e47a173df1",
+        "indicator--ba9fc524-60dc-483c-ae63-b4b79ca585c0",
+        "indicator--d9f3040d-027a-405a-ba22-08cf3c24f77c",
+        "indicator--41d32553-fa78-4e9a-87ec-434ef8f7b096",
+        "indicator--bbd91bc1-daf5-43c0-9eec-2e0f3af94389",
+        "indicator--bd054219-9920-4205-afa6-8b2df6ad9d0c",
+        "indicator--b41a541d-eefa-47d6-b1c1-5063a7f2503d",
+        "indicator--ada3c321-fe10-4ad1-918f-535b089ba119"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d988faa7-d7ba-4ac0-bf9b-4b2d35c073c7",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "Inquiry no. 1051_pdf.tar",
+      "pattern": "[file:hashes.'SHA-256' = '2852b87b42b321bca4ab289208676e8e8633c69ce55666822b4a5e3ddc795709']",
+      "description": "RAR archive containing Windows EXE for Remcos Rat on 2024-09-11.",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5859a384-56ea-4571-9e40-ee9d2cbb2f89",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "Inquiry no. 1051_pdf.exe",
+      "pattern": "[file:hashes.'SHA-256' = 'de3d9df15379d0e7a810cff323d05d0c4e5f88856d240f3310097e494c54f9d0']",
+      "description": "Windows EXE for Remcos Rat on 2024-09-11.",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ad69923a-e8a7-4ba6-92c5-3c6605d59ead",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "PO82107048.rar",
+      "pattern": "[file:hashes.'SHA-256' = 'b9de6a8e1f3cc868f14b561d14fe42ad23aa5da1555bd27dff489ba1fb4c74a7']",
+      "description": "RAR archive containing Windows EXE for XLoader (Formbook) on 2024-09-11.",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f3fa6375-db87-4585-aedc-12ac6a778493",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "PO82107048.exe",
+      "pattern": "[file:hashes.'SHA-256' = '4ad101eef336dc2467ffaf584b272aa82f26711bfba4e2e29e8ad7c6d62bc6ae']",
+      "description": "Windows EXE for XLoader (Formbook) on 2024-09-11.",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e1d34689-66f1-4a51-9d8c-59071e4b1c65",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "https://198.46.178.133:4877/",
+      "pattern": "[url:value = 'https://198.46.178.133:4877/']",
+      "description": "URL for Remcos RAT seen as early as 2024-09-11, associated with eadzagba1.duckdns.org.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--aac43d32-8b95-460c-8f4b-7ff8edaa55df",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.allthingsjasmin.com/pbmf/",
+      "pattern": "[url:value = 'http://www.allthingsjasmin.com/pbmf/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8d8c7e52-41ff-43d4-b339-3953ca7aa23f",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.chalet-tofane.net/3bhs/",
+      "pattern": "[url:value = 'http://www.chalet-tofane.net/3bhs/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--65af4a94-aa44-4160-a4a8-ad34e99a6e68",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.d27dm.top/ptbb/",
+      "pattern": "[url:value = 'http://www.d27dm.top/ptbb/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c73b71d2-6046-4556-bfd6-352f55ab22c4",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.everycreation.shop/3jg0/",
+      "pattern": "[url:value = 'http://www.everycreation.shop/3jg0/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--934a80c5-63dd-45f2-8280-fb6aaf2b33c2",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.federall.store/afqz/",
+      "pattern": "[url:value = 'http://www.federall.store/afqz/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8b600f66-77e3-481f-b605-4adbbc399deb",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.inf30027group23.xyz/xzfm/",
+      "pattern": "[url:value = 'http://www.inf30027group23.xyz/xzfm/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--889e2d35-3fbe-4315-8787-e2b3a96e6e9e",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.kabaribukota.press/nr90/",
+      "pattern": "[url:value = 'http://www.kabaribukota.press/nr90/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ebb964e8-8739-432b-b51e-5ed9a6e06773",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.lojashelp.video/ao78/",
+      "pattern": "[url:value = 'http://www.lojashelp.video/ao78/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8eec3968-afee-48c9-a912-7a2c9b7cec50",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.mechecker.life/b6h1/",
+      "pattern": "[url:value = 'http://www.mechecker.life/b6h1/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--3540f79c-dd00-4c43-9de4-89e47a173df1",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.platinumkitchens.info/dquo/",
+      "pattern": "[url:value = 'http://www.platinumkitchens.info/dquo/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ba9fc524-60dc-483c-ae63-b4b79ca585c0",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.rockbull.pro/0tt2/",
+      "pattern": "[url:value = 'http://www.rockbull.pro/0tt2/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d9f3040d-027a-405a-ba22-08cf3c24f77c",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.rtpgaruda888resmi.xyz/u8o7/",
+      "pattern": "[url:value = 'http://www.rtpgaruda888resmi.xyz/u8o7/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--41d32553-fa78-4e9a-87ec-434ef8f7b096",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.sansensors.info/ip84/",
+      "pattern": "[url:value = 'http://www.sansensors.info/ip84/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bbd91bc1-daf5-43c0-9eec-2e0f3af94389",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.trisixnine.net/0057/",
+      "pattern": "[url:value = 'http://www.trisixnine.net/0057/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bd054219-9920-4205-afa6-8b2df6ad9d0c",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.useanecdotenow.tech/vera/",
+      "pattern": "[url:value = 'http://www.useanecdotenow.tech/vera/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b41a541d-eefa-47d6-b1c1-5063a7f2503d",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "http://www.weatherbook.live/tfj4/",
+      "pattern": "[url:value = 'http://www.weatherbook.live/tfj4/']",
+      "description": "Partial C2 URL (beginning of the URL) for XLoader (Formbook) C2 traffic as early as 2024-09-11.']",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ada3c321-fe10-4ad1-918f-535b089ba119",
+      "created": "2024-09-11T22:40:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-09-11T22:40:00.001Z",
+      "name": "eadzagba1.duckdns.org",
+      "pattern": "[domain-name:value = 'eadzagba1.duckdns.org']",
+      "description": "Domain used for Remcos RAT C2 traffic as early as 2024-09-11.",
+      "valid_from": "2024-09-11T00:00:00.001Z"
+    }
+  ]
+}
