@@ -1,0 +1,76 @@
+{
+  "type": "bundle",
+  "id": "bundle--b6d228e7-dea8-48a6-a1e5-26f8349251df",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--980c6184-287c-49da-aea0-6ad57ba54d11",
+      "created": "2024-10-10T23:15:00.001Z",
+      "modified": "2024-10-10T23:15:00.001Z",
+      "name": "2024-10-10-crytpo-investment-scams.json",
+      "title": "Crypto Investment Scams Exploiting Interest in Cybercab",
+      "description": "Crypto investment scams exploiting interest in Cybercab from 2024-10-10.",
+      "published": "2024-10-10T18:58:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-10-10",
+          "url": "https://www.linkedin.com/posts/unit42_scams-cryptoscam-activity-7250218040095629313-Y9LU/",
+          "description": "LinkedIn post from Unit 42 about crypto investment scams exploiting interest in Cybercab from 2024-10-10"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-10-10",
+          "url": "https://x.com/Unit42_Intel/status/1844452406890828114",
+          "description": "X (Twitter) post from Unit 42 about crypto investment scams exploiting interest in Cybercab from 2024-10-10"
+        }
+      ],
+      "object_refs": [
+        "indicator--b3c3788b-f6b8-42e3-a0ba-302d0edb6bd9",
+        "indicator--98d41c1b-0812-482e-8f88-693fd2fdd2e1",
+        "indicator--77d073f9-aa93-4f71-a09d-0a26aee4faea"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b3c3788b-f6b8-42e3-a0ba-302d0edb6bd9",
+      "created": "2024-10-10T23:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-10T23:15:00.001Z",
+      "name": "cybercab.icu",
+      "pattern": "[domain-name:value = 'cybercab.icu']",
+      "description": "Domain used for cryptocurrency investment scam.",
+      "valid_from": "2024-09-10T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--98d41c1b-0812-482e-8f88-693fd2fdd2e1",
+      "created": "2024-10-10T23:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-10T23:15:00.001Z",
+      "name": "robotaxi2024.xyz",
+      "pattern": "[domain-name:value = 'robotaxi2024.xyz']",
+      "description": "Domain used for cryptocurrency investment scam.",
+      "valid_from": "2024-09-28T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--77d073f9-aa93-4f71-a09d-0a26aee4faea",
+      "created": "2024-10-10T23:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-10T23:15:00.001Z",
+      "name": "robotaxioneth.com",
+      "pattern": "[domain-name:value = 'robotaxioneth.com']",
+      "description": "Domain used for cryptocurrency investment scam.",
+      "valid_from": "2024-09-26T00:00:00.001Z"
+    }
+  ]
+}
