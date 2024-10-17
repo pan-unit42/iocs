@@ -1,0 +1,580 @@
+{
+  "type": "bundle",
+  "id": "bundle--30e5dfb4-89b1-4e55-bdfa-87635cc1fdb7",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--8021b84f-4775-4bbd-bff6-7f1d35b4182d",
+      "created": "2024-10-17T20:50:00.001Z",
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "2024-10-17-cybersquatting-domains-from-new-TLDs.json",
+      "title": "This is the title of the activity.",
+      "description": "Technical details cybersquatting for newly-registered domaians under .diy and .food TLDs.",
+      "published": "2024-10-17T19:18:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-10-17",
+          "url": "https://www.linkedin.com/posts/unit42_newtlds-cybersquatting-activity-7252759791750533120-yfPI/",
+          "description": "LinkedIn post from Unit 42 about cybersquatting for newly-registered domaians under .diy and .food TLDs from 2024-10-17"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-10-17",
+          "url": "https://x.com/Unit42_Intel/status/1846994154351440290",
+          "description": "X (Twitter) post from Unit 42 about cybersquatting for newly-registered domaians under .diy and .food TLDs from 2024-10-17"
+        }
+      ],
+      "object_refs": [
+        "indicator--d23c4124-dd4d-442e-b35d-cdb65d216e93",
+        "indicator--2ce5ceb0-6f90-4577-b328-94c322a37d7e",
+        "indicator--9a730b9e-f18c-448a-8a35-4d6c1ab55463",
+        "indicator--97177e28-79c9-47cc-b98b-59a006ada6a3",
+        "indicator--70dc1ed8-4c92-484a-af7e-bb02293eb951",
+        "indicator--bf1a080e-d093-4eed-9297-99fc92dae42b",
+        "indicator--898d7758-2e4b-4066-9545-a68956720296",
+        "indicator--280f4a0c-3aba-4e89-aa46-b8542272ec84",
+        "indicator--c85d712e-6c52-45fb-90a4-21669c787a8a",
+        "indicator--7f1d6e91-9ab8-4e6e-8aa6-b534ba8f67a5",
+        "indicator--2e176e41-fdd1-43c6-bc15-f060d227a729",
+        "indicator--384dc2a5-441f-491b-8f18-3a0d6a8249d7",
+        "indicator--5f3e779e-80da-4b6c-93c0-d88173c4dff0",
+        "indicator--8ce75b00-8ca1-4f0a-9dc9-6ca87dc2204a",
+        "indicator--5d31e604-ca65-436b-9626-8e6f777f82c9",
+        "indicator--5f33a1f7-089e-4690-b22e-6469f514fc08",
+        "indicator--466fe06c-4ffa-42ea-af74-1c8746c8a287",
+        "indicator--b5acfcd1-9481-4be7-8611-00e58d0dbe23",
+        "indicator--bda8adc4-3126-414b-b0e0-86e0bcee1a37",
+        "indicator--146a4d86-7856-4ce9-972d-1a31bc537f2b",
+        "indicator--6ca2d011-8f0e-4dc8-ada8-c69f2910ee80",
+        "indicator--4b84bd20-58eb-4aff-bb09-e43caf50cfd6",
+        "indicator--4b829399-c801-457c-a2ca-0abca8fe87ed",
+        "indicator--54c09d6e-965c-43a6-893a-8c38ebd5bbf1",
+        "indicator--93ac031d-2ea6-4e47-8487-d47c92921db9",
+        "indicator--597e0de9-222f-41e5-b2af-108e9819b4a9",
+        "indicator--827d10cd-1659-4f71-a8a6-4917bf6f9213",
+        "indicator--c96d0de6-af3a-4cfc-b54a-7181e546e212",
+        "indicator--4fd4d7d4-70ab-4b6b-9bbd-0b701d9f6c3b",
+        "indicator--5ad82f74-6862-45d1-b967-788dc0fbbb36",
+        "indicator--5b1e4f7d-af84-46da-bb46-57e200bb6578",
+        "indicator--235b1422-64ff-4237-8316-0b0508987684",
+        "indicator--e1b479d6-f1b3-4df0-b5a6-b46552610f94",
+        "indicator--55d1205b-4750-41dc-a7ac-db332c1367c7",
+        "indicator--289c893d-d86c-45bd-a72f-d4accbd19be9",
+        "indicator--a31bb8b9-1538-4185-a9ca-e8ebbb690cc8",
+        "indicator--38ea94c5-7ae7-4943-9dd0-2a4872c1363b",
+        "indicator--146f3e73-4bf1-4977-97fd-89b1b3358675",
+        "indicator--a9fa8761-cc12-436b-9bad-92f6a1aa1ec5"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d23c4124-dd4d-442e-b35d-cdb65d216e93",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/38sa4zcebspir7lt",
+      "pattern": "[url:value = 'https://choto.click/vx/38sa4zcebspir7lt']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2ce5ceb0-6f90-4577-b328-94c322a37d7e",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/68lmfh0mv9jpsk1n",
+      "pattern": "[url:value = 'https://choto.click/vx/68lmfh0mv9jpsk1n']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9a730b9e-f18c-448a-8a35-4d6c1ab55463",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/c5oujoeneiak8g6s",
+      "pattern": "[url:value = 'https://choto.click/vx/c5oujoeneiak8g6s']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--97177e28-79c9-47cc-b98b-59a006ada6a3",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/dsxrr32nz1hlh4wa",
+      "pattern": "[url:value = 'https://choto.click/vx/dsxrr32nz1hlh4wa']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--70dc1ed8-4c92-484a-af7e-bb02293eb951",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/g0p2psgfh60ypi4b",
+      "pattern": "[url:value = 'https://choto.click/vx/g0p2psgfh60ypi4b']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bf1a080e-d093-4eed-9297-99fc92dae42b",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/njhpaqk1l7xnpehe",
+      "pattern": "[url:value = 'https://choto.click/vx/njhpaqk1l7xnpehe']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--898d7758-2e4b-4066-9545-a68956720296",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/of6v9q4jnjzlzgwp",
+      "pattern": "[url:value = 'https://choto.click/vx/of6v9q4jnjzlzgwp']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--280f4a0c-3aba-4e89-aa46-b8542272ec84",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/syrzavohf4zjujur",
+      "pattern": "[url:value = 'https://choto.click/vx/syrzavohf4zjujur']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c85d712e-6c52-45fb-90a4-21669c787a8a",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/t6o8rk8mmbhqgpxs",
+      "pattern": "[url:value = 'https://choto.click/vx/t6o8rk8mmbhqgpxs']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7f1d6e91-9ab8-4e6e-8aa6-b534ba8f67a5",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/t94xjdvc9lypquqd",
+      "pattern": "[url:value = 'https://choto.click/vx/t94xjdvc9lypquqd']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2e176e41-fdd1-43c6-bc15-f060d227a729",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/ubf3duweqjwqv271",
+      "pattern": "[url:value = 'https://choto.click/vx/ubf3duweqjwqv271']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--384dc2a5-441f-491b-8f18-3a0d6a8249d7",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/zkqywwamrzs8m2ms",
+      "pattern": "[url:value = 'https://choto.click/vx/zkqywwamrzs8m2ms']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5f3e779e-80da-4b6c-93c0-d88173c4dff0",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.click/vx/zpasrmlfidmobvpx",
+      "pattern": "[url:value = 'https://choto.click/vx/zpasrmlfidmobvpx']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8ce75b00-8ca1-4f0a-9dc9-6ca87dc2204a",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/38sa4zcebspir7lt",
+      "pattern": "[url:value = 'https://choto.xyz/vx/38sa4zcebspir7lt']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5d31e604-ca65-436b-9626-8e6f777f82c9",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/68lmfh0mv9jpsk1n",
+      "pattern": "[url:value = 'https://choto.xyz/vx/68lmfh0mv9jpsk1n']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5f33a1f7-089e-4690-b22e-6469f514fc08",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/c5oujoeneiak8g6s",
+      "pattern": "[url:value = 'https://choto.xyz/vx/c5oujoeneiak8g6s']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--466fe06c-4ffa-42ea-af74-1c8746c8a287",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/dsxrr32nz1hlh4wa",
+      "pattern": "[url:value = 'https://choto.xyz/vx/dsxrr32nz1hlh4wa']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b5acfcd1-9481-4be7-8611-00e58d0dbe23",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/g0p2psgfh60ypi4b",
+      "pattern": "[url:value = 'https://choto.xyz/vx/g0p2psgfh60ypi4b']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bda8adc4-3126-414b-b0e0-86e0bcee1a37",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/njhpaqk1l7xnpehe",
+      "pattern": "[url:value = 'https://choto.xyz/vx/njhpaqk1l7xnpehe']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--146a4d86-7856-4ce9-972d-1a31bc537f2b",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/of6v9q4jnjzlzgwp",
+      "pattern": "[url:value = 'https://choto.xyz/vx/of6v9q4jnjzlzgwp']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6ca2d011-8f0e-4dc8-ada8-c69f2910ee80",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/syrzavohf4zjujur",
+      "pattern": "[url:value = 'https://choto.xyz/vx/syrzavohf4zjujur']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4b84bd20-58eb-4aff-bb09-e43caf50cfd6",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/t6o8rk8mmbhqgpxs",
+      "pattern": "[url:value = 'https://choto.xyz/vx/t6o8rk8mmbhqgpxs']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4b829399-c801-457c-a2ca-0abca8fe87ed",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/t94xjdvc9lypquqd",
+      "pattern": "[url:value = 'https://choto.xyz/vx/t94xjdvc9lypquqd']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--54c09d6e-965c-43a6-893a-8c38ebd5bbf1",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/ubf3duweqjwqv271",
+      "pattern": "[url:value = 'https://choto.xyz/vx/ubf3duweqjwqv271']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--93ac031d-2ea6-4e47-8487-d47c92921db9",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/zkqywwamrzs8m2ms",
+      "pattern": "[url:value = 'https://choto.xyz/vx/zkqywwamrzs8m2ms']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--597e0de9-222f-41e5-b2af-108e9819b4a9",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "https://choto.xyz/vx/zpasrmlfidmobvpx",
+      "pattern": "[url:value = 'https://choto.xyz/vx/zpasrmlfidmobvpx']",
+      "description": "Redirection URL leading to online gambling site.",
+      "valid_from": "2024-10-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--827d10cd-1659-4f71-a8a6-4917bf6f9213",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "betano.diy",
+      "pattern": "[domain-name:value = 'betano.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c96d0de6-af3a-4cfc-b54a-7181e546e212",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "betano.food",
+      "pattern": "[domain-name:value = 'betano.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--4fd4d7d4-70ab-4b6b-9bbd-0b701d9f6c3b",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "betway.diy",
+      "pattern": "[domain-name:value = 'betway.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ad82f74-6862-45d1-b967-788dc0fbbb36",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "betway.food",
+      "pattern": "[domain-name:value = 'betway.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5b1e4f7d-af84-46da-bb46-57e200bb6578",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "caliente.diy",
+      "pattern": "[domain-name:value = 'caliente.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--235b1422-64ff-4237-8316-0b0508987684",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "caliente.food",
+      "pattern": "[domain-name:value = 'caliente.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e1b479d6-f1b3-4df0-b5a6-b46552610f94",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "onlyfans.diy",
+      "pattern": "[domain-name:value = 'onlyfans.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--55d1205b-4750-41dc-a7ac-db332c1367c7",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "onlyfans.food",
+      "pattern": "[domain-name:value = 'onlyfans.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--289c893d-d86c-45bd-a72f-d4accbd19be9",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "xhamster.diy",
+      "pattern": "[domain-name:value = 'xhamster.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a31bb8b9-1538-4185-a9ca-e8ebbb690cc8",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "xhamster.food",
+      "pattern": "[domain-name:value = 'xhamster.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--38ea94c5-7ae7-4943-9dd0-2a4872c1363b",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "xnxx.diy",
+      "pattern": "[domain-name:value = 'xnxx.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--146f3e73-4bf1-4977-97fd-89b1b3358675",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "xvideos.diy",
+      "pattern": "[domain-name:value = 'xvideos.diy']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a9fa8761-cc12-436b-9bad-92f6a1aa1ec5",
+      "created": "2024-10-17T20:50:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-10-17T20:50:00.001Z",
+      "name": "xvideos.food",
+      "pattern": "[domain-name:value = 'xvideos.food']",
+      "description": "Domain used for cybersquatting",
+      "valid_from": "2024-03-18T00:00:00.001Z"
+    }
+  ]
+}
