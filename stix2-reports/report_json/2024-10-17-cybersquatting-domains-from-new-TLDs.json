@@ -9,19 +9,19 @@
       "created": "2024-10-17T20:50:00.001Z",
       "modified": "2024-10-17T20:50:00.001Z",
       "name": "2024-10-17-cybersquatting-domains-from-new-TLDs.json",
-      "title": "Cybersquatting for newly-registered domaians under .diy and .food TLDs",
+      "title": "Cybersquatting for newly-registered domaians under diy and food TLDs",
       "description": "Technical details cybersquatting for newly-registered domaians under .diy and .food TLDs.",
       "published": "2024-10-17T19:18:00.001Z",
       "external_references": [
         {
           "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-10-17",
           "url": "https://www.linkedin.com/posts/unit42_newtlds-cybersquatting-activity-7252759791750533120-yfPI/",
-          "description": "LinkedIn post from Unit 42 about cybersquatting for newly-registered domaians under .diy and .food TLDs from 2024-10-17"
+          "description": "LinkedIn post from Unit 42 about cybersquatting for newly-registered domaians under diy and food TLDs from 2024-10-17"
         },
         {
           "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-10-17",
           "url": "https://x.com/Unit42_Intel/status/1846994154351440290",
-          "description": "X (Twitter) post from Unit 42 about cybersquatting for newly-registered domaians under .diy and .food TLDs from 2024-10-17"
+          "description": "X (Twitter) post from Unit 42 about cybersquatting for newly-registered domaians under diy and food TLDs from 2024-10-17"
         }
       ],
       "object_refs": [
