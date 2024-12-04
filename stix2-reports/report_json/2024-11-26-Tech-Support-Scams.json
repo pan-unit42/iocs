@@ -1,0 +1,412 @@
+{
+  "type": "bundle",
+  "id": "bundle--f1455485-6a7f-49d8-9655-73fa254fe9c6",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7be9d0bb-ab04-4abf-aa8d-623e8e6437ab",
+      "created": "2024-12-04T02:32:00.001Z",
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "2024-11-26-Tech-Support-Scams.json",
+      "title": "2024-11-26: Tech Support Scams",
+      "description": "Recent domains and URLs used for tech support scams.",
+      "published": "2024-12-03T16:01:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2024-12-03",
+          "url": "https://www.linkedin.com/posts/unit42_techsupportscam-scam-activity-7269742377173417987-E6KG/",
+          "description": "LinkedIn post from Unit 42 about tech support scams from 2024-12-03"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2024-12-03",
+          "url": "https://x.com/Unit42_Intel/status/1863976740101447840",
+          "description": "X (Twitter) post from Unit 42 about tech support scams from 2024-12-03"
+        }
+      ],
+      "object_refs": [
+        "indicator--291c4481-42d8-4fc1-a959-1da3e6f38501",
+        "indicator--a7adb215-2142-4693-a899-2c0033d379f2",
+        "indicator--91de76b4-b1a3-4829-96d1-4068d78a0d4c",
+        "indicator--1b2db64d-63bd-4396-8db0-29f5d5a16272",
+        "indicator--6f68375e-9846-4cb7-a8db-44cd7f45d2db",
+        "indicator--46e4fd64-be2b-40c2-9c78-e99143431438",
+        "indicator--e2dba983-8e6a-4d88-8407-58a535207c96",
+        "indicator--34a00b6e-98fc-47df-821c-1afd84d78fa9",
+        "indicator--e87e2e7a-4453-4264-a3c1-466e66a3049b",
+        "indicator--7c37bdb6-c4fa-42d9-a63e-82e8a2d63fd4",
+        "indicator--9b20d721-da0a-4bf4-b948-ed56e431f6ae",
+        "indicator--ba7c26b2-fe99-4701-b072-06ca525f2f0c",
+        "indicator--2b18dce9-dc68-4406-84a7-359bc4570780",
+        "indicator--f477e81e-984d-47e9-a789-7f551eddc95a",
+        "indicator--baee386d-3068-42d1-b0cb-c5a26bac3a62",
+        "indicator--6573e6b8-2351-4b8e-81d0-1a04305b755e",
+        "indicator--79f6b521-b102-4e11-9bbd-40c7af9f9285",
+        "indicator--e3373d05-938e-4808-9a29-7a32227a76b5",
+        "indicator--a377a655-a554-4e02-a5b9-98e3a3b58261",
+        "indicator--dac82025-01f0-4468-89a9-f55a6e731294",
+        "indicator--02a61ba2-9286-43b6-8a69-427d8760998e",
+        "indicator--87411ea1-d2ad-4a35-9a75-2166aeec5010",
+        "indicator--724167bf-0eec-43e3-9c49-be60f4cbfc66",
+        "indicator--c411fab4-32dc-4b08-ba1f-0ecf20705908",
+        "indicator--5ef4bf15-be60-431d-b01c-930882bdaf28",
+        "indicator--f6771f43-a6b6-4b01-a780-7b80810b70c7",
+        "indicator--7294f3d1-7dc6-4165-a7b2-0b76a2d6e7a3"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--291c4481-42d8-4fc1-a959-1da3e6f38501",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://dadsda-secondary.z5.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88880-44640",
+      "pattern": "[url:value = 'https://dadsda-secondary.z5.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88880-44640']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a7adb215-2142-4693-a899-2c0033d379f2",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://ayufgfyt23.z9.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992",
+      "pattern": "[url:value = 'https://ayufgfyt23.z9.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--91de76b4-b1a3-4829-96d1-4068d78a0d4c",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://hjkxsxsxdcdyyjska65zs.z13.web.core.windows.net/?bcda=1-888-331-7870",
+      "pattern": "[url:value = 'https://hjkxsxsxdcdyyjska65zs.z13.web.core.windows.net/?bcda=1-888-331-7870']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1b2db64d-63bd-4396-8db0-29f5d5a16272",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://lbidl1-secondary.z8.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992",
+      "pattern": "[url:value = 'https://lbidl1-secondary.z8.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6f68375e-9846-4cb7-a8db-44cd7f45d2db",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://mmnnjiuoo.z5.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85532-40973",
+      "pattern": "[url:value = 'https://mmnnjiuoo.z5.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85532-40973']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--46e4fd64-be2b-40c2-9c78-e99143431438",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://qqerrt6.z24.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568",
+      "pattern": "[url:value = 'https://qqerrt6.z24.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e2dba983-8e6a-4d88-8407-58a535207c96",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://qqpplv2-secondary.z14.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568",
+      "pattern": "[url:value = 'https://qqpplv2-secondary.z14.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--34a00b6e-98fc-47df-821c-1afd84d78fa9",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://qqpplv2.z14.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081",
+      "pattern": "[url:value = 'https://qqpplv2.z14.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e87e2e7a-4453-4264-a3c1-466e66a3049b",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://qqpplv3.z20.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568",
+      "pattern": "[url:value = 'https://qqpplv3.z20.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7c37bdb6-c4fa-42d9-a63e-82e8a2d63fd4",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://sooii15-secondary.z23.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992",
+      "pattern": "[url:value = 'https://sooii15-secondary.z23.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b20d721-da0a-4bf4-b948-ed56e431f6ae",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://sooii17-secondary.z33.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568",
+      "pattern": "[url:value = 'https://sooii17-secondary.z33.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-84421-04568']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ba7c26b2-fe99-4701-b072-06ca525f2f0c",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://soso21-secondary.z33.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992",
+      "pattern": "[url:value = 'https://soso21-secondary.z33.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-85549-14992']",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2b18dce9-dc68-4406-84a7-359bc4570780",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "https://soso37.z28.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081",
+      "pattern": "[url:value = 'https://soso37.z28.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081",
+      "description": "URL used for tech support scam as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f477e81e-984d-47e9-a789-7f551eddc95a",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "egerss03p01.club",
+      "pattern": "[domain-name:value = 'egerss03p01.club']",
+      "description": "Domain used to host tech support scam page as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--baee386d-3068-42d1-b0cb-c5a26bac3a62",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "flurss03p01.club",
+      "pattern": "[domain-name:value = 'flurss03p01.club']",
+      "description": "Domain used to host tech support scam page as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6573e6b8-2351-4b8e-81d0-1a04305b755e",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "hitrss03p01.club",
+      "pattern": "[domain-name:value = 'hitrss03p01.club']",
+      "description": "Domain used to host tech support scam page as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--79f6b521-b102-4e11-9bbd-40c7af9f9285",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "oilrss03p01.club",
+      "pattern": "[domain-name:value = 'oilrss03p01.club']",
+      "description": "Domain used to host tech support scam page as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e3373d05-938e-4808-9a29-7a32227a76b5",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "vanrss03p01.club",
+      "pattern": "[domain-name:value = 'vanrss03p01.club']",
+      "description": "Domain used to host tech support scam page as early as 2024-11-07.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7294f3d1-7dc6-4165-a7b2-0b76a2d6e7a3",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "adfpoint.com",
+      "pattern": "[domain-name:value = 'adfpoint.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2020-03-25T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f6771f43-a6b6-4b01-a780-7b80810b70c7",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "t83v0zs.kib7z.com",
+      "pattern": "[domain-name:value = 't83v0zs.kib7z.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5ef4bf15-be60-431d-b01c-930882bdaf28",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "us.bluetides.xyz",
+      "pattern": "[domain-name:value = 'us.bluetides.xyz']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2023-02-16T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c411fab4-32dc-4b08-ba1f-0ecf20705908",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "us.toromclk.com",
+      "pattern": "[domain-name:value = 'us.toromclk.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2020-05-26T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--724167bf-0eec-43e3-9c49-be60f4cbfc66",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "xml.exdirectopl.com",
+      "pattern": "[domain-name:value = 'xml.exdirectopl.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2023-10-26T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--87411ea1-d2ad-4a35-9a75-2166aeec5010",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "xml.staradsmedia.com",
+      "pattern": "[domain-name:value = 'xml.staradsmedia.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2023-12-09T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--02a61ba2-9286-43b6-8a69-427d8760998e",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "xml.userwave.com",
+      "pattern": "[domain-name:value = 'xml.webmedxml.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2015-07-08T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dac82025-01f0-4468-89a9-f55a6e731294",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "xml.webmedxml.com",
+      "pattern": "[domain-name:value = 'xml.userwave.com']",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2022-08-17T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a377a655-a554-4e02-a5b9-98e3a3b58261",
+      "created": "2024-12-04T02:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2024-12-04T02:32:00.001Z",
+      "name": "xml.rtxplatform.com",
+      "pattern": "[domain-name:value = 'xml.rtxplatform.com",
+      "description": "Advertiser sometimes used to distribute tech support scams.",
+      "valid_from": "2024-11-07T00:00:00.001Z"
+    }
+  ]
+}
