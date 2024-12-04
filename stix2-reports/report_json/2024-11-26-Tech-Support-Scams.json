@@ -222,7 +222,7 @@
       ],
       "modified": "2024-12-04T02:32:00.001Z",
       "name": "https://soso37.z28.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081",
-      "pattern": "[url:value = 'https://soso37.z28.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081",
+      "pattern": "[url:value = 'https://soso37.z28.web.core.windows.net/werrx01USAHTML/?bcda=(0101)-88861-59081']",
       "description": "URL used for tech support scam as early as 2024-11-07.",
       "valid_from": "2024-11-07T00:00:00.001Z"
     },
@@ -404,7 +404,7 @@
       ],
       "modified": "2024-12-04T02:32:00.001Z",
       "name": "xml.rtxplatform.com",
-      "pattern": "[domain-name:value = 'xml.rtxplatform.com",
+      "pattern": "[domain-name:value = 'xml.rtxplatform.com']",
       "description": "Advertiser sometimes used to distribute tech support scams.",
       "valid_from": "2024-11-07T00:00:00.001Z"
     }
