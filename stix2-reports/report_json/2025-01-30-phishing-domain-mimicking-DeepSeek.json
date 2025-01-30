@@ -1,0 +1,76 @@
+{
+  "type": "bundle",
+  "id": "bundle--373540bd-2a3d-411d-9e99-1a535e0165dd",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--3e55ae0f-2caf-4e1b-8edd-3cca0e318bfe",
+      "created": "2025-01-30T21:55:00.001Z",
+      "modified": "2025-01-30T21:55:00.001Z",
+      "name": "2025-01-30-phishing-domain-mimicking-DeepSeek.json",
+      "title": "Phishing Domain Mimicking DeepSeek",
+      "description": "Information on phishing domain and site mimicking DeepSeek.",
+      "published": "2025-01-30T21:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-01-30",
+          "url": "https://www.linkedin.com/posts/unit42_deepseek-llm-nrd-activity-7290836255263596544-yMIp/",
+          "description": "LinkedIn post from Unit 42 about phishing domain mimicking DeepSeek from 2025-01-30"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-01-30",
+          "url": "https://x.com/Unit42_Intel/status/1885070635413418175",
+          "description": "X (Twitter) post from Unit 42 about phishing domain mimicking DeepSeek from 2025-01-30"
+        }
+      ],
+      "object_refs": [
+        "indicator--153f9178-d4ec-4230-8e25-690b9fdf08ba",
+        "indicator--6de7d672-21ef-474e-841f-8c81c20a922b",
+        "indicator--5c0fff3f-345f-446b-b108-55574e9108d0"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--153f9178-d4ec-4230-8e25-690b9fdf08ba",
+      "created": "2025-01-30T21:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-01-30T21:55:00.001Z",
+      "name": "https://deepseeklogin.com/index.html",
+      "pattern": "[url:value = 'https://deepseeklogin.com/index.html']",
+      "description": "Phishing URL for fake DeepSeek home page.",
+      "valid_from": "2025-01-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6de7d672-21ef-474e-841f-8c81c20a922b",
+      "created": "2025-01-30T21:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-01-30T21:55:00.001Z",
+      "name": "https://deepseeklogin.com/start_now.html",
+      "pattern": "[url:value = 'https://deepseeklogin.com/start_now.html']",
+      "description": "Phishing URL for fake DeepSeek login page.",
+      "valid_from": "2025-01-29T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5c0fff3f-345f-446b-b108-55574e9108d0",
+      "created": "2025-01-30T21:55:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-01-30T21:55:00.001Z",
+      "name": "deepseeklogin.com",
+      "pattern": "[domain-name:value = 'deepseeklogin.com']",
+      "description": "Phishing domain mimicking DeepSeek.",
+      "valid_from": "2025-01-29T00:00:00.001Z"
+    }
+  ]
+}
