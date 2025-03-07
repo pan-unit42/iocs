@@ -1,0 +1,342 @@
+{
+  "type": "bundle",
+  "id": "bundle--faea9c67-ecc3-4b26-94e0-a7c689351686",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--5c267cf7-3c6b-48b8-9650-b4fb60780d8c",
+      "created": "2025-03-07T17:35:00.001Z",
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "2025-03-06-domains-for-smishing-activity.json",
+      "title": "Over 10K Domains Regsitered for Smishing Campaign",
+      "description": "Over 10K domains regsitered for smishing impersonating toll and package delivery services",
+      "published": "2025-03-07T17:35:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-03-07",
+          "url": "https://www.linkedin.com/posts/unit42_smishing-activity-7303805645617512448-i2lB/",
+          "description": "LinkedIn post from Unit 42 about  domains registered for smishing from 2025-03-06"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-03-07",
+          "url": "https://x.com/Unit42_Intel/status/1898040009229267275",
+          "description": "X (Twitter) post from Unit 42 about domains registered for smishing from 2025-03-06"
+        }
+      ],
+      "object_refs": [
+        "indicator--efd81900-c69f-4373-ad87-9398664cd32e",
+        "indicator--32c20f71-08a0-4747-a8d8-4818230214d2",
+        "indicator--bab83ceb-cb4d-4c36-982e-cecd051ca940",
+        "indicator--6970a815-e634-4b0d-a0cb-92247bef2740",
+        "indicator--8d68c6fb-094e-47c7-8642-58c014cdae9b",
+        "indicator--40d15e92-9efb-4f6b-8121-eb7b880ea659",
+        "indicator--a3a3376c-2099-4aab-ac8e-4b0ce44d361c",
+        "indicator--6a08abf6-c5cb-4885-a6f4-ba114390ae95",
+        "indicator--8b6bf7d9-0276-4bfa-ac95-42e58f3ba51d",
+        "indicator--717dc9f6-14e7-4a2d-93ea-e9b015be64fa",
+        "indicator--edbca65a-629c-4908-87d5-5e2933adc9fb",
+        "indicator--ebe9f2a8-3fd6-4209-8dae-e1fd5efe096c",
+        "indicator--ca5cf637-8bb2-4720-929d-5427999ecfa8",
+        "indicator--204601f6-afb7-4864-b120-3c31f492f09d",
+        "indicator--b2841ce8-7104-4150-9c74-abdb4988f787",
+        "indicator--ce1d497d-4ca4-4486-bde0-70d62f83c1ba",
+        "indicator--f5133f75-8655-4aec-b4d1-7441b9cf17b6",
+        "indicator--e9bffc13-9270-407d-92f7-79067ddadd76",
+        "indicator--6cead18f-303a-4018-9872-8e79ff1cc872",
+        "indicator--967960ae-362a-4384-b7ec-a20dddd90a5d",
+        "indicator--e341aee4-d8c5-44b1-beb3-b78b78237291",
+        "indicator--9ea1e26b-c5c4-4eda-b677-bd9327aab7f4"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--efd81900-c69f-4373-ad87-9398664cd32e",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-2h98.xin",
+      "pattern": "[domain-name:value = 'com-2h98.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--32c20f71-08a0-4747-a8d8-4818230214d2",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-citations-etc.xin",
+      "pattern": "[domain-name:value = 'com-citations-etc.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--bab83ceb-cb4d-4c36-982e-cecd051ca940",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-courtfees.xin",
+      "pattern": "[domain-name:value = 'com-courtfees.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6970a815-e634-4b0d-a0cb-92247bef2740",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-fastrakeu.xin",
+      "pattern": "[domain-name:value = 'com-fastrakeu.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8d68c6fb-094e-47c7-8642-58c014cdae9b",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-penalty.xin",
+      "pattern": "[domain-name:value = 'com-penalty.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--40d15e92-9efb-4f6b-8121-eb7b880ea659",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-securebill.xin",
+      "pattern": "[domain-name:value = 'com-securebill.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--a3a3376c-2099-4aab-ac8e-4b0ce44d361c",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-securetta.xin",
+      "pattern": "[domain-name:value = 'com-securetta.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6a08abf6-c5cb-4885-a6f4-ba114390ae95",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-ticketd.xin",
+      "pattern": "[domain-name:value = 'com-ticketd.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--8b6bf7d9-0276-4bfa-ac95-42e58f3ba51d",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-tickeuz.xin",
+      "pattern": "[domain-name:value = 'com-tickeuz.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--717dc9f6-14e7-4a2d-93ea-e9b015be64fa",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "com-ucla.xin",
+      "pattern": "[domain-name:value = 'com-ucla.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--edbca65a-629c-4908-87d5-5e2933adc9fb",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "e-zpassny.com-ticketd.xin",
+      "pattern": "[domain-name:value = 'e-zpassny.com-ticketd.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ebe9f2a8-3fd6-4209-8dae-e1fd5efe096c",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "dhl.com-new.xin",
+      "pattern": "[domain-name:value = 'dhl.com-new.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ca5cf637-8bb2-4720-929d-5427999ecfa8",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "driveks.com-jds.xin",
+      "pattern": "[domain-name:value = 'driveks.com-jds.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--204601f6-afb7-4864-b120-3c31f492f09d",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "ezdrive.com-2h98.xin",
+      "pattern": "[domain-name:value = 'ezdrive.com-2h98.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b2841ce8-7104-4150-9c74-abdb4988f787",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "ezdrivema.com-citations-etc.xin",
+      "pattern": "[domain-name:value = 'ezdrivema.com-citations-etc.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ce1d497d-4ca4-4486-bde0-70d62f83c1ba",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "ezdrivema.com-securetta.xin",
+      "pattern": "[domain-name:value = 'ezdrivema.com-securetta.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f5133f75-8655-4aec-b4d1-7441b9cf17b6",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "e-zpassiag.com-courtfees.xin",
+      "pattern": "[domain-name:value = 'e-zpassiag.com-courtfees.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e9bffc13-9270-407d-92f7-79067ddadd76",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "fedex.com-fedexl.xin",
+      "pattern": "[domain-name:value = 'fedex.com-fedexl.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6cead18f-303a-4018-9872-8e79ff1cc872",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "getipass.com-tickeuz.xin",
+      "pattern": "[domain-name:value = 'getipass.com-tickeuz.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--967960ae-362a-4384-b7ec-a20dddd90a5d",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "sunpass.com-ticketap.xin",
+      "pattern": "[domain-name:value = 'sunpass.com-ticketap.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e341aee4-d8c5-44b1-beb3-b78b78237291",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "thetollroads.com-fastrakeu.xin",
+      "pattern": "[domain-name:value = 'thetollroads.com-fastrakeu.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9ea1e26b-c5c4-4eda-b677-bd9327aab7f4",
+      "created": "2025-03-07T17:35:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-07T17:35:00.001Z",
+      "name": "usps.com-tracking-helpsomg.xin",
+      "pattern": "[domain-name:value = 'usps.com-tracking-helpsomg.xin']",
+      "description": "Domain used for phishing site.",
+      "valid_from": "2025-03-06T00:00:00.001Z"
+    }
+  ]
+}
