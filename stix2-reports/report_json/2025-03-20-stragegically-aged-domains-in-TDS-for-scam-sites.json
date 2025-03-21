@@ -1,0 +1,230 @@
+{
+  "type": "bundle",
+  "id": "bundle--10ab74c4-00f2-4c0d-8177-57e695a8320d",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--4f3e9a1f-1929-4fdb-be51-b7d4324bce88",
+      "created": "2025-03-20T00:00:00.001Z",
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "2025-03-20-stragegically-aged-domains-in-TDS-for-scam-sites.json",
+      "title": "Strategically-Aged Domains Used in TDS for Investment and Job Scams",
+      "description": "We found 80K+ strategically-aged domains used in TDS activity for investment and job scams.",
+      "published": "2025-03-20T00:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-03-21",
+          "url": "https://www.linkedin.com/posts/unit42_scams-strategicallyaged-activity-7308866269410115587-h7TO/",
+          "description": "LinkedIn post from Unit 42 about strategically-aged domains used in TDS activity for investment and job scams from 2025-03-21"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-03-21",
+          "url": "https://x.com/Unit42_Intel/status/1903100647593087479",
+          "description": "X (Twitter) post from Unit 42 about strategically-aged domains used in TDS activity for investment and job scams from 2025-03-21"
+        }
+      ],
+      "object_refs": [
+        "indicator--f76ea8fc-cdeb-4f20-8736-d3484e1dbc6f",
+        "indicator--e9e44bd5-372f-4270-a26c-ee5bd8043ac5",
+        "indicator--7a5ef970-ba40-45a8-84ba-a28146dbbb5f",
+        "indicator--84708617-4efe-4640-9379-0b70c45f511c",
+        "indicator--2c95d331-8c5f-4be9-863a-765eed2f60e2",
+        "indicator--ea46b6bc-8aa4-4936-84f8-56fba545ad61",
+        "indicator--e5e129aa-32d8-47db-a274-0886fe9fd6bb",
+        "indicator--7edd716e-3203-4300-be3b-10b9d1c0ff26",
+        "indicator--e9b9582e-ab38-4fc7-b3b2-9b4330e3c365",
+        "indicator--53d702b1-6df3-48a0-9d66-9975af5b4167",
+        "indicator--722c676d-c9fb-4add-af74-294d28960ff0",
+        "indicator--1b22733c-fe8f-4fe6-b151-a699397aedd8",
+        "indicator--536d49e7-0bc0-46a5-83de-46f58cf31f6e",
+        "indicator--194226b2-dd35-4853-b7e2-cab77f292bbb"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f76ea8fc-cdeb-4f20-8736-d3484e1dbc6f",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "aalhr-wonder.xyz",
+      "pattern": "[domain-name:value = 'aalhr-wonder.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e9e44bd5-372f-4270-a26c-ee5bd8043ac5",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "awbgsd-lawyer.xyz",
+      "pattern": "[domain-name:value = 'awbgsd-lawyer.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7a5ef970-ba40-45a8-84ba-a28146dbbb5f",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "bad-yjhbfn.xyz",
+      "pattern": "[domain-name:value = 'bad-yjhbfn.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--84708617-4efe-4640-9379-0b70c45f511c",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "behavior-xpzd.xyz",
+      "pattern": "[domain-name:value = 'behavior-xpzd.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--2c95d331-8c5f-4be9-863a-765eed2f60e2",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "cdztph-sing.xyz",
+      "pattern": "[domain-name:value = 'cdztph-sing.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--ea46b6bc-8aa4-4936-84f8-56fba545ad61",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "fast-vrcyjc.xyz",
+      "pattern": "[domain-name:value = 'fast-vrcyjc.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e5e129aa-32d8-47db-a274-0886fe9fd6bb",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "food-ewlpgk.xyz",
+      "pattern": "[domain-name:value = 'food-ewlpgk.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7edd716e-3203-4300-be3b-10b9d1c0ff26",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "phinzone.com",
+      "pattern": "[domain-name:value = 'phinzone.com']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--e9b9582e-ab38-4fc7-b3b2-9b4330e3c365",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "rglrmn-debate.xyz",
+      "pattern": "[domain-name:value = 'rglrmn-debate.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--53d702b1-6df3-48a0-9d66-9975af5b4167",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "tp-verbs.xyz",
+      "pattern": "[domain-name:value = 'tp-verbs.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--722c676d-c9fb-4add-af74-294d28960ff0",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "ytbkrr-remember.xyz",
+      "pattern": "[domain-name:value = 'ytbkrr-remember.xyz']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1b22733c-fe8f-4fe6-b151-a699397aedd8",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "jp.linel.top",
+      "pattern": "[domain-name:value = 'jp.linel.top']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--536d49e7-0bc0-46a5-83de-46f58cf31f6e",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "linksapp.top",
+      "pattern": "[domain-name:value = 'linksapp.top']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--194226b2-dd35-4853-b7e2-cab77f292bbb",
+      "created": "2025-03-20T00:00:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-03-20T00:00:00.001Z",
+      "name": "us.linel.top",
+      "pattern": "[domain-name:value = 'us.linel.top']",
+      "description": "Strategically-aged domain used in in TDS activity for investment and job scams.",
+      "valid_from": "2025-03-20T00:00:00.001Z"
+    }
+  ]
+}
