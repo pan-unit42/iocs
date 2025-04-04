@@ -7,7 +7,7 @@
       "type": "report",
       "id": "report--7b12cf6c-49bc-4114-9f42-c39d3888e557",
       "created": "2025-04-04T22:45:00.001Z",
-      "modified": "2025-04-04T22:45:00.001Z",
+      "modified": "2025-04-05T00:39:00.001Z",
       "name": "2025-04-04-KongTuke-activity.json",
       "title": "KongTuke Web Inject for Fake CAPTCHA Page",
       "description": "KongTuke web inject for fake CAPTCHA page leads to malware",
@@ -114,9 +114,9 @@
       "labels": [
         "malicious-activity"
       ],
-      "modified": "2025-04-04T22:45:00.001Z",
+      "modified": "2025-04-05T00:39:00.001Z",
       "name": "http://bfidmcjejlilflg.top/z8v7ymbcinhtr.php",
-      "pattern": "[url:value = 'http://bfidmcjejlilflg.top/z8v7ymbcinhtr.php]",
+      "pattern": "[url:value = 'http://bfidmcjejlilflg.top/z8v7ymbcinhtr.php.]",
       "description": "URL used in KongTuke web inject activity.",
       "valid_from": "2025-04-04T22:45:00.001Z"
     },
