@@ -1,0 +1,202 @@
+{
+  "type": "bundle",
+  "id": "bundle--f469d3d2-4cfc-4880-a7a0-798cd6968c83",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7b12cf6c-49bc-4114-9f42-c39d3888e557",
+      "created": "2025-04-04T22:45:00.001Z",
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "2025-04-04-KongTuke-activity.json",
+      "title": "KongTuke Web Inject for Fake CAPTCHA Page",
+      "description": "KongTuke web inject for fake CAPTCHA page leads to malware",
+      "published": "2025-04-04T22:45:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-04-04",
+          "url": "https://www.linkedin.com/posts/unit42_kongtuke-captcha-clipboardhijacking-activity-7314019453262839808-nB2-/",
+          "description": "LinkedIn post from Unit 42 about KongTuke activity from 2025-04-04"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-04-04",
+          "url": "https://x.com/Unit42_Intel/status/1908253830166323637",
+          "description": "X (Twitter) post from Unit 42 about KongTuke activity from 2025-04-04"
+        }
+      ],
+      "object_refs": [
+        "indicator--f2132a49-6e51-4c8c-8633-f54e5d8df511",
+        "indicator--1a3f586d-2dab-48f6-8f5f-6a131543e020",
+        "indicator--760e0468-b7db-4dee-9c1f-f887a49e6cd3",
+        "indicator--6a1267ec-a9c0-428c-b593-35ff3e6ef925",
+        "indicator--dbfd9c28-64a6-4b46-8bf4-e17bc236cc90",
+        "indicator--1c9477d4-cc01-4860-8e52-3ab106b5813d",
+        "indicator--feba319c-e4db-4e8a-9a30-853a627f1aca",
+        "indicator--f31b9043-64aa-4fc3-a596-ef91955b6368",
+        "indicator--47aeff15-2034-45fb-86ae-10640285e924",
+        "indicator--6d13a1c1-66d6-4143-97ed-5b3180ca0918",
+        "indicator--f175dbb0-ee5c-43a7-a9e6-65cd64a10ebb",
+        "indicator--b54f2efb-ac8c-43ac-a899-516a9863c3de"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f2132a49-6e51-4c8c-8633-f54e5d8df511",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "https://lancasternh.com/6t7y.js",
+      "pattern": "[url:value = 'https://lancasternh.com/6t7y.js']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1a3f586d-2dab-48f6-8f5f-6a131543e020",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "https://lancasternh.com/js.php",
+      "pattern": "[url:value = 'https://lancasternh.com/js.php']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--760e0468-b7db-4dee-9c1f-f887a49e6cd3",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "http://138.199.156.22:8080/1743783280",
+      "pattern": "[url:value = 'http://138.199.156.22:8080/1743783280']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6a1267ec-a9c0-428c-b593-35ff3e6ef925",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "http://138.199.156.22:8080/1743783296",
+      "pattern": "[url:value = 'http://138.199.156.22:8080/1743783296']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--dbfd9c28-64a6-4b46-8bf4-e17bc236cc90",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "http://ecduutcykpvkbim.top/1.php?s=527",
+      "pattern": "[url:value = 'http://ecduutcykpvkbim.top/1.php?s=527']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--1c9477d4-cc01-4860-8e52-3ab106b5813d",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "http://bfidmcjejlilflg.top/z8v7ymbcinhtr.php",
+      "pattern": "[url:value = 'http://bfidmcjejlilflg.top/z8v7ymbcinhtr.php]",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--feba319c-e4db-4e8a-9a30-853a627f1aca",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "https://173.232.146.62:25658",
+      "pattern": "[url:value = 'https://173.232.146.62:25658']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f31b9043-64aa-4fc3-a596-ef91955b6368",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "http://8qvihxy8x5nyixj.top:25658",
+      "pattern": "[url:value = 'https://8qvihxy8x5nyixj.top:25658']",
+      "description": "URL used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--47aeff15-2034-45fb-86ae-10640285e924",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "inet:fqdn='8qvihxy8x5nyixj.top",
+      "pattern": "[domain-name:value = '8qvihxy8x5nyixj.top']",
+      "description": "Domain used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--6d13a1c1-66d6-4143-97ed-5b3180ca0918",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "inet:fqdn='lancasternh.com",
+      "pattern": "[domain-name:value = 'lancasternh.com']",
+      "description": "Domain used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--f175dbb0-ee5c-43a7-a9e6-65cd64a10ebb",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "inet:fqdn='ecduutcykpvkbim.top",
+      "pattern": "[domain-name:value = 'ecduutcykpvkbim.top']",
+      "description": "Domain used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b54f2efb-ac8c-43ac-a899-516a9863c3de",
+      "created": "2025-04-04T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-04T22:45:00.001Z",
+      "name": "inet:fqdn='bfidmcjejlilflg.top",
+      "pattern": "[domain-name:value = 'bfidmcjejlilflg.top']",
+      "description": "Domain used in KongTuke web inject activity.",
+      "valid_from": "2025-04-04T22:45:00.001Z"
+    }
+  ]
+}
