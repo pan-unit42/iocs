@@ -128,7 +128,7 @@
         "malicious-activity"
       ],
       "modified": "2025-04-04T22:45:00.001Z",
-      "name": "https://173.232.146.62:25658",/
+      "name": "https://173.232.146.62:25658",
       "pattern": "[url:value = 'https://173.232.146.62:25658/']",
       "description": "URL used in KongTuke web inject activity.",
       "valid_from": "2025-04-04T22:45:00.001Z"
