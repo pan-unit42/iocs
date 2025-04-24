@@ -1,0 +1,147 @@
+{
+  "type": "bundle",
+  "id": "bundle--116b3ddb-401b-4edc-ae49-b460fd12c504",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--7016cb82-8792-4003-984e-57b5d1ffe0ee",
+      "created": "2025-04-24T15:30:00.001Z",
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "2025-04-23-smishing.json",
+      "title": "2025-04-23 Smithsing Activity Update",
+      "description": "Palo Alto Networks Unit 42 is seeing momentum in recent SMS phishing (smishing) activity",
+      "published": "2025-04-24T00:00:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn",
+          "url": "https://www.linkedin.com/posts/unit42_smishing-activity-7321235270035554306-liaY/",
+          "description": "LinkedIn post from Unit 42 about smishing activity from 2025-04-24"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter)",
+          "url": "https://x.com/Unit42_Intel/status/1915469625527017805",
+          "description": "X (Twitter) post from Unit 42 about smishing activity from 2025-04-24"
+        }
+      ],
+      "object_refs": [
+        "indicator--c0fe9b6b-08bc-448e-82a4-bb7d5c1e9fa3",
+        "indicator--b249a7f9-944d-40b6-87f8-9f0a8ad36f02",
+        "indicator--b41ee4be-c042-45d7-8475-ad2fe919c35e",
+        "indicator--c95b7ba8-3852-4849-8207-5db9e7976455",
+        "indicator--c4793feb-b8f6-42ae-af8e-aa5c13e0cdad",
+        "indicator--c0473537-271f-45c8-86e6-81c6d9972434",
+        "indicator--7597aabf-af86-405d-80ca-fcf62ef28cfa",
+        "indicator--cb89098d-d2d7-465f-a7e5-9627710911c2"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c0fe9b6b-08bc-448e-82a4-bb7d5c1e9fa3",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "https://paytollwec.vip/ezdrivema",
+      "pattern": "[url:value = 'https://paytollwec.vip/ezdrivema']",
+      "description": "URL used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-03-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b249a7f9-944d-40b6-87f8-9f0a8ad36f02",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "https://ncquickpass.com-ikbf.win/us",
+      "pattern": "[url:value = 'https://ncquickpass.com-ikbf.win/us']",
+      "description": "URL used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-04-22T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--b41ee4be-c042-45d7-8475-ad2fe919c35e",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "https://usps.com-ic1.top/us",
+      "pattern": "[url:value = 'https://usps.com-ic1.top/us']",
+      "description": "URL used for fake US Postal Service (USPS) site in smishing activity.",
+      "valid_from": "2025-04-22T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c95b7ba8-3852-4849-8207-5db9e7976455",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "https://driveky.gov-mfc.com/pay",
+      "pattern": "[url:value = 'https://driveky.gov-mfc.com/pay']",
+      "description": "URL used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-04-23T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c4793feb-b8f6-42ae-af8e-aa5c13e0cdad",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "paytollwec.vip",
+      "pattern": "[domain-name:value = 'paytollwec.vip']",
+      "description": "Domain used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-03-11T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c0473537-271f-45c8-86e6-81c6d9972434",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "com-ikbf.win",
+      "pattern": "[domain-name:value = 'com-ikbf.win']",
+      "description": "Domain used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-04-22T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--7597aabf-af86-405d-80ca-fcf62ef28cfa",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "com-ic1.top",
+      "pattern": "[domain-name:value = 'com-ic1.top']",
+      "description": "URL used for fake US Postal Service (USPS) site in smishing activity.",
+      "valid_from": "2025-04-22T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--cb89098d-d2d7-465f-a7e5-9627710911c2",
+      "created": "2025-04-24T15:30:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-04-24T15:30:00.001Z",
+      "name": "gov-mfc.com",
+      "pattern": "[domain-name:value = 'gov-mfc.com']",
+      "description": "Domain used for fake toll payment site in smishing activity.",
+      "valid_from": "2025-04-23T00:00:00.001Z"
+    },
+    }
+  ]
+}
