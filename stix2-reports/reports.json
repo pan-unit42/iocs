@@ -75,5 +75,5 @@
     {"id": "report--5c267cf7-3c6b-48b8-9650-b4fb60780d8c", "rp_file": "2025-03-06-domains-for-smishing-activity.json", "last_updated": "2025-03-07T17:35:00.001Z", "title": "Over 10K Domains Regsitered for Smishing Campaign", "industries": [], "regions": [], "malwares": []},
     {"id": "report--4f3e9a1f-1929-4fdb-be51-b7d4324bce88", "rp_file": "2025-03-20-strategically-aged-domains-in-TDS-for-scam-sites.json", "last_updated": "2025-03-07T17:35:00.001Z", "title": "Strategically-Aged Domains Used in TDS for Investment and Job Scams", "industries": [], "regions": [], "malwares": []},
     {"id": "report--7b12cf6c-49bc-4114-9f42-c39d3888e557", "rp_file": "2025-04-04-KongTuke-activity.json", "last_updated": "2025-04-05T03:02:00.001Z", "title": "KongTuke Web Inject for Fake CAPTCHA Page", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--7016cb82-8792-4003-984e-57b5d1ffe0ee", "rp_file": "2025-04-23-smishing.json", "last_updated": "2025-04-24T15:30:00.001Z", "title": "2025-04-23 Smithsing Activity Update", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--7016cb82-8792-4003-984e-57b5d1ffe0ee", "rp_file": "2025-04-23-smishing.json", "last_updated": "2025-04-24T23:42:00.001Z", "title": "2025-04-23 Smithsing Activity Update", "industries": [], "regions": [], "malwares": []}
 ]
