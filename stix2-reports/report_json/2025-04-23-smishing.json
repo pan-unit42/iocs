@@ -141,7 +141,6 @@
       "pattern": "[domain-name:value = 'gov-mfc.com']",
       "description": "Domain used for fake toll payment site in smishing activity.",
       "valid_from": "2025-04-23T00:00:00.001Z"
-    },
     }
   ]
 }
