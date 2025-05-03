@@ -98,7 +98,7 @@ HTTPS TRAFFIC TO MALICIOUS DOMAINS CAUSED BY THE ABOVE ICEDID EXE FILES:
 - 134.122.101[.]157 port 443 - doremifasol[.]online
 - 134.122.101[.]157 port 443 - 10hesadety[.]pw
 - 134.122.101[.]157 port 443 - bcertyou[.]cyou
-- 134.122.101[.]157 port 443 - 85.vumbut[.]best
+- 134.122.101[.]157 port 443 - 85vumbut[.]best
 
 SHA256 HASHES FOR ICEDID EXE CREATED BY ICEDID INSTALLER (EXAMPLE 2 OF 2):
  
