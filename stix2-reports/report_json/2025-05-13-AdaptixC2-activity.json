@@ -1,0 +1,104 @@
+{
+  "type": "bundle",
+  "id": "bundle--d024c195-421d-4c05-82d1-80a5ebb41d76",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--8e9781ac-efaf-43c4-9c20-79e7b331f482",
+      "created": "2025-05-22T22:45:00.001Z",
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "2025-05-13-AdaptixC2-activity.json,
+      "title": "Abuse of Teams to Deliver AdaptixC2 Beacon",
+      "description": "Attackers are impersonating targeted organizations help desks via Teams to deliver AdaptixC2 malware.",
+      "published": "2025-05-21T15:05:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-05-21",
+          "url": "https://www.linkedin.com/posts/unit42_adaptixc2-quickassist-activity-7330971914544336898-kgwJ/",
+          "description": "LinkedIn post from Unit 42 about abuse of Teams to deliver AdaptixC2 beacon from 2025-05-21"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-05-21",
+          "url": "https://x.com/Unit42_Intel/status/1925206262184026156",
+          "description": "X (Twitter) post from Unit 42 about abuse of Teams to deliver AdaptixC2 beacon from 2025-05-21"
+        }
+      ],
+      "object_refs": [
+        "indicator--fd50b4c0-b4db-4ce9-a4eb-5d41ac1e5875",
+        "indicator--d0cb180a-a806-4919-a34b-143700c3d18a",
+        "indicator--05d5a5b3-a552-40a5-8e4d-e399af2f2d4e",
+        "indicator--94697aaf-5295-495c-b652-67de89cab953",
+        "indicator--c4091f47-0134-4c60-b153-ad6b0d2bde48"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--fd50b4c0-b4db-4ce9-a4eb-5d41ac1e5875",
+      "created": "2025-05-22T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "Update.ps1",
+      "pattern": "[file:hashes.'SHA-256' = '83ac38fb389a56a6bd5eb39abf2ad81fab84a7382da296a855f62f3cdd9d629d']",
+      "description": "PowerShell script used for malware infection of AdaptixC2 beacon.",
+      "valid_from": "2025-05-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d0cb180a-a806-4919-a34b-143700c3d18a",
+      "created": "2025-05-22T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "sx.txt",
+      "pattern": "[file:hashes.'SHA-256' = 'ad96a3dab7f201dd7c9938dcf70d6921849f92c1a20a84a28b28d11f40f0fb06']",
+      "description": "Base64 text file used to create AdaptixC2 beacon (malware).",
+      "valid_from": "2025-05-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--05d5a5b3-a552-40a5-8e4d-e399af2f2d4e",
+      "created": "2025-05-22T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "AdaptixC2 beacon shellcode",
+      "pattern": "[file:hashes.'SHA-256' = '9e3a0d2f85148ea520cdfd9709b26d817287b8c0c37c22623cd06cda8a80ba8b']",
+      "description": "Shellcode for AdaptixC2 beacon (malware).",
+      "valid_from": "2025-05-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--94697aaf-5295-495c-b652-67de89cab953",
+      "created": "2025-05-22T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "https://drive.google.com/uc?export=download&id=1x0-5EVyz2qanm_l4uZW-B3S8ZxKOIz3n",
+      "pattern": "[url:value = 'https://drive.google.com/uc?export=download&id=1x0-5EVyz2qanm_l4uZW-B3S8ZxKOIz3n']",
+      "description": "URL hosting file used to create AdaptixC2 beacon (malware).",
+      "valid_from": "2025-05-13T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--c4091f47-0134-4c60-b153-ad6b0d2bde48",
+      "created": "2025-05-22T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-05-22T22:45:00.001Z",
+      "name": "tech-system.online",
+      "pattern": "[domain-name:value = 'tech-system.online']",
+      "description": "Domain used for C2 server of AdaptixC2 beacon (malware).",
+      "valid_from": "2025-05-13T00:00:00.001Z"
+    }
+  ]
+}
