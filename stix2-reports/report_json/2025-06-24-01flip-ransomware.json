@@ -1,0 +1,76 @@
+{
+  "type": "bundle",
+  "id": "bundle--125f37cc-61e5-4f73-8680-d2d287e4d074",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--507147f9-d535-4ed7-8378-0360d5599849",
+      "created": "2025-06-26T20:15:00.001Z",
+      "modified": "2025-06-26T20:15:00.001Z",
+      "name": "2025-06-24-01flip-ransomware.json",
+      "title": "01flip Ransomware",
+      "description": "Details on an example of a sample from a newly-discoverd ransomware family",
+      "published": "2025-06-26T18:06:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn",
+          "url": "https://www.linkedin.com/posts/unit42_ransomware-01flip-activity-7344063426295418882-UZcl/",
+          "description": "LinkedIn post from Unit 42 about 01flip Ransomware from 2025-06-26"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter)",
+          "url": "https://x.com/Unit42_Intel/status/1938297790632763595",
+          "description": "X (Twitter) post from Unit 42 about 01flip Ransomware from 2025-06-26"
+        }
+      ],
+      "object_refs": [
+        "indicator--d3a7052e-b3f2-44dc-8f0d-498af9accf81",
+        "indicator--9b3a1d4a-5f9e-4687-94dd-9677430205a3",
+        "indicator--21e6023f-f9da-4e74-b61b-0f54e1762c62
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--d3a7052e-b3f2-44dc-8f0d-498af9accf81",
+      "created": "2025-06-26T20:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-06-26T20:15:00.001Z",
+      "name": "01flip-ransomware-sample.exe",
+      "pattern": "[file:hashes.'SHA-256' = '6aad1c36ab9c7c44350ebe3a17178b4fd93c2aa296e2af212ab28d711c0889a3']",
+      "description": "64-bit Windows EXE for 01flip Ransomware",
+      "valid_from": "2025-06-10T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--9b3a1d4a-5f9e-4687-94dd-9677430205a3",
+      "created": "2025-06-26T20:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-06-26T20:15:00.001Z",
+      "name": "RECOVER-YOUR-FILE.TXT",
+      "pattern": "[file:hashes.'SHA-256' = '036e4fd7acc65c9410b4c1f8f420bbfbf648f896a0bc2f371ad0a83c727137b4']",
+      "description": "Example of ransom note from 01flip Ransomware infection.",
+      "valid_from": "2025-06-10T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--21e6023f-f9da-4e74-b61b-0f54e1762c62",
+      "created": "2025-06-26T20:15:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-06-26T20:15:00.001Z",
+      "name": "",
+      "pattern": "[email-addr:value = '01Flip@proton.me']",
+      "description": "Email address from 01flip ransomware note.",
+      "valid_from": "2025-06-10T00:00:00.001Z"
+    }
+  ]
+}
