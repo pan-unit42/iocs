@@ -10,7 +10,7 @@
       "modified": "2025-06-26T20:15:00.001Z",
       "name": "2025-06-24-01flip-ransomware.json",
       "title": "01flip Ransomware",
-      "description": "Details on an example of a sample from a newly-discoverd ransomware family",
+      "description": "Details on an example of a sample from a newly-discovered ransomware family",
       "published": "2025-06-26T18:06:00.001Z",
       "external_references": [
         {
@@ -27,7 +27,7 @@
       "object_refs": [
         "indicator--d3a7052e-b3f2-44dc-8f0d-498af9accf81",
         "indicator--9b3a1d4a-5f9e-4687-94dd-9677430205a3",
-        "indicator--21e6023f-f9da-4e74-b61b-0f54e1762c62
+        "indicator--21e6023f-f9da-4e74-b61b-0f54e1762c62"
       ],
       "labels": [
         "timely-threat-intelligence-post"
