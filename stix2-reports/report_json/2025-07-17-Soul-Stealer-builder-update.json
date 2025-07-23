@@ -1,0 +1,62 @@
+{
+  "type": "bundle",
+  "id": "bundle--d17ef713-a908-4b4b-9110-7fdbc5836522",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--b191ae9a-f3f2-48de-803a-10cdfd9700b6",
+      "created": "2025-07-23T18:32:00.001Z",
+      "modified": "2025-07-23T18:32:00.001Z",
+      "name": "2025-07-17-Soul-Stealer-builder-update.json",
+      "title": "2025 Update of Builder for Soul Stealer",
+      "description": "2025 builder for Soul Stealer (Blank Grabber) updated from 2024 version",
+      "published": "2025-07-23T18:32:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-07-23",
+          "url": "https://www.linkedin.com/posts/unit42_soulstealer-infostealer-activity-7353794544049532929-roQA/",
+          "description": "LinkedIn post from Unit 42 about 2025 Update of builder for Soul Stealer from 2025-07-23"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-07-23",
+          "url": "https://x.com/Unit42_Intel/status/1948028925457621404",
+          "description": "X (Twitter) post from Unit 42 about 2025 Update of builder for Soul Stealer from 2025-07-23"
+        }
+      ],
+      "object_refs": [
+        "indicator--5cbd10c2-1436-48a8-b2ff-c0139b11cf3a",
+        "indicator--8b223c88-7bd4-4782-9e8f-fdbc09e13f0a"
+      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--5cbd10c2-1436-48a8-b2ff-c0139b11cf3a",
+      "created": "2025-07-23T18:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-07-23T18:32:00.001Z",
+      "name": "Soul_Stealer-main.zip",
+      "pattern": "[file:hashes.'SHA-256' = 'd49d6f48c8f34584d09ea6ece0a9bf2196a40f090aa6a195f95bc720cecde3f5']",
+      "description": "2024 version of builder for Soul Stealer (Blank Grabber) malware.",
+      "valid_from": "2024-06-14T00:00:00.001Z"
+    },
+   {
+      "type": "indicator",
+      "id": "indicator--8b223c88-7bd4-4782-9e8f-fdbc09e13f0a",
+      "created": "2025-07-23T18:32:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-07-23T18:32:00.001Z",
+      "name": "Soul-Stealer-main.zip",
+      "pattern": "[file:hashes.'SHA-256' = 'b876579c081c28ca0b203ef770b64e7adeb9ed9dce4b6ad7aaa5b07451a2ef2c']",
+      "description": "2025 version of builder for Soul Stealer (Blank Grabber) malware.",
+      "valid_from": "2025-06-28T00:00:00.001Z"
+    }
+  ]
+}
