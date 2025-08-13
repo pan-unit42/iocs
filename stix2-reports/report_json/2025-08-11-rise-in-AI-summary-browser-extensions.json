@@ -10,7 +10,7 @@
       "modified": "2025-08-12T22:45:00.001Z",
       "name": "2025-08-11-rise-in-AI-summary-browser-extensions.json",
       "title": "Security Concerns From Rise in AI-Summary Browser Extensions",
-      "description": "This is a description of the activity.",
+      "description": "Security concerns from rise in AI-Summary browser extension.",
       "published": "2025-08-12T22:45:00.001Z",
       "external_references": [
         {
@@ -21,7 +21,7 @@
         {
           "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-08-11",
           "url": "https://x.com/Unit42_Intel/status/1955021996707713356",
-          "description": "X (Twitter) post from Unit 42 about ecurity concerns from rise in AI-summary browser extensions from 2025-08-11"
+          "description": "X (Twitter) post from Unit 42 about security concerns from rise in AI-summary browser extensions from 2025-08-11"
         }
       ],
       "object_refs": [
