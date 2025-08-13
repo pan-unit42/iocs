@@ -1,0 +1,61 @@
+{
+  "type": "bundle",
+  "id": "bundle--5e57f4b0-8bf7-488f-b6fc-dfce09d43b21",
+  "spec_version": "2.0",
+  "objects": [
+    {
+      "type": "report",
+      "id": "report--73b6bce2-7da4-4ee5-add4-f1e861ebb4da",
+      "created": "2025-08-12T22:45:00.001Z",
+      "modified": "2025-08-12T22:45:00.001Z",
+      "name": "2025-08-11-rise-in-AI-summary-browser-extensions.json",
+      "title": "Security Concerns From Rise in AI-Summary Browser Extensions",
+      "description": "This is a description of the activity.",
+      "published": "2025-08-12T22:45:00.001Z",
+      "external_references": [
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from LinkedIn on 2025-08-11",
+          "url": "https://www.linkedin.com/posts/unit42_ai-datasecurity-browserextensions-activity-7360787618051084288-xShq/",
+          "description": "LinkedIn post from Unit 42 about security concerns from rise in AI-summary browser extensions from 2025-08-11"
+        },
+        {
+          "source_name": "Palo Alto Networks Unit 42 post from X (Twitter) on 2025-08-11",
+          "url": "https://x.com/Unit42_Intel/status/1955021996707713356",
+          "description": "X (Twitter) post from Unit 42 about ecurity concerns from rise in AI-summary browser extensions from 2025-08-11"
+        }
+      ],
+      "object_refs": [
+        "indicator--037accdb-2097-4977-b8d1-5d0204798924",
+        "indicator--2823473b-cc8b-4f3f-bccd-021016dca1a6"      ],
+      "labels": [
+        "timely-threat-intelligence-post"
+      ]
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--037accdb-2097-4977-b8d1-5d0204798924",
+      "created": "2025-08-12T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-08-12T22:45:00.001Z",
+      "name": "askyumawebapp.fly.dev",
+      "pattern": "[domain-name:value = 'askyumawebapp.fly.dev']",
+      "description": "Domain used to collect data from AI-summary browser extension.",
+      "valid_from": "2025-08-07T00:00:00.001Z"
+    },
+    {
+      "type": "indicator",
+      "id": "indicator--037accdb-2097-4977-b8d1-5d0204798924",
+      "created": "2025-08-12T22:45:00.001Z",
+      "labels": [
+        "malicious-activity"
+      ],
+      "modified": "2025-08-12T22:45:00.001Z",
+      "name": "gosupersonic.email",
+      "pattern": "[domain-name:value = 'gosupersonic.email']",
+      "description": "Domain used to collect data from AI-summary browser extension.",
+      "valid_from": "2025-06-09T00:00:00.001Z"
+    }
+  ]
+}
