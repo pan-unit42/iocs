@@ -78,5 +78,6 @@
     {"id": "report--7016cb82-8792-4003-984e-57b5d1ffe0ee", "rp_file": "2025-04-23-smishing.json", "last_updated": "2025-04-24T23:42:00.001Z", "title": "2025-04-23 Smithsing Activity Update", "industries": [], "regions": [], "malwares": []},
     {"id": "report--8e9781ac-efaf-43c4-9c20-79e7b331f482", "rp_file": "2025-05-13-AdaptixC2-activity.json", "last_updated": "2025-05-22T22:45:00.001Z", "title": "Abuse of Teams to Deliver AdaptixC2 Beacon", "industries": [], "regions": [], "malwares": []},
     {"id": "report--507147f9-d535-4ed7-8378-0360d5599849", "rp_file": "2025-06-24-01flip-ransomware.json", "last_updated": "2025-06-26T20:15:00.001Z", "title": "01flip Ransomware", "industries": [], "regions": [], "malwares": []},
-    {"id": "report--b191ae9a-f3f2-48de-803a-10cdfd9700b6", "rp_file": "2025-07-17-Soul-Stealer-builder-update.json", "last_updated": "2025-07-23T18:32:00.001Z", "title": "2025 Update of Builder for Soul Stealer", "industries": [], "regions": [], "malwares": []}
+    {"id": "report--b191ae9a-f3f2-48de-803a-10cdfd9700b6", "rp_file": "2025-07-17-Soul-Stealer-builder-update.json", "last_updated": "2025-07-23T18:32:00.001Z", "title": "2025 Update of Builder for Soul Stealer", "industries": [], "regions": [], "malwares": []},
+    {"id": "report--73b6bce2-7da4-4ee5-add4-f1e861ebb4da", "rp_file": "2025-08-11-rise-in-AI-summary-browser-extensions.json", "last_updated": "2025-08-12T22:45:00.001Z", "title": "Security Concerns From Rise in AI-Summary Browser Extension", "industries": [], "regions": [], "malwares": []}
 ]
