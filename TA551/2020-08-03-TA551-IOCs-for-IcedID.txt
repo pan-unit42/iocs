@@ -122,3 +122,6 @@ C2 DOMAINS FOR ICEDID EXE:
 
 - 161.35.207[.]41 port 443 - littlehomies[.]cyou
 - 161.35.207[.]41 port 443 - twoloftscats[.]cyou
+- 161.35.207[.]41 port 443 - houssio45[.]co
+- 161.35.207[.]41 port 443 - radicaltreppo[.]co
+- 161.35.207[.]41 port 443 - transferhouse[.]cyou
